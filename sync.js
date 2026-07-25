@@ -31,12 +31,14 @@ async function fetchArchPackages(repo) {
             const regex = /href="([^"]+\.pkg\.tar\.zst)"/g;
             let match;
             while ((match = regex.exec(html)) !== null) {
-                const filename = match[1];
+                let filename = match[1];
+                filename = filename.replace(/^\.\//, '');
                 const partsMatch = filename.match(/^(.*?)-([^-]+-[^-]+)-([^-]+)\.pkg\.tar\.zst$/);
                 if (partsMatch) {
                     const [, name, version] = partsMatch;
+                    const cleanName = name.replace(/^\.\//, '');
                     packages.push({
-                        name: name,
+                        name: cleanName,
                         version: version,
                         url: `${url}${filename}`
                     });
