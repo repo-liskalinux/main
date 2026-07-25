@@ -67,7 +67,7 @@ async function main() {
                 console.log(`Failed to read old db.json on ${repo}, creating new db.json....`);
             }
         }
-        const liskaPackages = existingPackages.filter(pkg => pkg.url.includes("archive.org"));
+        const liskaPackages = existingPackages.filter(pkg => pkg.url.includes("github.com"));
         const liskaMap = new Map(liskaPackages.map(pkg => [pkg.name, pkg]));
         const archPkgs = await fetchArchPackages(repo);
         const updatedArchMap = new Map();
