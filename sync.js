@@ -53,7 +53,7 @@ async function main() {
     const blacklist = loadBlacklist();
     for (const repo of REPOS) {
         console.log(`\nProcessing repository: ${repo}`);
-        const repoDir = path.join(__dirname, 'repository', 'x86_64', repo);
+        const repoDir = path.join(__dirname, 'x86_64', repo);
         if (!fs.existsSync(repoDir)) {
             fs.mkdirSync(repoDir, { recursive: true });
         }
