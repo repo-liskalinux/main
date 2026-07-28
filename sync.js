@@ -73,8 +73,8 @@ async function main() {
         const liskaMap = new Map(liskaPackages.map(pkg => [pkg.name, pkg]));
         const archPkgs = await fetchArchPackages(repo);
         const updatedArchMap = new Map();
-        const lowerName = pkg.name.toLowerCase();
         for (const pkg of archPkgs) {
+            const lowerName = pkg.name.toLowerCase();
             if (blacklist.has(pkg.name) || lowerName.startsWith('archlinux-') || lowerName.startsWith('arch-') || lowerName.endsWith('-doc') || lowerName.endsWith('-docs')) {
                 continue;
             }
