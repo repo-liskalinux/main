@@ -75,7 +75,7 @@ async function main() {
         const updatedArchMap = new Map();
         for (const pkg of archPkgs) {
             const lowerName = pkg.name.toLowerCase();
-            if (blacklist.has(pkg.name) || lowerName.startsWith('archlinux-') || lowerName.startsWith('arch-') || lowerName.endsWith('-doc') || lowerName.endsWith('-docs')) {
+            if (blacklist.has(pkg.name) || lowerName.startsWith('archlinux-') || lowerName.startsWith('arch-') || lowerName.startsWith('mkinitcpio-') || lowerName.endsWith('-doc') || lowerName.endsWith('-docs')) {
                 continue;
             }
             if (liskaMap.has(pkg.name)) continue;
