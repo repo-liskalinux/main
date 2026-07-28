@@ -74,7 +74,7 @@ async function main() {
         const archPkgs = await fetchArchPackages(repo);
         const updatedArchMap = new Map();
         for (const pkg of archPkgs) {
-            if (blacklist.has(pkg.name) || pkg.name.toLowerCase().includes("arch") || pkg.name.toLowerCase().includes("-docs-") || pkg.name.toLowerCase().includes("-doc-") || pkg.name.toLowerCase().includes("archlinux")) {
+            if (blacklist.has(pkg.name) || pkg.name.toLowerCase().includes("arch") || pkg.name.toLowerCase().includes("-docs") || pkg.name.toLowerCase().includes("-doc") || pkg.name.toLowerCase().includes("archlinux")) {
                 continue;
             }
             if (liskaMap.has(pkg.name)) continue;
