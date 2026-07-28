@@ -61,6 +61,31 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aalib-1.4rc5-19-x86_64.pkg.tar.zst"
     },
     {
+      "name": "aarch64-linux-gnu-binutils",
+      "version": "2.46.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aarch64-linux-gnu-binutils-2.46.1-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "aarch64-linux-gnu-gcc",
+      "version": "16.1.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aarch64-linux-gnu-gcc-16.1.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "aarch64-linux-gnu-gdb",
+      "version": "17.2-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aarch64-linux-gnu-gdb-17.2-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "aarch64-linux-gnu-glibc",
+      "version": "2.44-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aarch64-linux-gnu-glibc-2.44-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "aarch64-linux-gnu-linux-api-headers",
+      "version": "7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aarch64-linux-gnu-linux-api-headers-7.0-1-any.pkg.tar.zst"
+    },
+    {
       "name": "aardvark-dns",
       "version": "2.0.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aardvark-dns-2.0.0-1-x86_64.pkg.tar.zst"
@@ -524,6 +549,11 @@
       "name": "akonadi-mime",
       "version": "26.04.3-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/akonadi-mime-26.04.3-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "akonadi-search",
+      "version": "26.04.3-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/akonadi-search-26.04.3-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "akonadiconsole",
@@ -1141,6 +1171,21 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/arca-1.0.2-2-x86_64.pkg.tar.zst"
     },
     {
+      "name": "archinstall",
+      "version": "4.4-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/archinstall-4.4-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "archiso",
+      "version": "89-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/archiso-89-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "archivetools",
+      "version": "5-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/archivetools-5-1-any.pkg.tar.zst"
+    },
+    {
       "name": "ardour",
       "version": "9.7-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ardour-9.7-1-x86_64.pkg.tar.zst"
@@ -1724,6 +1769,11 @@
       "name": "auto-multiple-choice",
       "version": "1.7.0-7",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/auto-multiple-choice-1.7.0-7-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "autoconf-archive",
+      "version": "1:2024.10.16-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/autoconf-archive-1:2024.10.16-4-any.pkg.tar.zst"
     },
     {
       "name": "autogen",
@@ -3301,6 +3351,16 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cairo-1.18.4-1-x86_64.pkg.tar.zst"
     },
     {
+      "name": "cairo-dock",
+      "version": "3.6.2-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cairo-dock-3.6.2-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "cairo-dock-plug-ins",
+      "version": "3.6.2-3",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cairo-dock-plug-ins-3.6.2-3-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "cairo-perl",
       "version": "1.109-6",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cairo-perl-1.109-6-x86_64.pkg.tar.zst"
@@ -3619,6 +3679,11 @@
       "name": "cargo-dist",
       "version": "0.32.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cargo-dist-0.32.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "cargo-docs-rs",
+      "version": "1.0.4-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cargo-docs-rs-1.0.4-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "cargo-edit",
@@ -4799,6 +4864,11 @@
       "name": "cockpit",
       "version": "364-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-364-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "cockpit-docker",
+      "version": "16-3",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-docker-16-3-any.pkg.tar.zst"
     },
     {
       "name": "cockpit-files",
@@ -6051,6 +6121,16 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ddrescue-1.30-2-x86_64.pkg.tar.zst"
     },
     {
+      "name": "debian-archive-keyring",
+      "version": "2025.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/debian-archive-keyring-2025.1-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "debian-ports-archive-keyring",
+      "version": "2026.02.04-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/debian-ports-archive-keyring-2026.02.04-1-any.pkg.tar.zst"
+    },
+    {
       "name": "debootstrap",
       "version": "1.0.144-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/debootstrap-1.0.144-1-any.pkg.tar.zst"
@@ -6079,6 +6159,11 @@
       "name": "deepin-anything",
       "version": "7.0.7-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-anything-7.0.7-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "deepin-anything-arch",
+      "version": "7.0.7-16",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-anything-arch-7.0.7-16-x86_64.pkg.tar.zst"
     },
     {
       "name": "deepin-anything-dkms",
@@ -6194,6 +6279,11 @@
       "name": "deepin-gomoku",
       "version": "6.0.7-3",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-gomoku-6.0.7-3-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "deepin-grand-search",
+      "version": "5.5.10-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-grand-search-5.5.10-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "deepin-gtk-theme",
@@ -7506,6 +7596,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/drone-oss-2.28.2-1-x86_64.pkg.tar.zst"
     },
     {
+      "name": "drone-runner-docker",
+      "version": "1.8.5-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/drone-runner-docker-1.8.5-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "drone-runner-ssh",
       "version": "1.0.1-5",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/drone-runner-ssh-1.0.1-5-x86_64.pkg.tar.zst"
@@ -7944,6 +8039,11 @@
       "name": "editorconfig-core-c",
       "version": "0.12.11-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/editorconfig-core-c-0.12.11-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "edk2-aarch64",
+      "version": "202605-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/edk2-aarch64-202605-1-any.pkg.tar.zst"
     },
     {
       "name": "edk2-ovmf",
@@ -11076,6 +11176,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fs-uae-launcher-3.2.35-2-any.pkg.tar.zst"
     },
     {
+      "name": "fsarchiver",
+      "version": "0.8.9-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fsarchiver-0.8.9-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "fscrypt",
       "version": "0.3.6-2",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fscrypt-0.3.6-2-x86_64.pkg.tar.zst"
@@ -12199,6 +12304,11 @@
       "name": "ghq",
       "version": "1.10.1-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ghq-1.10.1-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "gi-docgen",
+      "version": "2026.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gi-docgen-2026.1-1-any.pkg.tar.zst"
     },
     {
       "name": "giac",
@@ -15241,6 +15351,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-apply-refact-0.15.0.0-11-x86_64.pkg.tar.zst"
     },
     {
+      "name": "haskell-arch-web",
+      "version": "0.3.2-128",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-arch-web-0.3.2-128-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "haskell-arithmoi",
       "version": "0.13.4.0-3",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-arithmoi-0.13.4.0-3-x86_64.pkg.tar.zst"
@@ -15599,6 +15714,11 @@
       "name": "haskell-bzlib",
       "version": "0.5.2.0-113",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-bzlib-0.5.2.0-113-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-cabal-doctest",
+      "version": "1.0.11-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-cabal-doctest-1.0.11-2-x86_64.pkg.tar.zst"
     },
     {
       "name": "haskell-cabal-install-parsers",
@@ -16309,6 +16429,51 @@
       "name": "haskell-dns",
       "version": "4.2.0-83",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-dns-4.2.0-83-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doclayout",
+      "version": "0.5.0.2-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doclayout-0.5.0.2-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-docopt",
+      "version": "0.7.0.8-202",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-docopt-0.7.0.8-202-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctemplates",
+      "version": "0.11.0.1-130",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctemplates-0.11.0.1-130-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctest",
+      "version": "0.22.5-29",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctest-0.22.5-29-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctest-discover",
+      "version": "0.2.0.0-264",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctest-discover-0.2.0.0-264-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctest-driver-gen",
+      "version": "0.3.0.8-153",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctest-driver-gen-0.3.0.8-153-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctest-exitcode-stdio",
+      "version": "0.0.0.1-107",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctest-exitcode-stdio-0.0.0.1-107-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctest-lib",
+      "version": "0.1.1.1-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctest-lib-0.1.1.1-4-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-doctest-parallel",
+      "version": "0.3.1.1-34",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-doctest-parallel-0.3.1.1-34-x86_64.pkg.tar.zst"
     },
     {
       "name": "haskell-dotgen",
@@ -17151,6 +17316,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-cabal-plugin-2.3.0.0-89-x86_64.pkg.tar.zst"
     },
     {
+      "name": "haskell-hls-call-hierarchy-plugin",
+      "version": "2.3.0.0-89",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-call-hierarchy-plugin-2.3.0.0-89-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "haskell-hls-change-type-signature-plugin",
       "version": "2.3.0.0-89",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-change-type-signature-plugin-2.3.0.0-89-x86_64.pkg.tar.zst"
@@ -17354,6 +17524,11 @@
       "name": "haskell-hslua-marshalling",
       "version": "2.3.2-10",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hslua-marshalling-2.3.2-10-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-hslua-module-doclayout",
+      "version": "1.2.0.1-3",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hslua-module-doclayout-1.2.0.1-3-x86_64.pkg.tar.zst"
     },
     {
       "name": "haskell-hslua-module-path",
@@ -19786,6 +19961,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-stringbuilder-0.5.1-676-x86_64.pkg.tar.zst"
     },
     {
+      "name": "haskell-stringsearch",
+      "version": "0.3.6.6-27",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-stringsearch-0.3.6.6-27-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "haskell-structured",
       "version": "0.1.1-370",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-structured-0.1.1-370-x86_64.pkg.tar.zst"
@@ -20889,6 +21069,11 @@
       "name": "haskell-zinza",
       "version": "0.2.1-55",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-zinza-0.2.1-55-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "haskell-zip-archive",
+      "version": "0.4.3.2-149",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-zip-archive-0.4.3.2-149-x86_64.pkg.tar.zst"
     },
     {
       "name": "haskell-zlib",
@@ -23176,6 +23361,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jp2a-1.3.3-1-x86_64.pkg.tar.zst"
     },
     {
+      "name": "jpeg-archive",
+      "version": "2.2.0-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jpeg-archive-2.2.0-4-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "jpegoptim",
       "version": "1.5.6-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jpegoptim-1.5.6-1-x86_64.pkg.tar.zst"
@@ -23629,6 +23819,16 @@
       "name": "kapptemplate",
       "version": "26.04.3-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kapptemplate-26.04.3-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "karchive",
+      "version": "6.28.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/karchive-6.28.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "karchive5",
+      "version": "5.116.0-3",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/karchive5-5.116.0-3-x86_64.pkg.tar.zst"
     },
     {
       "name": "kasts",
@@ -24224,6 +24424,11 @@
       "name": "keycloak",
       "version": "26.7.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/keycloak-26.7.0-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "keycloak-archlinux-theme",
+      "version": "2.0.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/keycloak-archlinux-theme-2.0.1-1-any.pkg.tar.zst"
     },
     {
       "name": "keycloak-metrics-spi",
@@ -31371,6 +31576,16 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/loadtracker-1.99.2-1-x86_64.pkg.tar.zst"
     },
     {
+      "name": "localsearch",
+      "version": "3.11.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/localsearch-3.11.1-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "localsearch-testutils",
+      "version": "3.11.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/localsearch-testutils-3.11.1-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "lockfile-progs",
       "version": "0.2.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lockfile-progs-0.2.0-1-x86_64.pkg.tar.zst"
@@ -33246,6 +33461,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lxqt-admin-2.4.0-1-x86_64.pkg.tar.zst"
     },
     {
+      "name": "lxqt-archiver",
+      "version": "1.4.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lxqt-archiver-1.4.0-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "lxqt-build-tools",
       "version": "2.4.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lxqt-build-tools-2.4.0-1-any.pkg.tar.zst"
@@ -33931,6 +34151,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mat2-0.14.0-2-any.pkg.tar.zst"
     },
     {
+      "name": "mate-applet-dock",
+      "version": "21.10.0-6",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mate-applet-dock-21.10.0-6-any.pkg.tar.zst"
+    },
+    {
       "name": "mate-applet-streamer",
       "version": "0.4.1-2",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mate-applet-streamer-0.4.1-2-x86_64.pkg.tar.zst"
@@ -34171,9 +34396,19 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mauikit-accounts-4.0.2-2-x86_64.pkg.tar.zst"
     },
     {
+      "name": "mauikit-archiver",
+      "version": "4.0.2-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mauikit-archiver-4.0.2-2-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "mauikit-calendar",
       "version": "4.0.2-3",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mauikit-calendar-4.0.2-3-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "mauikit-documents",
+      "version": "4.0.2-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mauikit-documents-4.0.2-2-x86_64.pkg.tar.zst"
     },
     {
       "name": "mauikit-filebrowsing",
@@ -34429,6 +34664,11 @@
       "name": "megra",
       "version": "0.0.18-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/megra-0.0.18-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "meilisearch",
+      "version": "1:1.51.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/meilisearch-1:1.51.0-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "melange",
@@ -34894,6 +35134,11 @@
       "name": "mkdocstrings",
       "version": "1.0.4-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mkdocstrings-1.0.4-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "mkinitcpio-archiso",
+      "version": "73-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mkinitcpio-archiso-73-1-any.pkg.tar.zst"
     },
     {
       "name": "mkinitcpio-dropbear",
@@ -35469,6 +35714,11 @@
       "name": "musl",
       "version": "1.2.6-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/musl-1.2.6-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "musl-aarch64",
+      "version": "1.2.6-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/musl-aarch64-1.2.6-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "musl-riscv64",
@@ -36986,6 +37236,16 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nwg-displays-0.4.3-1-any.pkg.tar.zst"
     },
     {
+      "name": "nwg-dock",
+      "version": "0.4.3-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nwg-dock-0.4.3-4-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "nwg-dock-hyprland",
+      "version": "0.4.11-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nwg-dock-hyprland-0.4.11-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "nwg-drawer",
       "version": "0.7.5-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nwg-drawer-0.7.5-1-x86_64.pkg.tar.zst"
@@ -38109,6 +38369,241 @@
       "name": "openscenegraph",
       "version": "3.6.5-33",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openscenegraph-3.6.5-33-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-alerting-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-alerting-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-icu-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-icu-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-kuromoji-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-kuromoji-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-nori-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-nori-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-phonetic-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-phonetic-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-smartcn-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-smartcn-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-stempel-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-stempel-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-analysis-ukrainian-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-analysis-ukrainian-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-anomaly-detection-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-anomaly-detection-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-asynchronous-search-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-asynchronous-search-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-cli",
+      "version": "1.2.0-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-cli-1.2.0-2-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-cross-cluster-replication-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-cross-cluster-replication-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-alerting-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-alerting-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-anomaly-detection-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-anomaly-detection-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-index-management-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-index-management-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-maps-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-maps-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-notifications-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-notifications-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-observability-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-observability-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-query-workbench-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-query-workbench-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-reports-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-reports-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-dashboards-security-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-dashboards-security-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-discovery-azure-classic-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-discovery-azure-classic-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-discovery-ec2-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-discovery-ec2-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-discovery-gce-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-discovery-gce-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-geospatial-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-geospatial-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-index-management-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-index-management-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-ingest-attachment-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-ingest-attachment-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-job-scheduler-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-job-scheduler-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-knn-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-knn-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-mapper-annotated-text-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-mapper-annotated-text-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-mapper-murmur3-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-mapper-murmur3-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-mapper-size-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-mapper-size-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-ml-commons-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-ml-commons-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-neural-search-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-neural-search-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-notifications-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-notifications-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-observability-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-observability-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-performance-analyzer-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-performance-analyzer-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-reports-scheduler-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-reports-scheduler-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-repository-azure-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-repository-azure-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-repository-gcs-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-repository-gcs-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-repository-hdfs-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-repository-hdfs-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-repository-s3-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-repository-s3-plugin-3.7.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-security-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-security-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-sql-plugin",
+      "version": "3.7.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-sql-plugin-3.7.0.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "opensearch-store-smb-plugin",
+      "version": "3.7.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opensearch-store-smb-plugin-3.7.0-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "openshadinglanguage",
@@ -39686,9 +40181,29 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-app-cli-0.52-8-any.pkg.tar.zst"
     },
     {
+      "name": "perl-app-docmake",
+      "version": "0.1101-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-app-docmake-0.1101-1-any.pkg.tar.zst"
+    },
+    {
       "name": "perl-appconfig",
       "version": "1.71-15",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-appconfig-1.71-15-any.pkg.tar.zst"
+    },
+    {
+      "name": "perl-archive-cpio",
+      "version": "0.10-12",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-archive-cpio-0.10-12-any.pkg.tar.zst"
+    },
+    {
+      "name": "perl-archive-extract",
+      "version": "0.88-8",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-archive-extract-0.88-8-any.pkg.tar.zst"
+    },
+    {
+      "name": "perl-archive-zip",
+      "version": "1.68-12",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-archive-zip-1.68-12-any.pkg.tar.zst"
     },
     {
       "name": "perl-array-compare",
@@ -40104,6 +40619,11 @@
       "name": "perl-data-hexdump",
       "version": "0.04-3",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-data-hexdump-0.04-3-any.pkg.tar.zst"
+    },
+    {
+      "name": "perl-data-hierarchy",
+      "version": "0.34-18",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perl-data-hierarchy-0.34-18-any.pkg.tar.zst"
     },
     {
       "name": "perl-data-munge",
@@ -43846,6 +44366,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podman-desktop-1.28.2-2-x86_64.pkg.tar.zst"
     },
     {
+      "name": "podman-docker",
+      "version": "6.0.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podman-docker-6.0.1-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "podofo",
       "version": "0.10.6-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podofo-0.10.6-1-x86_64.pkg.tar.zst"
@@ -44419,6 +44944,11 @@
       "name": "prometheus-blackbox-exporter",
       "version": "0.28.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/prometheus-blackbox-exporter-0.28.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "prometheus-elasticsearch-exporter",
+      "version": "1.10.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/prometheus-elasticsearch-exporter-1.10.0-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "prometheus-fastly-exporter",
@@ -45204,6 +45734,11 @@
       "name": "python-apsw",
       "version": "3.53.3.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-apsw-3.53.3.0-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "python-archinfo",
+      "version": "9.2.221-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-archinfo-9.2.221-1-any.pkg.tar.zst"
     },
     {
       "name": "python-aresponses",
@@ -46791,6 +47326,26 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-dnspython-1:2.8.0-3-any.pkg.tar.zst"
     },
     {
+      "name": "python-docker",
+      "version": "7.1.0-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-docker-7.1.0-4-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-docopt",
+      "version": "0.6.2-15",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-docopt-0.6.2-15-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-docstring-to-markdown",
+      "version": "0.17-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-docstring-to-markdown-0.17-2-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-docutils",
+      "version": "1:0.23-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-docutils-1:0.23-1-any.pkg.tar.zst"
+    },
+    {
       "name": "python-dogpile.cache",
       "version": "1.5.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-dogpile.cache-1.5.0-1-any.pkg.tar.zst"
@@ -46899,6 +47454,11 @@
       "name": "python-elastic-transport",
       "version": "9.2.1-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-elastic-transport-9.2.1-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-elasticsearch",
+      "version": "9.3.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-elasticsearch-9.3.0-1-any.pkg.tar.zst"
     },
     {
       "name": "python-electrum-aionostr",
@@ -47199,6 +47759,11 @@
       "name": "python-flake8-black",
       "version": "4.0.0-2",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-flake8-black-4.0.0-2-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-flake8-docstrings",
+      "version": "1.7.0-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-flake8-docstrings-1.7.0-4-any.pkg.tar.zst"
     },
     {
       "name": "python-flake8-isort",
@@ -48141,6 +48706,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-icalendar-7.2.2-1-any.pkg.tar.zst"
     },
     {
+      "name": "python-icalendar-searcher",
+      "version": "1.0.6-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-icalendar-searcher-1.0.6-1-any.pkg.tar.zst"
+    },
+    {
       "name": "python-icecream",
       "version": "2.2.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-icecream-2.2.0-1-any.pkg.tar.zst"
@@ -48274,6 +48844,11 @@
       "name": "python-intelhex",
       "version": "2.3.0-9",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-intelhex-2.3.0-9-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-internetarchive",
+      "version": "5.8.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-internetarchive-5.8.0-1-any.pkg.tar.zst"
     },
     {
       "name": "python-interpreters-pep-734",
@@ -48986,6 +49561,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-lib3mf-2.5.0-1-x86_64.pkg.tar.zst"
     },
     {
+      "name": "python-libarchive-c",
+      "version": "5.3-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-libarchive-c-5.3-1-any.pkg.tar.zst"
+    },
+    {
       "name": "python-libblockdev",
       "version": "3.5.0-2",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-libblockdev-3.5.0-2-x86_64.pkg.tar.zst"
@@ -49384,6 +49964,11 @@
       "name": "python-mediafire",
       "version": "0.6.1-5",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-mediafire-0.6.1-5-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-meilisearch",
+      "version": "1:0.43.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-meilisearch-1:0.43.0-1-any.pkg.tar.zst"
     },
     {
       "name": "python-memcached",
@@ -49809,6 +50394,11 @@
       "name": "python-nsight",
       "version": "1.0.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-nsight-1.0.0-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "python-nskeyedunarchiver",
+      "version": "1.5.2-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-nskeyedunarchiver-1.5.2-2-any.pkg.tar.zst"
     },
     {
       "name": "python-ntlm-auth",
@@ -55516,6 +56106,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-pr-helper-11.0.2-4-x86_64.pkg.tar.zst"
     },
     {
+      "name": "qemu-system-aarch64",
+      "version": "11.0.2-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-aarch64-11.0.2-4-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "qemu-system-alpha",
       "version": "11.0.2-4",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-alpha-11.0.2-4-x86_64.pkg.tar.zst"
@@ -55549,6 +56144,11 @@
       "name": "qemu-system-hppa-firmware",
       "version": "11.0.2-4",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-hppa-firmware-11.0.2-4-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "qemu-system-loongarch64",
+      "version": "11.0.2-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-loongarch64-11.0.2-4-x86_64.pkg.tar.zst"
     },
     {
       "name": "qemu-system-m68k",
@@ -55949,6 +56549,11 @@
       "name": "qsynth",
       "version": "1.0.6-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qsynth-1.0.6-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "qt-advanced-docking-system",
+      "version": "5.0.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qt-advanced-docking-system-5.0.0-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "qt5-base",
@@ -57119,6 +57724,26 @@
       "name": "retro-gtk",
       "version": "1.0.2-6",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/retro-gtk-1.0.2-6-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "retroarch",
+      "version": "1.22.2-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/retroarch-1.22.2-4-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "retroarch-assets-glui",
+      "version": "1:20260411.201626.gcd17f64cff4e-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/retroarch-assets-glui-1:20260411.201626.gcd17f64cff4e-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "retroarch-assets-ozone",
+      "version": "1:20260411.201626.gcd17f64cff4e-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/retroarch-assets-ozone-1:20260411.201626.gcd17f64cff4e-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "retroarch-assets-xmb",
+      "version": "1:20260411.201626.gcd17f64cff4e-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/retroarch-assets-xmb-1:20260411.201626.gcd17f64cff4e-1-any.pkg.tar.zst"
     },
     {
       "name": "retry",
@@ -58731,6 +59356,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-diff-lcs-1.6.2-1-any.pkg.tar.zst"
     },
     {
+      "name": "ruby-docile",
+      "version": "1.4.1-3",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-docile-1.4.1-3-any.pkg.tar.zst"
+    },
+    {
       "name": "ruby-domain_name",
       "version": "0.6.20240107-5",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-domain_name-0.6.20240107-5-any.pkg.tar.zst"
@@ -59841,6 +60471,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-rake-compiler-1.3.1-1-any.pkg.tar.zst"
     },
     {
+      "name": "ruby-rake-compiler-dock",
+      "version": "1.12.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-rake-compiler-dock-1.12.0-1-any.pkg.tar.zst"
+    },
+    {
       "name": "ruby-rake-contrib",
       "version": "1.0.0.20210616-5",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-rake-contrib-1.0.0.20210616-5-any.pkg.tar.zst"
@@ -60554,6 +61189,16 @@
       "name": "rust",
       "version": "1:1.97.1-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rust-1:1.97.1-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "rust-aarch64-gnu",
+      "version": "1:1.97.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rust-aarch64-gnu-1:1.97.1-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "rust-aarch64-musl",
+      "version": "1:1.97.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rust-aarch64-musl-1:1.97.1-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "rust-analyzer",
@@ -65076,6 +65721,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thc-ipv6-3.8-4-x86_64.pkg.tar.zst"
     },
     {
+      "name": "the_silver_searcher",
+      "version": "2.2.0-4",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/the_silver_searcher-2.2.0-4-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "thefuck",
       "version": "3.32-13",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thefuck-3.32-13-any.pkg.tar.zst"
@@ -65119,6 +65769,11 @@
       "name": "thunar",
       "version": "4.20.9-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunar-4.20.9-1-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "thunar-archive-plugin",
+      "version": "0.6.0-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunar-archive-plugin-0.6.0-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "thunar-media-tags-plugin",
@@ -67186,6 +67841,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/unace-2.5-11-x86_64.pkg.tar.zst"
     },
     {
+      "name": "unarchiver",
+      "version": "1.10.8-6",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/unarchiver-1.10.8-6-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "unarj",
       "version": "2.65-2",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/unarj-2.65-2-x86_64.pkg.tar.zst"
@@ -68489,6 +69149,11 @@
       "name": "vlc-plugin-aom",
       "version": "3.0.23_2-9",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vlc-plugin-aom-3.0.23_2-9-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "vlc-plugin-archive",
+      "version": "3.0.23_2-9",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vlc-plugin-archive-3.0.23_2-9-x86_64.pkg.tar.zst"
     },
     {
       "name": "vlc-plugin-aribb24",
@@ -70136,6 +70801,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xapp-symbolic-icons-1.1.0-1-any.pkg.tar.zst"
     },
     {
+      "name": "xarchiver",
+      "version": "0.5.4.27-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xarchiver-0.5.4.27-1-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "xautomation",
       "version": "1.09-6",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xautomation-1.09-6-x86_64.pkg.tar.zst"
@@ -70366,6 +71036,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xdg-utils-cxx-1.0.1-3-x86_64.pkg.tar.zst"
     },
     {
+      "name": "xdm-archlinux",
+      "version": "0.7-3",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xdm-archlinux-0.7-3-any.pkg.tar.zst"
+    },
+    {
       "name": "xdo",
       "version": "0.5.7-3",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xdo-0.5.7-3-x86_64.pkg.tar.zst"
@@ -70529,6 +71204,11 @@
       "name": "xfce4-diskperf-plugin",
       "version": "2.8.0-2",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xfce4-diskperf-plugin-2.8.0-2-x86_64.pkg.tar.zst"
+    },
+    {
+      "name": "xfce4-docklike-plugin",
+      "version": "0.5.1-1",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xfce4-docklike-plugin-0.5.1-1-x86_64.pkg.tar.zst"
     },
     {
       "name": "xfce4-eyes-plugin",
@@ -71836,6 +72516,11 @@
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zaproxy-2.17.0-4-any.pkg.tar.zst"
     },
     {
+      "name": "zarchive",
+      "version": "0.1.2-7",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zarchive-0.1.2-7-x86_64.pkg.tar.zst"
+    },
+    {
       "name": "zathura",
       "version": "2026.07.18-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zathura-2026.07.18-1-x86_64.pkg.tar.zst"
@@ -72179,6 +72864,11 @@
       "name": "zsh-completions",
       "version": "0.36.0-1",
       "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zsh-completions-0.36.0-1-any.pkg.tar.zst"
+    },
+    {
+      "name": "zsh-history-substring-search",
+      "version": "1.1.0-2",
+      "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zsh-history-substring-search-1.1.0-2-any.pkg.tar.zst"
     },
     {
       "name": "zsh-lovers",
