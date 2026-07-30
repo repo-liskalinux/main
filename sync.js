@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const ARCH_MIRROR = "http://mirror.rackspace.com/archlinux";
-const REPOS = ["core", "extra"];
+const REPOS = ["core", "extra", "multilib"];
 const ARCHS = ["x86_64"];
 
 function loadBlacklist() {
