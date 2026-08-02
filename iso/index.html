@@ -128,11 +128,19 @@
         }
         data.forEach(packages => {
             const row = document.createElement('tr');
-            row.innerHTML = `
-                <td><strong><a href="${packages.url || '#'}"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Breezeicons-mimetypes-64-application-x-cd-image.svg" width="18" height="18"> ${packages.name}</a></strong></td>
-                <td>${packages.version}</td>
-            `;
-            tableBody.appendChild(row);
+            if (packages.name.endsWith('-sig')) {
+                row.innerHTML = `
+                    <td><strong><a href="${packages.url || '#'}"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Breezeicons-mimetypes-64-application-pgp.svg" width="18" height="18"> ${packages.name}</a></strong></td>
+                    <td>${packages.version}</td>
+                `;
+                tableBody.appendChild(row);
+            } else {
+                row.innerHTML = `
+                    <td><strong><a href="${packages.url || '#'}"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Breezeicons-mimetypes-64-application-x-cd-image.svg" width="18" height="18"> ${packages.name}</a></strong></td>
+                    <td>${packages.version}</td>
+                    `;
+                tableBody.appendChild(row);
+            }
         });
     }
     loadRepo();
