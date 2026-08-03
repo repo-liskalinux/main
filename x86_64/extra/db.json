@@ -4455,10 +4455,10 @@
   },
   {
     "name": "apt",
-    "version": "3.3.1-1",
+    "version": "3.3.2-1",
     "origin": "arch-extra",
-    "sha256": "40db7dab73660b7ac91615cb67e1a7d2d17a3c7a0ae73604ac4f13dfde38e79d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apt-3.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8ac42b04852ccec9edece92915910f5ba2a2e95c1172a057bb3dfd46adc201e4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apt-3.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "systemd-libs",
@@ -11177,10 +11177,10 @@
   },
   {
     "name": "bootconfig",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "06d8e35eebd2a1d7bef4a5f480f57d77f80dbfbdb89e2f6bcf1400bacb4e6142",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bootconfig-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "9f9232b1c7498e74bb93980f5f6ea2cb0be182960c08b82f5459572cc9a02463",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bootconfig-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -11384,10 +11384,10 @@
   },
   {
     "name": "bpf",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "6b64f368bcaa59918f32ed53c9559de5b951fc666eaab0ff6bc2d9df02917508",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bpf-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "c2204757bd5d5d80a199cc63688d9de479064b2859336789a46d1e1f14cf0e5b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bpf-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -21363,10 +21363,10 @@
   },
   {
     "name": "cpupower",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "48e99ac047536da50a9762f933873fff6edaaad5aba0c546c53a5297b6621cb6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpupower-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "e8e1b64e3f5e8ec25bb6d46a76896b9edf47be78fce7351b7e583a9433adf1a6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpupower-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -21380,10 +21380,10 @@
   },
   {
     "name": "crane",
-    "version": "0.21.7-1",
+    "version": "0.21.8-1",
     "origin": "arch-extra",
-    "sha256": "1668d8823f607c1c9fbe7505b3c1f4e3e003f2c6fd7cdededd936033899fdcbd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/crane-0.21.7-1-x86_64.pkg.tar.zst",
+    "sha256": "4f8096b9724ea4823bea151729e1641aff76cb3aeaf54a0afe8e88e2ca6cb826",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/crane-0.21.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -26847,10 +26847,10 @@
   },
   {
     "name": "discord",
-    "version": "1:1.0.151-1",
+    "version": "1:1.0.152-1",
     "origin": "arch-extra",
-    "sha256": "e836f09ba795e886011d2d8bbaef4b611cc8bee6d81c93c56ab568f51575ef60",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/discord-1:1.0.151-1-x86_64.pkg.tar.zst",
+    "sha256": "b55d0cdb3c1c77d82fe64fe74a02b7e1420b7ac2eaa2c6f60666f9878a5a7303",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/discord-1:1.0.152-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnotify",
@@ -60655,21 +60655,23 @@
   },
   {
     "name": "haskell-brick",
-    "version": "2.6-6",
+    "version": "2.12-2",
     "origin": "arch-extra",
-    "sha256": "20d81808f54bde39f0299291c62f9b80251db0547555e14eadcf63efafeb0a91",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-brick-2.6-6-x86_64.pkg.tar.zst",
+    "sha256": "d91face6a7a885f57de71975d64f23c023321ffd8012afcc86d76af19660627d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-brick-2.12-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
       "haskell-bimap",
       "haskell-config-ini",
       "haskell-data-clist",
+      "haskell-hashable",
       "haskell-microlens",
       "haskell-microlens-mtl",
       "haskell-microlens-th",
       "haskell-text-zipper",
       "haskell-unix-compat",
+      "haskell-unordered-containers",
       "haskell-vector",
       "haskell-vty",
       "haskell-vty-crossplatform",
@@ -64232,10 +64234,10 @@
   },
   {
     "name": "haskell-fsnotify",
-    "version": "0.4.4.0-101",
+    "version": "0.4.4.0-102",
     "origin": "arch-extra",
-    "sha256": "be419b2509ac4ccb217666df8eb28bb98e5aefa792ff7fe9a1ccb954514dadaf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-fsnotify-0.4.4.0-101-x86_64.pkg.tar.zst",
+    "sha256": "21b049ed49605c4dffd460eb2898304bab2af5fcd6f52eb95eaef48e1533c36c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-fsnotify-0.4.4.0-102-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65676,10 +65678,10 @@
   },
   {
     "name": "haskell-hakyll",
-    "version": "4.16.6.0-7",
+    "version": "4.16.6.0-8",
     "origin": "arch-extra",
-    "sha256": "60163ea8f82f302ad894cc0657608107d2d35204a216a03219c895056991152d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hakyll-4.16.6.0-7-x86_64.pkg.tar.zst",
+    "sha256": "ab9f47a9c76030a51c08c38ff390776e6a9280b9226530f8ce8121068b8a32d4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hakyll-4.16.6.0-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -73738,10 +73740,10 @@
   },
   {
     "name": "haskell-sandwich",
-    "version": "0.3.1.0-1",
+    "version": "0.3.1.0-3",
     "origin": "arch-extra",
-    "sha256": "b65b60e699680e4bd03dd8b3f05f7eb39c61b5cb42a103a533f7c92ffa4c0bdd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-sandwich-0.3.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1191ff41649580a57afa6ac8f434004596de90019f859bc8585c65c7e65b58f7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-sandwich-0.3.1.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75364,10 +75366,10 @@
   },
   {
     "name": "haskell-summoner-tui",
-    "version": "2.1.0.0-68",
+    "version": "2.1.0.0-69",
     "origin": "arch-extra",
-    "sha256": "c907bb15c0723752e15b8d43df027369069ebd7795e49d24198e44938afa4238",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-tui-2.1.0.0-68-x86_64.pkg.tar.zst",
+    "sha256": "d18bcaa5c8edd51898f64fe006a4d29372f1250391ab470bce47fac57f071e52",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-tui-2.1.0.0-69-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -80476,10 +80478,10 @@
   },
   {
     "name": "hledger-iadd",
-    "version": "1.3.22-82",
+    "version": "1.3.22-83",
     "origin": "arch-extra",
-    "sha256": "194a16dfe17c2c71fb6c258d64d387a5f6562119c5a7029d88ed6a7c5ba8a7de",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-iadd-1.3.22-82-x86_64.pkg.tar.zst",
+    "sha256": "f314dfc7e43bf1726de36d5fb0d28c96ab05242e38694ac801fca17fe30008b8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-iadd-1.3.22-83-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -80502,10 +80504,10 @@
   },
   {
     "name": "hledger-ui",
-    "version": "1.52.1-52",
+    "version": "1.52.1-53",
     "origin": "arch-extra",
-    "sha256": "bc8d921c02778eb559fc85ab7c9b14c2ea1b2f4b2303b1120dbdd604d99b6595",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-ui-1.52.1-52-x86_64.pkg.tar.zst",
+    "sha256": "f2d953254c2efc4387bfa22fdadf03b28f4389f7ff73e19ab13bdb6b70bd5777",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-ui-1.52.1-53-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -82175,10 +82177,10 @@
   },
   {
     "name": "hyperv",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "c60a292fad9a87a63a83c9a65944f4b98badf8e55b9b341477463132750e2bb1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hyperv-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "bf5fea800e6fb4714bb4901ec4b30c4e4275c18e276e98247257a824e6b0b549",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hyperv-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -83594,10 +83596,10 @@
   },
   {
     "name": "idris",
-    "version": "1.3.4-551",
+    "version": "1.3.4-552",
     "origin": "arch-extra",
-    "sha256": "4b9a21e7ebaf40b552af2d994cc4b77748d988fb4b889a92de3f8626ec3d58ef",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/idris-1.3.4-551-x86_64.pkg.tar.zst",
+    "sha256": "b62d8ba9449b6e0b520d2015ecba7203c3a3d7093cdd5ee8536af8c85000713f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/idris-1.3.4-552-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -85407,10 +85409,10 @@
   },
   {
     "name": "intel-speed-select",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "b8f2f9aab3e053976101cf8dd920a240aedacea6e71a22cd025c6a7ff2f33985",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/intel-speed-select-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "85d8bb8d695791988fcd1daac1b6982882ca8c8a306cc3ebbf0c62d3fddbb466",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/intel-speed-select-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnl"
@@ -89006,10 +89008,10 @@
   },
   {
     "name": "jupyter-collaboration",
-    "version": "4.4.1-1",
+    "version": "4.4.2-1",
     "origin": "arch-extra",
-    "sha256": "dccfae866766d2501e59f32dea1ccb1696add19c381243fbe77eb76afd8071ae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jupyter-collaboration-4.4.1-1-any.pkg.tar.zst",
+    "sha256": "ff13c1898e9fea0f795d187463c951d7c12746e44d646e0fa4e4fb3ce83cb419",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jupyter-collaboration-4.4.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jupyter-server",
@@ -89408,10 +89410,10 @@
   },
   {
     "name": "just",
-    "version": "1.57.0-1",
+    "version": "1.58.0-1",
     "origin": "arch-extra",
-    "sha256": "2656732ed0aff6b734c689a2e8abc6f99817fcfd2e6bb30c565bb38d977d1223",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/just-1.57.0-1-x86_64.pkg.tar.zst",
+    "sha256": "66e7eba68dcf8c9e5a449db439d6b296dda3dbfac4973a283c8b26996b7852ed",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/just-1.58.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -89423,10 +89425,10 @@
   },
   {
     "name": "just-lsp",
-    "version": "0.6.0-1",
+    "version": "0.6.1-1",
     "origin": "arch-extra",
-    "sha256": "fe45ef7ebc37251d0fc335433a70d535e04607f2d7a5be7085590bfe0ff0af6b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/just-lsp-0.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9f1c22647ce7767b79738328dc042d6183b8590ffcc880a6bea628b8581b7505",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/just-lsp-0.6.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -91169,10 +91171,10 @@
   },
   {
     "name": "kcpuid",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "e9be96e0077c64a7324b8f61106c38c02da57d96de4c9e70b6c277041e716595",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kcpuid-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "98bc7d157280b7388f35947bd99e41e0665942a83d2948bb996ed98fb141470d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kcpuid-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -99579,10 +99581,10 @@
   },
   {
     "name": "kubo",
-    "version": "0.42.0-1",
+    "version": "0.43.0-1",
     "origin": "arch-extra",
-    "sha256": "3ffeb30172e06a5d0ab4be7e27cbb0f38d5148874e856f81959e00ef2e1d0f98",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kubo-0.42.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3d6c2e7a399388d44c1a1aac37f836e0ce7d1b2f11473a18dcc4f60c00bd5b19",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/kubo-0.43.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "go-ipfs"
     ],
@@ -119288,10 +119290,10 @@
   },
   {
     "name": "linux-tools-meta",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "e81edd1de51979919093e0bff7686e435818cedcac358ac8e6ddc524149009e7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/linux-tools-meta-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "957abeaa036fd3cfeff278eaf0eb18ec5c76ea9b68bd73487fc515db61e68d3f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/linux-tools-meta-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bootconfig",
@@ -125353,10 +125355,10 @@
   },
   {
     "name": "luajit",
-    "version": "2.1.1785746657+f30aabe-1",
+    "version": "2.1.1785763465+1edc3e5-1",
     "origin": "arch-extra",
-    "sha256": "031e3651fc32227a769bc6b3881ae719f7ff92d327992803dcca83f771730406",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/luajit-2.1.1785746657+f30aabe-1-x86_64.pkg.tar.zst",
+    "sha256": "70b71411c850940db68dca51dc7946e9d73b82fc4c5a176a9627e51a73c799a3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/luajit-2.1.1785763465+1edc3e5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -151573,10 +151575,10 @@
   },
   {
     "name": "perf",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "f00e1073ea0e5e0ff3a1c5f43cdc6b35f3d2fabe19f265521a88dc29d481e05f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perf-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "a45cabaf75aa0f375700f2505e4409ec1f22ec525ea0aad394a9e52b3f1a4b1e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/perf-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -199913,10 +199915,10 @@
   },
   {
     "name": "python-traitlets",
-    "version": "5.16.0-1",
+    "version": "5.16.1-1",
     "origin": "arch-extra",
-    "sha256": "da3d8398bf4d593ee36054e82a53f0081d3ec401253aa0dfda94aea09f6729a1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-traitlets-5.16.0-1-any.pkg.tar.zst",
+    "sha256": "1a2ec6e997193c0ef810c556d4a02c271663820a4820678ea38ad82d61a13029",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-traitlets-5.16.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -229782,10 +229784,10 @@
   },
   {
     "name": "stack",
-    "version": "2.9.3.1-214",
+    "version": "2.9.3.1-215",
     "origin": "arch-extra",
-    "sha256": "6de2211c8d723a8278e7c5e3d71d423de879e1889d357678651568582063c37b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/stack-2.9.3.1-214-x86_64.pkg.tar.zst",
+    "sha256": "add2fb512c1020a34a8a6c4efd8cc6728f9287b882ebaebf8c1a98ef5b7f032d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/stack-2.9.3.1-215-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -234075,10 +234077,10 @@
   },
   {
     "name": "taffybar",
-    "version": "4.1.0-101",
+    "version": "4.1.0-102",
     "origin": "arch-extra",
-    "sha256": "11d1ab5aeb27a2e5cf85003636baaa9e41aa0f661b15149d811221304d468cd4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/taffybar-4.1.0-101-x86_64.pkg.tar.zst",
+    "sha256": "78932d730b84701183efe7908b342854558e0f0d30e3347bf67c1f3b60897118",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/taffybar-4.1.0-102-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -245479,10 +245481,10 @@
   },
   {
     "name": "tmon",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "f2338dd2d2692c152f7f6f713705ec35970f49d40f65038578c790e05600a3a0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tmon-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "6711dd5f5bc1b3abaf0f4b490114df2939bf78f80b39e4b96f9c3578ba522135",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tmon-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -249180,10 +249182,10 @@
   },
   {
     "name": "turbostat",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "7309cd0ebc34a1a5a0ff3a4a149e52db16a3a5f5ad7699196c0e72fbd212a493",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/turbostat-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "1197e1bb69780128dbec7c28802fc8517f96383112bace77cb7c92515a7d0928",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/turbostat-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -250973,10 +250975,10 @@
   },
   {
     "name": "usbip",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "7a0446ad62fe13f23cf6664e2c6588555a350efb4fc739abe1682df9b7cc1908",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/usbip-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "acc008cf5524bcee551e714b4217884074004240f284fd4f02259d8acd2359b5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/usbip-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -261167,10 +261169,10 @@
   },
   {
     "name": "x86_energy_perf_policy",
-    "version": "7.1.5-1",
+    "version": "7.1.6-1",
     "origin": "arch-extra",
-    "sha256": "1fd2dd0b2a2263a41534851b240c848c7c66ca6e7ae4a73bbba2f46541fb4dbd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/x86_energy_perf_policy-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "f9c48ae40a1176962b51162a46d8dcc07cd9209efe2ae580a33668c9934be414",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/x86_energy_perf_policy-7.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
