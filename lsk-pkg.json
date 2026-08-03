@@ -3,16 +3,38 @@
         "name": "lkmake",
         "version": "1.0.0-1",
         "origin": "liska-core",
-        "sha256": "3cb2...9f21a",
+        "sha256": "51faef3b8c2a5accbb188c216605627a808266beeedee345843dd0301c10d561",
         "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkmake-1.0.0-1-x86_64.pkg.tar.zst",
         "provides": [],
         "depends": [
-            "glibc",
-            "gcc-libs",
-            "zlib",
+            "bash",
+            "curl",
+            "tar", 
+            "zstd",
+            "coreutils",
+            "lkpm", 
+            "bsdtar",
+            "fakeroot",
             "xz",
-            "lz4"
+            "gzip",
+            "bzip2",
+            "unzip", 
+            "p7zip"
         ],
-        "optdepends": []
+        "optdepends": [
+            "git",
+            "make", 
+            "gcc", 
+            "clang",
+            "python",
+            "perl",
+            "ruby", 
+            "nodejs",
+            "npm",
+            "yarn",
+            "go",
+            "rust"
+        ],
+        "conflicts": []
     }
 ]
