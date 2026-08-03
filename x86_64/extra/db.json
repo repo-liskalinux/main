@@ -51911,10 +51911,10 @@
   },
   {
     "name": "gnome-shell-extension-desktop-icons-ng",
-    "version": "51.0.3-1",
+    "version": "51.0.4-1",
     "origin": "arch-extra",
-    "sha256": "5139480484621aef8cdaf09371e458a216bbca1d9c4767670bd714bf0822a476",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extension-desktop-icons-ng-51.0.3-1-any.pkg.tar.zst",
+    "sha256": "05a2b66a86459dbbf1861f727ef50da449082ae0a612c6656b3c1873b9e9bfe2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extension-desktop-icons-ng-51.0.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -104643,10 +104643,10 @@
   },
   {
     "name": "libgbinder",
-    "version": "1.1.50-1",
+    "version": "1.1.51-1",
     "origin": "arch-extra",
-    "sha256": "95d5547f45732993738d0ce21d5e17b111c5b740c202b725a55673af01180b76",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libgbinder-1.1.50-1-x86_64.pkg.tar.zst",
+    "sha256": "52a250b87d08f25ca39a0ee03675b2d242133a9df5bc73b3cea6d48066f71a54",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libgbinder-1.1.51-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libglibutil",
@@ -194578,16 +194578,16 @@
   },
   {
     "name": "python-rarfile",
-    "version": "4.4-1",
+    "version": "4.5-1",
     "origin": "arch-extra",
-    "sha256": "4c66e2d7a8fafa51aa3d2384303fc774c338ab4732443bf7b8d8e261a56cc239",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-rarfile-4.4-1-any.pkg.tar.zst",
+    "sha256": "b777ff0e1b060a8a38cc1b8ea4e826dbcb2866ad4e74937677451a103e33fe69",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-rarfile-4.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
     ],
     "optdepends": [
-      "p7zip: Alternative decompression backend",
+      "7zip: Alternative decompression backend",
       "python-cryptography: Process archives with password-protected headers",
       "python-pycryptodome: Alternative crypto backend",
       "unarchiver: Alternative decompression backend",
@@ -210156,16 +210156,16 @@
   },
   {
     "name": "rednotebook",
-    "version": "2.42-2",
+    "version": "2.42-3",
     "origin": "arch-extra",
-    "sha256": "e2976958b7c46f2037c5de40ce032ae07e5b9269dbd543791cd044adcaa25277",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rednotebook-2.42-2-any.pkg.tar.zst",
+    "sha256": "84c8cb33464782c94a6e86ff825a1c742643ce77ee2247237bbb929b8a96396b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rednotebook-2.42-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdk-pixbuf2",
       "glib2",
       "gtk3",
-      "gtksourceview3",
+      "gtksourceview4",
       "hicolor-icon-theme",
       "libgirepository",
       "pango",

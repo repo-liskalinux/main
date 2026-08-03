@@ -878,23 +878,6 @@
     "conflicts": []
   },
   {
-    "name": "foo",
-    "version": "1.0.0-1",
-    "origin": "liska-core",
-    "sha256": "3cb2...9f21a",
-    "url": "http://github.com/repo-liskalinux/",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "gcc-libs",
-      "zlib",
-      "xz",
-      "lz4"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "fuse2fs",
     "version": "1.47.4-1",
     "origin": "arch-core",
@@ -3463,6 +3446,44 @@
     "provides": [],
     "depends": [],
     "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lkmake",
+    "version": "1.0.0-1",
+    "origin": "liska-core",
+    "sha256": "51faef3b8c2a5accbb188c216605627a808266beeedee345843dd0301c10d561",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkmake-1.0.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "curl",
+      "tar",
+      "zstd",
+      "coreutils",
+      "lkpm",
+      "bsdtar",
+      "fakeroot",
+      "xz",
+      "gzip",
+      "bzip2",
+      "unzip",
+      "p7zip"
+    ],
+    "optdepends": [
+      "git",
+      "make",
+      "gcc",
+      "clang",
+      "python",
+      "perl",
+      "ruby",
+      "nodejs",
+      "npm",
+      "yarn",
+      "go",
+      "rust"
+    ],
     "conflicts": []
   },
   {
