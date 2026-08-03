@@ -1,20 +1,18 @@
-{
-    "packages": [
-        {
-            "name": "foo",
-            "version": "1.0.0-1",
-            "origin": "liska-core",
-            "sha256": "3cb2...9f21a",
-            "url": "http://github.com/repo-liskalinux/",
-            "provides": [],
-            "depends": [
-                "glibc",
-                "gcc-libs",
-                "zlib",
-                "xz",
-                "lz4"
-            ],
-            "optdepends": []
-        }
-    ]
-}
+[
+    {
+        "name": "lkmake",
+        "version": "1.0.0-1",
+        "origin": "liska-core",
+        "sha256": "3cb2...9f21a",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkmake-1.0.0-1-x86_64.pkg.tar.zst",
+        "provides": [],
+        "depends": [
+            "glibc",
+            "gcc-libs",
+            "zlib",
+            "xz",
+            "lz4"
+        ],
+        "optdepends": []
+    }
+]
