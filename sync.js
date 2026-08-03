@@ -24,14 +24,15 @@ function loadBlacklist() {
 
 function parseArchDbSectionFile(filePath) {
     if (!fs.existsSync(filePath)) return {};
-    const content = fs.readFileSync(filePath, 'utf8');
+    const content = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
     const sections = {};
     let currentSection = null;
-    for (let line of content.split('\n')) {
-        line = line.trim();
+    for (let rawLine of content.split('\n')) {
+        const line = rawLine.trim();
         if (!line) continue;
-        if (line.startsWith('%') && line.endsWith('%')) {
-            currentSection = line.slice(1, -1);
+        const headerMatch = line.match(/^%([A-Z0-9_]+)%$/);
+        if (headerMatch) {
+            currentSection = headerMatch[1];
             sections[currentSection] = [];
         } else if (currentSection) {
             sections[currentSection].push(line);
@@ -42,8 +43,8 @@ function parseArchDbSectionFile(filePath) {
 
 function parseInfoFile(filePath) {
     if (!fs.existsSync(filePath)) return {};
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const result = { provides: [], depends: [], optdepends: [] };
+    const content = fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, '');
+    const result = { provides: [], depends: [], optdepends: [], conflicts: [] };
     content.split('\n').forEach(line => {
         const trimmed = line.trim();
         if (!trimmed || trimmed.startsWith('#')) return;
@@ -60,6 +61,8 @@ function parseInfoFile(filePath) {
             case 'optdepends': result.optdepends.push(value); break;
             case 'provide':
             case 'provides': result.provides.push(value); break;
+            case 'conflict':
+            case 'conflicts': result.conflicts.push(value); break;
         }
     });
     return result;
@@ -71,6 +74,13 @@ function calculateSHA256(filePath) {
     return crypto.createHash('sha256').update(fileBuffer).digest('hex');
 }
 
+function toArray(val) {
+    if (!val) return [];
+    if (Array.isArray(val)) return val;
+    if (typeof val === 'string') return [val];
+    return [];
+}
+
 function normalizePackage(pkg, defaultOrigin = null) {
     return {
         name: pkg.name || "unknown",
@@ -78,9 +88,10 @@ function normalizePackage(pkg, defaultOrigin = null) {
         origin: pkg.origin || defaultOrigin,
         sha256: pkg.sha256 || null,
         url: pkg.url || "",
-        provides: Array.isArray(pkg.provides) ? Array.from(new Set(pkg.provides)) : [],
-        depends: Array.isArray(pkg.depends) ? Array.from(new Set(pkg.depends)) : [],
-        optdepends: Array.isArray(pkg.optdepends) ? Array.from(new Set(pkg.optdepends)) : []
+        provides: Array.from(new Set(toArray(pkg.provides))),
+        depends: Array.from(new Set(toArray(pkg.depends))),
+        optdepends: Array.from(new Set(toArray(pkg.optdepends))),
+        conflicts: Array.from(new Set(toArray(pkg.conflicts)))
     };
 }
 
@@ -89,7 +100,6 @@ async function fetchAndParseArchDb(repo) {
     const dbUrl = `${repoUrl}/${repo}.db`;
     const tmpDir = path.join('/tmp', `archdb-${repo}-${Date.now()}`);
     const dbTarPath = path.join(tmpDir, `${repo}.db`);
-
     fs.mkdirSync(tmpDir, { recursive: true });
     console.log(`[+] Mengunduh database resmi: ${dbUrl}`);
     try {
@@ -100,13 +110,9 @@ async function fetchAndParseArchDb(repo) {
         }
         const arrayBuffer = await res.arrayBuffer();
         fs.writeFileSync(dbTarPath, Buffer.from(arrayBuffer));
-
         const extractDir = path.join(tmpDir, 'extracted');
         fs.mkdirSync(extractDir, { recursive: true });
-
-        // MEMPERBAIKI EKSTRAKSI: Gunakan 'tar -xf' agar otomatis mendeteksi gzip/zstd
         execSync(`tar -xf "${dbTarPath}" -C "${extractDir}"`);
-
         const packages = [];
         const folders = fs.readdirSync(extractDir);
         for (const folder of folders) {
@@ -114,20 +120,22 @@ async function fetchAndParseArchDb(repo) {
             if (!fs.statSync(pkgDirPath).isDirectory()) continue;
             const descData = parseArchDbSectionFile(path.join(pkgDirPath, 'desc'));
             const dependsData = parseArchDbSectionFile(path.join(pkgDirPath, 'depends'));
-            const name = descData['NAME']?.[0];
+            const pkgData = { ...descData, ...dependsData };
+            const name = pkgData['NAME']?.[0];
             if (!name) continue;
-            const version = descData['VERSION']?.[0] || "";
-            const filename = descData['FILENAME']?.[0] || "";
-            const sha256 = descData['SHA256SUM']?.[0] || null;
+            const version = pkgData['VERSION']?.[0] || "";
+            const filename = pkgData['FILENAME']?.[0] || "";
+            const sha256 = pkgData['SHA256SUM']?.[0] || null;
             packages.push(normalizePackage({
                 name: name,
                 version: version,
                 origin: `arch-${repo}`,
                 sha256: sha256,
                 url: filename ? `${repoUrl}/${filename}` : "",
-                provides: dependsData['PROVIDES'] || [],
-                depends: dependsData['DEPENDS'] || [],
-                optdepends: dependsData['OPTDEPENDS'] || []
+                provides: pkgData['PROVIDES'] || [],
+                depends: pkgData['DEPENDS'] || [],
+                optdepends: pkgData['OPTDEPENDS'] || [],
+                conflicts: pkgData['CONFLICTS'] || []
             }));
         }
         fs.rmSync(tmpDir, { recursive: true, force: true });
@@ -174,7 +182,8 @@ async function main() {
             url: pkgInfo.url || buildInfo.url || "",
             provides: [...(pkgInfo.provides || []), ...(buildInfo.provides || [])],
             depends: [...(pkgInfo.depends || []), ...(buildInfo.depends || [])],
-            optdepends: [...(pkgInfo.optdepends || []), ...(buildInfo.optdepends || [])]
+            optdepends: [...(pkgInfo.optdepends || []), ...(buildInfo.optdepends || [])],
+            conflicts: [...(pkgInfo.conflicts || []), ...(buildInfo.conflicts || [])]
         });
         liskaMap.set(localPkg.name, localPkg);
         console.log(`[+] Mengintegrasikan build lokal: ${localPkg.name}`);
