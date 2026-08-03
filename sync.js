@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const { execSync } = require('child_process');
+
 const ARCH_MIRROR = "http://mirror.rackspace.com/archlinux";
 const REPOS = ["core", "extra", "multilib"];
 const ARCHS = ["x86_64"];
@@ -87,7 +88,8 @@ async function fetchAndParseArchDb(repo) {
     const repoUrl = `${ARCH_MIRROR}/${repo}/os/x86_64`;
     const dbUrl = `${repoUrl}/${repo}.db`;
     const tmpDir = path.join('/tmp', `archdb-${repo}-${Date.now()}`);
-    const dbTarPath = path.join(tmpDir, `${repo}.db.tar.gz`);
+    const dbTarPath = path.join(tmpDir, `${repo}.db`);
+
     fs.mkdirSync(tmpDir, { recursive: true });
     console.log(`[+] Mengunduh database resmi: ${dbUrl}`);
     try {
@@ -98,9 +100,13 @@ async function fetchAndParseArchDb(repo) {
         }
         const arrayBuffer = await res.arrayBuffer();
         fs.writeFileSync(dbTarPath, Buffer.from(arrayBuffer));
+
         const extractDir = path.join(tmpDir, 'extracted');
         fs.mkdirSync(extractDir, { recursive: true });
-        execSync(`tar -xzf "${dbTarPath}" -C "${extractDir}"`);
+
+        // MEMPERBAIKI EKSTRAKSI: Gunakan 'tar -xf' agar otomatis mendeteksi gzip/zstd
+        execSync(`tar -xf "${dbTarPath}" -C "${extractDir}"`);
+
         const packages = [];
         const folders = fs.readdirSync(extractDir);
         for (const folder of folders) {
@@ -195,11 +201,12 @@ async function main() {
                 lowerName.endsWith('-docs')) {
                 continue;
             }
-            if (liskaMap.has(pkg.name)) continue;
+            if (repo === "core" && liskaMap.has(pkg.name)) continue;
             updatedArchMap.set(pkg.name, pkg);
         }
+        const repoLiskaPackages = (repo === "core") ? Array.from(liskaMap.values()) : [];
         const finalPackages = [
-            ...Array.from(liskaMap.values()),
+            ...repoLiskaPackages,
             ...Array.from(updatedArchMap.values())
         ];
         finalPackages.sort((a, b) => a.name.localeCompare(b.name));
@@ -212,7 +219,6 @@ async function main() {
             console.error(`[✗] Gagal kompresi zstd:`, err.message);
         }
     }
-    console.log("\n::: [ FINISHED ] Database berhasil diperbarui dengan metadata presisi!");
+    console.log("\n::: [ FINISHED ] Database berhasil diperbarui!");
 }
-
 main();
