@@ -8775,10 +8775,10 @@
   },
   {
     "name": "bazaar",
-    "version": "0.9.1-1",
+    "version": "0.9.2-1",
     "origin": "arch-extra",
-    "sha256": "90d8101ad2f19d1fbba0e933f500b4d32e5cd688d34b2fadd7114b55744baa30",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bazaar-0.9.1-1-x86_64.pkg.tar.zst",
+    "sha256": "13457566e81265fab916a75909880ae4ba4d28a7f11177ea7c2c4f736990518a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bazaar-0.9.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -8914,10 +8914,10 @@
   },
   {
     "name": "bcachefs-dkms",
-    "version": "3:1.39.0-1",
+    "version": "3:1.39.0-2",
     "origin": "arch-extra",
-    "sha256": "5f94894042f833337788c3008d95779d83e675a6c40a4c73b2273fd3e52f9170",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bcachefs-dkms-3:1.39.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5b7b17e7f16d92e98b914d9db809a7d484161641d771cba333486b9f0bcf0b3e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bcachefs-dkms-3:1.39.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -8930,10 +8930,10 @@
   },
   {
     "name": "bcachefs-tools",
-    "version": "3:1.39.0-1",
+    "version": "3:1.39.0-2",
     "origin": "arch-extra",
-    "sha256": "e1e771e7b0df2a058d038e7c797564fc5005d1b467d293ea52fbca47940d4c58",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bcachefs-tools-3:1.39.0-1-x86_64.pkg.tar.zst",
+    "sha256": "96a91b44a0d66e3417547d7ad431d76f2f6e14fba349c076dd2d53a49c59b33d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bcachefs-tools-3:1.39.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse3",
@@ -27711,10 +27711,10 @@
   },
   {
     "name": "dnsproxy",
-    "version": "0.83.1-1",
+    "version": "0.83.2-1",
     "origin": "arch-extra",
-    "sha256": "0f7cd526cf916b1d6d02db51ad63503ea8afc1f199a0ee36f3fde57c01ff328f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dnsproxy-0.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e97dcad6299c65ac89b9f393d715a655485235b51dd6ff75d33fa4c179984ad7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dnsproxy-0.83.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -52192,10 +52192,10 @@
   },
   {
     "name": "gnome-shell-extension-weather-oclock",
-    "version": "50.4-1",
+    "version": "50.5-1",
     "origin": "arch-extra",
-    "sha256": "cf0d55c71c7d1e3c97fb0b2a259df7124b7c4eb51e1eb411f96d065723fe6eea",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extension-weather-oclock-50.4-1-any.pkg.tar.zst",
+    "sha256": "3262afd17ef9fae3f8f5ca73a34c77bd6b105b9ef5cf49739856caec12b90b55",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extension-weather-oclock-50.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gnome-shell"
@@ -54095,26 +54095,35 @@
   },
   {
     "name": "gpodder",
-    "version": "3.11.5-4",
+    "version": "3.11.5-5",
     "origin": "arch-extra",
-    "sha256": "e7a6b7e6ff83be3060d93325cf69661e0735cc93be62a1b3f100651edc582a3b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gpodder-3.11.5-4-any.pkg.tar.zst",
+    "sha256": "d2010fe829c9744dc84852c6186fc6676c32256cdff15236192e93dae8c4feed",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gpodder-3.11.5-5-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "gdk-pixbuf2",
+      "glib2",
       "gtk3",
+      "hicolor-icon-theme",
+      "pango",
+      "python",
       "python-cairo",
-      "dbus-python",
+      "python-dbus",
       "python-gobject",
       "python-mygpoclient",
       "python-podcastparser",
-      "python-requests"
+      "python-requests",
+      "python-urllib3",
+      "xdg-utils"
     ],
     "optdepends": [
-      "libnotify: Gtk+ Desktop Notifications extension",
+      "libappindicator: App Indicator extension",
+      "libnotify: Desktop Notifications extension",
+      "python-html5lib: Clickable links in show notes",
       "python-mutagen: Tag downloaded files, Remove cover art from OGG files extensions",
+      "python-pysocks: SOCKS proxy support",
       "webkit2gtk-4.1: HTML show notes",
-      "yt-dlp: Youtube-dl extension",
-      "python-pysocks: SOCKS proxy support"
+      "yt-dlp: Youtube-dl extension"
     ],
     "conflicts": []
   },
@@ -82669,10 +82678,10 @@
   },
   {
     "name": "hyprland",
-    "version": "0.56.1-3",
+    "version": "0.56.2-1",
     "origin": "arch-extra",
-    "sha256": "09eb3c03cb0a32da3082611ca7dc37fd4033adae04fb276968af09a25c05dcb9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hyprland-0.56.1-3-x86_64.pkg.tar.zst",
+    "sha256": "8a4c9d3c505e03edeaa478406666acedcdab7c3e0c9f75013bd27927f79281df",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hyprland-0.56.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -93449,10 +93458,10 @@
   },
   {
     "name": "keycloak",
-    "version": "26.7.0-1",
+    "version": "26.7.1-1",
     "origin": "arch-extra",
-    "sha256": "e123e33d71a5669679372a9091f5f23ebccef08b5ed9fd0b8b63a98968643ba0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/keycloak-26.7.0-1-any.pkg.tar.zst",
+    "sha256": "d438c179dc068957b2fe55e6170dc706fe61c728e43666e2a7686e9f43155e97",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/keycloak-26.7.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime-headless=21",
@@ -118116,10 +118125,10 @@
   },
   {
     "name": "libxfont2",
-    "version": "2.0.8-1",
+    "version": "2.0.9-1",
     "origin": "arch-extra",
-    "sha256": "6a6e19cba28dc8cb6ff4e94157c228b488783a3ff6784a8c50ef119d644c17b6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libxfont2-2.0.8-1-x86_64.pkg.tar.zst",
+    "sha256": "1e6e54047bb0c069671d20c6eb9582310d842e88ba8943833facc5861109640c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libxfont2-2.0.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "freetype2",
@@ -143493,10 +143502,10 @@
   },
   {
     "name": "openai-codex",
-    "version": "0.146.0-1",
+    "version": "0.146.1-1",
     "origin": "arch-extra",
-    "sha256": "9de55bb0e82824d577c2fc685f230cef3c5735b434eb91f8d4061618db155d6c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openai-codex-0.146.0-1-x86_64.pkg.tar.zst",
+    "sha256": "89347809c98df8f7f254507b919d5f3c6a75cb044f0d9655da31cb1ac44eede5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openai-codex-0.146.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bubblewrap",
@@ -148360,33 +148369,6 @@
       "zstd"
     ],
     "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "ovenmediaengine",
-    "version": "0.18.0-5",
-    "origin": "arch-extra",
-    "sha256": "7d194e4a9139f15eb69338407c2d2f8ecf51c8ce9422c745507a44dca60f9d93",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ovenmediaengine-0.18.0-5-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "openssl>=3",
-      "libsrtp",
-      "srt",
-      "opus",
-      "ffmpeg4.4",
-      "jemalloc",
-      "pcre2",
-      "hiredis"
-    ],
-    "optdepends": [
-      "libva",
-      "intel-gmmlib",
-      "intel-media-sdk",
-      "intel-media-driver",
-      "ffnvcodec-headers",
-      "openh264: For h264 encoding, also needs a ffmpeg build with --enable-libopenh264"
-    ],
     "conflicts": []
   },
   {
@@ -188500,10 +188482,10 @@
   },
   {
     "name": "python-podcastparser",
-    "version": "0.6.10-7",
+    "version": "0.6.11-1",
     "origin": "arch-extra",
-    "sha256": "4abff1805d20b4a77ed0c13d33f7dd046c8c0d9835a6adb2e7e4d81523213115",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-podcastparser-0.6.10-7-any.pkg.tar.zst",
+    "sha256": "b4169f6bf6c533988b5b28168f187e1bb92580d1565fcddcdca69eb34275c892",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-podcastparser-0.6.11-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -209146,10 +209128,10 @@
   },
   {
     "name": "radicle",
-    "version": "1.9.1-3",
+    "version": "1.10.0-1",
     "origin": "arch-extra",
-    "sha256": "1cce8e258adee3390ac7e3f310298102c492653ef89bd7541b64324b5c9ab723",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/radicle-1.9.1-3-x86_64.pkg.tar.zst",
+    "sha256": "824afe2ca605ce0b89484a3eff413fd55e6ece179fceb0dfe9a9fe254c238945",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/radicle-1.10.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "radicle-node",
       "radicle-cli"
@@ -212784,10 +212766,10 @@
   },
   {
     "name": "rio",
-    "version": "0.5.12-1",
+    "version": "0.5.13-1",
     "origin": "arch-extra",
-    "sha256": "e957a65650ecd2b7c4882a5e09beade1f53f7027fbac61c99f5b9ad032697759",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.12-1-x86_64.pkg.tar.zst",
+    "sha256": "a1be819c04ee33cb9d496df185a07e99c1f1fa7c247dd94c485634e7fa14a1ce",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -229599,30 +229581,19 @@
   },
   {
     "name": "srs",
-    "version": "5.0_r3-2",
+    "version": "6.0_r0-2",
     "origin": "arch-extra",
-    "sha256": "cebc30eee8ef4fa9ec034641dff36dac5db29ab67759f9508dd072d062e85212",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/srs-5.0_r3-2-x86_64.pkg.tar.zst",
+    "sha256": "2de1c9f63aa8816cff7587b4ef6595df242cb4ce3101ed9d2706a939ef58510b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/srs-6.0_r0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl",
+      "libgcc",
+      "glibc",
+      "libstdc++",
+      "libasan",
       "srt",
-      "libsrtp",
-      "srs-state-threads",
-      "tcl"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "srs-state-threads",
-    "version": "1.9.5-3",
-    "origin": "arch-extra",
-    "sha256": "7534a55b8d4ab0019e49a30999dbc6aa871cebe2ec6f60183ecbdcb23d573b4a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/srs-state-threads-1.9.5-3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc"
+      "libsrtp"
     ],
     "optdepends": [],
     "conflicts": []
@@ -233461,10 +233432,10 @@
   },
   {
     "name": "syncthing",
-    "version": "2.1.2-1",
+    "version": "2.1.3-1",
     "origin": "arch-extra",
-    "sha256": "90b446ffb664e4acff63fd64e2fbd941b78659ae213391dd5db71b186a10a160",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/syncthing-2.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "fdeb89d20606d2704970e101a54a1f47bb942ce96bd64b959b00a7a87622cf29",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/syncthing-2.1.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -233476,10 +233447,10 @@
   },
   {
     "name": "syncthing-discosrv",
-    "version": "2.1.2-1",
+    "version": "2.1.3-1",
     "origin": "arch-extra",
-    "sha256": "2c40d43cd2a0a513b30a9021f8bbefe84db3b02739feeb25dcfe68652a4ea6ba",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/syncthing-discosrv-2.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "bd93d8b78c72a5ad2e59a8f2f2d061471fa52f89888d0ea88688a081f91b2b89",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/syncthing-discosrv-2.1.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -233489,10 +233460,10 @@
   },
   {
     "name": "syncthing-relaysrv",
-    "version": "2.1.2-1",
+    "version": "2.1.3-1",
     "origin": "arch-extra",
-    "sha256": "5cd9300378e22c90229ab6984474f773f98ba40b333297801c835fc40dd71cf9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/syncthing-relaysrv-2.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c0d08ede25cf1fe28d5438cf46da2d18c07313777e2efd45955f84c225ec0621",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/syncthing-relaysrv-2.1.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
