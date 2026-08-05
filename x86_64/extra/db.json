@@ -24246,10 +24246,10 @@
   },
   {
     "name": "deepin-file-manager",
-    "version": "1:6.5.24-1",
+    "version": "1:6.5.25-1",
     "origin": "arch-extra",
-    "sha256": "f8bde2102ba8a4c2d35451f342ff2c68574a4a5354659cf5a6112953dbbac7a0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-file-manager-1:6.5.24-1-x86_64.pkg.tar.zst",
+    "sha256": "ea4ad72616a62adbd1ee3c200ef7065bb0a029c76a55acc4fa7ff28e85672c32",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-file-manager-1:6.5.25-1-x86_64.pkg.tar.zst",
     "provides": [
       "deepin-desktop"
     ],
@@ -46896,10 +46896,10 @@
   },
   {
     "name": "gexiv2",
-    "version": "0.16.2-1",
+    "version": "0.16.2-2",
     "origin": "arch-extra",
-    "sha256": "53ef318f216be460a3521c7982a0f3403222671af62806ab1d8d31a0b88c0170",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gexiv2-0.16.2-1-x86_64.pkg.tar.zst",
+    "sha256": "4cbb5a08bca8cc3b436da947d7a97eebf0f5ad8781f81c7a772ccf21475201b6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gexiv2-0.16.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "libgexiv2-0.16.so=4-64"
     ],
@@ -46909,11 +46909,23 @@
       "glibc",
       "libgcc",
       "libstdc++",
+      "gexiv2-common>=0.16.2-2",
+      "libexiv2.so=28-64",
       "libglib-2.0.so=0-64",
       "libgobject-2.0.so=0-64",
-      "libgio-2.0.so=0-64",
-      "libexiv2.so=28-64"
+      "libgio-2.0.so=0-64"
     ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "gexiv2-common",
+    "version": "0.16.2-2",
+    "origin": "arch-extra",
+    "sha256": "8824611dad8479fad7c3f64b348bd22da550b7a4db10f0e0d7b093d1af2b78e0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gexiv2-common-0.16.2-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
     "optdepends": [],
     "conflicts": []
   },
@@ -105133,22 +105145,24 @@
   },
   {
     "name": "libgexiv2",
-    "version": "0.14.6-2",
+    "version": "0.14.7-1",
     "origin": "arch-extra",
-    "sha256": "0285acbea16a108a5baf3f809f0f172c515fe3fca128e10f1b0511b4cd5c6a55",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libgexiv2-0.14.6-2-x86_64.pkg.tar.zst",
+    "sha256": "d25f8f0d8ef6c2b4f15f1fa6ed701d3dbdfa61d6d11e687cea734667dfa1086b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libgexiv2-0.14.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgexiv2.so=2-64"
     ],
     "depends": [
       "exiv2",
-      "gcc-libs",
       "glib2",
       "glibc",
+      "libgcc",
+      "libstdc++",
+      "gexiv2-common>=0.14.7-1",
+      "libexiv2.so=28-64",
       "libglib-2.0.so=0-64",
       "libgobject-2.0.so=0-64",
-      "libgio-2.0.so=0-64",
-      "libexiv2.so=28-64"
+      "libgio-2.0.so=0-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -162609,10 +162623,10 @@
   },
   {
     "name": "pika-backup",
-    "version": "0.8.3-1",
+    "version": "0.8.4-1",
     "origin": "arch-extra",
-    "sha256": "c1948579f4328240ebdec5e948c119003886c010406b59558f01354a584abe6d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pika-backup-0.8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6f8c4a3209211ab3fe702fb1d1b7ae070a2c3655429e3abf848ac8d53c4eafb1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pika-backup-0.8.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "borg",
