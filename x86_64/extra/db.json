@@ -32061,10 +32061,10 @@
   },
   {
     "name": "electron42",
-    "version": "42.8.0-1",
+    "version": "42.8.1-1",
     "origin": "arch-extra",
-    "sha256": "6d1b6076f782e98cc0cc73a8f96abbafc79e34845f294ac6137a082f3b6f5341",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/electron42-42.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "24e71244b91c1a14c39c4bb5ba3643a929b609856c13fff74c0d79c30c50e578",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/electron42-42.8.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "c-ares",
@@ -32112,10 +32112,10 @@
   },
   {
     "name": "electron43",
-    "version": "43.2.0-1",
+    "version": "43.3.0-1",
     "origin": "arch-extra",
-    "sha256": "6046e1f89117a80f61976785b0193627bc142b8f28e625b2f0ccedbbd278dd03",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/electron43-43.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fd44cddbcb199463cc4894459cebea596c667af7c9046a8d8f1c3863984a7d44",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/electron43-43.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "c-ares",
@@ -43114,6 +43114,21 @@
     "provides": [],
     "depends": [
       "openssl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "fswatch",
+    "version": "1.22.0-2",
+    "origin": "arch-extra",
+    "sha256": "9ba66a61a786c82871013e39608648cd83687680e866c76efa3714d4bd24143f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fswatch-1.22.0-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
@@ -87016,14 +87031,15 @@
   },
   {
     "name": "jaq",
-    "version": "3.1.0-3",
+    "version": "3.1.1-1",
     "origin": "arch-extra",
-    "sha256": "bd66a84be7cccaa7999164bd8cc73fad6247eb1786853f6117cbbed80e973279",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jaq-3.1.0-3-x86_64.pkg.tar.zst",
+    "sha256": "93ee69e56c1e704ade494db2f959bf0f931244af5ab3298b0da16c31a722bd9e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jaq-3.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
-      "glibc"
+      "glibc",
+      "libgcc",
+      "libgcc_s.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -88317,6 +88333,21 @@
       "java-runtime>=11",
       "libxtst",
       "ttf-font"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "jotdown",
+    "version": "0.10.0-1",
+    "origin": "arch-extra",
+    "sha256": "8ce0ec58452a8beb9dcf6e0779d1dca1e2b4ef8a17d9eb35a80276fb23904a0e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jotdown-0.10.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libgcc_s.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -130222,10 +130253,10 @@
   },
   {
     "name": "mbedtls3",
-    "version": "3.6.6-1",
+    "version": "3.6.7-1",
     "origin": "arch-extra",
-    "sha256": "e874927a02df87bcbc644b98307c2226847eab7f904d52732d735b14b3b4b970",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mbedtls3-3.6.6-1-x86_64.pkg.tar.zst",
+    "sha256": "322374501c7100aab2a6d384908391806401bc7f41f3041b119ca8f891c61138",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mbedtls3-3.6.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmbedcrypto.so=16-64",
       "libmbedtls.so=21-64",
@@ -135544,15 +135575,26 @@
   },
   {
     "name": "mypaint",
-    "version": "2.0.1-7",
+    "version": "2.0.1-8",
     "origin": "arch-extra",
-    "sha256": "8888df835642c9473730aa596bf23f7edb82d3e6fba3452be8f17e14da9d5b8c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mypaint-2.0.1-7-x86_64.pkg.tar.zst",
+    "sha256": "3a39dc394fe04ec2f965d49705a581b9046155a5c77676eb6f770a49561ae63f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mypaint-2.0.1-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
       "gtk3",
+      "hicolor-icon-theme",
+      "lcms2",
+      "libgcc",
+      "libgomp",
       "libmypaint",
+      "libpng",
+      "libstdc++",
       "mypaint-brushes",
+      "pango",
+      "python",
       "python-cairo",
       "python-gobject",
       "python-numpy"
@@ -148544,10 +148586,10 @@
   },
   {
     "name": "p2pool",
-    "version": "4.17.1-1",
+    "version": "4.18-1",
     "origin": "arch-extra",
-    "sha256": "2ff679ab6a9f976339229f9a79506cbf0605debd3a6283ef8105bfdc53d3f1f0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/p2pool-4.17.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3334ec38a7a34658c2daebde7f81ea620a01e7c88daa2f85fd60a9681bc771df",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/p2pool-4.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -186879,10 +186921,10 @@
   },
   {
     "name": "python-osmium",
-    "version": "4.0.2-3",
+    "version": "4.3.1-1",
     "origin": "arch-extra",
-    "sha256": "0ee7a0afd6b209f21a3de432fddea8b2268e4668d11bfd662d3447156b7b280d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-osmium-4.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "80bac0921ba52e6f4904c99611e88d640312492a9fd0753e68f4ff72f373d20e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-osmium-4.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "python-pyosmium",
       "pyosmium"
@@ -212742,10 +212784,10 @@
   },
   {
     "name": "rio",
-    "version": "0.5.10-1",
+    "version": "0.5.12-1",
     "origin": "arch-extra",
-    "sha256": "5877072a307673fd3fffda6cfee55c953fc7edc7827288c3ac18262acbcbfbcf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.10-1-x86_64.pkg.tar.zst",
+    "sha256": "e957a65650ecd2b7c4882a5e09beade1f53f7027fbac61c99f5b9ad032697759",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -252282,10 +252324,10 @@
   },
   {
     "name": "vault",
-    "version": "2.0.3-1",
+    "version": "2.0.4-1",
     "origin": "arch-extra",
-    "sha256": "bdc0cd47f1ef913fead1618deeeea67ef3e4dd0bf3f71ac798b38882da603553",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vault-2.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a1f62d84bd7095dd743f7b514e54d016f18740c179cf91fa78fe34cc16316880",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vault-2.0.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -268989,10 +269031,10 @@
   },
   {
     "name": "zola",
-    "version": "0.22.1-2",
+    "version": "0.23.1-1",
     "origin": "arch-extra",
-    "sha256": "19eb1e6d882c0397207281c91bd4c964f5b42520fc8b12be3524a72dbc4bd34a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zola-0.22.1-2-x86_64.pkg.tar.zst",
+    "sha256": "60f04a0bc033f1d998defaad3caa69321d153e6f56be360d6b0a385880ce4267",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zola-0.23.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
