@@ -14968,10 +14968,10 @@
   },
   {
     "name": "cargo-rdme",
-    "version": "2.1.0-1",
+    "version": "2.2.0-1",
     "origin": "arch-extra",
-    "sha256": "ec797c4d5428f2d674c27ea5ecc91011fa503c0ef01b6d7600651ae8ad99c7a9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cargo-rdme-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cf9a9ce49380dfb29a824f73d0d3fbd888f9c866fc014f5dc0336ec1ee9d46d1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cargo-rdme-2.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cargo"
@@ -17080,15 +17080,22 @@
   },
   {
     "name": "ciano",
-    "version": "0.2.4-6",
+    "version": "0.2.4-7",
     "origin": "arch-extra",
-    "sha256": "b36c89c9c06b21b3a1d142b9cbd47239466d7a01823e8ab6fc67c15f66761dc2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ciano-0.2.4-6-x86_64.pkg.tar.zst",
+    "sha256": "cf07446c365cc34ead7e3cf128b4a71c26b6e3f36c17b7c0187c3aad965491cf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ciano-0.2.4-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "dconf",
       "ffmpeg",
+      "glib2",
+      "glibc",
       "granite",
-      "imagemagick"
+      "gtk3",
+      "hicolor-icon-theme",
+      "imagemagick",
+      "libgee",
+      "pango"
     ],
     "optdepends": [],
     "conflicts": []
@@ -18261,10 +18268,10 @@
   },
   {
     "name": "cli11",
-    "version": "2.6.2-1",
+    "version": "2.7.2-1",
     "origin": "arch-extra",
-    "sha256": "fdde09154525666dedbe2d93a003b3f33bc7a1c5356da8ae65ba75c8f58c6729",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cli11-2.6.2-1-any.pkg.tar.zst",
+    "sha256": "13dd44ef92e612b09b36f2b594651a1195b16c512d3b084d856a170b72755e8e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cli11-2.7.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -23878,31 +23885,31 @@
   },
   {
     "name": "deepin-calendar",
-    "version": "6.5.42-1",
+    "version": "6.5.42-2",
     "origin": "arch-extra",
-    "sha256": "c6c91e3d25765f7f288fe9872a7fab073b3db66e7de53dc2cfba1781833a4c74",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-calendar-6.5.42-1-x86_64.pkg.tar.zst",
+    "sha256": "2a9d2311dce85a2cf4f127e5814fddbca699ca6794fc80e571b72b160b12645a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-calendar-6.5.42-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "dtkcore",
-      "dtkgui",
-      "dtkwidget",
+      "dtk6core",
+      "dtk6gui",
+      "dtk6widget",
       "glibc",
       "libgcc",
       "libstdc++",
       "libical",
-      "qt5-base",
-      "qt5-svg"
+      "qt6-base",
+      "qt6-svg"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "deepin-camera",
-    "version": "6.5.17-1",
+    "version": "6.5.18-1",
     "origin": "arch-extra",
-    "sha256": "15384611da7f09331a37a6ed195513d75ab00a5dbbb6f6f946f63e6c9215b2c7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-camera-6.5.17-1-x86_64.pkg.tar.zst",
+    "sha256": "8b7633d8d7f23277243e20ea8a65176cc506d809c44517366bc54f0aabe6264c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-camera-6.5.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -24022,10 +24029,10 @@
   },
   {
     "name": "deepin-daemon",
-    "version": "6.1.94-1",
+    "version": "6.1.95-1",
     "origin": "arch-extra",
-    "sha256": "cf70203b8f58846a8bbba6938ccf455c298aad2ba0b57181a99a99c9e83d4619",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-daemon-6.1.94-1-x86_64.pkg.tar.zst",
+    "sha256": "2c4c6ea8b7ff28b07e3b853ca2b1ef551191ccc03fdbb6402b011acc63e39337",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-daemon-6.1.95-1-x86_64.pkg.tar.zst",
     "provides": [
       "startdde"
     ],
@@ -24306,10 +24313,10 @@
   },
   {
     "name": "deepin-font-manager",
-    "version": "6.5.13-1",
+    "version": "6.5.14-1",
     "origin": "arch-extra",
-    "sha256": "bf1f533656ca3bf41522088b2714e45dd8e53267b154846a86cdbaa5d659a78c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-font-manager-6.5.13-1-x86_64.pkg.tar.zst",
+    "sha256": "2efc6903fa933be4cbc1b6150fc847f4fb9f79d43a36132d35c0952391f81ade",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-font-manager-6.5.14-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -24422,20 +24429,15 @@
   },
   {
     "name": "deepin-image-editor",
-    "version": "6.5.0-1",
+    "version": "6.5.0-2",
     "origin": "arch-extra",
-    "sha256": "c9ed3f413c6935b20d7a85907feb1c6e9f7052c53e02eec8dccc0c2a52bf6689",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-image-editor-6.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0fe1031b5c18aa9c4b02a24ed4136dd0f5323139304d3481dfb4f1ec50a0ac59",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-image-editor-6.5.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "dtkcore",
-      "dtkgui",
-      "dtkwidget",
       "dtk6core",
       "dtk6gui",
       "dtk6widget",
-      "qt5-base",
-      "qt5-svg",
       "qt6-base",
       "qt6-svg",
       "libtiff",
@@ -24451,10 +24453,10 @@
   },
   {
     "name": "deepin-image-viewer",
-    "version": "6.0.1-1",
+    "version": "6.0.2-1",
     "origin": "arch-extra",
-    "sha256": "cd33ac279bdb4e0a3171972c5df79104966ba6ce50d5bf3dba9676dc70e16f4d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-image-viewer-6.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a973f2d0b85040b6c3f720d19986fa7dc025a4007081d384fac54cf944294847",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-image-viewer-6.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "deepin-qt5integration",
@@ -24626,10 +24628,10 @@
   },
   {
     "name": "deepin-movie",
-    "version": "1:5.15.12-1",
+    "version": "1:5.15.13-1",
     "origin": "arch-extra",
-    "sha256": "2c4072d8450d527368db09d29dde2d6e46345c326dcc4b8c099b6267c13227e0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-movie-1:5.15.12-1-x86_64.pkg.tar.zst",
+    "sha256": "4704efa2eff6d98e9d51c7d0e600de2be5c095bf45dd659b2087fdd65ce82c0a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-movie-1:5.15.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -24658,10 +24660,10 @@
   },
   {
     "name": "deepin-network-core",
-    "version": "2.0.88-1",
+    "version": "2.0.89-1",
     "origin": "arch-extra",
-    "sha256": "114fac1e1fc3cc0c31711a835d996d318e0412a6354538704cf5ffab90b11d97",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-network-core-2.0.88-1-x86_64.pkg.tar.zst",
+    "sha256": "acb5b5e17ae6516ee0593502bf2309e98786820821f8d7ee6a68b5889a09c1c2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-network-core-2.0.89-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "deepin-control-center",
@@ -24682,10 +24684,10 @@
   },
   {
     "name": "deepin-pdfium",
-    "version": "1.5.2-1",
+    "version": "1.5.3-1",
     "origin": "arch-extra",
-    "sha256": "26acc814b4171cd112157933a6747aba6aed60a1d48896c0801f0b13d62b2ede",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-pdfium-1.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f73b189f3f5e1fd0322b510a9b819b41d1df673c10a4ef438f1194d2c25a5f44",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-pdfium-1.5.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base",
@@ -24900,10 +24902,10 @@
   },
   {
     "name": "deepin-screen-recorder",
-    "version": "6.5.3-1",
+    "version": "6.5.4-1",
     "origin": "arch-extra",
-    "sha256": "8a854f480ca1deb623ba737faa2b39c6cccbe8bdbba4f87d634d91d95a822b3c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-screen-recorder-6.5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c76a5a9caacb13f9b9155efee59d8b241a68993156a4f374c202585acbd73acf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-screen-recorder-6.5.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "deepin-screenshot"
     ],
@@ -25047,10 +25049,10 @@
   },
   {
     "name": "deepin-session",
-    "version": "2.0.29-1",
+    "version": "2.0.30-1",
     "origin": "arch-extra",
-    "sha256": "7d36072d9ba73ee522302aafbb105fbf4b39126d6259552b909b9549f71a9214",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-session-2.0.29-1-x86_64.pkg.tar.zst",
+    "sha256": "5035c3b82ab987bb907f058074bd1d54ee4753f61735a933882f1c02281ab137",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-session-2.0.30-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -25127,10 +25129,10 @@
   },
   {
     "name": "deepin-session-ui",
-    "version": "6.0.43-1",
+    "version": "6.0.44-1",
     "origin": "arch-extra",
-    "sha256": "32910f9c9850a981fbf1d2f83df65c22cd86f9b77534e7cebd7416c46de16bbb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-session-ui-6.0.43-1-x86_64.pkg.tar.zst",
+    "sha256": "73f6bea9125e4d184754f8bdf5f01f8dde911cafcc1a3fd6acf3bb34807a7458",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-session-ui-6.0.44-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "deepin-daemon",
@@ -25360,10 +25362,10 @@
   },
   {
     "name": "deepin-util-dfm",
-    "version": "1:1.3.0-5",
+    "version": "1:1.3.1-1",
     "origin": "arch-extra",
-    "sha256": "e32909d2ee08c8a1ac3f7f5aab6f8e08f7d36c9a2d5fec762e86a57e0595b7d3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-util-dfm-1:1.3.0-5-x86_64.pkg.tar.zst",
+    "sha256": "f227ad5f856c2d7e88eeee49dee53f08fa8b8af42184144f64cb8d7c2bd64b92",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-util-dfm-1:1.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -25382,10 +25384,10 @@
   },
   {
     "name": "deepin-voice-note",
-    "version": "6.5.58-1",
+    "version": "6.5.59-1",
     "origin": "arch-extra",
-    "sha256": "a6b58a4901a3e69cb8972c93294788c6aa22679028a98f1042d583c21e0495f9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-voice-note-6.5.58-1-x86_64.pkg.tar.zst",
+    "sha256": "d8db0846e3968b4f7f9214ec3bee29ee7d89142347d0aa986592a35cea90bcd2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-voice-note-6.5.59-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -37484,10 +37486,10 @@
   },
   {
     "name": "firefox-developer-edition",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "ed374eb5b4472c1a6be159e394f8b6601cd110ac5ce4afe6967f34b9a713c93b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-154.0b6-1-x86_64.pkg.tar.zst",
+    "sha256": "77781a4c744348fb39186316462b6803ccd0e177e0a674eb4754c188e1a7efec",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-154.0b7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -37533,1339 +37535,1339 @@
   },
   {
     "name": "firefox-developer-edition-i18n-ach",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "3c19c11d62386ab2dcab819055f4aea2075e8bf9884b3ce45ce0194c471a7fc5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ach-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "18de89a6536d0678c2d3a7427f93b22dcef1d325e4f0ad8fb31aa54eecfde8b1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ach-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-af",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "7c4a38587488b05b4f155d447a26ca7dfbae3ce69c3f1e364bf5e31410c15632",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-af-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "67c04a471747f664b87385c4868ed51fb320e06b25efefe74cb084f0e51c14e0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-af-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-an",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "3357a06d72ddfa6143fa9a53c6343975e81e1101425fbd51b3bb94534a36a532",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-an-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "c74cf174ebd9ec7fe55e17e0849e6d86bc427d563ece09ffdc1a3c96e86cf276",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-an-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ar",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "94156d82e0154de18bf23d0172296a082777d29ab67dd19753df221ef9dfb939",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ar-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "44b5c6b1e2876f3a97d6ecbc496ce7287502eabf60f8e4d753e660db56750a41",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ar-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ast",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "cf7fe3220db8156f8e6965581e841cb787c278d5339e8ec8e45a5a5f03dda87f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ast-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d1d1c747a9716a46af73efce4779b512c1084edce40c8ead5c5501babf70a140",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ast-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-az",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "96f20034cd0f62e241373de6f2c918a60160f39296fccf064293221c6e426935",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-az-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "effe22c5691c10ada97a8330daf09f571f8597e50933b5eae32412b76784be45",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-az-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-be",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "f6211df978a07beb18f231282747af2a9e9e8080c37d1f73a7c005590f5af25b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-be-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "ee305cc851493d6572c46e94df89a5b46cb1a2c3d9d666d36c3e057ec451d8be",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-be-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-bg",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "46d789ae02e773ce53bc2bd320923253aab4ab93aa2ffe0a2e191a35c7dad06b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bg-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "69cc900787fdb93b3fb512f022683155540c52639094bf56ac1bb97d9b846f85",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bg-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-bn",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "f3e1eac1662581485040e75e8050ec4961da5ad7c8afc73a9bf3e2d1886b70a7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bn-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "398ac303f611363f4156a7aab8319e35c92b9e8f480cffbef553d3b850d309ef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bn-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-br",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "db68f9f241f9b871f26b0d1974be8c1d315d7573c81a5f47ddb9fa910245e41f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-br-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "94d498e8dce90a6e9130395930ed78443874610bc05d54085cdbe28f3a66728d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-br-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-bs",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "4f46b5ed0abbf5f62669aea4baca72d1b11af4767ae9baf6989a58810c927833",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bs-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "1fcd1595f985ce8d621934a5d80b4c82d67ff8dddff0ce1c09840b701fe988c9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bs-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ca",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "6430312352e8188ffab54cb5ddfb7e25a71c940c94fea9484baf2b52c42b0756",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "993d610eaf723f60a01c092d2b4946d74de6949299245ea811adae72cd97ae0a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ca-valencia",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "2996fab9b56ad4059d4ea1af2d41386bdc3194b16ad2580220089ae7ebead602",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-valencia-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "6536709a1368f7ee0327e786f44b803854b414b6e40bbb8c7cd9835e99bdc50f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-valencia-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-cak",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "1c5da0c766847e8e5959d132196284194e2b7d3c6dad6d01f5db4797d199d7c5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cak-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "eb7853ee6db909c02d3fb7ca8f8f21c22f6c7a090b989aba50e0c2277b0edc87",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cak-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-cs",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "c0b90815195c81cc7c1998bc66488ce973d89a1b7620a7d55d4262d9805dbc0a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cs-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "69c402f3b485435b4fe3edee0cb7906a0210725929671375caa885b6f6981773",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cs-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-cy",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "16953bd4fffaee68ffa746ebbf42d16d3c5d00d0735232728af64aa02cd2eac5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cy-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "6f2092c7c59c612e9a74596a71ad3106e5f37ede9791f1c4645e0563ecfad465",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cy-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-da",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "3992384a194398bf6c07aaf245ae030244adc059533645bd9848503d6b6607eb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-da-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "3d93b25c02af9b8e6b8fcb23a3c74bdf8c64726ccd1f7a7bc8fe2125c09301ac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-da-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-de",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "d8615236348151ef3ba7cd2ecb6c7c41a1ee1d2b27e181b413d6abc39b1d1832",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-de-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d505a2f1bec2c2f273d61a4ebb634cfd793e9036a03d90d2fcc850bfc0e8227e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-de-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-dsb",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "72750f185968065ae23acc3f7c6b9f6d0223c243caac0e94ad088f010f1e6f68",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-dsb-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "87798a737ce1bac810136615c7ccf864963c359e97a8f16fa9d2041593b83722",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-dsb-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-el",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "376dee7efbbcaed780c63e443bfdfdac732dc0b3cd6256e2e3f48be7acf649ed",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-el-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "346ed5bfc58c7f18ba38f4dd981870181444ef106d3e4398f76b038fbf813133",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-el-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-en-ca",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "0d905008d21ee3b5f37ba0b35c4d9a1894e06d747c5b5792a850151e0592b0c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-ca-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "927fa825610ceb872c78e554dc802fb917cf5d3db90f4c649e5fd17100592638",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-ca-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-en-gb",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "49dd686029a4c8c8d81882e7f7a43f70653f5ad9aa9f28f47ba9bcaa671d375b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-gb-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "128839eee4278d75044e398937a2af849acbf975126d6c3b395c91c7511cab38",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-gb-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-en-us",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "0606ee398d81e4cc0107095e0cd1b202901a03dfe5bf640e2e34e0ea6fbbeeca",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-us-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d303348a935cce78f4a8c2f158b914789f39bf0a7f540a08fd5291961387dc31",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-us-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-eo",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "744b69a03479211dce3db2879d5181f29d41f5f4965c92ae772d6d4e93b4cca9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eo-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "b482ae108e91aa31776269c2647924d60c396c12023a89d32b18d509b96acc85",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eo-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-ar",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "b05138de0351b03403c6c2e477f21650619f170fa4b03f2adbe4f56eaa81b3d1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-ar-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "7f55707dcf3942843e3f84dfbad407833b765943f58cf40960dd17cf2787740e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-ar-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-cl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "0516ad5be2bc3e2557b8709afcd389057b574d34af117bb53a4e2855f7f2011e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-cl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "a7dcd97513c78a1f2613bfc9b76974a608801dbfaf0173d7b02e46dc4b98e228",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-cl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-es",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a483134a042e4d5e1bb4fba5dec88b1f825f7b3fa40fb8df0bb715871c6a0beb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-es-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "c67a3301f760212739dd96bc310c4e45231676eb65ff8bbbd4ea830b00279a72",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-es-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-mx",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "34cd6a47d4f7114b94f2f5c4798b8acdd6fa307d5ea0edd5721fb5634f28eb78",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-mx-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "b5fb13cb8feb7ef57e280b4bbef5f3d08106d5d8c82257612f1e2dbc5772c899",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-mx-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-et",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "53110907df0fa2a3fb013101fa3ab3820a7eb3c9ad7d35dfd8261422f74da454",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-et-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d111c1b367dd43885cba639be0e67390898a1e534e7fd3e039691a72b05f47f9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-et-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-eu",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "4a5240320fa28afa83f497445706bd86e6181ab6e8ba0d90f2060096127cc037",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eu-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "bda4f97c86f9310b7478ec2d5dcdb34ca8a51462de87b19ac13f53aa253d1162",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eu-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fa",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "6081670757a4b9836c40abac9d220d3e3f3b12b08abe0da7d7c5f60704531b85",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fa-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "769ed754d1c1f64cc5294835be0c8412c178f7992e88b495db7af1f9c9919a56",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fa-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ff",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "b68d79e2b689461af82b07fc74efd2e29b2f557bbe00dfb99468494a1b129c77",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ff-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "e9de5b6a71b823306c122991bf5d7488f5edb2ccfd338d789e32720a40a0b8dd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ff-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fi",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "1253cccaf23f33979f2b4e13c7aec6dfd44ca8a195abaf494f8394cce81746a3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fi-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "9b49330c36de4153b335f82b410032380c29089af003e3973c6d663ed360721b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fi-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fr",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "daab7227fe2bd199d15797bee3f6f230dc023f35296dc61439419671842dec6c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fr-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "9eb52718faa31d2270886e417a3802ba2b1d48005e1c2fd2734c8ea827682eb2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fr-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fur",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "5d85cce6e1e76debd04d6eb093a9ffe75d1fa6a0154b2aa6f9dc2473a72565ca",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fur-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "aa90d12e3ae4f198f5f67a5d68253b1abe1554e88b0090d00039665c79cb46f3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fur-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fy-nl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "764bc024c218f342d649016cb0d6e99d09efd6929a06cbdddbdc650968618ce5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fy-nl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "edffbccb8d558552393dce71a5ffc450f43cc2ad47a8e739b04c739e1d25accb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fy-nl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ga-ie",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a4c7f06e519acf232f1587f0aa6085a58608a1b00b3452541d327526590cb194",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ga-ie-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "3e0b4521ce4eaa66e063d906b039f7a6f16af17dbbb1925c4f12d40e5b61fdcd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ga-ie-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gd",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "e97b21c2e00afe7f3080f35bc01d4fa8f9b80493964eb2f29c1733c2ff8b068b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gd-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "c837ffc51a5ef0fe707c7542f8f2a603771c82548f05d220c0d266adb0a0efb4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gd-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "f091f5850249cd3df36548ece33a56a2b4f3818424c5dfeddb26b229162bf5ad",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "36e14e46e275d1868fb2a8da7d5573fb9b617f6ec5c82e2a5752b91641934202",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gn",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "7aaf55bd161542bff9db28a7ee19a12f38476d49d4a83f539f5a695c779319c2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gn-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "61c3917190fffd7d9c22d3b24bfa1aa07752ace5566995b090862ddb88a1a48c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gn-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gu-in",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "8e68a87442887772715b5f48d26b9908befc89959a1c2a24c6c631a0f17974d7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gu-in-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "849fd6d0d839fb7fbaaa090614e00376630fafb7b109795062f1bb8177a48352",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gu-in-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-he",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "3b299f229d45289a9954a55d5bfc306029fe45b7ce87d9179da66130d32d6812",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-he-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "0447b74ebbfd4f11d90676ddc839601d026ca15fd06baec23092f359f0ada707",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-he-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hi-in",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a82b05c415d724d1d3aaded095064904850e05c6500d5dd3e64225d2b28af845",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hi-in-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "15cb418d29dc3f65675c0a26d45f5a5cba2f6829d6cbb5cd032867901f23c011",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hi-in-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hr",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "85a00a0b6a23955b9ea807dd77c2c8ba6afe0b8dbd54ea6932622c93de8ab510",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hr-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d2a18c81290db0326722de6530ab5a715b822b102a8630297d3e738e91f07807",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hr-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hsb",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a774dd233e2ac2bc35cbf89eded7df46e5fc24d3dc9d3866f43f14abce6b4781",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hsb-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d4ac84b9881176ea2baca3ada04f24a685db61e68b51ec45b279bee5a981d52d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hsb-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hu",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "95250ef32a2c708481c1adfb0d2c11de8477631eef6b13a5cf2cb0045faccbe4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hu-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "a155d317a7dd323c7203ab0c9020bb45bd52227abd2bf0ef5741ccbb8b2fff23",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hu-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hy-am",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "754bf9cf07102da6d7a02dc4153ae2e5bdf30538ee9dc62fa824932081a61f6e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hy-am-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "9fc2b775bd4b44477e96a18f1383070ded74483dd1c57e244355be3ce6fbb1ec",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hy-am-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ia",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "5c05071a756a0fb3fdaaaf828656b9f397bdb810192d8a1ec473adf6d22a10d3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ia-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "f7258a7ebce477bb32a3f678b82cff9fe67c0240dc797e30063ad13500ae04f0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ia-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-id",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "7f51a31588726ca87fc73681ba8da669d25e37fbe8aa6070d07444ba7c0e524d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-id-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "22e47e70f2c0d8cd95da1c25781695c3169dab469d84bd3da201123533171c35",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-id-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-is",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "146427d718d83d729d1092c19f8a02a6efcb3d0818f89bdb8595da46b4ca06eb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-is-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "f551008244f97dc22751b955601b25f8ceb4c704809c222a692317116ae2c7f0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-is-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-it",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "16d505cfd4ab44c9ca1575129495755211fc07e00946fc56bf6dcc237f883b6e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-it-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "31268e76e1e0bf37b5c7e0b76b5b29f5b563b9c0d636cbdb6120c060149cd34e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-it-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ja",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "777084e72f718f845635da77e6857450b4e209cf5949ad508c41ae67214e24c2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ja-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "c37a261835cea5fd2fd187a21b8e3213f4dd2f6f70edc9df0d60c737a95331dc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ja-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ka",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "bb9e50c63f4623714079ae7ed36e7186b9861bf48cbda2a5653301ce53a8e504",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ka-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "1e31afa2ab95d239572d94fffd84713d2de1d0778f3bef40de4bb78b085cb805",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ka-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-kab",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "b42455f1d3b8ccacb406745d3d29a28469d50c62782c48f79ff4b21f3c7b20aa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kab-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "1e4f2a27b621930616e806d61b5240af2120ec6fe6998efdb32b000899477bb3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kab-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-kk",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "242658127c1c42fd013fbaf6380d434ef85ac8fa073f0f4985605bd1f8998ab9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kk-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "40ac95a979d420a823034a8be61f6b3918f7339979389cbea8f7c9422ba0fe75",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kk-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-km",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "261f17fa655c3590247e1a93209598533c398c63b8f5ac4182a4957269c1fb18",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-km-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "44d519046828870e8802fef566e0e7a12e44d493dc26435f2e484849694db714",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-km-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-kn",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "6c8183bfe0717a2e0f21735afd05486d5b5eff31f0d13aeaa5d3f41e2c84b254",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kn-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "77de06bddbf872fd51b596b90efeb20251545cffee725d6cdefb72461d81ccdc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kn-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ko",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "c49246050e4d66c16e0310b942e75330a2873805c4ac1de11af9534b9967646d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ko-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "38fc3df3b6350e8cff6df55ea48bc86b5b564bf4e4ad33d2e070b6ae9c60e39d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ko-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-lij",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "f4bec5d7c1461c050fc2a5f8395eb252e6ba18d467655d361364b82e3093bcc6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lij-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "05b8e6c0d079682d9453ffbcf6a8c9afcfd4cabda3e6b451d7d288995e6fb235",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lij-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-lt",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "576a784455a50b2a01798ab5d8fb8266349d5d9446c4b4adb88b8cbcdcbe2848",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lt-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "172f8a517372cc78683fb1e60cc1e97ab53cbe95075e962e1ed09c59d5a8a59e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lt-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-lv",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a582f56ee3c3ee3122f6ab77df73fcb6b4363bd8e84436c75d049e6d04b224d4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lv-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "fa13e8f264ec86880482e8553bdd50852f802b69dff1230307f17bcbcc82d6da",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lv-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-mk",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "62c6265a1e4e79e6f76d63ab9cf23466bda1d57ab0c117f2e49a4ffc11de745a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mk-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "bf29147c24e33e23b3a7a1b8215cc936d456e1529afebf50e60289fdc63001d4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mk-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-mr",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "116f699121ad4a2c1945bd93d04012ab7dfebe7de4801d984ac4a0e1dc7ec664",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mr-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "07fe97adde301808bbb1c81c82a775a4d35d1bf1cf0a21c1598f64e7a61b3d6e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mr-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ms",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "5f26ba6eb46619589bcef113eaefd67ee64d99d8bc2721d9f5c40f7020f0383f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ms-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "5dcc444eb1679eea2e711f87a5f0a642eab1ceabb80f10803d0bc6a0420c1e7b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ms-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-my",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "54b992f3ae6793b595935b24a77d0a8ae59f1bb32b0a8cfd812e5a0817197e13",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-my-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "4464bb9499e95024832966a14a8412bafd8dd25b874b9819cc962a4d6d9f5434",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-my-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-nb-no",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a655000560cae8410d20343ecb955317ed83167b136546b84c91f4d79288066d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nb-no-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "39208355f950d4a406fc08a8824facbffbf5f97b5b0a4565b85962fed2ebb0ec",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nb-no-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ne-np",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a2c1f5a857b5144410134e33a5f10bbd4d7e5cfbd85e177227df0fd39ac4ecfe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ne-np-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "1aa8002039053f6f2a030821845169ce534f966f90e43f71ea98b66f48d2f4b3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ne-np-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-nl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "54eb90d0eee1006986cb24fd711bbcc15ae5815cff1cf67f51c7354746003850",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "543f77d01b637d6474de23e2c5dc1bb6c3fdf3d03075b522e0c0427eff0fdfdf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-nn-no",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "f6f0264ca079ef4d8042ea1e45517685a4954add6c84f8eb7ad459c7109ef659",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nn-no-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "1e735ce5005e82f8e217736b1009fdacc10772c201101c0b4703cad6c3470f33",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nn-no-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-oc",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "d593291327b76fdbf8a17565b8c76231625a2732bd17c83edc7e5a0ac77d77a5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-oc-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "c7333828012ad8428f201a970edb051f2610ee3ad9787f180dfc19ec0c26813c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-oc-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pa-in",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "8c167699d7f24cbb42e0b7dd4d9a457a7fcd72e1e9407de6a7addeec5af8ca47",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pa-in-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "4c840eeeb6b023f8332aa9238073352d77ccdf489a2fabb4cbdf56553b7bda84",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pa-in-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "b7d833ed234739ae762481a0135c0260a87d9a3b461c3c3626e4213e9f8f57ce",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "980cf7fd08fe80b2768266482714b2c4ee633f3e0aea9b062c5191ba6e910821",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pt-br",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "e787f0df97a6f8995407360d08f36d079e3da79b61dd31c27a22e8473cf7b2ed",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-br-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "4f86af0dee0b84cc5f7beb4f79627f8b556a6d873ce001f6776dfc11fb5b869b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-br-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pt-pt",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "cbd36380f195eee1367321d342bb08d263a72ded00d615a2eb68f723f81f404e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-pt-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "fd41d2ecb01d7d5c6ac69cfeb20f901256a88ca474e90bd852d986287ea8afa9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-pt-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-rm",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "9b256a17012530714cd51501351d9b5a3cef6fba917cc70c04247b9dda320729",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-rm-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d1cf72aca8441e091653b3910bc35f358f0f12c21ae3423442de0a3ac4d7ec30",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-rm-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ro",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "bd20955896dde58cf0caf09d920bd9ffc016545251ac0a40cf44854aeac06143",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ro-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "2a3ee1184380156e8489f865bb6341e1994f1bf49f34d274214ce13c062515a8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ro-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ru",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "7f58cfee57f0bbcb78fe386d925a93cd1ba2c50cf0b682387af0d273f66c4063",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ru-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "abbcf7d32b689013d428fedec311781c506ecbbc0955ed941f4357df798f2e89",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ru-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sat",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "34533729df3ce8fcbbdda1787b879e7f38317cfd764b6fd4ca31c10b2d1f1324",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sat-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "79738697ced870484ab2f9673ff2ab8849fa9e3c8b8f12b8c608dbe5ce5abf2e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sat-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sc",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "77fb47812ae3ac6f16645bec3674e0f26b90598654432cff0e6dbf7f92ba9180",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sc-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "35e2059b4baa6779e59ec4b9dd17ee67ace999efa6b424a9400193a59d450e32",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sc-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sco",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "e11f85f7b277e58f7f41a80ded72130fd4f20dd0bf62bb0105075a975dad92f4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sco-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "35746c9260051ebff94005e41c9d5932a039afbdad39a13d0fd262f7c73d54ca",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sco-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-si",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "ee87eaf353d40f71d424c4ada2ee3a6ac553224f6f54b9f263fb51a9f64b2070",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-si-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "faf83fcd14026f3497288cea25a73bdd6c3a2ea4739f27461e618cb64a2b690c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-si-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sk",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "34804e071218919223857e041ff8d8d74ddc5f5b02be3deef67c8b38fd97fb10",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sk-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "1d70bf367502bad69973d3b8890f4f3c6c068ef2ff20b4084d7c2048a409815c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sk-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-skr",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "47adcf4a7f9645afd246cdd3a39577d05b15709899c921f4a7b2b69890c210da",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-skr-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "f761eb3ab1aebffa69232a3b41c9633f461f74aef4dad6213b8ed0f95164227d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-skr-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "49f5674604f29a0ddb35211d73548705919487bb6d014076f09958653b0ad45b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "0abf193a7d9be87b7a75c22e55810e1bff17cd6b0364cad52e91ce977d37c0bf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-son",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "965a865f8f282cebe6ed1ffe3f378af30eab0334cde8f02cfe4d01dc5038251e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-son-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "8390db44d0269e3ef4e0e4cf87b316ed5634983674b9e519b2001c5d75b726fd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-son-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sq",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "666e97a95044b403788cd9a4a7b92359881551955e89ccb39bdcdfcec0f07be2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sq-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "50b2eb3791ab783356dad2ef5def27dd4bb21b008f501fd5e50d962605ead231",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sq-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sr",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "cd41b8fd818632ace647752faeb6fb6b44b65dd27a676aafa91b988ccc18a35c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sr-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "8524a1e618f2817e3b1f22f30b323a424f03737f864bbfd097d5593a9c449542",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sr-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sv-se",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "3ebf3fc0a8efabab79bf29260233518154e3e8b288a969fe5053c800d0c04893",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sv-se-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "52b70016bf77ff2e07fad3e3a40516af659f3c32d160d1db8faee6e462a97881",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sv-se-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-szl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "0b1fb7bac7b514c32df6eb5565f61c471e11a440bc24f64a39184c94835b0e9f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-szl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "e00726c816d83088c1398243ec14e669f08d99aae02e1f09da8108e444fee8f6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-szl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ta",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "c0353ef8a7601cdb5a7dee4f7f9393d7ef34d64a95c960a8f1818b226baa5885",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ta-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "8c7218cd83a39d9ee1536ac9519941d69a629d38f4bc4e3539cb780efdb5d47d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ta-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-te",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "48193cbf0e705ce5d9ba48cef63ccd9604454f41d52daf103b2d205e7eea7cb5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-te-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "167d582dcdfb8c28e986e865b6844fdfef1191f9b7524c7347b73fa9cf0137f9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-te-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-tg",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "14139db1002d43b6021b5131580a9829eb5861aca1573040bb8b29e399241456",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tg-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "d94681caa3544f10967d2c70aef5204b96b8d7a98ecab2e48bda0a0841bb9b32",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tg-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-th",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "1299b72b52494ff5662c76f60c75ed7934541fd36474f86a842ae69f35147173",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-th-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "0d09dfae45706febf13e541854fae8171d1cf8aaedafd2a12217f9b8e7adc456",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-th-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-tl",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a2dfd2349df02869ccf9cf5acd02a770d172ad51fd2cd238b257b66a85091111",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tl-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "14c9e8943e36b7878fc809c0eab7ad4427ca754ab0695251266e063b32a228ac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tl-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-tr",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "837a67d913ed9718a185c019f7f84f3d3d100b42629f4add89812241e5fe03cd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tr-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "ecb2bf02774d3d0a057e20d90d9df4e64e298f0c22bf0fd1231c2906989542d0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tr-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-trs",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "fdda6401078899a30a05b3492b07830dc3ae98c747d807cdc15f09331ff1f3fd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-trs-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "600a8d4f74321a873b2d8481541e98e3f9cbbd5724e006e8eadf45df62efcd39",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-trs-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-uk",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "298972454e22a0be0cca41cfad2aaa8f8dc0649cef6de6e6f9afe838c8d1c70a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uk-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "b19b75c27f138d6a070ecc68994cb158f45749b6b43f4cf1a1f045e43e1b88b2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uk-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ur",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "042166b1a143348fc2d710325c60004453ce0149ffa07b83cd1c9295e14d5206",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ur-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "598f7825969cd9b710f526cf83a9cc3b476b2b4c88db76ae02da7fd295afed84",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ur-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-uz",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "52bf67b75572d7db5e04232f4110377ab3ebfa1bc08448baa2da2feec403d767",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uz-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "58800a125019e0ca0ba9acda80d9ab086f0ea040640c18220438f2872fcab290",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uz-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-vi",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "aa59365e30755f729b21f30f78e197a565eb670a911940e2e394a55a03d82c5f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-vi-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "ebe4a0b2d50b31d45f0c2b9dda831b04aded001e34b7689cb0bf5b0f5f9eee39",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-vi-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-xh",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "f9097c84c978d79c648d05c652a7f98fca06a492c1d5c94945425a5914d174dd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-xh-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "c3bbaa0ad18854cb70147ad70eee0d8381d401642d1101b073b0ea943e279ae8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-xh-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-zh-cn",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a2cb3dd379045b13958f3c7f200f91d2ea7d8b266a7a971d7bc10554f1839007",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-cn-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "a018551fa00ab6763a33e295b15739eaa5b3f144dd8570da038ca1d497269326",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-cn-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-zh-tw",
-    "version": "154.0b6-1",
+    "version": "154.0b7-1",
     "origin": "arch-extra",
-    "sha256": "a3bd8f81548d6ab36aeee0572785019feb2fdda41fb1370076204379b01b67a6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-tw-154.0b6-1-any.pkg.tar.zst",
+    "sha256": "ff9ea1f7e8cbac9b8ca4ad37e74ea0dae8756b7cb249fa1fe09a19b7bbc338bc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-tw-154.0b7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b6"
+      "firefox-developer-edition>=154.0b7"
     ],
     "optdepends": [],
     "conflicts": []
@@ -101606,10 +101608,10 @@
   },
   {
     "name": "lemonade-desktop",
-    "version": "11.5.0-1",
+    "version": "11.5.2-1",
     "origin": "arch-extra",
-    "sha256": "95cf09476904de19e81f5b3ef5bd7f8cf3f9bd05191605111d4ad1c32cb1c05a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lemonade-desktop-11.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d6ff24863fbd267ce46f950fbb4fda35ebe963ec229fc8d86ffdf3a9755fd086",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lemonade-desktop-11.5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -101626,10 +101628,10 @@
   },
   {
     "name": "lemonade-server",
-    "version": "11.5.0-1",
+    "version": "11.5.2-1",
     "origin": "arch-extra",
-    "sha256": "6a1b18ac45b4d863a63d4a73a4c6e78f37022a6e27961293fafdfdcb60476b35",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lemonade-server-11.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6bb3dc95c480c4190dd0c33be8c11c7985672ecbd4e1c9fd89a4253efd1d3f85",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lemonade-server-11.5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -128669,10 +128671,10 @@
   },
   {
     "name": "marked",
-    "version": "13.0.2-1",
+    "version": "13.0.3-1",
     "origin": "arch-extra",
-    "sha256": "1098c830a462ea2758af7ea1d5c0d6c5cdb40ba7df7800ac1c319e889f27809a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/marked-13.0.2-1-any.pkg.tar.zst",
+    "sha256": "8d1b207c27a1107b3d36ef6e48100c5cc76fce9286bf6718c3b912d4e68fa66d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/marked-13.0.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs"
@@ -136835,10 +136837,10 @@
   },
   {
     "name": "nemo-qml-plugin-notifications",
-    "version": "1.2.23-1",
+    "version": "1.2.24-1",
     "origin": "arch-extra",
-    "sha256": "0ded55dfffa017f2b936353331f1842c0857ac1885c4dc7a40b1936ead7cafa1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nemo-qml-plugin-notifications-1.2.23-1-x86_64.pkg.tar.zst",
+    "sha256": "9ce79825f4a70e16284e99563bc4d169433d7f401ef9a7409d40e20d2b7f5aa8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nemo-qml-plugin-notifications-1.2.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt5-declarative"
@@ -176416,10 +176418,10 @@
   },
   {
     "name": "python-faker",
-    "version": "40.28.0-1",
+    "version": "40.28.1-1",
     "origin": "arch-extra",
-    "sha256": "badcb4ca5b3d936f65231007315d99f04b7b632af3b35a3143cc1c6148330691",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-faker-40.28.0-1-any.pkg.tar.zst",
+    "sha256": "865d1a7849a51c6f15cb1e3ff73323948486d1ed45c1616af2545478d43ae2f9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-faker-40.28.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -182558,10 +182560,10 @@
   },
   {
     "name": "python-langsmith",
-    "version": "0.10.5-1",
+    "version": "0.10.6-1",
     "origin": "arch-extra",
-    "sha256": "944df204e4c70088d8657df31cc470f4b295a866fd1642281453cce6b65d5fe2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-langsmith-0.10.5-1-any.pkg.tar.zst",
+    "sha256": "414f82c5bc209d8d7b1ffc3f91f850214345dab1d554e3f80b543e71c43e2414",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-langsmith-0.10.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -183235,10 +183237,10 @@
   },
   {
     "name": "python-logbook",
-    "version": "1.9.2-1",
+    "version": "1.10.0-1",
     "origin": "arch-extra",
-    "sha256": "a66524a058138ec8d923889e3d2e460b8cdb2c03bc4570ea5ec53fa0f63278da",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-logbook-1.9.2-1-x86_64.pkg.tar.zst",
+    "sha256": "caf5a74187a92b6601426c25e0a0c330946b0b53e7ec4afa737b8f06262f4af3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-logbook-1.10.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -192686,10 +192688,10 @@
   },
   {
     "name": "python-pytest-django",
-    "version": "4.12.0-1",
+    "version": "4.13.0-1",
     "origin": "arch-extra",
-    "sha256": "62e99037dccdcf66797f86e715574b253bb65419757ba03f43a67e806999560a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-django-4.12.0-1-any.pkg.tar.zst",
+    "sha256": "68cee6a79228750a8c2efe9ebbccf07f29d1fe155b6654dbb7030373d1cef596",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-django-4.13.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pytest"
@@ -192779,13 +192781,12 @@
   },
   {
     "name": "python-pytest-forked",
-    "version": "1.6.0-6",
+    "version": "1.7.0-1",
     "origin": "arch-extra",
-    "sha256": "657b866ee9970a8c5cec8eae2f6cd367da42e7b0605c95b299b3eab3c0d3ff4f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-forked-1.6.0-6-any.pkg.tar.zst",
+    "sha256": "816345e4ecc553665f08a31fccc1c43899820af19abe79316ebaa6ae8e8ce9b7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-forked-1.7.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "python-py",
       "python-pytest"
     ],
     "optdepends": [],
@@ -198167,10 +198168,10 @@
   },
   {
     "name": "python-sse-starlette",
-    "version": "3.4.6-1",
+    "version": "3.4.7-1",
     "origin": "arch-extra",
-    "sha256": "b5b00a0ddfc00695a5bcdd2ce74fb65b7dab1fe9a7dd36975956bd80682a059d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-sse-starlette-3.4.6-1-any.pkg.tar.zst",
+    "sha256": "ba11e5786c5cdf3314ddcf6b6a476a8a30c3d562be7fd99adde755ed4b9cb1d5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-sse-starlette-3.4.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -198919,10 +198920,10 @@
   },
   {
     "name": "python-syrupy",
-    "version": "5.5.2-1",
+    "version": "5.5.3-1",
     "origin": "arch-extra",
-    "sha256": "bdc20370b00653b9ef8699073808e05ae248f0f9da3b228e97656ffe18752d22",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-syrupy-5.5.2-1-any.pkg.tar.zst",
+    "sha256": "dba6e6960a695108ae27fc2457fca1184c47636d7bd8649e98c2259c32ab6180",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-syrupy-5.5.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pytest"
@@ -199115,10 +199116,10 @@
   },
   {
     "name": "python-tenacity",
-    "version": "9.1.4-1",
+    "version": "9.2.0-1",
     "origin": "arch-extra",
-    "sha256": "418f8a5b1b0d5b36392edf3e1c1bf74f4ae8e1591464fc44467d40f85372cf2a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tenacity-9.1.4-1-any.pkg.tar.zst",
+    "sha256": "88a4555f2bef9a1d4dcb253f6d42974c1f06dbd12de0190b0a82542f8df937db",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tenacity-9.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -199679,10 +199680,10 @@
   },
   {
     "name": "python-tifffile",
-    "version": "2026.7.14-1",
+    "version": "2026.7.31-1",
     "origin": "arch-extra",
-    "sha256": "7e7341670dd2561dcf578d6c44deafb9ebde8baaa664a04ac225019e27cbe119",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tifffile-2026.7.14-1-any.pkg.tar.zst",
+    "sha256": "def367c2bba9501f7fa965d1dcdd11647d08e3e35fd71e78c098c2cc627373a2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tifffile-2026.7.31-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -200155,10 +200156,10 @@
   },
   {
     "name": "python-tracerite",
-    "version": "2.5.0-1",
+    "version": "2.5.1-1",
     "origin": "arch-extra",
-    "sha256": "f70fc5ac875625715ffb72e560dd90be814564ac054bed91c9c1ded282bc24bf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tracerite-2.5.0-1-any.pkg.tar.zst",
+    "sha256": "f90787c729ef709c9185122048ace47ee57ce51f5c33140721c87e50b7085768",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tracerite-2.5.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -200247,10 +200248,10 @@
   },
   {
     "name": "python-trimesh",
-    "version": "4.12.2-2",
+    "version": "5.0.0-1",
     "origin": "arch-extra",
-    "sha256": "94825b59d6361df73d436836bbbcb6ca16b5760a11360079ed4d41df50550671",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-trimesh-4.12.2-2-any.pkg.tar.zst",
+    "sha256": "3c7d831c08642c1a582f4ab9877cae481eafb74b730857b03d23773e9a38355f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-trimesh-5.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -209892,10 +209893,10 @@
   },
   {
     "name": "rdkit",
-    "version": "2026.03.4-1",
+    "version": "2026.03.5-1",
     "origin": "arch-extra",
-    "sha256": "b1d3131068ba6693d06afb0379905dd3add28a1f9984bdfce53a7c37cec0fa96",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rdkit-2026.03.4-1-x86_64.pkg.tar.zst",
+    "sha256": "c5abde78ae057252fb7efdef48347913cc119a5d84b49d2729b770c8ec064c2a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rdkit-2026.03.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -216581,10 +216582,10 @@
   },
   {
     "name": "ruby-cucumber-ci-environment",
-    "version": "14.0.0-1",
+    "version": "15.0.0-1",
     "origin": "arch-extra",
-    "sha256": "27c45f04073bf9eb3059d37e0c2d8fbd0812747a04eafaf466d7d8fe9a2b1fd8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-ci-environment-14.0.0-1-any.pkg.tar.zst",
+    "sha256": "8a50cb775bb1a0e109c7b74c31bc22953c4fdd0902ad7b8f8ad400578da4693b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-ci-environment-15.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -216638,10 +216639,10 @@
   },
   {
     "name": "ruby-cucumber-html-formatter",
-    "version": "24.1.0-1",
+    "version": "24.1.1-1",
     "origin": "arch-extra",
-    "sha256": "893d57b1f6f3d62eb0d24a34fbc4c4a7a3fbe2fac981c56bf8c12790fe18493e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-html-formatter-24.1.0-1-any.pkg.tar.zst",
+    "sha256": "396d1afcb83dc2fa0af2196e8e50cf5b5c9964b9ba57b86b9226910dc4326f2a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-html-formatter-24.1.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -216652,10 +216653,10 @@
   },
   {
     "name": "ruby-cucumber-messages",
-    "version": "34.2.0-1",
+    "version": "34.2.1-1",
     "origin": "arch-extra",
-    "sha256": "0b9b46fa2058c136fb10ef25e4ed5f410e35c5142cacc6c5448e56dcb77126be",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-messages-34.2.0-1-any.pkg.tar.zst",
+    "sha256": "156a358aef6bc2be38c014f2c705ca71c5e6383cbd9b7b3bb1323f98bb8e1cf6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-messages-34.2.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -216665,10 +216666,10 @@
   },
   {
     "name": "ruby-cucumber-tag-expressions",
-    "version": "11.0.0-1",
+    "version": "11.0.1-1",
     "origin": "arch-extra",
-    "sha256": "b597fff1177f1ae2b98e5c51b56edb751ec2f5ebc9b3565eecbb62cbe947b081",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-tag-expressions-11.0.0-1-any.pkg.tar.zst",
+    "sha256": "2c9f52edebe0d8297d4a32a544f44761f19593821c34ab64aeb1b8732b0917ac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-cucumber-tag-expressions-11.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -219506,10 +219507,10 @@
   },
   {
     "name": "ruby-process-metrics",
-    "version": "0.12.0-1",
+    "version": "0.13.0-1",
     "origin": "arch-extra",
-    "sha256": "be0fcdfda1d714f0a365102132cc9402420eaf74b5ba0bf9d49a7ac601fa5bc4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-process-metrics-0.12.0-1-any.pkg.tar.zst",
+    "sha256": "f6c4c498bf1d6cc24cd477bdadb509eb315997b2bfc5da1d024a99b63dcd0cf9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-process-metrics-0.13.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "procps-ng",
@@ -219547,10 +219548,10 @@
   },
   {
     "name": "ruby-protocol-http1",
-    "version": "0.39.0-1",
+    "version": "0.40.0-1",
     "origin": "arch-extra",
-    "sha256": "b629b40f95de78ad56f36490b2c1f97dc943f68e53803f12bb13ad14974403fd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-protocol-http1-0.39.0-1-any.pkg.tar.zst",
+    "sha256": "9b94e5953d58a3c5080a70bb7b43621c625e04542ce8108def6cc0424f8fd38e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-protocol-http1-0.40.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -221888,10 +221889,10 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.50-1",
+    "version": "0.2.52-1",
     "origin": "arch-extra",
-    "sha256": "9eb87fadfa1a8482903d1457a369b74fe27487356b6cd0edecc18198828bff90",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rumdl-0.2.50-1-x86_64.pkg.tar.zst",
+    "sha256": "a62212151155255df77b1ca0b6ae01b90797f75a25d8a8b7cefd66000a4756c1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rumdl-0.2.52-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -226920,10 +226921,10 @@
   },
   {
     "name": "smartdns",
-    "version": "48.3-1",
+    "version": "48.4-1",
     "origin": "arch-extra",
-    "sha256": "1d3cdbd5ccb46651b55b9114286db987abb9f1998f2985e2f600af95d9458532",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/smartdns-48.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ec3e70a09e5d82cdb568f0e6e7616c01566104dab9b2dbefb2ae29ad4dbd4140",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/smartdns-48.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
