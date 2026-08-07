@@ -4528,6 +4528,22 @@
     "conflicts": []
   },
   {
+    "name": "multilib-devel",
+    "version": "1-1",
+    "origin": "artix-lib32",
+    "sha256": "fcc95aa0cc1670e55b1939908ec883f8006a826075d6eaf656051f47fc142af1",
+    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/multilib-devel-1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "base-devel",
+      "lib32-fakeroot",
+      "lib32-gcc-libs",
+      "lib32-libltdl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "steam",
     "version": "1.0.0.87-1",
     "origin": "artix-lib32",
