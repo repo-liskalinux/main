@@ -3514,10 +3514,10 @@
   },
   {
     "name": "android-tools",
-    "version": "37.0.0-1",
+    "version": "37.0.0-2",
     "origin": "arch-extra",
-    "sha256": "8130e85d787eb69dc079dd256395c7ea0fc314826106578fb1cf17f0ae381611",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/android-tools-37.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "75391a60ea24ed3f9527bc1b9dbdb0577360c43f814c37ac7b25ea52d7794a4f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/android-tools-37.0.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -3526,7 +3526,6 @@
       "glibc",
       "libgcc",
       "libstdc++",
-      "libudev.so",
       "libusb",
       "lz4",
       "pcre2",
@@ -17018,10 +17017,10 @@
   },
   {
     "name": "chrono-date",
-    "version": "3.0.4-1",
+    "version": "3.0.5-1",
     "origin": "arch-extra",
-    "sha256": "f827ad19a6903f7cf06ee4db8490087f99d4e6aab2233628b438b30feef192e3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/chrono-date-3.0.4-1-x86_64.pkg.tar.zst",
+    "sha256": "f5baa2d860c0cc700dfbcd2303b2f3352cf212861e2f5e5a0b51b4e68921ec2f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/chrono-date-3.0.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdate-tz.so=3-64"
     ],
@@ -26456,10 +26455,10 @@
   },
   {
     "name": "diesel-cli",
-    "version": "2.3.11-1",
+    "version": "2.3.12-1",
     "origin": "arch-extra",
-    "sha256": "d651ce9cf3cc4245d9958b45faa5f0e696797736ed90b6c8cff163def7b0f3c9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/diesel-cli-2.3.11-1-x86_64.pkg.tar.zst",
+    "sha256": "9d9d74f01609dc73e46f05daf3da7db5c958888aab4a149e6d9d777b9631991b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/diesel-cli-2.3.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54515,10 +54514,10 @@
   },
   {
     "name": "grafana",
-    "version": "13.1.2-1",
+    "version": "13.1.3-1",
     "origin": "arch-extra",
-    "sha256": "12c84ce1189680a796098b7a677600ac8a2e4d9166a32a9e3b70191d2cc40ed9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/grafana-13.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "bad05cfeda16bbbb310ffec7b234a0439ab8b42ef1178d4725394db795423122",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/grafana-13.1.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101795,21 +101794,20 @@
   },
   {
     "name": "letterpress",
-    "version": "2.1-13",
+    "version": "2.2-2",
     "origin": "arch-extra",
-    "sha256": "9b35e922178096364ea46d2f179db21e7b530b27b7684f93b2e859d7e7766b6a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/letterpress-2.1-13-any.pkg.tar.zst",
+    "sha256": "f540c4d72c997a1cd254ad6d34199760e4081318e5b38ed69062d60bfd2ab3b5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/letterpress-2.2-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "artem",
       "dconf",
       "glib2",
       "gtk4",
       "hicolor-icon-theme",
-      "jp2a",
       "libadwaita",
       "python",
-      "python-gobject",
-      "python-pillow"
+      "python-gobject"
     ],
     "optdepends": [],
     "conflicts": []
@@ -138375,16 +138373,17 @@
   },
   {
     "name": "nextcloud-client",
-    "version": "2:34.0.1-1",
+    "version": "2:34.0.1-2",
     "origin": "arch-extra",
-    "sha256": "d2ccdd982585c8a533f92b265f68917881e3778c87836f7455205c7d2196590a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nextcloud-client-2:34.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9923829ca65205c1f917c313cf00258ebdca833d324a393d485548f3ca119985",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nextcloud-client-2:34.0.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "nextcloud-client-cloudproviders"
     ],
     "depends": [
       "hicolor-icon-theme",
       "karchive",
+      "kdbusaddons",
       "kdsingleapplication",
       "kguiaddons",
       "libcloudproviders",
@@ -144234,10 +144233,10 @@
   },
   {
     "name": "opencode",
-    "version": "1.18.14-1",
+    "version": "1.18.15-1",
     "origin": "arch-extra",
-    "sha256": "7667c396671bf96f9145856fdf900e8fc9573730e198c5864655c44546d233d0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opencode-1.18.14-1-x86_64.pkg.tar.zst",
+    "sha256": "e6705db9ea3e8731d960629ca8bc7ebc55aa629ac11cc5ae4ba401cbf9100743",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opencode-1.18.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -190295,10 +190294,10 @@
   },
   {
     "name": "python-pydantic-settings",
-    "version": "2.14.2-1",
+    "version": "2.15.0-1",
     "origin": "arch-extra",
-    "sha256": "124411bea7fe22a0d4f0ec2ae35f16820c90d800c44cb60892c33113a68fae7c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pydantic-settings-2.14.2-1-any.pkg.tar.zst",
+    "sha256": "4a837168c5ef33acfcb575e2863e09fc05d81d2475f11c390d91c501e301a2fc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pydantic-settings-2.15.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -195996,10 +195995,10 @@
   },
   {
     "name": "python-ruff",
-    "version": "0.16.1-2",
+    "version": "0.16.2-1",
     "origin": "arch-extra",
-    "sha256": "3c2cf3c982b585b704dcae66512de6f5fa99853ef317b23fc7a995f143830449",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-ruff-0.16.1-2-x86_64.pkg.tar.zst",
+    "sha256": "47acba7d886ce03e510560c8d67aef7249dbc2c760bcb6e3f34aaf0de3fb9991",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-ruff-0.16.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -221954,10 +221953,10 @@
   },
   {
     "name": "ruff",
-    "version": "0.16.1-2",
+    "version": "0.16.2-1",
     "origin": "arch-extra",
-    "sha256": "b5519cb12fe07b664426203cdacc963cc77c4bdfda127999af5f478ca26d93b8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruff-0.16.1-2-x86_64.pkg.tar.zst",
+    "sha256": "2d4cf22d59c7a89ed6dd3edfe31ddf515ec940848a23c76a0e16f02d3a50f1d7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruff-0.16.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -223127,10 +223126,10 @@
   },
   {
     "name": "sbt",
-    "version": "1:2.0.3-1",
+    "version": "1:2.0.6-1",
     "origin": "arch-extra",
-    "sha256": "2e0c424a16d7e1e9115892dc8a0f458d39bb4f7eb3ad68dba06ca5b634a66570",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sbt-1:2.0.3-1-any.pkg.tar.zst",
+    "sha256": "0c0754dab470cda544a3537e2a99b0b432c06fae87aed7de77f65eadb81bc3e9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sbt-1:2.0.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime-headless",
@@ -249981,10 +249980,10 @@
   },
   {
     "name": "udiskie",
-    "version": "2.7.0-1",
+    "version": "2.7.0-2",
     "origin": "arch-extra",
-    "sha256": "71cf61ee6cfa151bd154f21e16f6c4eeb6dd9e317f04165286aaea696d79d95e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/udiskie-2.7.0-1-any.pkg.tar.zst",
+    "sha256": "dcd00532e305b0ccb5b17131c05bc84c8c5d668a093da7a61551193c8b328335",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/udiskie-2.7.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "udisks2",
@@ -249993,8 +249992,7 @@
       "python-yaml",
       "python-docopt",
       "gtk3",
-      "libnotify",
-      "python-keyutils"
+      "libnotify"
     ],
     "optdepends": [
       "libappindicator-gtk3: --appindicator support"
