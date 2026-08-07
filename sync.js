@@ -101,7 +101,7 @@ async function fetchAndParseArchDb(repo) {
     const tmpDir = path.join('/tmp', `db-${repo}-${Date.now()}`);
     const dbTarPath = path.join(tmpDir, `${repo}.db`);
     fs.mkdirSync(tmpDir, { recursive: true });
-    console.log(`[+] Mengunduh database resmi: ${dbUrl}`);
+    console.log(`[+] Downloading database: ${dbUrl}`);
     try {
         const res = await fetch(dbUrl);
         if (!res.ok) {
@@ -129,7 +129,7 @@ async function fetchAndParseArchDb(repo) {
             packages.push(normalizePackage({
                 name: name,
                 version: version,
-                origin: `arch-${repo}`,
+                origin: `artix-${repo}`,
                 sha256: sha256,
                 url: filename ? `${repoUrl}/${filename}` : "",
                 provides: pkgData['PROVIDES'] || [],
