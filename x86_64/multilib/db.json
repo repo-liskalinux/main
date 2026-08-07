@@ -3457,10 +3457,10 @@
   },
   {
     "name": "lib32-nvidia-utils",
-    "version": "610.43.03-1",
+    "version": "610.57.04-1",
     "origin": "arch-multilib",
-    "sha256": "41663aea79c8b3efb124a353774d5be48309c55ee900548f0c69664686d45a2a",
-    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nvidia-utils-610.43.03-1-x86_64.pkg.tar.zst",
+    "sha256": "9b87faccff1006fc14a10fadc91e3f1dba47ac2d60e31d354bc0eb938d0567e1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nvidia-utils-610.57.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-vulkan-driver",
       "lib32-opengl-driver",
@@ -3470,7 +3470,7 @@
       "lib32-zlib",
       "lib32-gcc-libs",
       "lib32-libglvnd",
-      "nvidia-utils=610.43.03"
+      "nvidia-utils=610.57.04"
     ],
     "optdepends": [
       "lib32-opencl-nvidia"
@@ -3550,10 +3550,10 @@
   },
   {
     "name": "lib32-opencl-nvidia",
-    "version": "610.43.03-1",
+    "version": "610.57.04-1",
     "origin": "arch-multilib",
-    "sha256": "90fc7fc792f45a0b51b8bc12dd19070e7f3cd9e628f75a1337308d8b9d2a9f1a",
-    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-opencl-nvidia-610.43.03-1-x86_64.pkg.tar.zst",
+    "sha256": "1a1b2873cbaf3f6ac8f81305ee3539c96e7891a9a9600cb99bc630b30b47349d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-opencl-nvidia-610.57.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-opencl-driver"
     ],
