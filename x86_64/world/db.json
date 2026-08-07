@@ -12427,10 +12427,10 @@
   },
   {
     "name": "dolphin-emu",
-    "version": "1:2606-2",
+    "version": "1:2606-3",
     "origin": "artix-world",
-    "sha256": "d5b4c2386d43469091afdd6ba657ebff1be3b56b31e280551b069e8fd295d662",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/dolphin-emu-1:2606-2-x86_64.pkg.tar.zst",
+    "sha256": "49745691de54d9dc260624b9d3fc145d8ae2a7092a904cbe76287ba655af0d7a",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/dolphin-emu-1:2606-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bluez-libs",
@@ -12475,10 +12475,10 @@
   },
   {
     "name": "dolphin-emu-tool",
-    "version": "1:2606-2",
+    "version": "1:2606-3",
     "origin": "artix-world",
-    "sha256": "ce940e681db47da4a05cdf9e1780bd7ede4829ff887e65eda8e0c22946daf6d6",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/dolphin-emu-tool-1:2606-2-x86_64.pkg.tar.zst",
+    "sha256": "ee1afc7b57c351b4c82a6398182e39cf6de12285e2a60b5c305b455ebf9c793c",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/dolphin-emu-tool-1:2606-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bluez-libs",
@@ -23265,10 +23265,10 @@
   },
   {
     "name": "grafana",
-    "version": "13.1.2-1",
+    "version": "13.1.3-1",
     "origin": "artix-world",
-    "sha256": "9215f75d0d7b7ea423c8bcac2bd2a798c6eb2b4527aee7654f60caed72a3db67",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/grafana-13.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a2942c0a28c5be21f3cf7c205b0ca7239f8c3531bf568f959449d486a5a794b2",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/grafana-13.1.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -30743,10 +30743,10 @@
   },
   {
     "name": "ipython",
-    "version": "9.16.0-1",
+    "version": "9.16.1-1",
     "origin": "artix-world",
-    "sha256": "20587138b26e3075446c6e64fdc131d4c26dd597ece058af034781d69b7e770d",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ipython-9.16.0-1-any.pkg.tar.zst",
+    "sha256": "a61de1a93d6df66a00de2205e0bd35fbc4d93464fc119a0ceca6b8ca6e2cbde5",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ipython-9.16.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-decorator",
@@ -58794,10 +58794,10 @@
   },
   {
     "name": "neatvnc",
-    "version": "1.0.1-1",
+    "version": "1.0.1-2",
     "origin": "artix-world",
-    "sha256": "2111b379c1c5815b5855a6495a571dde9ce7aa465f16642968e1697d6c9eabe6",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/neatvnc-1.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9d55c65afa46104cc075ec957e369e8e4042673751c69eb500ccfdeac7a5ed8c",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/neatvnc-1.0.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libneatvnc.so=1-64"
     ],
@@ -58806,7 +58806,7 @@
       "gmp",
       "gnutls",
       "libaml.so=1-64",
-      "libavcodec.so=62-64",
+      "libavcodec.so=63-64",
       "libdrm",
       "libpixman-1.so=0-64",
       "libturbojpeg.so=0-64",
@@ -59880,10 +59880,10 @@
   },
   {
     "name": "nodejs",
-    "version": "26.6.0-1",
+    "version": "26.7.0-1",
     "origin": "artix-world",
-    "sha256": "0640c7c5909d4f69d42a62fb76ca0eba64a528495dab34d318a734d91ef2ca44",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/nodejs-26.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e34241c3306a53d8c77213b8396668b71f272d4884f0f0de754d8d2b6f750e27",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/nodejs-26.7.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ada",
@@ -75842,10 +75842,10 @@
   },
   {
     "name": "python-apsw",
-    "version": "3.53.3.0-1",
+    "version": "3.53.4.0-1",
     "origin": "artix-world",
-    "sha256": "b986018fd0e9d4d65dc70f6679798ca7d416ff1a4863cd3864c4fcd7ca46aacb",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-apsw-3.53.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "49da6999906327d340d11077f9311c901b9df2565c4b233f2d4a553ba29273ac",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-apsw-3.53.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -76950,10 +76950,10 @@
   },
   {
     "name": "python-blosc2",
-    "version": "4.10.0-1",
+    "version": "4.10.1-1",
     "origin": "artix-world",
-    "sha256": "d1380a2c4beb11a8715f20ef44fde4ae789a4879a34b29603d4028f5a9188070",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-blosc2-4.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bc50e336a1475f5cb451ae88e64e47b2b29d5feea226419d779f174e9960cf01",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-blosc2-4.10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc2",
@@ -77230,10 +77230,10 @@
   },
   {
     "name": "python-cairo",
-    "version": "1.29.0-2",
+    "version": "1.29.1-1",
     "origin": "artix-world",
-    "sha256": "c6aae52ea61197b5a48d9b8a0e16ae71f1c0eef863fdf600c4694c99e63bed0c",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-cairo-1.29.0-2-x86_64.pkg.tar.zst",
+    "sha256": "2b5703f7aafca57c67d805358d1b2f6d69ff06350963d8df9f6e7ae05a147abe",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-cairo-1.29.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -80656,10 +80656,10 @@
   },
   {
     "name": "python-flit-core",
-    "version": "4.0.0-1",
+    "version": "4.0.2-1",
     "origin": "artix-world",
-    "sha256": "8a58424f16c6821e030af244f08dc8712cbc23417cdd92f64d9d673bf4afdaef",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-flit-core-4.0.0-1-any.pkg.tar.zst",
+    "sha256": "2fd39f61f30bc8a86ce6389c81e8194991eccf7c76159f541ecf718d054ccf5b",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-flit-core-4.0.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -86549,10 +86549,10 @@
   },
   {
     "name": "python-packaging",
-    "version": "26.2-1",
+    "version": "26.3-1",
     "origin": "artix-world",
-    "sha256": "dbf503c8f4fc9c645652a82c75f5261ed4cb1765fc271b2eaa2f0b56021bb691",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-packaging-26.2-1-any.pkg.tar.zst",
+    "sha256": "7667f413100d057155651c08a4a8cb038e9f1d189579f612cf8d96e6aa3f1812",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-packaging-26.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -89513,10 +89513,10 @@
   },
   {
     "name": "python-pyopenssl",
-    "version": "26.3.0-1",
+    "version": "26.4.0-1",
     "origin": "artix-world",
-    "sha256": "8ca34f4b303697c5a58d11581832c48df275857e133f485e3374dea8d2b127d9",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-pyopenssl-26.3.0-1-any.pkg.tar.zst",
+    "sha256": "a277b866b2a424760873d50866421b9c3079f3ab64d6ef09e3d5ca5bab941a94",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-pyopenssl-26.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -110514,10 +110514,10 @@
   },
   {
     "name": "shairport-sync",
-    "version": "5.0.4-2",
+    "version": "5.0.4-3",
     "origin": "artix-world",
-    "sha256": "18f16a75bc6dd99a0ef14d04ccc4a4c005549126c488fec2cfcc84a4823c313d",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/shairport-sync-5.0.4-2-x86_64.pkg.tar.zst",
+    "sha256": "f6b6c03c337a34cfbf63e1d8aae58d24e5e35b321aa810692c92e284b083b1d3",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/shairport-sync-5.0.4-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl",
