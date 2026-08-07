@@ -4429,10 +4429,10 @@
   },
   {
     "name": "apr-util",
-    "version": "1.6.3-2",
+    "version": "1.6.4-1",
     "origin": "arch-extra",
-    "sha256": "c64327cb5cafcba9254e74f8c6ab753e608c464779a75141092033302b5c2ee0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apr-util-1.6.3-2-x86_64.pkg.tar.zst",
+    "sha256": "915694a28c66c2e177459927d425c8122186d45f44aaf349e6fd97565f59d9c4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apr-util-1.6.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "apr",
@@ -5287,6 +5287,20 @@
     "conflicts": [
       "parquet-cpp"
     ]
+  },
+  {
+    "name": "artem",
+    "version": "3.0.0-4",
+    "origin": "arch-extra",
+    "sha256": "e1064d40e75f8ce84707763761ed7b5c16fec0b330ebc942b5a35cf60316fef5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/artem-3.0.0-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc"
+    ],
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "arti",
@@ -10406,10 +10420,10 @@
   },
   {
     "name": "blosc2",
-    "version": "3.3.1-1",
+    "version": "3.3.2-1",
     "origin": "arch-extra",
-    "sha256": "c77d84de3cf963d35ad95b8d2dc02101216e88c7ad2dcd49ebe4e4d919318b65",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/blosc2-3.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d1eb28a1fef895123448fc6c44b88c042deb7198e50f28e2dc68dacd264e615c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/blosc2-3.3.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libblosc2.so=9-64"
     ],
@@ -22255,10 +22269,10 @@
   },
   {
     "name": "cudnn-frontend",
-    "version": "1.25.0-1",
+    "version": "1.27.0-1",
     "origin": "arch-extra",
-    "sha256": "172cef14a8ac2f7e0e61bb5f74408aa8142f4b2b053c5bc977d944523edd8b79",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cudnn-frontend-1.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "eebb6287b60ee7724f311510f69155e8cc60aba0d89cb302d214f50ab6bf8cac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cudnn-frontend-1.27.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -22812,10 +22826,10 @@
   },
   {
     "name": "d2",
-    "version": "0.7.1-2",
+    "version": "0.8.1-1",
     "origin": "arch-extra",
-    "sha256": "c4d668753b6a12149fd03e237c54d624eb24aa53c78f45f4cfd6c32e480561b7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/d2-0.7.1-2-x86_64.pkg.tar.zst",
+    "sha256": "0955947fbadf9b7a566a1489da216f8a7beed0190a89e84d8beac85f570fa133",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/d2-0.8.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -27665,10 +27679,10 @@
   },
   {
     "name": "dnsdist",
-    "version": "2.1.0-1",
+    "version": "2.1.1-1",
     "origin": "arch-extra",
-    "sha256": "c30e955bb63efa884a963184d4640e120d9bc4ee507b972f58127444f2446e53",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dnsdist-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a34c9a910e1c322b10731df77260bf05f8ae7a7b7ab2eb8ad924a6d8290084c7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dnsdist-2.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fstrm",
@@ -28087,10 +28101,10 @@
   },
   {
     "name": "doggo",
-    "version": "1.2.0-1",
+    "version": "1.3.0-1",
     "origin": "arch-extra",
-    "sha256": "5d72f7513fcf1ac7ef318d23caf6dabccd9e7054eab5661d5ac1c791ed31c515",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/doggo-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8659de90cdcc3ada2a842e4a877d98bee993b03fafb46a50cb506f18e8f8dd83",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/doggo-1.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -46336,10 +46350,10 @@
   },
   {
     "name": "geeqie",
-    "version": "2.9-3",
+    "version": "3.1-1",
     "origin": "arch-extra",
-    "sha256": "d38fa56f728a53ed7c90cbd2a9b6d0b647defc3d6bfd57bf0c7439e161f33abc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geeqie-2.9-3-x86_64.pkg.tar.zst",
+    "sha256": "eab55a6bd7692c980b40748d20718c7c5635ec1e1fb32f58dc90320fba104a8f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geeqie-3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -46350,8 +46364,9 @@
       "gdk-pixbuf2",
       "glib2",
       "glibc",
-      "gspell",
-      "gtk3",
+      "graphene",
+      "gtk4",
+      "gtksourceview5",
       "hicolor-icon-theme",
       "imath",
       "lcms2",
@@ -46361,9 +46376,10 @@
       "libjpeg-turbo",
       "libjxl",
       "libraw",
+      "libshumate",
+      "libspelling",
       "libstdc++",
       "libtiff",
-      "libunwind",
       "libwebp",
       "lua",
       "openexr",
@@ -46373,7 +46389,6 @@
       "sh"
     ],
     "optdepends": [
-      "librsvg: SVG rendering",
       "fbida: for jpeg rotation",
       "gawk: to use the geo-decode function",
       "perl-image-exiftool: for the jpeg extraction plugin",
@@ -86155,10 +86170,10 @@
   },
   {
     "name": "ipython",
-    "version": "9.16.0-1",
+    "version": "9.16.1-1",
     "origin": "arch-extra",
-    "sha256": "142a6c231c72b7c8d665d12751e040d32e60a5a6f140cfc2cdac502d699cbe0b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ipython-9.16.0-1-any.pkg.tar.zst",
+    "sha256": "d609036d6495336adb68cf074a77991e98b93d46a060836fbbb0c9b2e17c34c4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ipython-9.16.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-decorator",
@@ -115393,6 +115408,54 @@
     "conflicts": []
   },
   {
+    "name": "librewolf",
+    "version": "153.0.3_1-1",
+    "origin": "arch-extra",
+    "sha256": "0fd1d8a0880135088acabe0562da4145e285168d62d0e869cd29019b09ff097c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/librewolf-153.0.3_1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "dbus",
+      "alsa-lib",
+      "at-spi2-core",
+      "bash",
+      "cairo",
+      "ffmpeg",
+      "fontconfig",
+      "freetype2",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
+      "libgcc",
+      "libpulse",
+      "libstdc++",
+      "libx11",
+      "libxcb",
+      "libxcomposite",
+      "libxdamage",
+      "libxext",
+      "libxfixes",
+      "libxrandr",
+      "libxss",
+      "libxt",
+      "mime-types",
+      "nspr",
+      "nss",
+      "pango",
+      "ttf-font"
+    ],
+    "optdepends": [
+      "hunspell-dictionary: Spell checking",
+      "libnotify: Notification integration",
+      "networkmanager: Location detection via available WiFi networks",
+      "speech-dispatcher: Text-to-Speech",
+      "xdg-desktop-portal: Screensharing with Wayland"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "librime",
     "version": "1:1.17.0-4",
     "origin": "arch-extra",
@@ -122042,10 +122105,10 @@
   },
   {
     "name": "lua-lux",
-    "version": "0.40.1-2",
+    "version": "0.40.2-1",
     "origin": "arch-extra",
-    "sha256": "5df3a5ed6e6583fba5b32b7e49939b745dc694187f4869bfc5a0e386cd2bef41",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua-lux-0.40.1-2-x86_64.pkg.tar.zst",
+    "sha256": "54cfe13446b2b3123c3ac4037b5b48c987532032775c57ca1be7ca09190e4a64",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua-lux-0.40.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -122891,10 +122954,10 @@
   },
   {
     "name": "lua51-lux",
-    "version": "0.40.1-2",
+    "version": "0.40.2-1",
     "origin": "arch-extra",
-    "sha256": "f6c1299db584132e1402987a9e7d3b50fc891dbe4a54e16fb8670b792623291d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua51-lux-0.40.1-2-x86_64.pkg.tar.zst",
+    "sha256": "0487705d8c36656d58f3b8edf38bf81aed87ac010d71b3fee40662fc0caab354",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua51-lux-0.40.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -123720,10 +123783,10 @@
   },
   {
     "name": "lua52-lux",
-    "version": "0.40.1-2",
+    "version": "0.40.2-1",
     "origin": "arch-extra",
-    "sha256": "908c6039998ec4b644a738d95daf8116e9acdce94d017cf224ae368d299bb439",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua52-lux-0.40.1-2-x86_64.pkg.tar.zst",
+    "sha256": "33c0bb3f6fba01ecac94dcae8adcf4848b595534dea7410e5bb1d7993a0634d6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua52-lux-0.40.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -124522,10 +124585,10 @@
   },
   {
     "name": "lua53-lux",
-    "version": "0.40.1-2",
+    "version": "0.40.2-1",
     "origin": "arch-extra",
-    "sha256": "02a4f6f02ba965b0b7537acf361fbc61e5f9af5100b0135833c639fcf265db2e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua53-lux-0.40.1-2-x86_64.pkg.tar.zst",
+    "sha256": "1b7c89fce523456898f4b6811b34bbd85256805bf543eca83622706dff337d49",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua53-lux-0.40.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125344,10 +125407,10 @@
   },
   {
     "name": "lua54-lux",
-    "version": "0.40.1-2",
+    "version": "0.40.2-1",
     "origin": "arch-extra",
-    "sha256": "b3de8bdbe56179472aaa056b7b90d9511277feeb47bb2071c470c5fb04b15e0a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua54-lux-0.40.1-2-x86_64.pkg.tar.zst",
+    "sha256": "ce261c6d6e116d341e5aacf575db9d1c4418ee951d5f88ab938c1f60d897800f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lua54-lux-0.40.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125967,10 +126030,10 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.40.1-2",
+    "version": "0.40.2-1",
     "origin": "arch-extra",
-    "sha256": "f257b6b37f0a9676e5b0d9d675ff2e6013b24d54c2036ae5989fbae5eade6c66",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lux-cli-0.40.1-2-x86_64.pkg.tar.zst",
+    "sha256": "b0b925f919981b4cd70dcd8535c80a3a7b38b2f903aa9109bdfad2d543ec1943",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lux-cli-0.40.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -131996,10 +132059,10 @@
   },
   {
     "name": "mimalloc",
-    "version": "3.4.4-1",
+    "version": "3.4.5-1",
     "origin": "arch-extra",
-    "sha256": "9c67402d2ddb8c98b61ac96c379c9de90ceafff38c2f3815ce20ad2f72c25014",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mimalloc-3.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "92afbbfaebde8e3da3ddf2673692e9903bbdcdf09ceb97b7b3363914a2f705ce",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mimalloc-3.4.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -136018,10 +136081,10 @@
   },
   {
     "name": "nanobind",
-    "version": "2.13.0-1",
+    "version": "2.14.0-1",
     "origin": "arch-extra",
-    "sha256": "98f60f17c73eb10814ab47f9980deee9c6310030f30168626f0d3eb615419798",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nanobind-2.13.0-1-any.pkg.tar.zst",
+    "sha256": "a3b2533ff854bcd8be29691ac9707f9b1b85c0131387f9f4cd56e78061a0924d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nanobind-2.14.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -139536,10 +139599,10 @@
   },
   {
     "name": "nodejs",
-    "version": "26.6.0-1",
+    "version": "26.7.0-1",
     "origin": "arch-extra",
-    "sha256": "e80367dbefd5bd72bd00b51dd462f00db7a0c71bf1b44aa6c61bd22fd3957e8a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nodejs-26.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c971f28d032306129dcc3d0ebf769d060c0bd4512f2d31243bc2024d2b6d12b3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nodejs-26.7.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ada",
@@ -141640,10 +141703,10 @@
   },
   {
     "name": "objdiff",
-    "version": "3.7.3-1",
+    "version": "3.8.0-1",
     "origin": "arch-extra",
-    "sha256": "7a38e7d94f1a79eaffaaf7921bc383195bcd60b6a3774f1bfb434ed548f42920",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/objdiff-3.7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cb2278dbb0e800e3a9a28c4f7d551be2b4da4c599305528ccc7fe999ec19daf0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/objdiff-3.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fontconfig",
@@ -145293,10 +145356,10 @@
   },
   {
     "name": "openrct2",
-    "version": "0.5.3-1",
+    "version": "0.5.4-1",
     "origin": "arch-extra",
-    "sha256": "9fda856227ac1c28f036ab1659872b709ea1137c72846fd7a8e3d469b5c212ba",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openrct2-0.5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7bc0dac22d5fed453b063e8a04306fa4c19b6e1e406ccedc915df26659f7fef8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openrct2-0.5.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",
@@ -147180,10 +147243,10 @@
   },
   {
     "name": "osbuild",
-    "version": "188-1",
+    "version": "189-1",
     "origin": "arch-extra",
-    "sha256": "075382093b4c0c9fba36f78d22288f65d7db811750e392224763a1139a1c01b2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/osbuild-188-1-any.pkg.tar.zst",
+    "sha256": "5de58d5ca3660768df5edd4518dacde51d51050a51b4efafe592aa62d4a1ab1f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/osbuild-189-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bubblewrap",
@@ -166813,10 +166876,10 @@
   },
   {
     "name": "powerdns",
-    "version": "5.1.3-1",
+    "version": "5.1.4-1",
     "origin": "arch-extra",
-    "sha256": "512bb5907156f0f3cfd474b1fb332686f73267364623c5291f55a6b7f71bd06a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/powerdns-5.1.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a001fd3207dece4dfa28b4a26231e90d524b88e7a7564faf53d02e31f6a9aaf0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/powerdns-5.1.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "pdns"
     ],
@@ -166847,10 +166910,10 @@
   },
   {
     "name": "powerdns-recursor",
-    "version": "5.4.4-1",
+    "version": "5.4.5-1",
     "origin": "arch-extra",
-    "sha256": "dc4b0ab5b3728982360411fbed8c398b0efad68880cb6c96f4d3d8cbe8c108e2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/powerdns-recursor-5.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "1d972bd34ee20304bcd077f3db8318e23384c1e628435d9e322d7545541ad386",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/powerdns-recursor-5.4.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "pdns-recursor"
     ],
@@ -170491,10 +170554,10 @@
   },
   {
     "name": "python-apsw",
-    "version": "3.53.3.0-1",
+    "version": "3.53.4.0-1",
     "origin": "arch-extra",
-    "sha256": "e3e4a2babec113fc36c59db0645d521255d8d91b69144ed4d6a368c559dfebb7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-apsw-3.53.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c151ec2e5c55f08304c2060b2a701c9db4c5d9b90c1b71d331ec1100210b83e7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-apsw-3.53.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -171877,10 +171940,10 @@
   },
   {
     "name": "python-blosc2",
-    "version": "4.10.0-1",
+    "version": "4.10.1-1",
     "origin": "arch-extra",
-    "sha256": "95f4b85adbd7c9b26188bb6a45ff95593b377838226c363a4324deb8c6c0e5b1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-blosc2-4.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "61d67178b729be3a6648d5c0817ecc338991f29e3e4e42e9a491e3f508747bdd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-blosc2-4.10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc2",
@@ -172229,10 +172292,10 @@
   },
   {
     "name": "python-cairo",
-    "version": "1.29.0-2",
+    "version": "1.29.1-1",
     "origin": "arch-extra",
-    "sha256": "c5871444426c63db35211c14ef52c78ff3fed55677416eadc04e94c6e81ec6cd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cairo-1.29.0-2-x86_64.pkg.tar.zst",
+    "sha256": "c03ea810f4e7c44e672971180e51387d3f110eef0aa2367b03f0dfa6bfecfeca",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cairo-1.29.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -173942,10 +174005,10 @@
   },
   {
     "name": "python-cudnn-frontend",
-    "version": "1.25.0-1",
+    "version": "1.27.0-1",
     "origin": "arch-extra",
-    "sha256": "c4d4dc69aa2436a98f2cfb1e0c4e552ef790a8bd7b5269f1677f9c2213278571",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cudnn-frontend-1.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "115bd28f2b488addee786039a15536175bcbf1fc97568d5642390bf437078535",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cudnn-frontend-1.27.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -177432,10 +177495,10 @@
   },
   {
     "name": "python-flit-core",
-    "version": "4.0.0-1",
+    "version": "4.0.2-1",
     "origin": "arch-extra",
-    "sha256": "558f5ab7e0b08943f7d2cd40d8012994061df035a26c7d6bb7bf94baabec888e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-flit-core-4.0.0-1-any.pkg.tar.zst",
+    "sha256": "a478c684d01f9571fabbae7cb42a16034258cc408f5e64202d99e02abb31af8c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-flit-core-4.0.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -179865,10 +179928,10 @@
   },
   {
     "name": "python-huggingface-hub",
-    "version": "1:1.26.0-1",
+    "version": "1:1.26.1-1",
     "origin": "arch-extra",
-    "sha256": "e3c620da16ea739318f3a31830ab8a8a98f8a38c963fd3ba474b912c5d0ab959",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-huggingface-hub-1:1.26.0-1-any.pkg.tar.zst",
+    "sha256": "583e0decc2cabc30eefa133cc9b75cf069ae13c4a325839a019d053f9b0d7a25",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-huggingface-hub-1:1.26.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -182205,10 +182268,10 @@
   },
   {
     "name": "python-kikit",
-    "version": "1.8.0-1",
+    "version": "1.8.1-1",
     "origin": "arch-extra",
-    "sha256": "93ff3d2f9cbecb10acbc944b351b2741120bcdce91a7a0ff9f6341640d067788",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-kikit-1.8.0-1-any.pkg.tar.zst",
+    "sha256": "7f21305c495434c3730d1d68f86cee703e603eb8cbcfef12948106d9d29eeed8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-kikit-1.8.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -182730,10 +182793,10 @@
   },
   {
     "name": "python-ldap",
-    "version": "3.4.4-4",
+    "version": "3.4.7-1",
     "origin": "arch-extra",
-    "sha256": "64c5c0967437cf210cede6c76f1a9bbe373c770b089707e302f74bfa1e8671a2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-ldap-3.4.4-4-x86_64.pkg.tar.zst",
+    "sha256": "9146a2ba3fe78aa829e2fbc5ed95a72b2d7d553f47bda789487ebc0dc04091d6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-ldap-3.4.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pyasn1",
@@ -187343,10 +187406,10 @@
   },
   {
     "name": "python-parver",
-    "version": "1.0-1",
+    "version": "1.0.1-1",
     "origin": "arch-extra",
-    "sha256": "d94898ee51899ca39eafeee77ad0b9fa8acba26590cb84b8472ac3aff15903e4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-parver-1.0-1-any.pkg.tar.zst",
+    "sha256": "2e2f022f66a3f0260ede0a42b9c1b7ca9a5fbeeef2a1131269159dcd9dcc96a3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-parver-1.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -190273,10 +190336,10 @@
   },
   {
     "name": "python-pydbus",
-    "version": "0.6.0-13",
+    "version": "0.6.0-14",
     "origin": "arch-extra",
-    "sha256": "422ec11290162cdf5cef18d2e4a73dbb7d1e8adff698449a12820c52e2e3f0a7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pydbus-0.6.0-13-any.pkg.tar.zst",
+    "sha256": "ac01b8729271cf3a5709e1db3e8e9a674d77b30cf3981e67daae8f9f3091bfbe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pydbus-0.6.0-14-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -195193,10 +195256,10 @@
   },
   {
     "name": "python-reportlab",
-    "version": "4.4.10-2",
+    "version": "5.0.0-1",
     "origin": "arch-extra",
-    "sha256": "17b72d1b8d3697743c360054d1850b8602dedcb76c09b90c24bc116fc8859534",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-reportlab-4.4.10-2-any.pkg.tar.zst",
+    "sha256": "ed52f444e4419fdbac7d5e79e2e8d12b2f562a711d43136ac0837582f203c4e2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-reportlab-5.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -196521,10 +196584,10 @@
   },
   {
     "name": "python-setuptools",
-    "version": "1:83.0.0-1",
+    "version": "1:84.0.0-1",
     "origin": "arch-extra",
-    "sha256": "60aedd187ceea663da0aa95ab0056226e8bf18c53fbd2686cc941bc816139c54",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-setuptools-1:83.0.0-1-any.pkg.tar.zst",
+    "sha256": "fea2ac1d24d9693978342cb40d1494376668cdb9c01519ce21fc18d940d61a2c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-setuptools-1:84.0.0-1-any.pkg.tar.zst",
     "provides": [
       "python-distribute"
     ],
@@ -197094,10 +197157,10 @@
   },
   {
     "name": "python-soupsieve",
-    "version": "2.9.1-1",
+    "version": "2.9.2-1",
     "origin": "arch-extra",
-    "sha256": "7a82fb688f9da9a656248cdd1a9e644ac9e1d01447208d44daf0170280529000",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-soupsieve-2.9.1-1-any.pkg.tar.zst",
+    "sha256": "9f48e781f86a868f2592571ac7e37d2d2126c01f97c8e12d705e9d1d9d574ab1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-soupsieve-2.9.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -197889,10 +197952,10 @@
   },
   {
     "name": "python-spimdisasm",
-    "version": "1.42.3-1",
+    "version": "1.42.4-1",
     "origin": "arch-extra",
-    "sha256": "3da54037bf4f030b8546db026da0bb7f8366a73fad208dfe3874db850d6a57fa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-spimdisasm-1.42.3-1-any.pkg.tar.zst",
+    "sha256": "9317fea63e0067083c22cef6ef040e6d92b9046b678fe5fcdf28b1e12f72de3c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-spimdisasm-1.42.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -200518,10 +200581,10 @@
   },
   {
     "name": "python-types-python-dateutil",
-    "version": "2.9.0.20260716-1",
+    "version": "2.9.0.20260807-1",
     "origin": "arch-extra",
-    "sha256": "f95170944943ecf848433c0bd4287c19ff322a36a8b231f4ba09d6f7c8428346",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-types-python-dateutil-2.9.0.20260716-1-any.pkg.tar.zst",
+    "sha256": "c0f9d5ffd09b9bc7acf10ad2eb5ec17a8dcac4e1b42ee3aa0697049db6a667c9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-types-python-dateutil-2.9.0.20260807-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -209125,10 +209188,10 @@
   },
   {
     "name": "radicale",
-    "version": "3.7.7-1",
+    "version": "3.7.8-1",
     "origin": "arch-extra",
-    "sha256": "c8b4a28d2a2180d94e6736fcc6f3ab8092d2d365e4bd0f3eaa303321dd6559d9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/radicale-3.7.7-1-any.pkg.tar.zst",
+    "sha256": "78c6a1f656b05c64ec73a349230533003e30a13236bb934eeeb04ddc13371cf6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/radicale-3.7.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -212611,10 +212674,10 @@
   },
   {
     "name": "rime-emoji",
-    "version": "0.0.0.20250401-1",
+    "version": "0.0.0.20260325-1",
     "origin": "arch-extra",
-    "sha256": "76f12b99eaa4243352586433c361b60519828bee1ff3a4aa1815ffba75001ad4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rime-emoji-0.0.0.20250401-1-any.pkg.tar.zst",
+    "sha256": "22f4a513764e3dc00a1113e9bb419d9ef6b4ca1be4d3f6de0914be6b8289bbbd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rime-emoji-0.0.0.20260325-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -212785,10 +212848,10 @@
   },
   {
     "name": "rio",
-    "version": "0.5.16-1",
+    "version": "0.5.19-1",
     "origin": "arch-extra",
-    "sha256": "ebcf1837149673e221c452ad96beac9f48b08cea832e70498ab16a2fcd872b98",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.16-1-x86_64.pkg.tar.zst",
+    "sha256": "2a0dd20c2838997b65e60f24faa5a4cb1cf4202a8ed909749d7cc0a3c3592a77",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -216312,10 +216375,10 @@
   },
   {
     "name": "ruby-chef-utils",
-    "version": "19.4.10-1",
+    "version": "19.4.12-1",
     "origin": "arch-extra",
-    "sha256": "f8bfed920cadaeb9199bfbf2682a8d2ad2a4e1326645f03c2580b1eba0ce1c3a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-chef-utils-19.4.10-1-any.pkg.tar.zst",
+    "sha256": "25194c0f7a64a305b61c86f4e19f420cefed65c2b2565d007a176de44748df93",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-chef-utils-19.4.12-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -218670,10 +218733,10 @@
   },
   {
     "name": "ruby-mixlib-config",
-    "version": "3.1.9-1",
+    "version": "3.1.10-1",
     "origin": "arch-extra",
-    "sha256": "3c978dc01c15a7290fe1a231ab2c27300e308403a0506acf808a5fd0f0ad20c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-mixlib-config-3.1.9-1-any.pkg.tar.zst",
+    "sha256": "7488de7fbd20b1a835c3eaf646c6c30f475297c40e4b5b909817cd8aac2d42d8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-mixlib-config-3.1.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby-tomlrb"
@@ -226543,10 +226606,10 @@
   },
   {
     "name": "skim",
-    "version": "5.6.1-1",
+    "version": "5.6.3-1",
     "origin": "arch-extra",
-    "sha256": "9776437777906c4160bac7cbef9c9a83ac6e95d275d9567bb65b6660f7ece9ee",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/skim-5.6.1-1-x86_64.pkg.tar.zst",
+    "sha256": "90562d341f50e61e5fc52303fd751dc0276c679dff222a58a53b263f1998704c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/skim-5.6.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -234502,10 +234565,10 @@
   },
   {
     "name": "talhelper",
-    "version": "3.1.15-1",
+    "version": "3.1.16-1",
     "origin": "arch-extra",
-    "sha256": "d2e74bb96dc71f46786bde99bf2942caa7d87deddea94949dcebcdd83f0387ae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/talhelper-3.1.15-1-x86_64.pkg.tar.zst",
+    "sha256": "eb5cc8c2b00144c1b8ca40934e8bc133c28d11f4523bb63be664d2804bf5d89b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/talhelper-3.1.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
