@@ -204,7 +204,7 @@ async function main() {
             const lowerName = pkg.name.toLowerCase();
             if (blacklist.has(pkg.name) ||
                 lowerName.startsWith('artix-') ||
-                lowerName.has('artixnews') ||
+                lowerName.startsWith('artixnews') ||
                 lowerName.startsWith('archlinux-') ||
                 lowerName.startsWith('mkinitcpio-') ||
                 lowerName.endsWith('-doc') ||
