@@ -7659,10 +7659,10 @@
   },
   {
     "name": "cef",
-    "version": "150.0.14-1",
+    "version": "151.3.14-2",
     "origin": "artix-world",
-    "sha256": "d43e2b104d20022983130c445bde51eda7ed0d6471bfebe7e49fa697ba274481",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/cef-150.0.14-1-x86_64.pkg.tar.zst",
+    "sha256": "d959a9a76a78b704a5fd3d29a9441e74db4bf62a205681915966d0e44d369ae5",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/cef-151.3.14-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -7683,6 +7683,7 @@
       "brotli",
       "libjpeg-turbo",
       "openh264",
+      "dav1d",
       "flac",
       "libxml2",
       "zstd",
@@ -19560,10 +19561,10 @@
   },
   {
     "name": "ghc-filesystem",
-    "version": "1.5.14-2",
+    "version": "1.5.16-1",
     "origin": "artix-world",
-    "sha256": "b81a4b55d5a1b16ae741de9f1ee65f03665dfc7be665a0d7d2b55b27f59ace49",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ghc-filesystem-1.5.14-2-any.pkg.tar.zst",
+    "sha256": "aee9d11943767890b3d0b1fed0374ff1041a72d505674f4df7ca2049d76ea370",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ghc-filesystem-1.5.16-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -29651,10 +29652,10 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.29-1",
+    "version": "7.1.2.29-2",
     "origin": "artix-world",
-    "sha256": "a9be511a2816c9b0f67b35502e9ace35fda071b01d570c129e813b2f5b2a2631",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/imagemagick-7.1.2.29-1-x86_64.pkg.tar.zst",
+    "sha256": "4df3b3e96922126a680894030af7f7baea9f922f8079c6ee0470d9dd5f0e3f88",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/imagemagick-7.1.2.29-2-x86_64.pkg.tar.zst",
     "provides": [
       "libmagick"
     ],
@@ -43466,10 +43467,10 @@
   },
   {
     "name": "libdatachannel",
-    "version": "0.24.5-1",
+    "version": "0.24.5-2",
     "origin": "artix-world",
-    "sha256": "9090188763b2a750be124017b02711562807332f553acd1ab1bbe00a2acbaa7f",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libdatachannel-0.24.5-1-x86_64.pkg.tar.zst",
+    "sha256": "abd71950ed9714f094708cc1f727a90b7d2292e13f81abeebb8a94fa73a618a7",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libdatachannel-0.24.5-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -44750,15 +44751,16 @@
   },
   {
     "name": "libgig",
-    "version": "4.5.2-1",
+    "version": "4.6.0-1",
     "origin": "artix-world",
-    "sha256": "a1c4ae9b898ee063ca802b846ca8181f5eef363fb837e8e1759edabe55a7b9a1",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libgig-4.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "fedc767e643e2284f9c3aaf72ed88c7b032117c7eaa87fa2b5b4a5a713672e17",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libgig-4.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libgig.so=13-64"
+      "libgig.so=14-64"
     ],
     "depends": [
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "glibc",
       "util-linux-libs",
       "libsndfile",
@@ -45832,10 +45834,10 @@
   },
   {
     "name": "libjuice",
-    "version": "1.7.2-1",
+    "version": "1.7.3-1",
     "origin": "artix-world",
-    "sha256": "fb8ee8d2b2ce5230b0d799136e2f516d9fc3421485a1da67ad72daca66d6b2ee",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libjuice-1.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "08a5b18739a9cc446edf4f0d482bf34fdd41d88dbab4d4fb4d45674d42ffa92e",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libjuice-1.7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -49809,10 +49811,10 @@
   },
   {
     "name": "libultrahdr",
-    "version": "1.5.1-1",
+    "version": "2.0.0-1",
     "origin": "artix-world",
-    "sha256": "870c619aa80e1f1193112bd176df2d3f0c9ff6cb7b2e50605015345a5d98fea4",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libultrahdr-1.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "72e3a2e31eb989c99c0a4f02a83d6b7f9297c22e4d00094706fbd240729f56d0",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/libultrahdr-2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -75002,10 +75004,10 @@
   },
   {
     "name": "pybind11",
-    "version": "3.0.4-1",
+    "version": "3.1.0-1",
     "origin": "artix-world",
-    "sha256": "e6cfe02c2c0e991c56e3d7f446bc36b1e30b6ac39fdf32be4bf78a87542c3cf7",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/pybind11-3.0.4-1-any.pkg.tar.zst",
+    "sha256": "4a55f4d91fef2fc287e899f44fec648993f773f06508b2130f4529e4ed2ff949",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/pybind11-3.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
