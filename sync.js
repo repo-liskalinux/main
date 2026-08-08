@@ -3,8 +3,8 @@ const path = require('path');
 const crypto = require('crypto');
 const { execSync } = require('child_process');
 
-const ARCH_MIRROR = "https://mirrors.rit.edu/artixlinux";
-const REPOS = ["system", "world", "galaxy", "lib32"];
+const ARCH_MIRROR = "https://mirror.rackspace.com/archlinux/";
+const REPOS = ["core", "extra", "multilib"];
 const ARCHS = ["x86_64"];
 
 function loadBlacklist() {
@@ -129,7 +129,7 @@ async function fetchAndParseArchDb(repo) {
             packages.push(normalizePackage({
                 name: name,
                 version: version,
-                origin: `artix-${repo}`,
+                origin: `archlinux-${repo}`,
                 sha256: sha256,
                 url: filename ? `${repoUrl}/${filename}` : "",
                 provides: pkgData['PROVIDES'] || [],
@@ -170,7 +170,7 @@ async function main() {
     const buildInfo = parseInfoFile(path.join(rootDir, '.BUILDINFO'));
     if (pkgInfo.name || buildInfo.name) {
         let pkgSha256 = null;
-        const builtFiles = fs.readdirSync(rootDir).filter(f => f.endsWith('.lsk') || f.endsWith('.pkg.tar.zst'));
+        const builtFiles = fs.readdirSync(rootDir).filter(f => f.endsWith('.lsk.tar.zst') || f.endsWith('.pkg.tar.zst'));
         if (builtFiles.length > 0) {
             pkgSha256 = calculateSHA256(path.join(rootDir, builtFiles[0]));
         }
@@ -203,18 +203,18 @@ async function main() {
         for (const pkg of archPkgs) {
             const lowerName = pkg.name.toLowerCase();
             if (blacklist.has(pkg.name) ||
-                lowerName.startsWith('artix-') ||
-                lowerName.startsWith('artixnews') ||
+                lowerName.startsWith('arch-') ||
                 lowerName.startsWith('archlinux-') ||
+                lowerName.startsWith('systemd-') ||
                 lowerName.startsWith('mkinitcpio-') ||
                 lowerName.endsWith('-doc') ||
                 lowerName.endsWith('-docs')) {
                 continue;
             }
-            if (repo === "system" && liskaMap.has(pkg.name)) continue;
+            if (repo === "core" && liskaMap.has(pkg.name)) continue;
             updatedArchMap.set(pkg.name, pkg);
         }
-        const repoLiskaPackages = (repo === "system") ? Array.from(liskaMap.values()) : [];
+        const repoLiskaPackages = (repo === "core") ? Array.from(liskaMap.values()) : [];
         const finalPackages = [
             ...repoLiskaPackages,
             ...Array.from(updatedArchMap.values())
