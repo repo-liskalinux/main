@@ -54,6 +54,32 @@
         "conflicts": []
     },
     {
+        "name": "linux",
+        "version": "7.1.5-1",
+        "origin": "liska-system",
+        "sha256": "",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.5-1.pkg.tar.zst",
+        "provides": [],
+        "depends": [
+            "linux-firmware"
+        ],
+        "optdepends": [
+            "linux-headers"
+        ],
+        "conflicts": []
+    },
+    {
+        "name": "linux-headers",
+        "version": "7.1.5-1",
+        "origin": "liska-system",
+        "sha256": "",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-headers-7.1.5-1.pkg.tar.zst",
+        "provides": [],
+        "depends": [],
+        "optdepends": [],
+        "conflicts": []
+    },
+    {
         "name": "liska-install-scripts",
         "version": "1-1",
         "origin": "liska-system",
