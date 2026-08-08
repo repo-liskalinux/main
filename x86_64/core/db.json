@@ -4846,65 +4846,6 @@
     "conflicts": []
   },
   {
-    "name": "systemd",
-    "version": "261.2-1",
-    "origin": "archlinux-core",
-    "sha256": "88ed13de43e53e6b8ba6039e7e58c1bc2a15c47234b05f48e68319c93b661cd7",
-    "url": "https://mirror.rackspace.com/archlinux//core/os/x86_64/systemd-261.2-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "nss-myhostname",
-      "systemd-tools=261.2",
-      "udev=261.2"
-    ],
-    "depends": [
-      "systemd-libs=261.2",
-      "acl",
-      "bash",
-      "cryptsetup",
-      "dbus",
-      "dbus-units",
-      "kbd",
-      "kmod",
-      "hwdata",
-      "libgcrypt",
-      "libxcrypt",
-      "libidn2",
-      "lz4",
-      "pam",
-      "libelf",
-      "libseccomp",
-      "util-linux",
-      "xz",
-      "pcre2",
-      "audit",
-      "openssl"
-    ],
-    "optdepends": [
-      "apparmor: additional security features",
-      "curl: systemd-journal-upload, machinectl pull-tar and pull-raw",
-      "gnutls: systemd-journal-gatewayd and systemd-journal-remote",
-      "iptables: firewall features",
-      "libarchive: convert DDIs to tarballs",
-      "libbpf: support BPF programs",
-      "libfido2: unlocking LUKS2 volumes with FIDO2 token",
-      "libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote",
-      "libp11-kit: support PKCS#11",
-      "libpwquality: check password quality",
-      "polkit: allow administration as unprivileged user",
-      "qemu-base: systemd-vmspawn",
-      "qrencode: show QR codes",
-      "quota-tools: kernel-level quota management",
-      "systemd-sysvcompat: symlink package to provide sysvinit binaries",
-      "systemd-ukify: combine kernel and initrd into a signed Unified Kernel Image",
-      "tpm2-tss: unlocking LUKS2 volumes with TPM2"
-    ],
-    "conflicts": [
-      "nss-myhostname",
-      "systemd-tools",
-      "udev"
-    ]
-  },
-  {
     "name": "tar",
     "version": "1.35-2",
     "origin": "archlinux-core",
