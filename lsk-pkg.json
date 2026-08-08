@@ -54,6 +54,20 @@
         "conflicts": []
     },
     {
+        "name": "busybox",
+        "version": "1.38.0-1",
+        "origin": "liska-core",
+        "sha256": "b288fe372f8f4c2377a33425ebaeacdf8116d87b26ac148834f799cd14fdbe19",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/busybox-1.38.0-1-x86_64.lsk.tar.zst",
+        "provides": [],
+        "depends": [
+            "glibc",
+            "libcap"
+        ],
+        "optdepends": [],
+        "conflicts": []
+    },
+    {
         "name": "grub",
         "version": "2.14-1",
         "origin": "liska-core",
