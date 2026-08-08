@@ -422,6 +422,20 @@
     ]
   },
   {
+    "name": "busybox",
+    "version": "1.38.0-1",
+    "origin": "liska-core",
+    "sha256": "b288fe372f8f4c2377a33425ebaeacdf8116d87b26ac148834f799cd14fdbe19",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/busybox-1.38.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libcap"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "bzip2",
     "version": "1.0.8-6",
     "origin": "artix-system",
@@ -4301,17 +4315,15 @@
   },
   {
     "name": "linux",
-    "version": "7.1.5-1",
+    "version": "7.1.7-1",
     "origin": "liska-core",
-    "sha256": null,
-    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "064b1d2799fd07cb8a3da5387310b2cbc42a952b7f3378179075f432e1adf61a",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.7-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware"
     ],
-    "optdepends": [
-      "linux-headers"
-    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -4584,17 +4596,6 @@
     "origin": "artix-system",
     "sha256": "787cb1e285dbc6b02f6783f7616044735e8018e73eb4be67e1bfe30fa328e47e",
     "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/linux-firmware-whence-20260622-1-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "linux-headers",
-    "version": "7.1.5-1",
-    "origin": "liska-core",
-    "sha256": null,
-    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-headers-7.1.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
