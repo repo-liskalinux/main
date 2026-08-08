@@ -54,6 +54,29 @@
         "conflicts": []
     },
     {
+        "name": "grub",
+        "version": "2.14-1",
+        "origin": "liska-system",
+        "sha256": "9c2af6e4e2b4a9ce8be41ee09f59e4fe3e66f439874ae8e70f964f5c1f19d426",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/grub-2.14-1-x86_64.lsk.tar.zst",
+        "provides": [],
+        "depends": [
+            "bash",
+            "xz",
+            "gettext",
+            "device-mapper"
+        ],
+        "optdepends": [
+            "dosfstools",
+            "efibootmgr",
+            "freetype2",
+            "fuse3",
+            "mtools",
+            "os-prober"
+        ],
+        "conflicts": []
+    },
+    {
         "name": "linux",
         "version": "7.1.5-1",
         "origin": "liska-system",
