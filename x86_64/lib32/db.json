@@ -3006,10 +3006,10 @@
   },
   {
     "name": "lib32-mpg123",
-    "version": "1.33.5-1",
+    "version": "1.33.7-1",
     "origin": "artix-lib32",
-    "sha256": "835600b6e23ba0c7cbb1b6da654abcdf941865c08e66a67ae12da6e3c5038fd0",
-    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/lib32-mpg123-1.33.5-1-x86_64.pkg.tar.zst",
+    "sha256": "2216063c0417aa736e971da2eefb0581a5389cefd186262c2095812080efbcc1",
+    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/lib32-mpg123-1.33.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmpg123.so=0-32",
       "libout123.so=0-32",
@@ -3124,10 +3124,10 @@
   },
   {
     "name": "lib32-nvidia-utils",
-    "version": "610.43.03-1",
+    "version": "610.57.04-1",
     "origin": "artix-lib32",
-    "sha256": "b90cb80649fd6e4cbbee4d97c3e00436bfb9766f543e888d97f501803e695aa5",
-    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/lib32-nvidia-utils-610.43.03-1-x86_64.pkg.tar.zst",
+    "sha256": "2dd37cc0e8f7671b00a67a9aa801f987d9a124e2478df89b3a04c262329329d6",
+    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/lib32-nvidia-utils-610.57.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-vulkan-driver",
       "lib32-opengl-driver",
@@ -3137,7 +3137,7 @@
       "lib32-zlib",
       "lib32-gcc-libs",
       "lib32-libglvnd",
-      "nvidia-utils=610.43.03"
+      "nvidia-utils=610.57.04"
     ],
     "optdepends": [
       "lib32-opencl-nvidia"
@@ -3246,10 +3246,10 @@
   },
   {
     "name": "lib32-opencl-nvidia",
-    "version": "610.43.03-1",
+    "version": "610.57.04-1",
     "origin": "artix-lib32",
-    "sha256": "58154542aef97c9910c391be9781c3887dbd3754130dcae58e7589a1aa1e6afb",
-    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/lib32-opencl-nvidia-610.43.03-1-x86_64.pkg.tar.zst",
+    "sha256": "496bb3ff9a79302b00de39c5bc501c0b25502a1c9ff60d9f4315591ba8b51cdc",
+    "url": "https://mirrors.rit.edu/artixlinux/lib32/os/x86_64/lib32-opencl-nvidia-610.57.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-opencl-driver"
     ],

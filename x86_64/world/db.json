@@ -10240,15 +10240,17 @@
   },
   {
     "name": "curl-impersonate",
-    "version": "1.5.6-1",
+    "version": "2.0.0-1",
     "origin": "artix-world",
-    "sha256": "3b3ea9926b448c7c5dc882186ec5e6c8c67554091d5fd4d6ed36472f0dfc6ba6",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/curl-impersonate-1.5.6-1-x86_64.pkg.tar.zst",
+    "sha256": "6888f86e29210b999be1915a1a537fbabbdddd2ef32217f0724bece037547542",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/curl-impersonate-2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
+      "libgcc_s.so=1-64",
       "libstdc++",
+      "libstdc++.so=6-64",
       "bash"
     ],
     "optdepends": [],
@@ -11311,10 +11313,10 @@
   },
   {
     "name": "dhcpcd",
-    "version": "10.3.2-1",
+    "version": "10.5.0-1",
     "origin": "artix-world",
-    "sha256": "a07b84a078c10d8db40b882fe139e97df14e28add36d6b0cc674b9d3fbd71d84",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/dhcpcd-10.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "33fad3ae239c7fa8768cff10a5d2e73333b35eedd8e4e2edd1e2755b54dd4ddd",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/dhcpcd-10.5.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "dhcp-client"
     ],
@@ -15924,10 +15926,10 @@
   },
   {
     "name": "fakechroot",
-    "version": "2.20.1-4.1",
+    "version": "2.20.1-5",
     "origin": "artix-world",
-    "sha256": "ee8ebfcca4fd6f3c283b4de75686589ab3ffcdfda3ba67f38d8ac209cf480a88",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/fakechroot-2.20.1-4.1-x86_64.pkg.tar.zst",
+    "sha256": "9efed4ac0c81856673fc5409f6839f195fb1f4af0ad81c14082e1f2cbf383c02",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/fakechroot-2.20.1-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -78411,14 +78413,14 @@
   },
   {
     "name": "python-curl_cffi",
-    "version": "0.15.0-3",
+    "version": "0.16.0-1",
     "origin": "artix-world",
-    "sha256": "782d69faa410353e85ed5d443773d6390c5ac054ce9093bbcbfeba61ca07fd92",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-curl_cffi-0.15.0-3-x86_64.pkg.tar.zst",
+    "sha256": "834e4120196a144ab1b1a8b14bd6068670357e2aa60a99220144eb5ecf5336c1",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-curl_cffi-0.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "curl-impersonate=1.5.6",
+      "curl-impersonate=2.0.0",
       "python",
       "python-certifi",
       "python-cffi",
@@ -79950,10 +79952,10 @@
   },
   {
     "name": "python-faker",
-    "version": "40.28.1-1",
+    "version": "40.29.0-1",
     "origin": "artix-world",
-    "sha256": "633bba70f3be339d507f87699f1bb702aa2525afc44ff139df56de5eb9d88048",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-faker-40.28.1-1-any.pkg.tar.zst",
+    "sha256": "ebd243386a9fc52c53c1607cfd334efef92139e45b9fba1904afd73e11c986fa",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-faker-40.29.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -86348,10 +86350,10 @@
   },
   {
     "name": "python-oslo-config",
-    "version": "10.6.0-1",
+    "version": "10.7.0-1",
     "origin": "artix-world",
-    "sha256": "36569f2596a6072d58c98ad0dd7cca1fcd829e6d54fd2ff048ee8c63d286e873",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-oslo-config-10.6.0-1-any.pkg.tar.zst",
+    "sha256": "7f69e0e8c462a1e75eefa97c995b0b6a71de058cac338cf5b63664ef1e6add4f",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-oslo-config-10.7.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-netaddr",
@@ -87456,10 +87458,10 @@
   },
   {
     "name": "python-platformdirs",
-    "version": "4.11.0-1",
+    "version": "4.11.1-1",
     "origin": "artix-world",
-    "sha256": "7b38aedcf92be92ee4384a697ef590a3a6a3d386ce9f18f5f999046ca2eee941",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-platformdirs-4.11.0-1-any.pkg.tar.zst",
+    "sha256": "5e4dbeb21e4395f9e575c8c5e7a63595fa1a889476cdf8dd435771590ff90030",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-platformdirs-4.11.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -90451,10 +90453,10 @@
   },
   {
     "name": "python-pytest-forked",
-    "version": "1.7.0-1",
+    "version": "1.7.1-1",
     "origin": "artix-world",
-    "sha256": "e11f90a8e4e6768ec9a18bf116ead34e72f4fb118446359a52b8bb54439036a1",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-pytest-forked-1.7.0-1-any.pkg.tar.zst",
+    "sha256": "ee255060d03352e34526da5fb47beccd138c88c01c23c2d80165eecf7f2b1e18",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-pytest-forked-1.7.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pytest"
@@ -93030,10 +93032,10 @@
   },
   {
     "name": "python-shtab",
-    "version": "1.9.3-1",
+    "version": "1.10.0-1",
     "origin": "artix-world",
-    "sha256": "54c96a11cb1fd5410ee898d8be051a34255a41d85acf7648c3a90bc7e6d947bb",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-shtab-1.9.3-1-any.pkg.tar.zst",
+    "sha256": "b905911a56e01cb33896b328210c17b377b060298a37a3795884496c9dba7d29",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-shtab-1.10.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -95217,10 +95219,10 @@
   },
   {
     "name": "python-tracerite",
-    "version": "2.5.1-1",
+    "version": "2.5.2-1",
     "origin": "artix-world",
-    "sha256": "6c5234fc66c21196eef26c9f86ab8f2f9b157dca3866503876fba61bd6c3cd6a",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-tracerite-2.5.1-1-any.pkg.tar.zst",
+    "sha256": "52508f4246d4bbc9b2f63871773b9c6f6ea3424563851289a0441ce577d1e482",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-tracerite-2.5.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96046,10 +96048,10 @@
   },
   {
     "name": "python-vcs-versioning",
-    "version": "2.2.3-1",
+    "version": "2.2.4-1",
     "origin": "artix-world",
-    "sha256": "ac6e965347afd4d73a85600f706ea983ec070c2a4972140702c669c69625646b",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-vcs-versioning-2.2.3-1-any.pkg.tar.zst",
+    "sha256": "8929f7c7cac31f0e8da1ade72834d894f21ea6c865a134e7596717570ff72c3e",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-vcs-versioning-2.2.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96114,10 +96116,10 @@
   },
   {
     "name": "python-virtualenv",
-    "version": "21.7.1-1",
+    "version": "21.7.2-1",
     "origin": "artix-world",
-    "sha256": "51be7176ea3262ce6ecb659dc5185ff85c4fe6605b901a97f67462c3b7983609",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-virtualenv-21.7.1-1-any.pkg.tar.zst",
+    "sha256": "80240dc76bf3ee60996a2ada75ccaba744530af68d3aa1bbae0ef974428314e7",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/python-virtualenv-21.7.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -124572,10 +124574,10 @@
   },
   {
     "name": "udisks2",
-    "version": "2.11.1-2",
+    "version": "2.11.2-1",
     "origin": "artix-world",
-    "sha256": "379d88c58433d3da950cd7f7a5030d3ccfdcd682a047510efd74c8d4dd087a39",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/udisks2-2.11.1-2-x86_64.pkg.tar.zst",
+    "sha256": "0b17410fb4b5afb54419400f76b2f66ed3afc8b8f65151f69ef9c7d714c55fdc",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/udisks2-2.11.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libudisks2.so=0-64"
     ],
@@ -124631,10 +124633,10 @@
   },
   {
     "name": "udisks2-btrfs",
-    "version": "2.11.1-2",
+    "version": "2.11.2-1",
     "origin": "artix-world",
-    "sha256": "642902dcc9cd63f1f380b21eafda07f19f61d22d1e3b1a75e38ccdf78e35f4e8",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/udisks2-btrfs-2.11.1-2-x86_64.pkg.tar.zst",
+    "sha256": "ab5974e2b3c535d635f4d428f28c1ce241667ff97fd7d0110376e69938931bc9",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/udisks2-btrfs-2.11.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",
@@ -124669,10 +124671,10 @@
   },
   {
     "name": "udisks2-lvm2",
-    "version": "2.11.1-2",
+    "version": "2.11.2-1",
     "origin": "artix-world",
-    "sha256": "2475bdd4f9692fdb72f28fcc98224ebb7ce59321c03437a530f50630f6dcaba7",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/udisks2-lvm2-2.11.1-2-x86_64.pkg.tar.zst",
+    "sha256": "0acddb5e6641deac702806b62e8d673aa2b2a9a5a14e07b18fd1af14fcc90c73",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/udisks2-lvm2-2.11.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",
