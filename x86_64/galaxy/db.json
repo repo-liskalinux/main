@@ -1054,10 +1054,10 @@
   },
   {
     "name": "blender",
-    "version": "17:5.2.0-3",
+    "version": "17:5.2.0-4",
     "origin": "artix-galaxy",
-    "sha256": "a4d72eb0f2ceab2da5466adba774381dac7178cb2d43594a21be55b350a190e4",
-    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/blender-17:5.2.0-3-x86_64.pkg.tar.zst",
+    "sha256": "1a3b8f845a71c025d47c15090e9c490724c89d049dd4a33716796a3d33eb5117",
+    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/blender-17:5.2.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alembic",
@@ -2030,18 +2030,21 @@
   },
   {
     "name": "chromium-bsu",
-    "version": "0.9.16.1-3",
+    "version": "0.9.16.1-4",
     "origin": "artix-galaxy",
-    "sha256": "54fc807488307c3903839e9a8c573a81b6bf30cb02c16b4b6f4fd78cce954463",
-    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/chromium-bsu-0.9.16.1-3-x86_64.pkg.tar.zst",
+    "sha256": "f10ec04d82dd225869c0178c779869fc38b483313ff6bb1e3807cfcaf8f5c445",
+    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/chromium-bsu-0.9.16.1-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glu",
-      "sdl2_image",
-      "openal",
       "freealut",
       "ftgl",
-      "fontconfig"
+      "fontconfig",
+      "glu",
+      "hicolor-icon-theme",
+      "libGL.so=1-64",
+      "openal",
+      "sdl2-compat",
+      "sdl2_image"
     ],
     "optdepends": [],
     "conflicts": []
@@ -8526,10 +8529,10 @@
   },
   {
     "name": "forkgram",
-    "version": "7.0.3-1",
+    "version": "7.0.9-1",
     "origin": "artix-galaxy",
-    "sha256": "6110ced8a1a582a746935876a539dde82ea06cc5048c1de7aeb7bfce50c6914c",
-    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/forkgram-7.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "77768db73e26a7b0f9f15dc5b4d9e111dcde1c8fafcebf8d08afa9868f518ad3",
+    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/forkgram-7.0.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ada",
@@ -8540,6 +8543,7 @@
       "libdispatch",
       "libheif",
       "libjxl",
+      "libsrtp",
       "libvpx",
       "libxdamage",
       "minizip",

@@ -3710,14 +3710,15 @@
   },
   {
     "name": "libmicrohttpd",
-    "version": "1.0.9-1",
+    "version": "1.0.10-1",
     "origin": "artix-system",
-    "sha256": "3610d7e690c3fbe2a20402990fe928331e4fda0aaedf5468c97d84690b3fbcbb",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/libmicrohttpd-1.0.9-1-x86_64.pkg.tar.zst",
+    "sha256": "72267eb49387ce840e8882349a7b5c13be2bf9f33804c4f58837bc7a03a7ede0",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/libmicrohttpd-1.0.10-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmicrohttpd.so=12-64"
     ],
     "depends": [
+      "glibc",
       "gnutls"
     ],
     "optdepends": [],

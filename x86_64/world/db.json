@@ -3465,10 +3465,10 @@
   },
   {
     "name": "audacity",
-    "version": "1:3.7.8-2",
+    "version": "1:3.7.8-3",
     "origin": "artix-world",
-    "sha256": "7a3a24e681ec41ecbe8ba6d6482c23a871d8b1669f1f1c4d33ccc7e232f8ce93",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/audacity-1:3.7.8-2-x86_64.pkg.tar.zst",
+    "sha256": "6033f764fc2bec2ce9c960caa7c04e9d2e4936782a9970dabe6d3643f963cad9",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/audacity-1:3.7.8-3-x86_64.pkg.tar.zst",
     "provides": [
       "ladspa-host",
       "lv2-host",
@@ -3498,7 +3498,6 @@
       "libgcc",
       "libid3tag",
       "libid3tag.so=0-64",
-      "libmad",
       "libogg",
       "libogg.so=0-64",
       "libsbsms",
@@ -3516,6 +3515,8 @@
       "liblilv-0.so=0-64",
       "mpg123",
       "libmpg123.so=0-64",
+      "opus",
+      "libopus.so=0-64",
       "opusfile",
       "portaudio",
       "libportaudio.so=2-64",
@@ -3523,7 +3524,6 @@
       "libportmidi.so=2-64",
       "portsmf",
       "libportSMF.so=0-64",
-      "python",
       "soundtouch",
       "sqlite",
       "libsqlite3.so=0-64",
@@ -55352,10 +55352,10 @@
   },
   {
     "name": "materialx",
-    "version": "1.39.4-5",
+    "version": "1.39.5-1",
     "origin": "artix-world",
-    "sha256": "e380388fa245690b4be2c10198d5e95ea7c10f4f7f33b78be20675cb7d6b2cab",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/materialx-1.39.4-5-x86_64.pkg.tar.zst",
+    "sha256": "75a742ff9066b96449a27d4f42019fb9188bb56635da6627561150f107a75326",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/materialx-1.39.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -102700,14 +102700,19 @@
   },
   {
     "name": "ripgrep-all",
-    "version": "0.10.10-1",
+    "version": "0.10.10-2",
     "origin": "artix-world",
-    "sha256": "a2d607e85aa793c275230b89e1bb161a513fc1a19792b559e471bf77096fdb95",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ripgrep-all-0.10.10-1-x86_64.pkg.tar.zst",
+    "sha256": "d70fc04dac1c97b401d0f611b499cd5c7e8ba5ddcf39dad967057672dd3aa591",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ripgrep-all-0.10.10-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "bzip2",
+      "glibc",
+      "libgcc",
       "ripgrep",
-      "xz"
+      "sqlite",
+      "xz",
+      "zstd"
     ],
     "optdepends": [
       "ffmpeg: for the ffmpeg adapter",
@@ -106895,10 +106900,10 @@
   },
   {
     "name": "ruby-protocol-http1",
-    "version": "0.40.1-1",
+    "version": "0.40.2-1",
     "origin": "artix-world",
-    "sha256": "45f63ad21b3f4ee07e36f3d5f9c8d0b89dfb598845439dbcf1472291e1f3afd8",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ruby-protocol-http1-0.40.1-1-any.pkg.tar.zst",
+    "sha256": "99c44ec64fa184ccc17d27a81f4ab83b3d0a174403c4260619f3c2ac01f475a6",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ruby-protocol-http1-0.40.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -107720,10 +107725,10 @@
   },
   {
     "name": "ruby-ruby_memcheck",
-    "version": "3.0.0-1",
+    "version": "3.0.1-1",
     "origin": "artix-world",
-    "sha256": "bfc80c3fa38d562bd21844fe6841a6530f57c20e5d3c083c4d65b9dd24974251",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ruby-ruby_memcheck-3.0.0-1-any.pkg.tar.zst",
+    "sha256": "6af201593c4fc3b9f9c06a494a7ab874e6cf8d497819e52242f11004cd517361",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/ruby-ruby_memcheck-3.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -125665,10 +125670,10 @@
   },
   {
     "name": "usd",
-    "version": "26.05-3",
+    "version": "26.05-4",
     "origin": "artix-world",
-    "sha256": "6aeda37989386dda407b66b94fa48a04a70511d184935f215aed783d901036eb",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/usd-26.05-3-x86_64.pkg.tar.zst",
+    "sha256": "036d4b869629e16f80e950c7fc1565218151e05ef87237a1e506453a803014a2",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/usd-26.05-4-x86_64.pkg.tar.zst",
     "provides": [
       "usd-extras"
     ],
