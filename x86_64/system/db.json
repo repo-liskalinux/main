@@ -985,10 +985,10 @@
   },
   {
     "name": "device-mapper",
-    "version": "2.03.41-1",
+    "version": "2.03.42-1",
     "origin": "artix-system",
-    "sha256": "69aad7185846fbff9ba16e681660999bf679a696e5cb4089484b84f029c3c118",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/device-mapper-2.03.41-1-x86_64.pkg.tar.zst",
+    "sha256": "161a51a25f2b61064463dd89545107d8ea2893ed0debad58581b3da30ea9e92a",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/device-mapper-2.03.42-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdevmapper.so=1.02-64",
       "libdevmapper-event.so=1.02-64"
@@ -4751,14 +4751,14 @@
   },
   {
     "name": "lvm2",
-    "version": "2.03.41-1",
+    "version": "2.03.42-1",
     "origin": "artix-system",
-    "sha256": "216e218fd8fe98662ff68f10205dedf0d39c998f4264d0ce080521a8d4369c93",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/lvm2-2.03.41-1-x86_64.pkg.tar.zst",
+    "sha256": "8905e457a18a0ba977bd5166f493ee3c9a3e32d5ef5c09494d34be505b618b4a",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/lvm2-2.03.42-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
-      "device-mapper>=2.03.41",
+      "device-mapper>=2.03.42",
       "glibc",
       "libaio",
       "libaio.so=1-64",
