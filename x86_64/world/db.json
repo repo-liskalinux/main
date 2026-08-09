@@ -2213,10 +2213,10 @@
   },
   {
     "name": "aquamarine",
-    "version": "0.14.0-1",
+    "version": "0.14.0-2",
     "origin": "artix-world",
-    "sha256": "32490191ffd02f69f7f0d1e45c0394f4b9250fb74691dd98dda520f9202e19c5",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/aquamarine-0.14.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0c62e998819db10ddbfd0177c59993bce793b11b21e285fa14252cfda17527c4",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/aquamarine-0.14.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libaquamarine.so=13-64"
     ],
@@ -2232,12 +2232,10 @@
       "libdrm",
       "libglvnd",
       "libEGL.so=1-64",
-      "libGLESv2.so",
       "libinput",
       "mesa",
       "opengl-driver",
       "pixman",
-      "pugixml",
       "seatd",
       "libseat.so=1-64",
       "libudev",
