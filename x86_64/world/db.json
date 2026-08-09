@@ -20383,10 +20383,10 @@
   },
   {
     "name": "gitea-runner",
-    "version": "3.0.0-1",
+    "version": "3.1.0-1",
     "origin": "artix-world",
-    "sha256": "6218f471b19275986604e3a6c4761e471ea552a67e2b874b5d9bf49cffce0c42",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/gitea-runner-3.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1f433e055ba7fc2cca521429ddb4c4f01d2cd9eab23e05bdc6db1469dc38cace",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/gitea-runner-3.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "act_runner"
     ],
@@ -27224,10 +27224,10 @@
   },
   {
     "name": "hdf5",
-    "version": "2.1.1-1",
+    "version": "2.2.0-1",
     "origin": "artix-world",
-    "sha256": "5058039941915d3698d271b39132bd5919777ca40b6f88b63e10431c815c2c38",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/hdf5-2.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8f6c8d407203b23824de30e9d698d1f0b42dc37bb84c3a1a58b6a353dd003701",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/hdf5-2.2.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "hdf5-java"
     ],
@@ -27245,10 +27245,10 @@
   },
   {
     "name": "hdf5-openmpi",
-    "version": "2.1.1-1",
+    "version": "2.2.0-1",
     "origin": "artix-world",
-    "sha256": "960726d64896c1783926189b8d66c092c469c0aee2f6d17a1725e3e7107ea16e",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/hdf5-openmpi-2.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8192db65de85b322f8eb71257f7e3eb2606bb4aa371b649918f7486992ae5387",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/hdf5-openmpi-2.2.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "hdf5"
     ],
@@ -29511,10 +29511,10 @@
   },
   {
     "name": "icewm",
-    "version": "4.0.0-1",
+    "version": "4.1.0-1",
     "origin": "artix-world",
-    "sha256": "d2fd9a333e0b448e3e12620dbe25da0b9f116f46dd4416cf8674a8754c99b883",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/icewm-4.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "99fb98dbabb695d63c2685b1887eb33ee012409efdd1296474eaea1833fd9c02",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/icewm-4.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -31742,10 +31742,10 @@
   },
   {
     "name": "jenkins",
-    "version": "2.575-1",
+    "version": "2.576-1",
     "origin": "artix-world",
-    "sha256": "efbf7f3b6cf055d48814366bcf58bb97dd89ba65481f71df09032e359f7b0384",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/jenkins-2.575-1-any.pkg.tar.zst",
+    "sha256": "c9e405b598cccbce9863e213e7464b17bb2cb11a149a717d82025fff735f8f7d",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/jenkins-2.576-1-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
@@ -53738,10 +53738,10 @@
   },
   {
     "name": "lxc",
-    "version": "1:7.0.0-1",
+    "version": "1:7.0.0-2",
     "origin": "artix-world",
-    "sha256": "c416a8f8db92cd79faa629038859cf442023feac6085f6950246b7d2733abc22",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/lxc-1:7.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b33cb2072e5883cbdbc5ac9411fdb48261e6c67a5dc44cb9dfde9d5d43ac962f",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/lxc-1:7.0.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -53750,7 +53750,8 @@
       "libcap",
       "python",
       "rsync",
-      "wget"
+      "wget",
+      "dbus"
     ],
     "optdepends": [
       "dnsmasq",
@@ -55167,10 +55168,10 @@
   },
   {
     "name": "markdownlint",
-    "version": "0.17.0-1",
+    "version": "0.18.0-1",
     "origin": "artix-world",
-    "sha256": "a13dc3706e47d4a3fa697985c73dfdb857bd1755a9a600b49b3ea9bfa1fd2e16",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/markdownlint-0.17.0-1-any.pkg.tar.zst",
+    "sha256": "1d57f2040aabaca0badaff042a8419671d5635d3c3319e8088db2b2013829296",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/markdownlint-0.18.0-1-any.pkg.tar.zst",
     "provides": [
       "ruby-mdl"
     ],
@@ -71209,10 +71210,10 @@
   },
   {
     "name": "pkgfile",
-    "version": "25-2",
+    "version": "26-1",
     "origin": "artix-world",
-    "sha256": "86d29943c296eb4ab444ba0d7c30250c027d40b4334ae9fd3d6dd2187f973c52",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/pkgfile-25-2-x86_64.pkg.tar.zst",
+    "sha256": "6acee618670d481cf9fb3a252476dfb3b7ab1328d422469838da13b291b6c1c6",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/pkgfile-26-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -114694,10 +114695,10 @@
   },
   {
     "name": "tea",
-    "version": "0.15.0-1",
+    "version": "0.15.1-1",
     "origin": "artix-world",
-    "sha256": "acf28b25d3d5ab99af4af6d93ff349113409054c5dd052fed7b4e4d1b11e9400",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/tea-0.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4387f6239bef23f67a197cd17afb3143f89fa4c720b9296d9ba90f92083b4e2d",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/tea-0.15.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
