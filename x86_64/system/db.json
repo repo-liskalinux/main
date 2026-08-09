@@ -723,10 +723,10 @@
   },
   {
     "name": "cryptsetup-s6",
-    "version": "20260512-1",
+    "version": "20260808-1",
     "origin": "artix-system",
-    "sha256": "063dc15e7582e1ebc7bcdc6051567b1477a6dfd8f6221eea5ad36311afdac94c",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/cryptsetup-s6-20260512-1-any.pkg.tar.zst",
+    "sha256": "7b620dd4efbcf373db52752af13d471a28f4c3a604d420a9696c9c29a4a50567",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/cryptsetup-s6-20260808-1-any.pkg.tar.zst",
     "provides": [
       "init-cryptsetup"
     ],
@@ -4655,7 +4655,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "5114e8512d2d3ff95389b9e11dc391065b1e63836acadf2e039ea4cf8faacb8e",
+    "sha256": "d093b6e5acf7035edddf3d426dc39b94c5fafca418522a4c696b59a5d34b0c41",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -4675,7 +4675,8 @@
       "gzip",
       "bzip2",
       "unzip",
-      "p7zip"
+      "p7zip",
+      "rust"
     ],
     "optdepends": [
       "git",
@@ -4688,8 +4689,7 @@
       "nodejs",
       "npm",
       "yarn",
-      "go",
-      "rust"
+      "go"
     ],
     "conflicts": []
   },
