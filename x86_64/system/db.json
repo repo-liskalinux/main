@@ -4627,7 +4627,8 @@
       "grub",
       "libisoburn",
       "mtools",
-      "dosfstools"
+      "dosfstools",
+      "squashfs-tools"
     ],
     "optdepends": [],
     "conflicts": []
@@ -4636,7 +4637,7 @@
     "name": "lkfs",
     "version": "1.0.0-1",
     "origin": "liska-core",
-    "sha256": "20796076c0065c37ce58ef843a2331dad41cc21907bbe3a158d49fad863dc263",
+    "sha256": "debeb26bc8742be8dcfe72e64cad250065b849d647accac96fadf66f85e5df00",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkfs-1.0.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
