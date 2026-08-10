@@ -18092,10 +18092,10 @@
   },
   {
     "name": "fsverity-utils",
-    "version": "1.7-1",
+    "version": "1.7-2",
     "origin": "artix-world",
-    "sha256": "ae34ecc5ba09778c22ed8ead670ab4397f76bb74503515c671191dca2f95b64e",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/fsverity-utils-1.7-1-x86_64.pkg.tar.zst",
+    "sha256": "b1ec6aa1bce5fc370fc58116dbaa58335774acbe8d7070ebb8ea0f2abba5c44b",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/fsverity-utils-1.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl"
@@ -55166,10 +55166,10 @@
   },
   {
     "name": "markdownlint",
-    "version": "0.18.0-1",
+    "version": "0.18.1-1",
     "origin": "artix-world",
-    "sha256": "1d57f2040aabaca0badaff042a8419671d5635d3c3319e8088db2b2013829296",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/markdownlint-0.18.0-1-any.pkg.tar.zst",
+    "sha256": "4844a6ce44fe1190e950bcd86f326e5c77661e3981013305c6dd2e5d783b72b1",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/markdownlint-0.18.1-1-any.pkg.tar.zst",
     "provides": [
       "ruby-mdl"
     ],
@@ -73637,10 +73637,10 @@
   },
   {
     "name": "powerdns",
-    "version": "5.1.4-1",
+    "version": "5.1.4-2",
     "origin": "artix-world",
-    "sha256": "078488c192a27d5013c8f20d5b09cb1cdfc3fdce0fbf5a576e6d65a4a8c886de",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/powerdns-5.1.4-1-x86_64.pkg.tar.zst",
+    "sha256": "1b39ab728e99704dbc648aca8170bf9e9b23f59ac03bbf7ec7e1e9160c0d99f8",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/powerdns-5.1.4-2-x86_64.pkg.tar.zst",
     "provides": [
       "pdns"
     ],
@@ -113379,10 +113379,10 @@
   },
   {
     "name": "suitesparse",
-    "version": "7.12.3-1",
+    "version": "7.13.0-1",
     "origin": "artix-world",
-    "sha256": "af7942c92e685c02444eb0b07a45dcd433339c9f68c0e4a2e6762ae432ab9463",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/suitesparse-7.12.3-1-x86_64.pkg.tar.zst",
+    "sha256": "bf085b3cae1a2f3bc6a0f2dcc7d7c9ae4eef7e9cc912625c02ab09d5976768cf",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/suitesparse-7.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas",
@@ -113399,10 +113399,10 @@
   },
   {
     "name": "suitesparse-graphblas",
-    "version": "7.12.3-1",
+    "version": "7.13.0-1",
     "origin": "artix-world",
-    "sha256": "480648df55521d482f3d58b588123c340bfb68938c48780c46557c9e6ccbf369",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/suitesparse-graphblas-7.12.3-1-x86_64.pkg.tar.zst",
+    "sha256": "1167e0c5884b4154e7fd05aef5155eb855ba1636ca5ac54eeb0a34bae7f08e52",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/suitesparse-graphblas-7.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -134304,10 +134304,10 @@
   },
   {
     "name": "xorg-server-tearfree",
-    "version": "21.1.24-1",
+    "version": "21.1.24-1.1",
     "origin": "artix-world",
-    "sha256": "a0c17acc18c107f664bb7032b8e41ac1c1324955d64692a96c3dfa5db4a52ad8",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/xorg-server-tearfree-21.1.24-1-x86_64.pkg.tar.zst",
+    "sha256": "d9f8599f525e012e509449b69af7375f1c7289120c76a618eb6a30e49b54da79",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/xorg-server-tearfree-21.1.24-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "X-ABI-VIDEODRV_VERSION=25.2",
       "X-ABI-XINPUT_VERSION=24.4",
@@ -134320,7 +134320,7 @@
       "libepoxy",
       "libxfont2",
       "pixman",
-      "xorg-server-common=21.1.24",
+      "xorg-server-common",
       "xf86-input-libinput<2.0.0",
       "dbus",
       "libgl",

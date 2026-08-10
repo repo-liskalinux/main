@@ -3901,10 +3901,10 @@
   },
   {
     "name": "libp11-kit",
-    "version": "0.26.4-1",
+    "version": "0.26.5-1",
     "origin": "artix-system",
-    "sha256": "280a2278cac966fcea219d4f56f0540d82c17b9efcf440c47ccbcfab3c7a04ef",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/libp11-kit-0.26.4-1-x86_64.pkg.tar.zst",
+    "sha256": "56bf089cb5e7977bd1ccb812e8517938fc2db0dbd7943cf426a1962710673212",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/libp11-kit-0.26.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libp11-kit.so=0-64"
     ],
@@ -5341,10 +5341,10 @@
   },
   {
     "name": "nspr",
-    "version": "4.39-1",
+    "version": "4.40-1",
     "origin": "artix-system",
-    "sha256": "f0885ad9d04819af495ab3aefa0ea7c9524e144de0f57f31007048250e5687b5",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/nspr-4.39-1-x86_64.pkg.tar.zst",
+    "sha256": "7b77d5e09af148cf1014369e8e58f3bf041479998c8d18f78f6ae8eabc9154df",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/nspr-4.40-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5498,10 +5498,10 @@
   },
   {
     "name": "openssh",
-    "version": "10.4p1-3",
+    "version": "10.4p1-4",
     "origin": "artix-system",
-    "sha256": "1ab23afa9d6f8b2cffa534a4b56fcd8e4bb140af04609ec747a03e3dc430584c",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/openssh-10.4p1-3-x86_64.pkg.tar.zst",
+    "sha256": "5e32550faf64dbfbafdd83f41544edb2e48094e832a478ae51f400014b72a969",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/openssh-10.4p1-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5623,16 +5623,16 @@
   },
   {
     "name": "p11-kit",
-    "version": "0.26.4-1",
+    "version": "0.26.5-1",
     "origin": "artix-system",
-    "sha256": "910f6354baccbd623035ff293db0d891b809da2a64e65f7dc27fc78b72fd5852",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/p11-kit-0.26.4-1-x86_64.pkg.tar.zst",
+    "sha256": "5eeafc17960543567577071aedeec8c9a861b0ec6d71a4f94f236458ba1adf5d",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/p11-kit-0.26.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "coreutils",
       "glibc",
       "libtasn1",
-      "libp11-kit=0.26.4-1",
+      "libp11-kit=0.26.5-1",
       "libp11-kit.so=0-64"
     ],
     "optdepends": [],
