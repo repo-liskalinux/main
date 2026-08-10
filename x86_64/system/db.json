@@ -6350,10 +6350,10 @@
   },
   {
     "name": "s6-base",
-    "version": "3.3.1-1",
+    "version": "3.3.2-1",
     "origin": "artix-system",
-    "sha256": "b538fc8d6ce53513a959af99317150105c69d31599a55db603a09ebb639aa2ae",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/s6-base-3.3.1-1-any.pkg.tar.zst",
+    "sha256": "efaffa4643fbfa1c3e70c28cbfe1d0f839a8ddc94ee3894c816770e5599f15e6",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/s6-base-3.3.2-1-any.pkg.tar.zst",
     "provides": [
       "svc-manager",
       "init-rc"
@@ -6472,10 +6472,10 @@
   },
   {
     "name": "sed",
-    "version": "4.10-1",
+    "version": "4.10-2",
     "origin": "artix-system",
-    "sha256": "c9ccc8d187b77a3c1cc9ef66c135eaf7e192ba8ca69a2e89d925f151473a6620",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/sed-4.10-1-x86_64.pkg.tar.zst",
+    "sha256": "723e074a60c255e62eb7f8c07cbb9046e6cffceabe7361734ab52d43aad129b2",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/sed-4.10-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6790,10 +6790,10 @@
   },
   {
     "name": "userspawn-dinit",
-    "version": "20260621-2",
+    "version": "20260810-1",
     "origin": "artix-system",
-    "sha256": "a19f9457ed3e72208c8ce1412db267d54b839d7e62482c5e2e5bb948b979f826",
-    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/userspawn-dinit-20260621-2-any.pkg.tar.zst",
+    "sha256": "c9d04a641793103bd7239b5a1c5ac9e1fa4558bfd327cd785ab6538072398ce1",
+    "url": "https://mirrors.rit.edu/artixlinux/system/os/x86_64/userspawn-dinit-20260810-1-any.pkg.tar.zst",
     "provides": [
       "init-userspawn",
       "dinit-user-spawn"
