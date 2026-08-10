@@ -3263,12 +3263,13 @@
   },
   {
     "name": "dillo",
-    "version": "3.2.0-7",
+    "version": "3.3.0-1",
     "origin": "artix-galaxy",
-    "sha256": "6af47b34908dc4d2867602c468ed6e3202e372cfc301376ad55643316b01f744",
-    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/dillo-3.2.0-7-x86_64.pkg.tar.zst",
+    "sha256": "d858846e2530324c9fcab8202ca0e9b9047d613461181de9ea37f91db97b69cd",
+    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/dillo-3.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "brotli",
       "fltk1.3",
       "glibc",
       "hicolor-icon-theme",
@@ -15942,10 +15943,10 @@
   },
   {
     "name": "librewolf",
-    "version": "1:153.0.3_1-1",
+    "version": "1:153.0.3_1-2",
     "origin": "artix-galaxy",
-    "sha256": "7968eafecee1fa3f9bd17558b08150d9bd0cc21268a30ea47dbb195bd86f57c6",
-    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/librewolf-1:153.0.3_1-1-x86_64.pkg.tar.zst",
+    "sha256": "7978c28b3dd8348181c7a8490ae9012fc9722cc3b750b63863d3b3a4d18bc84f",
+    "url": "https://mirrors.rit.edu/artixlinux/galaxy/os/x86_64/librewolf-1:153.0.3_1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
