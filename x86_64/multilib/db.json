@@ -1,0 +1,5207 @@
+[
+  {
+    "name": "cmucl",
+    "version": "21e-1",
+    "origin": "arch-multilib",
+    "sha256": "5486eb332588384b3ed61f55eda3ff7382062d7841fd126bcc68c7abd914fb18",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/cmucl-21e-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "common-lisp",
+      "cl-asdf"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "openmotif"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-aalib",
+    "version": "1.4rc5-5",
+    "origin": "arch-multilib",
+    "sha256": "75614fa8c73c48af02e892a18ff738f284ae3c143b2cc0e0a766a3df20a8be3d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-aalib-1.4rc5-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gpm",
+      "lib32-libx11",
+      "aalib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-acl",
+    "version": "2.4.0-1",
+    "origin": "arch-multilib",
+    "sha256": "2d32693c93f6f16ba14773ea4bd15201b2e172f8af1fb7b89fff5b6d7a06a5aa",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-acl-2.4.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libacl.so=1-32"
+    ],
+    "depends": [
+      "acl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-alsa-lib",
+    "version": "1.2.16.1-1",
+    "origin": "arch-multilib",
+    "sha256": "a07a21992354a49e8aa9e10923137e0a3971a273d97e033dc3b1d9b811feaa6b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-alsa-lib-1.2.16.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libasound.so=2-32",
+      "libatopology.so=2-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "alsa-lib=1.2.16.1"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-alsa-oss",
+    "version": "1.1.8-5",
+    "origin": "arch-multilib",
+    "sha256": "29dbad2c8ec15e9dc4055fcc3ba55316cb4a242e02f1a12650634520aeb14c9f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-alsa-oss-1.1.8-5-x86_64.pkg.tar.zst",
+    "provides": [
+      "libaoss.so=0-32",
+      "libalsatoss.so=0-32"
+    ],
+    "depends": [
+      "alsa-oss=1.1.8",
+      "lib32-glibc",
+      "lib32-alsa-lib",
+      "libasound.so=2-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-alsa-plugins",
+    "version": "1.2.12-1",
+    "origin": "arch-multilib",
+    "sha256": "bed31e16e7484c3d136448a946ebbddf8c19bd48510b44d68926af89e53197ed",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-alsa-plugins-1.2.12-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "alsa-plugins=1:1.2.12",
+      "lib32-glibc",
+      "lib32-alsa-lib",
+      "libasound.so=2-32"
+    ],
+    "optdepends": [
+      "lib32-dbus: for maemo plugin",
+      "lib32-jack: for pcm_jack plugin",
+      "lib32-libavtp: for pcm_aaf plugin",
+      "lib32-libsamplerate: for rate_samplerate plugin",
+      "lib32-libpulse: for conf_pulse, ctl_pulse and pcm_pulse plugins",
+      "lib32-speexdsp: for pcm_speex and rate_speexrate plugins"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-apitrace",
+    "version": "14.0-1",
+    "origin": "arch-multilib",
+    "sha256": "6ba3af072f08d9a86bd72aa02da5983f8e257b5177ce19264f2281f8eda9ec4d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-apitrace-14.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "apitrace=14.0",
+      "lib32-brotli",
+      "lib32-glibc",
+      "lib32-libpng",
+      "lib32-libprocps",
+      "lib32-libx11",
+      "lib32-zlib",
+      "python",
+      "python-numpy",
+      "python-pillow"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-at-spi2-core",
+    "version": "2.60.6-1",
+    "origin": "arch-multilib",
+    "sha256": "50f5fa9f866cf3186b300978c568851ebf77211d967c6d1a15a0f916c2e4aac1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-at-spi2-core-2.60.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-at-spi2-atk=2.60.6-1",
+      "lib32-atk=2.60.6-1",
+      "libatk-1.0.so=0-32",
+      "libatk-bridge-2.0.so=0-32",
+      "libatspi.so=0-32"
+    ],
+    "depends": [
+      "at-spi2-core",
+      "lib32-dbus",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-libx11",
+      "lib32-libxi",
+      "lib32-libxtst"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-at-spi2-atk<=2.38.0-2",
+      "lib32-atk<=2.38.0-2"
+    ]
+  },
+  {
+    "name": "lib32-attr",
+    "version": "2.6.0-1",
+    "origin": "arch-multilib",
+    "sha256": "5cb4dfd0ab357b5ff40e2599f94bc7a3ab1f948a10931f47d4f16da8da93eb71",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-attr-2.6.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libattr.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "attr"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-audit",
+    "version": "4.2.1-1",
+    "origin": "arch-multilib",
+    "sha256": "f84342d6083c08cd2252c143833f3aa94bd2e241b071374c3f31b486447dd4e1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-audit-4.2.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libaudit.so=1-32"
+    ],
+    "depends": [
+      "audit=4.2.1",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-brotli",
+    "version": "1.2.0-2",
+    "origin": "arch-multilib",
+    "sha256": "4bbf84d708d5767d6064bc04f54924ecba513c114709f4275f34149afd7d9459",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-brotli-1.2.0-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libbrotlicommon.so=1-32",
+      "libbrotlidec.so=1-32",
+      "libbrotlienc.so=1-32"
+    ],
+    "depends": [
+      "brotli",
+      "lib32-gcc-libs"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-bzip2",
+    "version": "1.0.8-4",
+    "origin": "arch-multilib",
+    "sha256": "27c19ebb610892343f891e162fbc688e0a1f964060e1a8d0da9366072aad3775",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-bzip2-1.0.8-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "bzip2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-cairo",
+    "version": "1.18.4-1",
+    "origin": "arch-multilib",
+    "sha256": "f8458c44363069d7ab14da014e097708cf2de7b4f92c5de6c4e51ee4023093f3",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-cairo-1.18.4-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcairo-gobject.so=2-32",
+      "libcairo-script-interpreter.so=2-32",
+      "libcairo.so=2-32"
+    ],
+    "depends": [
+      "cairo",
+      "lib32-fontconfig",
+      "lib32-freetype2",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-libpng",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxext",
+      "lib32-libxrender",
+      "lib32-pixman",
+      "lib32-zlib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-cdparanoia",
+    "version": "10.2-5",
+    "origin": "arch-multilib",
+    "sha256": "b5fd49e14344a5ca475791942e9ccbf16c90aa50f8a7b3bfca7ccde02947c1aa",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-cdparanoia-10.2-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cdparanoia",
+      "lib32-gcc-libs",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-clang",
+    "version": "22.1.8-1",
+    "origin": "arch-multilib",
+    "sha256": "103903840e56b174da3c029c7484862a0dabe90704dda5170a0e6494c42c5f09",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-clang-22.1.8-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-llvm-libs",
+      "clang"
+    ],
+    "optdepends": [
+      "lib32-llvm: referenced by some clang headers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-cmocka",
+    "version": "2.0.2-1",
+    "origin": "arch-multilib",
+    "sha256": "0715c705723913aefb48be62b5685d1297a762489d7affdf7b831f006b25b84a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-cmocka-2.0.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcmocka.so=0-32"
+    ],
+    "depends": [
+      "cmocka",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-colord",
+    "version": "1.4.8-1",
+    "origin": "arch-multilib",
+    "sha256": "504bd6bdcad24790db2561bfa4de2b2be6f73ba7ba1b214a08100f4407d2aeb0",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-colord-1.4.8-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcolord.so=2-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-lcms2",
+      "lib32-systemd",
+      "libcolord"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-cracklib",
+    "version": "2.10.3-1",
+    "origin": "arch-multilib",
+    "sha256": "1f3be4592635e8c1e79a9e9e7bc3c12875e385fc0bf4acc83e87b15119a898d4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-cracklib-2.10.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cracklib",
+      "lib32-zlib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-curl",
+    "version": "8.21.0-1",
+    "origin": "arch-multilib",
+    "sha256": "f99c0ee75e4e2f95d49f9c60cfe1fde2cdf381f5216243491838b983e48be4e9",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-curl-8.21.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcurl.so=4-32"
+    ],
+    "depends": [
+      "curl",
+      "lib32-brotli",
+      "libbrotlidec.so=1-32",
+      "lib32-krb5",
+      "libgssapi_krb5.so=2-32",
+      "lib32-libidn2",
+      "libidn2.so=0-32",
+      "lib32-libnghttp2",
+      "libnghttp2.so=14-32",
+      "lib32-libnghttp3",
+      "libnghttp3.so=9-32",
+      "lib32-libngtcp2",
+      "libngtcp2.so=16-32",
+      "lib32-libpsl",
+      "libpsl.so=5-32",
+      "lib32-libssh2",
+      "libssh2.so=1-32",
+      "lib32-openssl",
+      "libcrypto.so=3-32",
+      "libssl.so=3-32",
+      "lib32-zlib",
+      "libz.so=1-32",
+      "lib32-zstd",
+      "libzstd.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-dbus",
+    "version": "1.16.2-1",
+    "origin": "arch-multilib",
+    "sha256": "02ab981ce78ec2aa79f205a1394978360c57d923f92246626fc79e90110cf865",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-dbus-1.16.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libdbus",
+      "libdbus-1.so=3-32"
+    ],
+    "depends": [
+      "dbus",
+      "lib32-glibc",
+      "lib32-systemd",
+      "libsystemd.so=0-32"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-libdbus"
+    ]
+  },
+  {
+    "name": "lib32-dbus-glib",
+    "version": "0.114-1",
+    "origin": "arch-multilib",
+    "sha256": "acac07ed65e4d91c2ab61aee09471e9486971dd06a0ef0b18878b7bb807aa024",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-dbus-glib-0.114-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "dbus-glib",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-dbus"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-dconf",
+    "version": "0.49.0-1",
+    "origin": "arch-multilib",
+    "sha256": "d8581c801951ab73774ecc3a3b9147c32554a0187b05d8f3d839bfcbc644ebda",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-dconf-0.49.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libdconf.so=1-32"
+    ],
+    "depends": [
+      "dconf",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-directx-headers",
+    "version": "1:1.619.5-1",
+    "origin": "arch-multilib",
+    "sha256": "8cd75c71b30e72d9c7e4d1a1f1addf3c1625d5314e170872a7776ba814552d17",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-directx-headers-1:1.619.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "directx-headers"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-duktape",
+    "version": "2.7.0-7",
+    "origin": "arch-multilib",
+    "sha256": "8a43ca54b9b899398d378fa3c485ed20b9cbf737156645d28bd6b4ee9a84dca4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-duktape-2.7.0-7-x86_64.pkg.tar.zst",
+    "provides": [
+      "libduktape.so=207-32",
+      "libduktaped.so=207-32"
+    ],
+    "depends": [
+      "duktape",
+      "lib32-glibc",
+      "lib32-gcc-libs"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-e2fsprogs",
+    "version": "1.47.4-1",
+    "origin": "arch-multilib",
+    "sha256": "58dc4c8591dc59c83e4a3def23da6f235d0a6f37b2241753bced3b9c2cf6824b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-e2fsprogs-1.47.4-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcom_err.so=2-32",
+      "libe2p.so=2-32",
+      "libext2fs.so=2-32",
+      "libss.so=2-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "e2fsprogs"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-expat",
+    "version": "2.8.2-1",
+    "origin": "arch-multilib",
+    "sha256": "0c619743257a1cef634d28fb389c04edf55ab1f84ad26509e86e0cc998e19608",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-expat-2.8.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libexpat.so=1-32"
+    ],
+    "depends": [
+      "expat=2.8.2",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-fakeroot",
+    "version": "1:1.37.2-3",
+    "origin": "arch-multilib",
+    "sha256": "aac8c3dee33b3b98802130d3cd70bcfc44681ecdfa3b2b0752de1a7720f5a1f0",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-fakeroot-1:1.37.2-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "fakeroot"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-flac",
+    "version": "1.5.0-1",
+    "origin": "arch-multilib",
+    "sha256": "a601b7d11a300c48d1c88bd03fb18c4f01b53da1a307d638a5382b9146d44020",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-flac-1.5.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libFLAC.so=14-32",
+      "libFLAC++.so=11-32"
+    ],
+    "depends": [
+      "flac",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libogg"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-flex",
+    "version": "2.6.4-5",
+    "origin": "arch-multilib",
+    "sha256": "64f10e5a49d129e35b255cac628a023cfa9d1e768c47d0fae3c162097c6827b8",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-flex-2.6.4-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "flex",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-fluidsynth",
+    "version": "2.5.7-1",
+    "origin": "arch-multilib",
+    "sha256": "96d52d33976d96c7d6eb825e70581a49e9d2dd6f2f0ec9cb4ea13fc1d4e0a374",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-fluidsynth-2.5.7-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "fluidsynth=2.5.7",
+      "lib32-dbus",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libpulse",
+      "lib32-readline",
+      "lib32-sdl3",
+      "lib32-systemd",
+      "lib32-alsa-lib",
+      "libasound.so=2-32",
+      "lib32-glib2",
+      "libglib-2.0.so=0-32",
+      "libgmodule-2.0.so=0-32",
+      "lib32-jack",
+      "libjack.so=0-32",
+      "lib32-libpipewire",
+      "libpipewire-0.3.so=0-32",
+      "lib32-libsndfile",
+      "libsndfile.so=1-32",
+      "lib32-portaudio",
+      "libportaudio.so=2-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-fontconfig",
+    "version": "2:2.18.3-1",
+    "origin": "arch-multilib",
+    "sha256": "30e1db4d651b76d18215a065aa1e663558b81caaa185cc9dd95b74b284c02e64",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-fontconfig-2:2.18.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libfontconfig.so=1-32"
+    ],
+    "depends": [
+      "fontconfig",
+      "lib32-expat",
+      "lib32-freetype2",
+      "lib32-glibc",
+      "libexpat.so=1-32",
+      "libfreetype.so=6-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-freeglut",
+    "version": "3.8.0-2",
+    "origin": "arch-multilib",
+    "sha256": "c6097061a5c2bdabc6a3e86a905e72cecb42fed9b74e9012bd5271ee7ad9b35e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-freeglut-3.8.0-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-glut"
+    ],
+    "depends": [
+      "freeglut",
+      "lib32-glibc",
+      "lib32-glu",
+      "lib32-libgl",
+      "lib32-libx11",
+      "lib32-libxi",
+      "lib32-libxrandr",
+      "lib32-libxxf86vm"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-glut"
+    ]
+  },
+  {
+    "name": "lib32-freetype2",
+    "version": "2.14.3-1",
+    "origin": "arch-multilib",
+    "sha256": "3ad5d0b59fb49cac3acfa3aa7399049a38bf9da75908185b69f9ba02ae99c98f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-freetype2-2.14.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libfreetype.so=6-32"
+    ],
+    "depends": [
+      "freetype2",
+      "lib32-brotli",
+      "lib32-bzip2",
+      "lib32-glibc",
+      "lib32-libpng",
+      "lib32-zlib"
+    ],
+    "optdepends": [
+      "lib32-harfbuzz: Improved autohinting"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-fribidi",
+    "version": "1.0.16-2",
+    "origin": "arch-multilib",
+    "sha256": "273518f4f2bed0337459afd346af9067de5e636be48b0520127b468262ede3ca",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-fribidi-1.0.16-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libfribidi.so=0-32"
+    ],
+    "depends": [
+      "fribidi",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gamemode",
+    "version": "1.8.2-1",
+    "origin": "arch-multilib",
+    "sha256": "9f3f9a91a792b1a65428ac3b7bb04c02d44c64e72c119e7c2b152c92a430391e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gamemode-1.8.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libgamemode.so=0-32",
+      "libgamemodeauto.so=0-32"
+    ],
+    "depends": [
+      "lib32-dbus",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-systemd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gdk-pixbuf2",
+    "version": "2.44.7-1",
+    "origin": "arch-multilib",
+    "sha256": "55933f24840937801d73564b2b8354154ed1fed1f9a98da915d60de15d4d50e8",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gdk-pixbuf2-2.44.7-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libgdk_pixbuf-2.0.so=0-32"
+    ],
+    "depends": [
+      "gdk-pixbuf2",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-libjpeg-turbo",
+      "lib32-libpng",
+      "lib32-libtiff",
+      "shared-mime-info"
+    ],
+    "optdepends": [
+      "lib32-librsvg: Load .svg, .svgz and .svg.gz"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gettext",
+    "version": "1.0-1",
+    "origin": "arch-multilib",
+    "sha256": "18b79fe4ed221e57747fcb95caf164628bfbb21141b3d94eada8720d6ede90cc",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gettext-1.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-acl",
+      "lib32-gcc-libs",
+      "gettext"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-giflib",
+    "version": "6.1.3-1",
+    "origin": "arch-multilib",
+    "sha256": "30cc06a89572e129934040daa9e00f944cca46bda3d56bfdc582e3bbbf225a7b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-giflib-6.1.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "giflib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-glew",
+    "version": "2.3.1-1",
+    "origin": "arch-multilib",
+    "sha256": "d1bde0b9a35a0b3e60268a82a19041588d29897ff50cbc853e8795c8f08ae298",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-glew-2.3.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libGLEW.so=2.3-32"
+    ],
+    "depends": [
+      "lib32-libxmu",
+      "lib32-libxi",
+      "lib32-glu",
+      "glew>=2.3.1"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-glib-networking",
+    "version": "1:2.80.1-1",
+    "origin": "arch-multilib",
+    "sha256": "eef37e95b5be1e81b16ea35b94a7f196bd4dc2c086d0cd3dab834948f1bd5298",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-glib-networking-1:2.80.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glib-networking",
+      "gsettings-system-schemas",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-gnutls",
+      "lib32-libproxy"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-glib2",
+    "version": "2.88.3-1",
+    "origin": "arch-multilib",
+    "sha256": "05ad913b3646b9329050dd54b400958e325dd7f13ed93ebc063c6cea0ae651db",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-glib2-2.88.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libglib-2.0.so=0-32",
+      "libgio-2.0.so=0-32",
+      "libgirepository-2.0.so=0-32",
+      "libgmodule-2.0.so=0-32",
+      "libgobject-2.0.so=0-32",
+      "libgthread-2.0.so=0-32"
+    ],
+    "depends": [
+      "glib2",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libffi",
+      "lib32-pcre2",
+      "lib32-util-linux",
+      "lib32-zlib",
+      "libffi.so=8-32",
+      "libmount.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-glm",
+    "version": "1.0.3-1",
+    "origin": "arch-multilib",
+    "sha256": "dfc1053f659cd1726a453e16ced16f6d6cf3d55e217febe2dc99dd5c2a70e241",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-glm-1.0.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-glu",
+    "version": "9.0.3-2",
+    "origin": "arch-multilib",
+    "sha256": "43c487472f1d07f1a8f586e8237d676504fc425579665c804c0772d305b27f7e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-glu-9.0.3-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libgl",
+      "lib32-glibc",
+      "glu"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gmp",
+    "version": "6.3.0-2",
+    "origin": "arch-multilib",
+    "sha256": "84702af8700358c42232e8e499c71a4c19a06f25a182e3dd8c514e9852ca40db",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gmp-6.3.0-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "gmp"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gnutls",
+    "version": "3.8.13-3",
+    "origin": "arch-multilib",
+    "sha256": "551f78f088f2605bba38c6a85fe7d2b047dea8a099f27249dec64fa5d4e3242f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gnutls-3.8.13-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libgnutls.so=30-32",
+      "libgnutlsxx.so=30-32"
+    ],
+    "depends": [
+      "lib32-nettle",
+      "libnettle.so=9-32",
+      "libhogweed.so=7-32",
+      "lib32-p11-kit",
+      "libp11-kit.so=0-32",
+      "lib32-libtasn1",
+      "libtasn1.so=6-32",
+      "lib32-libidn2",
+      "gnutls",
+      "lib32-brotli",
+      "lib32-zstd",
+      "lib32-zlib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gpm",
+    "version": "1.20.7.r38.ge82d1a6-2",
+    "origin": "arch-multilib",
+    "sha256": "c13e8cfdf68ecf95c4887df9706e40650e639de2ecb42e4510603afd648bd43f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gpm-1.20.7.r38.ge82d1a6-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-ncurses",
+      "gpm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-gtk3",
+    "version": "1:3.24.52-1",
+    "origin": "arch-multilib",
+    "sha256": "0a02e9e18e719eb6c4209cc7094b332e9295a2b389c9f06aa5170f08fe3f044d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-gtk3-1:3.24.52-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libgailutil-3.so=0-32",
+      "libgdk-3.so=0-32",
+      "libgtk-3.so=0-32"
+    ],
+    "depends": [
+      "gtk3",
+      "lib32-at-spi2-core",
+      "lib32-cairo",
+      "lib32-colord",
+      "lib32-fontconfig",
+      "lib32-fribidi",
+      "lib32-gdk-pixbuf2",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-harfbuzz",
+      "lib32-libcups",
+      "lib32-libepoxy",
+      "lib32-libgl",
+      "lib32-librsvg",
+      "lib32-libx11",
+      "lib32-libxcomposite",
+      "lib32-libxcursor",
+      "lib32-libxdamage",
+      "lib32-libxext",
+      "lib32-libxfixes",
+      "lib32-libxi",
+      "lib32-libxinerama",
+      "lib32-libxkbcommon",
+      "lib32-libxrandr",
+      "lib32-pango",
+      "lib32-wayland",
+      "lib32-zlib"
+    ],
+    "optdepends": [
+      "evince: Default print preview command"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-harfbuzz",
+    "version": "14.3.0-1",
+    "origin": "arch-multilib",
+    "sha256": "a6a4c27a25815223c6860304022ad2f04408e7374380887c3e5ce1e11e45e55c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-harfbuzz-14.3.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libharfbuzz.so=0-32",
+      "libharfbuzz-subset.so=0-32",
+      "libharfbuzz-gobject.so=0-32",
+      "libharfbuzz-raster.so=0-32",
+      "libharfbuzz-vector.so=0-32"
+    ],
+    "depends": [
+      "harfbuzz",
+      "lib32-freetype2",
+      "libfreetype.so=6-32",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "libglib-2.0.so=0-32",
+      "libgobject-2.0.so=0-32",
+      "lib32-glibc",
+      "lib32-libpng",
+      "libpng16.so=16-32",
+      "lib32-zlib",
+      "libz.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-harfbuzz-cairo",
+    "version": "14.3.0-1",
+    "origin": "arch-multilib",
+    "sha256": "66169c28c060b859ace5f857dd4449576c5f830dc56a6d4c163d199798cd206e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-harfbuzz-cairo-14.3.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libharfbuzz-cairo.so=0-32"
+    ],
+    "depends": [
+      "harfbuzz-cairo",
+      "lib32-cairo",
+      "libcairo.so=2-32",
+      "lib32-freetype2",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-harfbuzz",
+      "libharfbuzz.so=0-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-harfbuzz-icu",
+    "version": "14.3.0-1",
+    "origin": "arch-multilib",
+    "sha256": "dd49d55a3a6f62e47729c8597f04dd637bfdaabb6c21ed6ee5d28669b7220b09",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-harfbuzz-icu-14.3.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libharfbuzz-icu.so=0-32"
+    ],
+    "depends": [
+      "harfbuzz-icu",
+      "lib32-glibc",
+      "lib32-harfbuzz",
+      "libharfbuzz.so=0-32",
+      "lib32-icu",
+      "libicuuc.so=78-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-icu",
+    "version": "78.3-1",
+    "origin": "arch-multilib",
+    "sha256": "810db30f47576a5a01ebcb9d0964ba95104760067906a09b5f2b464059ddede2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-icu-78.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libicudata.so=78-32",
+      "libicui18n.so=78-32",
+      "libicuio.so=78-32",
+      "libicutest.so=78-32",
+      "libicutu.so=78-32",
+      "libicuuc.so=78-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "icu"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-imlib2",
+    "version": "1.12.6-1",
+    "origin": "arch-multilib",
+    "sha256": "e8b952de95ff67fb7391b2a54a8978c513aaea4f3fbc169ef92cae8b132ce97a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-imlib2-1.12.6-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "imlib2",
+      "lib32-bzip2",
+      "lib32-freetype2",
+      "lib32-giflib",
+      "lib32-libjpeg-turbo",
+      "lib32-libpng",
+      "lib32-libtiff",
+      "lib32-libxext",
+      "lib32-xz"
+    ],
+    "optdepends": [
+      "lib32-libid3tag: ID3 loader",
+      "lib32-librsvg: SVG loader",
+      "lib32-libwebp: WEBP loader"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-jack2",
+    "version": "1.9.22-2",
+    "origin": "arch-multilib",
+    "sha256": "f29432ff3548346d0293abe76dabb28daf4dfdbccc51871a479ab15ff0159970",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-jack2-1.9.22-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-jack",
+      "libjack.so=0-32",
+      "libjackserver.so=0-32",
+      "libjacknet.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-opus",
+      "jack2=1.9.22",
+      "alsa-lib",
+      "libasound.so=2-32",
+      "libsamplerate",
+      "libsamplerate.so=0-32"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-jack"
+    ]
+  },
+  {
+    "name": "lib32-jansson",
+    "version": "2.15.1-1",
+    "origin": "arch-multilib",
+    "sha256": "f5bdf74b0fccd7f24b16157f01623fee5f1394340b7bf6296bd015c809807eeb",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-jansson-2.15.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "jansson",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-json-c",
+    "version": "0.19-1",
+    "origin": "arch-multilib",
+    "sha256": "dba23278ba7bf382f551857f0f9ba7b97dfce7771362f2ac7e05303561d61cb7",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-json-c-0.19-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libjson-c.so=5-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "json-c"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-json-glib",
+    "version": "1.10.8-1",
+    "origin": "arch-multilib",
+    "sha256": "774c9823d778f5c6ce4917627510b21a85a5dad2013cf11534f9984ed893f04f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-json-glib-1.10.8-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libjson-glib-1.0.so=0-32"
+    ],
+    "depends": [
+      "json-glib",
+      "lib32-glib2",
+      "lib32-glibc",
+      "libglib-2.0.so=0-32",
+      "libgobject-2.0.so=0-32",
+      "libgio-2.0.so=0-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-keyutils",
+    "version": "1.6.3-4",
+    "origin": "arch-multilib",
+    "sha256": "486dc55c72ef7579446d64d4debc2a4b465deae61d5ce4844c381964f87b737d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-keyutils-1.6.3-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-krb5",
+      "keyutils"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-krb5",
+    "version": "1.22.2-1",
+    "origin": "arch-multilib",
+    "sha256": "ab47fb4f67a71e750b8cc2e9331eb8e791dde799e7c95012f940d73c606bd23a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-krb5-1.22.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libgssapi_krb5.so=2-32",
+      "libgssrpc.so=4-32",
+      "libk5crypto.so=3-32",
+      "libkadm5clnt_mit.so=12-32",
+      "libkadm5srv_mit.so=12-32",
+      "libkdb5.so=10-32",
+      "libkdb_ldap.so=1-32",
+      "libkrad.so=0-32",
+      "libkrb5.so=3-32",
+      "libkrb5support.so=0-32",
+      "libverto.so=0-32"
+    ],
+    "depends": [
+      "lib32-e2fsprogs",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-keyutils",
+      "lib32-libldap",
+      "lib32-openssl",
+      "krb5"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-ladspa",
+    "version": "1.17-4",
+    "origin": "arch-multilib",
+    "sha256": "0852af3cab2b0e4e5cb4a88dbeb738e6074ff693f8d85cceb9a866a82be2515f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-ladspa-1.17-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ladspa=1.17",
+      "lib32-gcc-libs",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-lcms2",
+    "version": "2.17-1",
+    "origin": "arch-multilib",
+    "sha256": "0cfe5c7053842f9efbf0538396c9e303e16480135b4c232fc13057739d707b25",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-lcms2-2.17-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "liblcms2.so=2-32"
+    ],
+    "depends": [
+      "lib32-libtiff",
+      "lcms2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libaio",
+    "version": "0.3.113-5",
+    "origin": "arch-multilib",
+    "sha256": "13bce7dfafb467c6339a6a471b26ba7117a97e7be5cf54fb6a0983bc660d2930",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libaio-0.3.113-5-x86_64.pkg.tar.zst",
+    "provides": [
+      "libaio.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libaio=0.3.113"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libao",
+    "version": "1.2.2-6",
+    "origin": "arch-multilib",
+    "sha256": "4284714066337ed40b361d2a379628358ec42e178919a2136dafe5d5ae3edff5",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libao-1.2.2-6-x86_64.pkg.tar.zst",
+    "provides": [
+      "libao.so=4-32"
+    ],
+    "depends": [
+      "libao=1.2.2",
+      "lib32-glibc",
+      "lib32-libpulse",
+      "lib32-alsa-lib",
+      "libasound.so=2-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libappindicator",
+    "version": "12.10.1-1",
+    "origin": "arch-multilib",
+    "sha256": "3d81c226c5d5995f8b50e3d24f16cb0ab42b7e5ff8eb03ab22b217fe702a15eb",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libappindicator-12.10.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libappindicator-gtk3=12.10.1"
+    ],
+    "depends": [
+      "libappindicator-gtk3",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-gtk3",
+      "lib32-libdbusmenu-glib",
+      "lib32-libdbusmenu-gtk3"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-libappindicator-gtk3"
+    ]
+  },
+  {
+    "name": "lib32-libarchive",
+    "version": "3.8.9-1",
+    "origin": "arch-multilib",
+    "sha256": "45d386356d40ea0698605ed9ac8e1f26b69531e8c4353775b697701224d20374",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libarchive-3.8.9-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libarchive.so=13-32"
+    ],
+    "depends": [
+      "libarchive=3.8.9",
+      "lib32-acl",
+      "lib32-bzip2",
+      "lib32-glibc",
+      "lib32-libxml2",
+      "lib32-lz4",
+      "lib32-openssl",
+      "lib32-xz",
+      "lib32-zlib",
+      "lib32-zstd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libasyncns",
+    "version": "1:0.8+r3+g68cd5af-3",
+    "origin": "arch-multilib",
+    "sha256": "320ef5a73b15f6c31473f0b2f5ad03985deb69eaca45f123abd73332bc66e98e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libasyncns-1:0.8+r3+g68cd5af-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libasyncns"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libavc1394",
+    "version": "0.5.4-5",
+    "origin": "arch-multilib",
+    "sha256": "71cfc6d638309c3485c0533cbfded60863687eddf8929f6340bd68f4b1df2f04",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libavc1394-0.5.4-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libraw1394",
+      "libavc1394"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libavtp",
+    "version": "0.2.0-3",
+    "origin": "arch-multilib",
+    "sha256": "5a2087bd974166d1bd0143182fd334d9b04551338c4cbc743821c04b52873c67",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libavtp-0.2.0-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libavtp.so=0-32"
+    ],
+    "depends": [
+      "libavtp"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libbpf",
+    "version": "1.7.0-1",
+    "origin": "arch-multilib",
+    "sha256": "95262bc2b1ece655e4a753b1c3a3ddd7573c1681970bc7fba0efdc20fcbfac18",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libbpf-1.7.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libbpf.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libelf",
+      "lib32-zlib",
+      "libbpf"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libcaca",
+    "version": "0.99.beta20-2",
+    "origin": "arch-multilib",
+    "sha256": "7f66cc86a9ce11084d746745a63fcce679e8189d1ffa95cfab063d4bbf2a3f02",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libcaca-0.99.beta20-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-imlib2",
+      "libcaca"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libcanberra",
+    "version": "1:0.30+r2+gc0620e4-4",
+    "origin": "arch-multilib",
+    "sha256": "b3f7d78bfc4df1ed74d844db7a3f7a26ca55d869df631b688168603781b7d64c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libcanberra-1:0.30+r2+gc0620e4-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libcanberra-pulse",
+      "libcanberra.so=0-32",
+      "libcanberra-gtk3.so=0-32"
+    ],
+    "depends": [
+      "lib32-libvorbis",
+      "lib32-libltdl",
+      "lib32-alsa-lib",
+      "lib32-libpulse",
+      "lib32-tdb",
+      "libcanberra"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libcap",
+    "version": "2.78-1",
+    "origin": "arch-multilib",
+    "sha256": "6fce626a7e9efc1a7055d5d8d604c2efde66f2c0d65b286302499d89398bfa88",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libcap-2.78-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcap.so=2-32",
+      "libpsx.so=2-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-pam",
+      "libcap=2.78"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libcups",
+    "version": "2.4.19-1",
+    "origin": "arch-multilib",
+    "sha256": "d82bd79e26aa1105532bb24b5f6b50d987c8ad5657bdc5105a653a27855a5c81",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libcups-2.4.19-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-krb5",
+      "lib32-libtiff",
+      "lib32-libpng",
+      "lib32-gnutls",
+      "libcups"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libcurl-compat",
+    "version": "8.21.0-1",
+    "origin": "arch-multilib",
+    "sha256": "70a125cda78e25b6e59d0d8dda0ada7c8a83b063da8e3379d02e3fe29d33ecef",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libcurl-compat-8.21.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcurl-compat.so=4-32"
+    ],
+    "depends": [
+      "libcurl-compat",
+      "lib32-brotli",
+      "libbrotlidec.so=1-32",
+      "lib32-krb5",
+      "libgssapi_krb5.so=2-32",
+      "lib32-libidn2",
+      "libidn2.so=0-32",
+      "lib32-libnghttp2",
+      "libnghttp2.so=14-32",
+      "lib32-libnghttp3",
+      "libnghttp3.so=9-32",
+      "lib32-libngtcp2",
+      "libngtcp2.so=16-32",
+      "lib32-libpsl",
+      "libpsl.so=5-32",
+      "lib32-libssh2",
+      "libssh2.so=1-32",
+      "lib32-openssl",
+      "libcrypto.so=3-32",
+      "libssl.so=3-32",
+      "lib32-zlib",
+      "libz.so=1-32",
+      "lib32-zstd",
+      "libzstd.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libcurl-gnutls",
+    "version": "8.21.0-1",
+    "origin": "arch-multilib",
+    "sha256": "d6268c9bcbdf45428904fa9cadf5f468c22e5bbdec93a1856886c257992d81c0",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libcurl-gnutls-8.21.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcurl-gnutls.so=4-32"
+    ],
+    "depends": [
+      "libcurl-gnutls",
+      "lib32-brotli",
+      "libbrotlidec.so=1-32",
+      "lib32-gnutls",
+      "lib32-krb5",
+      "libgssapi_krb5.so=2-32",
+      "lib32-libidn2",
+      "libidn2.so=0-32",
+      "lib32-libnghttp2",
+      "libnghttp2.so=14-32",
+      "lib32-libnghttp3",
+      "libnghttp3.so=9-32",
+      "lib32-libngtcp2",
+      "libngtcp2.so=16-32",
+      "libngtcp2_crypto_gnutls.so=8-32",
+      "lib32-libpsl",
+      "libpsl.so=5-32",
+      "lib32-libssh2",
+      "libssh2.so=1-32",
+      "lib32-nettle",
+      "libnettle.so=9-32",
+      "lib32-zlib",
+      "libz.so=1-32",
+      "lib32-zstd",
+      "libzstd.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdaemon",
+    "version": "0.14-9",
+    "origin": "arch-multilib",
+    "sha256": "8dfc157001dd27a7d3eb8cda5abbc913c066e57d0a0d66dd39d740739a6b746b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdaemon-0.14-9-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libdaemon"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdatrie",
+    "version": "0.2.14-1",
+    "origin": "arch-multilib",
+    "sha256": "21bbe08080dbbc8d5236f665afc14b3399f4570663e2c59411fd4daeb005bc37",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdatrie-0.2.14-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libdatrie.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libdatrie"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdbusmenu-glib",
+    "version": "18.10.20180917-1",
+    "origin": "arch-multilib",
+    "sha256": "5707db270f08974a2e19c69ad01685b921b7733faebff1198d9652b600a247d7",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdbusmenu-glib-18.10.20180917-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libdbusmenu-glib",
+      "lib32-glib2",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdbusmenu-gtk3",
+    "version": "18.10.20180917-1",
+    "origin": "arch-multilib",
+    "sha256": "3e9a38e85a86636e5eadc13b2b6961141e6d9e3194f31166008196e7ac8bfc0f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdbusmenu-gtk3-18.10.20180917-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libdbusmenu-gtk3",
+      "lib32-libdbusmenu-glib",
+      "lib32-at-spi2-core",
+      "lib32-gdk-pixbuf2",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-gtk3",
+      "lib32-pango"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdecor",
+    "version": "0.2.5-1",
+    "origin": "arch-multilib",
+    "sha256": "dfdb0b72b71b707da289f2abc429b3bc0766160e0d7b24861398a27869f76a82",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdecor-0.2.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libdecor",
+      "lib32-wayland",
+      "lib32-pango",
+      "lib32-dbus",
+      "lib32-gtk3",
+      "lib32-glibc",
+      "lib32-cairo",
+      "lib32-glib2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdisplay-info",
+    "version": "0.3.0-1",
+    "origin": "arch-multilib",
+    "sha256": "5ffcb2f1e599529014beaadff257ee805ecdf3991948e33ebf398e202ce135f0",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdisplay-info-0.3.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libdisplay-info.so=3-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-gcc-libs",
+      "libdisplay-info"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdrm",
+    "version": "2.4.134-1",
+    "origin": "arch-multilib",
+    "sha256": "02ac6a37bc9806ef90551401bd0b00214ded0339e9046e27d972d3df13ea7887",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdrm-2.4.134-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libpciaccess",
+      "lib32-glibc",
+      "libdrm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libdv",
+    "version": "1.0.0-9",
+    "origin": "arch-multilib",
+    "sha256": "d11fa3c0d8ae7ab4c1e33719fc029e5aa6fdbf6ed30c0d54746273ebf95a2032",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libdv-1.0.0-9-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libdv",
+      "lib32-popt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libelf",
+    "version": "0.195-1",
+    "origin": "arch-multilib",
+    "sha256": "674fbe5f9149e4d18abd5fcfe1a2d4cbd0724474a2e88fa09e93bca71432cab5",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libelf-0.195-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libelf=0.195",
+      "lib32-bzip2",
+      "lib32-curl",
+      "lib32-glibc",
+      "lib32-json-c",
+      "lib32-xz",
+      "lib32-zlib",
+      "lib32-zstd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libepoxy",
+    "version": "1.5.10-2",
+    "origin": "arch-multilib",
+    "sha256": "8cf4dad25f52aa991e1dc5e20aaa085de74dcfdf2d40035cfdeaafe7eea5a1f2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libepoxy-1.5.10-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libepoxy.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libevent",
+    "version": "2.1.12-4",
+    "origin": "arch-multilib",
+    "sha256": "a877617f3e6d47e4763b177b5317f9a8894243074df90de29fb5ff26538935c5",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libevent-2.1.12-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "libevent-2.1.so=7-32",
+      "libevent_core-2.1.so=7-32",
+      "libevent_extra-2.1.so=7-32",
+      "libevent_openssl-2.1.so=7-32",
+      "libevent_pthreads-2.1.so=7-32"
+    ],
+    "depends": [
+      "lib32-openssl",
+      "libevent"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libffi",
+    "version": "3.8.0-1",
+    "origin": "arch-multilib",
+    "sha256": "8c9852aec3d3ac4e0cba2bd15ab161e64fe0c538a36cb76eac5d7bbfb30fa087",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libffi-3.8.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libffi.so=8-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libffi=3.8.0"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libgcrypt",
+    "version": "1.12.2-1",
+    "origin": "arch-multilib",
+    "sha256": "69e2840a9ce4bb5a5ebe5052968144506f0302d654231527f6c9cdbc759b20da",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libgcrypt-1.12.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libgpg-error",
+      "lib32-glibc",
+      "libgcrypt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libglvnd",
+    "version": "1.7.0-1",
+    "origin": "arch-multilib",
+    "sha256": "37d25893487a797acd711c8f401a946f055a482a5666ccf4fb29230277cd184d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libglvnd-1.7.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libgl",
+      "lib32-libegl",
+      "lib32-libgles",
+      "libEGL.so=1-32",
+      "libGL.so=1-32",
+      "libGLESv2.so=2-32",
+      "libGLX.so=0-32",
+      "libGLdispatch.so=0-32",
+      "libOpenGL.so=0-32"
+    ],
+    "depends": [
+      "lib32-libxext",
+      "libglvnd",
+      "lib32-mesa",
+      "lib32-opengl-driver"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libgpg-error",
+    "version": "1.61-1",
+    "origin": "arch-multilib",
+    "sha256": "3897c33504c26add53869eae867f316be28298272ffe4c0cba2ab1296941e7ab",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libgpg-error-1.61-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libgpg-error"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libgudev",
+    "version": "238-3",
+    "origin": "arch-multilib",
+    "sha256": "d16ab0a85ad8aada22aa3b1936dda04b6e326ebab50e5043fca4967612c1fa60",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libgudev-238-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libgudev-1.0.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-systemd",
+      "libgudev",
+      "libglib-2.0.so=0-32",
+      "libgobject-2.0.so=0-32",
+      "libudev.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libgusb",
+    "version": "0.4.9-1",
+    "origin": "arch-multilib",
+    "sha256": "9e124c3366b8824b94c6a8a82315f7cf22ce95b2334f02cc58c77c6d3ef7dd48",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libgusb-0.4.9-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glib2",
+      "lib32-json-glib",
+      "lib32-libusb",
+      "libgusb"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libice",
+    "version": "1.1.1-2",
+    "origin": "arch-multilib",
+    "sha256": "aafb2f8f736ec49cb68386a972e5abe3124182bdc22c481f2e7b721ed87d5626",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libice-1.1.1-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libice"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libid3tag",
+    "version": "0.16.3-1",
+    "origin": "arch-multilib",
+    "sha256": "be89e304eba264bbdeeda25a78248908ce1f4236601bc1918e3f4783b2ad41bc",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libid3tag-0.16.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-zlib",
+      "libid3tag"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libidn",
+    "version": "1.44-1",
+    "origin": "arch-multilib",
+    "sha256": "adf948d4e96a23acfed9607baec8b19305f5af70f5d0b64d7dfd04a235957291",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libidn-1.44-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libidn>=1.44"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libidn2",
+    "version": "2.3.8-1",
+    "origin": "arch-multilib",
+    "sha256": "3936ad10e88f252a787c93be815aa3a2b6f2d05e170b00114091cf8d79febc3d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libidn2-2.3.8-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libidn2.so=0-32"
+    ],
+    "depends": [
+      "libidn2",
+      "lib32-glibc",
+      "lib32-libunistring"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libiec61883",
+    "version": "1.2.0-5",
+    "origin": "arch-multilib",
+    "sha256": "9638ad0eb41e7e7c7a24edb5b15f28fa0eee8a14f995d15332eddca274ba5bfc",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libiec61883-1.2.0-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libraw1394",
+      "libiec61883"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libindicator",
+    "version": "12.10.1-11",
+    "origin": "arch-multilib",
+    "sha256": "1215298c1997deddafe9e9256ff32db48096ff7cca51ed548d70373805730ef4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libindicator-12.10.1-11-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libindicator-gtk3=12.10.1"
+    ],
+    "depends": [
+      "libindicator-gtk3",
+      "lib32-gtk3"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-libindicator-gtk3"
+    ]
+  },
+  {
+    "name": "lib32-libinstpatch",
+    "version": "1.1.7-1",
+    "origin": "arch-multilib",
+    "sha256": "429826dc432569e68a3db8614dad5084966cc48295d9ed1fb38935f60a950710",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libinstpatch-1.1.7-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libinstpatch-1.0.so=2-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "libinstpatch=1.1.7",
+      "lib32-glib2",
+      "libglib-2.0.so=0-32",
+      "libgobject-2.0.so=0-32",
+      "lib32-libsndfile",
+      "libsndfile.so=1-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libjpeg-turbo",
+    "version": "3.2.0-1",
+    "origin": "arch-multilib",
+    "sha256": "9e259c6aed324c320d9977be117f2fe6de2a9217899b6d7006cf3803fc83b111",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libjpeg-turbo-3.2.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libjpeg.so=8-32",
+      "libturbojpeg.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libjpeg-turbo=3.2.0"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libldap",
+    "version": "2.6.13-1",
+    "origin": "arch-multilib",
+    "sha256": "c2a4d3c40f818de268c47fbc3835ffd980ccff6498dcf6341b4b58010c737c8f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libldap-2.6.13-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-openssl",
+      "lib32-libxcrypt",
+      "libldap"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libmikmod",
+    "version": "3.3.13-1",
+    "origin": "arch-multilib",
+    "sha256": "d314c50e696e5f3ff5c52d17f9cd2dc500fd8680dbe2e57adf0504492459bc4d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libmikmod-3.3.13-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libmikmod.so=3-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libmikmod"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libmodplug",
+    "version": "0.8.9.0-5",
+    "origin": "arch-multilib",
+    "sha256": "5f9606f3901e035d66c6ab33c5502edf64fd41bac50128a618ef38f2183e41ea",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libmodplug-0.8.9.0-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "libmodplug"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libndp",
+    "version": "1.9-1",
+    "origin": "arch-multilib",
+    "sha256": "0f29da15eaecaaad854c236db9f6fe0b1c76b2f6791236a2aff2372c55793138",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libndp-1.9-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libndp"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libnewt",
+    "version": "0.52.25-1",
+    "origin": "arch-multilib",
+    "sha256": "470c41725fea40ed51a38bb9029c1f8f42ae453799b99798084db95d5289563c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libnewt-0.52.25-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-gpm",
+      "lib32-popt",
+      "lib32-slang",
+      "libnewt"
+    ],
+    "optdepends": [
+      "lib32-tcl: whiptcl support"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libnghttp2",
+    "version": "1.70.0-1",
+    "origin": "arch-multilib",
+    "sha256": "cde3f4a0e86109d777a7d61be9f9ffc731f6f989e482c133f1c462ed69fb1bc5",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libnghttp2-1.70.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libnghttp2.so=14-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libnghttp2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libnghttp3",
+    "version": "1.18.0-1",
+    "origin": "arch-multilib",
+    "sha256": "e28f63680e645e2c1eecff9696bfd7bfb31a80733d4cecb480e642d107dbd231",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libnghttp3-1.18.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libnghttp3.so=9-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libnghttp3"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libngtcp2",
+    "version": "1.25.0-1",
+    "origin": "arch-multilib",
+    "sha256": "38c7489271b1f0936e9db3349cbb3d4d8bb4dfe0a4f4affee3b0e5793a72191e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libngtcp2-1.25.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libngtcp2.so=16-32",
+      "libngtcp2_crypto_gnutls.so=8-32",
+      "libngtcp2_crypto_ossl.so=0-32"
+    ],
+    "depends": [
+      "libngtcp2",
+      "lib32-glibc",
+      "lib32-openssl",
+      "libssl.so=3-32",
+      "lib32-gnutls"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libnl",
+    "version": "3.12.0-1",
+    "origin": "arch-multilib",
+    "sha256": "5675dac61137f00492f9bfe834b4279522a1d4b41e6ea11da93178c17859a761",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libnl-3.12.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libnl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libnm",
+    "version": "1.58.0-1",
+    "origin": "arch-multilib",
+    "sha256": "2f295cb0c33e3b4f6dab43668e0aaf6913caaaebdc64ef3b7f6e31a91d66d38f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libnm-1.58.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libnm.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-nspr",
+      "lib32-nss",
+      "lib32-systemd",
+      "libnm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libnsl",
+    "version": "2.0.1-2",
+    "origin": "arch-multilib",
+    "sha256": "4212d1ce5e4f8aadef6af4d4dca3ea53c8ccbaa8205fa1a363dcdacfd2714376",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libnsl-2.0.1-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libnsl.so=3-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libtirpc",
+      "libnsl=2.0.1"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libogg",
+    "version": "1.3.6-1",
+    "origin": "arch-multilib",
+    "sha256": "f46466ad405dec50634ae8b45208eb426689f19814f9e1f39c0437fa561f4956",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libogg-1.3.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libogg.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libogg"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpcap",
+    "version": "1.10.6-1",
+    "origin": "arch-multilib",
+    "sha256": "a1d2b3a738771f1c0dd55191748cdb90e7205b41584d7f30109ade721e7af8a2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpcap-1.10.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpcap.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libnl",
+      "libpcap=1.10.6",
+      "lib32-dbus",
+      "libdbus-1.so=3-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpciaccess",
+    "version": "0.19-1",
+    "origin": "arch-multilib",
+    "sha256": "96b2734f4487dd915b6e4741e74b530a69790f9d790ca3f846128366419e0847",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpciaccess-0.19-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libpciaccess",
+      "lib32-zlib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpgm",
+    "version": "5.3.128-3",
+    "origin": "arch-multilib",
+    "sha256": "6a0226a4ba968787058678c316102f7558c44619dd7ad118a0d0b20ef34ed648",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpgm-5.3.128-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libpgm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpipewire",
+    "version": "1:1.6.8-1",
+    "origin": "arch-multilib",
+    "sha256": "2daa5d9c68c4d9d4d2f563d6e75a053b9ca1d183816ecde5e2841b019832f099",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpipewire-1:1.6.8-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpipewire-0.3.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "libpipewire"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpng",
+    "version": "1.6.58-2",
+    "origin": "arch-multilib",
+    "sha256": "254bf3031eedf7a999ed4ff2aee08643e70a192297509230333f6af544a86c13",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpng-1.6.58-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpng16.so=16-32"
+    ],
+    "depends": [
+      "lib32-zlib",
+      "libpng"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libprocps",
+    "version": "3.3.17-1",
+    "origin": "arch-multilib",
+    "sha256": "e366ca1222a332a87605554556bcec8dc55b25ab4ed178842c33370fbaef1dd3",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libprocps-3.3.17-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libprocps.so=8-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-systemd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libproxy",
+    "version": "0.5.12-1",
+    "origin": "arch-multilib",
+    "sha256": "bac9a992688ed6aa91e417730553e1a1d2c7369b4d037fff88892c77d6879645",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libproxy-0.5.12-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libproxy.so=1-32"
+    ],
+    "depends": [
+      "lib32-curl",
+      "lib32-duktape",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "libproxy"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpsl",
+    "version": "0.21.5-1",
+    "origin": "arch-multilib",
+    "sha256": "5b243a0224eb502a13d367e75174adeab6a9c91fdcd7e0f692d63c7ffdb68707",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpsl-0.21.5-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpsl.so=5-32"
+    ],
+    "depends": [
+      "libpsl",
+      "lib32-glibc",
+      "lib32-libidn2",
+      "lib32-libunistring"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libpulse",
+    "version": "17.0+r98+gb096704c0-1",
+    "origin": "arch-multilib",
+    "sha256": "19cfdb64bd3b19cbad427279d46dfd9682f21e17e9ed27e0657552c3a122713e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libpulse-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-pulseaudio=17.0+r98+gb096704c0"
+    ],
+    "depends": [
+      "lib32-dbus",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-libasyncns",
+      "lib32-libsndfile",
+      "lib32-libxcb",
+      "lib32-systemd",
+      "libpulse"
+    ],
+    "optdepends": [
+      "lib32-alsa-plugins: ALSA support"
+    ],
+    "conflicts": [
+      "lib32-pulseaudio"
+    ]
+  },
+  {
+    "name": "lib32-libraw1394",
+    "version": "2.1.2-5",
+    "origin": "arch-multilib",
+    "sha256": "457b302efb754a5ef8ccfcade991e3582df73a05313534c93a639808f6567b9a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libraw1394-2.1.2-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libraw1394"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-librsvg",
+    "version": "2:2.62.3-1",
+    "origin": "arch-multilib",
+    "sha256": "40d86db9027ca9c3f9c75206073cec8bc6492c7a9bceaa8fca837d8300a41061",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-librsvg-2:2.62.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "librsvg-2.so=2-32"
+    ],
+    "depends": [
+      "lib32-cairo",
+      "lib32-fontconfig",
+      "lib32-freetype2",
+      "lib32-gcc-libs",
+      "lib32-gdk-pixbuf2",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-harfbuzz",
+      "lib32-libxml2",
+      "lib32-pango",
+      "librsvg"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libsamplerate",
+    "version": "0.2.2-3",
+    "origin": "arch-multilib",
+    "sha256": "bba3a4badb123ecd57a4623dab131f189af82279c1f61955579f8c8609dd66d2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libsamplerate-0.2.2-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsamplerate.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "libsamplerate=0.2.2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libshout",
+    "version": "1:2.4.6-4",
+    "origin": "arch-multilib",
+    "sha256": "3463f04a7ca61468af66760aeaf9913900e4e83afb46e73d799667db96fce80f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libshout-1:2.4.6-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libvorbis",
+      "lib32-libtheora",
+      "lib32-speex",
+      "lib32-openssl",
+      "libshout"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libsm",
+    "version": "1.2.6-1",
+    "origin": "arch-multilib",
+    "sha256": "cadb97f587b894ffb0a54e55cc944b863e3e0a41d50b3a2071433dec09ac0ca7",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libsm-1.2.6-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libice",
+      "lib32-util-linux",
+      "libsm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libsndfile",
+    "version": "1.2.2-3",
+    "origin": "arch-multilib",
+    "sha256": "96feadf0e8c5dd867cfd51f3423c8f070eaab84648a31a7a16643e3c6e38692a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libsndfile-1.2.2-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsndfile.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-opus",
+      "libsndfile=1.2.2",
+      "lib32-flac",
+      "libFLAC.so=14-32",
+      "lib32-libogg",
+      "libogg.so=0-32",
+      "lib32-libvorbis",
+      "libvorbis.so=0-32",
+      "libvorbisenc.so=2-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libsodium",
+    "version": "1.0.22-1",
+    "origin": "arch-multilib",
+    "sha256": "f63fc1c1e2405fa9d70ed9ece76c36dbc77407e8cb1a8b7696a5007de3f84e1a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libsodium-1.0.22-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsodium.so=26-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libsodium"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libsoup3",
+    "version": "3.6.6-2",
+    "origin": "arch-multilib",
+    "sha256": "067491996568f35269386e9cdcbeea77f1a1930d8a95c7dff178c4c3a52e9378",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libsoup3-3.6.6-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsoup-3.0.so=0-32"
+    ],
+    "depends": [
+      "lib32-brotli",
+      "lib32-glib-networking",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-krb5",
+      "lib32-libnghttp2",
+      "lib32-libpsl",
+      "lib32-sqlite",
+      "lib32-zlib",
+      "libsoup3",
+      "libbrotlidec.so=1-32",
+      "libgssapi_krb5.so=2-32",
+      "libglib-2.0.so=0-32",
+      "libgobject-2.0.so=0-32",
+      "libgio-2.0.so=0-32",
+      "libpsl.so=5-32"
+    ],
+    "optdepends": [
+      "samba: Windows Domain SSO"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libssh2",
+    "version": "1.11.1-5",
+    "origin": "arch-multilib",
+    "sha256": "622313e575f2ba7926ed12b7b20e486e856e5dde15bea4c336e8fcaee3b6ac85",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libssh2-1.11.1-5-x86_64.pkg.tar.zst",
+    "provides": [
+      "libssh2.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-openssl",
+      "lib32-zlib",
+      "libssh2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libtasn1",
+    "version": "4.21.0-1",
+    "origin": "arch-multilib",
+    "sha256": "51579b4e0daace85d96d4dd7178be3c5566cc7d98bd2c2a8c46adad814ffbfcb",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libtasn1-4.21.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libtasn1.so=6-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libtasn1"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libteam",
+    "version": "1.32-2",
+    "origin": "arch-multilib",
+    "sha256": "7375c4aca6ada219552953f31027f5c7f2f9a3648fbfc3d8307e9afd0ace807d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libteam-1.32-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-dbus",
+      "lib32-libnl",
+      "lib32-zeromq",
+      "libteam"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libthai",
+    "version": "0.1.30-1",
+    "origin": "arch-multilib",
+    "sha256": "266e77ae8064180a915ba28ec68518bcf64b937fbc814e3187fdae49a637ca1b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libthai-0.1.30-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libthai.so=0-32"
+    ],
+    "depends": [
+      "lib32-libdatrie"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libtheora",
+    "version": "1.2.0-1",
+    "origin": "arch-multilib",
+    "sha256": "101faa475898e3c233affe026ccfae0657f7b6b44168a1f64d487c04ece729e4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libtheora-1.2.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libogg",
+      "libtheora"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libtiff",
+    "version": "4.7.2-1",
+    "origin": "arch-multilib",
+    "sha256": "318e116a79431a188ec7498d0ee756be6f4d80125b7c9ec506b8aa1cd6c23760",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libtiff-4.7.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libtiff.so=6-32",
+      "libtiffxx.so=6-32"
+    ],
+    "depends": [
+      "libtiff=4.7.2",
+      "lib32-glibc",
+      "lib32-gcc-libs",
+      "lib32-libjpeg-turbo",
+      "lib32-xz",
+      "lib32-zlib",
+      "lib32-zstd",
+      "libjpeg.so=8-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libtirpc",
+    "version": "1.3.7-1",
+    "origin": "arch-multilib",
+    "sha256": "0dc33776ee9ba5a2c09a5b1b04a93e5a9525ac1a2fcb12370e7e92ed67aa0c36",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libtirpc-1.3.7-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-krb5",
+      "libtirpc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libunistring",
+    "version": "1.4.2-1",
+    "origin": "arch-multilib",
+    "sha256": "ee26b7d3dc63070bf1142bf99cfa1aa969f20d24f9e50fc9370d02cc5be4ee37",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libunistring-1.4.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libunistring",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libunwind",
+    "version": "1.8.2-1",
+    "origin": "arch-multilib",
+    "sha256": "f542c2435e6c519a862a2a76aa9c29141fc143d14d4ca86fcbdf17318ccee0d9",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libunwind-1.8.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libunwind-coredump.so=0-32",
+      "libunwind-ptrace.so=0-32",
+      "libunwind-setjmp.so=0-32",
+      "libunwind-x86.so=8-32",
+      "libunwind.so=8-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-xz",
+      "lib32-zlib",
+      "libunwind"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libusb",
+    "version": "1.0.30-1",
+    "origin": "arch-multilib",
+    "sha256": "c65621bff636002fa60d135f32e9d253d9d01db51569c2267cb55e9fc57b4e38",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libusb-1.0.30-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libusb-1.0.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-systemd",
+      "libusb=1.0.30"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libva",
+    "version": "2.24.1-1",
+    "origin": "arch-multilib",
+    "sha256": "41953682c6011a57404bcb8b054c9199236d48dbfde6d89d164b8d5cbb4af67e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libva-2.24.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libva-drm.so=2-32",
+      "libva-glx.so=2-32",
+      "libva-wayland.so=2-32",
+      "libva-x11.so=2-32",
+      "libva.so=2-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libdrm",
+      "lib32-libgl",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxext",
+      "lib32-libxfixes",
+      "lib32-wayland",
+      "libva"
+    ],
+    "optdepends": [
+      "lib32-libva-intel-driver: backend for Intel GPUs (<= Haswell)",
+      "lib32-libva-mesa-driver: backend for AMD and NVIDIA GPUs"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libva-intel-driver",
+    "version": "2.4.5-1",
+    "origin": "arch-multilib",
+    "sha256": "95c26aba8f86ca2fc88158c4c5da5c534fc76ecd93e5b9973acd66a35aa618ac",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libva-intel-driver-2.4.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libva",
+      "lib32-libdrm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libvdpau",
+    "version": "1.5-3",
+    "origin": "arch-multilib",
+    "sha256": "13f2ffe3fbe60e24d6c67b9c66f4cb89b8c63f5f4a643d3eff182dfbd5021d19",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libvdpau-1.5-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libvdpau.so=1-32"
+    ],
+    "depends": [
+      "lib32-libxext",
+      "libvdpau"
+    ],
+    "optdepends": [
+      "lib32-mesa-vdpau: driver for Mesa",
+      "lib32-nvidia-utils: driver for NVIDIA"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libvorbis",
+    "version": "1.3.7-4",
+    "origin": "arch-multilib",
+    "sha256": "6c0f3f02571f77d0eb1f96973e86ed014ba2511e853a129b5d030b899b3c5b19",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libvorbis-1.3.7-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "libvorbis.so=0-32",
+      "libvorbisenc.so=2-32",
+      "libvorbisfile.so=3-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libogg",
+      "libvorbis",
+      "libogg.so=0-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libvpx",
+    "version": "1.16.0-2",
+    "origin": "arch-multilib",
+    "sha256": "629f0c1618c8b3b78fe31c583d102f065ddc1e68b00088982d049ef984f02d50",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libvpx-1.16.0-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libvpx.so=12-32"
+    ],
+    "depends": [
+      "libvpx"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libwebp",
+    "version": "1.6.0-1",
+    "origin": "arch-multilib",
+    "sha256": "09f97c6abbdb0f2f2a921ff6408d01fa544776e48fac4cb3ad8fe37e12070a76",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libwebp-1.6.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsharpyuv.so=0-32",
+      "libwebp.so=7-32",
+      "libwebpdecoder.so=3-32",
+      "libwebpdemux.so=2-32",
+      "libwebpmux.so=3-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "libwebp"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libx11",
+    "version": "1.8.13-1",
+    "origin": "arch-multilib",
+    "sha256": "681199d67c2c6c5838e9f8db1d651ec0250345cd1c77ed648a59e7870b3fe978",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libx11-1.8.13-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxcb",
+      "libx11",
+      "lib32-glibc",
+      "xorgproto"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxau",
+    "version": "1.0.12-1",
+    "origin": "arch-multilib",
+    "sha256": "00b53639b5a586863df8eadaf5801150ab07c80264be9b1ccb320f710e9b4c05",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxau-1.0.12-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libXau.so=6-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libxau"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxcb",
+    "version": "1.17.0-1",
+    "origin": "arch-multilib",
+    "sha256": "8f9cef88f33bac2f383ec96da50c3461f8bc5b58e79686a4334d76e2e0aa5b6e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxcb-1.17.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxdmcp",
+      "lib32-libxau",
+      "lib32-glibc",
+      "libxcb"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxcomposite",
+    "version": "0.4.7-1",
+    "origin": "arch-multilib",
+    "sha256": "17634695fe8d8f9a1c858fc72af504733f223fefb2082eeac079aa7bfdc95233",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxcomposite-0.4.7-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxfixes",
+      "libxcomposite",
+      "lib32-libx11",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxcrypt",
+    "version": "4.5.2-1",
+    "origin": "arch-multilib",
+    "sha256": "3bae1d5f5a274fcec8e78dbc7edeef6bfebb1e2a4458e3cb7178e1ec7f034729",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxcrypt-4.5.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libxcrypt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxcrypt-compat",
+    "version": "4.5.2-1",
+    "origin": "arch-multilib",
+    "sha256": "3bb257499bf03a72046aded454fd11cf5a909e6fb719985cd2a28e53c4138110",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxcrypt-compat-4.5.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxcrypt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxcursor",
+    "version": "1.2.3-1",
+    "origin": "arch-multilib",
+    "sha256": "098f97c077c70deb90e24e03a2d01d841f055bab1f813983a759868ebdb5acb7",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxcursor-1.2.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxfixes",
+      "lib32-libxrender",
+      "libxcursor"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxdamage",
+    "version": "1.1.7-1",
+    "origin": "arch-multilib",
+    "sha256": "44ae82b28ab9111e6cf9e2b5c7f5dae35173811db1396d5e759acb6ccd742903",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxdamage-1.1.7-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxfixes>=4.0.4",
+      "libxdamage",
+      "lib32-libx11",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxdmcp",
+    "version": "1.1.5-1",
+    "origin": "arch-multilib",
+    "sha256": "047b50d4ba112eef01b3e2eecc6d934093c2202d8981067c01dac811f8862285",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxdmcp-1.1.5-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libXdmcp.so=6-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "libxdmcp"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxext",
+    "version": "1.3.7-1",
+    "origin": "arch-multilib",
+    "sha256": "732b539ee274f429a8fee699b136617c22cc7603d5997d002fa8161a79489483",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxext-1.3.7-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libx11",
+      "libxext",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxfixes",
+    "version": "6.0.1-2",
+    "origin": "arch-multilib",
+    "sha256": "0bd7c0f5bee4ac6574fccf73d9760a1bd083aa5e35ee7811d78ea965b62832e2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxfixes-6.0.1-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libx11",
+      "libxfixes"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxft",
+    "version": "2.3.9-1",
+    "origin": "arch-multilib",
+    "sha256": "cfdf0066e3e964837d0daa45881362eb39be0c0f35e5ecffe1e1de945f255467",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxft-2.3.9-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-fontconfig",
+      "lib32-libxrender"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxi",
+    "version": "1.8.3-1",
+    "origin": "arch-multilib",
+    "sha256": "23f7a0e2f5185a455d3269bc839e1f99deaa228fe72a286de824ab57e6f3e8c9",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxi-1.8.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "lib32-libxfixes",
+      "libxi"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxinerama",
+    "version": "1.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "6cc85b950852419929994e7832f36cd4fa900023b9fa6127ae945bfa74f60c1a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxinerama-1.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "libxinerama",
+      "lib32-libx11",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxkbcommon",
+    "version": "1.13.2-1",
+    "origin": "arch-multilib",
+    "sha256": "bd1ca9337cf29f5723225e9e18a5c8f3ca453480d5f35f354e26cc656c345e64",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxkbcommon-1.13.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libxkbcommon.so=0-32",
+      "libxkbregistry.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libxml2",
+      "xkeyboard-config",
+      "libxkbcommon"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxkbcommon-x11",
+    "version": "1.13.2-1",
+    "origin": "arch-multilib",
+    "sha256": "309c21e766984767ea0ec803f13a0d2276e0bc04f25486dc82541204c227bbd9",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxkbcommon-x11-1.13.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libxkbcommon-x11.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libxcb",
+      "lib32-libxkbcommon",
+      "libxkbcommon.so=0-32",
+      "libxkbcommon-x11"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxml2",
+    "version": "2.15.3-1",
+    "origin": "arch-multilib",
+    "sha256": "65e2cd63cd55c0278897fc81a5fb0d2604373edc8117928ea5033628c50bc889",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxml2-2.15.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libxml2.so=16-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-icu",
+      "lib32-zlib",
+      "libxml2",
+      "libicuuc.so=78-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxmu",
+    "version": "1.3.1-1",
+    "origin": "arch-multilib",
+    "sha256": "048fa082d795340e8254ec07f7e067c8fc8c9afbe1e5799f7c6f77845cb9aad6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxmu-1.3.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "lib32-libxt",
+      "libxmu",
+      "lib32-libx11",
+      "lib32-glibc",
+      "xorgproto"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxrandr",
+    "version": "1.5.5-1",
+    "origin": "arch-multilib",
+    "sha256": "2de4e0f41eccb1dfc58ae696ecd3364f208559ce5802ac4aa44cea296ab1624d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxrandr-1.5.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "lib32-libxrender",
+      "libxrandr",
+      "lib32-libx11",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxrender",
+    "version": "0.9.11-2",
+    "origin": "arch-multilib",
+    "sha256": "c65161efe64648822d053e34d532bc4c0f6a8cc2fc1ca2ea5e00c4c61262d1b6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxrender-0.9.11-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libx11>=1.3.4",
+      "libxrender"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxshmfence",
+    "version": "1.3.3-1",
+    "origin": "arch-multilib",
+    "sha256": "988dc4d5fdf31b1feb3c21eb9d92b73fb20d683b8a4af583f52d3cc4b294a033",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxshmfence-1.3.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "libxshmfence"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxslt",
+    "version": "1.1.45-1",
+    "origin": "arch-multilib",
+    "sha256": "76eef5a4747824d51dfaf99c8c25c0d26aa5081988af7c75e8544407465fed36",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxslt-1.1.45-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libxslt.so=1-32",
+      "libexslt.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libgcrypt",
+      "lib32-libxml2",
+      "lib32-xz",
+      "libxslt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxss",
+    "version": "1.2.5-1",
+    "origin": "arch-multilib",
+    "sha256": "4d69307452bf52b504c7d03b7a90b01da113fa1fc547d1ee67345330c7108c3e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxss-1.2.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "libxss"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxt",
+    "version": "1.3.1-1",
+    "origin": "arch-multilib",
+    "sha256": "f24ee25f97c54a9699005476433e3c65779fefb21deba0e9c8f1113153ad4dc4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxt-1.3.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libsm",
+      "lib32-libx11",
+      "libxt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxtst",
+    "version": "1.2.5-2",
+    "origin": "arch-multilib",
+    "sha256": "99589c7320d5cf8f65cae882434409a5a1818e460e3aefbbf93c0613bd418c4f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxtst-1.2.5-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "lib32-libxi",
+      "lib32-libxfixes",
+      "libxtst"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxv",
+    "version": "1.0.12-2",
+    "origin": "arch-multilib",
+    "sha256": "dc912c63dcb74b18851de9336d917029e23078edad9f60e979578d4174defe69",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxv-1.0.12-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "libxv"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxvmc",
+    "version": "1.0.15-1",
+    "origin": "arch-multilib",
+    "sha256": "be279ed53a4841fc454e98bdb6e0656b75ebf656917d0a8a49d80ae8d30716f1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxvmc-1.0.15-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxv>=1.0.5",
+      "libxvmc",
+      "lib32-libxext",
+      "lib32-libx11",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-libxxf86vm",
+    "version": "1.1.5-2",
+    "origin": "arch-multilib",
+    "sha256": "c22749793dc6055b23e55923e3241e6567fc8494dab1a7a71a0b680c114c9a1b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-libxxf86vm-1.1.5-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxext",
+      "libxxf86vm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-llvm",
+    "version": "1:22.1.8-1",
+    "origin": "arch-multilib",
+    "sha256": "e97c11bb7239ae98741df8179e4683d60c90ecedd08b4402dc2d1c3e96746d64",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-llvm-1:22.1.8-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-llvm-libs",
+      "llvm",
+      "lib32-gcc-libs",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-llvm-libs",
+    "version": "1:22.1.8-1",
+    "origin": "arch-multilib",
+    "sha256": "51d0c042294d892166b0bb0518a7c66dd6106b3b57ab11a8e9861f359cd5d011",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-llvm-libs-1:22.1.8-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-zlib",
+      "lib32-zstd",
+      "lib32-libffi",
+      "lib32-ncurses",
+      "lib32-libxml2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-lm_sensors",
+    "version": "1:3.6.2-2",
+    "origin": "arch-multilib",
+    "sha256": "0d2e75d99503602b0b339a32ada558d969eb9647d29be5464d7a037c49308394",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-lm_sensors-1:3.6.2-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsensors.so=5-32"
+    ],
+    "depends": [
+      "lm_sensors",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-lz4",
+    "version": "1.10.0-3",
+    "origin": "arch-multilib",
+    "sha256": "c632e4454972caf03cc031dd14ba5a5cb44965049a9bf2261af908187ec7f561",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-lz4-1.10.0-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "liblz4.so=1-32"
+    ],
+    "depends": [
+      "lz4",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-mangohud",
+    "version": "0.8.4-1",
+    "origin": "arch-multilib",
+    "sha256": "0418b5faf05b7e6aa6cb65251c53380b32717b8a29086eb6d1a811b1910361c1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-mangohud-0.8.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-dbus",
+      "lib32-gcc-libs",
+      "lib32-glew",
+      "lib32-libx11",
+      "lib32-libxkbcommon",
+      "lib32-vulkan-icd-loader",
+      "lib32-wayland"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-mangoapp"
+    ]
+  },
+  {
+    "name": "lib32-mesa",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "3a6178dbbfbb37276d759146aee13c23e692bf6c970a25f65ce53331b24ffbf2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-mesa-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libva-mesa-driver=1:26.1.6-1",
+      "lib32-mesa-libgl=1:26.1.6-1",
+      "lib32-libva-driver",
+      "lib32-opengl-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdrm",
+      "lib32-libelf",
+      "lib32-libglvnd",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxext",
+      "lib32-libxshmfence",
+      "lib32-libxxf86vm",
+      "lib32-llvm-libs",
+      "lib32-lm_sensors",
+      "lib32-spirv-tools",
+      "lib32-wayland",
+      "lib32-zlib",
+      "lib32-zstd",
+      "mesa"
+    ],
+    "optdepends": [
+      "opengl-man-pages: for the OpenGL API man pages"
+    ],
+    "conflicts": [
+      "lib32-libva-mesa-driver<1:24.2.7-1",
+      "lib32-mesa-libgl<17.0.1-2"
+    ]
+  },
+  {
+    "name": "lib32-mesa-amber",
+    "version": "21.3.9-6",
+    "origin": "arch-multilib",
+    "sha256": "87346bf5d4d80da72c71084084164251c936aa979c26c0cab808c9ba611f1f02",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-mesa-amber-21.3.9-6-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-mesa=21.3.9",
+      "lib32-opengl-driver"
+    ],
+    "depends": [
+      "lib32-libdrm",
+      "lib32-libglvnd",
+      "lib32-libxfixes",
+      "lib32-libxshmfence",
+      "lib32-libxxf86vm",
+      "lib32-wayland",
+      "lib32-zstd",
+      "mesa-amber"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-mesa"
+    ]
+  },
+  {
+    "name": "lib32-mesa-demos",
+    "version": "9.0.0-4",
+    "origin": "arch-multilib",
+    "sha256": "6ff4debc5a14350b4ab4fc06e4a8445c2692e15072a02281006ff024fe6074fa",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-mesa-demos-9.0.0-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libgl",
+      "lib32-glew",
+      "lib32-freeglut",
+      "mesa-demos",
+      "lib32-libdecor",
+      "lib32-libxkbcommon-x11"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-mesa-utils",
+    "version": "9.0.0-4",
+    "origin": "arch-multilib",
+    "sha256": "0b0457ed2fcf5aef39423838d2217bb8e41b8948d5ddbb7f4686329ce931eb43",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-mesa-utils-9.0.0-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "glxinfo32",
+      "glxgears32",
+      "eglinfo32"
+    ],
+    "depends": [
+      "lib32-libgl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-mpg123",
+    "version": "1.33.7-1",
+    "origin": "arch-multilib",
+    "sha256": "badcbe410934702c67918a6433e541307b9b3c790611ad7e7cad3dd732494abd",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-mpg123-1.33.7-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libmpg123.so=0-32",
+      "libout123.so=0-32",
+      "libsyn123.so=0-32"
+    ],
+    "depends": [
+      "lib32-alsa-lib",
+      "mpg123"
+    ],
+    "optdepends": [
+      "lib32-sdl2: for sdl audio support",
+      "lib32-jack: for jack audio support",
+      "lib32-libpulse: for pulse audio support"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-ncurses",
+    "version": "6.6-2",
+    "origin": "arch-multilib",
+    "sha256": "fb0d062ed50c6607f2c90fbff4a432251ce00b1ceb5621e5277d1ada6d1828b7",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-ncurses-6.6-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libncurses++w.so=6-32",
+      "libformw.so=6-32",
+      "libmenuw.so=6-32",
+      "libpanelw.so=6-32",
+      "libncursesw.so=6-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "ncurses=6.6"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-nettle",
+    "version": "4.0-2",
+    "origin": "arch-multilib",
+    "sha256": "3f596e6686a6b294d4b445bb575689ecc26ca06616d649497d5e5d6674898544",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nettle-4.0-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libnettle.so=9-32",
+      "libhogweed.so=7-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-gmp",
+      "nettle=4.0"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-nspr",
+    "version": "4.40-1",
+    "origin": "arch-multilib",
+    "sha256": "89b3b0aecb0672c0ef9a8d86fc914e1d245194d9f51ab7cda0f04c8a8c84161c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nspr-4.40-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "nspr"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-nss",
+    "version": "3.126-1",
+    "origin": "arch-multilib",
+    "sha256": "a3b7b6878079579046f4ea024a2ebb94f0077cb355de0d3bfbaa6502fe87225d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nss-3.126-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-nspr",
+      "lib32-p11-kit",
+      "lib32-sqlite",
+      "lib32-zlib",
+      "nss"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-nvidia-cg-toolkit",
+    "version": "3.1-10",
+    "origin": "arch-multilib",
+    "sha256": "474f597b6aedfcc26a1ab68d6801c1e3692e7c30dc0cbde504b3e2e452a018bb",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nvidia-cg-toolkit-3.1-10-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libgl",
+      "nvidia-cg-toolkit"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-nvidia-utils",
+    "version": "610.57.04-1",
+    "origin": "arch-multilib",
+    "sha256": "9b87faccff1006fc14a10fadc91e3f1dba47ac2d60e31d354bc0eb938d0567e1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-nvidia-utils-610.57.04-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver",
+      "lib32-opengl-driver",
+      "lib32-nvidia-libgl"
+    ],
+    "depends": [
+      "lib32-zlib",
+      "lib32-gcc-libs",
+      "lib32-libglvnd",
+      "nvidia-utils=610.57.04"
+    ],
+    "optdepends": [
+      "lib32-opencl-nvidia"
+    ],
+    "conflicts": [
+      "lib32-nvidia-libgl"
+    ]
+  },
+  {
+    "name": "lib32-ocl-icd",
+    "version": "2.3.5-1",
+    "origin": "arch-multilib",
+    "sha256": "d5273f8caadd2cf7babf54a37e0803ac21a8e4000799bb32de7f90318366f73d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-ocl-icd-2.3.5-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-opencl-icd-loader"
+    ],
+    "depends": [
+      "lib32-glibc"
+    ],
+    "optdepends": [
+      "lib32-opencl-driver: packaged opencl driver"
+    ],
+    "conflicts": [
+      "lib32-libcl"
+    ]
+  },
+  {
+    "name": "lib32-openal",
+    "version": "1.25.2-1",
+    "origin": "arch-multilib",
+    "sha256": "21fd8f737c0f46136203735578ee1ddc97130af0e08019251c25d944c020d62e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-openal-1.25.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libopenal.so=1-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "openal"
+    ],
+    "optdepends": [
+      "lib32-fluidsynth: MIDI rendering"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-opencl-mesa",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "e069db79819032a6dbfcd9cb628aa35784e0cab10c2447fabce149039b0959da",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-opencl-mesa-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-opencl-driver"
+    ],
+    "depends": [
+      "lib32-clang",
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdrm",
+      "lib32-libelf",
+      "lib32-llvm-libs",
+      "lib32-spirv-llvm-translator",
+      "lib32-spirv-tools",
+      "lib32-zlib",
+      "lib32-zstd",
+      "opencl-mesa"
+    ],
+    "optdepends": [
+      "opencl-headers: headers necessary for OpenCL development"
+    ],
+    "conflicts": [
+      "lib32-opencl-clover-mesa",
+      "lib32-opencl-rusticl-mesa"
+    ]
+  },
+  {
+    "name": "lib32-opencl-nvidia",
+    "version": "610.57.04-1",
+    "origin": "arch-multilib",
+    "sha256": "1a1b2873cbaf3f6ac8f81305ee3539c96e7891a9a9600cb99bc630b30b47349d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-opencl-nvidia-610.57.04-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-opencl-driver"
+    ],
+    "depends": [
+      "lib32-zlib",
+      "lib32-gcc-libs"
+    ],
+    "optdepends": [
+      "opencl-headers: headers necessary for OpenCL development"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-openssl",
+    "version": "1:3.6.3-1",
+    "origin": "arch-multilib",
+    "sha256": "40ab4c0a1c711a5f909a9b5cd58787b8f1bf0112d6b97a227a437905b381114c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-openssl-1:3.6.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcrypto.so=3-32",
+      "libssl.so=3-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "openssl"
+    ],
+    "optdepends": [
+      "ca-certificates"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-opus",
+    "version": "1.6.1-1",
+    "origin": "arch-multilib",
+    "sha256": "6af0da465b6d8ea20aa65bc7a9f079799d3d405c0a0e89c80852872225a3bc01",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-opus-1.6.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libopus.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "opus"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-orc",
+    "version": "0.4.42-1",
+    "origin": "arch-multilib",
+    "sha256": "b951d498450e6c149227083b1fbd2d399020361a72afe30e9266a15c2a1d49e1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-orc-0.4.42-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "liborc-0.4.so=0-32",
+      "liborc-test-0.4.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "orc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-p11-kit",
+    "version": "0.26.5-1",
+    "origin": "arch-multilib",
+    "sha256": "e5f19d29f0f47c2b2e9072e9f1638120dabad59b8cadee8c2297d50c32eaf7f6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-p11-kit-0.26.5-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libp11-kit.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libffi",
+      "lib32-libtasn1",
+      "libp11-kit"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pam",
+    "version": "1.7.2-1",
+    "origin": "arch-multilib",
+    "sha256": "5b66a9e540d35af67d3b69c615615edf3c3d51f1632e8ed7700ae3f1de190de2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pam-1.7.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-audit",
+      "lib32-libnsl",
+      "lib32-libtirpc",
+      "lib32-libxcrypt",
+      "lib32-systemd",
+      "pam"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pango",
+    "version": "1:1.58.2-1",
+    "origin": "arch-multilib",
+    "sha256": "87a0085f925055afd8ea990096e6426d09cd3f29db1691df1dc84bbc2aade3f6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pango-1:1.58.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpango-1.0.so=0-32",
+      "libpangocairo-1.0.so=0-32",
+      "libpangoft2-1.0.so=0-32",
+      "libpangoxft-1.0.so=0-32"
+    ],
+    "depends": [
+      "lib32-cairo",
+      "lib32-fontconfig",
+      "lib32-freetype2",
+      "lib32-fribidi",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-harfbuzz",
+      "lib32-libthai",
+      "lib32-libx11",
+      "lib32-libxft",
+      "lib32-libxrender",
+      "pango"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pcre",
+    "version": "8.45-4",
+    "origin": "arch-multilib",
+    "sha256": "170d1fc4ca177e6be5bea39f7eac089ba3adf40764949f954535b5f75fd0fb59",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pcre-8.45-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpcre.so=1-32",
+      "libpcre16.so=0-32",
+      "libpcre32.so=0-32",
+      "libpcreposix.so=0-32",
+      "libpcrecpp.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "pcre"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pcre2",
+    "version": "10.47-1",
+    "origin": "arch-multilib",
+    "sha256": "fd6fac9b22e894c368afe56be49266bea1915ef6fecefe267d9853ac6e16bea6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pcre2-10.47-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpcre2-8.so=0-32",
+      "libpcre2-16.so=0-32",
+      "libpcre2-32.so=0-32",
+      "libpcre2-posix.so=3-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "pcre2=10.47"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pcsclite",
+    "version": "2.5.1-1",
+    "origin": "arch-multilib",
+    "sha256": "3be7e2bdfb5450badf5cd26336db12f985dbdf6bef3f67fa872f12659f003603",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pcsclite-2.5.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpcsclite.so=1-32",
+      "libpcsclite_real.so=1-32",
+      "libpcscspy.so=0-32"
+    ],
+    "depends": [
+      "libsystemd.so=0-32",
+      "libudev.so=1-32",
+      "libpolkit-gobject-1.so=0-32",
+      "pcsclite"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pipewire",
+    "version": "1:1.6.8-1",
+    "origin": "arch-multilib",
+    "sha256": "8d18c03b4a2d8fad5fc7580d6d6de373ae178334e795b31d01878ae55f85c47b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pipewire-1:1.6.8-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libpipewire=1:1.6.8-1",
+      "libpipewire-0.3.so=0-32",
+      "lib32-alsa-lib",
+      "libasound.so=2-32",
+      "lib32-dbus",
+      "libdbus-1.so=3-32",
+      "lib32-gcc-libs",
+      "lib32-glib2",
+      "libglib-2.0.so=0-32",
+      "lib32-glibc",
+      "lib32-systemd",
+      "libsystemd.so=0-32",
+      "pipewire"
+    ],
+    "optdepends": [
+      "lib32-pipewire-jack: JACK support",
+      "lib32-pipewire-v4l2: V4L2 interceptor"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pipewire-jack",
+    "version": "1:1.6.8-1",
+    "origin": "arch-multilib",
+    "sha256": "99158512e18bef825d2b8430b07c731a56674fc0b7230d91fa76fdf307a85d1a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pipewire-jack-1:1.6.8-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-jack",
+      "libjack.so=0-32",
+      "libjacknet.so=0-32",
+      "libjackserver.so=0-32"
+    ],
+    "depends": [
+      "lib32-libpipewire=1:1.6.8-1",
+      "libpipewire-0.3.so=0-32",
+      "lib32-pipewire=1:1.6.8-1",
+      "lib32-glibc",
+      "pipewire-jack"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-jack",
+      "lib32-jack2"
+    ]
+  },
+  {
+    "name": "lib32-pipewire-v4l2",
+    "version": "1:1.6.8-1",
+    "origin": "arch-multilib",
+    "sha256": "6fc1319143654e362eede062e8f1b38dc0a00e21a6401f0e6bf8c977769c3830",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pipewire-v4l2-1:1.6.8-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libpipewire=1:1.6.8-1",
+      "libpipewire-0.3.so=0-32",
+      "lib32-pipewire=1:1.6.8-1",
+      "lib32-glibc",
+      "pipewire-v4l2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-pixman",
+    "version": "0.46.4-1",
+    "origin": "arch-multilib",
+    "sha256": "e0f35b6186f7eb6d65fa724f0e077dcad197bbb961b824f876137b1869bfbc0a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-pixman-0.46.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "pixman"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-polkit",
+    "version": "127-1",
+    "origin": "arch-multilib",
+    "sha256": "d92ffcfea51430433d0231d668146439a1f9930bdba07e837b8f8bb11ed44130",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-polkit-127-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libpolkit-agent-1.so=0-32",
+      "libpolkit-gobject-1.so=0-32"
+    ],
+    "depends": [
+      "lib32-glib2",
+      "lib32-glibc",
+      "lib32-systemd",
+      "polkit"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-popt",
+    "version": "1.19-2",
+    "origin": "arch-multilib",
+    "sha256": "23f12a49dff484fa0852d499c23321433faeb8ee43ddf674345169440d33fc7f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-popt-1.19-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "popt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-portaudio",
+    "version": "1:19.7.0-3",
+    "origin": "arch-multilib",
+    "sha256": "0ae40aa68daac65c62d0376fb31eb3a95d9713be2cd6e1cde9944f136cd824e9",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-portaudio-1:19.7.0-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libportaudio.so=2-32",
+      "libportaudiocpp.so=0-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "portaudio=1:19.7.0",
+      "lib32-alsa-lib",
+      "libasound.so=2-32",
+      "lib32-jack",
+      "libjack.so=0-32"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-primus",
+    "version": "20151110-7",
+    "origin": "arch-multilib",
+    "sha256": "f68235c5a3d9f0e3da162680124f34bae2aa6cb0347bb98509c9fb65d004dc44",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-primus-20151110-7-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bumblebee",
+      "lib32-mesa-libgl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-primus_vk",
+    "version": "1.6.4-1",
+    "origin": "arch-multilib",
+    "sha256": "63c60d15b228e66263f1066278d7b50bf87dc628ae4150a1cdfd88899061f20f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-primus_vk-1.6.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-nvidia-utils",
+      "bumblebee",
+      "lib32-vulkan-icd-loader",
+      "lib32-primus"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-procps-ng",
+    "version": "4.0.6-1",
+    "origin": "arch-multilib",
+    "sha256": "00ce40395f84d69c883a094e631559e78d7fae62ec6efe32a6209b8b18b58267",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-procps-ng-4.0.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libproc2.so=1-32"
+    ],
+    "depends": [
+      "procps-ng",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-readline",
+    "version": "8.3.3-1",
+    "origin": "arch-multilib",
+    "sha256": "4adaa3ecb0f51342891290c2a6554b3b02bd2105d055fa4bf734c4bd16d565e4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-readline-8.3.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-ncurses",
+      "readline"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-renderdoc",
+    "version": "1.45-1",
+    "origin": "arch-multilib",
+    "sha256": "c11dc78df1f0dffedaa87ea6ff0ca2da46e82673d9ef2524fc9aec7a2c03a57f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-renderdoc-1.45-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-renderdoc-minimal"
+    ],
+    "depends": [
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-mesa",
+      "lib32-libgl",
+      "lib32-xcb-util-keysyms"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-renderdoc-minimal"
+    ]
+  },
+  {
+    "name": "lib32-sdl_image",
+    "version": "1.2.12-9",
+    "origin": "arch-multilib",
+    "sha256": "8259597917e43c8aa72625668ad42dbb0d2c39b539827d82224f4eeb76c7d64d",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl_image-1.2.12-9-x86_64.pkg.tar.zst",
+    "provides": [
+      "libSDL_image-1.2.so=0-32"
+    ],
+    "depends": [
+      "lib32-sdl>=1.2.13",
+      "lib32-libpng",
+      "lib32-libjpeg-turbo",
+      "lib32-libtiff",
+      "lib32-zlib",
+      "sdl_image"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl_mixer",
+    "version": "1.2.12-6",
+    "origin": "arch-multilib",
+    "sha256": "7e0df1f4737ad1a4f7366d2491ca25507f7a65ae2a90e30de8ad135411c3c7be",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl_mixer-1.2.12-6-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libmikmod",
+      "lib32-libvorbis",
+      "lib32-sdl",
+      "sdl_mixer"
+    ],
+    "optdepends": [
+      "lib32-fluidsynth: MIDI software synth, replaces built-in timidity"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl_net",
+    "version": "1.2.8-5",
+    "origin": "arch-multilib",
+    "sha256": "c708af32452b028a2c27b3fc8eb642cffe96b65b9f77ce9ebe0e55c43a3d0d48",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl_net-1.2.8-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-sdl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl_ttf",
+    "version": "2.0.11-9",
+    "origin": "arch-multilib",
+    "sha256": "a4343dbe27e5a208cca07c88045157c0fde808d91d587d45058f6830b7236c3c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl_ttf-2.0.11-9-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-sdl",
+      "lib32-freetype2",
+      "sdl_ttf"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl12-compat",
+    "version": "1.2.68-2",
+    "origin": "arch-multilib",
+    "sha256": "1a616b8b473d10d61cc966712f5873006f69846c9d6449f5f2a0bc5d6b2b8750",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl12-compat-1.2.68-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-sdl=1.2.15"
+    ],
+    "depends": [
+      "lib32-glu",
+      "lib32-sdl2",
+      "sdl12-compat"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-sdl"
+    ]
+  },
+  {
+    "name": "lib32-sdl2_mixer",
+    "version": "2.8.2-1",
+    "origin": "arch-multilib",
+    "sha256": "05457cd2442ff5e938201faaa0178d6666e3cb6711822ff32ed5aadbbc2e316e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl2_mixer-2.8.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-flac",
+      "lib32-glibc",
+      "lib32-libmodplug",
+      "lib32-libvorbis",
+      "lib32-mpg123",
+      "lib32-sdl2",
+      "sdl2_mixer"
+    ],
+    "optdepends": [
+      "lib32-fluidsynth: MIDI software synth, replaces built-in timidity"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl2_ttf",
+    "version": "2.24.0-2",
+    "origin": "arch-multilib",
+    "sha256": "02ac42d2474020fa67529504aab0c0acbb7a7d9d1c2502000cbdbb7970eaa7c8",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl2_ttf-2.24.0-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-sdl2",
+      "lib32-freetype2",
+      "lib32-harfbuzz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl2-compat",
+    "version": "2.32.70-1",
+    "origin": "arch-multilib",
+    "sha256": "ad689410525002fa1bf39f99feaa68fe0a1954dd7650575ca582ba64c67a4d30",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl2-compat-2.32.70-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-sdl2=2.32.70"
+    ],
+    "depends": [
+      "sdl3",
+      "lib32-glibc",
+      "lib32-sdl3",
+      "sdl2-compat"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-sdl2"
+    ]
+  },
+  {
+    "name": "lib32-sdl3",
+    "version": "3.4.14-1",
+    "origin": "arch-multilib",
+    "sha256": "4005a38701792dfc44be118c11cc4a64c031f23fb986f9f61e174badcd5404c6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl3-3.4.14-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "sdl3",
+      "lib32-glibc",
+      "lib32-libxext",
+      "lib32-libxrender",
+      "lib32-libx11",
+      "lib32-libgl",
+      "lib32-libxcursor",
+      "lib32-libusb"
+    ],
+    "optdepends": [
+      "lib32-alsa-lib: ALSA audio driver",
+      "lib32-libpulse: PulseAudio audio driver",
+      "lib32-jack: JACK audio driver",
+      "lib32-pipewire: PipeWire audio driver",
+      "lib32-vulkan-driver: vulkan renderer",
+      "lib32-libdecor: Wayland client decorations"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sdl3_ttf",
+    "version": "3.2.2-4",
+    "origin": "arch-multilib",
+    "sha256": "f13732116027309e9e4d01c8ad5675c70b6fa8b5c1f976f6781add7466bb860f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sdl3_ttf-3.2.2-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-sdl3",
+      "lib32-freetype2",
+      "lib32-harfbuzz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-slang",
+    "version": "2.3.3-2",
+    "origin": "arch-multilib",
+    "sha256": "7f082dfda2583e1e10f7bb1391992bc37a4432de5f2edb1b12f55ae3d783766f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-slang-2.3.3-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-pcre",
+      "lib32-zlib",
+      "slang"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-smpeg",
+    "version": "2.0.0-2",
+    "origin": "arch-multilib",
+    "sha256": "0dbf97d91908dc05c281ff6db829285eebbe1e47ce26b947c5c5b3b5adfbc06b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-smpeg-2.0.0-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-sdl2",
+      "smpeg"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sndio",
+    "version": "1.10.0-1",
+    "origin": "arch-multilib",
+    "sha256": "c9a24b83d1d4261f9f6edc7b05308dfd5371793d58e7be30b01ad0b3e34e5b1b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sndio-1.10.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-alsa-lib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-speex",
+    "version": "1.2.1-2",
+    "origin": "arch-multilib",
+    "sha256": "2d8112594ce75b312570eb0f07ecb7847ea84c5f6973ce8880f23d9eace220e8",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-speex-1.2.1-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libspeex.so=1-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "speex"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-speexdsp",
+    "version": "1.2.1-2",
+    "origin": "arch-multilib",
+    "sha256": "5654919b8b051c9983c52345ab698d881080a56428acc93e88d9d5aab068e5b8",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-speexdsp-1.2.1-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libspeexdsp.so=1-32"
+    ],
+    "depends": [
+      "lib32-gcc-libs",
+      "speexdsp"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-spirv-llvm-translator",
+    "version": "22.1.5-1",
+    "origin": "arch-multilib",
+    "sha256": "09ec39b491feb25edcd3f867ae869dae28f8d5f2358e8a30a9a5b453936459f1",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-spirv-llvm-translator-22.1.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-llvm-libs",
+      "lib32-spirv-tools",
+      "spirv-llvm-translator"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-spirv-tools",
+    "version": "1:1.4.357.0-1",
+    "origin": "arch-multilib",
+    "sha256": "b4d8bf66991caa2a2de8e7216c683665a8d3959353a783d697af494a38e136f3",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-spirv-tools-1:1.4.357.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "spirv-tools"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-sqlite",
+    "version": "3.53.4-1",
+    "origin": "arch-multilib",
+    "sha256": "18cf540eda092b47ff5f45871c153743e1172d50141a182ae164e183990429a4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-sqlite-3.53.4-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsqlite3.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-gcc-libs",
+      "sqlite"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-taglib",
+    "version": "2.3.1-1",
+    "origin": "arch-multilib",
+    "sha256": "47a08276aa3c654cafe8fad8c410e1dd8b06653dbfe3aeccc1d692d660ffdbe2",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-taglib-2.3.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "taglib",
+      "lib32-zlib",
+      "lib32-gcc-libs"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-tcl",
+    "version": "8.6.16-1",
+    "origin": "arch-multilib",
+    "sha256": "ec12983c96e479114dfb2e31183eddc4da0cbe077799437a75d528dc071b115b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-tcl-8.6.16-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-zlib",
+      "tcl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-tdb",
+    "version": "1.4.13-1",
+    "origin": "arch-multilib",
+    "sha256": "65d306b7890ae8fd5a05240728322251c17b357a6404f1d7d09805fdb648a5af",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-tdb-1.4.13-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "tdb"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-twolame",
+    "version": "0.4.0-3",
+    "origin": "arch-multilib",
+    "sha256": "6034cfbeb5031aacf8c4f88c491ad6ac73d8c356a518bf5aae388bd4c055fb8c",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-twolame-0.4.0-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libtwolame.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "twolame"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-util-linux",
+    "version": "2.42.2-1",
+    "origin": "arch-multilib",
+    "sha256": "9b03a23548304f561b32210c7d056faf2b868e2f4c54564f7982eef7b3186381",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-util-linux-2.42.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libuuid.so=1-32",
+      "libblkid.so=1-32",
+      "libfdisk.so=1-32",
+      "libmount.so=1-32",
+      "libsmartcols.so=1-32"
+    ],
+    "depends": [
+      "util-linux-libs",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-v4l-utils",
+    "version": "1.32.0-1",
+    "origin": "arch-multilib",
+    "sha256": "51747de44f7843132a4d93e2d91d7cc2c3c5f7fca8d6437f7bb049e05b49399e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-v4l-utils-1.32.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-libv4l=1.32.0"
+    ],
+    "depends": [
+      "v4l-utils",
+      "lib32-gcc-libs",
+      "lib32-libjpeg-turbo",
+      "lib32-systemd",
+      "lib32-libglvnd",
+      "lib32-json-c"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-libv4l"
+    ]
+  },
+  {
+    "name": "lib32-virtualgl",
+    "version": "3.1.4-1",
+    "origin": "arch-multilib",
+    "sha256": "8902872029f29baf8894e6d2f41a6608feb6d91892a4357b7cf5fa4d83ef9bb9",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-virtualgl-3.1.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "virtualgl",
+      "lib32-libxv",
+      "lib32-glu",
+      "lib32-libjpeg-turbo",
+      "lib32-opencl-driver",
+      "lib32-ocl-icd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vkd3d",
+    "version": "1.19-1",
+    "origin": "arch-multilib",
+    "sha256": "8ce9ee53cbb7c938c46c0d06c2de5b56c5f49696981a22917057770bb38f0a1b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vkd3d-1.19-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-vulkan-icd-loader",
+      "perl-json"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-asahi",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "4ca5f6a0445ccfa0aabf43fb1da2064ed87089ea97d81c19be92eed24bb8e3bf",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-asahi-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-asahi"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-broadcom",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "c902ae6b0f61e4f26777bbfc35d47e4dd9f337d1ed515311e7e6dff17a8a7013",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-broadcom-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-broadcom"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-dzn",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "3263620d4f6412bff1e76409f180c223030f109f3a8c3a49c1619ff0663536ed",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-dzn-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-dzn"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-freedreno",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "ebb4c8ee120532d28b4dd25e39058d3cb146e2114a5c76ed3d50a5e89a28192f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-freedreno-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-freedreno"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-gfxstream",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "48363aefdcd82440e27008eabf96f36ab37e6417fc333a46025b9d72b41ae5fc",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-gfxstream-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "vulkan-gfxstream"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-icd-loader",
+    "version": "1.4.357.0-1",
+    "origin": "arch-multilib",
+    "sha256": "741aa42332b707d0aa7b944f7ce07a6cb4ccc0f7f513d0edb9a432608cda4d5b",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-icd-loader-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libvulkan.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc"
+    ],
+    "optdepends": [
+      "lib32-vulkan-driver: packaged vulkan driver"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-intel",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "e58f49c61e8be4b8b96465d0cc04b628c9f6c9cc2b3feec66f99e9d49b358294",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-intel-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-intel"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-mesa-implicit-layers",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "dc86a413fd7751eec7bdf05a5a1ddc48c36ade05e895c22da0ea97beea8a7e7a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-mesa-implicit-layers-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdrm",
+      "lib32-libxcb",
+      "lib32-wayland",
+      "vulkan-mesa-implicit-layers"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-vulkan-mesa-device-select"
+    ]
+  },
+  {
+    "name": "lib32-vulkan-mesa-layers",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "31043eadf2af38f09c1daccc48265f3ef2b9b8b92042d0bdf4d334afa4c827fd",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-mesa-layers-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libpng",
+      "vulkan-mesa-layers"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-vulkan-mesa-layer"
+    ]
+  },
+  {
+    "name": "lib32-vulkan-nouveau",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "d183b1cd7c64b5fc348c5ea706a54588b6a9ae7b335b343ef01e864499b830df",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-nouveau-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-nouveau"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-panfrost",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "4e0f82aa96c7f070365687e498c65c4cca98b5a6c9a2225de951dc6dee4640fd",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-panfrost-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-panfrost"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-powervr",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "3a05e3e1ac1a848483d28311b28d9ab65c7c228ba99f504e14ea2a9b8e168080",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-powervr-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-powervr"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-radeon",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "5d836f250e1615d586bc9a0644d02efeaa337fa1c472a31ae7e21d9089ed052a",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-radeon-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libelf",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-llvm-libs",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-radeon"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-swrast",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "3f1c860818d512e6e2910a8d6cf5c608b5c653107c96dd6055c53f0a623c2c0e",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-swrast-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-llvm-libs",
+      "lib32-spirv-tools",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-swrast"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": [
+      "lib32-vulkan-mesa"
+    ]
+  },
+  {
+    "name": "lib32-vulkan-utility-libraries",
+    "version": "1.4.357.0-1",
+    "origin": "arch-multilib",
+    "sha256": "21157b6a08173e8970ddd8ba4d138ff70b21bca67672111d74de92fedc9e2fc4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-utility-libraries-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-vulkan-icd-loader",
+      "vulkan-utility-libraries"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-validation-layers",
+    "version": "1.4.357.0-1",
+    "origin": "arch-multilib",
+    "sha256": "b3bcad1fcaca6d2458ad98dd62b6e82f84516751b0fe657cb6297f244db150ff",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-validation-layers-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-spirv-tools"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-vulkan-virtio",
+    "version": "1:26.1.6-1",
+    "origin": "arch-multilib",
+    "sha256": "696fdb682e62babe614b7c54b4aaf7f5fc672f1d611d642d0a68ccad9e2cc277",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-vulkan-virtio-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-vulkan-driver"
+    ],
+    "depends": [
+      "lib32-expat",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libdisplay-info",
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-libxcb",
+      "lib32-libxshmfence",
+      "lib32-systemd",
+      "lib32-vulkan-icd-loader",
+      "lib32-vulkan-mesa-implicit-layers",
+      "lib32-wayland",
+      "lib32-xcb-util-keysyms",
+      "lib32-zlib",
+      "lib32-zstd",
+      "vulkan-virtio"
+    ],
+    "optdepends": [
+      "lib32-vulkan-mesa-layers: additional vulkan layers"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-wavpack",
+    "version": "5.9.0-1",
+    "origin": "arch-multilib",
+    "sha256": "40bde4d38333a1d237809e478c56754e34cef2c7d48bf1738a0c35ad19aeb32f",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-wavpack-5.9.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "wavpack"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-wayland",
+    "version": "1.26.0-1",
+    "origin": "arch-multilib",
+    "sha256": "edffef2d66b7365425e055b72af4e73857e1e67ccbd718166f72127ab80c9393",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-wayland-1.26.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libwayland-client.so=0-32",
+      "libwayland-cursor.so=0-32",
+      "libwayland-egl.so=1-32",
+      "libwayland-server.so=0-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libffi",
+      "lib32-expat",
+      "lib32-libxml2",
+      "wayland"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-xcb-util",
+    "version": "0.4.1-2",
+    "origin": "arch-multilib",
+    "sha256": "05ed20d9ab28bdb17514d70cc2613ca348c93395701a49bce3caabc1d9fbbbe5",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-xcb-util-0.4.1-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-glibc",
+      "lib32-libxcb",
+      "xcb-util"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-xcb-util-keysyms",
+    "version": "0.4.1-2",
+    "origin": "arch-multilib",
+    "sha256": "62940da026cc3ca714d6989a542edfe3aaf7ec8b5c148fc9007e2e3b9ec3f5a6",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-xcb-util-keysyms-0.4.1-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-libxcb",
+      "xcb-util-keysyms"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-xz",
+    "version": "5.8.3-1",
+    "origin": "arch-multilib",
+    "sha256": "6a8521aae52f1a3d4aff376c4841c70156b3d1326df21d0a7b7f6f0a56ef5597",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-xz-5.8.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "liblzma.so=5-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-zeromq",
+    "version": "4.3.5-1",
+    "origin": "arch-multilib",
+    "sha256": "f591cbac8776ebddc37ddc41e52bfd85742977e9488ae0902e7f7beffdf700e3",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-zeromq-4.3.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libpgm",
+      "lib32-libsodium",
+      "zeromq"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-zlib",
+    "version": "1.3.2-1",
+    "origin": "arch-multilib",
+    "sha256": "3828fa9c9e6ca274159562b6511df117a131577ac87b4bd09d71a43ac7105ba8",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-zlib-1.3.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libz.so=1-32"
+    ],
+    "depends": [
+      "lib32-glibc",
+      "zlib"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-zlib-ng",
+    "version": "2.3.3-1",
+    "origin": "arch-multilib",
+    "sha256": "ff1fbffa0a2fb289f903f6b480506ef3dd35f222bdcc1b655f94d134d39ad3b4",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-zlib-ng-2.3.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libz-ng.so=2-32"
+    ],
+    "depends": [
+      "zlib-ng",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lib32-zlib-ng-compat",
+    "version": "2.3.3-1",
+    "origin": "arch-multilib",
+    "sha256": "f41810f07636f4617ce0136f6146b21292428fc463e5cd71a72e08e182da44a3",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-zlib-ng-compat-2.3.3-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "lib32-zlib",
+      "libz.so=1-32"
+    ],
+    "depends": [
+      "zlib-ng",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "lib32-zlib"
+    ]
+  },
+  {
+    "name": "lib32-zstd",
+    "version": "1.5.7-2",
+    "origin": "arch-multilib",
+    "sha256": "5854c3d9e475b431f13e9e813001e47a478ac9d941ea1acf072fe7d9f3d3c358",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-zstd-1.5.7-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libzstd.so=1-32"
+    ],
+    "depends": [
+      "zstd",
+      "lib32-glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "steam",
+    "version": "1.0.0.87-1",
+    "origin": "arch-multilib",
+    "sha256": "1aec422c74d320035e725105c7e2b886661b50b623d940e8b265a6d577b7c566",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/steam-1.0.0.87-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "coreutils",
+      "curl",
+      "dbus",
+      "desktop-file-utils",
+      "diffutils",
+      "freetype2",
+      "gdk-pixbuf2",
+      "glibc",
+      "hicolor-icon-theme",
+      "libgcc",
+      "libxcrypt",
+      "libxcrypt-compat",
+      "libxkbcommon-x11",
+      "lsb-release",
+      "lsof",
+      "nss",
+      "python",
+      "ttf-font",
+      "usbutils",
+      "vulkan-driver",
+      "vulkan-icd-loader",
+      "xdg-user-dirs",
+      "xorg-xrandr",
+      "xz",
+      "zenity",
+      "steam-devices",
+      "lib32-alsa-plugins",
+      "lib32-fontconfig",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-libgl",
+      "lib32-libgpg-error",
+      "lib32-libnm",
+      "lib32-libva",
+      "lib32-libx11",
+      "lib32-libxcrypt",
+      "lib32-libxcrypt-compat",
+      "lib32-libxinerama",
+      "lib32-libxss",
+      "lib32-nss",
+      "lib32-pipewire",
+      "lib32-systemd",
+      "lib32-vulkan-driver",
+      "lib32-vulkan-icd-loader"
+    ],
+    "optdepends": [
+      "polkit: to setup SteamVR without root access",
+      "xdg-desktop-portal-impl: file & folder picker",
+      "xorg-fonts-misc: for non-latin locales"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "steam-devices",
+    "version": "1.0.0.87-1",
+    "origin": "arch-multilib",
+    "sha256": "ff7b8f1f1099127c509d31a6fda403f0d9aab577a03e267b3cf1cd309be91f88",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/steam-devices-1.0.0.87-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "udev"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "umu-launcher",
+    "version": "1.4.4-1",
+    "origin": "arch-multilib",
+    "sha256": "c902d504c1225c54f33954255c41256707f277de84193688b4f9c24c4f8a8318",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/umu-launcher-1.4.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "desktop-file-utils",
+      "diffutils",
+      "hicolor-icon-theme",
+      "curl",
+      "dbus",
+      "freetype2",
+      "gdk-pixbuf2",
+      "ttf-font",
+      "zenity",
+      "lsb-release",
+      "nss",
+      "usbutils",
+      "xorg-xrandr",
+      "vulkan-driver",
+      "vulkan-icd-loader",
+      "lsof",
+      "python",
+      "xdg-user-dirs",
+      "glibc",
+      "libxcrypt",
+      "libxcrypt-compat",
+      "libgcc",
+      "python-xlib",
+      "python-xxhash",
+      "python-pyzstd",
+      "python-cbor2",
+      "python-urllib3",
+      "lib32-glibc",
+      "lib32-libxcrypt",
+      "lib32-libxcrypt-compat",
+      "lib32-libgl",
+      "lib32-gcc-libs",
+      "lib32-libx11",
+      "lib32-libxss",
+      "lib32-alsa-plugins",
+      "lib32-libgpg-error",
+      "lib32-nss",
+      "lib32-vulkan-driver",
+      "lib32-vulkan-icd-loader"
+    ],
+    "optdepends": [
+      "python-truststore: Verify certificates using OS trust stores"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "zsnes",
+    "version": "2.2.3-1",
+    "origin": "arch-multilib",
+    "sha256": "28da82dac6c93f10c1cb149f7a36d0bfad766efb057a0501689416505eeeca75",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/zsnes-2.2.3-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "hicolor-icon-theme",
+      "lib32-libpng",
+      "lib32-opengl-driver",
+      "lib32-pipewire",
+      "lib32-sdl3"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  }
+]
