@@ -475,15 +475,15 @@
   },
   {
     "name": "lib32-expat",
-    "version": "2.8.3-1",
+    "version": "2.8.2-1",
     "origin": "arch-multilib",
-    "sha256": "a907cf6ffd7cd5dd6da1cd4e9b4f2bffe3c6a52a69bfaf0b38558d4ba71c7e4f",
-    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-expat-2.8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0c619743257a1cef634d28fb389c04edf55ab1f84ad26509e86e0cc998e19608",
+    "url": "http://mirror.rackspace.com/archlinux/multilib/os/x86_64/lib32-expat-2.8.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libexpat.so=1-32"
     ],
     "depends": [
-      "expat=2.8.3",
+      "expat=2.8.2",
       "lib32-glibc"
     ],
     "optdepends": [],
