@@ -69,10 +69,10 @@
     },
     {
         "name": "dbus",
-        "version": "1.14.10-1",
+        "version": "1.16.2-1",
         "origin": "liska-core",
         "sha256": "",
-        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/dbus-1.14.10-1-x86_64.lsk.tar.zst",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/dbus-1.16.2-1-x86_64.lsk.tar.zst",
         "provides": [
             "libdbus-1.so"
         ],
@@ -242,13 +242,13 @@
         "provides": [],
         "depends": [
             "dbus",
-            "glibc"
+            "glibc",
+            "networkmanager",
+            "util-linux"
         ],
-        "optdepends": [
-            "sddm",
-            "hyprland"
-        ],
+        "optdepends": [],
         "conflicts": [
+            "runit",
             "systemd"
         ]
     }
