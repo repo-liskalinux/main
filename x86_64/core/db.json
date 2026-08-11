@@ -224,10 +224,10 @@
   },
   {
     "name": "binutils",
-    "version": "2.47-1",
+    "version": "2.47-4",
     "origin": "arch-core",
-    "sha256": "b1d7ad4d4b0f451282d5ff2c9c1605fbae485fcdd6d5683d59c3c6a5bcf92496",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/binutils-2.47-1-x86_64.pkg.tar.zst",
+    "sha256": "d9508ad848fd6c31473ac0925cf8c3ec0d2a71bbbb5c7e39274186338a285660",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/binutils-2.47-4-x86_64.pkg.tar.zst",
     "provides": [
       "libctf.so=0-64",
       "libgprofng.so=0-64",
@@ -632,10 +632,10 @@
   },
   {
     "name": "debugedit",
-    "version": "5.3-1",
+    "version": "5.3-2",
     "origin": "arch-core",
-    "sha256": "df04d259bf6281ba090362d3173e21e4a3bb2ed77156704f5e3d664ae167b9d8",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/debugedit-5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "984e5914a6f2a456dff38518e68a67826948454a846b4047222e25a1d721a157",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/debugedit-5.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -650,10 +650,10 @@
   },
   {
     "name": "debuginfod",
-    "version": "0.195-2",
+    "version": "0.195-8",
     "origin": "arch-core",
-    "sha256": "a4f945fe92a906613550766e61f5a921eb96c319a9d757aa129d9cf3a5c050f6",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/debuginfod-0.195-2-x86_64.pkg.tar.zst",
+    "sha256": "fcb762c3e1424f04cb93a5cffb13b358544b4070d70f729b4c1238c7b41d9880",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/debuginfod-0.195-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -821,10 +821,10 @@
   },
   {
     "name": "elfutils",
-    "version": "0.195-2",
+    "version": "0.195-8",
     "origin": "arch-core",
-    "sha256": "b5ccba580b5d75ccc38acd4a37cf059fd260275de92812d00cac0ef4eaee792b",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/elfutils-0.195-2-x86_64.pkg.tar.zst",
+    "sha256": "0de45795743ce6821f1e5d0846fee9442bd885b3e0bfb2fbb0363e95673ba3fe",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/elfutils-0.195-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -861,10 +861,10 @@
   },
   {
     "name": "expat",
-    "version": "2.8.2-1",
+    "version": "2.8.3-1",
     "origin": "arch-core",
-    "sha256": "7df6034eb09e2c7fc6300c2d7588ee9a6c5954e2f775461fbb6521ba51ddfe37",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/expat-2.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "04785503de1fb932eec7c8a7d50a815c4706df293bf7acf92953be02882c6cad",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/expat-2.8.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libexpat.so=1-64"
     ],
@@ -1003,21 +1003,21 @@
   },
   {
     "name": "gcc",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "d44729e212926d42dda48d2e8f1ec9f3133fec1089209f4914fad170b19d9c3e",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "1d79371ccf3138e3c172dd83b51560687b65ab824c1ad7e9cb41b7857ed9c55f",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "gcc-multilib"
     ],
     "depends": [
-      "libasan=16.1.1+r595+g171d15ac6959-1",
-      "libgcc=16.1.1+r595+g171d15ac6959-1",
-      "libhwasan=16.1.1+r595+g171d15ac6959-1",
-      "liblsan=16.1.1+r595+g171d15ac6959-1",
-      "libstdc++=16.1.1+r595+g171d15ac6959-1",
-      "libtsan=16.1.1+r595+g171d15ac6959-1",
-      "libubsan=16.1.1+r595+g171d15ac6959-1",
+      "libasan=16.2.1+r23+gd564253eb6c8-1",
+      "libgcc=16.2.1+r23+gd564253eb6c8-1",
+      "libhwasan=16.2.1+r23+gd564253eb6c8-1",
+      "liblsan=16.2.1+r23+gd564253eb6c8-1",
+      "libstdc++=16.2.1+r23+gd564253eb6c8-1",
+      "libtsan=16.2.1+r23+gd564253eb6c8-1",
+      "libubsan=16.2.1+r23+gd564253eb6c8-1",
       "binutils>=2.28",
       "glibc>=2.27",
       "gmp",
@@ -1034,15 +1034,15 @@
   },
   {
     "name": "gcc-ada",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "c36e66ce99d9afdf5e5c7ea89792918a4167b782f2149cd944edf34d74bd5230",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-ada-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "8ccd8dcd0c6bc77b1092b3f0ad506f6b9cb86c103cbd3d997b1a6b539c117e9e",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-ada-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "gcc-ada-multilib"
     ],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libgcc",
@@ -1057,15 +1057,15 @@
   },
   {
     "name": "gcc-d",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "2dd875034228fb499ffe6309ef7c64ffb35a7b4e8a411b5d51674a8f1d84046a",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-d-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "3a26a83a117193a99daad73e009cbba08ad5b6b6b59454a1166245d3f19832f6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-d-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "gdc"
     ],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libgphobos",
@@ -1080,15 +1080,15 @@
   },
   {
     "name": "gcc-fortran",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "3ffe9ad2ddb2033455c9a79d4f968cebc9a3757199906f7c6310d6d0c01ea1df",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-fortran-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "008443629461abc92ff3ea6d363a5d951e2b314998a4165b4d6f0f7dc5a97007",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-fortran-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "gcc-fortran-multilib"
     ],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libgfortran",
@@ -1103,13 +1103,13 @@
   },
   {
     "name": "gcc-gcobol",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "af1c5fca903d69d218a43e57a4a272d039ac6a8db6c2b5c4174d3f0e35b1a0f8",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-gcobol-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "89d8df6a087f2b7af7c0a3cb57c06fe166a23ecf27394f4f5fb6bbe100865123",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-gcobol-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libgcobol",
@@ -1124,16 +1124,16 @@
   },
   {
     "name": "gcc-go",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "eb02e8bbd88f316f1596cf27ec7d14be6844b1a9f1aca4d700adc7894cab4458",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-go-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "8216959147b2c3054c0c820f9d59100566b188678cc7e59def94892197e36da2",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-go-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "go=1.17",
       "gcc-go-multilib"
     ],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libgo",
@@ -1150,10 +1150,10 @@
   },
   {
     "name": "gcc-libs",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "a3088c9ab302a5dcaaff385c62c47e50cb096d618a171c1d32adbb96978cac36",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-libs-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "dbeca7c4844e3112de98ba95f7c2b2618f4dd2b9c693c34076b7ba51ddf4611e",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-libs-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "gcc-libs-multilib"
     ],
@@ -1177,13 +1177,13 @@
   },
   {
     "name": "gcc-m2",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "85e7a585ca60156af4476e888aae2cd940bf792e0de4ceaafeada7abb938a112",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-m2-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "46ef28388534f300881e6a0f739e7dcf1ab9d0e7b5de7986d4460fa870631816",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-m2-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libgm2",
@@ -1198,15 +1198,15 @@
   },
   {
     "name": "gcc-objc",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "ebd9d64531fd3e04ff913fee002a40eb86f76ff3ab9c995bed25816ad9d27b80",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-objc-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "7fb9b90568c3adbd5d3c6e910f1b6a71a2fa188d43900012894a37d42b582019",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-objc-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "gcc-objc-multilib"
     ],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libisl.so=23-64",
@@ -1221,13 +1221,13 @@
   },
   {
     "name": "gcc-rust",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "089a18d1ef7dbbde5682089ede6231ae405588454377a12fc0da55a7944e45db",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-rust-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "475c8a7147b0ff0d55ec696f11cf1fed6eb7b359359f7129fb227d863ac62414",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gcc-rust-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libisl.so=23-64",
@@ -1337,10 +1337,10 @@
   },
   {
     "name": "glibc",
-    "version": "2.44+r5+g7cba77790f32-1",
+    "version": "2.44+r24+g16be1518495f-1",
     "origin": "arch-core",
-    "sha256": "e9a1ae5e9a7176dcf10b339a13961ceb65bd35042acd134ac7ea84e938b745ed",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/glibc-2.44+r5+g7cba77790f32-1-x86_64.pkg.tar.zst",
+    "sha256": "5db2283f5b46b6114d06b4bc71fcf8ede5f1a04fcccb4d307048fcdc4e501d93",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/glibc-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-api-headers>=4.10",
@@ -1355,13 +1355,13 @@
   },
   {
     "name": "glibc-locales",
-    "version": "2.44+r5+g7cba77790f32-1",
+    "version": "2.44+r24+g16be1518495f-1",
     "origin": "arch-core",
-    "sha256": "119abe0077cdf5f7b352d12350a8a5646eb36fead975e72abfd843aeada23dc4",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/glibc-locales-2.44+r5+g7cba77790f32-1-x86_64.pkg.tar.zst",
+    "sha256": "c7e67c338b709ccfaba16da8ce804ab81a5edd3667d7a3d24fa4ace5ae358672",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/glibc-locales-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc=2.44+r5+g7cba77790f32"
+      "glibc=2.44+r24+g16be1518495f"
     ],
     "optdepends": [],
     "conflicts": []
@@ -1989,10 +1989,10 @@
   },
   {
     "name": "lib32-gcc-libs",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "c9397420c1d5842f5bc0c03635366917008456a1d9443db17384c4e543476558",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lib32-gcc-libs-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "21fde8d5c5fda174b0277515fb6e49a450763a9c8a05f1956f719779e459465a",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lib32-gcc-libs-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libasan.so=8-32",
       "libatomic.so=1-32",
@@ -2014,23 +2014,23 @@
   },
   {
     "name": "lib32-glibc",
-    "version": "2.44+r5+g7cba77790f32-1",
+    "version": "2.44+r24+g16be1518495f-1",
     "origin": "arch-core",
-    "sha256": "60438ce3fe1a04c7f7dc725850fe5ae0d6b751af4299f638be3c51207c6edb8d",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lib32-glibc-2.44+r5+g7cba77790f32-1-x86_64.pkg.tar.zst",
+    "sha256": "8aaea9fbcacd58c7114b13de001ca354017afa09bb396c382683f7d20d94999c",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lib32-glibc-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc=2.44+r5+g7cba77790f32"
+      "glibc=2.44+r24+g16be1518495f"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "lib32-libltdl",
-    "version": "2.6.2-3",
+    "version": "2.6.2-5",
     "origin": "arch-core",
-    "sha256": "bb55b170213fb565ed42df6b4d7907bc674b34effc9327727319865538476eea",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lib32-libltdl-2.6.2-3-x86_64.pkg.tar.zst",
+    "sha256": "1728c9d131cf250ffebbc76d95049dd2e3186246406d6d16960a71b818ce0a0e",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lib32-libltdl-2.6.2-5-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-libtool=2.6.2"
     ],
@@ -2092,10 +2092,10 @@
   },
   {
     "name": "libasan",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "7c41fc21b41606f7c37efaf0837e5566e5b9056e6978f741d124ebbf6311e164",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libasan-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "7f6c602ea97c01b67cf8261b87afa1a47c1eb383ded769aaef71475e781defdc",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libasan-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libasan.so=8-64"
     ],
@@ -2126,10 +2126,10 @@
   },
   {
     "name": "libatomic",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "150a3310b362db672c4444e95080c677c1ca433fa03b1c4f80ac007af8decdc0",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libatomic-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "920cfea3dcac82e3d7c8ebbf64dfe341821c1118277d55b6c1e96035cd943656",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libatomic-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libatomic.so=1-64"
     ],
@@ -2286,10 +2286,10 @@
   },
   {
     "name": "libelf",
-    "version": "0.195-2",
+    "version": "0.195-8",
     "origin": "arch-core",
-    "sha256": "a78ba310d8d6df92cda1a25909bece8942aee6fe9e29e2d69d8c0d9e3256cfbf",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libelf-0.195-2-x86_64.pkg.tar.zst",
+    "sha256": "a4a8b4f8a980e9af841b7d0f25ba70195a52c8d26ae1d19259613e936cb019dd",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libelf-0.195-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -2346,10 +2346,10 @@
   },
   {
     "name": "libgcc",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "dc8e53852e71b2196ffd05f2b96d1b30bf7bad5c103c3368c4b20debdccb4b90",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgcc-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "7367dad49fc3229bde804816d412ab77306d433b1f92e4126b8b3ba3502c67d6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgcc-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgcc_s.so=1-64"
     ],
@@ -2361,15 +2361,15 @@
   },
   {
     "name": "libgccjit",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "c670e393a07cc8808dcfbf4e1ae80c4b94eba420cdfd4dbec9f59ee50cd4ee5a",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgccjit-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "cbb4c251bfda206688531f089bdf56fb6f95f36e627061f0bfb930c5601ddef9",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgccjit-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgccjit.so=0-64"
     ],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libisl.so=23-64",
@@ -2383,10 +2383,10 @@
   },
   {
     "name": "libgcobol",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "0ffdf5e2e68b64606abfc2b1c5d8b9b064d8dd42f80a278cdc52f7d3cd9aeafc",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgcobol-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "d9b3200f6f0b5e95b437c57ed7cae203548c61e9833dbed4b750035aaeb7a224",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgcobol-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgcobol.so=2-64"
     ],
@@ -2415,10 +2415,10 @@
   },
   {
     "name": "libgfortran",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "3167014e245690cb957eeab42f8e2a68708e3f054b37114b43c86fecc84c033a",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgfortran-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "0b40387c87793ed7b72fc3138c6877630ed66d8b5f841e436f4372a6405663e6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgfortran-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgfortran.so=5-64"
     ],
@@ -2431,10 +2431,10 @@
   },
   {
     "name": "libgm2",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "7276bf9575510a5a56c10998ad17c8eb28806460677571af13deaea37db2d9dd",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgm2-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "2cabaadcfea8e75a3e634f69725b3d9e8a76aa6e8de508dc11f834f196df6806",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgm2-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libm2cor.so=21-64",
       "libm2cor.so=21-32",
@@ -2455,10 +2455,10 @@
   },
   {
     "name": "libgo",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "c2ff421861cbcedd30ede22457c2f6a976a23c3769919ce7afa8f806f13eb767",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgo-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "9a1eec6b95d90086291ffe2d8075df49d56c75813e98024ae96e972fa0109df8",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgo-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgo.so=25-64"
     ],
@@ -2471,10 +2471,10 @@
   },
   {
     "name": "libgomp",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "92c9acb2cd1cd1aab8bc991c12ec6785c546d9be621900ee7323cc099daec8ac",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgomp-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "ffad807ed2ea36a29fe6da70dd77a6c476f1a1d5357cbec0b2481dbc84f303f4",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgomp-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgomp.so=1-64"
     ],
@@ -2500,10 +2500,10 @@
   },
   {
     "name": "libgphobos",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "d96bf66651c6d20a05b07125052e5d93c19349425bb8d7ecd9f391ada92cefa1",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgphobos-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "832ba49ee28d96389ff4290174611f04430b595e4755718233ba26049ef24698",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libgphobos-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgdruntime.so=7-64",
       "libgphobos.so=7-64"
@@ -2517,10 +2517,10 @@
   },
   {
     "name": "libhwasan",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "3e3180c93989abdeeb4e4845da024ce98a1fdd48ce8639b21f5f30986985e8ac",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libhwasan-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "299ad02f954643c8b0fb919b0d545ebba34816f0facc673399f79252b33ec018",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libhwasan-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libhwasan.so=0-64"
     ],
@@ -2584,10 +2584,10 @@
   },
   {
     "name": "libitm",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "44272240a266e61e85a14da7f259e644b5d704913034bbc1ad71e4df5cf54989",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libitm-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "e1e116868fffbaa76f64c413438e71c7add231ec03214d292aeb9e80d0579fc6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libitm-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libitm.so=1-64"
     ],
@@ -2628,10 +2628,10 @@
   },
   {
     "name": "liblsan",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "bc63bf5584c9228f932bf922cb44c9f576df2dcac94942f1a984200991018f25",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/liblsan-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "11b69f544a6f3d1c58d5612ebc336837e76567f2413b96900a6eb33d5de06e21",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/liblsan-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "liblsan.so=0-64"
     ],
@@ -2645,10 +2645,10 @@
   },
   {
     "name": "libmakepkg-dropins",
-    "version": "20-1",
+    "version": "20-2",
     "origin": "arch-core",
-    "sha256": "fa733001ee4fe5ec5ebbf7f7a9873ff87c92c1a2ec368114d16e45c7a58118ea",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libmakepkg-dropins-20-1-any.pkg.tar.zst",
+    "sha256": "78c4e32d3140d11d2fd7d1bac6bcfdbdd34d3b59b56620f987fd28fd4334648e",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libmakepkg-dropins-20-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "awk",
@@ -2839,10 +2839,10 @@
   },
   {
     "name": "libobjc",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "c523051bbd453f2d194a74cb3ce4285b4801addd388b77fe21cd3aca4430b5e9",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libobjc-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "b56770fbd0167ed14159744e3f18e220684f5acf65241b5110808ec49bdbffd6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libobjc-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libobjc.so=4-64"
     ],
@@ -2921,10 +2921,10 @@
   },
   {
     "name": "libquadmath",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "1c413092fddca442bf4b600b6c03562424e328f1b73bcdc2b9ca7f798c26d5e3",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libquadmath-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "c6db8f6c787601f17fa812f2270f4e53fad1426fa9e372ab2e1a881c1368cee3",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libquadmath-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libquadmath.so=0-64"
     ],
@@ -3008,10 +3008,10 @@
   },
   {
     "name": "libstdc++",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "14d6eea64e005e54e7fdecdd461cd770aa24c13cca5142f6753b9eaf7efb5631",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libstdc++-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "15dc6bd2f3a2ee17fcd79a14325e9e0037722a592b2bdc55e1665d92112eaa51",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libstdc++-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libstdc++.so=6-64"
     ],
@@ -3051,10 +3051,10 @@
   },
   {
     "name": "libtool",
-    "version": "2.6.2-3",
+    "version": "2.6.2-5",
     "origin": "arch-core",
-    "sha256": "48378998228920babc3f757e35d51fc3c1dfbf0057b4d0b0d887302c063ee255",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libtool-2.6.2-3-x86_64.pkg.tar.zst",
+    "sha256": "75da3b1ff54182ba18061714996943cb04d59b5206adfc76241ebb33934984cc",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libtool-2.6.2-5-x86_64.pkg.tar.zst",
     "provides": [
       "libltdl=2.6.2",
       "libtool-multilib=2.6.2"
@@ -3072,10 +3072,10 @@
   },
   {
     "name": "libtsan",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "7dc2e4dc22789cf180ab617a3947558c79c550d43a2975f8295ae4c7d8e74419",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libtsan-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "8dd48336bb11dd0d15b9f5d0560166838802b21e3d279db25d6da96df19e0437",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libtsan-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libtsan.so=2-64"
     ],
@@ -3089,10 +3089,10 @@
   },
   {
     "name": "libubsan",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "e30a1eadd6e37fbf5c8dec8a823de2c25d0057bb90567459bd4a820c83814517",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libubsan-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "eba85316fdf63265285624baa22724fbb93e15901696f99d2c2cbde2162ad71d",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libubsan-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libubsan.so=1-64"
     ],
@@ -3582,7 +3582,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "558bcfb5f9e244d811c5c753f0d7fea7545de443de168c26e56ecb3a3a88ab7d",
+    "sha256": "eb28bb8bddfacef1457f4810808485b4197c2bba13a60a6fb64bda86f92d9e1a",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3655,13 +3655,13 @@
   },
   {
     "name": "lto-dump",
-    "version": "16.1.1+r595+g171d15ac6959-1",
+    "version": "16.2.1+r23+gd564253eb6c8-1",
     "origin": "arch-core",
-    "sha256": "51c369f03a2afc9621030f74e420ae061d70af594a23f0cb37eee8779d9fec21",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lto-dump-16.1.1+r595+g171d15ac6959-1-x86_64.pkg.tar.zst",
+    "sha256": "fedb8bd62c52cd305cb6b0cf303e5847b9e703022623e7f0735aed80dc3859a5",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/lto-dump-16.2.1+r23+gd564253eb6c8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc=16.1.1+r595+g171d15ac6959-1",
+      "gcc=16.2.1+r23+gd564253eb6c8-1",
       "glibc>=2.27",
       "gmp",
       "libisl.so=23-64",
@@ -4067,10 +4067,10 @@
   },
   {
     "name": "openssh",
-    "version": "10.4p1-4",
+    "version": "10.5p1-1",
     "origin": "arch-core",
-    "sha256": "b7173968ac64d6dbd29117168edb5b6dcc6d0ffdead3e8c71735df01e134208d",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/openssh-10.4p1-4-x86_64.pkg.tar.zst",
+    "sha256": "7095495592ec579541478fb82dc0c0038f3b9da8adc774ffe1a1589004432992",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/openssh-10.5p1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
