@@ -207,6 +207,7 @@ async function main() {
                 lowerName.startsWith('artixnews') ||
                 lowerName.startsWith('archlinux-') ||
                 lowerName.startsWith('mkinitcpio-') ||
+                lowerName.startsWith('systemd-') ||
                 lowerName.endsWith('-doc') ||
                 lowerName.endsWith('-docs')) {
                 continue;
