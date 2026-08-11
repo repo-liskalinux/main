@@ -74,6 +74,30 @@ function calculateSHA256(filePath) {
     return crypto.createHash('sha256').update(fileBuffer).digest('hex');
 }
 
+async function fetchAndCalculateSHA256(fileUrl) {
+    if (!fileUrl) return null;
+    const tmpFileName = `lkpm-tmp-${Date.now()}-${Math.random().toString(36).substring(7)}.pkg`;
+    const tmpFilePath = path.join('/tmp', tmpFileName);
+    try {
+        console.log(`[i] Downloading temporary package to compute SHA256: ${fileUrl}`);
+        const res = await fetch(fileUrl);
+        if (!res.ok) {
+            console.error(`[!] Failed to download package from ${fileUrl}: ${res.statusText}`);
+            return null;
+        }
+        const arrayBuffer = await res.arrayBuffer();
+        fs.writeFileSync(tmpFilePath, Buffer.from(arrayBuffer));
+
+        const sha256 = calculateSHA256(tmpFilePath);
+        fs.rmSync(tmpFilePath, { force: true });
+        return sha256;
+    } catch (err) {
+        console.error(`[!] Error fetching package for SHA256 calculation:`, err.message);
+        if (fs.existsSync(tmpFilePath)) fs.rmSync(tmpFilePath, { force: true });
+        return null;
+    }
+}
+
 function toArray(val) {
     if (!val) return [];
     if (Array.isArray(val)) return val;
@@ -157,13 +181,16 @@ async function main() {
         try {
             const rawLsk = JSON.parse(fs.readFileSync(lskPkgPath, 'utf8'));
             const pkgList = Array.isArray(rawLsk) ? rawLsk : (rawLsk.packages || []);
-            pkgList.forEach(pkg => {
+            for (const pkg of pkgList) {
                 const normalized = normalizePackage(pkg, "liska");
+                if (!normalized.sha256 && normalized.url) {
+                    normalized.sha256 = await fetchAndCalculateSHA256(normalized.url);
+                }
                 liskaMap.set(normalized.name, normalized);
-            });
+            }
             console.log(`[i] Building ${liskaMap.size} packages from lsk-pkg.json`);
         } catch (e) {
-            console.warn("[!] WARNING: Failed to parse lsk-pkg.json!");
+            console.warn("[!] WARNING: Failed to parse lsk-pkg.json!", e);
         }
     }
     const pkgInfo = parseInfoFile(path.join(rootDir, '.PKGINFO'));
