@@ -365,6 +365,33 @@
     "conflicts": []
   },
   {
+    "name": "artixforge",
+    "version": "9.1.1.4-1",
+    "origin": "artix-galaxy",
+    "sha256": "ed89c27ab35f6bacb6d6c5cf64c1238966ad774263b3cdf9814f440b8855b8f7",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/artixforge-9.1.1.4-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "gum",
+      "git",
+      "curl",
+      "openssl",
+      "rsync",
+      "coreutils"
+    ],
+    "optdepends": [
+      "pacman-contrib: mirror ranking support",
+      "artools: ISO build support",
+      "gtk4: GUI installer",
+      "libadwaita: GUI installer",
+      "python-gobject: GUI installer",
+      "python-virtualenv: GUI installer",
+      "python-jsonschema: GUI installer"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "aspnet-runtime",
     "version": "10.0.10.sdk110-1",
     "origin": "artix-galaxy",
@@ -9453,6 +9480,52 @@
       "python: gtk-builder-convert"
     ],
     "conflicts": []
+  },
+  {
+    "name": "gtk2-ng-git",
+    "version": "2.24.260606-1",
+    "origin": "artix-galaxy",
+    "sha256": "e87b6d601cf4dd28c504b6d4d429b0d18033b0ec1e9f8e9daeaf91c50b4479dc",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/gtk2-ng-git-2.24.260606-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "gtk2=2.24.33",
+      "libgailutil.so=18-64",
+      "libgdk-x11-2.0.so=0-64",
+      "libgtk-x11-2.0.so=0-64"
+    ],
+    "depends": [
+      "atk",
+      "cairo",
+      "desktop-file-utils",
+      "fontconfig",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk-update-icon-cache",
+      "libcups",
+      "librsvg",
+      "libx11",
+      "libxcomposite",
+      "libxcursor",
+      "libxdamage",
+      "libxext",
+      "libxfixes",
+      "libxi",
+      "libxinerama",
+      "libxrandr",
+      "libxrender",
+      "pango",
+      "shared-mime-info"
+    ],
+    "optdepends": [
+      "adwaita-fonts: Default font",
+      "adwaita-icon-theme: Default icon theme",
+      "gnome-themes-extra-gtk2: Default widget theme",
+      "python: gtk-builder-convert"
+    ],
+    "conflicts": [
+      "gtk2"
+    ]
   },
   {
     "name": "gtk4-layer-shell",
