@@ -66,6 +66,42 @@
         "conflicts": []
     },
     {
+        "name": "dbus",
+        "version": "1.14.10-1",
+        "origin": "liska-core",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/dbus-1.14.10-1-x86_64.lsk.tar.zst",
+        "provides": [
+            "libdbus-1.so"
+        ],
+        "depends": [
+            "expat",
+            "audit",
+            "elogind"
+        ],
+        "optdepends": [],
+        "conflicts": []
+    },
+    {
+        "name": "elogind",
+        "version": "257.16-1",
+        "origin": "liska-core",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/elogind-257.16-1-x86_64.lsk.tar.zst",
+        "provides": [
+            "libelogind"
+        ],
+        "depends": [
+            "dbus",
+            "pam",
+            "libcap",
+            "udev",
+            "util-linux-libs"
+        ],
+        "optdepends": [],
+        "conflicts": [
+            "systemd-libs"
+        ]
+    },
+    {
         "name": "grub",
         "version": "2.14-1",
         "origin": "liska-core",
