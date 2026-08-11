@@ -16651,6 +16651,428 @@
     "conflicts": []
   },
   {
+    "name": "linux-ck",
+    "version": "5.12.19-14",
+    "origin": "artix-galaxy",
+    "sha256": "f62edc36492bf3e6c223605c21e6caf772c58b1dc08c5d11de5e30e78a9984b5",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-ck-5.12.19-14-x86_64.pkg.tar.zst",
+    "provides": [
+      "VIRTUALBOX-GUEST-MODULES",
+      "WIREGUARD-MODULE"
+    ],
+    "depends": [
+      "coreutils",
+      "kmod",
+      "initramfs"
+    ],
+    "optdepends": [
+      "crda: to set the correct wireless channels of your country",
+      "linux-firmware: firmware images needed for some devices"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "linux-ck-headers",
+    "version": "5.12.19-14",
+    "origin": "artix-galaxy",
+    "sha256": "e828c7ae05a4b00e5150f08b7bcfda0290dbd9620a3167572e26ac0e58271d58",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-ck-headers-5.12.19-14-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "linux-ck"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-bnx2x-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "c44545e37c3a8043d8803b2562535a6d88a93371b25d796f6ee1fd58e935a8a6",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-bnx2x-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-bnx2x"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-liquidio-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "d48a3d5f95811d7da79756c54b75ccdb05ca3a972f118a55fb9267abc93b3994",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-liquidio-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-liquidio"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-marvell-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "f0c5e5c74de6e42e709f99596189c5ca2b512102a6ac429e85d95d3feb120bbc",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-marvell-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-marvell"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-mellanox-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "2e9b010a881f13d325664916931aec5b815433026c8f4a5e210a6305da338af6",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-mellanox-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-mellanox"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-nfp-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "1a7f007acc39b9f40008c7af4f58f0a3c65ae8f66ee11c809d3dc44ea7f96eaf",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-nfp-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-nfp"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-qcom-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "1bb0116a5595d88ec505ac856bb308f855980083f72ca80a9c41e87dba4ae027",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-qcom-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-qcom"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-qlogic-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "81277ba9d9ac58008f61ed765946b13fca4263f601a515d62652a59857588190",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-qlogic-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware-qlogic"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-whence-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "0177caedfc3103d000a77d16dafae2aec16803dfcb2e3c6457bc299bcf9d99a9",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-whence-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-firmware-xz",
+    "version": "20230625.ee91452d-4",
+    "origin": "artix-galaxy",
+    "sha256": "eb7d0156bfaadf30a5665382ba9eede2796e0559540ebbb4cab33178049f85ab",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-firmware-xz-20230625.ee91452d-4-any.pkg.tar.zst",
+    "provides": [
+      "linux-firmware"
+    ],
+    "depends": [
+      "linux-firmware-whence-xz"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-hardened",
+    "version": "7.1.7.hardened1-1",
+    "origin": "artix-galaxy",
+    "sha256": "521ced3e2e4a54ec568ca4ebd459fa94fd96249dc0216e315083cd7be53ff399",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-hardened-7.1.7.hardened1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "KSMBD-MODULE",
+      "NTSYNC-MODULE",
+      "VIRTUALBOX-GUEST-MODULES",
+      "WIREGUARD-MODULE"
+    ],
+    "depends": [
+      "coreutils",
+      "initramfs",
+      "kmod"
+    ],
+    "optdepends": [
+      "linux-hardened-headers: headers and scripts for building modules",
+      "linux-firmware: firmware images needed for some devices",
+      "scx-scheds: to use sched-ext schedulers",
+      "wireless-regdb: to set the correct wireless channels of your country",
+      "usbctl: deny_new_usb control"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "linux-hardened-headers",
+    "version": "7.1.7.hardened1-1",
+    "origin": "artix-galaxy",
+    "sha256": "26768dcf99ca17278539426bdcdfdb80afc32dd0f1d532c9bdd05658bec8028c",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-hardened-headers-7.1.7.hardened1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "LINUX-HEADERS"
+    ],
+    "depends": [
+      "binutils",
+      "glibc",
+      "libelf",
+      "libgcc",
+      "openssl",
+      "pahole",
+      "xxhash",
+      "zlib",
+      "zstd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-lts515",
+    "version": "5.15.213-1",
+    "origin": "artix-galaxy",
+    "sha256": "45bc147a288e3495688b365b4f816bed3a9a2e8963aa6100f63f3e6516f2c47d",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-lts515-5.15.213-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "VIRTUALBOX-GUEST-MODULES",
+      "WIREGUARD-MODULE",
+      "KSMBD-MODULE"
+    ],
+    "depends": [
+      "coreutils",
+      "kmod",
+      "initramfs"
+    ],
+    "optdepends": [
+      "wireless-regdb: to set the correct wireless channels of your country",
+      "linux-firmware: firmware images needed for some devices"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "linux-lts515-headers",
+    "version": "5.15.213-1",
+    "origin": "artix-galaxy",
+    "sha256": "ce4b28739d62b7b6e86a6542a6732afc7ff89175d8eeeb124869971914d868fb",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-lts515-headers-5.15.213-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "pahole"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-rt",
+    "version": "7.1.7.rt1.artix1-1",
+    "origin": "artix-galaxy",
+    "sha256": "42866c54113dd9a5e370fe42a81a40eafd9046460487237fed20b749071e4815",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-rt-7.1.7.rt1.artix1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "KSMBD-MODULE",
+      "NTSYNC-MODULE",
+      "VIRTUALBOX-GUEST-MODULES",
+      "WIREGUARD-MODULE"
+    ],
+    "depends": [
+      "coreutils",
+      "initramfs",
+      "kmod"
+    ],
+    "optdepends": [
+      "linux-rt-headers: headers and scripts for building modules",
+      "linux-firmware: firmware images needed for some devices",
+      "scx-scheds: to use sched-ext schedulers",
+      "wireless-regdb: to set the correct wireless channels of your country"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "linux-rt-headers",
+    "version": "7.1.7.rt1.artix1-1",
+    "origin": "artix-galaxy",
+    "sha256": "e8b92b2ea6bf499e49d31e00266aeb668d0f206d246cd419d9273473622de35e",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-rt-headers-7.1.7.rt1.artix1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "LINUX-HEADERS"
+    ],
+    "depends": [
+      "binutils",
+      "glibc",
+      "libelf",
+      "libgcc",
+      "openssl",
+      "pahole",
+      "xxhash",
+      "zlib",
+      "zstd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-rt-lts",
+    "version": "6.18.43.rt6.artix1-1",
+    "origin": "artix-galaxy",
+    "sha256": "0ebff4f751005b303e688ac277b5386e7363c878fff30d56e3ca17fbeef1a796",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-rt-lts-6.18.43.rt6.artix1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "KSMBD-MODULE",
+      "VIRTUALBOX-GUEST-MODULES",
+      "WIREGUARD-MODULE"
+    ],
+    "depends": [
+      "coreutils",
+      "initramfs",
+      "kmod"
+    ],
+    "optdepends": [
+      "linux-rt-lts-headers: headers and scripts for building modules",
+      "linux-firmware: firmware images needed for some devices",
+      "scx-scheds: to use sched-ext schedulers",
+      "wireless-regdb: to set the correct wireless channels of your country"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "linux-rt-lts-headers",
+    "version": "6.18.43.rt6.artix1-1",
+    "origin": "artix-galaxy",
+    "sha256": "8bc167cd3e14c662a322df8e9fe9a4ce7cceca03a758e7089dcc3c542dedee15",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-rt-lts-headers-6.18.43.rt6.artix1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "LINUX-HEADERS"
+    ],
+    "depends": [
+      "binutils",
+      "glibc",
+      "libelf",
+      "libgcc",
+      "openssl",
+      "pahole",
+      "xxhash",
+      "zlib",
+      "zstd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "linux-wifi-hotspot",
+    "version": "4.7.2-1",
+    "origin": "artix-galaxy",
+    "sha256": "019b3c0cc21c2d011176fe16ce17bfe0964f745c304dd9b0486b15dba86ee675",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-wifi-hotspot-4.7.2-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "wihotspot",
+      "create_ap"
+    ],
+    "depends": [
+      "gtk3",
+      "hostapd",
+      "iproute2",
+      "iw",
+      "procps-ng",
+      "qrencode"
+    ],
+    "optdepends": [
+      "dnsmasq: For 'NATed' or 'None' Internet sharing method",
+      "iptables: For 'NATed' or 'None' Internet sharing method",
+      "haveged: For random MAC generation",
+      "wireless_tools: if iw cannot recognize your adapter"
+    ],
+    "conflicts": [
+      "wihotspot",
+      "create_ap"
+    ]
+  },
+  {
+    "name": "linux-zen",
+    "version": "7.1.6.zen1-1",
+    "origin": "artix-galaxy",
+    "sha256": "c360d8c3ed6638fc0f7f151a2a755f8568bba511359df8ed4af67310e4dc6647",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-zen-7.1.6.zen1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "KSMBD-MODULE",
+      "NTSYNC-MODULE",
+      "VHBA-MODULE",
+      "VIRTUALBOX-GUEST-MODULES",
+      "WIREGUARD-MODULE"
+    ],
+    "depends": [
+      "coreutils",
+      "initramfs",
+      "kmod"
+    ],
+    "optdepends": [
+      "linux-zen-headers: headers and scripts for building modules",
+      "linux-firmware: firmware images needed for some devices",
+      "scx-scheds: to use sched-ext schedulers",
+      "wireless-regdb: to set the correct wireless channels of your country"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "linux-zen-headers",
+    "version": "7.1.6.zen1-1",
+    "origin": "artix-galaxy",
+    "sha256": "e0eeb2fa34110026d2a71a7a34595c3a52df2033af8b8fda2b2211f17582c483",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/galaxy/os/x86_64/linux-zen-headers-7.1.6.zen1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "LINUX-HEADERS"
+    ],
+    "depends": [
+      "binutils",
+      "glibc",
+      "libelf",
+      "libgcc",
+      "openssl",
+      "pahole",
+      "xxhash",
+      "zlib",
+      "zstd"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "localepurge",
     "version": "0.7.3.10-0",
     "origin": "artix-galaxy",
