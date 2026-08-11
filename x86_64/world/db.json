@@ -17416,10 +17416,10 @@
   },
   {
     "name": "fontconfig",
-    "version": "2:2.18.2-1",
+    "version": "2:2.18.3-1",
     "origin": "artix-world",
-    "sha256": "bc1c3eb674c32fe1ad0c2883c7401a594e3f44b2814a3021fbc8634558555717",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/fontconfig-2:2.18.2-1-x86_64.pkg.tar.zst",
+    "sha256": "fe7f0024ca8bb43a535d7b81ef4f0c0f42d6af5f61955470fd5f5dac8c02b06f",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/fontconfig-2:2.18.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "fontconfig-docs",
       "libfontconfig.so=1-64"
@@ -130466,10 +130466,10 @@
   },
   {
     "name": "wine",
-    "version": "11.14-3",
+    "version": "11.15-1",
     "origin": "artix-world",
-    "sha256": "001e0a77aac0954c51b08f4f4f033c68c650c1faf8fc7eb6e468820ee036f96e",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/wine-11.14-3-x86_64.pkg.tar.zst",
+    "sha256": "2c674d78d4324a7e8af93598b233dd19919f8f6c6e1181b1209297349d1246fe",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/wine-11.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
@@ -130523,12 +130523,12 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.14-3",
+    "version": "11.15-1",
     "origin": "artix-world",
-    "sha256": "df7dfab3109230cf856ea0fc7e82b7f603393175c94ec355010f79b1b1e0b747",
-    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/wine-staging-11.14-3-x86_64.pkg.tar.zst",
+    "sha256": "5b992d3cf1a2d1cc2971ef1c421f47c1882b2e26882d8c53c923d2e4c05a0321",
+    "url": "https://mirrors.rit.edu/artixlinux/world/os/x86_64/wine-staging-11.15-1-x86_64.pkg.tar.zst",
     "provides": [
-      "wine=11.14"
+      "wine=11.15"
     ],
     "depends": [
       "attr",
