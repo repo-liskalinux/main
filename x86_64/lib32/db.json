@@ -506,10 +506,10 @@
   },
   {
     "name": "lib32-fontconfig",
-    "version": "2:2.18.2-1",
+    "version": "2:2.18.3-1",
     "origin": "artix-lib32",
-    "sha256": "0bde211868cfaa2006ee4a1a1d3338da33293f8996e261e931a39f5e46722b28",
-    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-fontconfig-2:2.18.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0ea05aa726473171c8b352bd1abb03cb6614196c350734aeb011f6ebaa7960aa",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-fontconfig-2:2.18.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfontconfig.so=1-32"
     ],
@@ -3067,10 +3067,10 @@
   },
   {
     "name": "lib32-nspr",
-    "version": "4.39-1",
+    "version": "4.40-1",
     "origin": "artix-lib32",
-    "sha256": "e5437b6d5ba00fcf376cb9606f4631fffa07051849fe068c797a565a740bd31b",
-    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-nspr-4.39-1-x86_64.pkg.tar.zst",
+    "sha256": "d978e651c7f30f044fd9a0fd0f1eeded81ec821cec076049ec4e6e6da293ecd2",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-nspr-4.40-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "lib32-glibc",
@@ -3369,10 +3369,10 @@
   },
   {
     "name": "lib32-p11-kit",
-    "version": "0.26.4-1",
+    "version": "0.26.5-1",
     "origin": "artix-lib32",
-    "sha256": "1a581f2f679f302144784d2b596c59d6e743735197970c7f810dbd667b1a0d9d",
-    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-p11-kit-0.26.4-1-x86_64.pkg.tar.zst",
+    "sha256": "22b6dbc6d2f0e3e8879bc6763562b170a6fb6ac0ff4aeb5c34f123c0a3085be5",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-p11-kit-0.26.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libp11-kit.so=0-32"
     ],
@@ -4445,10 +4445,10 @@
   },
   {
     "name": "lib32-wayland",
-    "version": "1.25.0-1",
+    "version": "1.26.0-1",
     "origin": "artix-lib32",
-    "sha256": "62e0bab22bd7454980d903717343e8893127031b62ec97b83829467afd1b8e20",
-    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-wayland-1.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b0de6ce69e8dcc3583fda2e1283a77167840dab1dcc3c54b39567cff3cf31d48",
+    "url": "https://ftp.sh.cvut.cz/artix-linux/lib32/os/x86_64/lib32-wayland-1.26.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libwayland-client.so=0-32",
       "libwayland-cursor.so=0-32",
