@@ -40878,10 +40878,10 @@
   },
   {
     "name": "flatpak",
-    "version": "1:1.18.0-1",
+    "version": "1:1.18.1-1",
     "origin": "arch-extra",
-    "sha256": "84b9b6c00a5cbde807091e868576d9c96ada4121dd18892532701f18d4750b56",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/flatpak-1:1.18.0-1-x86_64.pkg.tar.zst",
+    "sha256": "838836a9fd4054b3ee79475d2e3a9ff7334cc0c130d273f4a059788971cf343c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/flatpak-1:1.18.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libflatpak.so=0-64"
     ],
@@ -49337,10 +49337,10 @@
   },
   {
     "name": "glab",
-    "version": "1.112.0-1",
+    "version": "1.113.0-1",
     "origin": "arch-extra",
-    "sha256": "d8efdc9d663a8ac08da61fab76972e2a03ac6d537f9aecf6e4c40b34a163a008",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/glab-1.112.0-1-x86_64.pkg.tar.zst",
+    "sha256": "abe3639f7d52041c159d52739c9106490d44f18eda267e7b7d3309a2433d810f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/glab-1.113.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -49619,10 +49619,10 @@
   },
   {
     "name": "glibmm",
-    "version": "2.66.9-1",
+    "version": "2.66.10-1",
     "origin": "arch-extra",
-    "sha256": "7196512a8e06511e31c7c98e48796115924caffad76802cbbcefd907471285fd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/glibmm-2.66.9-1-x86_64.pkg.tar.zst",
+    "sha256": "104f41a0c05c88b91da8677bfd3b327682506beaf676b551ded317b009a23a4b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/glibmm-2.66.10-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglibmm-2.4.so=1-64",
       "libgiomm-2.4.so=1-64"
@@ -131503,10 +131503,10 @@
   },
   {
     "name": "mercurial",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "arch-extra",
-    "sha256": "ab0040799c793bf9d1e5a4f276ae642b5bb2a17c7716de2c721536796f795fb9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mercurial-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cc05e7dee2f641bd0e37365a36cf82b86fd84987e51916aea8170991400a715f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mercurial-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -143292,10 +143292,10 @@
   },
   {
     "name": "ollama",
-    "version": "0.32.7-1",
+    "version": "0.32.9-1",
     "origin": "arch-extra",
-    "sha256": "5e94ed31989194053e0ece6b22007ac26a4c1b67a144904bba7062d718c668b4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-0.32.7-1-x86_64.pkg.tar.zst",
+    "sha256": "e554c026813ebc0e0aef3c3fc4ad812bf32ffeaa3468188cc8403f7a2ce9a78c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-0.32.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143307,10 +143307,10 @@
   },
   {
     "name": "ollama-cuda",
-    "version": "0.32.7-1",
+    "version": "0.32.9-1",
     "origin": "arch-extra",
-    "sha256": "d285c02aff5749577c8882484301afb7f4a0931674ba93f5b4cdf7c9f94ecfad",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-cuda-0.32.7-1-x86_64.pkg.tar.zst",
+    "sha256": "ff15a0df527f18a9052252c55c1aaa61d72f002af78b208f8ae4dce6f01ba2c6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-cuda-0.32.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143324,10 +143324,10 @@
   },
   {
     "name": "ollama-rocm",
-    "version": "0.32.7-1",
+    "version": "0.32.9-1",
     "origin": "arch-extra",
-    "sha256": "96f98d820bd36b72cb15f912d0e2bb104f69bb39c607600c86c3badebb68e9f7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-rocm-0.32.7-1-x86_64.pkg.tar.zst",
+    "sha256": "36c91514e9d57c0b833282a0836e587c63899435962adaf05f88cffa3adb9c12",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-rocm-0.32.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143341,10 +143341,10 @@
   },
   {
     "name": "ollama-vulkan",
-    "version": "0.32.7-1",
+    "version": "0.32.9-1",
     "origin": "arch-extra",
-    "sha256": "2ec5b2a5e49261d7922c6593939919cc4418e965eb7861008a72057cf5355ed0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-vulkan-0.32.7-1-x86_64.pkg.tar.zst",
+    "sha256": "0c9a05b73f96336001b81c88cd9974af76f54e7a721042156ebd3d08d33dd534",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-vulkan-0.32.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -202812,10 +202812,10 @@
   },
   {
     "name": "python-xlib",
-    "version": "0.33-6",
+    "version": "0.33-7",
     "origin": "arch-extra",
-    "sha256": "ea687597e2d6c8c733f937c39b482824115b28ba8bc8640243af0136a60c56d0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-xlib-0.33-6-any.pkg.tar.zst",
+    "sha256": "139e805324a4a29fa60090399490d5286804c63c04aedfbf51cf216cacae32fd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-xlib-0.33-7-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-six"
@@ -250133,10 +250133,10 @@
   },
   {
     "name": "ty",
-    "version": "0.0.69-1",
+    "version": "0.0.70-1",
     "origin": "arch-extra",
-    "sha256": "a0fb1d95f404cc3c542e2f30d46c1b2c5649058103bb9177ae663755e933ca41",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ty-0.0.69-1-x86_64.pkg.tar.zst",
+    "sha256": "98c47e46eb47060724d3b50fc005c1d9745410c19a6c00d2862b1fffcc83a66c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ty-0.0.70-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -269603,10 +269603,10 @@
   },
   {
     "name": "zola",
-    "version": "0.23.2-1",
+    "version": "0.23.3-1",
     "origin": "arch-extra",
-    "sha256": "45ade158c8c3559bddf9c1d9a78dcf23d03b8250ba2f546fec6a2534e3dce030",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zola-0.23.2-1-x86_64.pkg.tar.zst",
+    "sha256": "8ed02164d3389e639b53d6a50e3e010f0dbdc33b14065bdbff8fc130c64f3dcc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zola-0.23.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
