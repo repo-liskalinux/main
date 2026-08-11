@@ -224,10 +224,10 @@
   },
   {
     "name": "binutils",
-    "version": "2.47-3",
+    "version": "2.47-1",
     "origin": "arch-core",
-    "sha256": "aa2d5a64c1e71dd8bae649662c3173ccd8b71e1421b4f541db6be880bdb7fb95",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/binutils-2.47-3-x86_64.pkg.tar.zst",
+    "sha256": "b1d7ad4d4b0f451282d5ff2c9c1605fbae485fcdd6d5683d59c3c6a5bcf92496",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/binutils-2.47-1-x86_64.pkg.tar.zst",
     "provides": [
       "libctf.so=0-64",
       "libgprofng.so=0-64",
@@ -650,10 +650,10 @@
   },
   {
     "name": "debuginfod",
-    "version": "0.195-7",
+    "version": "0.195-2",
     "origin": "arch-core",
-    "sha256": "25760c02db5220eb15d5e5b70213312119f2db6a5702f34f879638cd6255885b",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/debuginfod-0.195-7-x86_64.pkg.tar.zst",
+    "sha256": "a4f945fe92a906613550766e61f5a921eb96c319a9d757aa129d9cf3a5c050f6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/debuginfod-0.195-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -821,10 +821,10 @@
   },
   {
     "name": "elfutils",
-    "version": "0.195-7",
+    "version": "0.195-2",
     "origin": "arch-core",
-    "sha256": "13f375c96cb56ec7da01ba82e37d6531c73ae87b08faffb8ebdc725b0a2e5970",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/elfutils-0.195-7-x86_64.pkg.tar.zst",
+    "sha256": "b5ccba580b5d75ccc38acd4a37cf059fd260275de92812d00cac0ef4eaee792b",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/elfutils-0.195-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -2286,10 +2286,10 @@
   },
   {
     "name": "libelf",
-    "version": "0.195-7",
+    "version": "0.195-2",
     "origin": "arch-core",
-    "sha256": "4715319c670a80f01838c639e7063a353540b3d50b05ae555f6182873fcaf97b",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libelf-0.195-7-x86_64.pkg.tar.zst",
+    "sha256": "a78ba310d8d6df92cda1a25909bece8942aee6fe9e29e2d69d8c0d9e3256cfbf",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/libelf-0.195-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
