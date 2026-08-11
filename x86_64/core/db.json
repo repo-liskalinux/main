@@ -152,7 +152,7 @@
     "name": "base",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "9f7aabbecf075758de7d8454bec85bba22b9fbc7e9173f77afa1e55c2c75b8b8",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/base-1-1-any.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -324,7 +324,7 @@
     "name": "busybox",
     "version": "1.38.0-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "e226b910fc13f848ce171c3d4b05205c74cb36061d11c7622e98ec131d6a6006",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/busybox-1.38.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -545,10 +545,10 @@
   },
   {
     "name": "dbus",
-    "version": "1.14.10-1",
+    "version": "1.16.2-1",
     "origin": "liska-core",
-    "sha256": null,
-    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/dbus-1.14.10-1-x86_64.lsk.tar.zst",
+    "sha256": "be3b792ba3364c9dd5f0f0c53d447d0476978dcf382c57420e3f853b77c3593f",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/dbus-1.16.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libdbus-1.so"
     ],
@@ -842,7 +842,7 @@
     "name": "elogind",
     "version": "257.16-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "aa083a6cfde0844179aa5047da7f8067337321822e80434f081350e1e99835a2",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/elogind-257.16-1-x86_64.lsk.tar.zst",
     "provides": [
       "libelogind"
@@ -1528,7 +1528,7 @@
     "name": "grub",
     "version": "2.14-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "a211bc59961401f9a77fd06b1dbfc6d2d4eaab989cb90c070156e2c573f6c951",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/grub-2.14-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3256,7 +3256,7 @@
     "name": "linux",
     "version": "7.1.7-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "e5c9320164183d305c30b0ef216dbc3251a8e73b6bcb0b6020dd3e327b288ef3",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.7-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3531,7 +3531,7 @@
     "name": "liska-install-scripts",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "bdc212243ae0ca498133c081dba290fdc9dbdf90b33a8bb0a56ae7c29b6d973b",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/liska-install-scripts-1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3544,7 +3544,7 @@
     "name": "liskaiso",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "aea53bb18771224d22669510ad53e28baa6aa88b5c50aa42076358571fcf6d57",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/liskaiso-1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3563,7 +3563,7 @@
     "name": "lkfs",
     "version": "1.0.0-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "8c8777302326282d08b6bc8bdc59b233ef6947fe2dc40aaab2b9bf5437c3e5b2",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkfs-1.0.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3582,7 +3582,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "412b145db789d54f96d079974f4e75b3e661d7b37d474737379abd0d3cad977d",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3623,18 +3623,18 @@
     "name": "lksystem",
     "version": "1.0.0-1",
     "origin": "liska-core",
-    "sha256": null,
+    "sha256": "b4835a6de986da2da871b2b4e4489018ba144c7b73ba7bec71756fa31d01983e",
     "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lksystem-1.0.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
-      "glibc"
+      "glibc",
+      "networkmanager",
+      "util-linux"
     ],
-    "optdepends": [
-      "sddm",
-      "hyprland"
-    ],
+    "optdepends": [],
     "conflicts": [
+      "runit",
       "systemd"
     ]
   },
