@@ -3,7 +3,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { execSync } = require('child_process');
 
-const ARCH_MIRROR = "https://mirrors.rit.edu/artixlinux";
+const ARCH_MIRROR = "https://ftp.sh.cvut.cz/artix-linux/";
 const REPOS = ["system", "world", "galaxy", "lib32"];
 const ARCHS = ["x86_64"];
 
