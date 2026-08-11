@@ -101,11 +101,11 @@ async function fetchAndParseArchDb(repo) {
     const tmpDir = path.join('/tmp', `archdb-${repo}-${Date.now()}`);
     const dbTarPath = path.join(tmpDir, `${repo}.db`);
     fs.mkdirSync(tmpDir, { recursive: true });
-    console.log(`[+] Mengunduh database resmi: ${dbUrl}`);
+    console.log(`[i] Downloading ${dbUrl} database....`);
     try {
         const res = await fetch(dbUrl);
         if (!res.ok) {
-            console.error(`[-] Gagal mengunduh database: ${dbUrl}`);
+            console.error(`[!] Failed to downloading database: ${dbUrl}`);
             return [];
         }
         const arrayBuffer = await res.arrayBuffer();
@@ -141,7 +141,7 @@ async function fetchAndParseArchDb(repo) {
         fs.rmSync(tmpDir, { recursive: true, force: true });
         return packages;
     } catch (error) {
-        console.error(`[-] Error saat memproses database ${repo}:`, error.message);
+        console.error(`[!] Error when processing ${repo}:`, error.message);
         fs.rmSync(tmpDir, { recursive: true, force: true });
         return [];
     }
@@ -150,7 +150,7 @@ async function fetchAndParseArchDb(repo) {
 async function main() {
     const rootDir = process.cwd();
     const blacklist = loadBlacklist();
-    console.log("::: [ LKPM Repository Sync and Builder ] :::\n");
+    console.log("::: [ LKPM REPOSITORY SYNC AND BUILD ] :::\n");
     const liskaMap = new Map();
     const lskPkgPath = path.join(rootDir, 'lsk-pkg.json');
     if (fs.existsSync(lskPkgPath)) {
@@ -161,23 +161,23 @@ async function main() {
                 const normalized = normalizePackage(pkg, "liska");
                 liskaMap.set(normalized.name, normalized);
             });
-            console.log(`[+] Memuat ${liskaMap.size} paket kustom dari lsk-pkg.json`);
+            console.log(`[i] Building ${liskaMap.size} packages from lsk-pkg.json`);
         } catch (e) {
-            console.warn("[-] Warning: Gagal parse lsk-pkg.json");
+            console.warn("[!] WARNING: Failed to parse lsk-pkg.json!");
         }
     }
     const pkgInfo = parseInfoFile(path.join(rootDir, '.PKGINFO'));
     const buildInfo = parseInfoFile(path.join(rootDir, '.BUILDINFO'));
     if (pkgInfo.name || buildInfo.name) {
         let pkgSha256 = null;
-        const builtFiles = fs.readdirSync(rootDir).filter(f => f.endsWith('.lsk') || f.endsWith('.pkg.tar.zst'));
+        const builtFiles = fs.readdirSync(rootDir).filter(f => f.endsWith('.lsk.tar.zst') || f.endsWith('.pkg.tar.zst'));
         if (builtFiles.length > 0) {
             pkgSha256 = calculateSHA256(path.join(rootDir, builtFiles[0]));
         }
         const localPkg = normalizePackage({
             name: pkgInfo.name || buildInfo.name,
             version: pkgInfo.version || buildInfo.version,
-            origin: pkgInfo.origin || buildInfo.origin || "liska-local",
+            origin: pkgInfo.origin || buildInfo.origin || "n/a",
             sha256: pkgSha256,
             url: pkgInfo.url || buildInfo.url || "",
             provides: [...(pkgInfo.provides || []), ...(buildInfo.provides || [])],
@@ -186,12 +186,10 @@ async function main() {
             conflicts: [...(pkgInfo.conflicts || []), ...(buildInfo.conflicts || [])]
         });
         liskaMap.set(localPkg.name, localPkg);
-        console.log(`[+] Mengintegrasikan build lokal: ${localPkg.name}`);
+        console.log(`[i] Combining local built: ${localPkg.name}`);
     }
     for (const repo of REPOS) {
-        console.log(`\n========================================`);
-        console.log(`::: Repositori: ${repo}`);
-        console.log(`========================================`);
+        console.log(`::: [ Repository: ${repo} ] :::`);
         const repoDir = path.join(rootDir, 'x86_64', repo);
         if (!fs.existsSync(repoDir)) {
             fs.mkdirSync(repoDir, { recursive: true });
@@ -200,8 +198,15 @@ async function main() {
         const dbTarZstPath = path.join(repoDir, 'db.json.tar.zst');
         const archPkgs = await fetchAndParseArchDb(repo);
         const updatedArchMap = new Map();
+        const SYSTEMD_KEYWORDS = ['systemd', 'systemctl', 'journald', 'sd-bus', 'sd_notify', 'nspawn'];
         for (const pkg of archPkgs) {
             const lowerName = pkg.name.toLowerCase();
+            const lowerDesc = (pkg.description || "").toLowerCase();
+            const nameHasSystemd = SYSTEMD_KEYWORDS.some(kw => lowerName.includes(kw));
+            const descHasSystemd = SYSTEMD_KEYWORDS.some(kw => lowerDesc.includes(kw));
+            if (nameHasSystemd || descHasSystemd) {
+                continue;
+            }
             if (blacklist.has(pkg.name) ||
                 lowerName.startsWith('archlinux-') ||
                 lowerName.startsWith('arch-') ||
@@ -225,9 +230,9 @@ async function main() {
             execSync(`tar -I 'zstd' -cf "${dbTarZstPath}" -C "${repoDir}" db.json`);
             console.log(`[✓] Output lkpm: ${dbTarZstPath}`);
         } catch (err) {
-            console.error(`[✗] Gagal kompresi zstd:`, err.message);
+            console.error(`[!] Failed to run zstd:`, err.message);
         }
     }
-    console.log("\n::: [ FINISHED ] Database berhasil diperbarui!");
+    console.log("\n::: [ FINISHED ] Database has been updated!");
 }
 main();
