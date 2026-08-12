@@ -107,6 +107,17 @@
         ]
     },
     {
+        "name": "glibc",
+        "version": "2.44-1",
+        "origin": "liska-core",
+        "sha256": "",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/elogind-2.44-1-x86_64.lsk.tar.zst",
+        "provides": [],
+        "depends": [],
+        "optdepends": [],
+        "conflicts": []
+    },
+    {
         "name": "grub",
         "version": "2.14-1",
         "origin": "liska-core",
