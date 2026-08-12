@@ -1338,20 +1338,13 @@
   },
   {
     "name": "glibc",
-    "version": "2.44+r24+g16be1518495f-1",
-    "origin": "arch-core",
-    "sha256": "5db2283f5b46b6114d06b4bc71fcf8ede5f1a04fcccb4d307048fcdc4e501d93",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/glibc-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
+    "version": "2.44-1",
+    "origin": "liska-core",
+    "sha256": "8e4f02762de357296700149195424df484907b7b5286eb584427fc7302d160fe",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/glibc-2.44-1-x86_64.lsk.tar.zst",
     "provides": [],
-    "depends": [
-      "linux-api-headers>=4.10",
-      "tzdata",
-      "filesystem"
-    ],
-    "optdepends": [
-      "gd: for memusagestat",
-      "perl: for mtrace"
-    ],
+    "depends": [],
+    "optdepends": [],
     "conflicts": []
   },
   {
