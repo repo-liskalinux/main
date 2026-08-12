@@ -149,6 +149,60 @@
     "conflicts": []
   },
   {
+    "name": "base",
+    "version": "1-1",
+    "origin": "liska-core",
+    "sha256": "9f7aabbecf075758de7d8454bec85bba22b9fbc7e9173f77afa1e55c2c75b8b8",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/base-1-1-any.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "bzip2",
+      "coreutils",
+      "file",
+      "filesystem",
+      "findutils",
+      "gawk",
+      "gcc-libs",
+      "gettext",
+      "glibc",
+      "grep",
+      "gzip",
+      "iproute2",
+      "iputils",
+      "licenses",
+      "lkpm",
+      "lkfs",
+      "pciutils",
+      "procps-ng",
+      "psmisc",
+      "sed",
+      "shadow",
+      "lksystem",
+      "tar",
+      "util-linux",
+      "xz",
+      "ca-certificates",
+      "ca-certificates-utils",
+      "openssl",
+      "libnghttp3",
+      "libnghttp2",
+      "libpsl",
+      "libidn2",
+      "brotli",
+      "busybox",
+      "cpio",
+      "nano",
+      "inetutils",
+      "krb5",
+      "kmod"
+    ],
+    "optdepends": [
+      "linux"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "bash",
     "version": "5.3.15-1",
     "origin": "arch-core",
@@ -265,6 +319,20 @@
     "conflicts": [
       "btrfs-progs-unstable"
     ]
+  },
+  {
+    "name": "busybox",
+    "version": "1.38.0-1",
+    "origin": "liska-core",
+    "sha256": "e226b910fc13f848ce171c3d4b05205c74cb36061d11c7622e98ec131d6a6006",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/busybox-1.38.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libcap"
+    ],
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "bzip2",
@@ -471,6 +539,24 @@
       "libgcc",
       "libstdc++",
       "sh"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "dbus",
+    "version": "1.16.2-1",
+    "origin": "liska-core",
+    "sha256": "842940ec5516d69613976b429a74ce1d95ceb5b6f2d32fa1318c72080c1f1d92",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/dbus-1.16.2-1-x86_64.lsk.tar.zst",
+    "provides": [
+      "libdbus",
+      "libdbus-1.so"
+    ],
+    "depends": [
+      "expat",
+      "audit",
+      "elogind"
     ],
     "optdepends": [],
     "conflicts": []
@@ -752,6 +838,27 @@
     ],
     "optdepends": [],
     "conflicts": []
+  },
+  {
+    "name": "elogind",
+    "version": "257.16-1",
+    "origin": "liska-core",
+    "sha256": "aa083a6cfde0844179aa5047da7f8067337321822e80434f081350e1e99835a2",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/elogind-257.16-1-x86_64.lsk.tar.zst",
+    "provides": [
+      "libelogind"
+    ],
+    "depends": [
+      "dbus",
+      "pam",
+      "libcap",
+      "udev",
+      "util-linux-libs"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "systemd-libs"
+    ]
   },
   {
     "name": "expat",
@@ -1415,6 +1522,29 @@
       "psutils: for use together with man -H command interaction in browsers",
       "libxaw: for gxditview",
       "perl-file-homedir: for use with glilypond"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "grub",
+    "version": "2.14-1",
+    "origin": "liska-core",
+    "sha256": "a211bc59961401f9a77fd06b1dbfc6d2d4eaab989cb90c070156e2c573f6c951",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/grub-2.14-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "xz",
+      "gettext",
+      "device-mapper"
+    ],
+    "optdepends": [
+      "dosfstools",
+      "efibootmgr",
+      "freetype2",
+      "fuse3",
+      "mtools",
+      "os-prober"
     ],
     "conflicts": []
   },
@@ -3124,6 +3254,19 @@
     "conflicts": []
   },
   {
+    "name": "linux",
+    "version": "7.1.7-1",
+    "origin": "liska-core",
+    "sha256": "e5c9320164183d305c30b0ef216dbc3251a8e73b6bcb0b6020dd3e327b288ef3",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.7-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "linux-firmware"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "linux-api-headers",
     "version": "7.1-1",
     "origin": "arch-core",
@@ -3384,6 +3527,117 @@
     "depends": [],
     "optdepends": [],
     "conflicts": []
+  },
+  {
+    "name": "liska-install-scripts",
+    "version": "1-1",
+    "origin": "liska-core",
+    "sha256": "bdc212243ae0ca498133c081dba290fdc9dbdf90b33a8bb0a56ae7c29b6d973b",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/liska-install-scripts-1-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "lkpm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "liskaiso",
+    "version": "1-1",
+    "origin": "liska-core",
+    "sha256": "8702a34c74dad8c8643e8afb5d31807e8a063572ca792fb206f5a4294fd16038",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/liskaiso-1-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "lkpm",
+      "grub",
+      "libisoburn",
+      "mtools",
+      "dosfstools",
+      "squashfs-tools",
+      "xorriso"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lkfs",
+    "version": "1.0.0-1",
+    "origin": "liska-core",
+    "sha256": "8c8777302326282d08b6bc8bdc59b233ef6947fe2dc40aaab2b9bf5437c3e5b2",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkfs-1.0.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "e2fsprogs",
+      "dosfstools",
+      "util-linux",
+      "btrfs-progs",
+      "f2fs-tools",
+      "xfsprogs",
+      "ntfs-3g"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lkpm",
+    "version": "1.1.0-1",
+    "origin": "liska-core",
+    "sha256": "8d5778580ca6473d57794ad25a8723fc473d888771f1b091f7ec435d27d63679",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "ca-certificates",
+      "sqlite",
+      "zstd",
+      "xz",
+      "busybox",
+      "cpio",
+      "kmod",
+      "bash",
+      "curl",
+      "tar",
+      "coreutils",
+      "fakeroot",
+      "gzip",
+      "bzip2",
+      "unzip",
+      "p7zip",
+      "rust"
+    ],
+    "optdepends": [
+      "git",
+      "make",
+      "gcc",
+      "clang",
+      "python",
+      "perl",
+      "ruby",
+      "nodejs",
+      "npm",
+      "yarn",
+      "go"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lksystem",
+    "version": "1.0.0-1",
+    "origin": "liska-core",
+    "sha256": "b4835a6de986da2da871b2b4e4489018ba144c7b73ba7bec71756fa31d01983e",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/lksystem-1.0.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "dbus",
+      "glibc",
+      "networkmanager",
+      "util-linux"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "runit",
+      "systemd"
+    ]
   },
   {
     "name": "logrotate",
@@ -4733,6 +4987,29 @@
       "python: for lsusb.py usage",
       "sh: for usb-devices"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "util-linux",
+    "version": "2.42.2-1",
+    "origin": "liska-core",
+    "sha256": "4cd8df6d09bfc892116d54e625c1289a2e98f35e468ef1d7424a5d8d18ada1d1",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/util-linux-2.42.2-1-x86_64.lsk.tar.zst",
+    "provides": [
+      "libblkid",
+      "libuuid",
+      "libfdisk",
+      "libmount",
+      "libsmartcols"
+    ],
+    "depends": [
+      "pam",
+      "shadow",
+      "libcap-ng",
+      "zlib",
+      "ncurses"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
