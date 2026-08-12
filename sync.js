@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const { execSync } = require('child_process');
 
 const ARCH_MIRROR = "http://mirror.rackspace.com/archlinux";
-const REPOS = ["core", "extra", "multilib"];
+const REPOS = ["core", "extra"];
 const ARCHS = ["x86_64"];
 
 function loadBlacklist() {
