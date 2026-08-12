@@ -131,10 +131,10 @@
     },
     {
         "name": "linux",
-        "version": "7.1.7-1",
+        "version": "7.1.8-1",
         "origin": "liska-core",
         "sha256": "",
-        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.7-1-x86_64.lsk.tar.zst",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/linux-7.1.8-1-x86_64.lsk.tar.zst",
         "provides": [],
         "depends": [
             "linux-firmware"
@@ -245,7 +245,8 @@
             "dbus",
             "glibc",
             "networkmanager",
-            "util-linux"
+            "util-linux",
+            "busybox"
         ],
         "optdepends": [],
         "conflicts": [
