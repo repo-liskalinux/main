@@ -726,10 +726,10 @@
   },
   {
     "name": "acpi_call-lts",
-    "version": "1.2.2-350",
+    "version": "1.2.2-351",
     "origin": "arch-extra",
-    "sha256": "0455d9203151e6d34dbb40cea17791610cb0fcb475aae36788b3dce1fffd3567",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/acpi_call-lts-1.2.2-350-x86_64.pkg.tar.zst",
+    "sha256": "93b51374697993c1e5c687d1c3ee0ebf4b7ae4405cf8905bc9a271d32cf8d447",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/acpi_call-lts-1.2.2-351-x86_64.pkg.tar.zst",
     "provides": [
       "acpi_call"
     ],
@@ -4428,10 +4428,10 @@
   },
   {
     "name": "apr-util",
-    "version": "1.6.4-1",
+    "version": "1.6.5-1",
     "origin": "arch-extra",
-    "sha256": "915694a28c66c2e177459927d425c8122186d45f44aaf349e6fd97565f59d9c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apr-util-1.6.4-1-x86_64.pkg.tar.zst",
+    "sha256": "bddd402c6484af1b4d88098aebbdc32931b71ec901c66eb21e30cb2fe7536bae",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apr-util-1.6.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "apr",
@@ -36839,10 +36839,10 @@
   },
   {
     "name": "ffmpeg",
-    "version": "2:9.0-5",
+    "version": "2:9.0.1-1",
     "origin": "arch-extra",
-    "sha256": "d54a06fe451849a12ee822be05b0d1b6ba0f7d419c50cf725bc2b16c36e91aeb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ffmpeg-2:9.0-5-x86_64.pkg.tar.zst",
+    "sha256": "0b68b1139838f10d030efcf12002f6bcf3e4728bc852180a36928482b5184ab4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ffmpeg-2:9.0.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libavcodec.so=63-64",
       "libavdevice.so=63-64",
@@ -37545,10 +37545,10 @@
   },
   {
     "name": "firefox-developer-edition",
-    "version": "154.0b9-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "b71fb5761acc68b35d9672a19bd594b5b5d20883218e9c297d79581693d4f128",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-154.0b9-1-x86_64.pkg.tar.zst",
+    "sha256": "d7df50d96b9b10f67bb6292973424c3f32240d4889824ce1d913c8b3ba4a8b29",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-154.0b10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -37594,1339 +37594,1339 @@
   },
   {
     "name": "firefox-developer-edition-i18n-ach",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "a0d81ba8d12fe36c622d3d6a4c83d04b9fd154b07892b007b24e50b539b93716",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ach-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "1fb60dc4246f513695f74f02c0175000d97405fab1437d3682da9517309dc58e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ach-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-af",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "c745e7d5a2fc859e88c48f3bb8a395bd1d16a3839ecdf3ec3008ab1c410572f8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-af-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "a2e63e72cabb93d4df25394941481f37f357e7b7d9824b18203c3a6d75281c54",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-af-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-an",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "5be48354af9900a6f40c83e677fa287ce5ea0b241d881aa579d53b9a88937368",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-an-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "9a716d534f2c03b6026b9bbba724c8040aa09859507c908c097e62ff146e5935",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-an-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ar",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "3aae338044cf220e0661f104698f49d4d5053888dfdf090e22ea1e342ea9af78",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ar-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "8e180425558134cc463c08f01c1de0eb4c88111463e5314c8df08fafacd36c57",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ar-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ast",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "c958bac0f171e68b9f96708893465c6332a6c464faba580651a49cf08ffccb7e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ast-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "93010b55708eaeab3d305fe4e48f802e208cad019ec9e471074621df7b2e7983",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ast-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-az",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "074f983e3d4438624bf68659b8b276f1c0ee1a2be453bcc866900d10b8cc235e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-az-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "f800e6c4e9523b46e8effbb10c8dec434bb3baced9108645257eb2ca3ee2f2d3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-az-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-be",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "3a73ae11ed72332e7dc0597ef7e31e15c513b5fff9df667b4182de587737f0fe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-be-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "85f3be1f1c8762bf8dc990f1470c9b2344c9614e307594694d5dc767c3ccb471",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-be-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-bg",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "86dedbb74ee5180eef798d10313c07fc349f9653fb910d381f9f3782bd953c93",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bg-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "98a0a722452abf461202714c0557974d4a11539136dc164b9c01d17bf1ddcb28",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bg-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-bn",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "ade4e60301d19384c499209b4105794b33b75c4e19861dd4bab95c94cbc873dc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bn-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "300558eabe9d567e03f95e5066b54e2df9ed5c2d3c0ee5dda6a0291ce7cbf1c3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bn-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-br",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "5dcdd2505b874cee90e724f077ab2e8ecc166a8106821771af5a8488728a98af",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-br-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "6098bcb305ef39856a32e097bad71d06a76dabc2b9d90ed24721443a0f6952db",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-br-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-bs",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "039f117300830709c0aaee46f2a93fc75422a2711b818e9e4d59c9091befec6d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bs-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "5c4820d9c5f6cdf510401f5eefca33b8eac27ae25125016c1b21a1d4d95da56c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-bs-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ca",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "cc7acd7ac1700ebcb2a2ac28b7f37b3271ce82827a906d6054a6772cae41085b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "189bf2feaf8a5a3e8680ffd553d340eb79b7e63980680c684f94bf38b00a735f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ca-valencia",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "f8463827b0ff22d43bba34e96ac5fa8fd1236f2c7fa4c367e686ceef27becdf0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-valencia-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "6c24367568f3ed51d5fbdf11c2cb46e5728fa0c5fcad7b9ecc7508678678da2d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ca-valencia-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-cak",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "34bf225566c48b867eaa4786d35193897d6cac4ec6d439a7b0ce29f068100522",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cak-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "1a19aa52f75ec3cfaed75b09d68ee32a956773f78b2f54baf67cf86bc925f2fe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cak-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-cs",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "d28440accf6e8fb6f5afdbe39e44605df20734762340fefd250e0509aa3b9aae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cs-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "19a88f7598d7faa08d4e3d4f329fbc699848e377ca807eb5f6d10aa1bc8cccfd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cs-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-cy",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "955c11959edc6d538c129b7718528b7a3487daf352fb6f77d6bc3d0d765bcf3b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cy-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "ee5bd7309b57569823dee475999429f5e10ffb1b9d624d32d1abd144e854b15c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-cy-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-da",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "d8bf2e29a060d2414ab514e842f03e34ca15f6596cd535e8826fa6134ba00404",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-da-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "5552ff1030b1c9e7c72038b8cac0ac0359ffb83dd814adea94466df2585cf4da",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-da-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-de",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "148abc96ba77ee1d3de8dbb94fed56e142d2779e08a90db0dd6132fcb11533b0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-de-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "278d166425bef1ab84799496dd7b69a0447df039232769535dad02753cb13077",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-de-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-dsb",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "dc92a83d172b36964557473d0e63da107b80d6f3e6db3722326b4e83262ba0b5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-dsb-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "c775dd95eb7877d4eb97e9a2accf4b9acf4bdaf691ebb84a966b78d03086ac17",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-dsb-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-el",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "1a2b922d852700626b8163549b7b9c914e54fc04696de9f68f33d08389dd3b8b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-el-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "1cbd77f50e5d81b912a4cc3652d679354d54844503cdc51e0ea92e4179fa7d96",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-el-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-en-ca",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "0d05a518c01e48f6b5d988a000f47ce9992537f1d9138d79ac0e2c2d259f5fc9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-ca-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "b12413be8c85cbe3109cd67157578be29c2d353a4ec64ee13ef65448faba6b27",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-ca-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-en-gb",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "2b546c80a0f3779387a191eb52d368ecaccf81170f0e43ee22c23cb196a4edb6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-gb-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "201d5e9061c630bfe914e371906e8a4dc4774f8bd02db7125c928ac0b0b2c20e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-gb-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-en-us",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "261063f8c74e1dde51297396b783ce227553b826f26b896139f8de9d0471bc7f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-us-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "01d5f844d12aa3cd6aa8dc599ce2adf8dbda2ed8b3a9fbd836eaae6c3939a9c3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-en-us-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-eo",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "791a9e103acae41eccec1ad456f71455dc9a0e8c86a6aa405387cacba595a741",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eo-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "9477d3f6ff98dd8dea0536a806ba482fc2ec09cb59544ae17b36fe5bdeb1bbf6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eo-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-ar",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "625c17c011a448c2dcc41615dd9171d76061b2183247d7bb4b0220f4dfcf222c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-ar-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "e94271714b620c193e0e0ee090616a99d66b70088cdd06421d55e37ec6f9264f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-ar-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-cl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "0ac26e6a178876eee8d206b260121086b1d1d94b04012544a812f7225f1acfa4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-cl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "356c517a4dd342d5700f1d023157eaf61c4bf0b315c983c3a849cb9afa08f65b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-cl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-es",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "06eaa231d78041fd44b225f123850f7fbdb030d8b71ad6830fc8b43e1bf0fc9b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-es-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "60b143e85e06ee77d3c34df00a961f6c718b32c7ff5d97cb6d4c998e454f15d7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-es-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-es-mx",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "4db43daae0c6dbddb2eaec17536f9818574137a7d097d01eca51cd6b479b2704",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-mx-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "8f5ce428509eb0c08408fd8950b1b55f4469bd74f4fe433326e1403a153a8290",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-es-mx-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-et",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "e790d5f28604af162014e95a9a62a94394c70858e5425e0e2a364c33335c61ae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-et-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "73e284cbd08c457dcaec109e0af1c7ef258b814cdb1c9553598d4ae500f20534",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-et-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-eu",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "b1045d79ee480408f71bf391d365d58733b8e47fabefe839b67d61006cc12e4f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eu-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "f6562917b22f3ecd3791550f9f7ac088f7f209069cae933839c0240b872dd4a1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-eu-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fa",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "86bebbf292181a93efb2357fc538a457d5ce5c3ace8891ef1b5c27a96a821642",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fa-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "7089c1de9998b6d1bee8c5d362822536e13cbd4a52fb4c961aeb98f8a1663ab3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fa-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ff",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "ae266a8936a2581a20d4f8f83e3c5f4c1afc4f1ff995c669355699e0a27eead0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ff-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "58ecff007da2928c654c1d6a4a4c74a3a7ac9367023c5099b1f8856ada80d65f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ff-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fi",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "13ef88fffc68ae7c0deefce227510747c45869d3bc00491177c5021251704165",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fi-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "b1107984163a1e7afc4bdd25ae6df93a394151fff1aeb006eb0cdd80d4a6f3eb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fi-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fr",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "1275a1adab449540c472f82de8a29cc81bd9382b204b78b958d8dbebe760b78b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fr-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "144002d9f7a659ce204c7704436cac07c0bf6f88b756b1011e607cfcd4552a03",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fr-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fur",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "95c34b5fb88ea08abff3b1170a8e06ea152296fdc7ee926d0dbac1ad9e473474",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fur-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "917d9c66c47f971a2561c3a9374f1d60fc53187515f47467de074de832240f2e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fur-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-fy-nl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "8755b23d4e246b8e87e6e4365e1ff402d25047a5ad9f10850fd99669582b0bd5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fy-nl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "683be84ea2e25278fbf9996553c38dad873d1e513498c4f90a2321f96e2c390c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-fy-nl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ga-ie",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "dbbc5c0b55a29bf5f107cc0920831a4bfb4981615a9bf2a6cdf37333c71c0114",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ga-ie-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "112b4f843055a13301fbb08a6ec7e1b2707b6680a9c9bae72b67ca250a2f7dbc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ga-ie-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gd",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "29a0fca11e5b423c8aa5a69dab3b17a0d68378414e3a0d44c687f7dcfd632ada",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gd-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "593413f98b132e5abdcf566970cf6c82ad5240f085e78eba47de371a4116fdf9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gd-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "5e644b72bb82cd2e8b359dd665c2a5fa9101160a01a1ed7cb2c5178d643326b7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "c46f65db435a49901f2c4a71d4f69acecdc72ba0f4738d29843b793a1fad60ee",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gn",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "cff509db7cfd087dac5565a35edd0eecb3dd1b9f370e72cd6fb2ae2040a52a44",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gn-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "56f6929b5f87385d50e39336bf146cd630a422af88083c859c2c5134ccee9bfa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gn-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-gu-in",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "fc9eda940468160cdd4cd597d6bea8aad79086cc3a1567ed2abf6642cfc0a9ac",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gu-in-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "55a4e2b5e61aa596975e259e6d16c6db7f3a40560f34beec26f4459b8dc6960f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-gu-in-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-he",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "025dc653226a1f94b82f04fe2afc3e2d1c74073015d4d5f721f20f8dbaf7185b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-he-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "1cc0966a9f5af73dd7eb41cb68cb4f2126dee9632dc66dbbc53eb4919ef0c664",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-he-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hi-in",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "20dc1328ea3de79ccf07719b1cded61739429db5fac140be7064476260a8f8c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hi-in-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "51e13eb8348a022cab1b377724bb1736a33ffdd0e69d1bf09bad5f9cf6702b29",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hi-in-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hr",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "0113416f0251775f989e5acae3b43ec3505e302a1664ea998a80169fe313c162",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hr-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "d66bc53b0510f6647a85c8a5094a515896563cb7360ace97c224eba77433a6ae",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hr-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hsb",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "fa02030b4e07b1a22fbfac3a172201114a41b7ca6ad99aa883debfa9e00fa9c7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hsb-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "6d5886277a1d062cb29394137d6cedc827762a27fa135c8faf1c1eabe623de2d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hsb-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hu",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "3f40556d1e18dc753d428c1552a3c0b5cf2bf42260243022c49be9a1fc7a133e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hu-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "0b009af5d358cca670e7e73edbf7d216e5d0169d1786a9f917ef8683aad9cc11",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hu-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-hy-am",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "48d5b9c1e6ddcc2448059ec93e366ada9c7e6f40c6419dd560799da8a6a62ba2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hy-am-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "cc05a5745a5b80dc9732c0312c7201c1d456554097f2272106a2a0847964bc49",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-hy-am-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ia",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "e3fee5e309fc63b3009c3952eb5e5d14bf1d1edcb3a66989a919e2df39a5c0cf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ia-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "ab0f05a5cd9d9357d974eb961c1cdfa92ac6162db0f455f33c367224af8e5397",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ia-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-id",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "83d7975b5b5475a76186c63df5881191981f4fdf7e1f51a6fcf0119fdb58b964",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-id-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "d7c06688d4c0eb9477325fbb80e1a01b8b8829830a6d8de598b7a9b7fc38ed99",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-id-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-is",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "c53ea5e298a3f567583b6ab8a4bd05f230452e7f63b3e5dff6d1d542fb90eaca",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-is-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "ceedb4ddddd507bff5b32c369ad49e7a5b7adc4e36bcaac2ece12a90d9199b18",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-is-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-it",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "466ae0812d0ea742b9a3eea00882d7c544094b94000967ee6a8007e548fdb529",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-it-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "4f7527fc593c2e26e53edaed044ac22e3ae48d557ca3c2e9ff7c6e31b0a3e898",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-it-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ja",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "7fa4b3a285b7855af1df66ef7c1cb058c4cd5c74497e7773a1a71ef33882b17c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ja-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "682f21dbe0d4b933e5ed5f71066e8dfb0d26ddad8175db34bb21451f194aa7b8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ja-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ka",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "e03142b5d4115fc0bfd719fbe79ab79e39b398a0318ad3dc29440c42f6d9687f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ka-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "4f4c632859966eacedceba62746db6b084e5847573453e5bd0716a53b16ae362",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ka-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-kab",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "792f982c21b06f43fe9cce31337d3c94e0617dbca10665285c5565f9f7e5adad",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kab-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "1c70c39066b70cd8d15e3ffc3e6ec2c4a8f587c6baa1d62134df375a185e4abf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kab-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-kk",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "30575568fbda42ee054c4cc9da3b0355ba6d7a54e45bddee6fa52fe4ba5e7b5b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kk-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "70ae9d5994544dd9d624ba987699fa3cb270eb2bf577a0c9b02f7e4aeed9aca6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kk-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-km",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "8d54c3125da5612c0634f19e1c66e199822ee02f92a72a3c4d74c3a6457c6d27",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-km-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "61c70c9f686cccaf9a84b51ed4d4f37bc1b9ced44122dc053bfd0600b52760bd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-km-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-kn",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "f9eea47fbe0326275d6a6b05937c6043b1189ba234a977a9320ec50b530eee88",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kn-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "a1880afb4242dd607ac351ffc33ef037be97879c4667ea65f5ec7c186bd4d985",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-kn-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ko",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "f78aecc7562b8540fd302e9dc760f3c45c598b3fdaed6d0dd672053cc8b50b0e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ko-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "b10942806b71d753dafa571f7557b272d8bb070efc063a4e1876be3623c5478a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ko-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-lij",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "59e8938b13ae7345209eed90659e381ccfbeb76ae7674b3a2159dba163f709a6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lij-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "f5ae69397037817a38e65b2a434927a880bba70c10554546a1baaf4135fbe5db",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lij-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-lt",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "a1f35098f11ef5a0186699aac8406217733a86360b47e3e4d9121537c62f5766",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lt-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "a8246b2ad2d6d7a41a16e7d63e10757b8e31b7f3a75376028c53fc311d02bcba",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lt-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-lv",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "610c35839f3c870690c2cb5e4e3633d742dfaee5fb9335a6f489dd6419a4f0ea",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lv-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "487dbe0b204dc373fcd65eb97b56128e977f7d32f1669d4efe3008d2573a4935",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-lv-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-mk",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "28d61e871c7aa51a3a2d0d1f53e0aa03829d4a962e1fd210297ef4fa2443309c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mk-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "29af7c2b168bba704da7ebf511b639823f5adad3b23433f5f9e211501f3f823c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mk-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-mr",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "4c0cc8ce15a0195581d5e6c99fa1f4220c4968124ab0fcd6b016af875587cb99",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mr-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "049587333ae2b0fb5cd0d2e35f5c636066c564ddacfe63d456056d2b8c9844e4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-mr-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ms",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "4428e071ad7ce53931446fe156caba50f80290a5f869c83d7dd4d3e1490ab9bc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ms-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "6dcd77b8d5430a0b9ba43173e186b5a3a62c21305c36e76ac3be8c77f886b62b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ms-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-my",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "b8c33da10d8feccda37bf98e1cb2aae2fcdb3cd09cdad7480ba752e4349915b7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-my-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "d8dd4593f9c0600261fb4fe58e2b1d64705b130dd9351b84b01718e6bc63a229",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-my-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-nb-no",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "e62908aa3a15801f00ed83ea8508fe9e7d509f6f023c1e5c20c1038bebd2fe2e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nb-no-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "e099a0e4054468d17b42ab0b64c6def5b5089b7eb20e8fa7d8889f3e9614f387",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nb-no-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ne-np",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "825d19b82d2b8cdeb510c4c8aebde6aed1272791037419991143db89ed86ae0b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ne-np-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "18fc589032eff3e3635005f16417f19db82566542a1a7871848f425176d9ab80",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ne-np-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-nl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "a1798d1b056756997ea2406d72b70e571d4d8366e8564ae207a4dd019f9f6358",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "fed5aaffdccadd5a47ad00dbcb5e4ca710578b8a2009ea0042eb1215feef903d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-nn-no",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "4ff014fe451a4839aaf8edb9769e1490dfdfb10aa52d368f71474c14c2ccf7a2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nn-no-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "2a84f8d433a27c5d96aa0718358332068c9730ee18c8aa14f492e4d038133ea4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-nn-no-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-oc",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "5e169c0abb8a21915bafb891136e18c18ab367c609ba9a345e3c97bf32587f44",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-oc-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "71967cf14edc70121154a09809e74922ab1027b80f3b2100d13e2fe77adb4362",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-oc-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pa-in",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "3e35c507addb5f2a8f4107d7ae6a71cfe64674d1c2f6457c532094b0b25a416b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pa-in-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "afcf5f38ebc5e27131316c60cfd5ffde254c833c99a9b7921ba9ab0c8bda4b3c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pa-in-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "678d970f7b6692eabb48ab81bf1dd8967ad48e93d79f540b09a62cad323e5a81",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "6ccab576b01343a835f5dbd3007b7e235479a5d3eeada6c781e6d472e808c824",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pt-br",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "06e4b7c2167a46e9cd8a2e6995236c134caa7f4650d5712bddc6038ff47e528a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-br-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "107314cfd0445080382ac2fa462eb4bd9a40531ad99cc6eed9c00488ff1413a9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-br-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-pt-pt",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "321ae8b7901ae5ca4495bb1367d5da16c38bde4378b01f2af080028f6611d1fa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-pt-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "96d22afd9f986188b82648b9166ad56e4cb7201440ba40d56af6e92424f92eb8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-pt-pt-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-rm",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "fa548e1e9f3fdd2da9244dc748751aec36ae6d78b4d2ea064d71c822354e3c63",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-rm-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "c25673154eaf20e0601aaa8b7231f20f3f18fcfcf799b2d0489bced53a947492",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-rm-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ro",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "c04b64432527fdb30ef4aa14f8bebfc8266e810edcef42650ed5af3f77423aa3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ro-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "0e3fb13697c2e82c03b48889332a5a67e8d232c5802f8b493f0c9bb345adda57",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ro-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ru",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "2553abb50602bd461f9afffc7f74b85abeec2de3a6fc8bb8fadccd48f945f2bb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ru-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "5338b36a7b8b8153964881d6ac4407159a50a35465b8acee1d8c0f0ce35ed5e9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ru-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sat",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "151eb0abb900edce0dcc39f67201b173578b7c2eccc1d9c3cfc7020b17dbe6b3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sat-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "34e9674d5225a48b4450f2c015040cc1c9a1223b0bece8a04c934f593a5b499e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sat-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sc",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "66f31cef92757c13b76fbc244645071eee11705db817e046358037a874d39966",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sc-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "71d9bec959eff90189ca11975e30056d70a2ea438f9f64a1a9b09141c62f1946",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sc-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sco",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "34b3437a202c468d320ad5cbfd56b403e9ddb3566a8279f8835e90be07b0fff6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sco-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "a916f3f294572297ee651b3e84aba7487f86da862d8ab2c642566ac03d89f6ce",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sco-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-si",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "6d520107546189612ef198d8dfed53a9300e5136567094f4b092a0ed9cf5fda5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-si-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "9e926a8aad56408cb74c12f4e1f7fd12d08c171ed4307a53e4268f84c3c7d5a7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-si-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sk",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "e7c5bbb8da864b78b1b4abaadecee9ca44b7437588ca1e6d141f43c9877ac1f4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sk-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "210e152029fe2a54ab683461d39f27963bba38b6cbe5b46e01d8af7b4e446484",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sk-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-skr",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "b9524f115078e6cf9fe2e79ec12ed01c3eaf47779cc4c7d2dd2923f0a13773de",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-skr-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "4d3211ec0dd8002967e5dba442085c722520a951a00cbff85c01ae820027eefb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-skr-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "37f385e5252c289ae8e8acacd4583cefb39636a3b3ef889563ee793f0d574244",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "1620668961e95f4adfc926eb189e99872f957fbe80038e12790eb0f26a5ff343",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-son",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "fa14b37495c396a8481909facf71427abe52b2819a91caa39fc420c6203896dc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-son-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "58e8ea18b359a220d15fcdba11e77ed3520fee51ac3b34f5d080ce4fdfd5cd12",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-son-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sq",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "a1eb9616aeaba98093becc86583c797283325cacec9de2b65c765b155ec50850",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sq-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "e45c85b968da9cb2305d9c80103c3c9dc80a6e354b0026f6be2bca94ae960aa3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sq-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sr",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "64da5ba3ce2a37ce8845a98f4ae6999c1af47520af023acc568721e01a6a37a7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sr-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "794a7da1b645ddeb6271d29162e77884f2794389f40a488f4206359c07e00860",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sr-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-sv-se",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "515b9e35cfbb8781127df45b6f572c761be98bc928ca8557bb804e69cd64ef23",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sv-se-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "d9a0dcd9163061e07e40cadaf24ada23595fc23ba5cca4153c882a2fb8d8bbb9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-sv-se-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-szl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "fca4eb5cb9c2ad02f48910dcaaa6c34e670f61db3ffc093c29f4d03d945bbf37",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-szl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "26f77dba5512adf0022381e984d294c73ffe851b9dcf303fa33440f71d691ee2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-szl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ta",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "407af40bf6ce1ed8f9636db5c0d79b25d528cce0549b8d55ecace04b8d141ce5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ta-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "a28058dae64a7cada55d69a23669bb8a17726bd7513d5c1a43e00df9ed383498",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ta-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-te",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "266ca3696cf7b7dc77e0ca1c465ba0d374c82ea6a1178de963aab6c3c6525734",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-te-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "bf519778b95730a7dffa1e05a3d7b0c66f4eba953182a2a8c01e6de9fbd5ad5e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-te-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-tg",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "534d7049e145028ebd3b2986fc2ae572f240341c12427497fa3d876dae81d9d9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tg-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "442f758284cb580cd3f3d9919dac466cb5904859bb43b11750418db7cb140142",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tg-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-th",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "5f53f88e1d77dd315cde7ddf5d1ff3b4de0138b0da9e46418d6fa7dc12410338",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-th-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "fcabf56ffb5760c98b9f544b199971f2774934ad8070a031c8269cd487d17f90",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-th-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-tl",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "07c912b564674a503b8081b8720d82d239ddb1f3a7f3648bea878efb97238f60",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tl-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "14b17a0c4f85f9e6593ad06355644221b1265e174bc353ffb3ed47c9fc932467",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tl-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-tr",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "3bbc39cfb6ac35c29c949f56dd2261949745742ded0e532702974a727dc1a602",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tr-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "50d286eac7ff8a70b48417b9cabc916705bb2e1e0c95b9558efe8909931ab4ef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-tr-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-trs",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "05eab09c40a0fc729dcc0a832823611bf3d20af1efc55e308ef7a01b2c97188f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-trs-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "f1385891009536aeee58a8ff37488b67ec66a98580bf2f049f1fd2351262272e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-trs-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-uk",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "c1a59aa4afef14a40622ed501f6cdcf40da38b46a31879633402425befd7d06c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uk-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "6274cf06f50190810f7f011a5c43cf5cba5905f5b6a76beea34a9c80b374968b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uk-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-ur",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "57e936f7cceaadbc2ec232c3c8177c9d658d9cd016931fb490fb0b5e198ff0a4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ur-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "dbaedb6845b74b409a5366708fcba913b9c46f99a70c4419dfa280ada82e258c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-ur-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-uz",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "70788e9d45ede49752554319d430b5af626c3c7e0387d3abc2d6e99ceb0cc398",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uz-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "62aecbd0dba8f27c215aa7cb613f3cf1a1ca36a5a9fe55fe20404fdde3c96b34",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-uz-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-vi",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "9e410e6ef8f5feae35c73c3b9591304336feadb9e27f1d8226f1bae958c187f2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-vi-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "39b1f370a545b054f77eb09f939b7aa4974214dde4d94f096cacffaa65fcb785",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-vi-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-xh",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "1299a02cd846cda4c1da39e2ff76b59e0c80a2930f4b748c2024a8522b40548f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-xh-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "e2ec09b1949614fd2d04ac3812fc8698e0ffa7376e3ad911611bf37b32f9d38a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-xh-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-zh-cn",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "3832345c03e54441c0c929290c888d5eeda5c51310d25de153e3436e777e119a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-cn-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "da1e9b402d95eef5201dcfd52f2f6727afc142eeae5c237f7e492ec65f36b176",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-cn-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "firefox-developer-edition-i18n-zh-tw",
-    "version": "154.0b8-1",
+    "version": "154.0b10-1",
     "origin": "arch-extra",
-    "sha256": "dfc78cfd12771a2679c45c2bda9627a51443eb4e493cd80d7106226a7f2f1923",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-tw-154.0b8-1-any.pkg.tar.zst",
+    "sha256": "27fe47115da11d95842d546c3a4a2ac17046ba30163f46a6f9a83e80e994a09e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/firefox-developer-edition-i18n-zh-tw-154.0b10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-developer-edition>=154.0b8"
+      "firefox-developer-edition>=154.0b10"
     ],
     "optdepends": [],
     "conflicts": []
@@ -41288,10 +41288,10 @@
   },
   {
     "name": "fluidsynth",
-    "version": "2.5.7-1",
+    "version": "2.6.0-1",
     "origin": "arch-extra",
-    "sha256": "06bcf92d2aa31776ceb1930973fd01160f1afa23c2aa7f10fcbde550e898a105",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fluidsynth-2.5.7-1-x86_64.pkg.tar.zst",
+    "sha256": "d71c58644ae34da97967a571d2284838d93835931549824c286ec9493e700cf2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fluidsynth-2.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfluidsynth.so=3-64",
       "soundfont-synthesizer"
@@ -41306,9 +41306,6 @@
       "libasound.so=2-64",
       "dbus",
       "libdbus-1.so=3-64",
-      "glib2",
-      "libglib-2.0.so=0-64",
-      "libgmodule-2.0.so=0-64",
       "jack",
       "libjack.so=0-64",
       "libpipewire",
@@ -64117,10 +64114,10 @@
   },
   {
     "name": "haskell-esqueleto",
-    "version": "3.5.11.2-38",
+    "version": "3.5.12.0-1",
     "origin": "arch-extra",
-    "sha256": "bb378a408d7d0876c5c21c956804c595d7786f43add18369e9ae4b6398d094f0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-esqueleto-3.5.11.2-38-x86_64.pkg.tar.zst",
+    "sha256": "70ed6d0232ab9374cdcc1563fee7b958b0ec3711349efda2a45da3bb0ca7cd19",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-esqueleto-3.5.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75220,10 +75217,10 @@
   },
   {
     "name": "haskell-spdx",
-    "version": "1.1-49",
+    "version": "1.1.0.1-1",
     "origin": "arch-extra",
-    "sha256": "51a5a8da6aa37c185d2254ad61819f15b37851e024cb933037e5703582a25486",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-spdx-1.1-49-x86_64.pkg.tar.zst",
+    "sha256": "c117ab36f334e27fa9e999e38f73a3c39c448faa23397ae1d9d9d527bdfeaac5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-spdx-1.1.0.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -101574,10 +101571,10 @@
   },
   {
     "name": "lazygit",
-    "version": "0.64.0-1",
+    "version": "0.64.1-1",
     "origin": "arch-extra",
-    "sha256": "532049ce359a829133c30ea5ee6f24a66ab6cbea6f782c8999183c68d9699dfd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lazygit-0.64.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b3a2837bd3e0e88ebf8d9a6b4b53d1e0c3f264fbd7e965b630321bddaa15c306",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lazygit-0.64.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git",
@@ -132234,10 +132231,10 @@
   },
   {
     "name": "mighttpd2",
-    "version": "4.0.5-22",
+    "version": "4.0.6-1",
     "origin": "arch-extra",
-    "sha256": "6b619f88369a053e05db3e9a496298155d9d911d87fb252fcf23af535e0e06ce",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mighttpd2-4.0.5-22-x86_64.pkg.tar.zst",
+    "sha256": "05a6ffd91950e1642e46c02f9448c9dcf6ef7b8f1591567f897be79c6705a0e3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mighttpd2-4.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -141246,10 +141243,10 @@
   },
   {
     "name": "nvidia-open",
-    "version": "610.57.04-5",
+    "version": "610.57.04-6",
     "origin": "arch-extra",
-    "sha256": "b15da83fe01e67c63c84768527641aa8fc53ce26b9119c5da9559bd215f67916",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvidia-open-610.57.04-5-x86_64.pkg.tar.zst",
+    "sha256": "09e7f336d4b3853dec6c6ea191a14290cfcec1b521c350f7241950cb1e4133b6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvidia-open-610.57.04-6-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
@@ -141286,10 +141283,10 @@
   },
   {
     "name": "nvidia-open-lts",
-    "version": "1:610.57.04-4",
+    "version": "1:610.57.04-5",
     "origin": "arch-extra",
-    "sha256": "795bfc39331a439bac0059d687eb90f69e41571e52e403d07b221eae48b0f375",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvidia-open-lts-1:610.57.04-4-x86_64.pkg.tar.zst",
+    "sha256": "ab09a175fc55386ac504493769f46f3cbc9629f6a8a2aab9a34b618629f98fed",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvidia-open-lts-1:610.57.04-5-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
@@ -142661,10 +142658,10 @@
   },
   {
     "name": "occt",
-    "version": "17.0.14-1",
+    "version": "17.0.15-1",
     "origin": "arch-extra",
-    "sha256": "6308a4c40e86e0443c185eebcff1877de8d5ec5347512a0b5586ec9cdcf5a804",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/occt-17.0.14-1-x86_64.pkg.tar.zst",
+    "sha256": "572257dcd6925fc7c6ac2f322326ba2ba04cbe0c52e73cbead3572ae0f5f8cde",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/occt-17.0.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -150819,10 +150816,10 @@
   },
   {
     "name": "parla",
-    "version": "0.7.6-1",
+    "version": "0.7.8-1",
     "origin": "arch-extra",
-    "sha256": "9164fdbc2a0b6a6003694572ae5a4523217a0092796262a5fd46a3d4d879d374",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/parla-0.7.6-1-x86_64.pkg.tar.zst",
+    "sha256": "6e8c409c7c8f719357215d2acc95cbb705484be8196193dfa3d1dd964288a73c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/parla-0.7.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "deltachat-rpc-server",
@@ -150833,6 +150830,7 @@
       "hicolor-icon-theme",
       "json-glib",
       "libadwaita",
+      "libsoup3",
       "pango",
       "webkitgtk-6.0"
     ],
@@ -173973,10 +173971,10 @@
   },
   {
     "name": "python-copr",
-    "version": "2.6-1",
+    "version": "2.7-1",
     "origin": "arch-extra",
-    "sha256": "16a5f4376f4483d2bf500855189ab09d035aa5b1eedcf3ccc6ad3f08c635841c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-copr-2.6-1-any.pkg.tar.zst",
+    "sha256": "6f981e67f0f4e28d7fe3ba12c156f5936ae7117c936c5982086cbe371ade9648",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-copr-2.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -175378,10 +175376,10 @@
   },
   {
     "name": "python-dep-logic",
-    "version": "0.6.0-1",
+    "version": "0.7.1-1",
     "origin": "arch-extra",
-    "sha256": "60bc3e1019c0a2a82eef82d603764cc78dcd7a1d1b60685f22bd1b4b3b53d957",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-dep-logic-0.6.0-1-any.pkg.tar.zst",
+    "sha256": "984628a7a857f3ef937a5511cf814be8390f747e4d5480dd93a42f1e3210ef0e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-dep-logic-0.7.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -180023,10 +180021,10 @@
   },
   {
     "name": "python-hishel",
-    "version": "1.3.0-1",
+    "version": "1.3.1-1",
     "origin": "arch-extra",
-    "sha256": "555ccbf98650bd5d3969868207cbc805ecd72c7bc5b6423004595296a8937ed6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-hishel-1.3.0-1-any.pkg.tar.zst",
+    "sha256": "1654e7e00c87bf15c635c19aa73656edfeccf495cf1de42d6fd900540c935ac8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-hishel-1.3.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -188120,10 +188118,10 @@
   },
   {
     "name": "python-pbs-installer",
-    "version": "2026.08.05-1",
+    "version": "2026.08.07-1",
     "origin": "arch-extra",
-    "sha256": "0e4d25b5a239f95303eefa9a4665ece8ec71ca6bcfb07e47dde3293b12c92784",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pbs-installer-2026.08.05-1-any.pkg.tar.zst",
+    "sha256": "fbbc8201f0dbd03e777737f59f417277f7d514b8cf82cd3348f3f241392488b4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pbs-installer-2026.08.07-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -188211,13 +188209,14 @@
   },
   {
     "name": "python-pdm",
-    "version": "2.28.0-1",
+    "version": "2.28.1-1",
     "origin": "arch-extra",
-    "sha256": "b7ea2741c70927ddd6297b81c8d566521fb246d4699690a867725132d7ee6a0c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pdm-2.28.0-1-any.pkg.tar.zst",
+    "sha256": "ea48bd320633905d913abba7d63a6738e640d9a906a0893d7c4c4dd951655d76",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pdm-2.28.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
+      "python-argcomplete",
       "python-blinker",
       "python-certifi",
       "python-dep-logic",
@@ -189386,10 +189385,10 @@
   },
   {
     "name": "python-praw",
-    "version": "8.0.2-1",
+    "version": "8.0.3-1",
     "origin": "arch-extra",
-    "sha256": "0e58822a2a735a3b86b57796d639e458b9acd32df7914adb29172a337e6ee1e2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-praw-8.0.2-1-any.pkg.tar.zst",
+    "sha256": "39f10caa8130cb196704ca95ce4e6f33bff11504e94dcb5205d313fd087496c4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-praw-8.0.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-defusedxml",
@@ -193534,10 +193533,10 @@
   },
   {
     "name": "python-pytest-lazy-fixtures",
-    "version": "1.4.0-1",
+    "version": "1.4.1-1",
     "origin": "arch-extra",
-    "sha256": "6b7fcd6668fb5a2b378949ac974e00ad68e6014b61959484bf7ff088cc84ae0d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-lazy-fixtures-1.4.0-1-any.pkg.tar.zst",
+    "sha256": "edd988de9db59bfc71d986d2fbee013fae663cb4fa21d6d709d510377cc38869",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-lazy-fixtures-1.4.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -204009,26 +204008,26 @@
   },
   {
     "name": "qemu-audio-alsa",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "7e5e33fdc4f799722c45b0400afd583ed4147f6436a5bc8b033a4efa5a5fdd42",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-alsa-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3da15725f3d4c08819f17f95cbffc03e26a4d36dab0a537149f5f38a133f9285",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-alsa-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
       "libasound.so=2-64",
       "glibc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-dbus",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "8b80d0871c09f22670644f5b2e21cbb86e2e085953004638a0c7ae076206311c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-dbus-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "04c03b1fe5fab6d267cf273cb81b5d0ca601c56fb8de5def33ab526b1ddd813c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-dbus-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -204037,84 +204036,84 @@
       "libgobject-2.0.so=0-64",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-jack",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "2b7f459883ead049f850c766637b95fc0e566070263c1574ed5b07fecc6065ce",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-jack-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d077d989926ca2dd59e30a9c70cd241998e40261e88f2a358a71978a2fb02940",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-jack-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "jack",
       "libgcc",
       "libjack.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-oss",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "1604c70c0a0ff608437e8804cf728098317f02ab52408eeebc11db7605e510a9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-oss-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a1d09d4f0baf173f2331fd99d9dd92f273f720c019eb440510aec658a0fd67e5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-oss-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-pa",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "2af3b94e2da3553bae507053b599127d7d02f47a8ee083ada0919cb6203ac973",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-pa-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0ab53999ad90df95996e03f286177c4ea759b377952d845e754fb2973a02c052",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-pa-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libpulse",
       "libpulse.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-pipewire",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "478d2430c6fdc1ac7f71807f14d6b5695441d182196c00da46c50eb0b1339030",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-pipewire-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "20dbfd08dc1c51a5ad5e7b5752c567b3910330ce71fca5471437b5d33aaf619d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-pipewire-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libpipewire",
       "libpipewire-0.3.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-sdl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "4c1b41784c606c0f1af40bb055ab44acc8df341e9e6cf7fef87330be123ca1f7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-sdl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7d4505d8e72b7d5c43fba7c1df20bc8d36563ccc636505fe26ea13f37e1e377d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-sdl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "sdl2"
     ],
     "optdepends": [],
@@ -204122,15 +204121,15 @@
   },
   {
     "name": "qemu-audio-spice",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "24c7bd4b99ad1ea6aed867d40f5f83db7f5ac20f35b34c0c2ffb8aa09f385679",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-spice-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2b2f05d8682220495041c788a3044cb65598fc8c4c05f660b60aed38b05c98dd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-audio-spice-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.0.3-1",
-      "qemu-ui-spice-core=11.0.3-1",
+      "qemu-common=11.1.0-1",
+      "qemu-ui-spice-core=11.1.0-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -204139,23 +204138,22 @@
   },
   {
     "name": "qemu-base",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "7d64e642d357a34e4845107c87d995466a82601adaa814484cf84d68cecff331",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-base-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "53e9bccf215f39af421ea96fb6bb7b1b004c5503b1d627d185aa7db9b2ec2778",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-base-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "qemu=11.0.3"
+      "qemu=11.1.0"
     ],
     "depends": [
-      "qemu-common=11.0.3-1",
-      "qemu-img=11.0.3-1",
-      "qemu-system-x86=11.0.3-1",
+      "qemu-common=11.1.0-1",
+      "qemu-img=11.1.0-1",
+      "qemu-system-x86=11.1.0-1",
       "virtiofsd"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
       "samba: for SMB/CIFS server support",
-      "qemu-block-gluster: for Gluster block driver",
       "qemu-block-iscsi: for iSCSI block driver",
       "qemu-chardev-baum: for Baum chardev driver",
       "qemu-docs: for documentation",
@@ -204167,6 +204165,7 @@
       "qemu-system-alpha: for Alpha system emulator",
       "qemu-system-arm: for ARM system emulator",
       "qemu-system-avr: for AVR system emulator",
+      "qemu-system-hexagon: for Hexagon system emulator",
       "qemu-system-hppa: for HPPA system emulator",
       "qemu-system-m68k: for ColdFire (m68k) system emulator",
       "qemu-system-microblaze: for Microblaze system emulator",
@@ -204226,33 +204225,33 @@
   },
   {
     "name": "qemu-block-curl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "a04ef0c0c7ccb796b1c0861ceb0bcab1ca9ee50fe965c3319fc288dd362b7f99",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-curl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "61e76db4d875236597caf8a571162e99343b98adecb46bbce02e9b483efb9166",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-curl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
       "libcurl.so=4-64",
       "glibc",
       "libgcc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-dmg",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "2b7417e7b99a0ee20c9c4b6be7b47b1d6965a463124944db01fdebcfa33bcfca",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-dmg-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b67c91a08bb49eb81de3f045fd0ed46dfc5b1515767a975ba59400e094985a2d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-dmg-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
       "libbz2.so=1.0-64",
       "glibc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
@@ -204275,81 +204274,81 @@
   },
   {
     "name": "qemu-block-iscsi",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "d09db986be3fb43f6ddd5fef864e61e98551cb44aaf78f04f357634087ba25c9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-iscsi-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "78934130b2bbec388759f1fdc5fdafd6cd5a61cb413106e2eca24c0e69d2e294",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-iscsi-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libiscsi",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-nfs",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "b46f768ee41cede6bb454a808fc29fda0a9f0a5dbb5149b1f77f9f68ebe25704",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-nfs-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "97b154ac635d69446f22c86195890c245aa570974b23602baeb6a730a309ad09",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-nfs-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libnfs",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-ssh",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "3e7f1041a00434a0679600f838afd807d022110c8ed8315befced564acf60799",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-ssh-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cb74e5522dbc8ea2f31e10256eef5358b8b400c936e03f73ec095c8435c93314",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-ssh-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libssh",
       "libssh.so=4-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-chardev-baum",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "f7aae782389ab39d874e696a8a8965eac75e97cc3a1ee0f7f65d7eb0f0bdd62e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-chardev-baum-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e91d0bb5b3f4bd045fea9952a8e5c6bc98cb931dccc585177c14ccd798dca022",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-chardev-baum-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brltty",
       "libbrlapi.so=0.8-64",
       "glibc",
       "libgcc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-chardev-spice",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "1355d3fe62412519897f8e08302474b587a66c69ac69d2e98cfaa309f62ea3bc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-chardev-spice-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "080fba7e851330978cd9bc50fc5fb8bfc3834d8e650d707609545b41b006e96a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-chardev-spice-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.0.3-1",
-      "qemu-ui-spice-core=11.0.3-1",
+      "qemu-common=11.1.0-1",
+      "qemu-ui-spice-core=11.1.0-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -204358,10 +204357,10 @@
   },
   {
     "name": "qemu-common",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "805a35b6cc612182d2aa1db2a7bb672ca017df425313de75e6b2a7c19f32d23e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-common-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "acc66939f2967e345abda0d2b0918f8dac5435c6744119fb1a189835308a2f8a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-common-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -204376,61 +204375,61 @@
     "optdepends": [],
     "conflicts": [
       "qemu-system-cris",
-      "qemu-system-nios2"
+      "qemu-system-nios2",
+      "qemu-block-gluster"
     ]
   },
   {
     "name": "qemu-desktop",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "f5b65cad0f9623246305013fc7bf149ea7d92f2c190ba0061e9b452daa566ef4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-desktop-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "645b37c3a67f05e68e2f12a16a805a6e16e0c162507944ee897e5c37da941f8b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-desktop-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "qemu=11.0.3"
+      "qemu=11.1.0"
     ],
     "depends": [
-      "qemu-base=11.0.3-1",
-      "qemu-audio-alsa=11.0.3-1",
-      "qemu-audio-dbus=11.0.3-1",
-      "qemu-audio-jack=11.0.3-1",
-      "qemu-audio-oss=11.0.3-1",
-      "qemu-audio-pa=11.0.3-1",
-      "qemu-audio-pipewire=11.0.3-1",
-      "qemu-audio-sdl=11.0.3-1",
-      "qemu-audio-spice=11.0.3-1",
-      "qemu-block-curl=11.0.3-1",
-      "qemu-block-dmg=11.0.3-1",
-      "qemu-block-nfs=11.0.3-1",
-      "qemu-block-ssh=11.0.3-1",
-      "qemu-chardev-spice=11.0.3-1",
-      "qemu-hw-display-qxl=11.0.3-1",
-      "qemu-hw-display-virtio-gpu=11.0.3-1",
-      "qemu-hw-display-virtio-gpu-gl=11.0.3-1",
-      "qemu-hw-display-virtio-gpu-rutabaga=11.0.3-1",
-      "qemu-hw-display-virtio-gpu-pci=11.0.3-1",
-      "qemu-hw-display-virtio-gpu-pci-gl=11.0.3-1",
-      "qemu-hw-display-virtio-gpu-pci-rutabaga=11.0.3-1",
-      "qemu-hw-display-virtio-vga=11.0.3-1",
-      "qemu-hw-display-virtio-vga-gl=11.0.3-1",
-      "qemu-hw-display-virtio-vga-rutabaga=11.0.3-1",
-      "qemu-hw-uefi-vars=11.0.3-1",
-      "qemu-hw-usb-host=11.0.3-1",
-      "qemu-hw-usb-redirect=11.0.3-1",
-      "qemu-hw-usb-smartcard=11.0.3-1",
-      "qemu-ui-curses=11.0.3-1",
-      "qemu-ui-dbus=11.0.3-1",
-      "qemu-ui-egl-headless=11.0.3-1",
-      "qemu-ui-gtk=11.0.3-1",
-      "qemu-ui-opengl=11.0.3-1",
-      "qemu-ui-sdl=11.0.3-1",
-      "qemu-ui-spice-app=11.0.3-1",
-      "qemu-ui-spice-core=11.0.3-1",
-      "qemu-vhost-user-gpu=11.0.3-1"
+      "qemu-base=11.1.0-1",
+      "qemu-audio-alsa=11.1.0-1",
+      "qemu-audio-dbus=11.1.0-1",
+      "qemu-audio-jack=11.1.0-1",
+      "qemu-audio-oss=11.1.0-1",
+      "qemu-audio-pa=11.1.0-1",
+      "qemu-audio-pipewire=11.1.0-1",
+      "qemu-audio-sdl=11.1.0-1",
+      "qemu-audio-spice=11.1.0-1",
+      "qemu-block-curl=11.1.0-1",
+      "qemu-block-dmg=11.1.0-1",
+      "qemu-block-nfs=11.1.0-1",
+      "qemu-block-ssh=11.1.0-1",
+      "qemu-chardev-spice=11.1.0-1",
+      "qemu-hw-display-qxl=11.1.0-1",
+      "qemu-hw-display-virtio-gpu=11.1.0-1",
+      "qemu-hw-display-virtio-gpu-gl=11.1.0-1",
+      "qemu-hw-display-virtio-gpu-rutabaga=11.1.0-1",
+      "qemu-hw-display-virtio-gpu-pci=11.1.0-1",
+      "qemu-hw-display-virtio-gpu-pci-gl=11.1.0-1",
+      "qemu-hw-display-virtio-gpu-pci-rutabaga=11.1.0-1",
+      "qemu-hw-display-virtio-vga=11.1.0-1",
+      "qemu-hw-display-virtio-vga-gl=11.1.0-1",
+      "qemu-hw-display-virtio-vga-rutabaga=11.1.0-1",
+      "qemu-hw-uefi-vars=11.1.0-1",
+      "qemu-hw-usb-host=11.1.0-1",
+      "qemu-hw-usb-redirect=11.1.0-1",
+      "qemu-hw-usb-smartcard=11.1.0-1",
+      "qemu-ui-curses=11.1.0-1",
+      "qemu-ui-dbus=11.1.0-1",
+      "qemu-ui-egl-headless=11.1.0-1",
+      "qemu-ui-gtk=11.1.0-1",
+      "qemu-ui-opengl=11.1.0-1",
+      "qemu-ui-sdl=11.1.0-1",
+      "qemu-ui-spice-app=11.1.0-1",
+      "qemu-ui-spice-core=11.1.0-1",
+      "qemu-vhost-user-gpu=11.1.0-1"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
       "samba: for SMB/CIFS server support",
-      "qemu-block-gluster: for Gluster block driver",
       "qemu-block-iscsi: for iSCSI block driver",
       "qemu-chardev-baum: for Baum chardev driver",
       "qemu-docs: for documentation",
@@ -204442,6 +204441,7 @@
       "qemu-system-alpha: for Alpha system emulator",
       "qemu-system-arm: for ARM system emulator",
       "qemu-system-avr: for AVR system emulator",
+      "qemu-system-hexagon: for Hexagon system emulator",
       "qemu-system-hppa: for HPPA system emulator",
       "qemu-system-m68k: for ColdFire (m68k) system emulator",
       "qemu-system-microblaze: for Microblaze system emulator",
@@ -204464,65 +204464,64 @@
   },
   {
     "name": "qemu-emulators-full",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "1d292ed6476b88b77d3367fe17a4198182e432aad0889d1f93c485b31af69340",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-emulators-full-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a24fc9732286cec158f6e9567b7b01c89da7162b18982e21a54e5936f38dbfc2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-emulators-full-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-system-aarch64=11.0.3-1",
-      "qemu-system-alpha=11.0.3-1",
-      "qemu-system-arm=11.0.3-1",
-      "qemu-system-avr=11.0.3-1",
-      "qemu-system-hppa=11.0.3-1",
-      "qemu-system-loongarch64=11.0.3-1",
-      "qemu-system-m68k=11.0.3-1",
-      "qemu-system-microblaze=11.0.3-1",
-      "qemu-system-mips=11.0.3-1",
-      "qemu-system-or1k=11.0.3-1",
-      "qemu-system-ppc=11.0.3-1",
-      "qemu-system-riscv=11.0.3-1",
-      "qemu-system-rx=11.0.3-1",
-      "qemu-system-s390x=11.0.3-1",
-      "qemu-system-sh4=11.0.3-1",
-      "qemu-system-sparc=11.0.3-1",
-      "qemu-system-tricore=11.0.3-1",
-      "qemu-system-x86=11.0.3-1",
-      "qemu-system-xtensa=11.0.3-1",
-      "qemu-user=11.0.3-1"
+      "qemu-system-aarch64=11.1.0-1",
+      "qemu-system-alpha=11.1.0-1",
+      "qemu-system-arm=11.1.0-1",
+      "qemu-system-avr=11.1.0-1",
+      "qemu-system-hppa=11.1.0-1",
+      "qemu-system-loongarch64=11.1.0-1",
+      "qemu-system-m68k=11.1.0-1",
+      "qemu-system-microblaze=11.1.0-1",
+      "qemu-system-mips=11.1.0-1",
+      "qemu-system-or1k=11.1.0-1",
+      "qemu-system-ppc=11.1.0-1",
+      "qemu-system-riscv=11.1.0-1",
+      "qemu-system-rx=11.1.0-1",
+      "qemu-system-s390x=11.1.0-1",
+      "qemu-system-sh4=11.1.0-1",
+      "qemu-system-sparc=11.1.0-1",
+      "qemu-system-tricore=11.1.0-1",
+      "qemu-system-x86=11.1.0-1",
+      "qemu-system-xtensa=11.1.0-1",
+      "qemu-user=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-full",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "2d5673a4994c2f1dace500849f7d49169a1de2bb2de0b429d183e1a0c24426ef",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-full-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0f6fc47fed96614e4a0f4fa756b89c87a7c0cd2a233951a577650bd8d9ad3d69",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-full-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "qemu=11.0.3"
+      "qemu=11.1.0"
     ],
     "depends": [
-      "qemu-audio-alsa=11.0.3-1",
-      "qemu-audio-dbus=11.0.3-1",
-      "qemu-audio-jack=11.0.3-1",
-      "qemu-audio-oss=11.0.3-1",
-      "qemu-audio-pa=11.0.3-1",
-      "qemu-audio-sdl=11.0.3-1",
-      "qemu-audio-spice=11.0.3-1",
-      "qemu-block-gluster=11.0.3-1",
-      "qemu-block-iscsi=11.0.3-1",
-      "qemu-chardev-baum=11.0.3-1",
-      "qemu-desktop=11.0.3-1",
-      "qemu-docs=11.0.3-1",
-      "qemu-emulators-full=11.0.3-1",
-      "qemu-hw-s390x-virtio-gpu-ccw=11.0.3-1",
-      "qemu-pr-helper=11.0.3-1",
-      "qemu-tests=11.0.3-1",
-      "qemu-tools=11.0.3-1",
-      "qemu-user=11.0.3-1",
-      "qemu-vmsr-helper=11.0.3-1"
+      "qemu-audio-alsa=11.1.0-1",
+      "qemu-audio-dbus=11.1.0-1",
+      "qemu-audio-jack=11.1.0-1",
+      "qemu-audio-oss=11.1.0-1",
+      "qemu-audio-pa=11.1.0-1",
+      "qemu-audio-sdl=11.1.0-1",
+      "qemu-audio-spice=11.1.0-1",
+      "qemu-block-iscsi=11.1.0-1",
+      "qemu-chardev-baum=11.1.0-1",
+      "qemu-desktop=11.1.0-1",
+      "qemu-docs=11.1.0-1",
+      "qemu-emulators-full=11.1.0-1",
+      "qemu-hw-s390x-virtio-gpu-ccw=11.1.0-1",
+      "qemu-pr-helper=11.1.0-1",
+      "qemu-tests=11.1.0-1",
+      "qemu-tools=11.1.0-1",
+      "qemu-user=11.1.0-1",
+      "qemu-vmsr-helper=11.1.0-1"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
@@ -204532,10 +204531,10 @@
   },
   {
     "name": "qemu-guest-agent",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "b5201a1e0e6cdf96d98eb509dc881e9d32dc6f238935e03a65405a4dcb8da51e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-guest-agent-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f9155794befdd69f9f4a9e6790417074329a083801848dd48564c42d32ef7add",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-guest-agent-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -204556,18 +204555,18 @@
   },
   {
     "name": "qemu-hw-display-qxl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "3ff549b72536b8c490dadb78e7d62af3170c548b87791ef88873650910065308",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-qxl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9852867bb17bbccfab64e5d61ea41036f6b9b07b0f7eb03817c8aea5905764ac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-qxl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
-      "qemu-ui-spice-core=11.0.3-1",
+      "qemu-common=11.1.0-1",
+      "qemu-ui-spice-core=11.1.0-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -204576,31 +204575,31 @@
   },
   {
     "name": "qemu-hw-display-virtio-gpu",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "8c562040b3a73f8910eac4301870910fdfc989cf443868ddd26599c2aaddc641",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "af980dcdfab65f5b6c0936498a4999e2ff64603560c53c40aa7ec1bb14751446",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-gl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "3e46dc254b66c3c44b821190be962729b5340cdfe2a0c3f68f11ff1824d6eec4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-gl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d9e42612283824ec5e0db66df0b83055d73b8f194acfb632c5ae2950f10d8731",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-gl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "virglrenderer"
     ],
     "optdepends": [],
@@ -204608,56 +204607,56 @@
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "dc46f6914fba1da7bebfbb912dd8c41c8f81eafe13f125d7767a1eb148d74c30",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-pci-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fa8fd74c9db71548f46780896d8f79242858094fba64a481dac90f83a5b6ca39",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-pci-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci-gl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "7f2f6d6561b97f61b12a88cfc282c4e6a2d105d5138c9ec7cfeab00d660420a2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-pci-gl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "be0b70d62cde20b9dda08e9a8083e48f8a38f0e8c7aa4ee55d5336fbd084dd98",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-pci-gl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci-rutabaga",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "6d9a99aba189e7580ea6e53791932fc67ccb79759bde7687e60e68d1010477ee",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-pci-rutabaga-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f2e9c625ca77198327140651f727fada0cf6f2e42c5efded9bb4f74a894478fe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-pci-rutabaga-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-rutabaga",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "6126482895dff12a5c32987586f6df25a404e20416e1c8f26b5d04174d12e10d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-rutabaga-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fa663004633d990d94db3d1e62193a7a874a1c72e9229cfba2a5eaecb1e1375d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-gpu-rutabaga-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rutabaga-ffi"
     ],
     "optdepends": [],
@@ -204665,99 +204664,99 @@
   },
   {
     "name": "qemu-hw-display-virtio-vga",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "1c08eb2d363bb05673f505a6c58ba1c0b3c1ed9f5c1cc76c3c92728c76222f88",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-vga-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "abe4909799871997ae9ef95cb57f8d78a906c4978d3f67d85a5ff4e985f01a61",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-vga-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-vga-gl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "7291fe3e72f3716032834ee4535dbc9400a1fe59789dbf29f735e0d7a34be0e4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-vga-gl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "03f431fa83ee9aece2305fadd85c08f998f73edb93bbd7616fbaaf7d3b39f051",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-vga-gl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-vga-rutabaga",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "711a2bdd1f9eccff3ecbb3aeee8da3db5df31984af39687c76809e081fe57569",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-vga-rutabaga-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "12d334ad60a2348ad1211f409c54eac7b8cad98eaef34895ff038f3e0ec13f2e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-display-virtio-vga-rutabaga-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-s390x-virtio-gpu-ccw",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "b5f8fcdf5d5651e9823c478dac62a96bf62ad3be688a383cc008f0444072b864",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-s390x-virtio-gpu-ccw-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "39a1994b453977d02607f67f9cb864c5904a5a8b788f45a160f3df57c1da31bc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-s390x-virtio-gpu-ccw-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-uefi-vars",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "9f42c78ca093705e3d3476a79d5d51565f80041845775bbdc543364f15b45945",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-uefi-vars-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "75f569ebecdb876a0a2c4f09f6e8f26a4b76eb6ca54f15674ca849781447453b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-uefi-vars-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "gnutls",
       "libgcc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-usb-host",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "ce8fecfac873567faf7c2cac38d5dafbff8ed1b79c910c93207935b246bb13a1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-usb-host-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5920a7f62fe6ca1a04b9a5ce82d3db61b9338c3eea723d21c5ba7c82812c8829",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-usb-host-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libusb",
       "libusb-1.0.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-usb-redirect",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "6042ed0fbf6794d2ede7d1f06b3c2bb84733e182128a6325ee8f32db8945a11c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-usb-redirect-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3041f667ec3e855fd209ea99fa6a9025b8e6f4e60b3e7a01171cc69e66279cdb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-usb-redirect-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "usbredir"
     ],
     "optdepends": [],
@@ -204765,10 +204764,10 @@
   },
   {
     "name": "qemu-hw-usb-smartcard",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "ef668813e3d4e4c80e40a87033a6594e1eede36173de9cd7fe94b551bae3e5c9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-usb-smartcard-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2284042f4bd5204f0a849bf02ce5cfa172af5b5e5f2ce59c9454cc9231d069b4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-hw-usb-smartcard-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcacard",
@@ -204776,17 +204775,17 @@
       "libgcc",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-img",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "13574b13b3d34cf0da98f0d0ac606212f67521ae248b72540d0b3545e2a70977",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-img-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9e11a387d5d18d206fc6d708e4215245814eebeedde3f876b40016433c4b6bdf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-img-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse3",
@@ -204812,10 +204811,10 @@
   },
   {
     "name": "qemu-pr-helper",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "e4f27419e2bde0d5ee8738cba8bfbde594fe2d5ce0c8cc6e6b7d3f7f2eb8d810",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-pr-helper-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6261df7cda862df998de1e097750a40c1895d2338dd4d326a3aa670180b64555",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-pr-helper-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -204833,7 +204832,7 @@
       "libnuma.so=1-64",
       "pam",
       "libpam.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "systemd-libs"
     ],
     "optdepends": [],
@@ -204841,10 +204840,10 @@
   },
   {
     "name": "qemu-system-aarch64",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "6102a2344d82e017004dc0409ae56ed51283a2612b189c62651647e403c5fd00",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-aarch64-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ca5884147c8fb9759e488c620559a6a368d950dbd2a8dd66439aa37877d4e6ad",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-aarch64-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -204881,7 +204880,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -204898,10 +204897,10 @@
   },
   {
     "name": "qemu-system-alpha",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "94186c0b5c152fb9e29062e1e4786ffb8da8cd1c4b5241f72b1742c222d2236d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-alpha-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fa97a7cfbae47d83a86fe14b1dc6caf1776842a57c141e9e5b246cb192a3c176",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-alpha-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -204938,14 +204937,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-alpha-firmware=11.0.3-1",
+      "qemu-system-alpha-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -204954,10 +204953,10 @@
   },
   {
     "name": "qemu-system-alpha-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "0266a07afb1d2a3a026d8361352b300f8e3d5332841aece72fc16b743b5060ef",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-alpha-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a55b73023b4b8332cfb7155a3368d0b7a327f87ab2f93c1e0c71f8f673f35ef0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-alpha-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -204965,10 +204964,10 @@
   },
   {
     "name": "qemu-system-arm",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "8c71c0a4b434eb21f36b7b0323863925b40479c0948c5005dcae06ec90a60d49",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-arm-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "665a87673371d937bdcd37442c9019bbe7537b226b837234b0629d83eebaebf3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-arm-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205005,7 +205004,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205013,7 +205012,7 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-arm-firmware=11.0.3-1",
+      "qemu-system-arm-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -205022,10 +205021,10 @@
   },
   {
     "name": "qemu-system-arm-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "c38e930650cd28269eff5839f166a6d1863ba565d28dcccbf61f1b3b177fad72",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-arm-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "4884a29af538790567d5ddcedc714c966fe06cbe6b37f71effe29b05c9e4eb9c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-arm-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205035,10 +205034,10 @@
   },
   {
     "name": "qemu-system-avr",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "41d491631effe0428faa77c599e612137ead086999aa32c395ec7660a8d56356",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-avr-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "1e5455a1e17f122ed93502103b9a4086b94df44958f14bcd9d927170bac86811",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-avr-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205075,7 +205074,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205087,11 +205086,11 @@
     "conflicts": []
   },
   {
-    "name": "qemu-system-hppa",
-    "version": "11.0.3-1",
+    "name": "qemu-system-hexagon",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "be07c38177fb6c7b5a6ba7f9bdae17e6d0923e5eb4ae111eb1f0a86883efd714",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-hppa-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "74df967d8f0c066be1f250eb9c5443d14f5ef17912385912736b108da05ebbcd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-hexagon-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205128,14 +205127,68 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-hppa-firmware=11.0.3-1",
+      "dtc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "qemu-system-hppa",
+    "version": "11.1.0-1",
+    "origin": "arch-extra",
+    "sha256": "7403ab8938b612d29aef9203a9e9acf2aa784d6181cf4f9776ca4e49e673dd65",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-hppa-11.1.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "capstone",
+      "fuse3",
+      "libgcc",
+      "glibc",
+      "glib2",
+      "libgio-2.0.so=0-64",
+      "libglib-2.0.so=0-64",
+      "libgmodule-2.0.so=0-64",
+      "gnutls",
+      "keyutils",
+      "libaio",
+      "libelf",
+      "libbpf",
+      "libbpf.so=1-64",
+      "libjpeg-turbo",
+      "libjpeg.so=8-64",
+      "libpng",
+      "libsasl",
+      "libseccomp",
+      "libseccomp.so=2-64",
+      "libslirp",
+      "libslirp.so=0-64",
+      "liburing",
+      "liburing.so=2-64",
+      "libxdp",
+      "libxdp.so=1-64",
+      "lzo",
+      "ndctl",
+      "numactl",
+      "libnuma.so=1-64",
+      "pam",
+      "libpam.so=0-64",
+      "pixman",
+      "libpixman-1.so=0-64",
+      "qemu-common=11.1.0-1",
+      "rdma-core",
+      "snappy",
+      "vde2",
+      "zlib",
+      "zstd",
+      "libzstd.so=1-64",
+      "qemu-system-hppa-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -205144,10 +205197,10 @@
   },
   {
     "name": "qemu-system-hppa-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "a81f3299e715e9151dedfdc7e91c0e462d5f15709d44c3e64fbfac3e35ed1f7d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-hppa-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "75a3d7d95c598536fedde0adeaa882dc8ebe9ab0c1081a38303b6c806bfc4a72",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-hppa-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205155,10 +205208,10 @@
   },
   {
     "name": "qemu-system-loongarch64",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "08e5b8b0e4c9c4cbf005fd2644c70eb3f44654d153ca95d3610e7faa94aa65e7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-loongarch64-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "65f668f59d3dbc4b10548e000dd7e8e0e55ffb25d6e5441dcda199c58c787aa2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-loongarch64-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205195,7 +205248,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205210,10 +205263,10 @@
   },
   {
     "name": "qemu-system-m68k",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "1564c71a93cf539ba6ac225c8a867829a74a6ac23f23e7339d82578d11456ee8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-m68k-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "edcec4c2b7a8204e97a7bf73cf1059fa311006ea84c83724b134e6504ee415df",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-m68k-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205250,7 +205303,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205263,10 +205316,10 @@
   },
   {
     "name": "qemu-system-microblaze",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "7382026237da809228d7b204ecfa85719097d6b26fca573b978db592594e6ff5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-microblaze-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a08bc4414eabaa9fd9fe6785d555e2ba119dce3cba351b3233a90059b93b250a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-microblaze-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205303,7 +205356,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205311,17 +205364,17 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-microblaze-firmware=11.0.3-1"
+      "qemu-system-microblaze-firmware=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-system-microblaze-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "5da6bf01389d7c4e6950ff241b3f6b13902ae3278b4519ca1d192744472bf6df",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-microblaze-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "4b5c569abde50ec13c26a0a8fe32114b349787743579eb4556d86029b66ff877",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-microblaze-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205329,10 +205382,10 @@
   },
   {
     "name": "qemu-system-mips",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "c0bf3cd7b7371f260504509d8a0d8128dece92fc50d813b5ee775c56d03cda3e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-mips-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "83d6b889b681b9c13feddf08f2569e8e8626c8e17fbd2dee4858eeeaaace98de",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-mips-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205369,7 +205422,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205385,10 +205438,10 @@
   },
   {
     "name": "qemu-system-or1k",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "0467726b4b3bc76fb28b5f603cf50ab7be72cd5d67695d5a633ac0009e7cfb3f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-or1k-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cb3f76b0981665e6d48aa4f07e3ff4d0677406bb94275e188c80e9bd620472a4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-or1k-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205425,7 +205478,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205440,10 +205493,10 @@
   },
   {
     "name": "qemu-system-ppc",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "f8569d5975645d7eae50add8b64ce1593d22defa2dbd98323874e3c0988a1fbe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-ppc-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6550bdd7ac5163f599c917b190b900abcfffde8dbc1d442262d121ecae050efb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-ppc-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205480,7 +205533,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205488,7 +205541,7 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-ppc-firmware=11.0.3-1",
+      "qemu-system-ppc-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -205497,10 +205550,10 @@
   },
   {
     "name": "qemu-system-ppc-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "ac2769f75d35fc70f7f988e2e33bb12ad9f0caeddd315af44b5ec4b8b1bcb33f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-ppc-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ce2cf0aceaaefb644ae864d8208567acd0f54b3d133967541e0b3b5a37133902",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-ppc-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205508,10 +205561,10 @@
   },
   {
     "name": "qemu-system-riscv",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "e7c6464dd5a81a73531a15dfb24181ce95c1f1fd6b157d4a36862b24c6e69ab5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-riscv-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0129d8157019f7fe24f073479b824216d94abef255fa810ff52db62dfdf828ff",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-riscv-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205548,7 +205601,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205557,7 +205610,7 @@
       "libzstd.so=1-64",
       "dtc",
       "edk2-riscv64",
-      "qemu-system-riscv-firmware=11.0.3-1",
+      "qemu-system-riscv-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -205566,10 +205619,10 @@
   },
   {
     "name": "qemu-system-riscv-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "ed5686a87528e6d1db9315813374017e9715f6d66ef159ac3476f6e5b6e81619",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-riscv-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "eec4c447a45104cdd9fe4b1b475347985c188e50daae315bf9553b4659926e78",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-riscv-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205577,10 +205630,10 @@
   },
   {
     "name": "qemu-system-rx",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "bdf523ff0f594b4fa7f2e7aa65d2a7593025654ff100ce39e2b11b112f9c3046",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-rx-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "657e548c30fec5ad72d14e63b5ea08e43fe97a61dcef04e9163893338e29d52d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-rx-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205617,7 +205670,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205631,10 +205684,10 @@
   },
   {
     "name": "qemu-system-s390x",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "937646241078d29d9f1e2932bfb8af73c6674aac6d50d22a3e2639f4a9ce5072",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-s390x-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5439a9da3c3b9cb22ff569d01ad943eaa1fdfa0b4d7636055e52aa6a6a64b134",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-s390x-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205671,14 +205724,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-s390x-firmware=11.0.3-1",
+      "qemu-system-s390x-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -205687,10 +205740,10 @@
   },
   {
     "name": "qemu-system-s390x-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "d4b9fecb3b93f09f3f73bf69284d0fa642ebb17633b29fbc789f3ca9cabbfc52",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-s390x-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "844161711ecb37b5891959680c808431c1a4c080943f9ba43d18fb5bffaaefcb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-s390x-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205698,10 +205751,10 @@
   },
   {
     "name": "qemu-system-sh4",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "182c2df41b9561357a93dce08b24ffe5a8f1451bb48d28f2edfb4a65dd87bc25",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-sh4-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "567ba62f43ae8d0f85d2d6af923527149eb126d53a8c03ed087a9839ffe427c8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-sh4-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205738,7 +205791,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205753,10 +205806,10 @@
   },
   {
     "name": "qemu-system-sparc",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "a931baa197027043e11abdc3241eac229b20cbc529d7e6df496462826ed33bd3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-sparc-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "481ed8cab07428e0934e8273c1220be1be6aba9d755a27c2f1ec903e7e5839ab",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-sparc-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205793,14 +205846,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-sparc-firmware=11.0.3-1",
+      "qemu-system-sparc-firmware=11.1.0-1",
       "systemd-libs",
       "libudev.so=1-64"
     ],
@@ -205809,10 +205862,10 @@
   },
   {
     "name": "qemu-system-sparc-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "5b96180612fb20f800090aa9e5e1c867eaeab13b7905267e59534f00016ab11b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-sparc-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "85041edd3338d3ac0c01b2f7db8ff4b0e74f16fdb74b6b71b6a194705c6a70af",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-sparc-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205820,10 +205873,10 @@
   },
   {
     "name": "qemu-system-tricore",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "5faeaf435b2e4c8b29d4b7ee6908fef83626343efc7d20d9d18610f0eb562682",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-tricore-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6d9512312176499fa47e30e98ec1a631ff70ecd1629fdf03ec6aecdece0ca56c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-tricore-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205860,7 +205913,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205873,10 +205926,10 @@
   },
   {
     "name": "qemu-system-x86",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "29b667829dd7bbab36db0f4bb5313c01f9d164b2d61f1e145a154003446866c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-x86-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "550933c1669f21e17ddc458d3e807fe62d0d2bb88410fcb525a85802a6ca4b9b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-x86-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205913,7 +205966,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -205924,7 +205977,7 @@
       "edk2-ovmf",
       "libcbor",
       "libcbor.so=0.14-64",
-      "qemu-system-x86-firmware=11.0.3-1",
+      "qemu-system-x86-firmware=11.1.0-1",
       "seabios",
       "systemd-libs",
       "libudev.so=1-64"
@@ -205934,10 +205987,10 @@
   },
   {
     "name": "qemu-system-x86-firmware",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "2669464c67de5210e6a92c44864eb4812602c53cd33e32d752146b732eb3f01c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-x86-firmware-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "78bda4de0fb18443f2f74eb484520867b3ee7fe7db2c5c4111f72fb73c40ecd0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-x86-firmware-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -205945,10 +205998,10 @@
   },
   {
     "name": "qemu-system-xtensa",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "c81a93b947daca1dc31c01412921be41297972e6dc4088c8693c864121acf8ac",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-xtensa-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0a181a259d62016746dace6d270d3ef66021a3838f0b21e69fb3831aa2a6f5f7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-system-xtensa-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -205985,7 +206038,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -206001,23 +206054,23 @@
   },
   {
     "name": "qemu-tests",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "8f5945f99913df879e2db3be5360ccd8ee7d0e52c2a204d524aad16a2a99fcd0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-tests-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "debb3e1847f9d60e967f049a3d36261fcfba75cf50213ff23216396ecd3c5aa9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-tests-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-tools",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "87ad5b1bfb20419141bf2ba301867423f742888e6ca691e37cdc6bad0eaec32c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-tools-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3c02d73547bb70ad361875303f17aeed0055967ecf7593653f11be71dfaa7286",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-tools-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -206030,17 +206083,17 @@
       "libxkbcommon",
       "libxkbcommon.so=0-64",
       "python",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-curses",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "88b19aff465eacfc901dfcf8d34232b97031d2a60243f60796a51a9fc6bbed6e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-curses-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8e6d397ef6967e8518826c7b60ee4f133432c5637a325b0d4f3cb1b57a863e45",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-curses-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -206049,17 +206102,17 @@
       "glibc",
       "ncurses",
       "libncursesw.so=6-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-dbus",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "3ddfffecb659e7e57b3d3cc93c94af7c54deb8bb908e91bb045183f970aa0f04",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-dbus-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d3c360d12f018b182a7230b236c3cd62a5c745e1331c832cfde4c8bfd6111792",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-dbus-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -206071,34 +206124,34 @@
       "libepoxy",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-egl-headless",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "5a2cb7ba8aa2316a16b31d073c4bfb1772fe44f5da61c31f7c45f68c49691535",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-egl-headless-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9f872a939a3ec5a038afe16993f59802bec64653b6aa0afa2ff2b95b35666040",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-egl-headless-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
-      "qemu-ui-opengl=11.0.3-1"
+      "qemu-common=11.1.0-1",
+      "qemu-ui-opengl=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-gtk",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "e3017eea6e54c99d51a9e371f2caa8d884a99217800a21a3ad90a5896a85a7cd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-gtk-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fd23e002612f1f40496628e2b6434b5900524a3b604c32806c183d6245d5201d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-gtk-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -206112,10 +206165,11 @@
       "libgdk-3.so=0-64",
       "libgtk-3.so=0-64",
       "libepoxy",
+      "libgcc",
       "libx11",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "qemu-ui-opengl",
       "vte3",
       "libvte-2.91.so=0-64"
@@ -206125,10 +206179,10 @@
   },
   {
     "name": "qemu-ui-opengl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "f992ad0353fd16cae8c603dce8af3b054971908d93efb2a4eb5bb20e429c2c35",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-opengl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ff69f2375e315e289aff15a8714a569228e8a73f674c943676aa956ddca7eb50",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-opengl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -206137,17 +206191,17 @@
       "mesa",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-sdl",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "b71c753d14fc4aac6caed149ae7b801a388deb9c2aaea50722e99c65c3857700",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-sdl-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b5d92b7c9830d7d0d5274eaf9fab9d368dbd41a13f80b32a8013a247e6234572",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-sdl-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -206157,7 +206211,7 @@
       "pixman",
       "libepoxy",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "sdl2_image",
       "sdl2"
     ],
@@ -206166,37 +206220,37 @@
   },
   {
     "name": "qemu-ui-spice-app",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "10417ccf925e455b64bd2d55bad19505e7f5b3dba5703ec599a2dd0513610376",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-spice-app-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3fded20d5e59522e1be87f307a6677333186b579a0a12fa2789cd5d7df8b00c2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-spice-app-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "libgio-2.0.so=0-64",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.0.3-1",
-      "qemu-chardev-spice=11.0.3-1",
-      "qemu-ui-spice-core=11.0.3-1"
+      "qemu-common=11.1.0-1",
+      "qemu-chardev-spice=11.1.0-1",
+      "qemu-ui-spice-core=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-spice-core",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "94ba7304a0bb2a9775fd40dd4eefc747b0ea40dab1d8125df9ccbcb9c88dcc21",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-spice-core-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0c521785a14e73ca0f4e8c50d802b3ff8eb02a1b0fa7553e5595909eeed99002",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-ui-spice-core-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.0.3-1",
-      "qemu-ui-opengl=11.0.3-1",
+      "qemu-common=11.1.0-1",
+      "qemu-ui-opengl=11.1.0-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -206205,10 +206259,10 @@
   },
   {
     "name": "qemu-user",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "01f522530d1b9d645d34a97bb316776a48390c9fbef59ef92719b095a24759f0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "62338d7e030a7bd84063317b13b21177e45f2b3935277d0bb5481a97205f1343",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -206223,7 +206277,7 @@
       "liburing.so=2-64",
       "numactl",
       "libnuma.so=1-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "zlib"
     ],
     "optdepends": [
@@ -206233,15 +206287,15 @@
   },
   {
     "name": "qemu-user-binfmt",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "45ed2b5959eb6a1a77c25102302026d1ec30d9712cb8c6cb0eb0968b0175c7d4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-binfmt-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "1dcc07c3f087bb7dd846771a8838365c41fe879cb4835950904bcc5a207c660a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-binfmt-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "qemu-user-binfmt-provider"
     ],
     "depends": [
-      "qemu-user=11.0.3-1"
+      "qemu-user=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": [
@@ -206250,10 +206304,10 @@
   },
   {
     "name": "qemu-user-static",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "a22cba730b2a3d606448bed69f8c6e3f2d805750bdaa5b20b29e35134a97c011",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-static-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f52f0f458d433e1ad9c970027baffaa9ecfa63f905bdecb80d23f64e72bf68d9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-static-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -206263,15 +206317,15 @@
   },
   {
     "name": "qemu-user-static-binfmt",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "bd943b2d6fe118860d2598c8fab80ad49b17d2d384cfc35b398525622b5c5efb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-static-binfmt-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "36ef7e196b109b02b18abc81ec2dd32142f57fc753998f6fb2367a99521f2018",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-user-static-binfmt-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "qemu-user-binfmt-provider"
     ],
     "depends": [
-      "qemu-user-static=11.0.3-1"
+      "qemu-user-static=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": [
@@ -206280,10 +206334,10 @@
   },
   {
     "name": "qemu-vhost-user-gpu",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "3fdd207f5ff697a3bd866e85ae9bcf48fc68a7bd2a587cce897a8b683aa7a95a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-vhost-user-gpu-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0e77e7610794f963e839cc31020b61ac0545aff7c2c8afd68995f568372ce61e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-vhost-user-gpu-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -206297,7 +206351,7 @@
       "mesa",
       "numactl",
       "libnuma.so=1-64",
-      "qemu-common=11.0.3-1",
+      "qemu-common=11.1.0-1",
       "virglrenderer"
     ],
     "optdepends": [],
@@ -206305,10 +206359,10 @@
   },
   {
     "name": "qemu-vmsr-helper",
-    "version": "11.0.3-1",
+    "version": "11.1.0-1",
     "origin": "arch-extra",
-    "sha256": "daaed08c0353f975bf0351dde753dbc71fdd5c5deffb839ebea75859bf1ab1a8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-vmsr-helper-11.0.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2737d47a3cab408f39eeb53861d160bb2d3e9b63eae7a2d83a23a94a27e4e349",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-vmsr-helper-11.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -206325,7 +206379,7 @@
       "libnuma.so=1-64",
       "pam",
       "libpam.so=0-64",
-      "qemu-common=11.0.3-1"
+      "qemu-common=11.1.0-1"
     ],
     "optdepends": [],
     "conflicts": []
@@ -209490,10 +209544,10 @@
   },
   {
     "name": "r8168-lts",
-    "version": "8.056.02-40",
+    "version": "8.056.02-41",
     "origin": "arch-extra",
-    "sha256": "fa6316aba05e00222c3d6cbdf67d717eb8e14878637b226982a5c9ec72ef19e9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/r8168-lts-8.056.02-40-x86_64.pkg.tar.zst",
+    "sha256": "5131a26ae7ccc552fcc7313f3aab5d429c6e52a2e92b383c22b2ff5fb12da783",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/r8168-lts-8.056.02-41-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -224009,10 +224063,10 @@
   },
   {
     "name": "scons",
-    "version": "4.10.1-2",
+    "version": "4.11.0-1",
     "origin": "arch-extra",
-    "sha256": "eae72567aa7216030cf55eed9fed688a0c8d2c0e50c16fdac368f615887f0f10",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/scons-4.10.1-2-any.pkg.tar.zst",
+    "sha256": "27e5dc7d73c910ba97ccc612cdf3f27ce7bd374fddf66bd10601099eccdd142a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/scons-4.11.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -230231,10 +230285,10 @@
   },
   {
     "name": "srs",
-    "version": "6.0_r0-2",
+    "version": "6.0_r1-1",
     "origin": "arch-extra",
-    "sha256": "2de1c9f63aa8816cff7587b4ef6595df242cb4ce3101ed9d2706a939ef58510b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/srs-6.0_r0-2-x86_64.pkg.tar.zst",
+    "sha256": "204c06b83ed7cfab2efb45d0e5d42f98e6466a18d701abea8276909e631c1e7a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/srs-6.0_r1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl",
@@ -247030,10 +247084,10 @@
   },
   {
     "name": "tp_smapi-lts",
-    "version": "0.45-55",
+    "version": "0.45-56",
     "origin": "arch-extra",
-    "sha256": "f68078d9ccc2d51d9ebf0968a458ea534f32c372e93d30593f52dfd863786627",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tp_smapi-lts-0.45-55-x86_64.pkg.tar.zst",
+    "sha256": "4e5826442f5c98ff81b886a5bf8d19e2c66e796e39f4d053935b2aee6929289f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tp_smapi-lts-0.45-56-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-lts"
