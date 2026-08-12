@@ -4286,10 +4286,10 @@
   },
   {
     "name": "appstream",
-    "version": "1.1.5-1",
+    "version": "1.1.6-1",
     "origin": "arch-extra",
-    "sha256": "750ff02ac5577cbe00c38796f432a20de51ba574e9f90a28baac397eba43db63",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/appstream-1.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "d8ed44d733eff16125833b5553fc2c291c2df0c5d3ce85de95121a36fa3126bc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/appstream-1.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -4371,10 +4371,10 @@
   },
   {
     "name": "appstream-qt",
-    "version": "1.1.5-1",
+    "version": "1.1.6-1",
     "origin": "arch-extra",
-    "sha256": "72d1a86dae105fe0de153d5f2b0e22d8684f611bb45fa719ca8cd53bcd0dbb39",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/appstream-qt-1.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "2fc459dcd51d30b5905d14ef2141dbf11add864fc58425e4fa1bafe9ce99000b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/appstream-qt-1.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -15014,10 +15014,10 @@
   },
   {
     "name": "cargo-release",
-    "version": "1.1.4-1",
+    "version": "1.1.5-1",
     "origin": "arch-extra",
-    "sha256": "b17177af2e9fa92765b63dd908c7a2851c3154a5b8e5354494f28290ff2675ae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cargo-release-1.1.4-1-x86_64.pkg.tar.zst",
+    "sha256": "2993c0398c083a6798d6262a9961b28644ebcf68d1759c3c0d0c558719fc6450",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cargo-release-1.1.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cargo",
@@ -15438,21 +15438,21 @@
   },
   {
     "name": "casync",
-    "version": "2.r267.g0efa7ab-3",
+    "version": "2.r269.gb4b7e56-1",
     "origin": "arch-extra",
-    "sha256": "110e5271b156e3b4d933dc1bcd329bfaa6bdb45f5641bd243f577ba6d74449f8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/casync-2.r267.g0efa7ab-3-x86_64.pkg.tar.zst",
+    "sha256": "d3ca891c82a7c506e341c90fa7a2086ed6d10ed32a76163485e7f39234316302",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/casync-2.r269.gb4b7e56-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse",
-      "gcc-libs",
       "glibc",
+      "libgcc",
       "openssl",
       "zlib",
-      "curl",
-      "libcurl.so=4-64",
       "acl",
       "libacl.so=1-64",
+      "curl",
+      "libcurl.so=4-64",
       "systemd-libs",
       "libudev.so=1-64",
       "xz",
@@ -16949,10 +16949,10 @@
   },
   {
     "name": "chromium",
-    "version": "151.0.7922.108-1",
+    "version": "151.0.7922.137-1",
     "origin": "arch-extra",
-    "sha256": "eac1272e013bee26595bb033f7c8fffdb5f284bdaa35712cf9a481b61adc72a3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/chromium-151.0.7922.108-1-x86_64.pkg.tar.zst",
+    "sha256": "ca232998e4594686482607c12d0c27bbb5286731320669d9abffbf02a4e0a8b5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/chromium-151.0.7922.137-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -29563,6 +29563,21 @@
       "bash",
       "brltty=6.9.1",
       "dracut"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "dracut-tpm2-totp",
+    "version": "0.3.0-3",
+    "origin": "arch-extra",
+    "sha256": "c3c5a9d3cbf285ba61b3159775e42b9501a9e5d8c500e6b6254148c5e20f0edc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dracut-tpm2-totp-0.3.0-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "dracut",
+      "tpm2-totp"
     ],
     "optdepends": [],
     "conflicts": []
@@ -52135,10 +52150,10 @@
   },
   {
     "name": "gnome-shell-extension-appindicator",
-    "version": "1:64-1",
+    "version": "1:65-1",
     "origin": "arch-extra",
-    "sha256": "132647a6b147fa369da4c3e775326a279b8ecc8465a53793bff6be7c66c0a8f5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extension-appindicator-1:64-1-any.pkg.tar.zst",
+    "sha256": "56a2bc43d9272418cd0fe5853c73a0efcb66943baa29b9e6140ab929dfd21bc3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extension-appindicator-1:65-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gnome-shell"
@@ -60972,10 +60987,10 @@
   },
   {
     "name": "haskell-brick",
-    "version": "2.12-3",
+    "version": "2.13-1",
     "origin": "arch-extra",
-    "sha256": "0cca5625eb4ddc12c58be6171447a1ea922451c6633c2fdfddb66976af372e35",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-brick-2.12-3-x86_64.pkg.tar.zst",
+    "sha256": "87ed823e1f8a385a88b54536c630c899a4e3f3775e69bf48f94d932be7e10629",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-brick-2.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -63305,10 +63320,10 @@
   },
   {
     "name": "haskell-dbus-menu",
-    "version": "0.1.3.4-2",
+    "version": "0.1.3.4-3",
     "origin": "arch-extra",
-    "sha256": "b4debccfb74411dbf27d3629f65d6c7c1461c1d210470fdca403ed517659a36e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-dbus-menu-0.1.3.4-2-x86_64.pkg.tar.zst",
+    "sha256": "6c36ef1f55dae7415e12da7430ba9166d7182a2fa70ef6c08324f0be0e1ed9b6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-dbus-menu-0.1.3.4-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -64646,10 +64661,10 @@
   },
   {
     "name": "haskell-fsnotify",
-    "version": "0.4.4.0-103",
+    "version": "0.4.4.0-104",
     "origin": "arch-extra",
-    "sha256": "d13ed7ca9d4471e02c14e5b7935f802d872d5215fb5b1ba1c064a69c55e675d1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-fsnotify-0.4.4.0-103-x86_64.pkg.tar.zst",
+    "sha256": "1b25cf7763e589cdd51fd0d0478ed56ee8997f251e01971f86341d5267995073",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-fsnotify-0.4.4.0-104-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65325,10 +65340,10 @@
   },
   {
     "name": "haskell-gi-dbusmenugtk3",
-    "version": "0.4.15-185",
+    "version": "0.4.16-1",
     "origin": "arch-extra",
-    "sha256": "a2625be655a257b310ebc99199689d08101df8566f4734c8a17839ca2283eed0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-dbusmenugtk3-0.4.15-185-x86_64.pkg.tar.zst",
+    "sha256": "ee6199644e9baff7ad5f5b489b576d094b3f2886699b5dd68df6400cebf6fcd2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-dbusmenugtk3-0.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65389,10 +65404,10 @@
   },
   {
     "name": "haskell-gi-gdk3",
-    "version": "3.0.29-85",
+    "version": "3.0.30-1",
     "origin": "arch-extra",
-    "sha256": "0a35f5f9e1b6907ec755c28f6b91b11f2f26c91cf30a010285d671413a74be3c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gdk3-3.0.29-85-x86_64.pkg.tar.zst",
+    "sha256": "846d7553ef878814286f22fdb3e4581c09b291889a5b35c894a55b49d6721179",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gdk3-3.0.30-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65412,10 +65427,10 @@
   },
   {
     "name": "haskell-gi-gdk3x11",
-    "version": "3.0.16-54",
+    "version": "3.0.17-1",
     "origin": "arch-extra",
-    "sha256": "9e3359f6602e419ca35ad39fabe00c0b8379669de842c7573757f6f68ac1143c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gdk3x11-3.0.16-54-x86_64.pkg.tar.zst",
+    "sha256": "5019876909b00b080650fbe7cd08e50cf5bf9f099668d410d51c6cca28f34e0c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gdk3x11-3.0.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65618,10 +65633,10 @@
   },
   {
     "name": "haskell-gi-gtk-hs",
-    "version": "0.3.17-156",
+    "version": "0.3.18-1",
     "origin": "arch-extra",
-    "sha256": "f9065c83f168773c7de067e3da9a2ba123d150354824ae45b4ca151d194a5a66",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gtk-hs-0.3.17-156-x86_64.pkg.tar.zst",
+    "sha256": "a2c703dd351dbeaab9a44c92e63cce15c0cc68761251bbe2b0b21af83d753913",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gtk-hs-0.3.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65638,10 +65653,10 @@
   },
   {
     "name": "haskell-gi-gtk-layer-shell",
-    "version": "0.1.7-2",
+    "version": "0.1.7-3",
     "origin": "arch-extra",
-    "sha256": "0abdde26bb998b5e2a9cb840c378483c28f483a6208a6711048e13986bceef13",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gtk-layer-shell-0.1.7-2-x86_64.pkg.tar.zst",
+    "sha256": "8f13d89832c8a246e99b6cd59a7f9a50b94643f0f197be957afebf114cab5603",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gtk-layer-shell-0.1.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65657,10 +65672,10 @@
   },
   {
     "name": "haskell-gi-gtk3",
-    "version": "3.0.43-68",
+    "version": "3.0.44-1",
     "origin": "arch-extra",
-    "sha256": "7b0a1589102eb10e1406c10a6270c72edae211514dc5b8172bb1ca0bb543a1f1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gtk3-3.0.43-68-x86_64.pkg.tar.zst",
+    "sha256": "69dce29e7c4864c347fbf03e958535e3d60ccf29c1692834baaa45bd8f187c9c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-gtk3-3.0.44-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65730,6 +65745,26 @@
       "haskell-gi-base",
       "haskell-gi-overloading",
       "pango"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "haskell-gi-wireplumber",
+    "version": "0.5.14.2-1",
+    "origin": "arch-extra",
+    "sha256": "df86c28743b2450fac947a4a9c5c1362e479e6c6cc13a213493bd5f9f9e6b5c6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gi-wireplumber-0.5.14.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ghc-libs",
+      "haskell-gi",
+      "haskell-gi-base",
+      "haskell-gi-gio",
+      "haskell-gi-glib",
+      "haskell-gi-gobject",
+      "haskell-gi-overloading",
+      "libwireplumber"
     ],
     "optdepends": [],
     "conflicts": []
@@ -65972,10 +66007,10 @@
   },
   {
     "name": "haskell-gtk-scaling-image",
-    "version": "0.1.0.1-2",
+    "version": "0.1.0.1-3",
     "origin": "arch-extra",
-    "sha256": "99c18c41a4a9c6df5735630a26636bebcbc5f0e6b74ece436cbfbfb3c98d3b41",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gtk-scaling-image-0.1.0.1-2-x86_64.pkg.tar.zst",
+    "sha256": "cd4e122918e05a5ac35224bc59ceba73322a849ebac70a20ea5120da7a30fe20",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gtk-scaling-image-0.1.0.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65991,10 +66026,10 @@
   },
   {
     "name": "haskell-gtk-sni-tray",
-    "version": "0.1.8.1-460",
+    "version": "0.2.1.4-1",
     "origin": "arch-extra",
-    "sha256": "aa456d06d19203acf3ad8cfc72041d95cc74c332692ad9bcfb0055ce50781ace",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gtk-sni-tray-0.1.8.1-460-x86_64.pkg.tar.zst",
+    "sha256": "5cf8226d81ddbb8d35105093a02e358ca208cf3a40254d02b0e8bfe271368b17",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gtk-sni-tray-0.2.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66016,6 +66051,10 @@
       "haskell-optparse-applicative",
       "haskell-status-notifier-item",
       "haskell-transformers-base",
+      "haskell-dbus-menu",
+      "haskell-gi-gtk-layer-shell",
+      "haskell-gtk-scaling-image",
+      "haskell-hspec",
       "gtk3"
     ],
     "optdepends": [],
@@ -66023,10 +66062,10 @@
   },
   {
     "name": "haskell-gtk-strut",
-    "version": "0.1.3.2-403",
+    "version": "0.1.4.1-1",
     "origin": "arch-extra",
-    "sha256": "57f0827d82f993baefa4bb7010831d27c16b4751a545e706207519d216c8aa01",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gtk-strut-0.1.3.2-403-x86_64.pkg.tar.zst",
+    "sha256": "906a1cb8e009709f2442150eb92613e39c7c62f3a7a43933188b172e2ab96635",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-gtk-strut-0.1.4.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66128,10 +66167,10 @@
   },
   {
     "name": "haskell-hakyll",
-    "version": "4.16.6.0-11",
+    "version": "4.17.0.0-1",
     "origin": "arch-extra",
-    "sha256": "ba5e5fb7bf3949e796ecf5dfa2a5b9a403ddcbc40195fa2fdd8fecc65305d002",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hakyll-4.16.6.0-11-x86_64.pkg.tar.zst",
+    "sha256": "dbb99e3f37e12a8c3429c3b07da0d10e47069841e7b74987459a3833b0e9a1a7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hakyll-4.17.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66158,7 +66197,9 @@
       "haskell-wai",
       "haskell-wai-app-static",
       "haskell-warp",
-      "haskell-yaml"
+      "haskell-yaml",
+      "haskell-contravariant",
+      "haskell-xml-conduit"
     ],
     "optdepends": [],
     "conflicts": []
@@ -74203,10 +74244,10 @@
   },
   {
     "name": "haskell-sandwich",
-    "version": "0.3.1.0-4",
+    "version": "0.3.1.0-5",
     "origin": "arch-extra",
-    "sha256": "0811bb12606685fa06630e5d187e325f17d4fa5e04e75048232102b183dede34",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-sandwich-0.3.1.0-4-x86_64.pkg.tar.zst",
+    "sha256": "db4b017d0246d65a268c4b720dd83171255f0c14860624a2d2f9e68f2a5857bc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-sandwich-0.3.1.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75405,10 +75446,10 @@
   },
   {
     "name": "haskell-status-notifier-item",
-    "version": "0.3.2.2-1",
+    "version": "0.3.2.16-1",
     "origin": "arch-extra",
-    "sha256": "54eda8d4b29704874ceff73d3fd2d9fc07862a7b6bf89f5158b9bffc7b22c118",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-status-notifier-item-0.3.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "797040ae2138c4bf51f2b0cbabb791193d0b5bb3a2493b1b15f4481e7a6006a1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-status-notifier-item-0.3.2.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75807,10 +75848,10 @@
   },
   {
     "name": "haskell-summoner",
-    "version": "2.1.0.0-67",
+    "version": "2.2.0.0-1",
     "origin": "arch-extra",
-    "sha256": "321fc73af761a4ea754a720d44c1db8dc6cd492c5deb351a62de17ba8bbafbce",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-2.1.0.0-67-x86_64.pkg.tar.zst",
+    "sha256": "dd630f6839d60dbeb0dcb01f1ba424afee5ed34bd73cde51df28cc9350d0de65",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-2.2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75829,10 +75870,10 @@
   },
   {
     "name": "haskell-summoner-tui",
-    "version": "2.1.0.0-70",
+    "version": "2.2.0.0-1",
     "origin": "arch-extra",
-    "sha256": "aba9aad836af85c0c39e39afd9a0964022252e8c508ff4cd5e793aa59397fa41",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-tui-2.1.0.0-70-x86_64.pkg.tar.zst",
+    "sha256": "dc5e6d6a1f330a578a86a525bfb33748bedaee074201a229a5cb22d5c5c6d71d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-tui-2.2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -79145,10 +79186,10 @@
   },
   {
     "name": "haskell-xdg-desktop-entry",
-    "version": "0.1.1.4-29",
+    "version": "0.1.1.5-1",
     "origin": "arch-extra",
-    "sha256": "4768e3453b6c68ae70006816b02334bc679427c7174dc59f85b7265bf1248814",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-xdg-desktop-entry-0.1.1.4-29-x86_64.pkg.tar.zst",
+    "sha256": "1b5e521fb8f280237e58e386af210b1d378a0248ce48c26e06d4dd707ce1bc1d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-xdg-desktop-entry-0.1.1.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -80954,10 +80995,10 @@
   },
   {
     "name": "hledger-iadd",
-    "version": "1.3.22-84",
+    "version": "1.3.22-85",
     "origin": "arch-extra",
-    "sha256": "73decbee1f4a696768cbaf3d4dacf55104dddc39e706403957563186b96a48bf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-iadd-1.3.22-84-x86_64.pkg.tar.zst",
+    "sha256": "a0f6e226977d3e9f8fa0a024b4c4a2c56046937655a34f8869a6de58951695aa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-iadd-1.3.22-85-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -80980,10 +81021,10 @@
   },
   {
     "name": "hledger-ui",
-    "version": "1.52.1-54",
+    "version": "1.52.1-55",
     "origin": "arch-extra",
-    "sha256": "54f7627fd008ec1eec6dc0684ed9f48ac9b1ec3f24770c24034f0bee92f392aa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-ui-1.52.1-54-x86_64.pkg.tar.zst",
+    "sha256": "2b4b1671bfa9b1872b8fed117bfba161de29936f5465e466f5d8d2beb678f543",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hledger-ui-1.52.1-55-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -84059,10 +84100,10 @@
   },
   {
     "name": "idris",
-    "version": "1.3.4-554",
+    "version": "1.3.4-555",
     "origin": "arch-extra",
-    "sha256": "8a2014745f0962b223e12677c36033085e8033ba6c610d9fe37a0c5f06adb6d9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/idris-1.3.4-554-x86_64.pkg.tar.zst",
+    "sha256": "3b215fbed979d0f4879f258ac1f46df05090e938ac8deaffb58be163189ec380",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/idris-1.3.4-555-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -180476,10 +180517,10 @@
   },
   {
     "name": "python-hypothesis",
-    "version": "6.165.2-1",
+    "version": "6.165.3-1",
     "origin": "arch-extra",
-    "sha256": "552727b5169279d9fbd4dd4c4f272bd0ecd894365067988eede497528aea1f10",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-hypothesis-6.165.2-1-x86_64.pkg.tar.zst",
+    "sha256": "3536445b24ab17016931bdcccd237b88034e109b903000014cfc02097e3d4ea6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-hypothesis-6.165.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -201065,10 +201106,10 @@
   },
   {
     "name": "python-typing-inspection",
-    "version": "0.4.3-1",
+    "version": "0.4.4-1",
     "origin": "arch-extra",
-    "sha256": "cd758e89129db7e85f61f9f9f6da1a65b0d89e18bce28b3aa9d97b442765b4f5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-typing-inspection-0.4.3-1-any.pkg.tar.zst",
+    "sha256": "8d0eaf484c20da7bfa5befa9c97c7ea94a819293fabc49b48af875c7f9dc14d7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-typing-inspection-0.4.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -230648,10 +230689,10 @@
   },
   {
     "name": "stack",
-    "version": "2.9.3.1-219",
+    "version": "2.9.3.1-220",
     "origin": "arch-extra",
-    "sha256": "a3e16aa9b96d84ab1bd040f4def3164a51a7636379f66218e7d3bf28ef935fe0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/stack-2.9.3.1-219-x86_64.pkg.tar.zst",
+    "sha256": "db6786b6539879f49b673b5bd6010f94b49be83ec6081f6ca4679186829b81ff",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/stack-2.9.3.1-220-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -234882,16 +234923,14 @@
   },
   {
     "name": "taffybar",
-    "version": "4.1.0-105",
+    "version": "7.2.7-2",
     "origin": "arch-extra",
-    "sha256": "53ce30af9a80dc05e92a3d38d49fa3926c7051477866aea11d7aebe52410a950",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/taffybar-4.1.0-105-x86_64.pkg.tar.zst",
+    "sha256": "75a5fd0a171c700c02e43673b63f119836b73acd503085265c3de2a2c9dd0370",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/taffybar-7.2.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
-      "haskell-hstringtemplate",
-      "haskell-quickcheck",
-      "haskell-x11",
+      "dhall",
       "haskell-aeson",
       "haskell-ansi-terminal",
       "haskell-attoparsec",
@@ -234899,35 +234938,45 @@
       "haskell-data-default",
       "haskell-dbus",
       "haskell-dbus-hslogger",
+      "haskell-dbus-menu",
+      "haskell-disk-free-space",
       "haskell-dyre",
       "haskell-either",
       "haskell-enclosed-exceptions",
       "haskell-extra",
       "haskell-fsnotify",
+      "haskell-gi-base",
       "haskell-gi-cairo-connector",
       "haskell-gi-cairo-render",
       "haskell-gi-gdk3",
       "haskell-gi-gdkpixbuf",
       "haskell-gi-gdk3x11",
       "haskell-gi-glib",
-      "haskell-gi-gtk3",
+      "haskell-gi-gobject",
       "haskell-gi-gtk-hs",
+      "haskell-gi-gtk-layer-shell",
+      "haskell-gi-gtk3",
       "haskell-gi-pango",
+      "haskell-gi-wireplumber",
+      "haskell-gtk-scaling-image",
       "haskell-gtk-sni-tray",
       "haskell-gtk-strut",
-      "haskell-gi-base",
       "haskell-hslogger",
       "haskell-hspec",
+      "haskell-hstringtemplate",
       "haskell-http-client",
       "haskell-http-client-tls",
       "haskell-http-conduit",
       "haskell-http-types",
+      "haskell-juicypixels",
+      "haskell-monad-control",
       "haskell-multimap",
+      "haskell-network",
       "haskell-optparse-applicative",
+      "haskell-quickcheck",
       "haskell-rate-limit",
       "haskell-regex-compat",
       "haskell-safe",
-      "haskell-scotty",
       "haskell-split",
       "haskell-status-notifier-item",
       "haskell-time-locale-compat",
@@ -234937,12 +234986,16 @@
       "haskell-unliftio",
       "haskell-unliftio-core",
       "haskell-utf8-string",
+      "haskell-x11",
       "haskell-xdg-basedir",
       "haskell-xdg-desktop-entry",
       "haskell-xml",
       "haskell-xml-helpers",
+      "haskell-yaml",
       "xmonad",
-      "gtk3"
+      "xmonad-contrib",
+      "gtk3",
+      "systemd-libs"
     ],
     "optdepends": [],
     "conflicts": []
@@ -247009,13 +247062,13 @@
   },
   {
     "name": "tpm2-openssl",
-    "version": "1.3.0-1",
+    "version": "1.3.0-2",
     "origin": "arch-extra",
-    "sha256": "c8063438b833f70d5de7b6e55817b34e275b5572e19227a175ee132933bd7684",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-openssl-1.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4e1fbcd83c98c4363b04258e0340e157309f7c382acdfd6d28e7e9b97180dc6b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-openssl-1.3.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "openssl",
+      "glibc",
       "tpm2-tss",
       "libtss2-esys.so=0-64",
       "libtss2-rc.so=0-64",
@@ -247028,22 +247081,15 @@
   },
   {
     "name": "tpm2-pkcs11",
-    "version": "1.10.0-2",
+    "version": "1.10.1-1",
     "origin": "arch-extra",
-    "sha256": "2782b6b521e6ee914446cac2c1b03795d086087cc5db704df4c0df1cdd9e7a75",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-pkcs11-1.10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "55f713300bd669901c981b70f1c9bd57f892059069f47878286afb8154feb696",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-pkcs11-1.10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libyaml",
       "openssl",
-      "python",
-      "python-bcrypt",
-      "python-cryptography",
-      "python-pyasn1",
-      "python-pyasn1-modules",
-      "python-tpm2-pytss",
-      "python-yaml",
       "sqlite",
       "tpm2-tools",
       "tpm2-tss",
@@ -247057,11 +247103,30 @@
     "conflicts": []
   },
   {
-    "name": "tpm2-tools",
-    "version": "5.7-2",
+    "name": "tpm2-pkcs11-tools",
+    "version": "1.10.1-1",
     "origin": "arch-extra",
-    "sha256": "015cd797598ee3eefbad5883c130d729611f40171eaf1a4473edf2e0b85a2333",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-tools-5.7-2-x86_64.pkg.tar.zst",
+    "sha256": "edb58d414860c919a7d822b98c45f7e87969c515dda4aa89693c713ee254161e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-pkcs11-tools-1.10.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "python",
+      "python-bcrypt",
+      "python-cryptography",
+      "python-pyasn1",
+      "python-pyasn1-modules",
+      "python-tpm2-pytss",
+      "python-yaml"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "tpm2-tools",
+    "version": "5.8-1",
+    "origin": "arch-extra",
+    "sha256": "e91f4e12d84e8b975768ed1528b40b504c52ba9b1e5b447adca2dcc26c8a8a9b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-tools-5.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "efivar",
@@ -247085,21 +247150,21 @@
   },
   {
     "name": "tpm2-totp",
-    "version": "0.3.0-2",
+    "version": "0.3.0-3",
     "origin": "arch-extra",
-    "sha256": "7ff9364e0f20d24a4a2b5c4ccdbff3507d26b6015447069e3fe5d6fae4f9eac0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-totp-0.3.0-2-x86_64.pkg.tar.zst",
+    "sha256": "0e6acf0fd5bad1340fe39328d950242536b8753f2e40f003bce20679a61ee3d2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tpm2-totp-0.3.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "bash",
+      "glibc",
       "qrencode",
       "tpm2-tss",
       "libtss2-esys.so=0-64",
       "libtss2-mu.so=0-64",
       "libtss2-tctildr.so=0-64"
     ],
-    "optdepends": [
-      "initramfs: dracut and mkinitcpio hooks to display the TOTP during boot"
-    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -247869,10 +247934,10 @@
   },
   {
     "name": "tt-rss",
-    "version": "2:r12953.f0d6de8c0-1",
+    "version": "2:r12962.12f0c9e6d-1",
     "origin": "arch-extra",
-    "sha256": "47df2b9fe1a3e0d034fb711a476f8fd1c4f51ccffc685428fa185ad451f10757",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tt-rss-2:r12953.f0d6de8c0-1-any.pkg.tar.zst",
+    "sha256": "f647fa699f2300378e1d42ada61ebe0e5deee5b65c9358c5fb85e00eb025aac9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tt-rss-2:r12962.12f0c9e6d-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "php-interpreter>=8.2"
@@ -255096,10 +255161,10 @@
   },
   {
     "name": "vivaldi",
-    "version": "8.1.4087.62-1",
+    "version": "8.1.4087.64-1",
     "origin": "arch-extra",
-    "sha256": "6dab65956ee72659b2adc49626dd691ce4459bf78b18f276fdb7e9420b52ba02",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vivaldi-8.1.4087.62-1-x86_64.pkg.tar.zst",
+    "sha256": "dad6383e832ce805382c35bd4c81c59a644b983df9a927e4750bf128f83c3915",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vivaldi-8.1.4087.64-1-x86_64.pkg.tar.zst",
     "provides": [
       "vivaldi-stable"
     ],
@@ -261280,10 +261345,10 @@
   },
   {
     "name": "wordpress",
-    "version": "7.0.2-1",
+    "version": "7.0.4-1",
     "origin": "arch-extra",
-    "sha256": "6b185c49108e8018704f2a5ea014dd10a7053670a025b35f49485003f42828ee",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/wordpress-7.0.2-1-any.pkg.tar.zst",
+    "sha256": "abab01cf736f8f639ef096cdce8629246985380f6d825df0d27383c59a84e6de",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/wordpress-7.0.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "php-interpreter"
@@ -262647,10 +262712,10 @@
   },
   {
     "name": "xdg-dbus-proxy",
-    "version": "0.1.7-1",
+    "version": "0.1.8-1",
     "origin": "arch-extra",
-    "sha256": "4ea42bfdaaacb11bc04ae700851bccd3baeedab45dcc16ceb8255220cba9e92a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xdg-dbus-proxy-0.1.7-1-x86_64.pkg.tar.zst",
+    "sha256": "7e20f0325d3f25a9b8e5041c53c51c5be7711719bff8a6ac54c798170040ebcb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xdg-dbus-proxy-0.1.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",

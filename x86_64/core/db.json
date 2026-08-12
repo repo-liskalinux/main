@@ -16,10 +16,10 @@
   },
   {
     "name": "amd-ucode",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "8b6d3b1513d16db14d503b356b3710334d946fd711a9b34ce898d675d53236bd",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/amd-ucode-20260622-1-any.pkg.tar.zst",
+    "sha256": "9e6fea98c9f4ebff9494691a46e6902a64324b202b95c1840240a97abffb793f",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/amd-ucode-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -1388,10 +1388,10 @@
   },
   {
     "name": "gnupg",
-    "version": "2.4.9-2",
+    "version": "2.4.9-3",
     "origin": "arch-core",
-    "sha256": "81dbb4bd69f7fef0a23a0464ada8ec22ce3dbd9d70ec4cf7eaf466f66240f190",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gnupg-2.4.9-2-x86_64.pkg.tar.zst",
+    "sha256": "c758ccf2d09d85b033b30828800844609f47016ee93cd790315dea3818a95cc5",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/gnupg-2.4.9-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3272,10 +3272,10 @@
   },
   {
     "name": "linux-firmware",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "1e2df449f15d016c68b17ae7c4faf3edcc5685c1f11a2eef287fe9db2c336797",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-20260622-1-any.pkg.tar.zst",
+    "sha256": "910225fb4bf3223975a09811bfca998095f29283a955933bbc6eee8c0449a4ad",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-amdgpu",
@@ -3301,10 +3301,10 @@
   },
   {
     "name": "linux-firmware-amdgpu",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "1d976066ec0531a92bdb6fe9bdbcdf05f7f6169c22449c869e26d95980589992",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-amdgpu-20260622-1-any.pkg.tar.zst",
+    "sha256": "b344502d8af99bc5959494961edc6724b2fbf951f2a5f2565884168d39c22a39",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-amdgpu-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3314,10 +3314,10 @@
   },
   {
     "name": "linux-firmware-atheros",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "3cac2cd3d875ceb7dddbf22a0084f0fff8f5ce35a038bc2d3511a56bb09f7f07",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-atheros-20260622-1-any.pkg.tar.zst",
+    "sha256": "b4df57a35f4a61779a678cc241621e5549f0882816da88e32a95d3393bbeb380",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-atheros-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3327,10 +3327,10 @@
   },
   {
     "name": "linux-firmware-broadcom",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "3f2a01107bcf37041332d024b3153aeb319fbc8586787a3a0a7e74b6a478505a",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-broadcom-20260622-1-any.pkg.tar.zst",
+    "sha256": "b516d5291c5010988a51abb54e34b5597d8888aa169b2217ada0007d61ade868",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-broadcom-20260810-1-any.pkg.tar.zst",
     "provides": [
       "linux-firmware-bnx2x"
     ],
@@ -3344,10 +3344,10 @@
   },
   {
     "name": "linux-firmware-cirrus",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "afa88f6ca1096e8b64f7a9d4ba70d3292e96e10fd9c1fc2d0bc7f5ed47aea5d7",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-cirrus-20260622-1-any.pkg.tar.zst",
+    "sha256": "03dd46db4107d7da85a77670e040e89080a78670fdcc48438857437fb2896a80",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-cirrus-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3357,10 +3357,10 @@
   },
   {
     "name": "linux-firmware-intel",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "238474800e768d8966a70763d2520fb2d260d4342dab1562462a0971867c0546",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-intel-20260622-1-any.pkg.tar.zst",
+    "sha256": "06ff34b4b08dee7153aa0b4d93d0cdd4eb5abae3eae69846ff52089416b8cbba",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-intel-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3370,10 +3370,10 @@
   },
   {
     "name": "linux-firmware-liquidio",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "40190188017ed2d305301d558300217de76a00cff892b02fe8c8a38a0e19c87b",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-liquidio-20260622-1-any.pkg.tar.zst",
+    "sha256": "288f6898dd41848015ef80a61d27aa4e9c9907b8bccf5c73cdc1285d2189914f",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-liquidio-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3383,10 +3383,10 @@
   },
   {
     "name": "linux-firmware-marvell",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "f07c352bb02c73bd8c33fdbd815e65c29ae31e6e2d7aefbe742dc2f94063cc19",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-marvell-20260622-1-any.pkg.tar.zst",
+    "sha256": "551f77a00b1b37194a2b854f501bf6d5f9ae5701c78bd5c76f3dbe801e416979",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-marvell-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3396,10 +3396,10 @@
   },
   {
     "name": "linux-firmware-mediatek",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "49ff595a2f24acaa784ea84015adfce8574b3d0f1047b4a9ce8d65d4051b4dd5",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-mediatek-20260622-1-any.pkg.tar.zst",
+    "sha256": "098d0300936695bae2e8a8e1849ae56946f5f11bec79d26388f64bb7bb53b578",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-mediatek-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3409,10 +3409,10 @@
   },
   {
     "name": "linux-firmware-mellanox",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "d36ca50701a10c8243f8b728321e20b1128ae55902ddad2e8748c0541e186a6c",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-mellanox-20260622-1-any.pkg.tar.zst",
+    "sha256": "b915b8267fe15be7882e28c1be51340f3ffaedb09db5f06111278090c2443cf4",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-mellanox-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3422,10 +3422,10 @@
   },
   {
     "name": "linux-firmware-nfp",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "a48a4335de7700c750cb5ea8f325fa1f108dffff261851e866a8f5656dbc6987",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-nfp-20260622-1-any.pkg.tar.zst",
+    "sha256": "a2792e1472095ccf18aff0a8c4e3ac35b61fb0da567e4fb53763e82b742d64ce",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-nfp-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3435,10 +3435,10 @@
   },
   {
     "name": "linux-firmware-nvidia",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "9e89592d1a36e73aa5e667fd59a2cc6babf3b90e10daff70cfb6893fe7b6fb88",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-nvidia-20260622-1-any.pkg.tar.zst",
+    "sha256": "bc369cd6e808ab67b14f2e1e6f3fd3d3724de16620336c921ab47f8cddcd618d",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-nvidia-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3448,10 +3448,10 @@
   },
   {
     "name": "linux-firmware-other",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "eb94ed4873a691932ed6a602fe5cf478ffc3edb3a17ea56bb4c7d6fde7f0adca",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-other-20260622-1-any.pkg.tar.zst",
+    "sha256": "e4b23e9051d3d1acefbe4d7c393e674b36e3e045aec09db8a0f8e36aca5ca386",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-other-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -3459,10 +3459,10 @@
   },
   {
     "name": "linux-firmware-qcom",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "f7482f779d89606bc24f8dafce45bc176bac7ce876c3595f775ff28ea172b1fc",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-qcom-20260622-1-any.pkg.tar.zst",
+    "sha256": "40be86a9b991180562062fef0e5b51e027f7297bfce56e3104674a5accbe97e2",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-qcom-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-atheros",
@@ -3473,10 +3473,10 @@
   },
   {
     "name": "linux-firmware-qlogic",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "57226325348c7945b5d425d8c22a60816fc048bc72a5562d8e68086a42f47068",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-qlogic-20260622-1-any.pkg.tar.zst",
+    "sha256": "e50898eb107833fe88f9aa29b313ab82d002c7850969ccb495359aeae6c6aa2e",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-qlogic-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3486,10 +3486,10 @@
   },
   {
     "name": "linux-firmware-radeon",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "ea15eae69dc1b60c73a2979b76a3061b0b687585b4f7e51f7d95445e2f69e8ac",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-radeon-20260622-1-any.pkg.tar.zst",
+    "sha256": "5ffc197f1822ab19505e01bb09e72529058f4bd7983e2c0bc7c1500e81f28d02",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-radeon-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3499,10 +3499,10 @@
   },
   {
     "name": "linux-firmware-realtek",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "eebc5d843f385d9f35280fdf32dd244286921b4d6464dc3acbc6405146790dc6",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-realtek-20260622-1-any.pkg.tar.zst",
+    "sha256": "89c9b4e351bc7218e3be2adb81bb09bfa8708b43a2b45856bc3687228fb817ff",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-realtek-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -3512,10 +3512,10 @@
   },
   {
     "name": "linux-firmware-whence",
-    "version": "20260622-1",
+    "version": "20260810-1",
     "origin": "arch-core",
-    "sha256": "ac988c85833fd592d41ade268023f8baa5f6e4ae360c49fadf82bc2f7755db37",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-whence-20260622-1-any.pkg.tar.zst",
+    "sha256": "beca3f0be419edf7e9654239267a46cf052a907b4559c1eb032bb0826eff3dc4",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/linux-firmware-whence-20260810-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -4907,22 +4907,25 @@
   },
   {
     "name": "tpm2-tss",
-    "version": "4.1.3-1",
+    "version": "4.2.0-2",
     "origin": "arch-core",
-    "sha256": "b1098a8ecc8886023c466827ea057861ea53ef4dc36a2142afee8b85fdf27c3c",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/tpm2-tss-4.1.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7aa2a963f99bcd51e4f3b2587fa8f374a7cfa09ec65749cc9a72fa6f3ad34fdc",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/tpm2-tss-4.2.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libtss2-esys.so=0-64",
       "libtss2-fapi.so=1-64",
       "libtss2-mu.so=0-64",
       "libtss2-rc.so=0-64",
       "libtss2-sys.so=1-64",
+      "libtss2-tcti-null.so=0-64",
       "libtss2-tctildr.so=0-64"
     ],
     "depends": [
       "curl",
+      "glibc",
       "json-c",
       "openssl",
+      "util-linux-libs",
       "libjson-c.so=5-64"
     ],
     "optdepends": [],
@@ -5051,10 +5054,10 @@
   },
   {
     "name": "wpa_supplicant",
-    "version": "2:2.11-5",
+    "version": "2:2.12-1",
     "origin": "arch-core",
-    "sha256": "b9f131adc78b1ec7c6b33329a8e81c5553ff2f77faed865dbbc6a5c5629b4cd6",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/wpa_supplicant-2:2.11-5-x86_64.pkg.tar.zst",
+    "sha256": "fe87452ac26eaab3ce37a6a682e1b3992f4b7d6a19b3117b84bfe1a2a1ea51e6",
+    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/wpa_supplicant-2:2.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
