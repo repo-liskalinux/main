@@ -5769,10 +5769,10 @@
   },
   {
     "name": "aspnet-runtime",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "d3983ae27b3e6e470bc33fd060a29c2e9a4a0c5a363ea76a07dd4ce300709c9c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aspnet-runtime-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "5346494a4347a6d621c09666149fc202bc161efe1b9b45432020171766d06d62",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aspnet-runtime-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-runtime=10.0",
       "aspnet-runtime-10.0"
@@ -5855,10 +5855,10 @@
   },
   {
     "name": "aspnet-targeting-pack",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "c4f557ea81af86713971cd20b193fbd4282fdbd30874973d9bd9ae0bfe15bc86",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aspnet-targeting-pack-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "abb0f158c37601488b0cd666336699c62ccb6a28dc2d2eeda3a34d57876f916f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/aspnet-targeting-pack-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-targeting-pack=10.0",
       "aspnet-targeting-pack-10.0"
@@ -15599,10 +15599,10 @@
   },
   {
     "name": "cauchy",
-    "version": "0.9.0-5",
+    "version": "0.9.0-6",
     "origin": "arch-extra",
-    "sha256": "b21bcde1d2587cc87f55128c233b3cc17c293231baa020fb0e57dd77d2946a54",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cauchy-0.9.0-5-x86_64.pkg.tar.zst",
+    "sha256": "b897d0048c724cf0939849578f0d7d4124f334108e1f5549c55eb0cfea3b56fa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cauchy-0.9.0-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -18983,10 +18983,10 @@
   },
   {
     "name": "cockpit",
-    "version": "365-2",
+    "version": "366-1",
     "origin": "arch-extra",
-    "sha256": "49aa7cbfec6abbc5188b00304b0516a0cef1a7df7280c2727b05ba5154e59c83",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-365-2-x86_64.pkg.tar.zst",
+    "sha256": "e880e8078a3a33ffb13e113fae82088d44c7132dc9ba49fc551079eda524491a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-366-1-x86_64.pkg.tar.zst",
     "provides": [
       "cockpit-pcp"
     ],
@@ -19062,10 +19062,10 @@
   },
   {
     "name": "cockpit-packagekit",
-    "version": "365-2",
+    "version": "366-1",
     "origin": "arch-extra",
-    "sha256": "e81c362e973cdab45448694a8f901e33f82bec45ed7274fe199171847f29edba",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-packagekit-365-2-x86_64.pkg.tar.zst",
+    "sha256": "1062cb9896014561069478d963d2094808890ac27288adc514024758a07d2ae4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-packagekit-366-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cockpit",
@@ -19094,10 +19094,10 @@
   },
   {
     "name": "cockpit-storaged",
-    "version": "365-2",
+    "version": "366-1",
     "origin": "arch-extra",
-    "sha256": "a1f645385e50db72dbdc22d0420eafe4545454ab494933468a2a127e2997e8fe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-storaged-365-2-x86_64.pkg.tar.zst",
+    "sha256": "37717a7695ca3f9749da3e96ee7277e40d80cd1169990170b1b13a4bcc892247",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cockpit-storaged-366-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cockpit",
@@ -21212,10 +21212,10 @@
   },
   {
     "name": "cpp-httplib",
-    "version": "0.52.0-1",
+    "version": "0.53.0-1",
     "origin": "arch-extra",
-    "sha256": "c36e162bd10f1e6a9256080aa7aebfea09079dfa61e7b8944d8d10f9a799d61b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpp-httplib-0.52.0-1-any.pkg.tar.zst",
+    "sha256": "8e437f2d8e733d581b42197c2f1595aa05e6d50f623e2351cb99d9517dbd5502",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpp-httplib-0.53.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -21774,10 +21774,10 @@
   },
   {
     "name": "crun",
-    "version": "1.29-1",
+    "version": "1.29.1-1",
     "origin": "arch-extra",
-    "sha256": "a320f15913d5fed3ad69ee16c54b7e94ded82f27a430b6dd0578a9a18115149c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/crun-1.29-1-x86_64.pkg.tar.zst",
+    "sha256": "56df93466c288323defb5bb3b61bb5eae5cbc98962d6237de9efbf1870bd23b1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/crun-1.29.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "oci-runtime"
     ],
@@ -28515,10 +28515,10 @@
   },
   {
     "name": "dotnet-host",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "e0c498f2ff1315f482cd4f4fe06aebf983673e7af3a18c3a4d10453f2cfc0bd6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-host-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "7224017b6e89ba4b3d4bfa90b8f2726c9d0fb55c560d12d13769552f6f1b98d8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-host-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28532,10 +28532,10 @@
   },
   {
     "name": "dotnet-runtime",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "82435299ef2340befb2e41cfe3eb621e6b4edbcb2fc75eb02134ffb1bb3c8845",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-runtime-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "4f436356b6eef7bd958818ecc60624973c6f6ca4dacd9a953f381e86f3ac07f0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-runtime-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-runtime=10.0",
       "dotnet-runtime-10.0"
@@ -28657,10 +28657,10 @@
   },
   {
     "name": "dotnet-sdk",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "fe532101c3d78eb3b0181fbe8a2449e962b4b2f485b6b0108a962fb3be5974cd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-sdk-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "67194180bef826802f38e6d70448a259a5c1d3a5d34a42f9fe03b989b217dcdd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-sdk-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-sdk=10.0",
       "dotnet-sdk-10.0"
@@ -28765,10 +28765,10 @@
   },
   {
     "name": "dotnet-source-built-artifacts",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "ed9955977ed9104479d94f3cc4b7484e3b3fe025c2950c9a898245f4e418b820",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-source-built-artifacts-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "6871414b68a7edc96ec3ae39028e80e69ff1f597524998403d52861e7435ba0a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-source-built-artifacts-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-source-built-artifacts=10.0",
       "dotnet-source-built-artifacts-10.0"
@@ -28841,10 +28841,10 @@
   },
   {
     "name": "dotnet-targeting-pack",
-    "version": "10.0.10.sdk110-1",
+    "version": "10.0.11.sdk111-1",
     "origin": "arch-extra",
-    "sha256": "0d5cb9c4d07ae6fdc43ba691ed82e61bce3e73862b2cf7328144c088c8f38afe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-targeting-pack-10.0.10.sdk110-1-x86_64.pkg.tar.zst",
+    "sha256": "ea445be16ea62f7e0387abd3d36135ec2b8330b71be834e04099b9be34b01370",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dotnet-targeting-pack-10.0.11.sdk111-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=10.0",
       "dotnet-targeting-pack-10.0"
@@ -41280,10 +41280,10 @@
   },
   {
     "name": "fluidd",
-    "version": "1.37.3-1",
+    "version": "1.37.4-1",
     "origin": "arch-extra",
-    "sha256": "87316f2361e1dede28d3eed12ec733d720af92d06ca24ff1a93d8b0425333192",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fluidd-1.37.3-1-any.pkg.tar.zst",
+    "sha256": "f8110ae7d25e1bb9b1581a02c9998bf1a4358fe91617f7457b4162edacd91134",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fluidd-1.37.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -52259,10 +52259,10 @@
   },
   {
     "name": "gnome-shell-extensions",
-    "version": "50.2-1",
+    "version": "50.3-1",
     "origin": "arch-extra",
-    "sha256": "88828ff413deed3f63f881626fc1dee0c5e783da2b8306109c3c995cc449757c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extensions-50.2-1-any.pkg.tar.zst",
+    "sha256": "2edc7c45c76422af7516f2660e2b7de04cb180f72f714a2bd92b73c4d521f802",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnome-shell-extensions-50.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -98855,10 +98855,10 @@
   },
   {
     "name": "krun",
-    "version": "1.29-1",
+    "version": "1.29.1-1",
     "origin": "arch-extra",
-    "sha256": "11ab0c31423cb2ffc6ce9ca8ccdec91b15def0b1aae38a3f7bbcd4c2c492e0a9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/krun-1.29-1-x86_64.pkg.tar.zst",
+    "sha256": "2340a65b1f56d8ff68628f5febf6e03855af6f2b0ab39ac446ae02a36242f8fb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/krun-1.29.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "oci-runtime"
     ],
@@ -131767,13 +131767,13 @@
   },
   {
     "name": "mesa",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "8f4edb7d67990acfc94cc4b6ce1f350d63581a914c372ce091efabe660332936",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mesa-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "8bb0b7375cbc3de445d6b57b6b760715d20f6e395981b5d3496a26723de3aa32",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mesa-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libva-mesa-driver=1:26.1.6-1",
-      "mesa-libgl=1:26.1.6-1",
+      "libva-mesa-driver=1:26.1.7-1",
+      "mesa-libgl=1:26.1.7-1",
       "libva-driver",
       "opengl-driver"
     ],
@@ -144583,10 +144583,10 @@
   },
   {
     "name": "opencl-mesa",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "81d37c82f85f326fcf88f95013c2e2bea3ac986f64914483080b538b22b5ffbb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opencl-mesa-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "4970ac6cd266fc2e2ec4d54b2191c7acfef1bba2358abe1a8ad5b80c8469cdb4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opencl-mesa-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],
@@ -144667,10 +144667,10 @@
   },
   {
     "name": "opencode",
-    "version": "1.18.16-1",
+    "version": "1.18.18-1",
     "origin": "arch-extra",
-    "sha256": "caa9f8017a00eb656066f5ba978e7aaa95d46b978c3c1de5a86f02c5fd374fbe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opencode-1.18.16-1-x86_64.pkg.tar.zst",
+    "sha256": "6b34ff632cccfb80cbe6122017c46879405231ef22da84c12f7a15526eaea0c9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/opencode-1.18.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -227124,6 +227124,48 @@
     "conflicts": []
   },
   {
+    "name": "sing-box",
+    "version": "1.13.18-3",
+    "origin": "arch-extra",
+    "sha256": "ac2f73da1c2c7a8d2ac59fa1c0b43d864c31658b9cd43142745697f8b8711282",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sing-box-1.13.18-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "brotli",
+      "zstd",
+      "zlib"
+    ],
+    "optdepends": [
+      "sing-geosite-rule-set: GeoSite rule sets",
+      "sing-geoip-rule-set: GeoIP rule sets"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "sing-geoip-rule-set",
+    "version": "20260812-1",
+    "origin": "arch-extra",
+    "sha256": "e108d121c0331e702ca37279ec402eece6f49e42d1e675c395375e76bb16687e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sing-geoip-rule-set-20260812-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "sing-geosite-rule-set",
+    "version": "20260812055957-1",
+    "origin": "arch-extra",
+    "sha256": "05c156a45fd6e7596e3710ecdd6a7de5202e42584c95343431aa775dc447e9a6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sing-geosite-rule-set-20260812055957-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "singular",
     "version": "4.4.1.p5-11",
     "origin": "arch-extra",
@@ -257648,10 +257690,10 @@
   },
   {
     "name": "vulkan-asahi",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "75576b4c9a5701377a05603156bc20b357cb5bd04b3b3d2d5e7fe6bde8d1cfbf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-asahi-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "caed894a4fe56797320d032e90d48e8b0864b1b421717c7e13732e14882cf0eb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-asahi-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257681,10 +257723,10 @@
   },
   {
     "name": "vulkan-broadcom",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "0c632ad41efbd027eca44f4ac7a41dd782c189b639903e53c3727230695355ab",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-broadcom-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "74e23df161e4ff338f03360525fd7c045edb65ae0ab87e619708b3a508d5f561",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-broadcom-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257714,10 +257756,10 @@
   },
   {
     "name": "vulkan-dzn",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "1ecdf06d59bc3067da2c55bee67970692fbbe37939fe7af9cd61649bf063d25b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-dzn-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "39177835802fb7bd6129f38a9c65b74b9fb6fbcf239eb188b73f29bc49bf9177",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-dzn-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257781,10 +257823,10 @@
   },
   {
     "name": "vulkan-freedreno",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "6b5785d7b7d7993a828d3f79c6c0e369a619d6e786dd2cfdfd8ac4ab1ad8a2d2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-freedreno-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "2c7921895ab18f445d929b9f07647413ae003a17f6a5643525f08e6b106ddd44",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-freedreno-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257814,10 +257856,10 @@
   },
   {
     "name": "vulkan-gfxstream",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "d6a9c067add6086d2e45fc55cfb3bc93b597b6061b66f33a68b573aa210f200d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-gfxstream-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "c4b07e669c95658cede284155d6042cdc4e00e8828603a7816f3b4a43d97ced5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-gfxstream-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257876,10 +257918,10 @@
   },
   {
     "name": "vulkan-intel",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "3e7be6ccaa12e9f7a888d074f5d6bfa3475557ae4a56eedb5828ca21b64bada0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-intel-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "60bc06100de694fc6e59e4c79d845c049c5ec62ebadac0bd73c7e0680d706735",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-intel-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257909,10 +257951,10 @@
   },
   {
     "name": "vulkan-mesa-implicit-layers",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "aff530f23e9f195f4df53b286d37838689bc1486410ed059324123d92ea1e36d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-mesa-implicit-layers-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "8bd2848723b57e776f8d54b18d345eec5adeb7c88297bdb89089c0f6cf026cb5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-mesa-implicit-layers-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -257927,10 +257969,10 @@
   },
   {
     "name": "vulkan-mesa-layers",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "128a3c4880f3853678ef5335bbc0135240cd01470225367272ae9fc2c6534e40",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-mesa-layers-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "1b81133c1ea09be8573f622fd28903de3e1090c2a3f47a2a502d7adafe508921",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-mesa-layers-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -257946,10 +257988,10 @@
   },
   {
     "name": "vulkan-nouveau",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "2b2e9a16af7662a09e26fd8aa24be5d10566f593cdac2044868d93dcd501c66d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-nouveau-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "a7c18967a58d3e63002ba2ac3c1137c0ad358597a5100f0cb797885886025f2f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-nouveau-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -257979,10 +258021,10 @@
   },
   {
     "name": "vulkan-panfrost",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "d3e49593e9de113b660702043ee592953d2a3b39850e6b40ef383b0832939ebe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-panfrost-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "cc59417087f85733b54ea2d9c8e97f323bd9a571d06c5f4f64055f5fb2c72b03",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-panfrost-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -258012,10 +258054,10 @@
   },
   {
     "name": "vulkan-powervr",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "4fb37ac7efa5c8fe9d86283e58b691f1e340e23dbc258675c3a64575dc56594e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-powervr-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "261f2335daa36913ac59cf4213a048dfab765dcb73e3e7482a171ffdfe863df4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-powervr-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -258064,10 +258106,10 @@
   },
   {
     "name": "vulkan-radeon",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "2d0c85fc7b7db574e62780649c253ac36c8ff36e3fbd79ea0e21fb7110b81a82",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-radeon-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "6e536f5ba1575e1c4be93df6b722292c754fd82bb574b2d816223b5f80d59feb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-radeon-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -258099,10 +258141,10 @@
   },
   {
     "name": "vulkan-swrast",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "d36fab16d875f5152808a4c1f77364dab07628b9fa86d64a16be74982028ff1b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-swrast-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "030d8c4f766863d97b1030ac6312afc00968d86a5c8addf3e9c4655d6cb3ac9b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-swrast-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -258184,10 +258226,10 @@
   },
   {
     "name": "vulkan-virtio",
-    "version": "1:26.1.6-1",
+    "version": "1:26.1.7-1",
     "origin": "arch-extra",
-    "sha256": "bad695aae920cdf473411cfbc49c3fb315b46b32ab0f7f616b93a59f07655a98",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-virtio-1:26.1.6-1-x86_64.pkg.tar.zst",
+    "sha256": "77b6b8892711879a8e0eeca2b74645f367bd5faaa85c3589781cfddfd61b129b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vulkan-virtio-1:26.1.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
