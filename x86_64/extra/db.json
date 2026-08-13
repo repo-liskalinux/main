@@ -11292,10 +11292,10 @@
   },
   {
     "name": "botan",
-    "version": "3.12.0-1",
+    "version": "3.13.0-1",
     "origin": "arch-extra",
-    "sha256": "d4005e9ead3ee258ba6da3c3c03fc0ae809f5d3fc5c0a3f28732f556e63185f7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/botan-3.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "00fc2726752793e201cdbea92bd7c2b1c37c7a16d2b14d3d2955567deb4c8fea",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/botan-3.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -20381,10 +20381,10 @@
   },
   {
     "name": "corectrl",
-    "version": "1.5.2-8",
+    "version": "1.5.2-9",
     "origin": "arch-extra",
-    "sha256": "dcc25de6f802fc79cb0dbe574a6037a003d16f618ca6ab7525ecc254d1411efd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/corectrl-1.5.2-8-x86_64.pkg.tar.zst",
+    "sha256": "91617ccd91a563d29d788c04c98f4aa9ee4c08d77ddd20c4955682a3381aefac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/corectrl-1.5.2-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "procps-ng",
@@ -21186,26 +21186,6 @@
     "provides": [],
     "depends": [
       "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "cpp-hocon",
-    "version": "0.3.0-25",
-    "origin": "arch-extra",
-    "sha256": "9f1f2c386dc5ff39aa68338cfa1ad0e7b4944969befa5661db52c487ed1f3997",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpp-hocon-0.3.0-25-x86_64.pkg.tar.zst",
-    "provides": [
-      "libcpp-hocon.so=0.3.0-64"
-    ],
-    "depends": [
-      "boost-libs",
-      "gcc-libs",
-      "glibc",
-      "leatherman",
-      "leatherman_util.so=1.12.9-64",
-      "leatherman_locale.so=1.12.9-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -53112,10 +53092,10 @@
   },
   {
     "name": "go",
-    "version": "2:1.26.5-1",
+    "version": "2:1.26.6-1",
     "origin": "arch-extra",
-    "sha256": "daf153c6f54145b8c2d05b38d6a0107edb73c625337210e2d09389c25224c1f4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/go-2:1.26.5-1-x86_64.pkg.tar.zst",
+    "sha256": "7e0dc5433024eb6b6508897089b9049f05a9f6be588defc1318c120dd2afca6e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/go-2:1.26.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "go-pie"
     ],
@@ -83471,10 +83451,10 @@
   },
   {
     "name": "hyprutils",
-    "version": "0.14.0-1",
+    "version": "0.14.1-1",
     "origin": "arch-extra",
-    "sha256": "3f888d17c9b9c7869d4e982aa66ef9602e9457dc65564abb9ea0ea57651d9234",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hyprutils-0.14.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8ce00a3d0d2a7e40507e89725a5e216df46f6884325f6cf3dd0fc6528069b033",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/hyprutils-0.14.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libhyprutils.so=13-64"
     ],
@@ -93653,10 +93633,10 @@
   },
   {
     "name": "keepassxc",
-    "version": "2.7.12-3",
+    "version": "2.7.12-4",
     "origin": "arch-extra",
-    "sha256": "34bb9fdab40c71060a6962f892ce4e0d1c05c041663d4532865dd3d0d28f1818",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/keepassxc-2.7.12-3-x86_64.pkg.tar.zst",
+    "sha256": "53703c7350131dd9657a3ee33c5d723d4ed6292c2d8cdfa8809ae27c1a7dca7f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/keepassxc-2.7.12-4-x86_64.pkg.tar.zst",
     "provides": [
       "org.freedesktop.secrets"
     ],
@@ -101873,35 +101853,6 @@
       "glibc"
     ],
     "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "leatherman",
-    "version": "1.12.9-10",
-    "origin": "arch-extra",
-    "sha256": "017ca7ed58a48c4c053293d3900099a18a29194b8c66d96ee1a4e18075af28f2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/leatherman-1.12.9-10-x86_64.pkg.tar.zst",
-    "provides": [
-      "leatherman_curl.so=1.12.9-64",
-      "leatherman_dynamic_library.so=1.12.9-64",
-      "leatherman_execution.so=1.12.9-64",
-      "leatherman_file_util.so=1.12.9-64",
-      "leatherman_json_container.so=1.12.9-64",
-      "leatherman_locale.so=1.12.9-64",
-      "leatherman_logging.so=1.12.9-64",
-      "leatherman_ruby.so=1.12.9-64",
-      "leatherman_util.so=1.12.9-64"
-    ],
-    "depends": [
-      "boost-libs",
-      "libcurl.so=4-64",
-      "icu",
-      "gcc-libs",
-      "glibc"
-    ],
-    "optdepends": [
-      "python: cpplint cmake script"
-    ],
     "conflicts": []
   },
   {
@@ -118061,29 +118012,6 @@
     "conflicts": []
   },
   {
-    "name": "libwhereami",
-    "version": "0.5.0-24",
-    "origin": "arch-extra",
-    "sha256": "10cb8f8a79c7517ca9c831585270523b2c203e3dba9a65be1648480154d314e6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libwhereami-0.5.0-24-x86_64.pkg.tar.zst",
-    "provides": [
-      "libwhereami.so=0.5.0-64"
-    ],
-    "depends": [
-      "boost-libs",
-      "gcc-libs",
-      "glibc",
-      "leatherman",
-      "leatherman_execution.so=1.12.9-64",
-      "leatherman_file_util.so=1.12.9-64",
-      "leatherman_util.so=1.12.9-64",
-      "leatherman_logging.so=1.12.9-64",
-      "leatherman_locale.so=1.12.9-64"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libwhich",
     "version": "1.3.0-1",
     "origin": "arch-extra",
@@ -133926,10 +133854,10 @@
   },
   {
     "name": "monitoring-plugins",
-    "version": "3.0.2-1",
+    "version": "3.0.3-1",
     "origin": "arch-extra",
-    "sha256": "5d1a0ea1463da6a719f47e62e4fabd36380c1a7c2c877861511a8e03ab1dbe9a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/monitoring-plugins-3.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "56c810f0e7304e68d6966dbff9964fd70ab1ad1ec3fbada30bb66dd9c8c89c33",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/monitoring-plugins-3.0.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "nagios-plugins"
     ],
@@ -203940,10 +203868,10 @@
   },
   {
     "name": "qca-qt5",
-    "version": "2.3.10-7",
+    "version": "2.3.10-8",
     "origin": "arch-extra",
-    "sha256": "13017dc6130be5604ffe5173717f90ed135fb6340b12ec13eb66d26248b95c8c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qca-qt5-2.3.10-7-x86_64.pkg.tar.zst",
+    "sha256": "e4b59ae49b5516a6a15f4be75b7953ab1ca254ceb64f6a9c174bdb5e7d0bbc81",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qca-qt5-2.3.10-8-x86_64.pkg.tar.zst",
     "provides": [
       "qca"
     ],
@@ -203968,10 +203896,10 @@
   },
   {
     "name": "qca-qt6",
-    "version": "2.3.10-7",
+    "version": "2.3.10-8",
     "origin": "arch-extra",
-    "sha256": "b0f2fe71e3fc6c33a79098d15ef4d00eed2ab49c0fd58fb08024ffd4ef2a20d9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qca-qt6-2.3.10-7-x86_64.pkg.tar.zst",
+    "sha256": "6e927f831ff7aa472dfe8832dd99f6bef76305d575ba999150a0d92c9550da1b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qca-qt6-2.3.10-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates",
@@ -244848,10 +244776,10 @@
   },
   {
     "name": "thunderbird",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "f42bc942076c60e547bdd7a0ae6951c2186016d52485f4410e43a453ab98f837",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9847eb5a881e49942f5c27e72aff1d61cad26ac7644390863a3a0a67f4fc84f4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -244926,10 +244854,10 @@
   },
   {
     "name": "thunderbird-i18n-af",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "42482664e2a359fb01f4300154543b57734bf1f1a27ec078fc6a5732afc85e7b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-af-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c6711a11faf4d7a73c67ada13fa0d0d94e2dbeca05e6cffa5c1c3828bfba9e53",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-af-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -244939,10 +244867,10 @@
   },
   {
     "name": "thunderbird-i18n-ar",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "34436c176bbf668fe4c277aedf0541f2066fb404dd84746d4b5896dea1d4040d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ar-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "b62a493a2dd8647caabd3a53529ebbc1c83d23711294a27fb067c15c3ff44872",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ar-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -244952,10 +244880,10 @@
   },
   {
     "name": "thunderbird-i18n-ast",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "83d006b5e5714f739045a9302f2ffafdc74a5d5ac9e49a18230b03291bcbdf0b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ast-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "321452abebe1fb202a453e5af006d5397978989c9feeba41a737cff39b84d0fa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ast-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -244965,10 +244893,10 @@
   },
   {
     "name": "thunderbird-i18n-be",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "ac222f844b17788a9dc6a0454098988b01e1a579444ab6cdb7fb753e0aa1d9fc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-be-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "05bf7449d39cf6efec2cdebeeb321486810b0cb227e1ab449d5df925c70a71c8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-be-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -244978,10 +244906,10 @@
   },
   {
     "name": "thunderbird-i18n-bg",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "3aac0ef993ae708318287abc2cb06f08fb620aa52e6d24805ddaa93074f2a19c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-bg-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1ed45d9fc89ca1a9cfef658334ea7ab50f0e6e448a9d8e7045170f6912cbd2d7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-bg-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -244991,10 +244919,10 @@
   },
   {
     "name": "thunderbird-i18n-br",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "27745ac2c78b4ab17bfb76f9f93bee11f2838dd50885f3a9038237ae3a1384f9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-br-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "99ea56700c5d5b7921ae9551e4dc1268da52e553c1805d0192e1a0333291021f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-br-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245004,10 +244932,10 @@
   },
   {
     "name": "thunderbird-i18n-ca",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "329df59eb16b2947773f2d1c5ae347c7271a4b789eefe4be2d00ac998dbfa58c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ca-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "14edc7a4580e148b26fcefa446ff7f35d056bbad612523b59f5ab4e2821b8f98",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ca-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245017,10 +244945,10 @@
   },
   {
     "name": "thunderbird-i18n-cak",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "60e77d71c551c8b3ac7d421b47623295566f2441f1dcef01d973a6cc4dc2bdc3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-cak-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c1f1b9d4cfbd7f0f346b4a3f1b5d61c54f8116ffbcd932d69f9f78be97f55b3d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-cak-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245030,10 +244958,10 @@
   },
   {
     "name": "thunderbird-i18n-cs",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "a36d856918dd5a37854b7cb446212cc6eeaf5010f8682f352353b761a6175e14",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-cs-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "15f55b6833cd06e599a1f4d86be8e54705d66258a92709818bc565a0c0442384",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-cs-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245043,10 +244971,10 @@
   },
   {
     "name": "thunderbird-i18n-cy",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "dcb61d2ab118433fb228c27ed1fdd5cbbcab347939155257707f64f9ba3254a0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-cy-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "36310a8348285410d417473992db15e10831a35852dae1ff61441d529298cd26",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-cy-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245056,10 +244984,10 @@
   },
   {
     "name": "thunderbird-i18n-da",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "5a532738d6b5256f833312ce11fa0cdabf62f2ebc7becb4117bd35896a309d44",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-da-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "87181f2ed9162316a9eb7ff7f1623912d846eeca56687419e2492c39446b7a56",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-da-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245069,10 +244997,10 @@
   },
   {
     "name": "thunderbird-i18n-de",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "0350bc8aa28ac84640cf6707936176225291ea571a01aa703d816b16ffcdb6c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-de-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "7d5498af238fb6d84644f12c41c6589718d9f33f34b9fea3de0c67c81bb9666e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-de-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245082,10 +245010,10 @@
   },
   {
     "name": "thunderbird-i18n-dsb",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "065286a0a47b59186d8601701ae401d1ffcd0725c9590424a9c85556eb49c67b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-dsb-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ade40a3f930be29399b0308ee640a693be352c7d0d89bf3d88e982867b88bceb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-dsb-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245095,10 +245023,10 @@
   },
   {
     "name": "thunderbird-i18n-el",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "192c59e5deba61ee7e244091548e2efdfd53f782389b50a2c5919ef2f3173904",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-el-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2cbdd583e815ab405f1b2fca2d68b4ecaf89a2b9ae45d4b2fb52e9895d183d17",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-el-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245108,10 +245036,10 @@
   },
   {
     "name": "thunderbird-i18n-en-gb",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "55f12005eb5d3df308abe660ca5ee17f85c977a0a1375662fcfd6f9514db417b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-en-gb-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f3eda57396ab4647929f9dc32e7de8acba9cafe3d74cc07535114554d5b7cf5f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-en-gb-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245121,10 +245049,10 @@
   },
   {
     "name": "thunderbird-i18n-en-us",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "81af4f75131835b22a309efaf774ac42bc861ec79a21a2c82eb5fa91c484c1e4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-en-us-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "7d745e1dda8b4281ada4f918ecdea6cdebaccb529b9a9473ca56e322f4279365",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-en-us-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245134,10 +245062,10 @@
   },
   {
     "name": "thunderbird-i18n-es-ar",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "91690edeaddb484a27e87fd4b7e45ac6ac25a999b85d7427d36a61d1ea74d079",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-es-ar-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1c3af23b17c51eef1a1b3ac3d5d5f78ec0ebe5c0db5d3cdf9fc74ce0790daeed",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-es-ar-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245147,10 +245075,10 @@
   },
   {
     "name": "thunderbird-i18n-es-es",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "44c096ad022eaac37fd0cf79354c8f09ecd98ebd3dcda62d9e8d1947ce983bed",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-es-es-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2eae62a6315bda850eafa251e11d89bcb666e2a36b4fae6b047620c8d83709c5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-es-es-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245160,10 +245088,10 @@
   },
   {
     "name": "thunderbird-i18n-et",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "18df4e1e37b2925c67444cd52eb8365c55b0684f88e85cd9473f43d1f66c6762",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-et-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "92e7893f411d372ac5862bd66e14a2170ee0c82920ee473fbbe03e38bdbe3828",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-et-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245173,10 +245101,10 @@
   },
   {
     "name": "thunderbird-i18n-eu",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "fa4b9c10145b88e0e156faf957fef162eab06c1f39e12d767047b0909b4b9726",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-eu-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f8141112655a893524a67424823e004397a02493f3c232ce6b0f89f99bdeddc5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-eu-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245186,10 +245114,10 @@
   },
   {
     "name": "thunderbird-i18n-fi",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "b195b8792991192b6f49cf32d40bc1cf7cfa305c1a3e699481e2ce617ec43a10",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-fi-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "82e95ee99b70c9d53530df9808706ec4f81836ae6947208d132f591957fd5443",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-fi-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245199,10 +245127,10 @@
   },
   {
     "name": "thunderbird-i18n-fr",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "646d61a3b1ba90bfd80a598d822451aa74ff63736f0c9c53c06b69c6d6d9a8dd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-fr-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "113e27b72703d5e151f5b3abb8ea3228711aa1ff34c46dadcf468212d1adbe58",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-fr-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245212,10 +245140,10 @@
   },
   {
     "name": "thunderbird-i18n-fy-nl",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "b6b8e0e986a5b3febac1669821ba4260b946626ce12c780c9158fab346b58e8e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-fy-nl-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6ecefef9bfc913f2e4e731b88f1616efb8e213a25177433bd5350e12c9750ddd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-fy-nl-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245225,10 +245153,10 @@
   },
   {
     "name": "thunderbird-i18n-ga-ie",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "ee250e4a896236176bb35c5ba4c0c508ff6c073cadf5fe48cdd8655b4a4cfe54",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ga-ie-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "86cef7b315a5070da4c2327e32ec3cca53cdaede41cdb66a88ce6a1bf64b8046",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ga-ie-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245238,10 +245166,10 @@
   },
   {
     "name": "thunderbird-i18n-gd",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "03300e353c90305f004babdc599c030b1d8831cb97c530bb344758969eec3c4f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-gd-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9e3b8f90d55acb87957ae12b18a68831a8cc5ecf96944004afb4d420ded11019",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-gd-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245251,10 +245179,10 @@
   },
   {
     "name": "thunderbird-i18n-gl",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "5240c36f14e5c39e10fed69964fef6d9177454c920b146ced69a5553ab5019b2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-gl-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c2f08bab6da3d3b63140503942e4fac3f7dbcfcedbc5dfd6bf191cf13e9e5b5b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-gl-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245264,10 +245192,10 @@
   },
   {
     "name": "thunderbird-i18n-he",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "de50a86e1e017d7a591a0d2fc154cec43f04143c12aac3ffa451b85a2a7d58e7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-he-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "dd76b271cae09ed62199d5aba2bfb03e9812ec2b7bc0197e6d486881890c4cf9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-he-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245277,10 +245205,10 @@
   },
   {
     "name": "thunderbird-i18n-hr",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "70682c899e3e45409f08ef9fdfef6612ce6d389a3779f0fd257228665abee0e8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hr-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "656255bb3b9d752ddb34654b986f6718b3a5b0171a6813c74d21d44662a85536",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hr-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245290,10 +245218,10 @@
   },
   {
     "name": "thunderbird-i18n-hsb",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "92f0e8990e08d0d93230bf21c181275ce99ba8cb22e8443741a6035677623b71",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hsb-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "eda2b21e4d2f664302f165421d7338e1a0589a932f5c498051a215afefed988b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hsb-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245303,10 +245231,10 @@
   },
   {
     "name": "thunderbird-i18n-hu",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "cef99a018453bc757acc3df74bcfe9ca37cc1098839caa42e2244fa8e8ac218f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hu-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "dfc738f252dc3684bb09e990c3c401a532a9521a3f61756d790ef1e978505b60",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hu-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245316,10 +245244,10 @@
   },
   {
     "name": "thunderbird-i18n-hy-am",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "a68ef6cd285d2a6042ce169f32f424d9aedbd88b059abd46a81f576fb0cc819e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hy-am-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "e363fb71c3692298274600a5d36aa2b2711a8314057ead4612f9038a75d9c7e3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-hy-am-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245329,10 +245257,10 @@
   },
   {
     "name": "thunderbird-i18n-id",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "f5ca7dec769580c7c689f40d64ad5f98c3fabdb971321c53b659f6f876d5b331",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-id-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6722319bd8e70d8b62134af9f5fc180a15c536029b3443e29c9a89f459fd8b1a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-id-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245342,10 +245270,10 @@
   },
   {
     "name": "thunderbird-i18n-is",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "564088fd8488bc2611a24510f13fb99a404c9dbc5a29b7eac8f79bb3f4e41348",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-is-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6e3bbad51ceaa7c14d4ee437db4bec3e859b290f891e96c2ad3cdd6d5b1efd11",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-is-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245355,10 +245283,10 @@
   },
   {
     "name": "thunderbird-i18n-it",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "049d56cfcdee1116c57a78fc4eeacba72bbb5b0417e97e4b743185e51f2656a4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-it-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f7b6f8c3f23f5ab01d5ec110def0ead813de2e42ad4f057ae978f8e4d3dd8e79",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-it-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245368,10 +245296,10 @@
   },
   {
     "name": "thunderbird-i18n-ja",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "a15489dfda5f347024ffd44e1d62da44eeebc313825e08d8e243469422761c08",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ja-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6b21c435bf489ffa27eb10bcae8fe1149b99d9f48c29ffb3e2d01d42de7c6955",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ja-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245381,10 +245309,10 @@
   },
   {
     "name": "thunderbird-i18n-ka",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "60447273edc79e1e0ec9be77818d74db4cd1b074cfe9a8f85f3e5810032c2fc1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ka-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "609dd4ce211d67b4d6a3dc37333c3509b369d229eced06247e037629ffdc511d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ka-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245394,10 +245322,10 @@
   },
   {
     "name": "thunderbird-i18n-kab",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "088f6139a9eadebcb3484f25d58313ed6077aaa4b008377e0f8fae209f1b906b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-kab-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f174a21176bde34e86a95e4378cef6aabe1566dbb366bd8193920cc2743a577d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-kab-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245407,10 +245335,10 @@
   },
   {
     "name": "thunderbird-i18n-kk",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "017e63a66c67ed6fe94711a663c3078d9659459cd545b414566c2d145d7572a9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-kk-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "85dad485261a6f5148f0a52a88e0463f2f0a1e326bc3c18bc3ef13261655265c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-kk-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245420,10 +245348,10 @@
   },
   {
     "name": "thunderbird-i18n-ko",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "53c220edd8b423d1e7830106cd4f5bb3166712331a775ed4925785621cfdc7c1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ko-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "416c090dab67933780622b214faf491aae6ad81fe35cef4659269a47b8df2785",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ko-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245433,10 +245361,10 @@
   },
   {
     "name": "thunderbird-i18n-lt",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "1b91ca60c36bb6f3adc0cc5095062b581d3c0a798ac0e5294aadb6bcc3367884",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-lt-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2a7f105f1c9b7dd120504b788bc2d9bdeaf1b181316d35eaf2cb5b697b973025",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-lt-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245446,10 +245374,10 @@
   },
   {
     "name": "thunderbird-i18n-ms",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "83a9b04ce34ddbedbadcbd9b2e6d46e082156cf64b7576165893c261492e19b0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ms-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f78408617da68b734873a7d5840cbcba7678584676460d92ab93310c0563e03c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ms-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245459,10 +245387,10 @@
   },
   {
     "name": "thunderbird-i18n-nb-no",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "3b6108b21fb34e9648a0fdae150b687332dc414779010c76eebda93e836b4691",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-nb-no-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "605fd0c3e147722c88f815bf9a534e2aafdad908daba120316601a65e1b1f936",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-nb-no-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245472,10 +245400,10 @@
   },
   {
     "name": "thunderbird-i18n-nl",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "fbcd1e178c8faed61439cc5a12f7a716396e0358ff1baf437a7d10a5c74c83a8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-nl-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "80522392e73fe7273783d5b56841007714ac3cd619f4911d17e02bdd06a30130",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-nl-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245485,10 +245413,10 @@
   },
   {
     "name": "thunderbird-i18n-nn-no",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "5663402b05401edf06fe7d27045086cd50434df8efc6fff8aef196ed55bf5803",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-nn-no-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "4ea8e0dc1927850600fca392ff1810d597e5415c05cd00dd5aa1ecf0108f6c76",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-nn-no-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245498,10 +245426,10 @@
   },
   {
     "name": "thunderbird-i18n-pa-in",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "6268b8cd4e353a21b5a81ef61b6fd97d5620938e97032bdf152450df13affdad",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pa-in-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "e34c8b7eb3598e8c4a7f725de7999e509defbc7b279563aaaf9a3882bc4ea6dd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pa-in-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245511,10 +245439,10 @@
   },
   {
     "name": "thunderbird-i18n-pl",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "b02e8f7d9dacddb23c516360e111cc69eac0911e74b2f0b97531bbeeb8c1fd90",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pl-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "7ddf619b9b66475efb4ea8fee608b9ac75a897087b7bae89e010a138efe4b6b7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pl-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245524,10 +245452,10 @@
   },
   {
     "name": "thunderbird-i18n-pt-br",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "d30b6c19249b64b2ecb5d30447a72fd97b1928bc35037ec32ee635e2a14c630d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pt-br-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "39c3bc1f0ae3a601b5d4dcc3f2474f1a261f3572e8e7905a3226345538d7ed5a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pt-br-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245537,10 +245465,10 @@
   },
   {
     "name": "thunderbird-i18n-pt-pt",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "95e4e705c64764048fdb42395efc318e551f9acab8316c4b7c116a23aa8588d5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pt-pt-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "30799e8b426480543d9410e3c9ee0a74d1bfdc3380e2a7f1d8c10a4ef7d1821e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-pt-pt-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245550,10 +245478,10 @@
   },
   {
     "name": "thunderbird-i18n-rm",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "e67214966648ed026309166fccffb26cad9f90d2facc8fbb8924fb7d23c8ad44",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-rm-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "8381f21a9d7dff1f3c5c5558c1176cc561f23c6b385adc9ce342696393d3c066",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-rm-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245563,10 +245491,10 @@
   },
   {
     "name": "thunderbird-i18n-ro",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "00a4b565b2d9ac6da8ca672f4f03284df2ff154953d02823a87c1cb2dbc7a0ed",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ro-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5ac4a8c7a914a739e8a7c48f553fda7404fe7dbbd52f9f6c6ceab794511c3b7f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ro-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245576,10 +245504,10 @@
   },
   {
     "name": "thunderbird-i18n-ru",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "c5f541176dbcbb97b565bb504edd4ddf82e756b8db1f1f7a59f9edecc855ab36",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ru-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ab49f6d3740f423b8639ca8c424e25848ad8b7e262b7b0d3b234338fd5fc6c40",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-ru-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245589,10 +245517,10 @@
   },
   {
     "name": "thunderbird-i18n-sk",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "0f8475770faeb6ad7517cb49bd67f08d8503552d1d8f3ed590555248963d7831",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sk-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "4df9f85de16f0860f7d63f52c8a57b0d85ab953e3aa375223df7c42397e57dba",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sk-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245602,10 +245530,10 @@
   },
   {
     "name": "thunderbird-i18n-sl",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "2e6198198106d8604a974837f9e8ddf8403874d2c7d84b020923bfb23fe8e577",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sl-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ddae110d6ab4fc2b7ca429a7d91924a642ab979a6519df6ab3c5d3f457f36fd5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sl-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245615,10 +245543,10 @@
   },
   {
     "name": "thunderbird-i18n-sq",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "d7463a7743154c37c5fa5f6c4de3f0ded20298ecfcbe4b48d898c7311cc9c522",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sq-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a9036b3fc6282a74e0b9029239d72b75f38f7deeb1ad5622e1dc29228f1bc879",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sq-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245628,10 +245556,10 @@
   },
   {
     "name": "thunderbird-i18n-sr",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "6cb60a321ae5967ab9d2bd4d2ad5bd44a9ca772ae796d6c871ea942d446b2522",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sr-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "d0c3f93c3a5928db01ac91385fc796cbee01106b8970b00ba348f47d8dc3c45d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sr-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245641,10 +245569,10 @@
   },
   {
     "name": "thunderbird-i18n-sv-se",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "3ab125e6ac7077415e7a4ea87539d6a7e4d209b39b0e994978129e8a5f1edba3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sv-se-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "8e9c58ab9c434ec0b5b02f1a50ce7215197572b487bb1f43bf80713f2c5f923d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-sv-se-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245654,10 +245582,10 @@
   },
   {
     "name": "thunderbird-i18n-th",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "ef6dd7d3d8d25dea02b471f7c68af3fe8c0b581ff190e8b85850970534666410",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-th-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1d4bcbc9de49ac20c0736b8b7ce8deba085d43a65ba0c9aa151009d303481515",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-th-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245667,10 +245595,10 @@
   },
   {
     "name": "thunderbird-i18n-tr",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "63566f1a868f275e1df929fb6f5afd84744919b6607ea414e199ca93b2c096cb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-tr-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ee714c35dfc5d01c6346338cf59282f8e959e0a77e2ab06b7a2900149a98a14e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-tr-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245680,10 +245608,10 @@
   },
   {
     "name": "thunderbird-i18n-uk",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "164859b83ed0fe987a9984a7fd3d055d6c90cb5b4f92a7917f85e612a55c94bd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-uk-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "21442640dca9a0b8c6f4cbdb3cd1bc3fbd139f29392fa593fbf3498a5efc81b9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-uk-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245693,10 +245621,10 @@
   },
   {
     "name": "thunderbird-i18n-uz",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "6e82422d7c4ff556b0f1b708667a76ba0df0296ca262bb8468163b73af2ce982",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-uz-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "22dc85622f2d4e071bbf82733db507c4a6adad23709bf52272fa45a2a57af848",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-uz-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245706,10 +245634,10 @@
   },
   {
     "name": "thunderbird-i18n-vi",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "984cde59d04f1412204556d8f78da22a77548d4142824bb0ccb95e9edd2ffa62",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-vi-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c545e1e251f42bf66bc8517b206e6fdbca2dcb3db8db72bd546b96f8aed1726b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-vi-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245719,10 +245647,10 @@
   },
   {
     "name": "thunderbird-i18n-zh-cn",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "b49618ba7388c71890011f74278c3db7c0c8d6c9a9ea43fde8f9dffb2644b556",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-zh-cn-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0f658e5901030263b9c409332943cd5d1b84ca1a16c2f39a7f0708364fac8531",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-zh-cn-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -245732,10 +245660,10 @@
   },
   {
     "name": "thunderbird-i18n-zh-tw",
-    "version": "153.0.2-1",
+    "version": "153.0.2-2",
     "origin": "arch-extra",
-    "sha256": "3740de1b044a20f7804a53c8ea29529ede7c203b71d6025f644d0d59630de094",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-zh-tw-153.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "e30ab4b8f87055ab5e5313e7e881ccf4573bc6c5903f4e20696a007395820735",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/thunderbird-i18n-zh-tw-153.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=153.0.2"
@@ -246710,10 +246638,10 @@
   },
   {
     "name": "tombi",
-    "version": "1.3.2-1",
+    "version": "1.4.0-1",
     "origin": "arch-extra",
-    "sha256": "e87ccf64a5eee9b37d0b73880eefcd8716b318b8fb3d75f4f73800304d457862",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tombi-1.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "75315d924b3543289d78df53b73000f2266bdc1426eb1f4addd51d9a29edba2c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/tombi-1.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc"
