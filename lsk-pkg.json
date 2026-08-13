@@ -107,6 +107,28 @@
         ]
     },
     {
+        "name": "eudev",
+        "version": "3.2.14-1",
+        "origin": "liska-core",
+        "sha256": "",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/eudev-3.2.14-1-x86_64.lsk.tar.zst",
+        "provides": [
+            "udev",
+            "libudev.so"
+        ],
+        "depends": [
+            "glibc",
+            "kmod",
+            "hwdata",
+            "util-linux"
+        ],
+        "optdepends": [],
+        "conflicts": [
+            "systemd",
+            "systemd-libs"
+        ]
+    },
+    {
         "name": "filesystem",
         "version": "2026.08-1",
         "origin": "liska-core",
@@ -259,7 +281,8 @@
             "glibc",
             "networkmanager",
             "util-linux",
-            "busybox"
+            "busybox",
+            "eudev"
         ],
         "optdepends": [],
         "conflicts": [
