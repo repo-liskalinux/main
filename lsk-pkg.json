@@ -107,13 +107,15 @@
         ]
     },
     {
-        "name": "glibc",
-        "version": "2.44-1",
+        "name": "filesystem",
+        "version": "2026.08-1",
         "origin": "liska-core",
         "sha256": "",
-        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/glibc-2.44-1-x86_64.lsk.tar.zst",
+        "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/filesystem-2026.08-1-x86_64.lsk.tar.zst",
         "provides": [],
-        "depends": [],
+        "depends": [ 
+            "iana-etc"
+        ],
         "optdepends": [],
         "conflicts": []
     },
