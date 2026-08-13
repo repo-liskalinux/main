@@ -1537,13 +1537,13 @@
   },
   {
     "name": "agda-stdlib",
-    "version": "2.4-1",
+    "version": "2.1-1",
     "origin": "arch-extra",
-    "sha256": "16a7bcd090a9653857160ac897e4e561cdad4506182b1e4118288e9a8c94c306",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/agda-stdlib-2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "47cc0d4cd70a37fc978f9296d74e89fb1606d259db5ba214b9f6271f5c92a30e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/agda-stdlib-2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "agda=2.8.0"
+      "agda=2.6.4.3"
     ],
     "optdepends": [],
     "conflicts": []
@@ -6528,10 +6528,10 @@
   },
   {
     "name": "audacity",
-    "version": "1:3.7.8-4",
+    "version": "1:3.7.8-3",
     "origin": "arch-extra",
-    "sha256": "6595396d6ad9d75b103e0c526b23cf2b3dfc20cc045563dc4ec557601fcbee92",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/audacity-1:3.7.8-4-x86_64.pkg.tar.zst",
+    "sha256": "f05b4d6a579c47758df39579e40af3698de8ae606fa376188e372cfb8037dbb3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/audacity-1:3.7.8-3-x86_64.pkg.tar.zst",
     "provides": [
       "ladspa-host",
       "lv2-host",
@@ -11024,10 +11024,10 @@
   },
   {
     "name": "bolt",
-    "version": "0.9.11-3",
+    "version": "0.9.11-2",
     "origin": "arch-extra",
-    "sha256": "39fa256a5ccb093d40bf41af68f037d43785af76df8601dbc85d1ef24222b726",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bolt-0.9.11-3-x86_64.pkg.tar.zst",
+    "sha256": "5d82ac35024a4e603ace8229bb6409df2e7567af526af2f0f2bdf18603a004a1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bolt-0.9.11-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "polkit",
@@ -12608,10 +12608,10 @@
   },
   {
     "name": "buildah",
-    "version": "1:1.45.0-1",
+    "version": "1:1.44.1-1",
     "origin": "arch-extra",
-    "sha256": "46fcd84645d14a29973f701b17045a7a3258be966e0e2a5fb39c96d91d463eec",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/buildah-1:1.45.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2dcb63fda94594f43d4121fff70d26425be33fd7dfec6d0acf6fe3887a9645b3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/buildah-1:1.44.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -15924,10 +15924,10 @@
   },
   {
     "name": "cef",
-    "version": "151.3.17-1",
+    "version": "151.3.16-1",
     "origin": "arch-extra",
-    "sha256": "45b034f206dc6697f4cd3cb59a8b134b3045db2e03d541f0bf7d86c9e0686ac0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cef-151.3.17-1-x86_64.pkg.tar.zst",
+    "sha256": "f784d3045ab4dcbb03d91c6d9675cdff82556822b1081fdfe9e6f8f7a458e162",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cef-151.3.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -20140,10 +20140,10 @@
   },
   {
     "name": "containers-common",
-    "version": "1:0.69.1-1",
+    "version": "1:0.68.1-2",
     "origin": "arch-extra",
-    "sha256": "482d2a54c7d6e4459abdd9dc29a2776bf4910b522f1ca6f64630201dada510f0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/containers-common-1:0.69.1-1-any.pkg.tar.zst",
+    "sha256": "f77d18fe863e62a1d3a2900217673be19aa3c53f8ea1d10ac36f63abc71135e8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/containers-common-1:0.68.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "container-network-stack>1"
@@ -23950,10 +23950,10 @@
   },
   {
     "name": "deepin-camera",
-    "version": "6.5.22-1",
+    "version": "6.5.21-1",
     "origin": "arch-extra",
-    "sha256": "066ec0eefeadac73ef18fac42aed46749bdff9d4982235f677daeee672b203a3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-camera-6.5.22-1-x86_64.pkg.tar.zst",
+    "sha256": "b0e5315ccba183ba4a1917c944113c5eb67d63850620d52be1033a6bb9f905ae",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-camera-6.5.21-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -27972,10 +27972,10 @@
   },
   {
     "name": "docker-buildx",
-    "version": "0.36.1-1",
+    "version": "0.36.0-1",
     "origin": "arch-extra",
-    "sha256": "e5253e957329b0c0dde432dcae4ec3d63132b0cfb29be75f431eeb9aa8de2813",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/docker-buildx-0.36.1-1-x86_64.pkg.tar.zst",
+    "sha256": "221fae9bbc24148f4ea8818addb679e2898eee0e9a54ca2eec17d41a7c31ae26",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/docker-buildx-0.36.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -35728,10 +35728,10 @@
   },
   {
     "name": "fastflowlm",
-    "version": "1.0.0-1",
+    "version": "0.9.46-2",
     "origin": "arch-extra",
-    "sha256": "bc93ad8b1fbfe130198de738a11c2bbc38ab095d058bb4a056176ff742818cc9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fastflowlm-1.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bd587a80ee0e3967b3d646cd81228f3a902c2ece7130035a329ea1f587feb9e1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fastflowlm-0.9.46-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -46803,10 +46803,10 @@
   },
   {
     "name": "geonkick",
-    "version": "3.7.0-3",
+    "version": "3.7.0-2",
     "origin": "arch-extra",
-    "sha256": "08ba45ee68f130396b2efef7f834c9360d12fa44abe61de2fc470732c2d93a4d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-3.7.0-3-x86_64.pkg.tar.zst",
+    "sha256": "d2b1b5b7ac87399a1185460726710d65c0eae1f2347c55e23994245ef34d4f88",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-3.7.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "geonkick-lv2=3.7.0",
@@ -46818,10 +46818,10 @@
   },
   {
     "name": "geonkick-common",
-    "version": "3.7.0-3",
+    "version": "3.7.0-2",
     "origin": "arch-extra",
-    "sha256": "61d9d7c894907398686946710378192b0c4b44056bae94109f7fb88bcf87129e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-common-3.7.0-3-x86_64.pkg.tar.zst",
+    "sha256": "02e47b7be0060d4a2233efd81a2d7a85b9a2ea33cfd8ca3c26519dbbef2d962d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-common-3.7.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -46829,10 +46829,10 @@
   },
   {
     "name": "geonkick-lv2",
-    "version": "3.7.0-3",
+    "version": "3.7.0-2",
     "origin": "arch-extra",
-    "sha256": "42e1895d8fc23a4356a6614b9edf5b05e0f4d3832c106ded505a29d0abd76c06",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-lv2-3.7.0-3-x86_64.pkg.tar.zst",
+    "sha256": "d65aaff0a67c8c9785e70fd68e9717c602eda85c8bdca521c73cd63add901cd5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-lv2-3.7.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -46849,10 +46849,10 @@
   },
   {
     "name": "geonkick-standalone",
-    "version": "3.7.0-3",
+    "version": "3.7.0-2",
     "origin": "arch-extra",
-    "sha256": "66b7120bac91dcc0edb05925316d01bb8942476f150ad78e7e8cfd76803418c7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-standalone-3.7.0-3-x86_64.pkg.tar.zst",
+    "sha256": "475322c47bc15367bf17644c913a2ce84d321751c4133d4b44d154947066489d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-standalone-3.7.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -46870,10 +46870,10 @@
   },
   {
     "name": "geonkick-vst3",
-    "version": "3.7.0-3",
+    "version": "3.7.0-2",
     "origin": "arch-extra",
-    "sha256": "0d81d931561e0e24f66ffccdee769af107d0e3f478f4afa3ebecd5813e16a39d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-vst3-3.7.0-3-x86_64.pkg.tar.zst",
+    "sha256": "ad5b2cea2e890f0e85147dc2522e64dc85cffedef25df96f5310eb4e14341dd4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/geonkick-vst3-3.7.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -53836,10 +53836,10 @@
   },
   {
     "name": "govulncheck",
-    "version": "1.6.0-3",
+    "version": "1.6.0-2",
     "origin": "arch-extra",
-    "sha256": "b08b3eac41f65467341ca74c45c35681c09995f4399554e80ec2c4ea1b8b36ae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/govulncheck-1.6.0-3-x86_64.pkg.tar.zst",
+    "sha256": "47cc1cc2fc90a3738a128608056e89d0ecc26ab7fb967bd92fe0c7559dbe1d9e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/govulncheck-1.6.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -85125,10 +85125,10 @@
   },
   {
     "name": "influx-cli",
-    "version": "2.8.0-3",
+    "version": "2.8.0-2",
     "origin": "arch-extra",
-    "sha256": "ac279fc372c845aa6cca4fb4989d6090502220ed5e933e4d9aa86d21e3dc36b3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/influx-cli-2.8.0-3-x86_64.pkg.tar.zst",
+    "sha256": "d1e0f71efe1f695ece052f0f7e88db6a83c136323f92538af5900cd60821841e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/influx-cli-2.8.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -109905,10 +109905,10 @@
   },
   {
     "name": "libphonenumber",
-    "version": "1:9.0.37-1",
+    "version": "1:9.0.36-2",
     "origin": "arch-extra",
-    "sha256": "098f5f517ed5fef65582c0a89b5fccfd666b0555b7cfc29ae6d8bc01496c8fea",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libphonenumber-1:9.0.37-1-x86_64.pkg.tar.zst",
+    "sha256": "4222f9fe1b0ade133de2137e53f9a1f4c47f475fea3205bb009a227ce0e9af98",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libphonenumber-1:9.0.36-2-x86_64.pkg.tar.zst",
     "provides": [
       "libgeocoding.so=9-64",
       "libphonenumber.so=9-64"
@@ -117150,10 +117150,10 @@
   },
   {
     "name": "libtsm",
-    "version": "4.7.0-1",
+    "version": "4.6.0-1",
     "origin": "arch-extra",
-    "sha256": "1dcd8cc89e8c8c173c356b77e609f06ef4a8e63315921a29178e438ed9e7ee6d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libtsm-4.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "818cdbc0fffbf81a676df549d632c047d13c4b8241133ae612a95c92116de8dd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libtsm-4.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -132910,12 +132910,13 @@
   },
   {
     "name": "mise",
-    "version": "2026.8.3-1",
+    "version": "2026.7.17-1",
     "origin": "arch-extra",
-    "sha256": "9c24c17729cd32a84558ae01bd22031c461cbc6abed322c862fa70577290b437",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mise-2026.8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3858070f794c3e1584e4abcf5881db5c02c8accfbd5e3efbf2666cb334828f00",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mise-2026.7.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "bzip2",
       "libgcc",
       "glibc",
       "lua51",
@@ -134402,10 +134403,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.14-1",
+    "version": "0.24.13-3",
     "origin": "arch-extra",
-    "sha256": "460f82d1b5f7642f754ea7045fc6dea81b9fee020a9783075cc6b2ef63ce9900",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mpd-0.24.14-1-x86_64.pkg.tar.zst",
+    "sha256": "03ca044c6d9f99989c46e2e1659baacd58f9ae6dfd631350f610b532683871ed",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/mpd-0.24.13-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -145852,16 +145853,16 @@
   },
   {
     "name": "openrgb",
-    "version": "1.0rc3-3",
+    "version": "1.0rc3-2",
     "origin": "arch-extra",
-    "sha256": "d6bdf9b079787a6c3f34920442462d98b63e39688e16856444e307ddb8771830",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openrgb-1.0rc3-3-x86_64.pkg.tar.zst",
+    "sha256": "28c9355cd1092071e5ed04fac84afecebfd10df33b5b16509c058e203f1fe4ac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openrgb-1.0rc3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libstdc++",
-      "qt5-base",
+      "qt6-base",
       "libusb",
       "hidapi",
       "mbedtls3",
@@ -151892,10 +151893,10 @@
   },
   {
     "name": "pd-sfizz",
-    "version": "1.2.3-18",
+    "version": "1.2.3-17",
     "origin": "arch-extra",
-    "sha256": "36795c058c6ea985c08d91ed89bf46260a24c16d1c80303d5eeb285a330b1a42",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pd-sfizz-1.2.3-18-x86_64.pkg.tar.zst",
+    "sha256": "b58ef8cfe7bf9347faae59fd0d4e6601a860c8951f976befb8ad3acec8583071",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pd-sfizz-1.2.3-17-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -165973,10 +165974,10 @@
   },
   {
     "name": "podman",
-    "version": "6.1.0-1",
+    "version": "6.0.2-3",
     "origin": "arch-extra",
-    "sha256": "4c3ca45560399ea0b2c0045467347d63f86cec8511bd70f09f4419d351886204",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podman-6.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ef45acc6b7fbb3bc8571b18eeb06664a573205e4972697e8393a331dad7bd778",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podman-6.0.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "catatonit",
@@ -166042,10 +166043,10 @@
   },
   {
     "name": "podman-docker",
-    "version": "6.1.0-1",
+    "version": "6.0.2-3",
     "origin": "arch-extra",
-    "sha256": "c9d0156f3bfeacaa810d1814dcc2d658d9b8f7b8ac21e4f1f945beefe146b2e5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podman-docker-6.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "63471f2cf2bee421c9fde59f101b3b8bd34bc3e59aacee906d4754ad6fc1c311",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/podman-docker-6.0.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "docker"
     ],
@@ -168185,61 +168186,61 @@
   },
   {
     "name": "profanity",
-    "version": "1:0.18.2-2",
+    "version": "1:0.18.2-1",
     "origin": "arch-extra",
-    "sha256": "789a3d4d08246fc404df7a9b6198f65e78db7ea6962d9b46c607e71cf09ec16a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/profanity-1:0.18.2-2-x86_64.pkg.tar.zst",
+    "sha256": "8ec3a79b41724866d0e02452ba27b581bff7bddb6fac6c7cf105b5707a7fa733",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/profanity-1:0.18.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "libcurl.so=4-64",
+      "libncursesw.so=6-64",
       "expat",
       "glib2",
-      "glibc",
-      "libassuan",
-      "libcurl.so=4-64",
-      "libgcrypt",
-      "libgpg-error",
-      "libgpgme.so=45-64",
-      "libncursesw.so=6-64",
-      "libnotify.so=4-64",
       "libotr",
-      "libreadline.so=8-64",
+      "libnotify.so=4-64",
+      "libgpgme.so=45-64",
+      "python",
+      "libgcrypt",
       "libsignal-protocol-c",
-      "libstrophe.so=0-64",
-      "python"
+      "glibc",
+      "libreadline.so=8-64",
+      "libassuan",
+      "libgpg-error",
+      "libstrophe.so=0-64"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "profanity-gtk",
-    "version": "1:0.18.2-2",
+    "version": "1:0.18.2-1",
     "origin": "arch-extra",
-    "sha256": "bed5d6cccc69585a3e83cc00741448a7a91a83a830e87c8cae888b56c1f184f7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/profanity-gtk-1:0.18.2-2-x86_64.pkg.tar.zst",
+    "sha256": "8d2c903708513446c52f186608e9280158dc76e5dfffc00a399a92e801b1154f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/profanity-gtk-1:0.18.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "profanity"
     ],
     "depends": [
+      "libcurl.so=4-64",
+      "libncursesw.so=6-64",
       "expat",
       "glib2",
-      "glibc",
-      "libassuan",
-      "libcurl.so=4-64",
-      "libgcrypt",
-      "libgpg-error",
-      "libgpgme.so=45-64",
-      "libncursesw.so=6-64",
-      "libnotify.so=4-64",
       "libotr",
-      "libreadline.so=8-64",
-      "libsignal-protocol-c",
-      "libstrophe.so=0-64",
+      "libnotify.so=4-64",
+      "libgpgme.so=45-64",
       "python",
-      "cairo",
-      "gdk-pixbuf2",
+      "libgcrypt",
+      "libsignal-protocol-c",
+      "glibc",
+      "libreadline.so=8-64",
+      "libassuan",
+      "libgpg-error",
+      "libstrophe.so=0-64",
       "libgtk-3.so=0-64",
+      "libxss",
       "libx11",
-      "libxss"
+      "gdk-pixbuf2",
+      "cairo"
     ],
     "optdepends": [],
     "conflicts": [
@@ -208922,10 +208923,10 @@
   },
   {
     "name": "qtractor",
-    "version": "1.6.2-4",
+    "version": "1.6.2-3",
     "origin": "arch-extra",
-    "sha256": "64ad5f3c6382a051ac3ad32958d5530b833e3d804c72298c9124ebd94223b348",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qtractor-1.6.2-4-x86_64.pkg.tar.zst",
+    "sha256": "79fef1c8a335304605ab5ac194f986d1ba522434fd35d279893294ed537704b3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qtractor-1.6.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "clap-host",
       "dssi-host",
@@ -225549,10 +225550,10 @@
   },
   {
     "name": "sfizz-lv2",
-    "version": "1.2.3-18",
+    "version": "1.2.3-17",
     "origin": "arch-extra",
-    "sha256": "fd902654d2e025a09466f2983153b25523a4d62a94837d9feef48381231241f2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sfizz-lv2-1.2.3-18-x86_64.pkg.tar.zst",
+    "sha256": "b776837144b79ca602b1c1737114e0da26e12030bd1bfb7dbbb598480a71fe06",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sfizz-lv2-1.2.3-17-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -225597,10 +225598,10 @@
   },
   {
     "name": "sfizz-ui",
-    "version": "1.2.3-18",
+    "version": "1.2.3-17",
     "origin": "arch-extra",
-    "sha256": "385c75475f7c5b8c021df1ca2db740041c82db35918782f258e505724ef4c722",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sfizz-ui-1.2.3-18-x86_64.pkg.tar.zst",
+    "sha256": "341d9c38f8414101b1e68a9142724730e2c57b30e889b58519ac49097074e897",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sfizz-ui-1.2.3-17-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sfizz-lv2",
@@ -225612,10 +225613,10 @@
   },
   {
     "name": "sfizz-vst3",
-    "version": "1.2.3-18",
+    "version": "1.2.3-17",
     "origin": "arch-extra",
-    "sha256": "25b7eaed4e7d71d801f1783c1bc20e859a35da6bd6177a1c38e24bac3764b75a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sfizz-vst3-1.2.3-18-x86_64.pkg.tar.zst",
+    "sha256": "c9822a1a2c5d7d2afca17b6b87ea52e9184b42a52c69543cfb7aa70d67200a97",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/sfizz-vst3-1.2.3-17-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -227381,10 +227382,10 @@
   },
   {
     "name": "skopeo",
-    "version": "1.24.0-1",
+    "version": "1.23.0-3",
     "origin": "arch-extra",
-    "sha256": "feae13876c86e0d8f4a405bd4003e20c881ddf28a0918ad007d1b49f7a66e3aa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/skopeo-1.24.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9bf5ac882555451a96acba00617ebf94d763dd262a59155e1b241fb8965a3a66",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/skopeo-1.23.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gpgme",
@@ -232897,10 +232898,10 @@
   },
   {
     "name": "svelte-language-server",
-    "version": "0.18.4-1",
+    "version": "0.18.3-1",
     "origin": "arch-extra",
-    "sha256": "dab79e5250285f9205be923f2a3b8a2976c639134b004b161a31a95cbb7126a1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/svelte-language-server-0.18.4-1-any.pkg.tar.zst",
+    "sha256": "eb95bb71cd7de02721c3fe5f37c56e1e7f594b3304a4a8057233327a2286c2ea",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/svelte-language-server-0.18.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs",
@@ -252545,10 +252546,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20260807145230-1",
+    "version": "20260730073441-1",
     "origin": "arch-extra",
-    "sha256": "7c2e814737325fcd92d612996eebdcd9acc2ba99c8ab6344710eb0ac1dbf34bd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/v2ray-domain-list-community-20260807145230-1-any.pkg.tar.zst",
+    "sha256": "0e7104288a7622ed58682b7b43878e9ece128ba9ea6fcf1a85025887c8eb7517",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/v2ray-domain-list-community-20260730073441-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -252556,10 +252557,10 @@
   },
   {
     "name": "v2ray-geoip",
-    "version": "202608050239-1",
+    "version": "202607171233-1",
     "origin": "arch-extra",
-    "sha256": "5df6248c9f01cf0f2f4cd53885c2033bd19f7b048641ae5b5d2f11e0f00cc7d2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/v2ray-geoip-202608050239-1-any.pkg.tar.zst",
+    "sha256": "50f9971e8a0dac404ad8d4fd0db49d2ac2273fecccd76df4ca3e7646406c0029",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/v2ray-geoip-202607171233-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -257400,10 +257401,10 @@
   },
   {
     "name": "vst3sdk",
-    "version": "3.8.1_build_84-1",
+    "version": "3.8.0_build_66-1",
     "origin": "arch-extra",
-    "sha256": "30b2a369f8ccdd494632cf7ff8d660ef10d3c9cd91d1171283aa95487c720ea2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vst3sdk-3.8.1_build_84-1-any.pkg.tar.zst",
+    "sha256": "65ae7a611e50c7d228cdd6f18ce3a2083f6b4ea5b85d229245dbe99d048f3dbe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vst3sdk-3.8.0_build_66-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
