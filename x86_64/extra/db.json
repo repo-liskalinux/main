@@ -4570,10 +4570,10 @@
   },
   {
     "name": "arbtt",
-    "version": "0.12.0.3-241",
+    "version": "0.12.0.3-242",
     "origin": "arch-extra",
-    "sha256": "4bc2b262c446554ad68e9bdaa9a7b6d85b37b010d12954b8eefb081500b37cb6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/arbtt-0.12.0.3-241-x86_64.pkg.tar.zst",
+    "sha256": "575c070720cdb7730a53cf7e8e26e2755df5c291732cbdffb054140ca145fbb9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/arbtt-0.12.0.3-242-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -20294,10 +20294,10 @@
   },
   {
     "name": "copr-cli",
-    "version": "2.5-1",
+    "version": "2.6-1",
     "origin": "arch-extra",
-    "sha256": "45a3930d4bea5ead6fdba74d4f9712657468612df6e7000592af2c907f8e4940",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/copr-cli-2.5-1-any.pkg.tar.zst",
+    "sha256": "c93056e7168b70545ca3d117f3250f9ff110dd4a95c9ced2f91e3a0414ace152",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/copr-cli-2.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -48969,10 +48969,10 @@
   },
   {
     "name": "gitit",
-    "version": "0.16-43",
+    "version": "0.16-44",
     "origin": "arch-extra",
-    "sha256": "6f7b032da19c0116e5f4e0bd861c5a5e65d8343292b18877c26d1d26e348aa7b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gitit-0.16-43-x86_64.pkg.tar.zst",
+    "sha256": "8c83f83e5203a8773c9e20e5b0eca50108a3f176dd2cad529b8b100dd4afa874",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gitit-0.16-44-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -60165,6 +60165,24 @@
     "conflicts": []
   },
   {
+    "name": "haskell-asciidoc",
+    "version": "0.1.0.4-1",
+    "origin": "arch-extra",
+    "sha256": "28d2a14f724eccc164a1224ff75ae182d442327a6acd2bcc2b56d9c6fbe23386",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-asciidoc-0.1.0.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ghc-libs",
+      "haskell-aeson",
+      "haskell-attoparsec",
+      "haskell-optparse-applicative",
+      "haskell-pretty-show",
+      "haskell-tagsoup"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "haskell-asn1-encoding",
     "version": "0.9.6-375",
     "origin": "arch-extra",
@@ -61273,10 +61291,10 @@
   },
   {
     "name": "haskell-cabal-install-parsers",
-    "version": "0.6.1.1-76",
+    "version": "0.6.1.1-77",
     "origin": "arch-extra",
-    "sha256": "edf9e31e2c2b6fdfb789eb29134ababe03ccbaaa93832369fdc827744e4e67c1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-cabal-install-parsers-0.6.1.1-76-x86_64.pkg.tar.zst",
+    "sha256": "355a1ebc07f2625767d1d92a142f48f3d1b7d19813ab2a22be951c2f8cc5ea04",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-cabal-install-parsers-0.6.1.1-77-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -61630,10 +61648,10 @@
   },
   {
     "name": "haskell-ci",
-    "version": "0.18-29",
+    "version": "0.18-30",
     "origin": "arch-extra",
-    "sha256": "72225d9cd6d23d68437e08d573ea97f876c4af67d43c78882a2b0f6ff6bb5f88",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-ci-0.18-29-x86_64.pkg.tar.zst",
+    "sha256": "9f43208a6298b8f2df8f25483e61a6bdc081ae0f68e8e67d56670ab9ceca6f98",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-ci-0.18-30-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65127,10 +65145,10 @@
   },
   {
     "name": "haskell-ghcide",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "7657e28ee7395166c2a3f8724b9c83e88c042dae6f4d7b01a90dff0898acc977",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-ghcide-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "db52098240319d58f140f2f1de7737041bf5c4b942d3d605ebac342f3448931c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-ghcide-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -65190,10 +65208,10 @@
   },
   {
     "name": "haskell-ghcide-test-utils",
-    "version": "1.9.0.0-385",
+    "version": "1.9.0.0-386",
     "origin": "arch-extra",
-    "sha256": "5bf13fff3f33197af7dd3501071d9710d4d7e2fab5187d9ed04352b912e769e3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-ghcide-test-utils-1.9.0.0-385-x86_64.pkg.tar.zst",
+    "sha256": "ee49d37483e750a7b5324d213179530a8a150e4adbc5e182267093dede2047ef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-ghcide-test-utils-1.9.0.0-386-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66132,10 +66150,10 @@
   },
   {
     "name": "haskell-haddock-library",
-    "version": "1.11.0-244",
+    "version": "1.11.0-245",
     "origin": "arch-extra",
-    "sha256": "722768c9189800b52f7f6bd612c0681a608e84b1ab1225774d06687b2936c6e5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-haddock-library-1.11.0-244-x86_64.pkg.tar.zst",
+    "sha256": "a176680d29c8faf6ef42160a8f3aa95793ace6aa24acef7b8698c6628b178790",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-haddock-library-1.11.0-245-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs"
@@ -66164,10 +66182,10 @@
   },
   {
     "name": "haskell-hakyll",
-    "version": "4.17.0.0-1",
+    "version": "4.17.0.0-2",
     "origin": "arch-extra",
-    "sha256": "dbb99e3f37e12a8c3429c3b07da0d10e47069841e7b74987459a3833b0e9a1a7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hakyll-4.17.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6b79bdf7aff1a7395f7b8eca56402a18f565818285c0dd6465304b37b69cdf23",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hakyll-4.17.0.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66487,6 +66505,21 @@
     "conflicts": []
   },
   {
+    "name": "haskell-hedgehog-fn",
+    "version": "1.1-1",
+    "origin": "arch-extra",
+    "sha256": "c4812b292670d47308bdfb5f552994b380f6e2e8f568c5c79774432d9aac95d7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hedgehog-fn-1.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ghc-libs",
+      "haskell-contravariant",
+      "haskell-hedgehog"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "haskell-here",
     "version": "1.2.14-178",
     "origin": "arch-extra",
@@ -66715,10 +66748,10 @@
   },
   {
     "name": "haskell-hls-alternate-number-format-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "6f4aae6fd383c84936175801ea01af8fed15b74b27bb9bb476d5e61487a7b3b3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-alternate-number-format-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "735436eb0c4eed7eb34f4a629c9ce7edf547522cf9c71acf699fec0d076e11d2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-alternate-number-format-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66739,10 +66772,10 @@
   },
   {
     "name": "haskell-hls-cabal-fmt-plugin",
-    "version": "2.3.0.0-93",
+    "version": "2.3.0.0-94",
     "origin": "arch-extra",
-    "sha256": "584a4c313dee6717589843c708c6b454259a9bde37e0845de082cbc623b717a9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-cabal-fmt-plugin-2.3.0.0-93-x86_64.pkg.tar.zst",
+    "sha256": "1c974c791c152e3f4abdb6125195cc7a0f3686e50e34b020bdf5540e24605db2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-cabal-fmt-plugin-2.3.0.0-94-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66758,10 +66791,10 @@
   },
   {
     "name": "haskell-hls-cabal-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "06da8d791868f59376a4e62f714805ea5359b0ce52865c44ed8c4db4d629d2c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-cabal-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "311320c609e595b422442340dd72bb8455002fcb05613f97335ac1c1d4696e05",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-cabal-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66781,10 +66814,10 @@
   },
   {
     "name": "haskell-hls-call-hierarchy-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "bfb6c292428e1a60ff7114b2c48159af1aa6822fd4d6c1ed355b38f93b871bce",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-call-hierarchy-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "f29dbe8364f4821bce3f743d54e3a0986d150dad615675d13648f2dd03d31c41",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-call-hierarchy-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66803,10 +66836,10 @@
   },
   {
     "name": "haskell-hls-change-type-signature-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "da475d16fd18e148f49d19c7b138e239907f3fa18807a0b5a60ef6a93c39fbcf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-change-type-signature-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "aeffe9cb5d855ca30c6f3957b4d1c9e1f5342db34ed457276776ce6667245da9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-change-type-signature-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66822,10 +66855,10 @@
   },
   {
     "name": "haskell-hls-class-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "590608422bbfab01b31f95dc8bdfb3e2ba5e478e9428bda2a0da33f5dde46230",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-class-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "2c022430e648aa755209c1fd54a6d79a81cacb3d15a286aac0d71b484c636d7b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-class-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66844,10 +66877,10 @@
   },
   {
     "name": "haskell-hls-code-range-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "f02692914ca8cab25cbf9fc1eb0cdb1da9ea63a5ae0009fd3c72431d2d0d3e52",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-code-range-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "06e84a6187814de945744f59ffe9196920e333a021d95e0f385ac2c49d0df2ad",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-code-range-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66866,10 +66899,10 @@
   },
   {
     "name": "haskell-hls-eval-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "0b628be5f6acd0812c7d3cc28ae757ae9214056979a52a73ee26cc301c2ff7f4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-eval-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "5b579d029d2fe284240bd092f53e4ab1c681a674170469652a972a8de75408f3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-eval-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66900,10 +66933,10 @@
   },
   {
     "name": "haskell-hls-explicit-fixity-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "2e4314dd5e62d0c9eb0a5d2361e7211184291609b55bd57e895768ecf25f6c15",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-explicit-fixity-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "c57ec2526af4af472bc2bcc2dc66177973d359ff5555e55924a98c89399bf22b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-explicit-fixity-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66919,10 +66952,10 @@
   },
   {
     "name": "haskell-hls-explicit-imports-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "69a1c744ab85ae7a2eb1b8cbf86b3b7e56ffe249378f863d79b1de5e70b7ce4b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-explicit-imports-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "13bfe529619521f50fd21d6885773a8c2d03c7807eeb7df01a52f37c8c859f82",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-explicit-imports-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66939,10 +66972,10 @@
   },
   {
     "name": "haskell-hls-explicit-record-fields-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "3ff5c5da42b12618970e83657a3d556a7007265ab38e4a220c4cd023136eb64f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-explicit-record-fields-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "53eb84add6d84b5c2189c13317aa4989cf1f599541e6deae7e9b6a07daba628f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-explicit-record-fields-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66959,10 +66992,10 @@
   },
   {
     "name": "haskell-hls-floskell-plugin",
-    "version": "2.3.0.0-92",
+    "version": "2.3.0.0-93",
     "origin": "arch-extra",
-    "sha256": "d81752444d3aea310a66555cabd34e47823950a99f7499019feb2f3389b177f2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-floskell-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
+    "sha256": "40287cd4beb7ba00b4ae449d1312d51714d6dbe14a530db0b2a65c955e42644f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-floskell-plugin-2.3.0.0-93-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66976,10 +67009,10 @@
   },
   {
     "name": "haskell-hls-fourmolu-plugin",
-    "version": "2.3.0.0-93",
+    "version": "2.3.0.0-94",
     "origin": "arch-extra",
-    "sha256": "d3dae4d5cd9784b996c6c196f2e58f5dfbfeef03b881e96eca1857a50fbad66c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-fourmolu-plugin-2.3.0.0-93-x86_64.pkg.tar.zst",
+    "sha256": "ad539951a3fdf5af159085db7d9cf1d631a5e3f39c55ec2a96c8a0208f084eb1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-fourmolu-plugin-2.3.0.0-94-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -66996,10 +67029,10 @@
   },
   {
     "name": "haskell-hls-gadt-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "252bd72f3ab73e778b00771f616a6897a2df5f5f2df5d692194e35c62edd867d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-gadt-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "19c8614dce982c8e20ce4f730a3a6b38bc3fa743b6dffb540ca57d59f62ab2db",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-gadt-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67044,10 +67077,10 @@
   },
   {
     "name": "haskell-hls-hlint-plugin",
-    "version": "2.3.0.0-92",
+    "version": "2.3.0.0-93",
     "origin": "arch-extra",
-    "sha256": "fd5773015e4e58b8b5a54f3bd1031aa1dfd31631a37ff4274b8c3433c49201f6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-hlint-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
+    "sha256": "a94814521d8dd21fd460b596affbcbc4958078ac3cb4e84b9435135c4283e0d7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-hlint-plugin-2.3.0.0-93-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67076,10 +67109,10 @@
   },
   {
     "name": "haskell-hls-module-name-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "e3d809772174f53fd0bc4675c95fd60a78e278ed8606fdd65a03c04e66c40423",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-module-name-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "095a41e174c10ffa565b1d0b88252ee4f2e0ba6b4ec977137847272c77b6fa49",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-module-name-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67094,10 +67127,10 @@
   },
   {
     "name": "haskell-hls-ormolu-plugin",
-    "version": "2.3.0.0-95",
+    "version": "2.3.0.0-96",
     "origin": "arch-extra",
-    "sha256": "64b8479b8f496c5dab040c73e603cd1e20243c9c73765fe7c58c36b81b5650e8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-ormolu-plugin-2.3.0.0-95-x86_64.pkg.tar.zst",
+    "sha256": "c3aeb75706430a66524f87fcac0f85f83decc2c50b5e2fd485b3ea8e664e0f51",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-ormolu-plugin-2.3.0.0-96-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67115,10 +67148,10 @@
   },
   {
     "name": "haskell-hls-overloaded-record-dot-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "8f2dcadb161d3ce75ace8e0e1784331f3915f00f629616dfad609ea178a44b73",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-overloaded-record-dot-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "9114d529bd9675059b6feccd66b2ab0b9f41891a39ed63150d9546f7e0fa9805",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-overloaded-record-dot-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67172,10 +67205,10 @@
   },
   {
     "name": "haskell-hls-pragmas-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "d32c74a15c768aa1b818d888c0c16d307b5880bf37bb763fb2bb3a73d493eca4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-pragmas-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "42c323527a4a3c8cb5781e54d2dc4cbddffb5f1eccc1ccc8141260ed79f370fe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-pragmas-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67193,10 +67226,10 @@
   },
   {
     "name": "haskell-hls-qualify-imported-names-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "b508f79d81eff1703daafb5fd60f2a63ce7078ea1ca8f35232dcca38d77093da",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-qualify-imported-names-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "4b15b4d55c773548b0925c9b7321354c9953b7528368c10281a785473582cdad",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-qualify-imported-names-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67215,10 +67248,10 @@
   },
   {
     "name": "haskell-hls-refactor-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "2d1e4799398138f07e8f6a42447b92502e67f95b0f44eb05be1e1b5486559d63",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-refactor-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "7d4dbcddf0f6e485bd5b6a5eb66a6fa5ce610563b0567dd023a34aa2f6b74b0c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-refactor-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67246,10 +67279,10 @@
   },
   {
     "name": "haskell-hls-rename-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "e2498537fde2dc70988dbc0ff4552adf8cb8f70fb47998d9cc8586ad693218a2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-rename-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "8796c210a21e7166b03298c6f34062d2c82013edf7f8a5dc3a5295df2d0a3ce3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-rename-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67274,10 +67307,10 @@
   },
   {
     "name": "haskell-hls-retrie-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "e4355daed073c28813030d5cd1230a7c76b69a189fbd1f41cc773a1a80123b30",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-retrie-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "1da84a97b2adf20ce772f1bdc00604d1c8334fb1ba258074808e3095ea6b2501",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-retrie-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67300,10 +67333,10 @@
   },
   {
     "name": "haskell-hls-splice-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "0d1a3d4dd9c044a7e2c94b0df941076d5f273e270ab64005c60d3bca31ac7888",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-splice-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "613b918828037501e1a83ad19cf83c365bf0682c8f7185ee7a7c6194bc97b198",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-splice-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67328,10 +67361,10 @@
   },
   {
     "name": "haskell-hls-stylish-haskell-plugin",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "3b8fa3d577828f6ab5064b9215c82ab0f61e2d1b377772227279184bcd986732",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-stylish-haskell-plugin-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "23281095971379719d9f5a7a7912d13c2028f60c02815791041dfa45785cab29",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-stylish-haskell-plugin-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -67346,10 +67379,10 @@
   },
   {
     "name": "haskell-hls-test-utils",
-    "version": "2.3.0.0-91",
+    "version": "2.3.0.0-92",
     "origin": "arch-extra",
-    "sha256": "998ff499a3aa55c8f21262e6313975618692dd0dd082e90e159826247352a2aa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-test-utils-2.3.0.0-91-x86_64.pkg.tar.zst",
+    "sha256": "c06d37f8be5e74a3272efd2f9602260bafb2278fbcbd7f102f9bfddf5e063b99",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-hls-test-utils-2.3.0.0-92-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -69575,10 +69608,10 @@
   },
   {
     "name": "haskell-language-server",
-    "version": "2.3.0.0-103",
+    "version": "2.3.0.0-104",
     "origin": "arch-extra",
-    "sha256": "fdc3ccc70bbdaa848d9a2bdb408e74518e0137edd9552f58fc3bfa02d3aafd31",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-language-server-2.3.0.0-103-x86_64.pkg.tar.zst",
+    "sha256": "c2d700938c39375cadef53f264877c60c8ac94fa7f9a9a6288f8fcdf5a9bb291",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-language-server-2.3.0.0-104-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -71506,6 +71539,42 @@
     "conflicts": []
   },
   {
+    "name": "haskell-nonempty-containers",
+    "version": "0.3.6.0-1",
+    "origin": "arch-extra",
+    "sha256": "116db7e20098afef8d87fa0cebddaeec2852be451d556546ee4f37a464789ab8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-nonempty-containers-0.3.6.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ghc-libs",
+      "haskell-aeson",
+      "haskell-comonad",
+      "haskell-indexed-traversable",
+      "haskell-invariant",
+      "haskell-nonempty-vector",
+      "haskell-semigroupoids",
+      "haskell-these",
+      "haskell-vector"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "haskell-nonempty-vector",
+    "version": "0.2.4-1",
+    "origin": "arch-extra",
+    "sha256": "8ef8bdbdc31954536d2c114a25ce8225cf648d7e01590c854b84acd4fa0add26",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-nonempty-vector-0.2.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ghc-libs",
+      "haskell-primitive",
+      "haskell-vector"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "haskell-nothunks",
     "version": "0.2.1.1-51",
     "origin": "arch-extra",
@@ -71914,10 +71983,10 @@
   },
   {
     "name": "haskell-pandoc",
-    "version": "3.6.1-12",
+    "version": "3.6.1-13",
     "origin": "arch-extra",
-    "sha256": "e4e9e97729f7cd11b7fd7baf6d57afe38118151aca4eb46ba9e8de1f8ab5c613",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-pandoc-3.6.1-12-x86_64.pkg.tar.zst",
+    "sha256": "3c81ccb7ab1284df7f0babe1e8a679032d7b6ef95ced866778bb9ad1d65a2fae",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-pandoc-3.6.1-13-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -71994,10 +72063,10 @@
   },
   {
     "name": "haskell-pandoc-lua-engine",
-    "version": "0.4.1.1-2",
+    "version": "0.4.1.1-3",
     "origin": "arch-extra",
-    "sha256": "24a34f32ff3833812e4d1b44a0e829b6b542d1b63ab69adfd299b3634ec0358c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-pandoc-lua-engine-0.4.1.1-2-x86_64.pkg.tar.zst",
+    "sha256": "969b0cb954209c19f9829af54d82a5efd75f3fabbc57d6d24e0e39b53d1a1e4a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-pandoc-lua-engine-0.4.1.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -72044,10 +72113,10 @@
   },
   {
     "name": "haskell-pandoc-server",
-    "version": "0.1.0.11-12",
+    "version": "0.1.0.11-13",
     "origin": "arch-extra",
-    "sha256": "f0f60804125ee1931aa034ff81b8c09ff020104982d8f332754cc92ffe61a15a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-pandoc-server-0.1.0.11-12-x86_64.pkg.tar.zst",
+    "sha256": "c961e04f3c7d36443e27806617f995d2393d992a7631a769be42104cd21b01a9",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-pandoc-server-0.1.0.11-13-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75033,6 +75102,20 @@
     "conflicts": []
   },
   {
+    "name": "haskell-skylighting-format-typst",
+    "version": "0.1-1",
+    "origin": "arch-extra",
+    "sha256": "3bed65a28fd44f5df63704f59c27b88eb30b036e1e1db4019925097cf3c2ff5d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-skylighting-format-typst-0.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ghc-libs",
+      "haskell-skylighting-core"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "haskell-slist",
     "version": "0.3.0.0-2",
     "origin": "arch-extra",
@@ -75845,10 +75928,10 @@
   },
   {
     "name": "haskell-summoner",
-    "version": "2.2.0.0-1",
+    "version": "2.2.0.0-2",
     "origin": "arch-extra",
-    "sha256": "dd630f6839d60dbeb0dcb01f1ba424afee5ed34bd73cde51df28cc9350d0de65",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-2.2.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c81e83161ac48ad8b378f4919f765368c7b340608dd10c72417b0e49943b4793",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-2.2.0.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -75867,10 +75950,10 @@
   },
   {
     "name": "haskell-summoner-tui",
-    "version": "2.2.0.0-1",
+    "version": "2.2.0.0-2",
     "origin": "arch-extra",
-    "sha256": "dc5e6d6a1f330a578a86a525bfb33748bedaee074201a229a5cb22d5c5c6d71d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-tui-2.2.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "81214e0c5583dd581f0a45e89f2afde01ddd1c89f801fcce115bc9ad21057baa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-summoner-tui-2.2.0.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -76919,10 +77002,10 @@
   },
   {
     "name": "haskell-text-show",
-    "version": "3.11-15",
+    "version": "3.11.1-1",
     "origin": "arch-extra",
-    "sha256": "8e464747073c2a0599f145f82c001f98a83cced5322bdfd8bbd76b153c72f34e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-text-show-3.11-15-x86_64.pkg.tar.zst",
+    "sha256": "c5bda449f6c4d47a079933f54deb0f2712d571dc4a51e834f18dc12fa8f9f261",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-text-show-3.11.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -77474,10 +77557,10 @@
   },
   {
     "name": "haskell-tree-diff",
-    "version": "0.3.2-11",
+    "version": "0.3.3-1",
     "origin": "arch-extra",
-    "sha256": "6d94993659279694acb724897ae7e9b86cd46ddf7838257f258c0e00ddb1c7c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-tree-diff-0.3.2-11-x86_64.pkg.tar.zst",
+    "sha256": "3c31e70438155be2c322f210657edb4e304e21f1d35b18ff9c65c73a553c5d54",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-tree-diff-0.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -77690,10 +77773,10 @@
   },
   {
     "name": "haskell-tz",
-    "version": "0.1.3.6-246",
+    "version": "0.1.3.6-247",
     "origin": "arch-extra",
-    "sha256": "673b0081a87db790ea900857a5219dc66b801362ce7d699533bccfdf140d743e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-tz-0.1.3.6-246-x86_64.pkg.tar.zst",
+    "sha256": "0358c6ba95232b53ef7ae0ff832b96d4978d1f7cb901c9750bd00e26b6e918e1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-tz-0.1.3.6-247-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -77706,10 +77789,10 @@
   },
   {
     "name": "haskell-tzdata",
-    "version": "0.2.20250115.0-141",
+    "version": "0.2.20260708.0-1",
     "origin": "arch-extra",
-    "sha256": "aa40724a52f4eb67f2373628c8b7addf418d2b7c6a705004d26fb021cfa1d61d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-tzdata-0.2.20250115.0-141-x86_64.pkg.tar.zst",
+    "sha256": "de1153f8fd6038f1a88ae636a18451446b5d60f3753116c19e3e1d79615634ba",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-tzdata-0.2.20260708.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -85964,10 +86047,10 @@
   },
   {
     "name": "intel-ucode",
-    "version": "20260811-1",
+    "version": "20260812-1",
     "origin": "arch-extra",
-    "sha256": "ade619cc5aa70e9c1c51fca52948f90bbcdf1f8e3a03d0163a2f6e345c6dfe5e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/intel-ucode-20260811-1-any.pkg.tar.zst",
+    "sha256": "ed0e9d30e38bf3eb9d7209f13674fc3f0b72fb30b34b0301a0ae97921941b8c5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/intel-ucode-20260812-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -149679,10 +149762,10 @@
   },
   {
     "name": "pandoc-cli",
-    "version": "3.6.1-23",
+    "version": "3.6.1-24",
     "origin": "arch-extra",
-    "sha256": "1d428563d609bb09d945de2d9b200d6e90895e612f15495c05a13ce93f4ff2a4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pandoc-cli-3.6.1-23-x86_64.pkg.tar.zst",
+    "sha256": "aad9a748783967e02a7cedebd4920bf84d3076255cf4ab5e81703efab2da8ec5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pandoc-cli-3.6.1-24-x86_64.pkg.tar.zst",
     "provides": [
       "pandoc"
     ],
@@ -149704,10 +149787,10 @@
   },
   {
     "name": "pandoc-crossref",
-    "version": "0.3.19-270",
+    "version": "0.3.19-271",
     "origin": "arch-extra",
-    "sha256": "dfa131b0ad3c3b1043cc93950d77cab287962c3f227445fe0f148cdcfb5c4288",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pandoc-crossref-0.3.19-270-x86_64.pkg.tar.zst",
+    "sha256": "be05f2c634a749f27136646eb2064b60e3bbe74b083274585165e64995b7163e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pandoc-crossref-0.3.19-271-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -149731,10 +149814,10 @@
   },
   {
     "name": "pandoc-plot",
-    "version": "1.9.2-48",
+    "version": "1.9.2-49",
     "origin": "arch-extra",
-    "sha256": "7fabf041afee9f5d7f6ef6f0fec782c163e8e252b76ffe1913a0e78367178424",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pandoc-plot-1.9.2-48-x86_64.pkg.tar.zst",
+    "sha256": "38c38f0e8304ad1711439b8ee9e30a7674d8bd86a382cb12fb238045b1a7084b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pandoc-plot-1.9.2-49-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -204257,22 +204340,6 @@
     "conflicts": []
   },
   {
-    "name": "qemu-block-gluster",
-    "version": "11.0.3-1",
-    "origin": "arch-extra",
-    "sha256": "4a8591273e7471b6335da0ceb89e871b3dfde5685502e331196e9142c4d4c077",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qemu-block-gluster-11.0.3-1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "glusterfs",
-      "libgcc",
-      "qemu-common=11.0.3-1"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "qemu-block-iscsi",
     "version": "11.1.0-1",
     "origin": "arch-extra",
@@ -206700,16 +206767,17 @@
   },
   {
     "name": "qmidiroute",
-    "version": "0.4.0-10",
+    "version": "0.4.0-11",
     "origin": "arch-extra",
-    "sha256": "e4cf397793f6c87a3feed0b16901c7208f3181f85d4172f7f0c59296ad1ff6d6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qmidiroute-0.4.0-10-x86_64.pkg.tar.zst",
+    "sha256": "412125ce8142d4eeda34a7fd460a234ca00d5ffad1e3a254db9a55dd6bf3ea0a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/qmidiroute-0.4.0-11-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
-      "gcc-libs",
       "glibc",
       "hicolor-icon-theme",
+      "libgcc",
+      "libstdc++",
       "qt5-base"
     ],
     "optdepends": [],
@@ -215736,10 +215804,10 @@
   },
   {
     "name": "rsync",
-    "version": "3.4.4-1",
+    "version": "3.5.0-1",
     "origin": "arch-extra",
-    "sha256": "f48672af8d8611df7d7a3a89abb282a51bd706bf41c830bb60d47df8c3018200",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rsync-3.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "7b71e674ad3c9d15c6b93097fb65a270703962fc982f7dee46bd6e6bd802e5d0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rsync-3.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",

@@ -919,10 +919,10 @@
   },
   {
     "name": "filesystem",
-    "version": "2025.10.12-1",
-    "origin": "arch-core",
-    "sha256": "6b6c3fee7432204840d3b6afc9bc1a68c28f591a47fb220071715c40cca956df",
-    "url": "http://mirror.rackspace.com/archlinux/core/os/x86_64/filesystem-2025.10.12-1-any.pkg.tar.zst",
+    "version": "2026.08-1",
+    "origin": "liska-core",
+    "sha256": "485c01fddf86acb5a231f452a2f088de9e47631c40fac15bfc74835de8a1c0cb",
+    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/filesystem-2026.08-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
       "iana-etc"
@@ -1333,17 +1333,6 @@
       "python",
       "python-packaging"
     ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "glibc",
-    "version": "2.44-1",
-    "origin": "liska-core",
-    "sha256": "8e4f02762de357296700149195424df484907b7b5286eb584427fc7302d160fe",
-    "url": "https://github.com/repo-liskalinux/repo-liskalinux.github.io/releases/download/stable/glibc-2.44-1-x86_64.lsk.tar.zst",
-    "provides": [],
-    "depends": [],
     "optdepends": [],
     "conflicts": []
   },
