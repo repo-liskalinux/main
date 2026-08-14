@@ -152,7 +152,7 @@
     "name": "base",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": "9f7aabbecf075758de7d8454bec85bba22b9fbc7e9173f77afa1e55c2c75b8b8",
+    "sha256": "bd9a6da1ea0853265c2413e60fc5c6381de5df51a54b6d785c0084a93dc5f1aa",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/base-1-1-any.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -533,7 +533,7 @@
     "name": "dbus",
     "version": "1.16.2-1",
     "origin": "liska-core",
-    "sha256": "fbc6101fe3f4ef01799fcb4aa007ef6a6d690051960a8e765f82182629794003",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/dbus-1.16.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libdbus",
@@ -829,7 +829,7 @@
     "name": "elogind",
     "version": "257.16-1",
     "origin": "liska-core",
-    "sha256": "aa083a6cfde0844179aa5047da7f8067337321822e80434f081350e1e99835a2",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/elogind-257.16-1-x86_64.lsk.tar.zst",
     "provides": [
       "libelogind"
@@ -850,7 +850,7 @@
     "name": "eudev",
     "version": "3.2.14-1",
     "origin": "liska-core",
-    "sha256": "43312727333adb6d3df28664a0a12948897f8479762d95103fce556c661b6175",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/eudev-3.2.14-1-x86_64.lsk.tar.zst",
     "provides": [
       "udev",
@@ -929,7 +929,7 @@
     "name": "filesystem",
     "version": "2026.08-1",
     "origin": "liska-core",
-    "sha256": "485c01fddf86acb5a231f452a2f088de9e47631c40fac15bfc74835de8a1c0cb",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/filesystem-2026.08-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -1537,7 +1537,7 @@
     "name": "grub",
     "version": "2.14-1",
     "origin": "liska-core",
-    "sha256": "a211bc59961401f9a77fd06b1dbfc6d2d4eaab989cb90c070156e2c573f6c951",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/grub-2.14-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3540,7 +3540,7 @@
     "name": "liska-install-scripts",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": "bdc212243ae0ca498133c081dba290fdc9dbdf90b33a8bb0a56ae7c29b6d973b",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/liska-install-scripts-1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3553,7 +3553,7 @@
     "name": "liskaiso",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": "92b98f2401db8eb0623745d0f36be554120a0aa43ec8cce2e0075277474a4c66",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/liskaiso-1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3572,7 +3572,7 @@
     "name": "lkfs",
     "version": "1.0.0-1",
     "origin": "liska-core",
-    "sha256": "8c8777302326282d08b6bc8bdc59b233ef6947fe2dc40aaab2b9bf5437c3e5b2",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lkfs-1.0.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3591,7 +3591,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "3b7f4ef9a76abae4fc0d6b95e6c0257afe375693478311bb64bf42a84942c445",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3632,7 +3632,7 @@
     "name": "lksystem",
     "version": "1.0.0-1",
     "origin": "liska-core",
-    "sha256": "05f577b09361a021b5f4b94765298f1336f772cd0ffe4110a1b24c23ebe57af8",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lksystem-1.0.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -5006,7 +5006,7 @@
     "name": "util-linux",
     "version": "2.42.2-1",
     "origin": "liska-core",
-    "sha256": "4cd8df6d09bfc892116d54e625c1289a2e98f35e468ef1d7424a5d8d18ada1d1",
+    "sha256": "288c768c48ff89434c61a48f1b107a33ac10af640209e6224a52920258406bc1",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/util-linux-2.42.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libblkid",
