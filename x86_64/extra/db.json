@@ -9464,10 +9464,10 @@
   },
   {
     "name": "biber",
-    "version": "1:2.22-1",
+    "version": "1:2.21-3",
     "origin": "arch-extra",
-    "sha256": "80ec988cdd947581c47fbe9d0cba65509b6dadd1732b2ca049a3536ab1b57814",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/biber-1:2.22-1-any.pkg.tar.zst",
+    "sha256": "f4fac0c7e0f7c8320b4b0ac64350a63f90f94611e518af77b036ddbcf59ef787",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/biber-1:2.21-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-autovivification",
@@ -16348,10 +16348,10 @@
   },
   {
     "name": "cfitsio",
-    "version": "1:4.7.0-1",
+    "version": "1:4.6.4-1",
     "origin": "arch-extra",
-    "sha256": "4894fa781a56026d612970fbfabffc668b3f3b91b1eb20dba60bd5b7a4b42f87",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cfitsio-1:4.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5264771b45617be7610cef73307235603fa370eec178f5fae5bf146aa3b96c5e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cfitsio-1:4.6.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -32211,10 +32211,10 @@
   },
   {
     "name": "electrum",
-    "version": "4.8.1-1",
+    "version": "4.7.2-2",
     "origin": "arch-extra",
-    "sha256": "8ff6345cb38c41af12c492aabc28f56faf2b2dacbeaeb601c90ec53c0e4bec69",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/electrum-4.8.1-1-any.pkg.tar.zst",
+    "sha256": "b57ebbd82ec2912dc3bf6e21c4ee1567c478e1d4c1587d0674deaee0e80a2c3e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/electrum-4.7.2-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",
@@ -32231,6 +32231,7 @@
       "python-jsonpatch",
       "python-jsonpointer",
       "python-pillow",
+      "python-protobuf",
       "python-pyaes",
       "python-pyqt6",
       "python-qrcode",
@@ -33470,10 +33471,10 @@
   },
   {
     "name": "epiphany",
-    "version": "50.6-1",
+    "version": "50.5-1",
     "origin": "arch-extra",
-    "sha256": "c0cd7b0000888f7307c8dec70d77620879dc6f6843901f997da49162138fcd00",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/epiphany-50.6-1-x86_64.pkg.tar.zst",
+    "sha256": "496db397da40fd43189fc9ad3d09d5fc80c15fcc9ece2357ec9600581b83e850",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/epiphany-50.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -52708,10 +52709,10 @@
   },
   {
     "name": "gnucash",
-    "version": "5.16-1",
+    "version": "5.15-4",
     "origin": "arch-extra",
-    "sha256": "768c242b141bf49413f6379f70c3139e043d8b6bc4ffa9772892a47dfd1907c0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnucash-5.16-1-x86_64.pkg.tar.zst",
+    "sha256": "94ca85ca183b1856f58f0de9cd675c3e515e9e63044b4d9c6dbfc79a5e6a24f2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gnucash-5.15-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aqbanking",
@@ -131271,10 +131272,10 @@
   },
   {
     "name": "meilisearch",
-    "version": "1:1.53.1-1",
+    "version": "1:1.53.0-1",
     "origin": "arch-extra",
-    "sha256": "227e122937115a76e81c9aebb0127042af661ad2c9aefbe503d372d8323c3ed2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/meilisearch-1:1.53.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0ad63b10a5d1bfacfb1d308e26abf2e2aecfa6ece4f37fdcae744c2bbc69b319",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/meilisearch-1:1.53.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -213393,10 +213394,10 @@
   },
   {
     "name": "rio",
-    "version": "0.5.24-1",
+    "version": "0.5.20-1",
     "origin": "arch-extra",
-    "sha256": "8ece5471922dc1760d595ac311641321a918b11a419f1c9e47d68f049fcce147",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.24-1-x86_64.pkg.tar.zst",
+    "sha256": "e064ab6f4afc7b75d96ca9aa92e3e7abb7531bae404df616bfc35036a881ed01",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rio-0.5.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libasound.so=2-64",
@@ -226562,10 +226563,10 @@
   },
   {
     "name": "signal-desktop",
-    "version": "8.23.0-1",
+    "version": "8.22.0-1",
     "origin": "arch-extra",
-    "sha256": "85e944bea5ff4e792ad6131d5b259a9d5888e93fe7ee89f95df46b842dd1d9b8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/signal-desktop-8.23.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3e48a5e765f764b2e87a32297d61a0fab304449b2983ef201fd184a50ecf4c15",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/signal-desktop-8.22.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
