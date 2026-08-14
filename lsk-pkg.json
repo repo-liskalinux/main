@@ -46,7 +46,8 @@
             "nano",
             "inetutils",
             "krb5",
-            "kmod"
+            "kmod",
+            "rustup"
         ],
         "optdepends": [
             "linux"
@@ -84,8 +85,8 @@
             "dbus",
             "pam",
             "libcap",
-            "udev",
-            "util-linux-libs"
+            "eudev",
+            "util-linux"
         ],
         "optdepends": [],
         "conflicts": [
@@ -238,7 +239,7 @@
             "bzip2",
             "unzip",
             "p7zip",
-            "rust"
+            "rustup"
         ],
         "optdepends": [
             "git",
