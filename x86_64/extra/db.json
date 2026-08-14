@@ -3469,10 +3469,10 @@
   },
   {
     "name": "ananta",
-    "version": "1.4.2-1",
+    "version": "1.4.3-1",
     "origin": "arch-extra",
-    "sha256": "6d8567e0d40c4690ce329b84f6853750213ebd0b6b92bf16831cee9b6622e3a7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ananta-1.4.2-1-any.pkg.tar.zst",
+    "sha256": "138e7df2a7a3ba968787311a616b72096318bd1ed3e876524a4a10f38f4a42cf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ananta-1.4.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-asyncssh",
@@ -24017,10 +24017,10 @@
   },
   {
     "name": "deepin-control-center",
-    "version": "6.1.66-1",
+    "version": "6.1.67-1",
     "origin": "arch-extra",
-    "sha256": "b2125474182ea7e1e9cb219f286ac79369da2da8f9ad642c526d104d4db23a0e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-control-center-6.1.66-1-x86_64.pkg.tar.zst",
+    "sha256": "6d0af7f366ed47ec0369bdb380cf6a858085c0a4266d17206dd87f2b31e395a2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-control-center-6.1.67-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -24051,10 +24051,10 @@
   },
   {
     "name": "deepin-daemon",
-    "version": "6.1.98-1",
+    "version": "6.1.99-1",
     "origin": "arch-extra",
-    "sha256": "22551e22b6bc1de921e3f1eb655f1b2b07952beb796a136c4380cae5671bfa81",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-daemon-6.1.98-1-x86_64.pkg.tar.zst",
+    "sha256": "5631fbe1deccc019676830ab76f66befe10ec09f5c1dccc2af005df395df6e92",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-daemon-6.1.99-1-x86_64.pkg.tar.zst",
     "provides": [
       "startdde"
     ],
@@ -24275,10 +24275,10 @@
   },
   {
     "name": "deepin-file-manager",
-    "version": "1:6.5.29-1",
+    "version": "1:6.5.30-1",
     "origin": "arch-extra",
-    "sha256": "d2ee06f72969d8a639c85d8bccb863e0fc2bf9193805264b115092200c7df6bf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-file-manager-1:6.5.29-1-x86_64.pkg.tar.zst",
+    "sha256": "8b2b57a8a871f97204d4c37200cfa13baa0344267de450eefc4db96cc1fd4663",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-file-manager-1:6.5.30-1-x86_64.pkg.tar.zst",
     "provides": [
       "deepin-desktop"
     ],
@@ -24302,6 +24302,7 @@
       "libx11",
       "qt6-multimedia",
       "cryptsetup",
+      "device-mapper",
       "lucene++",
       "avfs",
       "polkit-qt6",
@@ -24335,10 +24336,10 @@
   },
   {
     "name": "deepin-font-manager",
-    "version": "6.5.19-1",
+    "version": "6.5.20-1",
     "origin": "arch-extra",
-    "sha256": "9fe64b6b944a51447e62a4fac4347d122d6d028f302a25e4c00fb038da1c6afc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-font-manager-6.5.19-1-x86_64.pkg.tar.zst",
+    "sha256": "a680987a6e8fd8a0157663d8a827d6b497d8ace82cb84169520fdbd8921a0d18",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-font-manager-6.5.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -24398,10 +24399,10 @@
   },
   {
     "name": "deepin-grand-search",
-    "version": "5.5.13-1",
+    "version": "5.5.14-1",
     "origin": "arch-extra",
-    "sha256": "9b0fed64adaf3c29a3daa41c09c79697086ab4445b452bd5e03ed281465af359",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-grand-search-5.5.13-1-x86_64.pkg.tar.zst",
+    "sha256": "6b658733e6eb570c83aee84354f15ff9a87c7ae5583166278c29113fac111d31",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-grand-search-5.5.14-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "deepin-anything",
@@ -24414,9 +24415,13 @@
       "ffmpegthumbnailer",
       "lucene++",
       "deepin-qt-dbus-factory",
+      "dtkcore",
+      "dtkgui",
+      "dtkwidget",
       "dtk6core",
       "dtk6gui",
       "dtk6widget",
+      "qt5-base",
       "qt6-base",
       "qt6-5compat"
     ],
@@ -24475,10 +24480,10 @@
   },
   {
     "name": "deepin-image-viewer",
-    "version": "6.0.6-1",
+    "version": "6.0.7-1",
     "origin": "arch-extra",
-    "sha256": "92ab7efccc66b2eb7006a160b4ba3a47d4152613e3bcc1c5322ee7cea169c3a5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-image-viewer-6.0.6-1-x86_64.pkg.tar.zst",
+    "sha256": "7cd9c8e21eff6a6f6e62b293c876b34a853b4064b543362f4072f35c0237428f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-image-viewer-6.0.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "deepin-qt6integration",
@@ -25408,10 +25413,10 @@
   },
   {
     "name": "deepin-voice-note",
-    "version": "6.5.63-1",
+    "version": "6.5.64-1",
     "origin": "arch-extra",
-    "sha256": "c327ed2c032047f2c83bf628058a19a7031fa03d2ef802982934c30333a47464",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-voice-note-6.5.63-1-x86_64.pkg.tar.zst",
+    "sha256": "5fc75ac87b588f7c307389eed768768167ad5f1bcc6cdf7699ad5744cf5b4839",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-voice-note-6.5.64-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -30724,10 +30729,10 @@
   },
   {
     "name": "dump_syms",
-    "version": "2.3.8-1",
+    "version": "2.3.9-1",
     "origin": "arch-extra",
-    "sha256": "8ddedc0ecf74fbecf7489fa8c08340d99aef32431636dc772becc5af1da3bdbe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dump_syms-2.3.8-1-x86_64.pkg.tar.zst",
+    "sha256": "4ca4c30999f74ac991f6c7ce06852a47ee2f0a5998217ff12068e42db4f7861d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dump_syms-2.3.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -43778,10 +43783,10 @@
   },
   {
     "name": "gambas3-dev-tools",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "e88675957ea763b63c78d20e5b7a3b7333c47849853462a093c330e530621d2a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-dev-tools-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9d90142d8c18748f8d907a280762b97e42c54b37f352bf383c8bedec3caaaf37",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-dev-tools-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43793,10 +43798,10 @@
   },
   {
     "name": "gambas3-gb-args",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "25da96e82c907588f6eaa0af6c58e94d5e484514eb3f4a6cf0687601082b441b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-args-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b964a7a56189d7d2e386f6e54ffa45777fba825bf87fa6119ab71468630efde1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-args-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43806,10 +43811,10 @@
   },
   {
     "name": "gambas3-gb-cairo",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "23ca11b2ae0f2ae10ec4f95750b95224dac99b961ffd980e19871e7990af5f48",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-cairo-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "29c5d228f316f8ad2c92b668c6634c5063e9c16142ce8104b4e450749d702875",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-cairo-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -43820,10 +43825,10 @@
   },
   {
     "name": "gambas3-gb-chart",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "0cc57052765621b85fbcbb9cc5e4c35b6eaee38462eafba43fcf5277a5e19afd",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-chart-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2d3eeab420af477e15d0b63d3175ad5493d3681e96844aaa0291877926255d70",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-chart-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-form"
@@ -43833,10 +43838,10 @@
   },
   {
     "name": "gambas3-gb-clipper",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "4fed18ece8ccea51fe879eb1e006f235b78b87c72da62466889832fa2f123ab0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-clipper-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "262517950c091ee6e13b832c92c753e9a6bcd5cd706abe000cd763ff6d5fd9fd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-clipper-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43846,10 +43851,10 @@
   },
   {
     "name": "gambas3-gb-clipper2",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "5a24de66152d058ac0320a5e1aa6326590b1a0a8cb74bddb720d79b73325ca5e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-clipper2-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "113fee3d56061316c49ea4dbbbe03a0e8580d367f273ee0df0d3854ac7084e1e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-clipper2-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43859,10 +43864,10 @@
   },
   {
     "name": "gambas3-gb-complex",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "bbd71776c2017ddabec8c7cefa0c453ee55a1de35e5db694aef33eb84d848ce0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-complex-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a28ca0a315eec86769a30bf97378be033bb5852124fd79e61eb3a5bf9f7fa8a6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-complex-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43872,10 +43877,10 @@
   },
   {
     "name": "gambas3-gb-compress",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "bbd61a8eda7d792c25e05e4d66ea92ed5da834326f90726c644177d022c823a3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-compress-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "290896ed5a15185d3a0f414d6dc4ec6c4813e5a2e4ab2eb07ef43ae79dd90193",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-compress-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "gambas3-gb-compress-bzlib2",
       "gambas3-gb-compress-zlib",
@@ -43892,10 +43897,10 @@
   },
   {
     "name": "gambas3-gb-crypt",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "1a2d947bdce06cf6be97d201fbd62ddca7581aaeca690ddf6d3e13d8740ceef9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-crypt-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d612f0e02287288f844bb723da75f61d8f19b1ac2742da49dad2b7b6eeae58e8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-crypt-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -43906,10 +43911,10 @@
   },
   {
     "name": "gambas3-gb-data",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "2c42acf02cd87c48a9a84dd1e7d750b8e19b91dfa365e137d7bb7d8bff10a14a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-data-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d0cc9cda6757e561d3b58330ecdce3edef43da1423d051f99a2202ea692d544a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-data-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43919,10 +43924,10 @@
   },
   {
     "name": "gambas3-gb-db",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "2df8fd8122a1b1caa5f1e336cae26d613eec14b9fc0aef3da4e6c80ff178d9ad",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c42142979a0786d2038131a5f7a4e07d010f2916addc01b023b9e2f0080dc9a3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -43932,10 +43937,10 @@
   },
   {
     "name": "gambas3-gb-db-form",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "c3f3846adeff0ea75a07d6ae20b09fec24628182b1043fe5cfd52f41a94fecf0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-form-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "122101ded046ba0cee27cfe396be75d503adc401544bf6034d8e341e6752b507",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-form-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db",
@@ -43946,10 +43951,10 @@
   },
   {
     "name": "gambas3-gb-db-mysql",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "6ba4c8cf2f0cd432dfe32550504045a3d9b3dfd2a5b106661402ebc0ea6c0e98",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-mysql-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6b827b443bf6cbd7355257cb93bd05320ba3f080d86dca43fceaf7b2d27c0fcd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-mysql-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db",
@@ -43960,10 +43965,10 @@
   },
   {
     "name": "gambas3-gb-db-odbc",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "dcd7665e5825e32c5c5a6dd2558da85bebacfa656fd2714d0765af9859e53b77",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-odbc-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "31e79413ac1858f3a7e53736a2da1a858bbe99bb45a645e91cba9df362003ffe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-odbc-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db",
@@ -43974,10 +43979,10 @@
   },
   {
     "name": "gambas3-gb-db-postgresql",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "50283d707a48fd06d943aff9371d19c80183e6a8fd6dd6c8e31945a41e2f22f9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-postgresql-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4fdb67ff31059438ff4807933da0876cd396287c28dc703354309bb0ce0879ac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-postgresql-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db",
@@ -43988,10 +43993,10 @@
   },
   {
     "name": "gambas3-gb-db-sqlite3",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "15c6460e36f6fb2c2fe0fefff7ac0eeb9f8d5c1fc9aabe91f707190358ef33c0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-sqlite3-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5893acd24a12fea0a1b629fef1b7e166362fb03fae56820192299d7449e5d403",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db-sqlite3-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db",
@@ -44002,10 +44007,10 @@
   },
   {
     "name": "gambas3-gb-db2",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "9a7a3177fd8803b4a20ad6492a46d6eb104a0545ff4d3e70dee85fd91ae79a81",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b707c4bb128c5d53a2bff71a2ead387c4aa55aa794f9b3f711cfa955e2796586",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44015,10 +44020,10 @@
   },
   {
     "name": "gambas3-gb-db2-form",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "a028c0f6115cf8e732ca8d5685c35ef97d6cfdf242bdc3cf67f96b966a80d05e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-form-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1e02aadfc1f49291b3f8770ef8301ca94d7c79555fc967115f53b809e188f9b0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-form-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db2",
@@ -44029,10 +44034,10 @@
   },
   {
     "name": "gambas3-gb-db2-mysql",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "4d7eb3640f39aac1ca9c883552ec6d29a5bac472c5aaf258f59777b37df70ac5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-mysql-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a98d94dd47ed4da67181b4c06219fae73b3153270f6955e22f08b78e693bc494",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-mysql-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db2",
@@ -44043,10 +44048,10 @@
   },
   {
     "name": "gambas3-gb-db2-odbc",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "c3326881b3d668af8546e0a62f339f11469d79fb92c36961e3872bfa94dfe893",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-odbc-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8be92acaaae7dca6571d5080135bd58795d82a68ebdfc43a213bbe99f658b923",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-odbc-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db2",
@@ -44057,10 +44062,10 @@
   },
   {
     "name": "gambas3-gb-db2-postgresql",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "660acf7c1ec14340481c449a01e825a91a7cc6ef2d22657319aafeee0dd5d48c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-postgresql-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "87545f7475e54a3515961654420f4ba70d6bb26ad464c6d9f62413dc658247d2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-postgresql-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db2",
@@ -44071,10 +44076,10 @@
   },
   {
     "name": "gambas3-gb-db2-sqlite3",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "cc2b8cb740a50bb8e48c899971dec10731bac2e5f87f65563930e13fa7c507d3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-sqlite3-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f4de95a53c13032cd8e7d43fd5808b145508749c2dd3b0bf7b9c6e0f23b3c069",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-db2-sqlite3-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-db2",
@@ -44085,10 +44090,10 @@
   },
   {
     "name": "gambas3-gb-dbus",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "072da4f562805149468096510cd035effa6ea306bf019510533288e2779ff4d4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-dbus-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0a970f2580ca1e2dba234daec2d941068a64b4c1600921390a84991a08b9b760",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-dbus-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "gambas3-gb-dbus-trayicon"
     ],
@@ -44101,10 +44106,10 @@
   },
   {
     "name": "gambas3-gb-desktop",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "4f75f27156e3c8c57b39832bb05745ff0184e92ee7caeda5cee2a27e3112ec4d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-desktop-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1afda6e653b69e050b0720b48bb51dc795c1c3ac6b23462cd9ab4f0d94ab9e38",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-desktop-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -44115,10 +44120,10 @@
   },
   {
     "name": "gambas3-gb-desktop-x11",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "3cfc96ce74d3ebe35c495246f40018bd35af885dcb3480c42c638966181b2231",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-desktop-x11-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ae80086f73c9fced8eb6685430a3c17015791e7fcf4b7d1cfd94c27d1d09d61c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-desktop-x11-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libsm",
@@ -44129,10 +44134,10 @@
   },
   {
     "name": "gambas3-gb-eval-highlight",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "01200ae4eff482e7c38b7ef3ec87bc218c35a7223f683b492a9b742905120b00",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-eval-highlight-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "77ed86fb601e5129a14fb9664e3018b29b2ddef2e4393e37c6ccf575aec51764",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-eval-highlight-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44142,10 +44147,10 @@
   },
   {
     "name": "gambas3-gb-form",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "d85844a0394573c96b93fe0e467d957c37ddf74572196f199a334562e65a2984",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "969bde7971dc2722188abcdcddfc606fadecc0d7a4d08cebec93da332c9c0899",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44156,10 +44161,10 @@
   },
   {
     "name": "gambas3-gb-form-dialog",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "bfe65ce7abb2e0d7279d7d627719af115435528a3eeda96d65c4a40fc2be4d01",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-dialog-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b27c515c285bd21ef6db77d1c2822d24bc1831adc57e6c05cd33a508133c53f2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-dialog-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-form"
@@ -44169,10 +44174,10 @@
   },
   {
     "name": "gambas3-gb-form-editor",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "fdf10cc73b061472a558af14271ab017622826f5c3c4b13c8d126f476ddc4a95",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-editor-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ec0e0ffc08c778f0ad9462246a4526ad7169cd6679cda00786592b43154f2582",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-editor-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-form",
@@ -44183,10 +44188,10 @@
   },
   {
     "name": "gambas3-gb-form-htmlview",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "78b6f00b0fa8b0f00f1f045701f7e4ea09e07348ae0a78ed3a953b74d54014bf",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-htmlview-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c6ef3b782a9d30726545516d22685f6a8c1f214138340eff6dada8e8eb33f25d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-htmlview-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-form"
@@ -44196,10 +44201,10 @@
   },
   {
     "name": "gambas3-gb-form-mdi",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "2a47eb9f9cf1b834053476d3342e9a560db4a1da57a9dd99b8e258dd954c5475",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-mdi-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9e98bb8f993a8bf3109ef05e0902165c342ecb7f7cfab03e75077ad945905394",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-mdi-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-form"
@@ -44209,10 +44214,10 @@
   },
   {
     "name": "gambas3-gb-form-stock",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "3c31c9a594215c8d894f2b9706dafeac745e60cf4008a346ebdf7ecbd6f6ffe6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-stock-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "92da1850a166d843d726236b149570cf6de2b9d45ec1f6edb1482ccc18b6a807",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-stock-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44222,10 +44227,10 @@
   },
   {
     "name": "gambas3-gb-form-terminal",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "bc71051e508c9c9bbf66310b0b75b7b4c797ad68ab648a89aad37f9b738f591b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-terminal-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9f05273b32bd89f850ba29cef5916d85e192441d00f36f67695a6186f5632fe6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-form-terminal-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -44237,10 +44242,10 @@
   },
   {
     "name": "gambas3-gb-gmp",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "e65d9dd94c0ae644f28308ff998869c6adc44e0a72241f9e50b88933cf2a2e98",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gmp-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cd7c5d9502dc67a1a9e2664d0448a9f8bcaa48e4ef760a4392a86e5f4b9995c4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gmp-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44251,10 +44256,10 @@
   },
   {
     "name": "gambas3-gb-gsl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "99af87e86ebd8c8d468e931111651e5c618873630ed009249283943ee9e97428",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gsl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "db25159c0f99a8ba91b5d78872fefed8b007b732cf245174df730ca6fa0afba4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gsl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44265,10 +44270,10 @@
   },
   {
     "name": "gambas3-gb-gtk3",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "17dd22c3d5fa509eb7ed8b17d1f7893bb43ecd8c5d672fef2afa15e43ea8a819",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gtk3-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9ffd29e1adcfa2a18a0f9e27dbccf951abe0583f787ef084290a06b8c7043dd6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gtk3-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "gambas3-gui"
     ],
@@ -44282,10 +44287,10 @@
   },
   {
     "name": "gambas3-gb-gtk3-opengl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "fadc6409155e525adcbf9dbf19324588d693e285bfca9bebfd0cc994bc4e7e77",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gtk3-opengl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2cdc1e0c0e8ce0118835bae51e0dfe7965f74d0d1e115da1921f0e6d64d68a9d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-gtk3-opengl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-gtk3",
@@ -44296,10 +44301,10 @@
   },
   {
     "name": "gambas3-gb-hash",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "04641f39ccd050be2fedf189edd98def56b6e45e34890621934e559f71ef177f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-hash-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "df3adc3d1e45a262aa1f4e6fe6717f530ea4d364851eb16a3e248a59a9b19df4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-hash-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44309,10 +44314,10 @@
   },
   {
     "name": "gambas3-gb-highlight",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "d963687afecc619c3eda49098c9a747400969af657938cef7454ccc2eb193a89",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-highlight-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c28c6d116128f85b8482a3f57bbad690393321a10c1b64a7c7aad72e9b42de53",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-highlight-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image",
@@ -44323,10 +44328,10 @@
   },
   {
     "name": "gambas3-gb-httpd",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "85e4bc34fb857c3e60e2a60a9b114ad95678a4c06a22f7a887b9bf0c523af9f8",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-httpd-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1271c37c6711d9cd0de2a7f0b0ab45514235f835b1a93cc1bbb4fa23261f2ff2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-httpd-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44337,10 +44342,10 @@
   },
   {
     "name": "gambas3-gb-image",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "0e29e794a924f4c7887927550e833142725fa4e8b1eb6c260ad4a6a8614e8379",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bbc08a178c69af48a1338572ed8ae58880087ffd22db6d481dd2f3dab1e60874",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44350,10 +44355,10 @@
   },
   {
     "name": "gambas3-gb-image-effect",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "dba127038d284802da041dcffcb26930b4ba5ef5d4f8b2a43912a95f20ec4f86",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-effect-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ebbcce5842637a452c1e0e39437ac68766b577972ea8360510ff4b09ed0eeba1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-effect-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image"
@@ -44363,10 +44368,10 @@
   },
   {
     "name": "gambas3-gb-image-imlib",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "61bc707e3007eaee686b60b0124b43f7b77f987559bc996984fc1a1a96ce5f64",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-imlib-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a5502628398ad24ddb14a5458e61516a4be4c00bf7384ba3bd77bd4c8dbe2ff0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-imlib-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image",
@@ -44377,10 +44382,10 @@
   },
   {
     "name": "gambas3-gb-image-io",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "ad22097a55a96dcfdf07f058d522c0142107a553af748274cbaffc008526a827",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-io-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c117577577efabb6dfa3620fd6207e8f3dbc7ec86372791d0822bf0c3bda20bb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-image-io-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image",
@@ -44391,10 +44396,10 @@
   },
   {
     "name": "gambas3-gb-inotify",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "4a732e90eabb4321d222a65574913656b4da8f11a8c1cd0188c96b61fa53146c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-inotify-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f1fab68d0a127277320b0a1d4830c57b7027c9a7cad889986afc8be70ce977d5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-inotify-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44404,10 +44409,10 @@
   },
   {
     "name": "gambas3-gb-libxml",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "11573bc340a4e732dbe19afb6be8d65c2860d07d9110f11b355896bb7a173aef",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-libxml-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "be799e19be3d988b2abb25b31612c8a091a7c56a72a40cd19a15d6a9d2825cf3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-libxml-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44418,10 +44423,10 @@
   },
   {
     "name": "gambas3-gb-logging",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "1f2139efafe162cd2774e9c1dd143c688fc0f18067b924642b2a8431212902ca",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-logging-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "073bf59658a120dcfd52005fe33efc174b5de779e5f65ed3e25275e42bac6266",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-logging-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44431,10 +44436,10 @@
   },
   {
     "name": "gambas3-gb-map",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "d70466db50e6e862504eec5b2e94f94673348f8de46eb4626234d35c3c5c4966",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-map-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8f08c19e43745eee4dacffae6d76d24d06d72b0b7e5e7408b3747cf6d4a58fd1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-map-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image-io",
@@ -44445,10 +44450,10 @@
   },
   {
     "name": "gambas3-gb-markdown",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "579b27d6a85d59cf4f42e8f7fc6222a0e85d888373096a3435b21adb061c8ebe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-markdown-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d2a9392fce5b9bc48a0b8c55c309e367a465978f1e1ecd00fe5c0d40acf7b056",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-markdown-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image-io",
@@ -44459,10 +44464,10 @@
   },
   {
     "name": "gambas3-gb-media",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "53c9b60f240a355c249643f64166d9c3e5318c990be4c693b813c44cc79705f7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-media-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "080dc2096a7354c91f1e7459b76107c2334b20e17ad3b223eda441ada913d47d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-media-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44473,10 +44478,10 @@
   },
   {
     "name": "gambas3-gb-media-form",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "fcf329892ca26bd2e1923f975d9682211322538f36c788241b1943019541d0df",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-media-form-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1bcaa3706a439ed871fd6a08bd108839b13fcec45ae736a780341b00d707162a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-media-form-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44488,10 +44493,10 @@
   },
   {
     "name": "gambas3-gb-memcached",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "cec059bb0cca443654a212a7a14837a761b0b31d54425256b5216714e4ca4d2b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-memcached-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "632c7d5ee5466258f3a32c2b1c4cc6f37aaf91d137892295f0ad644e1ef0a4d3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-memcached-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-net"
@@ -44501,10 +44506,10 @@
   },
   {
     "name": "gambas3-gb-mime",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "64f90c354f8287333116fa01fd4586a1f87d59ba5abb709a3e2d3f43dcd98be5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-mime-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ed815598e87ac64949b5a3ce89983f2ea59960c569500534120062dc81f27f80",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-mime-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44515,10 +44520,10 @@
   },
   {
     "name": "gambas3-gb-mongodb",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "e252ec8382ed7bdeaf164907317e2687cc298bfc715bc2028f3e066670ce345d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-mongodb-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7ad61677998e19ba921b1f670ad0b2e109cd79d39c5f449c3a20fffe4766ffac",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-mongodb-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44529,10 +44534,10 @@
   },
   {
     "name": "gambas3-gb-mysql",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "a28ae3c3452ddb67c8c4e70d5ba7c38dec9e4f977ed40cf58dee2934080ac45e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-mysql-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "62ef7216740428fe7ae449d89247dab90f05b5c461eb5f46079a105a7c23ccf2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-mysql-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44543,10 +44548,10 @@
   },
   {
     "name": "gambas3-gb-ncurses",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "af38d9f5fce13e3400d62bddcc175769c961adf62ec2d82686f430915d9f36fa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-ncurses-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3820822ac429e59e48bed0c75d6b6e7f046d3da1a6e6c63f67d3b3ab9446e1c7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-ncurses-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44557,10 +44562,10 @@
   },
   {
     "name": "gambas3-gb-net",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "0784015d81f563fb04c8ff1b793a5af2da36981ee0f29654bd6cb9b6dd705685",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "db6c5b5ee72d09fc18accc4941813a39d4364ac4e81787c4eb1f35de0ba3227b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44570,10 +44575,10 @@
   },
   {
     "name": "gambas3-gb-net-curl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "22db1ae7ccfb49aa79ce4890a111a235d8494d11b134a6c9a68f2d66829e6ff1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-curl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "22b3a6a3aed203e01432e4872612d5a112486360925c82bbb9928c3dabd16ea7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-curl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-net",
@@ -44584,10 +44589,10 @@
   },
   {
     "name": "gambas3-gb-net-pop3",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "892525e27ba6320eabf6dfc591fe29817cc50e48968c8cd7e4fd28fc8003d400",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-pop3-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cf48c0e57c642c3bab5709d2b1bcf1e7765999ecc2efda1744d9229606bd88ab",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-pop3-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-net",
@@ -44598,10 +44603,10 @@
   },
   {
     "name": "gambas3-gb-net-smtp",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "57399e8026a2c451b15248f5e565972bb440d67dc055d5c41ee9b42d10b408b1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-smtp-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9a6e7348688412df941e279d936033e5e33d0308a1b9f0a825462d20d928901a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-net-smtp-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44612,10 +44617,10 @@
   },
   {
     "name": "gambas3-gb-openal",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "01ff0053a2e481b26ab831fe893295cbc673c86b750e7d17c9f586986e3043c4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-openal-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "caefd7ecb4c6d910e55df69952f992c1f6bfc84664d062a003bacf53ea67cf34",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-openal-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44626,10 +44631,10 @@
   },
   {
     "name": "gambas3-gb-opengl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "239340f180942a1c0f4946a1dc50d98e1a9096e5f3940ecb5feaa004d99fc81a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "be920ced3e6ba5f66fa2ce415a5dfb6d05e92fdf39e0e1b1df8ee6f1d2f6ef91",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44640,10 +44645,10 @@
   },
   {
     "name": "gambas3-gb-opengl-glsl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "6ec8b5a7b30118a6f5e99dd100fa3afa749c81331e232cc7e1477c2a50132145",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-glsl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ef134deff486de041f3da6bb6478ca7025d260968b8dcf983ac7b96f32732596",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-glsl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-opengl"
@@ -44653,10 +44658,10 @@
   },
   {
     "name": "gambas3-gb-opengl-glu",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "3aedcb576cd99d0f34867bba67b8e46f67efb96b7574dfcc77f9418408b5c7f4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-glu-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "80806850142f4890255c863cbd02768c07fc2661a86af9f9b9426f4e76c5c852",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-glu-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-opengl"
@@ -44666,10 +44671,10 @@
   },
   {
     "name": "gambas3-gb-opengl-sge",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "6f51a61c155451bf54c39a5b1310106f7e071ca39e2c06c80e0183566f8c89c2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-sge-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "114136af1c2a74639ab9beca910313817fb2b2998e8eb29d48970d46f32a2fdf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-opengl-sge-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-opengl"
@@ -44679,10 +44684,10 @@
   },
   {
     "name": "gambas3-gb-openssl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "5b764ecfe6b70500e861b782f1d8d7cbf37fb72e2cd00d2bbad406786103a798",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-openssl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ceb77c1061804b32e8349a51906d904d616a3511091c2d1442b3877de4c20a6c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-openssl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44693,10 +44698,10 @@
   },
   {
     "name": "gambas3-gb-option",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "7b1f77ec4abcf994b12f0b1eedc03927c84d577351ae0dec9f703589b8a5c02b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-option-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bee6e6c88a1d475846234d209a6107645874c6a42ae79677d4b1ae57be05da83",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-option-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44706,10 +44711,10 @@
   },
   {
     "name": "gambas3-gb-pcre",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "68c58cf9b8584ad00e9776752360dbcee630708bf69f5a9e15b5a5c44c75f317",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-pcre-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8969a8dfa3bd250bf35f9bb275c6a500681272eaeeeab00769c574b54480db5c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-pcre-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44720,10 +44725,10 @@
   },
   {
     "name": "gambas3-gb-poppler",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "125aa13f0fa1c0f5d7ba22868746cb912e9f1733f96e2abcf032a7561fd4ce5f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-poppler-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "205bb930c5b998e93061a02281e98c11a44767f9564e6f3e923df9955fe49a15",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-poppler-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44734,10 +44739,10 @@
   },
   {
     "name": "gambas3-gb-qt5",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "eade3e2229e450ad5f38f22655f44aa6aeeb7d284f677e808cc0ee449d14d0fc",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt5-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6f331c748cbea81dafdb54cdd7dddc26cddfd76512e2443aeebed8e8a9bc7dec",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt5-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "gambas3-gui"
     ],
@@ -44752,10 +44757,10 @@
   },
   {
     "name": "gambas3-gb-qt5-opengl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "403be3a1aa085f3eb224ffe6896c55c71ccf2867fbb39c421f54f4915cf30056",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt5-opengl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d843bbb148cce67dcb5babeb9281b97a1bdd190bfc58bfb5be174b8b46e0f633",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt5-opengl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-qt5",
@@ -44766,10 +44771,10 @@
   },
   {
     "name": "gambas3-gb-qt6",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "be2692886aacfe81d7f12d6b8c4dbdd4e35d000eccf9157bf87c753fae84f8d5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt6-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "98cb65ff67141e1d3ed28ce46aa4231eb6c8726ac1bdada91401f56c9250c5f8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt6-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "gambas3-gui"
     ],
@@ -44784,10 +44789,10 @@
   },
   {
     "name": "gambas3-gb-qt6-opengl",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "5201a59d0a7ba130c767c15229ed4caaa4358f2617c10a06f79de8a0c7ba7b57",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt6-opengl-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "aa85a20803a40e2684e47c2c2dccdb7c0d0c8870d177d873a8c0d6c7d2d839b1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt6-opengl-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-qt6",
@@ -44798,10 +44803,10 @@
   },
   {
     "name": "gambas3-gb-qt6-webview",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "c3aef64cf01a2462f78b654ea55a66f5783f3b474b01848ddce7fe81902a1090",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt6-webview-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "30e3578725daeb6d88577e2308c69818613856a237226d160eb68239aad8f68a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-qt6-webview-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-qt6",
@@ -44812,12 +44817,12 @@
   },
   {
     "name": "gambas3-gb-report",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "1421c7816f30881aca0b34195b0afb117265784d1fb0cc9beed47e15515720e9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-report-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f488a2c5d56bd2c01f0131936b4e113f6aab3fe44a8bb221b09018b56fa5b4ec",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-report-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "gambas3-gb-report2=3.22.0"
+      "gambas3-gb-report2=3.22.1"
     ],
     "depends": [
       "gambas3-gb-form",
@@ -44828,10 +44833,10 @@
   },
   {
     "name": "gambas3-gb-scanner",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "7f2cb618e73517c00a80a5e3c87671be89af7c378995e29351031430a595f645",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-scanner-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "56b8c4c00a7418c1db6d95c78201ea47c1e11c2bf06405770752ce718e51a8b3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-scanner-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image",
@@ -44843,10 +44848,10 @@
   },
   {
     "name": "gambas3-gb-sdl2",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "86b5aca13c2e5efd9d9237ea2de6ff5b7ba17a69830a599ecf61680f0156ea67",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-sdl2-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "73af0517dd19c8dd1dd1ed31365b18e15a0be5b0f3d17b677b325c989710a4c4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-sdl2-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-image-io",
@@ -44859,10 +44864,10 @@
   },
   {
     "name": "gambas3-gb-sdl2-audio",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "ec93aa33496f1d74e44230ef08803c86ea18cfd7206836fb168ba4a9bcb23ca0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-sdl2-audio-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ecf82cde3f66a2c7550ea742c3e3500393b0acc51c6e03dfa5f059663a91141b",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-sdl2-audio-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44873,10 +44878,10 @@
   },
   {
     "name": "gambas3-gb-settings",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "f37ad72906afec98c49c074de8977d3b20786010dc61b8e2412781183625835b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-settings-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b8ce7e4c38d0ab0c12f5eff407f99c456d9254d037cf46eb75caefa6a55b9cc2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-settings-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44886,10 +44891,10 @@
   },
   {
     "name": "gambas3-gb-signal",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "5afa8cbaf73a56c5ac2c225d44dff6563507f72e25c55ecddcc4973cf3b94eb3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-signal-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "785f99e2ea7deaff551c55adb9f3de54bb00d0e8a6a00139e02b7cd189d27fd6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-signal-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44899,12 +44904,12 @@
   },
   {
     "name": "gambas3-gb-term",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "ac69b836a5c70bbb9822a19c602b2df715ae4fce9b9614d48e3f48e8aba6fd17",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-term-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d6609c7fed61f339ee3fb295e3053dd83be44c9a1cb446f56a2e7776b65a8425",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-term-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "gambas3-gb-term-form=3.22.0"
+      "gambas3-gb-term-form=3.22.1"
     ],
     "depends": [
       "gambas3-runtime"
@@ -44914,10 +44919,10 @@
   },
   {
     "name": "gambas3-gb-util",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "ce28647f797fa602928c5bc9cdb67cc3708c4a724a9244e678391eada3b5f648",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-util-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "68d01e570e3785ae0719e418ce0426d010dbf46530c572cf4cd046a6a40bf14e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-util-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44927,10 +44932,10 @@
   },
   {
     "name": "gambas3-gb-util-web",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "480fda4db29ddae78136cd95220f5a0343d318806ffaa8eb6a81cb4303ad6a3e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-util-web-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4496d47dc9d9c0fb69e80aff328d338ce1f0f93daa8918868dfac77ff2d6b19a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-util-web-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44940,10 +44945,10 @@
   },
   {
     "name": "gambas3-gb-v4l",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "8576dd24e69491c26e0a503a4384ee01d863d04c4d697db1aec7d1e942f86011",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-v4l-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ae9b9a68fc591539961ea96ef69379f45abd4b3636ce173f1543ce39632ac228",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-v4l-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime",
@@ -44956,10 +44961,10 @@
   },
   {
     "name": "gambas3-gb-vb",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "b5950c37ceb80c99a1816ec4bd87478e34a20acf5b780ea6af685ab769b6db9b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-vb-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ea7650728d034c75699940120b5105f2bcd3a59e35ab05eb347c4325d87fde69",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-vb-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44969,10 +44974,10 @@
   },
   {
     "name": "gambas3-gb-web",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "07ed6c778f6bed5728ae22d86cf42283f3bd81e55c63b8bdc0dfe98d638bd956",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ef4e10d79c8f8520ff58fe0ba95fd61658af664cb071f13439121adc506d8ab2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -44982,10 +44987,10 @@
   },
   {
     "name": "gambas3-gb-web-feed",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "2f1db66ff18fd2577c94ecccd46f3842fa28dcd3e71cec4dc648adc32eece56e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-feed-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "eafbde1208f4033503de93d68173e6c68c915892cd0544a18c781e9645662385",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-feed-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-xml"
@@ -44995,10 +45000,10 @@
   },
   {
     "name": "gambas3-gb-web-form",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "c9e527865f6818c562fdf01be35ed6c29cdcc90f1260c2221b140286850a5805",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-form-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2e13846c48e2b789e606c348e892193f2a281b27bf1661c291899cee6cb83c48",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-form-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-web",
@@ -45009,10 +45014,10 @@
   },
   {
     "name": "gambas3-gb-web-gui",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "8d83616b6fc42e72be39775bfc62a7de536fabf7c9db0e8cb034db60e51b17ba",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-gui-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "36b93598b2dfa1616258178decc605d8e2d5b264e32a48dec05fff2ea845857d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-web-gui-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-web",
@@ -45025,10 +45030,10 @@
   },
   {
     "name": "gambas3-gb-xml",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "836fefff56003f450fb8e55425b43a9c3760545c638d4b6b0d522c2f79eb84c5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fcedb2476f09ce4879487a1c23d9ff3b9e37049cd08a9fe6ad9c053dcbdcb91d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-runtime"
@@ -45038,10 +45043,10 @@
   },
   {
     "name": "gambas3-gb-xml-html",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "3194699bf76a4a968489a4969fa2d255a0a7c86ea9a32ae5f2cf59c902eebeaa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-html-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "35306d3324feae5e5f013c8f048a0a68e159d2dace95b3500e9726cc7e7e51c7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-html-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-xml"
@@ -45051,10 +45056,10 @@
   },
   {
     "name": "gambas3-gb-xml-rpc",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "3d0f7aa141c10ce0211bfcc2a1277900241352fd4109fbcfdbf82a23344da7c1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-rpc-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8117779d935add2e17b029e3d96d4e8c8cd2a1d58d32e9705cd44ec2e81e24e1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-rpc-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-xml",
@@ -45065,10 +45070,10 @@
   },
   {
     "name": "gambas3-gb-xml-xslt",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "7ccfe379b1826f5e9b2a5124f034734bea0872c6ea88989eff8469a3ffa09a66",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-xslt-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0ce2941afd1681e6eeeb9502018e07d0eefb62b08c60aff5e02c9f5c1ce49853",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-gb-xml-xslt-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-gb-xml",
@@ -45079,10 +45084,10 @@
   },
   {
     "name": "gambas3-ide",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "a186df880e7341a5d858ce18cb885082148ec35f46861b9a4fcdbc08fe7d1079",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-ide-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2627a768a04e8974838d26c25c438cc4be936941264898defa04b4e27f2e2507",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-ide-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-dev-tools",
@@ -45117,10 +45122,10 @@
   },
   {
     "name": "gambas3-runtime",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "1c04c46d5077dcb9443dd49e1983af04e389ee0826e97559633c5203f11295b2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-runtime-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "736f90fca97a222ed58878d5d6e304c379419a6b1626e8893db5c546e87c7474",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-runtime-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "gambas3-gb-jit"
     ],
@@ -45133,10 +45138,10 @@
   },
   {
     "name": "gambas3-script",
-    "version": "3.22.0-1",
+    "version": "3.22.1-1",
     "origin": "arch-extra",
-    "sha256": "4dba64c4b09f1f6e5bcd8da40f6a1013c6cad4a0c039898b04a5b581a6c33c4f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-script-3.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f608b30ceb1a8c9d4a387f5f584e7a76b9ed851344f7f6ceaee6573b44ae9a36",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gambas3-script-3.22.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gambas3-dev-tools"
@@ -48412,10 +48417,10 @@
   },
   {
     "name": "git-annex",
-    "version": "10.20251215-121",
+    "version": "10.20251215-122",
     "origin": "arch-extra",
-    "sha256": "b6fbe29e291e80c48ec05945f946527611e7d30bf6331534c807bf0dbf5ee271",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/git-annex-10.20251215-121-x86_64.pkg.tar.zst",
+    "sha256": "ef52747d76e32cb316e28f5c1f197dd01ac442372085dcb4d703fd9aa70e39dd",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/git-annex-10.20251215-122-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git",
@@ -60382,10 +60387,10 @@
   },
   {
     "name": "haskell-aws",
-    "version": "0.24.4-7",
+    "version": "0.25-1",
     "origin": "arch-extra",
-    "sha256": "629c3a10eaa148ff6a9f9d8fa380552ad3a648d0e96e83029e278b865e8a9729",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-aws-0.24.4-7-x86_64.pkg.tar.zst",
+    "sha256": "d6822a042392a14907d6b394071703e4119b35154ba409bc695ffe331874e2bb",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/haskell-aws-0.25-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghc-libs",
@@ -60400,7 +60405,7 @@
       "haskell-cereal",
       "haskell-conduit",
       "haskell-conduit-extra",
-      "haskell-cryptonite",
+      "haskell-crypton",
       "haskell-data-default",
       "haskell-http-conduit",
       "haskell-http-client-tls",
@@ -105574,10 +105579,10 @@
   },
   {
     "name": "libgit2",
-    "version": "1:1.9.6-1",
+    "version": "1:1.9.7-1",
     "origin": "arch-extra",
-    "sha256": "ecad55ff6d0ee582faded4c2056c061fde9537627df77481d93b22f1a9b12e49",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libgit2-1:1.9.6-1-x86_64.pkg.tar.zst",
+    "sha256": "8968269a65683c87c0edde6d9e45844939770a6f1cccc3678849fd8fe7124223",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libgit2-1:1.9.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgit2.so=1.9-64"
     ],
@@ -133641,10 +133646,10 @@
   },
   {
     "name": "modrinth-app",
-    "version": "0.17.5-1",
+    "version": "0.17.7-1",
     "origin": "arch-extra",
-    "sha256": "97086eaa83c912cbd9f332aa02cf5f53f6ba9985ea487314bcf1814a80d6798b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/modrinth-app-0.17.5-1-x86_64.pkg.tar.zst",
+    "sha256": "5f05cc09c6f7a3558dad022232583f8e666c3fe87afd9ea827c55dd96235319e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/modrinth-app-0.17.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143334,10 +143339,10 @@
   },
   {
     "name": "ollama",
-    "version": "0.32.10-1",
+    "version": "0.32.11-1",
     "origin": "arch-extra",
-    "sha256": "6bb10aaa7b09c620e708837d4589e272fd8e41576d5a257640ea79f481433ad4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-0.32.10-1-x86_64.pkg.tar.zst",
+    "sha256": "fc3037b074c80cfb56e47b7299dad4fcabc9165c4bc2a8bcde9884949173fc3f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-0.32.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143349,10 +143354,10 @@
   },
   {
     "name": "ollama-cuda",
-    "version": "0.32.10-1",
+    "version": "0.32.11-1",
     "origin": "arch-extra",
-    "sha256": "ff56dc4d9a665f11a55413e314f4193f22f22eba791c82f2c221cea9dc06ad1d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-cuda-0.32.10-1-x86_64.pkg.tar.zst",
+    "sha256": "d2f2d39160b9d13462ed954185d59bb6a67c0e0f6239103016d1da6f6aa605b1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-cuda-0.32.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143366,10 +143371,10 @@
   },
   {
     "name": "ollama-rocm",
-    "version": "0.32.10-1",
+    "version": "0.32.11-1",
     "origin": "arch-extra",
-    "sha256": "612b8674f9fba7bbcaad9fd8349c0403ed544b0cb3a1f72318dd913479745da3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-rocm-0.32.10-1-x86_64.pkg.tar.zst",
+    "sha256": "b5ae6cdbe022ed5942bb0822abfb83c886f6db33d82ad8d32f7864e6cd8325c5",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-rocm-0.32.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -143383,10 +143388,10 @@
   },
   {
     "name": "ollama-vulkan",
-    "version": "0.32.10-1",
+    "version": "0.32.11-1",
     "origin": "arch-extra",
-    "sha256": "f8e50f6a0c63fbf2ea08362287312ffb12acb6002b1a3d8ae61ca41da2951471",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-vulkan-0.32.10-1-x86_64.pkg.tar.zst",
+    "sha256": "83cea5b849e9161e517d2935dcdc33ecff4eb714ca404282b4cb2c9dccc9a008",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ollama-vulkan-0.32.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -145450,10 +145455,10 @@
   },
   {
     "name": "openobserve",
-    "version": "0.92.0-1",
+    "version": "0.92.1-1",
     "origin": "arch-extra",
-    "sha256": "c220d8f1087aaa91bb448e24b90b876d823a0c2bc822eae8c81746bf2f327bf1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openobserve-0.92.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b27ed009ca5a93612441b9743e88fc5d1142b061d5456050b0ba3937c7498c3d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openobserve-0.92.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -201555,10 +201560,10 @@
   },
   {
     "name": "python-urwid",
-    "version": "4.0.8-2",
+    "version": "4.0.9-1",
     "origin": "arch-extra",
-    "sha256": "8f7a1713d053e8727e3343f71fcbdcf53be2f334a41147dd508da38342ffeca7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-urwid-4.0.8-2-any.pkg.tar.zst",
+    "sha256": "c45aee6c74630986c78d08f6e20429d286885eefce62091320b09ca57ee2f821",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-urwid-4.0.9-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -202236,10 +202241,10 @@
   },
   {
     "name": "python-wcmatch",
-    "version": "11.0-1",
+    "version": "11.0.1-1",
     "origin": "arch-extra",
-    "sha256": "a0329ec83deb42e72a74a12d6e01b1e9b5e88e72ce89757e4f7aa77f997825ac",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-wcmatch-11.0-1-any.pkg.tar.zst",
+    "sha256": "a24bcf48f95d545b058d60650caa22a104d455d41703d61a61e1505110d2c78f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-wcmatch-11.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-bracex"
@@ -227820,10 +227825,10 @@
   },
   {
     "name": "smolvm",
-    "version": "1.7.7-1",
+    "version": "1.8.0-1",
     "origin": "arch-extra",
-    "sha256": "188210af39780101533002c76b909af07453eaf98ace001e4cf9cdd739b2b797",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/smolvm-1.7.7-1-x86_64.pkg.tar.zst",
+    "sha256": "24935e500c908cd431b3586857f457c49e4ddb5a93da30eeaeb15e45f1c54eb7",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/smolvm-1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "smolvm"
     ],
@@ -247806,10 +247811,10 @@
   },
   {
     "name": "treeland",
-    "version": "0.8.17-1",
+    "version": "0.8.18-1",
     "origin": "arch-extra",
-    "sha256": "594cbf52ce495c680db31e15e2412a22f584c9abac98c021c2e9599c4758c402",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/treeland-0.8.17-1-x86_64.pkg.tar.zst",
+    "sha256": "2a5c6848b745af36676edd949993a4639aa53401aa6b52d331ca4ad719a498c3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/treeland-0.8.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
