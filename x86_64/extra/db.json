@@ -8813,10 +8813,10 @@
   },
   {
     "name": "bazaar",
-    "version": "0.9.2-1",
+    "version": "0.9.3-1",
     "origin": "arch-extra",
-    "sha256": "13457566e81265fab916a75909880ae4ba4d28a7f11177ea7c2c4f736990518a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bazaar-0.9.2-1-x86_64.pkg.tar.zst",
+    "sha256": "d36821fc800ceefa183e2fe148dc0e93f0c7767ec6af886f946c4b2677172238",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/bazaar-0.9.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -22579,10 +22579,10 @@
   },
   {
     "name": "cutlass-headers",
-    "version": "4.6.2-1",
+    "version": "4.7.0-1",
     "origin": "arch-extra",
-    "sha256": "175fcbae774f234ce50144a3b44931968b2caa669a7e86c3168dd3ce40ed906f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cutlass-headers-4.6.2-1-x86_64.pkg.tar.zst",
+    "sha256": "477a0dc9aeeb777015ce2a470756c4468d9eaebfebbec7e004bfafbd64c2beb8",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cutlass-headers-4.7.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cuda"
@@ -31856,21 +31856,6 @@
     ],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "eigen3",
-    "version": "3.4.1-1",
-    "origin": "arch-extra",
-    "sha256": "3a4f78fcae80e6ad5bb50e83b88655077465d9b286c4e268849990af19f44026",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/eigen3-3.4.1-1-any.pkg.tar.zst",
-    "provides": [
-      "eigen=3.4.1"
-    ],
-    "depends": [],
-    "optdepends": [],
-    "conflicts": [
-      "eigen"
-    ]
   },
   {
     "name": "ejabberd",
@@ -54372,10 +54357,10 @@
   },
   {
     "name": "gpu-screen-recorder-ui",
-    "version": "1.13.3-1",
+    "version": "1.13.5-1",
     "origin": "arch-extra",
-    "sha256": "c55fe561cfa03135525a512dd41c19c5cb12372f7ba3b5851071e151f6d3801f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gpu-screen-recorder-ui-1.13.3-1-x86_64.pkg.tar.zst",
+    "sha256": "855c87c5db5c1add0406ad9f7f7b67f82fe86e02c2ddf7728eb47338cf04dccc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gpu-screen-recorder-ui-1.13.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libstdc++",
@@ -54488,10 +54473,10 @@
   },
   {
     "name": "gradle",
-    "version": "9.6.1-1",
+    "version": "9.7.0-1",
     "origin": "arch-extra",
-    "sha256": "43eabfa5095f230329bb02c00a1ef9011815c3bd777b2ea45ecc670ae8dbb180",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gradle-9.6.1-1-any.pkg.tar.zst",
+    "sha256": "ace3bbc49eba9869161d2b1cf235517593cc7f2f9f16e71049c7acb6c708d261",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gradle-9.7.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -54509,10 +54494,10 @@
   },
   {
     "name": "gradle-src",
-    "version": "9.6.1-1",
+    "version": "9.7.0-1",
     "origin": "arch-extra",
-    "sha256": "85bec216ba88a396c70bd76c3b8a09d24859e753f9aa132e4789d0434494983c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gradle-src-9.6.1-1-any.pkg.tar.zst",
+    "sha256": "396b279afebe4f238f390c68b589b454111f6aae2a6bfc1884b9e7081528c4ef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gradle-src-9.7.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -101227,10 +101212,10 @@
   },
   {
     "name": "lact",
-    "version": "0.9.1-1",
+    "version": "0.10.0-1",
     "origin": "arch-extra",
-    "sha256": "2547fdac8f822875a41efbec2d4ac72d1ad52dca19ec1c784e46eb81bbf143d2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lact-0.9.1-1-x86_64.pkg.tar.zst",
+    "sha256": "297406f7afe0425f37d968a4a8c821ebb3ed9b8ab1ddc355d86c5108086e42e3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/lact-0.10.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "lact-libadwaita"
     ],
@@ -171805,10 +171790,10 @@
   },
   {
     "name": "python-av",
-    "version": "18.0.0-2",
+    "version": "18.1.0-1",
     "origin": "arch-extra",
-    "sha256": "88c78e001881ee4e33a253c48ddc15e3f24e0fa4fe5dc2582288c492c41951a4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-av-18.0.0-2-x86_64.pkg.tar.zst",
+    "sha256": "0a13a373f937d235d26f3189f9b8b29a2c5c86016131e4afa2ee9c0b6f184118",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-av-18.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cython",
@@ -173561,10 +173546,10 @@
   },
   {
     "name": "python-cloudpickle",
-    "version": "3.1.2-2",
+    "version": "3.1.2-3",
     "origin": "arch-extra",
-    "sha256": "ee26ddb5c6698b07dcd733b27254cf513d0ce2100985f52f16862e3a44de988f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cloudpickle-3.1.2-2-any.pkg.tar.zst",
+    "sha256": "dc646508a9262625bf2bc8b7ff82fe5ea2f9d485a017b318650b1c1d09244666",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-cloudpickle-3.1.2-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -177009,10 +176994,10 @@
   },
   {
     "name": "python-fast-simplification",
-    "version": "0.1.13-1",
+    "version": "0.2.0-1",
     "origin": "arch-extra",
-    "sha256": "9c62ae70df5ed60b5a2f5e9d894e0cf95e0f28fb7dec29081714d86c577fdd60",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-fast-simplification-0.1.13-1-x86_64.pkg.tar.zst",
+    "sha256": "4d68472e95aced02ad4421f5fd4ebb109978d653d3028ea80a06578b48e47316",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-fast-simplification-0.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -200550,20 +200535,26 @@
   },
   {
     "name": "python-torchcodec",
-    "version": "0.15.0-3",
+    "version": "0.16.0-1",
     "origin": "arch-extra",
-    "sha256": "0fbcb02c37733d058e5b9d8ab69e1abd43e5b73ef43a45d3746009cc8a1e97e1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-torchcodec-0.15.0-3-x86_64.pkg.tar.zst",
+    "sha256": "abef1b09aed9bc36b28cd291cc1cc89f67d1771f0692632f39462f5d62a50627",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-torchcodec-0.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "ffmpeg",
       "glibc",
+      "libavif",
       "libgcc",
+      "libheif",
+      "libjpeg-turbo",
+      "libpng",
       "libstdc++",
+      "libwebp",
       "python",
       "python-pytorch"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "ffmpeg: for video and audio decoding and encoding"
+    ],
     "conflicts": []
   },
   {
@@ -253180,6 +253171,25 @@
     "conflicts": []
   },
   {
+    "name": "vcsi",
+    "version": "7.0.17-2",
+    "origin": "arch-extra",
+    "sha256": "be4e5b820ef3889db9d44635d10f549894c695d273970c648aac101f14def513",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vcsi-7.0.17-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ffmpeg",
+      "python",
+      "python-jinja",
+      "python-numpy",
+      "python-parsedatetime",
+      "python-pillow",
+      "python-texttable"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "vcspull",
     "version": "1.65.0-1",
     "origin": "arch-extra",
@@ -266715,10 +266725,10 @@
   },
   {
     "name": "xrootd",
-    "version": "6.1.0-1",
+    "version": "6.1.1-1",
     "origin": "arch-extra",
-    "sha256": "136059ac338fd6eb3ca70e1b55c765aa37710b9fae9bc117b65566acb74e1f90",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xrootd-6.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3836ae98660194879e27a1d096f241da397a35c24e41185e13f376c5dbf20a55",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xrootd-6.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
