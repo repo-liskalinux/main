@@ -54,20 +54,6 @@
         "conflicts": []
     },
     {
-        "name": "busybox",
-        "version": "1.38.0-1",
-        "origin": "liska-core",
-        "sha256": "",
-        "url": "https://github.com/repo-liskalinux/main/releases/download/stable/busybox-1.38.0-1-x86_64.lsk.tar.zst",
-        "provides": [],
-        "depends": [
-            "glibc",
-            "libcap"
-        ],
-        "optdepends": [],
-        "conflicts": []
-    },
-    {
         "name": "dbus",
         "version": "1.16.2-1",
         "origin": "liska-core",
