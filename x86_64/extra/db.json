@@ -15924,10 +15924,10 @@
   },
   {
     "name": "cef",
-    "version": "151.3.18-1",
+    "version": "151.3.17-1",
     "origin": "arch-extra",
-    "sha256": "e01683b993933e32849a6aabfd850a19aef081157fc7b0ebf82f46de6c25b357",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cef-151.3.18-1-x86_64.pkg.tar.zst",
+    "sha256": "45b034f206dc6697f4cd3cb59a8b134b3045db2e03d541f0bf7d86c9e0686ac0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cef-151.3.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -21192,10 +21192,10 @@
   },
   {
     "name": "cpp-httplib",
-    "version": "0.53.1-1",
+    "version": "0.53.0-1",
     "origin": "arch-extra",
-    "sha256": "95172cb514b1a147b094f947d2de82a472ccf00a877ed26f6b65f12d67e89749",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpp-httplib-0.53.1-1-any.pkg.tar.zst",
+    "sha256": "8e437f2d8e733d581b42197c2f1595aa05e6d50f623e2351cb99d9517dbd5502",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/cpp-httplib-0.53.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -141257,10 +141257,10 @@
   },
   {
     "name": "nvchecker",
-    "version": "2.22-1",
+    "version": "2.21-1",
     "origin": "arch-extra",
-    "sha256": "b6cdf4dd7ea10a86c54fbdc2adf1374c297ab82170702e0593500900a2f2c491",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvchecker-2.22-1-any.pkg.tar.zst",
+    "sha256": "b26d4404fa4f23716b0d32692bc5c44ecd892c1e11eab93dff22207a004c09f3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvchecker-2.21-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -150321,13 +150321,12 @@
   },
   {
     "name": "pantheon-polkit-agent",
-    "version": "8.1.0-1",
+    "version": "8.0.2-1",
     "origin": "arch-extra",
-    "sha256": "37ba9cea914daf516f8c59abd2188aeb4f3266329d3a1b422590be8f01dbcc25",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-polkit-agent-8.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5fc21d922b0b0a62152a0655a9b56acf74afa0e29830c26cc61f180169d35576",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-polkit-agent-8.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcr-4",
       "glib2",
       "glibc",
       "gtk4",
@@ -150479,16 +150478,17 @@
   },
   {
     "name": "pantheon-terminal",
-    "version": "8.1.0-1",
+    "version": "8.0.0-1",
     "origin": "arch-extra",
-    "sha256": "752950e83a202519c2008debb312319111a0a3df31db7b20e5cc548368b0a3fb",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-terminal-8.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "352684da5a6b93e2d8287d835cfd77ebca2fdb0c08ca96a71121cb0304880ac4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-terminal-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "gtk4",
       "libadwaita-1.so=0-64",
       "libgranite-7.so=7-64",
+      "libhandy-1.so",
       "pango",
       "vte4"
     ],
@@ -150720,15 +150720,13 @@
   },
   {
     "name": "par2cmdline",
-    "version": "1.3.0-1",
+    "version": "1.2.0-1",
     "origin": "arch-extra",
-    "sha256": "3f20d315f581d4e1e7fd744a0e720922ce54e1a12806c7b3a79e1dceae3e8344",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/par2cmdline-1.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "554fd14f517da96cf7a519e9ea8f1cf3e6442d6f8368d58e829cffede31b0a92",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/par2cmdline-1.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libgcc",
-      "libgomp",
-      "libstdc++"
+      "gcc-libs"
     ],
     "optdepends": [],
     "conflicts": []
@@ -172471,10 +172469,10 @@
   },
   {
     "name": "python-blessed",
-    "version": "1.48-1",
+    "version": "1.46-1",
     "origin": "arch-extra",
-    "sha256": "32abfd0e95584232775ea18eee75fcbfbba9de07c01caabb6d3c6a767066b61c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-blessed-1.48-1-any.pkg.tar.zst",
+    "sha256": "366fcc0918b4d072e372edb70ca48a9c29de56fc77700f7879208d1c77de9e6f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-blessed-1.46-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -183619,15 +183617,14 @@
   },
   {
     "name": "python-librosa",
-    "version": "1.0.0-1",
+    "version": "0.11.0-2",
     "origin": "arch-extra",
-    "sha256": "27eaa08cbdc35ce515e735b7c98cedd7349655654393de29a747633748a0adac",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-librosa-1.0.0-1-any.pkg.tar.zst",
+    "sha256": "7c97890df2e31eecd10b1b85283cde8a2129ec8d2e08d6d107410dba4585d18f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-librosa-0.11.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
       "python-audioread",
-      "python-cycler",
       "python-decorator",
       "python-joblib",
       "python-lazy-loader",
