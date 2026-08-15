@@ -23930,10 +23930,10 @@
   },
   {
     "name": "deepin-camera",
-    "version": "6.5.23-1",
+    "version": "6.5.22-1",
     "origin": "arch-extra",
-    "sha256": "fa4639eb36a297ec20368fa85e0cacf48d6526d0990d42d25c07ba9e1c12925e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-camera-6.5.23-1-x86_64.pkg.tar.zst",
+    "sha256": "066ec0eefeadac73ef18fac42aed46749bdff9d4982235f677daeee672b203a3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/deepin-camera-6.5.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dtk6core",
@@ -59571,10 +59571,10 @@
   },
   {
     "name": "harfbuzz",
-    "version": "14.3.1-1",
+    "version": "14.3.0-1",
     "origin": "arch-extra",
-    "sha256": "9eb689c90629292176b41d584ecb95e7e9f72c811576252a9fb332d6e4068890",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c9ba0ccb2eded9bb313ef15840dc8b1b266fa2eae6c34be5f495a30e73724f5f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-14.3.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz.so=0-64",
       "libharfbuzz-subset.so=0-64",
@@ -59603,10 +59603,10 @@
   },
   {
     "name": "harfbuzz-cairo",
-    "version": "14.3.1-1",
+    "version": "14.3.0-1",
     "origin": "arch-extra",
-    "sha256": "d42b13a95a0df7bafefdb5ffbb61d0e5b41beafaaf9e8c3a43af10a812da104e",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-cairo-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "dde99b2f116193f467dd33f04a03105a82ea2843193c9086516b774b6bcea6fc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-cairo-14.3.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-cairo.so=0-64"
     ],
@@ -59625,10 +59625,10 @@
   },
   {
     "name": "harfbuzz-icu",
-    "version": "14.3.1-1",
+    "version": "14.3.0-1",
     "origin": "arch-extra",
-    "sha256": "393026cb7fbf93976b394f992904516c51b958e18bbcc15612acab54494784e4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-icu-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ae49c180a3398094f577ab4bb47d4874b639f9bcc64a2b0391e535c3d451c774",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-icu-14.3.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-icu.so=0-64"
     ],
@@ -59644,10 +59644,10 @@
   },
   {
     "name": "harfbuzz-utils",
-    "version": "14.3.1-1",
+    "version": "14.3.0-1",
     "origin": "arch-extra",
-    "sha256": "40c1a8f920a06fad791115cac851de27c7a34322ecc1eabd4f9caa67953f1afe",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-utils-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9abd4095a6d9f8d5302930ec93629eee064c12aac1d2e3f9ee9b844ecf32759a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/harfbuzz-utils-14.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -167119,10 +167119,10 @@
   },
   {
     "name": "postgresql",
-    "version": "18.6-1",
+    "version": "18.4-5",
     "origin": "arch-extra",
-    "sha256": "40834a894b033660bc62d4b189e5c0ef511a5b4b30b39a18f9c2892e619cd5b6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/postgresql-18.6-1-x86_64.pkg.tar.zst",
+    "sha256": "9500afa5b3941cc149cfec2fa2cac964a5d87f156e1aaa953689de74dc6e6fbe",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/postgresql-18.4-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -167159,7 +167159,7 @@
       "libz.so=1-64",
       "zstd",
       "libzstd.so=1-64",
-      "postgresql-libs>=18.6"
+      "postgresql-libs>=18.4"
     ],
     "optdepends": [
       "logrotate: rotates system logs automatically",
@@ -167186,10 +167186,10 @@
   },
   {
     "name": "postgresql-libs",
-    "version": "18.6-1",
+    "version": "18.4-5",
     "origin": "arch-extra",
-    "sha256": "513dce3143d2257ff3843899d33219c5e675598b7f393d6e2ee2e5fa57e2b3a4",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/postgresql-libs-18.6-1-x86_64.pkg.tar.zst",
+    "sha256": "e07312ecc0c4a2391c21de8dd30a76ee9aabb5e53cbfad30b2ee6eb237ccdd68",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/postgresql-libs-18.4-5-x86_64.pkg.tar.zst",
     "provides": [
       "libecpg.so=6-64",
       "libecpg_compat.so=3-64",
@@ -167223,10 +167223,10 @@
   },
   {
     "name": "postgresql-old-upgrade",
-    "version": "17.11-1",
+    "version": "17.10-1",
     "origin": "arch-extra",
-    "sha256": "455b8546ecfbc8f2e4e0a09029bb89c1747bffee11ad2464ef6e0a766b7fcf09",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/postgresql-old-upgrade-17.11-1-x86_64.pkg.tar.zst",
+    "sha256": "6b537a97837e006f04e7789ce7550e577277c2df427f5b8fb7449cc1eccb41ad",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/postgresql-old-upgrade-17.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -167257,7 +167257,7 @@
       "libz.so=1-64",
       "zstd",
       "libzstd.so=1-64",
-      "postgresql-libs>=17.11"
+      "postgresql-libs>=17.10"
     ],
     "optdepends": [
       "perl: for PL/Perl support",
@@ -193478,10 +193478,10 @@
   },
   {
     "name": "python-pytest-forked",
-    "version": "1.7.5-1",
+    "version": "1.7.4-1",
     "origin": "arch-extra",
-    "sha256": "0d8ca8b93c9f1571975b10b4fa5ef51a05ba1dd741fbb638372e2502ed05223c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-forked-1.7.5-1-any.pkg.tar.zst",
+    "sha256": "fc174ee15ab49e6dd8d4d30876e7841095ed29b963ad0835b69a88d5724a898e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-forked-1.7.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pytest"
@@ -222763,48 +222763,6 @@
     ],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "rust",
-    "version": "1:1.97.1-1",
-    "origin": "arch-extra",
-    "sha256": "c13025b265ed7070ec74f5afd32723e18e1610a9bc6231a76d9156d30e372000",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/rust-1:1.97.1-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "cargo",
-      "rustfmt"
-    ],
-    "depends": [
-      "bash",
-      "compiler-rt",
-      "curl",
-      "gcc",
-      "glibc",
-      "libgcc",
-      "libgit2",
-      "libssh2",
-      "libstdc++",
-      "lld",
-      "llvm-libs",
-      "openssl",
-      "sqlite",
-      "zlib",
-      "libcurl.so=4-64",
-      "libgcc_s.so=1-64",
-      "libgit2.so=1.9-64",
-      "libsqlite3.so=0-64",
-      "libssh2.so=1-64",
-      "libssl.so=3-64"
-    ],
-    "optdepends": [
-      "gdb: rust-gdb script",
-      "lldb: rust-lldb script"
-    ],
-    "conflicts": [
-      "cargo",
-      "rust-docs<1:1.56.1-3",
-      "rustfmt"
-    ]
   },
   {
     "name": "rust-aarch64-gnu",
@@ -270090,14 +270048,13 @@
   },
   {
     "name": "zsync",
-    "version": "0.6.6-1",
+    "version": "0.6.5-1",
     "origin": "arch-extra",
-    "sha256": "59c6142dc1ceafeaf8d7892fa88e9a6e307728019bb1b7a0b38c644dbaa33c7f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zsync-0.6.6-1-x86_64.pkg.tar.zst",
+    "sha256": "053a7bf3d1f1196ad0b153628f80d96ca5f8c603e54a5fe78fc7266d40bd174a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zsync-0.6.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc",
-      "openssl"
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": []
