@@ -109281,12 +109281,12 @@
   },
   {
     "name": "libnvidia-container",
-    "version": "1.20.0-1",
+    "version": "1.19.1-1",
     "origin": "arch-extra",
-    "sha256": "462f863dd7fb9d6d5ef7f925b5af816324b85328d57ccce29e108028da274f94",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libnvidia-container-1.20.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2a127ef23cd83b36f4c8f4a7dbe52a9d2d6a422c6fadd6749bfd1febf1b9f973",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libnvidia-container-1.19.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libnvidia-container-tools=1.20.0"
+      "libnvidia-container-tools=1.19.1"
     ],
     "depends": [
       "glibc",
@@ -139993,10 +139993,10 @@
   },
   {
     "name": "nnn",
-    "version": "5.3-1",
+    "version": "5.2-1",
     "origin": "arch-extra",
-    "sha256": "76c2782f8fcd26b39568721bb9bef92e858bb54b806fac82f007738ba0c2044c",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nnn-5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a0ef277e329788b5120e918881a58857253ddd49b4974d59c1904fd01ec5415d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nnn-5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -141363,14 +141363,14 @@
   },
   {
     "name": "nvidia-container-toolkit",
-    "version": "1.20.0-1",
+    "version": "1.19.1-1",
     "origin": "arch-extra",
-    "sha256": "e7a6bca234896268b95d812bc1dd3bb42206908b472b74b18a5072be984e6281",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvidia-container-toolkit-1.20.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e407bed523d74c2c533987d8a37c558ecf21f99f15310a51b65dcd25be11c679",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/nvidia-container-toolkit-1.19.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "libnvidia-container=1.20.0"
+      "libnvidia-container=1.19.1"
     ],
     "optdepends": [],
     "conflicts": []
@@ -149421,14 +149421,13 @@
   },
   {
     "name": "pacoloco",
-    "version": "1.9-1",
+    "version": "1.8-1",
     "origin": "arch-extra",
-    "sha256": "a4d4ddb10798e318df816dc12e5c2ad1cc6aa9bc372dd20bba7f61dcfd063871",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pacoloco-1.9-1-x86_64.pkg.tar.zst",
+    "sha256": "05d5cacc43af9df5ff22a4868aaebb301f521968d36827dd4117f115511dbcef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pacoloco-1.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc",
-      "sqlite"
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -171046,10 +171045,10 @@
   },
   {
     "name": "python-anywidget",
-    "version": "0.11.0-1",
+    "version": "0.9.21-2",
     "origin": "arch-extra",
-    "sha256": "98955c240ee9fe6ceac473532a3f5de5b9eaeea38a583c46c1c179ab6e9c5f43",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-anywidget-0.11.0-1-any.pkg.tar.zst",
+    "sha256": "1ff25b188a7f79ee447d7b54fc751eaeb88c09dbb59fb79b9acbc066e0607f64",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-anywidget-0.9.21-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ipython",
@@ -200378,10 +200377,10 @@
   },
   {
     "name": "python-tifffile",
-    "version": "2026.8.16-1",
+    "version": "2026.7.31-1",
     "origin": "arch-extra",
-    "sha256": "b74782dfb5cd8292e2c92b4b094e93bf0a56a93502f00c12d45ea52809808bb5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tifffile-2026.8.16-1-any.pkg.tar.zst",
+    "sha256": "def367c2bba9501f7fa965d1dcdd11647d08e3e35fd71e78c098c2cc627373a2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-tifffile-2026.7.31-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -223723,10 +223722,10 @@
   },
   {
     "name": "satty",
-    "version": "0.22.0-1",
+    "version": "0.21.1-1",
     "origin": "arch-extra",
-    "sha256": "580c1ce9913d70126084c86959ba583c2f736fe32ef1dedc8252f438808268b7",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/satty-0.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "202565b2e32366e3d42a70cbaf36232f8288ca7d9f94a792a4854bad6f0e61d4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/satty-0.21.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fontconfig",
