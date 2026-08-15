@@ -4459,10 +4459,10 @@
   },
   {
     "name": "apt",
-    "version": "3.3.3-1",
+    "version": "3.3.2-1",
     "origin": "arch-extra",
-    "sha256": "de32dba6435ae433ffbd0f083be6b55fde10ea26ac2db8a4b17110f123a90191",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apt-3.3.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8ac42b04852ccec9edece92915910f5ba2a2e95c1172a057bb3dfd46adc201e4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/apt-3.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "systemd-libs",
@@ -11268,10 +11268,10 @@
   },
   {
     "name": "borgmatic",
-    "version": "2.1.7-1",
+    "version": "2.1.6-1",
     "origin": "arch-extra",
-    "sha256": "506c1b41ebd3d7b79232c3490d93c4419c9e1e923e3613aa3b7a7399b85ad192",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/borgmatic-2.1.7-1-any.pkg.tar.zst",
+    "sha256": "99e4ccb54aca408464fc7159dbc8d17061f1e4b454f5da4722648b6b55f6a564",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/borgmatic-2.1.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "borg",
@@ -26885,10 +26885,10 @@
   },
   {
     "name": "discord",
-    "version": "1:1.0.154-1",
+    "version": "1:1.0.153-1",
     "origin": "arch-extra",
-    "sha256": "c38af5ad9092b04dd4c0170298c61ac08d4dc38f22e71f895390da7faaa8a933",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/discord-1:1.0.154-1-x86_64.pkg.tar.zst",
+    "sha256": "60ec271f85161f6fc7984b04a543bf1913dbdf8e95bbe7e42da1b97b425348c3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/discord-1:1.0.153-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnotify",
@@ -115908,17 +115908,17 @@
   },
   {
     "name": "librist",
-    "version": "0.2.20-1",
+    "version": "0.2.17-2",
     "origin": "arch-extra",
-    "sha256": "af84f36fe67e6075753a2ed18fffa69ce47f6b9045a753b6e4d1f41d871424ed",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/librist-0.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "2db33b730ba0e70864fc19ef27d8d7aed6c8ddf522bea14909b4bee932624e6e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/librist-0.2.17-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cjson",
       "glibc",
       "libmicrohttpd",
       "lz4",
-      "mbedtls3"
+      "mbedtls"
     ],
     "optdepends": [],
     "conflicts": []
@@ -150127,12 +150127,13 @@
   },
   {
     "name": "pantheon-files",
-    "version": "7.3.2-1",
+    "version": "7.3.1-1",
     "origin": "arch-extra",
-    "sha256": "f5575797922a2f3aecf51932b5fd974f93db82f0cf2dcfe0a7da5f43dba88e35",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-files-7.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "380e2f0a28f31d8158da20b6356ed14c9a0147ff9330c78116db57ba5a189b62",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-files-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "atk",
       "bash",
       "cairo",
       "dconf",
@@ -150140,12 +150141,14 @@
       "glib2",
       "glibc",
       "gtk3",
+      "gvfs",
       "libcanberra",
       "libcloudproviders",
       "libgee",
       "libgit2-glib",
       "libgranite.so=6-64",
       "libhandy-1.so=0-64",
+      "libnotify",
       "libportal",
       "libportal-gtk3",
       "pango",
@@ -150273,10 +150276,10 @@
   },
   {
     "name": "pantheon-photos",
-    "version": "8.0.2-1",
+    "version": "8.0.1-4",
     "origin": "arch-extra",
-    "sha256": "591db4898c004b41c7d0169fd76ee10210b8f9078c0c7ccbee58c25385b73049",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-photos-8.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1ccd7426f242992c429286e2edc0708e8c33d096a71c8d8d8645007431d3cf62",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/pantheon-photos-8.0.1-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -235008,10 +235011,10 @@
   },
   {
     "name": "systing",
-    "version": "1.13.0-1",
+    "version": "1.12.0-1",
     "origin": "arch-extra",
-    "sha256": "e4a3aba51beef2192e4afc2f77ef6e4a0f12406cdee8fb264023952020a642a5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/systing-1.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ed705965db3f9d52e988a06175b13d90af8782073b0361f6c348a09bb694408f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/systing-1.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bpf",
@@ -270231,10 +270234,10 @@
   },
   {
     "name": "zypper",
-    "version": "1.14.99-1",
+    "version": "1.14.98-1",
     "origin": "arch-extra",
-    "sha256": "53b241d604e967b8864157488623cb25ba8a6af9f584ee4e863199db341fd2ac",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zypper-1.14.99-1-x86_64.pkg.tar.zst",
+    "sha256": "805101bf1b0f675ff150743a314b684c21a26323c9613df718c99a57e55ebd16",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/zypper-1.14.98-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "augeas",
