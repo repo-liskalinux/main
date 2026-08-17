@@ -12133,22 +12133,18 @@
   },
   {
     "name": "btrfs-assistant",
-    "version": "2.3-2",
+    "version": "2.2-5",
     "origin": "arch-extra",
-    "sha256": "2181d37d61bece1f781fec6d6c3145e129dc09707eb697a9953b46c92376e27d",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/btrfs-assistant-2.3-2-x86_64.pkg.tar.zst",
+    "sha256": "c10dfc85298da11303543e003b590132eeef129ae8278ec1fe2102c69f329f19",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/btrfs-assistant-2.2-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "bash",
-      "btrfs-progs",
-      "diffutils",
-      "glibc",
-      "hicolor-icon-theme",
-      "libgcc",
-      "libstdc++",
-      "polkit",
       "qt6-base",
-      "util-linux"
+      "qt6-svg",
+      "polkit",
+      "util-linux",
+      "btrfs-progs",
+      "diffutils"
     ],
     "optdepends": [
       "snapper: Snapper support",
@@ -23259,10 +23255,10 @@
   },
   {
     "name": "dbeaver",
-    "version": "26.1.5-1",
+    "version": "26.1.4-1",
     "origin": "arch-extra",
-    "sha256": "263afe2c4ec6a584d59e9e9aa9f114e8df8f71a9e621e5a48751ce2d18903027",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dbeaver-26.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "c0d295f2021052035a9c36dfdfddc2e5370d64270ee4581bb0c08123c878deef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/dbeaver-26.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime>=21",
@@ -27966,10 +27962,10 @@
   },
   {
     "name": "docker-compose",
-    "version": "5.5.0-1",
+    "version": "5.4.0-1",
     "origin": "arch-extra",
-    "sha256": "59a32e0da4b8430fd165e19d731bac72421b9bfa410beb33501aa90063110b52",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/docker-compose-5.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3276de7a07032235e7530693d32a8ae720771be91251b2c9f75f4d0ffe22b42d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/docker-compose-5.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -143981,10 +143977,10 @@
   },
   {
     "name": "open-policy-agent",
-    "version": "1.19.1-1",
+    "version": "1.19.0-1",
     "origin": "arch-extra",
-    "sha256": "aa065462887c9ab6b37416c35305ddadeb0a2635f3ef902457510e0a0e6c1aaa",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/open-policy-agent-1.19.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c470802f2071d80e89711013b9540b27f3b9a3d51f5a8f592650b4176909a17c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/open-policy-agent-1.19.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -145105,10 +145101,10 @@
   },
   {
     "name": "openfire",
-    "version": "5.1.2-1",
+    "version": "5.1.1-1",
     "origin": "arch-extra",
-    "sha256": "3c4885e7ac5f928367e02c69b3c0c72f10b87a4b1857029d9a335708ad9f8d18",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openfire-5.1.2-1-any.pkg.tar.zst",
+    "sha256": "4eb4d0b41e696d84cf7c10fa754a26c18c51a1a05f4ca844a4b29e6ed753e5d2",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openfire-5.1.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime-headless>=17"
@@ -148091,10 +148087,10 @@
   },
   {
     "name": "osv-scanner",
-    "version": "2.5.1-1",
+    "version": "2.5.0-1",
     "origin": "arch-extra",
-    "sha256": "855d92a72b5291abb5211023e82ae4eb8cb39be75009bea10aec8a2940cdceae",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/osv-scanner-2.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "13722d9904954e63972c147f16740f8ca079accac3f3327bdd97fb6b8f5f08b0",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/osv-scanner-2.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -194183,10 +194179,10 @@
   },
   {
     "name": "python-pytest-timeout",
-    "version": "2.5.0-1",
+    "version": "2.4.0-2",
     "origin": "arch-extra",
-    "sha256": "067a68c40cf94aba4201290321356e3373f4622d9ab229ff1862da385bc46467",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-timeout-2.5.0-1-any.pkg.tar.zst",
+    "sha256": "350e2b37ecb0d8c73d0a169c2d803fec397b664d17e2c372a5a864ce8206f1e6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pytest-timeout-2.4.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pytest"
@@ -220376,10 +220372,10 @@
   },
   {
     "name": "ruby-protocol-http",
-    "version": "0.71.0-1",
+    "version": "0.70.0-1",
     "origin": "arch-extra",
-    "sha256": "8886e809bce79075a85da0efef154796b63a0c191203811c3e5b220868da5b77",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-protocol-http-0.71.0-1-any.pkg.tar.zst",
+    "sha256": "fb38e1ec6670239a23742b5c8e8152d2a3bb70bd36417071b3d490244524dff4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/ruby-protocol-http-0.70.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
