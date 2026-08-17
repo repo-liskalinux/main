@@ -67,7 +67,9 @@
         "depends": [
             "expat",
             "audit",
-            "elogind"
+            "elogind",
+            "avahi",
+            "polkit"
         ],
         "optdepends": [],
         "conflicts": []
