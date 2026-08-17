@@ -534,7 +534,7 @@
     "name": "dbus",
     "version": "1.16.2-1",
     "origin": "liska-core",
-    "sha256": "af73b124407bd56f1c3563bc2241d7880edaf1b051a07dee102129807044ebde",
+    "sha256": "11204d6e480b1ecf4507727712a4c75f129021f7cc334e889aa04e4442661415",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/dbus-1.16.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libdbus",
@@ -930,7 +930,7 @@
     "name": "filesystem",
     "version": "2026.08-1",
     "origin": "liska-core",
-    "sha256": "ecb2cd1cad60d2c1aa25636f90c6632c89f9c4b7efb7d58b07c297941c378459",
+    "sha256": "515f29589a03ee1faec979c3a50c28260e03121bed899a97efb7d3e28ade6911",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/filesystem-2026.08-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -5007,7 +5007,7 @@
     "name": "util-linux",
     "version": "2.42.2-1",
     "origin": "liska-core",
-    "sha256": "288c768c48ff89434c61a48f1b107a33ac10af640209e6224a52920258406bc1",
+    "sha256": "e1d2bbe9c11adec0913ca5de7c5416be6744776f9388c5ed92cb54663398e33b",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/util-linux-2.42.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libblkid",
@@ -5023,7 +5023,9 @@
       "zlib",
       "ncurses"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "cryptsetup"
+    ],
     "conflicts": []
   },
   {
