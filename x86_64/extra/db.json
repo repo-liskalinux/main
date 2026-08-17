@@ -43557,14 +43557,13 @@
   },
   {
     "name": "fzf",
-    "version": "0.74.3-1",
+    "version": "0.74.2-1",
     "origin": "arch-extra",
-    "sha256": "416eb52e0d05d88bb642da68eeb125960ed3e25f7ccc66f60cb11e5331067a90",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fzf-0.74.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2f66f9ff220b6e5faff9de8b19b460db83765ddd767e192f384cba135ad8172e",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/fzf-0.74.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "bash",
-      "glibc"
+      "bash"
     ],
     "optdepends": [
       "fish: fish keybindings",
@@ -80667,18 +80666,18 @@
   },
   {
     "name": "himalaya",
-    "version": "2.1.0-1",
+    "version": "2.0.0-1",
     "origin": "arch-extra",
-    "sha256": "e7c8f16171a048b22b0b121e43ec8b7d1e485b4a9ac4b57b38f2dfd00ef1e664",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/himalaya-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "760c31a29afb5161fedf3108f95e37ba396f8b47dae44c387d1de56da5f9c5f4",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/himalaya-2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "gpgme",
       "libgcc",
+      "libgcc_s.so=1-64",
       "notmuch",
-      "openssl",
-      "libgcc_s.so=1-64"
+      "openssl"
     ],
     "optdepends": [],
     "conflicts": []
@@ -89892,10 +89891,10 @@
   },
   {
     "name": "jupyter-nbformat",
-    "version": "5.11.1-1",
+    "version": "5.11.0-1",
     "origin": "arch-extra",
-    "sha256": "5f441f58c2cae1961baf7ad3886dc19e5da4f0971a8c8629c60d1e856c7d12b1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jupyter-nbformat-5.11.1-1-any.pkg.tar.zst",
+    "sha256": "40998bb4d9ec7c65baf2847ba7e4ed66ba5c70daff2b3721b6228b2515ce29bf",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jupyter-nbformat-5.11.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -255181,10 +255180,10 @@
   },
   {
     "name": "vis",
-    "version": "0.9.r498.gad0f1deb-1",
+    "version": "0.9.r495.geed16668-1",
     "origin": "arch-extra",
-    "sha256": "bc38b156441b333c35cf100c2053c46937450f9efe66a04cc1f6684cb0c645b6",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vis-0.9.r498.gad0f1deb-1-x86_64.pkg.tar.zst",
+    "sha256": "f1d72703bb74921edf83764108c584f55255634130aaef8cc941c9f399aefd9f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vis-0.9.r495.geed16668-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",
@@ -255207,10 +255206,10 @@
   },
   {
     "name": "vis-lexers",
-    "version": "0.9.r498.gad0f1deb-1",
+    "version": "0.9.r495.geed16668-1",
     "origin": "arch-extra",
-    "sha256": "47ff40b7893d649af9a72b4b3b04baffb55bb80630729e48cdc519b68648f485",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vis-lexers-0.9.r498.gad0f1deb-1-x86_64.pkg.tar.zst",
+    "sha256": "115ee2fb749f6f5c2dddf0dd1d0dfe79ece2703b0e5b9caae699c5ef1fc0b05a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/vis-lexers-0.9.r495.geed16668-1-x86_64.pkg.tar.zst",
     "provides": [
       "vis-syntax-highlighting"
     ],
