@@ -4196,6 +4196,25 @@
     "conflicts": []
   },
   {
+    "name": "pam",
+    "version": "1.7.2",
+    "origin": "liska-core",
+    "sha256": "deb518b0bee5182065eb153138359c231c21a7026904f5b278f610658a5f8f60",
+    "url": "https://github.com/repo-liskalinux/main/releases/download/stable/pam-1.7.2-1-x86_64.lsk.tar.zst",
+    "provides": [
+      "libpam",
+      "libpam.so",
+      "libpam_misc",
+      "libpamc"
+    ],
+    "depends": [
+      "glibc",
+      "libxcrypt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "pambase",
     "version": "20260616-1",
     "origin": "arch-core",
