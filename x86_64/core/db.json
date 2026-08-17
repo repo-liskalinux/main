@@ -534,7 +534,7 @@
     "name": "dbus",
     "version": "1.16.2-1",
     "origin": "liska-core",
-    "sha256": "11204d6e480b1ecf4507727712a4c75f129021f7cc334e889aa04e4442661415",
+    "sha256": "83d7301a623efa16beaa3a2c399ff04f696b11b7c19d3d6403e0f094794fa658",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/dbus-1.16.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libdbus",
@@ -543,7 +543,9 @@
     "depends": [
       "expat",
       "audit",
-      "elogind"
+      "elogind",
+      "avahi",
+      "polkit"
     ],
     "optdepends": [],
     "conflicts": []
@@ -830,7 +832,7 @@
     "name": "elogind",
     "version": "257.16-1",
     "origin": "liska-core",
-    "sha256": "bea980d6c15d1809e02c8533999de68fb42ec7fd161e6841fe953d195baaf590",
+    "sha256": "f588921efd4d768ffabb3e2ac1ff3f71818b48b767f51334090bb4fbec53a04e",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/elogind-257.16-1-x86_64.lsk.tar.zst",
     "provides": [
       "libelogind"
@@ -851,7 +853,7 @@
     "name": "eudev",
     "version": "3.2.14-1",
     "origin": "liska-core",
-    "sha256": "755b7511044b060018defa16d2317ec5e03031dbd8809406b3d7a5d26d3f0dad",
+    "sha256": "df36fe46c8deac3ed72827ce014813991ccdfda148682b56445c86b7b44f96c2",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/eudev-3.2.14-1-x86_64.lsk.tar.zst",
     "provides": [
       "udev",
@@ -930,7 +932,7 @@
     "name": "filesystem",
     "version": "2026.08-1",
     "origin": "liska-core",
-    "sha256": "515f29589a03ee1faec979c3a50c28260e03121bed899a97efb7d3e28ade6911",
+    "sha256": "d4ed78d32aee2a0661d45ce2a778a79423ea188827beb553dac40e9e27a53fc5",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/filesystem-2026.08-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3633,7 +3635,7 @@
     "name": "lksystem",
     "version": "1.0.0-1",
     "origin": "liska-core",
-    "sha256": "0b34d25de2101640d51a79f5f91396e51991d6d8ea1b42dbe5746dfdb7a6d905",
+    "sha256": "455367345562138549bb549d9d3b093606ac11556bc9afcd46209a6974fe77d6",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lksystem-1.0.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
