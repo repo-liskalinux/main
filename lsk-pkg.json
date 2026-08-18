@@ -241,12 +241,13 @@
             "bzip2",
             "unzip",
             "p7zip",
-            "rustup"
+            "rustup",
+            "gcc",
+            "musl"
         ],
         "optdepends": [
             "git",
             "make",
-            "gcc",
             "clang",
             "python",
             "perl",
@@ -270,7 +271,6 @@
             "glibc",
             "networkmanager",
             "util-linux",
-            "busybox",
             "eudev"
         ],
         "optdepends": [],
