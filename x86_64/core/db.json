@@ -3596,7 +3596,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "a09974819838fb832ff8c2f1606a06cccac19b82adef9efb5269af5fae137142",
+    "sha256": "a1437383d6cbf4ec3608c1905b455bd0db322da7abe5a3b9ab74f2a79a5fc738",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -3616,12 +3616,13 @@
       "bzip2",
       "unzip",
       "p7zip",
-      "rustup"
+      "rustup",
+      "gcc",
+      "musl"
     ],
     "optdepends": [
       "git",
       "make",
-      "gcc",
       "clang",
       "python",
       "perl",
@@ -3645,7 +3646,6 @@
       "glibc",
       "networkmanager",
       "util-linux",
-      "busybox",
       "eudev"
     ],
     "optdepends": [],
