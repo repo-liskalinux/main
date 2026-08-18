@@ -5258,10 +5258,10 @@
   },
   {
     "name": "arrow",
-    "version": "25.0.1-1",
+    "version": "24.0.0-6",
     "origin": "arch-extra",
-    "sha256": "1bab66f0ec69f0b6794d819018df651697565372853fdb620ae7f8f1cb349765",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/arrow-25.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1934f181bb06b180fc0d45ebe3722cd04990deea43aadfb0663cfbb14733179c",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/arrow-24.0.0-6-x86_64.pkg.tar.zst",
     "provides": [
       "parquet-cpp"
     ],
@@ -18657,10 +18657,10 @@
   },
   {
     "name": "clpeak",
-    "version": "2.1.0-1",
+    "version": "2.0.19-1",
     "origin": "arch-extra",
-    "sha256": "a6bc7747964bd00b8dd4fcfc62e7c078f1596bd181d92c2500c13e8e105c0e3b",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clpeak-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "452eb007fdbcf77a4a6c08ffe1da45ca3273cae5e0b7b02a40f66fdbf05ccd59",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clpeak-2.0.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ocl-icd",
@@ -18674,10 +18674,10 @@
   },
   {
     "name": "clpeak-cuda",
-    "version": "2.1.0-1",
+    "version": "2.0.19-1",
     "origin": "arch-extra",
-    "sha256": "d1668a4da54a2b93a9851d0611b920e6e38e3553b08fd1021dbb139c25b6aa7f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clpeak-cuda-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "626371eaed65be85dc7324e63b49704c28f9ad677ba446484bd333efb810712a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/clpeak-cuda-2.0.19-1-x86_64.pkg.tar.zst",
     "provides": [
       "clpeak"
     ],
@@ -32788,6 +32788,19 @@
     "conflicts": []
   },
   {
+    "name": "embree3",
+    "version": "3.13.5-3",
+    "origin": "arch-extra",
+    "sha256": "1561d25998c17bcb4b58be9f66e49a762b32a36a4274afb22985db2c184978ca",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/embree3-3.13.5-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "intel-tbb"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "emby-ffmpeg",
     "version": "2023_06_25-12",
     "origin": "arch-extra",
@@ -42819,10 +42832,10 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.4.0-1",
+    "version": "3.3.2-1",
     "origin": "arch-extra",
-    "sha256": "3ad17025676b80861fdb19d24081b7ec735682bcfafaf971a14f3180c8cca2ac",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/frei0r-plugins-3.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1f4759c40829ba889a9cdc25ed9d7f96d3a28d131e6d26690fe71e7823496fb1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/frei0r-plugins-3.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -45916,10 +45929,10 @@
   },
   {
     "name": "gdal",
-    "version": "3.13.3-1",
+    "version": "3.13.2-1",
     "origin": "arch-extra",
-    "sha256": "aeeac877e81ee8eecc78767e70b28eb44c77a5819346d360e51ad64d8875e742",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gdal-3.13.3-1-x86_64.pkg.tar.zst",
+    "sha256": "444b684321b5e66a3011b0c07f399a74f874ecff369bd276fe9637f541399468",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/gdal-3.13.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc",
@@ -88084,20 +88097,20 @@
   },
   {
     "name": "jdk17-openjdk",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.20.u8-1",
     "origin": "arch-extra",
-    "sha256": "77e7e8c15366628aace47fd099a3bbf937c3b3416567aaf1f5a59e9d553f4807",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jdk17-openjdk-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "ae7a5bdad27865aa38f13bb8791986d3d3cf986d5ee9a652597c71db99325b34",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jdk17-openjdk-17.0.20.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=17",
       "java-environment-openjdk=17",
-      "jdk17-openjdk=17.0.20.1.u1-1",
+      "jdk17-openjdk=17.0.20.u8-1",
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.20.1.u1-1",
+      "jre17-openjdk=17.0.20.u8-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.20.1.u1-1"
+      "jre17-openjdk-headless=17.0.20.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -88132,20 +88145,20 @@
   },
   {
     "name": "jdk21-openjdk",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.12.u8-1",
     "origin": "arch-extra",
-    "sha256": "5460a5ba8b42af4fe3c18eab9cb1b3bf69b3f365b76ca8657bdff1e02c290545",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jdk21-openjdk-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "428b11a30eb361d991a9f05d3e2a1d9a33535f4c725816057b202213475aa6a1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jdk21-openjdk-21.0.12.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=21",
       "java-environment-openjdk=21",
-      "jdk21-openjdk=21.0.12.1.u1-1",
+      "jdk21-openjdk=21.0.12.u8-1",
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.12.1.u1-1",
+      "jre21-openjdk=21.0.12.u8-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.12.1.u1-1"
+      "jre21-openjdk-headless=21.0.12.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -88181,20 +88194,20 @@
   },
   {
     "name": "jdk25-openjdk",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.4.u7-1",
     "origin": "arch-extra",
-    "sha256": "d1958dfe8fae5996b0cbbbd1e2c3f6ab70e64cb6ac5920ce15e3e48917656da1",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jdk25-openjdk-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "260b68ecba491cd308d66b57095f5b4f4a93bf7658e826e2c3f4cd690b118f8d",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jdk25-openjdk-25.0.4.u7-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=25",
       "java-environment-openjdk=25",
-      "jdk25-openjdk=25.0.4.1.u1-1",
+      "jdk25-openjdk=25.0.4.u7-1",
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.4.1.u1-1",
+      "jre25-openjdk=25.0.4.u7-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.4.1.u1-1"
+      "jre25-openjdk-headless=25.0.4.u7-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -89075,17 +89088,17 @@
   },
   {
     "name": "jre17-openjdk",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.20.u8-1",
     "origin": "arch-extra",
-    "sha256": "aa158fa2e826b069780fde38c9c03d6398032e6ea9a8dcdaf2b983308ad8bae0",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre17-openjdk-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "3e4d26452f2f2460be9be5b51687c391e73e6ae30b0391a34ffe60795a61a860",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre17-openjdk-17.0.20.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.20.1.u1-1",
+      "jre17-openjdk=17.0.20.u8-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.20.1.u1-1"
+      "jre17-openjdk-headless=17.0.20.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -89117,14 +89130,14 @@
   },
   {
     "name": "jre17-openjdk-headless",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.20.u8-1",
     "origin": "arch-extra",
-    "sha256": "03b885f9e355dde27f2a096c35a4bf5165f35bbda5108a0be149ff06d7cd2251",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre17-openjdk-headless-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "7976c54237516933e953e1c2ee6b13dbea0bd1ede7300b8fd5ae3fe526e16f89",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre17-openjdk-headless-17.0.20.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.20.1.u1-1"
+      "jre17-openjdk-headless=17.0.20.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -89152,17 +89165,17 @@
   },
   {
     "name": "jre21-openjdk",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.12.u8-1",
     "origin": "arch-extra",
-    "sha256": "6c224675b1227bafaff24620f36284bf842c53a3d0b19b11415f09a1dfb3a441",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre21-openjdk-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "997661c7e49015522a2ce2f984fc7c1de6db504eab586b6bfccde60508fb9846",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre21-openjdk-21.0.12.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.12.1.u1-1",
+      "jre21-openjdk=21.0.12.u8-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.12.1.u1-1"
+      "jre21-openjdk-headless=21.0.12.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -89195,14 +89208,14 @@
   },
   {
     "name": "jre21-openjdk-headless",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.12.u8-1",
     "origin": "arch-extra",
-    "sha256": "a4dc458c751be5fe33b3fbfe5e592d3b72349aaefb1fe1587b131a489cca0063",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre21-openjdk-headless-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "d1b42823787aee7efe6fb57c8c3b3f930b8dfc96903541ee123efa0966d9f3ef",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre21-openjdk-headless-21.0.12.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.12.1.u1-1"
+      "jre21-openjdk-headless=21.0.12.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -89231,17 +89244,17 @@
   },
   {
     "name": "jre25-openjdk",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.4.u7-1",
     "origin": "arch-extra",
-    "sha256": "7eb668fbcfa9fd4a2652e833917edafeb340c21587e80c1d2e3901f48faa1db5",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre25-openjdk-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "82af05b9c99aa80b9cb03e0ed6edc0ac12b5519d5f75a43aaf1aaece9ce8419a",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre25-openjdk-25.0.4.u7-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.4.1.u1-1",
+      "jre25-openjdk=25.0.4.u7-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.4.1.u1-1"
+      "jre25-openjdk-headless=25.0.4.u7-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -89274,14 +89287,14 @@
   },
   {
     "name": "jre25-openjdk-headless",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.4.u7-1",
     "origin": "arch-extra",
-    "sha256": "6b06befbf9997f7d57b7c36a9cd4949abadf52ba19d09e4a7a62e1a0a56c9042",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre25-openjdk-headless-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "99c867b51dd5ab040b8ed500b3fe8a4a8c699bc125449cc0f3d23088ee4b1cdc",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/jre25-openjdk-headless-25.0.4.u7-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.4.1.u1-1"
+      "jre25-openjdk-headless=25.0.4.u7-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -104810,10 +104823,10 @@
   },
   {
     "name": "libevdev",
-    "version": "1.13.7-1",
+    "version": "1.13.6-1",
     "origin": "arch-extra",
-    "sha256": "7e2db7e1ee868566e912b182a0d721b90799f6f90ab7bae4967e6e20ecc2b28a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libevdev-1.13.7-1-x86_64.pkg.tar.zst",
+    "sha256": "47508ec2c1ca6bc21f692937d500d7f4b72b117d2bf15d7fe59adc6af4a98c2f",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/libevdev-1.13.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libevdev.so=2-64"
     ],
@@ -145346,15 +145359,15 @@
   },
   {
     "name": "openjdk17-src",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.20.u8-1",
     "origin": "arch-extra",
-    "sha256": "5b0a69f71671ddc82ba73dcb86db0c6c25c3b8bbca37397c7656d28814c77ea9",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openjdk17-src-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "e61414b64a1fcb6f7ebbfdfc2bd91e51cbb1b38eaac0a85e90f154e0ca7faf42",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openjdk17-src-17.0.20.u8-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk17-src=17.0.20.1.u1-1"
+      "openjdk17-src=17.0.20.u8-1"
     ],
     "depends": [
-      "jdk17-openjdk=17.0.20.1.u1-1"
+      "jdk17-openjdk=17.0.20.u8-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -145363,30 +145376,30 @@
   },
   {
     "name": "openjdk21-src",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.12.u8-1",
     "origin": "arch-extra",
-    "sha256": "1af02f647bbc4c502c5ed7bb7ce8c69fe75c5115e1e9fd8c0a87b7356661ff24",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openjdk21-src-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "3b8397f3f1cd4780a1058506490a5fe537372b4d37465cd472918d48b098ec83",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openjdk21-src-21.0.12.u8-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk21-src=21.0.12.1.u1-1"
+      "openjdk21-src=21.0.12.u8-1"
     ],
     "depends": [
-      "jdk21-openjdk=21.0.12.1.u1-1"
+      "jdk21-openjdk=21.0.12.u8-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "openjdk25-src",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.4.u7-1",
     "origin": "arch-extra",
-    "sha256": "355c50e40aaecc27d8de5cfd1623161198e49a1eff058c43aabfea14182d11b3",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openjdk25-src-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "9da046f0f41cfdf74b4509bbcea2b8b0b879227816f0baa2c0aa3983e99d9cfa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/openjdk25-src-25.0.4.u7-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk25-src=25.0.4.1.u1-1"
+      "openjdk25-src=25.0.4.u7-1"
     ],
     "depends": [
-      "jdk25-openjdk=25.0.4.1.u1-1"
+      "jdk25-openjdk=25.0.4.u7-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -178586,13 +178599,13 @@
   },
   {
     "name": "python-gdal",
-    "version": "3.13.3-1",
+    "version": "3.13.2-1",
     "origin": "arch-extra",
-    "sha256": "37d80e9065ba8ef7215e7dc63f54af1abddc11037d43fb3fe32ccf2243708f7f",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-gdal-3.13.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2e854729fd27d5d9560a07eec0a954ee356a7c7ad1196b27762b963a6c8da2d3",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-gdal-3.13.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gdal=3.13.3",
+      "gdal=3.13.2",
       "glibc",
       "libgcc",
       "libstdc++",
@@ -183019,10 +183032,10 @@
   },
   {
     "name": "python-langchain-core",
-    "version": "1.5.6-1",
+    "version": "1.5.5-1",
     "origin": "arch-extra",
-    "sha256": "d99a21f8f13ed3ef9015d1a5e6ecab4063a2fdc034e8b649cd59ccf6369da89a",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-langchain-core-1.5.6-1-any.pkg.tar.zst",
+    "sha256": "ef73356ab6140246d03e207d094cfa493c2da58eb742ec891e0c3c033f0a44b1",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-langchain-core-1.5.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -190369,10 +190382,10 @@
   },
   {
     "name": "python-pyarrow",
-    "version": "25.0.1-1",
+    "version": "24.0.0-1",
     "origin": "arch-extra",
-    "sha256": "efeae5c045c5f2632cfe42ddbdc05d67fbab6bdbc62d440241be1079f3ee1054",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pyarrow-25.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "59cdbff70757fbb3bcd0cebf3d29a3f9966035b08d6a7578164d750e0f58cbaa",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/python-pyarrow-24.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "arrow",
@@ -246926,13 +246939,13 @@
   },
   {
     "name": "topology-toolkit",
-    "version": "1.4.0-4",
+    "version": "1.4.0-3",
     "origin": "arch-extra",
-    "sha256": "bed13f1db1dfed21b0bb79dec735c4dc86b6814113e05dea6bbdabfefcf23982",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/topology-toolkit-1.4.0-4-x86_64.pkg.tar.zst",
+    "sha256": "01798d94af209d650532958c422848b1852f0b3585ffa500367596c080874741",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/topology-toolkit-1.4.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "embree",
+      "embree3",
       "glibc",
       "graphviz",
       "libgcc",
@@ -266153,10 +266166,10 @@
   },
   {
     "name": "xorg-xload",
-    "version": "1.2.2-1",
+    "version": "1.2.1-1",
     "origin": "arch-extra",
-    "sha256": "c12d8aeef76be82852f5ae45fd80719fdb85ae9843a168ae264a89a2a036bee2",
-    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xorg-xload-1.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "124580a6cf642d5ecce160d3d2f44054cccc86e57076dbec4806788278a4dbc6",
+    "url": "http://mirror.rackspace.com/archlinux/extra/os/x86_64/xorg-xload-1.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxaw",
