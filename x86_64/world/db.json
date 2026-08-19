@@ -31330,20 +31330,20 @@
   },
   {
     "name": "jdk-openjdk",
-    "version": "26.0.2.u10-1",
+    "version": "26.0.2.1.u1-1",
     "origin": "artix-world",
-    "sha256": "3714277494e10c7356a775975a98e3b0e7c42367f7a61443ff216b9ad5584185",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-26.0.2.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "45c5ff67f8455efc86161db112617f9b02cfb9c9f118bc1967cc3b0a86c30935",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=26",
       "java-environment-openjdk=26",
-      "jdk26-openjdk=26.0.2.u10-1",
+      "jdk26-openjdk=26.0.2.1.u1-1",
       "java-runtime=26",
       "java-runtime-openjdk=26",
-      "jre26-openjdk=26.0.2.u10-1",
+      "jre26-openjdk=26.0.2.1.u1-1",
       "java-runtime-headless=26",
       "java-runtime-headless-openjdk=26",
-      "jre26-openjdk-headless=26.0.2.u10-1"
+      "jre26-openjdk-headless=26.0.2.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31813,17 +31813,17 @@
   },
   {
     "name": "jre-openjdk",
-    "version": "26.0.2.u10-1",
+    "version": "26.0.2.1.u1-1",
     "origin": "artix-world",
-    "sha256": "74d5fa4b55f1e29f5b7527cadced466283972075d63625b7af41857d55091dad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-26.0.2.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "aab04d7c9eddd0e8ba30fcd29cffdf5a6f1bcfa5d8a9cc7fa5fa4731300f5390",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=26",
       "java-runtime-openjdk=26",
-      "jre26-openjdk=26.0.2.u10-1",
+      "jre26-openjdk=26.0.2.1.u1-1",
       "java-runtime-headless=26",
       "java-runtime-headless-openjdk=26",
-      "jre26-openjdk-headless=26.0.2.u10-1"
+      "jre26-openjdk-headless=26.0.2.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31856,14 +31856,14 @@
   },
   {
     "name": "jre-openjdk-headless",
-    "version": "26.0.2.u10-1",
+    "version": "26.0.2.1.u1-1",
     "origin": "artix-world",
-    "sha256": "1b188b3b22f57e5f0a7d46a145148ad5adf7a74a0f415f294e8a9060754fbc1e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-26.0.2.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "62fa4848113cc596b78d2a52ca68b9b2d24cff67baf8670af1f1b15573d2a466",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=26",
       "java-runtime-headless-openjdk=26",
-      "jre26-openjdk-headless=26.0.2.u10-1"
+      "jre26-openjdk-headless=26.0.2.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -62270,15 +62270,15 @@
   },
   {
     "name": "openjdk-src",
-    "version": "26.0.2.u10-1",
+    "version": "26.0.2.1.u1-1",
     "origin": "artix-world",
-    "sha256": "122264ae51838a65a17fba0273a8c3c4dc3ec9651f162f69e5bbffb21b69e036",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-26.0.2.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "d8076693a64a84e94b2fea4bcc4dc7ff37fa68773a8390373fac0bbea9144364",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk26-src=26.0.2.u10-1"
+      "openjdk26-src=26.0.2.1.u1-1"
     ],
     "depends": [
-      "jdk26-openjdk=26.0.2.u10-1"
+      "jdk26-openjdk=26.0.2.1.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
