@@ -10971,10 +10971,10 @@
   },
   {
     "name": "deluge",
-    "version": "1:2.2.0-6",
+    "version": "1:2.2.0-7",
     "origin": "artix-world",
-    "sha256": "f515cd57e35cc132b1620268213945725bb4d51cc38c628401a25fca6aeb955e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/deluge-1:2.2.0-6-x86_64.pkg.tar.zst",
+    "sha256": "294029581fdba1d3c5f4021bcbe728a42f604fb5e7416b52eaef3e970120e702",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/deluge-1:2.2.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -11026,10 +11026,10 @@
   },
   {
     "name": "deluge-gtk",
-    "version": "1:2.2.0-6",
+    "version": "1:2.2.0-7",
     "origin": "artix-world",
-    "sha256": "9dc9d65bc18149cb168905064f89b4029c22f19450986bacad511d1f1ed92d8d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/deluge-gtk-1:2.2.0-6-x86_64.pkg.tar.zst",
+    "sha256": "5af95c344c2997e3b46427ceb312c2cae483b8ff3860efc1e40a4eb848ff8db4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/deluge-gtk-1:2.2.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -11040,7 +11040,7 @@
       "python-cairo",
       "python-gobject",
       "xdg-utils",
-      "deluge=1:2.2.0-6",
+      "deluge=1:2.2.0-7",
       "python",
       "python-rencode",
       "python-setproctitle",
@@ -53532,10 +53532,10 @@
   },
   {
     "name": "luajit",
-    "version": "2.1.1787058514+27f169c-1",
+    "version": "2.1.1787156470+21ecb36-1",
     "origin": "artix-world",
-    "sha256": "8df795f0dbd0cc7d6781e0d04a615bb8a334a8663420932171bc7b313ef72a43",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luajit-2.1.1787058514+27f169c-1-x86_64.pkg.tar.zst",
+    "sha256": "4d83be711d9d584a519bb05aee4b980b4b094edc884d600634a33ec5ec7fe3cd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luajit-2.1.1787156470+21ecb36-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -58584,10 +58584,10 @@
   },
   {
     "name": "ncmpcpp",
-    "version": "0.10.1-8",
+    "version": "0.10.1-9",
     "origin": "artix-world",
-    "sha256": "edfce50c658d7d7e67371e45d1862891596f3abdc1c8675d82dbd6fd8c2f2a63",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ncmpcpp-0.10.1-8-x86_64.pkg.tar.zst",
+    "sha256": "7351975bff0db92eccf72676a11846affa5e673d98a0b1e197a2d73e80c4a812",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ncmpcpp-0.10.1-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -58597,10 +58597,10 @@
       "fftw",
       "libfftw3.so=3-64",
       "boost-libs",
-      "libboost_filesystem.so=1.91.0-64",
-      "libboost_locale.so=1.91.0-64",
-      "libboost_program_options.so=1.91.0-64",
-      "libboost_thread.so=1.91.0-64",
+      "libboost_filesystem.so=1.92.0-64",
+      "libboost_locale.so=1.92.0-64",
+      "libboost_program_options.so=1.92.0-64",
+      "libboost_thread.so=1.92.0-64",
       "icu",
       "libicui18n.so=78-64",
       "libicuuc.so=78-64",
@@ -70016,10 +70016,10 @@
   },
   {
     "name": "php-legacy-mongodb",
-    "version": "2.3.3-1",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "01843a4e59e31ab32201cb0b10f106c60aa128c8b506adb0278f60075b4d457e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-mongodb-2.3.3-1-x86_64.pkg.tar.zst",
+    "sha256": "46f2a31872b3ec3832d28d48235e280eb185c5ee8298ca66b79650c6a9fd26d2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-mongodb-2.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "php-legacy"
@@ -70235,10 +70235,10 @@
   },
   {
     "name": "php-mongodb",
-    "version": "2.3.3-1",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "51e7e6f6627d6e2ccfe7566ad32480650efe937977bc82b4422a8df297894ff1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-mongodb-2.3.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a9882735cc5f0990d1d6ca166809498e5b6fe99fe2cf96dbdc0aaf8f1172a14b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-mongodb-2.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "php"
@@ -74179,10 +74179,10 @@
   },
   {
     "name": "prometheus",
-    "version": "3.13.2-1",
+    "version": "3.14.0-1",
     "origin": "artix-world",
-    "sha256": "3627d978e48ba5b10b7b9488ec63d0701445d838c79196fddf0180b8b7143e3f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/prometheus-3.13.2-1-x86_64.pkg.tar.zst",
+    "sha256": "4367164932fc1a7d1dea55723211e8a6dd7446a4216325a82fb08e5a4bc9da3c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/prometheus-3.14.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -76351,10 +76351,10 @@
   },
   {
     "name": "python-autobahn",
-    "version": "26.7.1-1",
+    "version": "26.7.1-2",
     "origin": "artix-world",
-    "sha256": "ef0422bbf24d8d9378f5662c6913b63e9f2b41fd1ef56077b7a1aac0d4b4258a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-autobahn-26.7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a2942ae59b98152a8595377a69d89de81344ff488be096224ab5bf0ebe58c1c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-autobahn-26.7.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -79868,10 +79868,10 @@
   },
   {
     "name": "python-fakeredis",
-    "version": "2.37.0-1",
+    "version": "2.37.1-1",
     "origin": "artix-world",
-    "sha256": "ec2e6b8af76c9e7d91c53f50645a86b61c8a010cdd65272eca8d570f2e225a31",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-fakeredis-2.37.0-1-any.pkg.tar.zst",
+    "sha256": "c043cc032c3c735179e161e855fb454f25514b4990bc025dce72b119122a74e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-fakeredis-2.37.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-redis",
@@ -84288,10 +84288,10 @@
   },
   {
     "name": "python-lxml",
-    "version": "6.1.1-1",
+    "version": "6.1.2_1-1",
     "origin": "artix-world",
-    "sha256": "a9248b3c9c8aeb415da702e98e812ce1455bcd2ada0099a40d2d8e17f82d1fd4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-lxml-6.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7321acc0946c35ed91923cfe2bcd4419cfd08e853fe23d9e4c6889f2c2399387",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-lxml-6.1.2_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -88472,10 +88472,10 @@
   },
   {
     "name": "python-pycrdt",
-    "version": "0.14.2-1",
+    "version": "0.14.3-1",
     "origin": "artix-world",
-    "sha256": "28b9a76c56ebc3c82480bd6bd091ce31b2c603860fac9b14bcfcc5531d4d4464",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycrdt-0.14.2-1-x86_64.pkg.tar.zst",
+    "sha256": "538e3bcb75e063afed5b805b4371252334279dd2b4d843ff1f9a9e74415812c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycrdt-0.14.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -88551,17 +88551,18 @@
   },
   {
     "name": "python-pycuda",
-    "version": "2026.1-3",
+    "version": "2026.1-4",
     "origin": "artix-world",
-    "sha256": "564c91ba24e9912116ddcf7ada3ae03c7ffc5716fb72f5a7207d74b83513b561",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycuda-2026.1-3-x86_64.pkg.tar.zst",
+    "sha256": "d646c7d5af8b0c9dbd9904f1a0f94e064b7eb56a662eac942a350005fb8bf2d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycuda-2026.1-4-x86_64.pkg.tar.zst",
     "provides": [
       "pycuda-headers"
     ],
     "depends": [
       "boost-libs",
       "cuda",
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "glibc",
       "nvidia-utils",
       "python",
@@ -94840,10 +94841,10 @@
   },
   {
     "name": "python-tiktoken",
-    "version": "0.13.0-1",
+    "version": "0.14.0-1",
     "origin": "artix-world",
-    "sha256": "50d67a069e025596bfde898faf5ddd6220aa9666c45befa217b8d053bd2666e7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tiktoken-0.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f88e2df7230c0ee8226dc3b528593db81c70a34a8575afa2f3d72a65df981c05",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tiktoken-0.14.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
