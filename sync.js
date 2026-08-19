@@ -121,9 +121,9 @@ function normalizePackage(pkg, defaultOrigin = null) {
 
 async function fetchAndParseArchDb(repo) {
     const repoUrl = `${ARCH_MIRROR}/${repo}/os/x86_64`;
-    const dbUrl = `${repoUrl}/${repo}.db`;
-    const tmpDir = path.join('/tmp', `archdb-${repo}-${Date.now()}`);
-    const dbTarPath = path.join(tmpDir, `${repo}.db`);
+    const dbUrl = `${repoUrl}/${repo}.db.tar.gz`;
+    const tmpDir = path.join('/tmp', `${repo}-${Date.now()}`);
+    const dbTarPath = path.join(tmpDir, `${repo}.db.tar.gz`);
     fs.mkdirSync(tmpDir, { recursive: true });
     console.log(`[i] Downloading ${dbUrl} database....`);
     try {
