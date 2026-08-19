@@ -30651,24 +30651,6 @@
     ]
   },
   {
-    "name": "xlibre-video-vbox",
-    "version": "25.0.0-7",
-    "origin": "artix-galaxy",
-    "sha256": "eca878d3fae82257791855f284fafe16c2878c00dec0ebb27f4e998038c31e3d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-video-vbox-25.0.0-7-x86_64.pkg.tar.zst",
-    "provides": [
-      "xf86-video-vbox"
-    ],
-    "depends": [
-      "xlibre-xserver>=25.0",
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "xf86-video-vbox"
-    ]
-  },
-  {
     "name": "xlibre-video-vesa",
     "version": "25.0.0-8",
     "origin": "artix-galaxy",
@@ -30709,21 +30691,39 @@
     ]
   },
   {
-    "name": "xlibre-video-voodoo",
-    "version": "25.0.0-5",
+    "name": "xlibre-xorgxrdp",
+    "version": "0.10.4-4",
     "origin": "artix-galaxy",
-    "sha256": "438213035b8a063b4bde9f0b3a5250eaa73ed19493cea39d4ed3c5f6f11b70be",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-video-voodoo-25.0.0-5-x86_64.pkg.tar.zst",
+    "sha256": "ac9916857a05b95c24dc753437645dc727db4af9f5a7f07e4a7ad88b602d844c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-xorgxrdp-0.10.4-4-x86_64.pkg.tar.zst",
     "provides": [
-      "xf86-video-voodoo"
+      "xorgxrdp"
     ],
     "depends": [
-      "xlibre-xserver>=25.0",
-      "glibc"
+      "glibc",
+      "xlibre-xserver"
     ],
     "optdepends": [],
     "conflicts": [
-      "xf86-video-voodoo"
+      "xorgxrdp"
+    ]
+  },
+  {
+    "name": "xlibre-xorgxrdp-glamor",
+    "version": "0.10.4-4",
+    "origin": "artix-galaxy",
+    "sha256": "23606556636e58c03ea684fbc268ac7ad1d282038b9bd175eb4e05829de6aa00",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-xorgxrdp-glamor-0.10.4-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "xorgxrdp"
+    ],
+    "depends": [
+      "glibc",
+      "xlibre-xserver"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "xorgxrdp"
     ]
   },
   {
