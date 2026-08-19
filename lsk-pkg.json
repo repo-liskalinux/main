@@ -166,15 +166,18 @@
     },
     {
         "name": "linux",
-        "version": "7.1.8-1",
+        "version": "7.2.0-1",
         "origin": "liska-core",
         "sha256": "",
-        "url": "https://github.com/repo-liskalinux/main/releases/download/stable/linux-7.1.8-1-x86_64.lsk.tar.zst",
+        "url": "https://github.com/repo-liskalinux/main/releases/download/stable/linux-7.2.0-1-x86_64.lsk.tar.zst",
         "provides": [],
         "depends": [
+            "coreutils",
+            "kmod"
+        ],
+        "optdepends": [
             "linux-firmware"
         ],
-        "optdepends": [],
         "conflicts": []
     },
     {
