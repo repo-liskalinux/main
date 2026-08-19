@@ -16181,10 +16181,10 @@
   },
   {
     "name": "librewolf",
-    "version": "153.0.4_1-1",
+    "version": "154.0_2-1",
     "origin": "artix-galaxy",
-    "sha256": "b27435e2c965f76cd198dbd88cee508b075c91aa5184cc41c7c9714ae1477095",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-153.0.4_1-1-x86_64.pkg.tar.zst",
+    "sha256": "f7f5546c7f8f85b999497d63498b93e630e7bb44375500e92f6d111e1cd59e6f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-154.0_2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -30688,6 +30688,24 @@
     "optdepends": [],
     "conflicts": [
       "xf86-video-vmware"
+    ]
+  },
+  {
+    "name": "xlibre-video-voodoo",
+    "version": "25.0.0-5",
+    "origin": "artix-galaxy",
+    "sha256": "438213035b8a063b4bde9f0b3a5250eaa73ed19493cea39d4ed3c5f6f11b70be",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-video-voodoo-25.0.0-5-x86_64.pkg.tar.zst",
+    "provides": [
+      "xf86-video-voodoo"
+    ],
+    "depends": [
+      "xlibre-xserver>=25.0",
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "xf86-video-voodoo"
     ]
   },
   {
