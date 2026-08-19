@@ -423,6 +423,17 @@
     ]
   },
   {
+    "name": "busybox",
+    "version": "1.36.1-4",
+    "origin": "liska-core",
+    "sha256": "14b14151bbc901c6e0c7cbb21fa73db2540df91cdea2a0ff1caf20be2cd8c333",
+    "url": "https://github.com/repo-liskalinux/main/releases/download/stable/busybox-1.36.1-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "bzip2",
     "version": "1.0.8-6",
     "origin": "artix-system",
@@ -4653,7 +4664,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "e5116786cc6028794baf283ca7290be84581ab48f55cae9819ecd447a11d9453",
+    "sha256": "384c908ebfc539aa4528518ba8fab40f4a44b80149e697d52f5629ff71f196d9",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
