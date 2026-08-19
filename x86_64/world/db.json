@@ -16741,10 +16741,10 @@
   },
   {
     "name": "firewall-applet",
-    "version": "2.5.1-1",
+    "version": "2.5.1-2",
     "origin": "artix-world",
-    "sha256": "f48b1d07778a2a275f30f213f4dcb0b4b37d3fdeb4ece8fc87d3c18edd500808",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewall-applet-2.5.1-1-any.pkg.tar.zst",
+    "sha256": "ab1722e23ae2547b088a83f28c83c3c9ffc283924b906fac23fddf26dd0573c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewall-applet-2.5.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "firewalld",
@@ -16758,10 +16758,10 @@
   },
   {
     "name": "firewall-config",
-    "version": "2.5.1-1",
+    "version": "2.5.1-2",
     "origin": "artix-world",
-    "sha256": "69e9cda3b73ae619dd21b3f11d02f37e9303fb87583e30100768732681b8e49a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewall-config-2.5.1-1-any.pkg.tar.zst",
+    "sha256": "6f3ad74c1f3eb5e14e576a9b1ca898eee9fe1465effdfa259a0f2fb6577fa2b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewall-config-2.5.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "firewalld",
@@ -16773,10 +16773,10 @@
   },
   {
     "name": "firewalld",
-    "version": "2.5.1-1",
+    "version": "2.5.1-2",
     "origin": "artix-world",
-    "sha256": "da5ae330516182c3706546537d9c93eb959e8205b70057fdcffe608b30d3c13c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewalld-2.5.1-1-any.pkg.tar.zst",
+    "sha256": "19d5f756276cca8df6b4a4c37daebc4c40f11de77c804411cf7e60a4be45ea4b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewalld-2.5.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -16869,10 +16869,10 @@
   },
   {
     "name": "firewalld-test",
-    "version": "2.5.1-1",
+    "version": "2.5.1-2",
     "origin": "artix-world",
-    "sha256": "fe62b52f9daf0ad4c0a14f98d7f5e097a669974e3f07f8a91aae5e0de3f08e42",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewalld-test-2.5.1-1-any.pkg.tar.zst",
+    "sha256": "78f863be4f215a49ab36e56dfb52963c647bacf964af2975b171560046bc51ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/firewalld-test-2.5.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "firewalld"
@@ -31379,20 +31379,20 @@
   },
   {
     "name": "jdk11-openjdk",
-    "version": "11.0.32.u9-1",
+    "version": "11.0.32.1.u1-1",
     "origin": "artix-world",
-    "sha256": "f2c94763075db20916b6f5b2814e4f55506c03c3ac9df7a018e27fb0666e691b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk11-openjdk-11.0.32.u9-1-x86_64.pkg.tar.zst",
+    "sha256": "d8eda7d85e26c85b73f2f3e755ea5e3886052a4d0ba659e5477d22dd9bc9247d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk11-openjdk-11.0.32.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=11",
       "java-environment-openjdk=11",
-      "jdk11-openjdk=11.0.32.u9-1",
+      "jdk11-openjdk=11.0.32.1.u1-1",
       "java-runtime=11",
       "java-runtime-openjdk=11",
-      "jre11-openjdk=11.0.32.u9-1",
+      "jre11-openjdk=11.0.32.1.u1-1",
       "java-runtime-headless=11",
       "java-runtime-headless-openjdk=11",
-      "jre11-openjdk-headless=11.0.32.u9-1"
+      "jre11-openjdk-headless=11.0.32.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31572,16 +31572,16 @@
   },
   {
     "name": "jdk8-openjdk",
-    "version": "8.502.u07-1",
+    "version": "8.504.u01-1",
     "origin": "artix-world",
-    "sha256": "4d11588b9063d22e872397fb24d6c8337750643727f7a297a81854fe64e1f5be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk8-openjdk-8.502.u07-1-x86_64.pkg.tar.zst",
+    "sha256": "136f21e4fbf3d3587056a51186b4f0a7798a9f13883d69c3d65365b9aa84b9ca",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk8-openjdk-8.504.u01-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=8",
       "java-environment-openjdk=8"
     ],
     "depends": [
-      "jre8-openjdk=8.502.u07-1",
+      "jre8-openjdk=8.504.u01-1",
       "java-environment-common"
     ],
     "optdepends": [
@@ -31892,17 +31892,17 @@
   },
   {
     "name": "jre11-openjdk",
-    "version": "11.0.32.u9-1",
+    "version": "11.0.32.1.u1-1",
     "origin": "artix-world",
-    "sha256": "8aa3e6518d6a24de184551addf29dc8dc61e507b001a275f016d4e548e6c5bba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-11.0.32.u9-1-x86_64.pkg.tar.zst",
+    "sha256": "fb37b5719be34ac97ee840c51492f013a0367dcf2e04171d2669c600234f3c7a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-11.0.32.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=11",
       "java-runtime-openjdk=11",
-      "jre11-openjdk=11.0.32.u9-1",
+      "jre11-openjdk=11.0.32.1.u1-1",
       "java-runtime-headless=11",
       "java-runtime-headless-openjdk=11",
-      "jre11-openjdk-headless=11.0.32.u9-1"
+      "jre11-openjdk-headless=11.0.32.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31933,14 +31933,14 @@
   },
   {
     "name": "jre11-openjdk-headless",
-    "version": "11.0.32.u9-1",
+    "version": "11.0.32.1.u1-1",
     "origin": "artix-world",
-    "sha256": "6f10ae514013e0bc2e822de943b9c58255a70cb932c3974bfe11ed4fa09b6a43",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-headless-11.0.32.u9-1-x86_64.pkg.tar.zst",
+    "sha256": "c8695ceb12d0ff9305f412c656ae66457b3034a7452639e02c58467bf608e3ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-headless-11.0.32.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=11",
       "java-runtime-headless-openjdk=11",
-      "jre11-openjdk-headless=11.0.32.u9-1"
+      "jre11-openjdk-headless=11.0.32.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32202,16 +32202,16 @@
   },
   {
     "name": "jre8-openjdk",
-    "version": "8.502.u07-1",
+    "version": "8.504.u01-1",
     "origin": "artix-world",
-    "sha256": "e4446e3500aabb812be785b1096f8f263f7787f4436831d37f8bf269b5d7e6e0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-8.502.u07-1-x86_64.pkg.tar.zst",
+    "sha256": "b18c5a71d064dfedeeaee7bfcc873496b1f6ac6c621880ae48a6e6ea108daf14",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-8.504.u01-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=8",
       "java-runtime-openjdk=8"
     ],
     "depends": [
-      "jre8-openjdk-headless=8.502.u07-1",
+      "jre8-openjdk-headless=8.504.u01-1",
       "giflib",
       "hicolor-icon-theme",
       "xdg-utils"
@@ -32226,10 +32226,10 @@
   },
   {
     "name": "jre8-openjdk-headless",
-    "version": "8.502.u07-1",
+    "version": "8.504.u01-1",
     "origin": "artix-world",
-    "sha256": "80508f621530f2565fceef04dbcb39a9dffa3d82bc0ffd720ec345aad7e39a0a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-headless-8.502.u07-1-x86_64.pkg.tar.zst",
+    "sha256": "d154d468dd8a9a36e15cef083766296b22dbbc9bd51855f6b91a8d45924d429c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-headless-8.504.u01-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=8",
       "java-runtime-headless-openjdk=8"
@@ -53522,10 +53522,10 @@
   },
   {
     "name": "luajit",
-    "version": "2.1.1785763465+1edc3e5-1",
+    "version": "2.1.1787058514+27f169c-1",
     "origin": "artix-world",
-    "sha256": "953e597c22d998a2671132ec20cc0d650c11c9f38c96fc74518eb2624ea98ca7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luajit-2.1.1785763465+1edc3e5-1-x86_64.pkg.tar.zst",
+    "sha256": "8df795f0dbd0cc7d6781e0d04a615bb8a334a8663420932171bc7b313ef72a43",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luajit-2.1.1787058514+27f169c-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -62287,15 +62287,15 @@
   },
   {
     "name": "openjdk11-src",
-    "version": "11.0.32.u9-1",
+    "version": "11.0.32.1.u1-1",
     "origin": "artix-world",
-    "sha256": "81242d12b8594485c849d2919764a2aa1eefd5aa19de18234c96981d9da0c03e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk11-src-11.0.32.u9-1-x86_64.pkg.tar.zst",
+    "sha256": "b5ddd7eca28da1646e2474ddd55aa67dbc7a4bed8c051c3eb9072c92a0faa348",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk11-src-11.0.32.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk11-src=11.0.32.u9-1"
+      "openjdk11-src=11.0.32.1.u1-1"
     ],
     "depends": [
-      "jdk11-openjdk=11.0.32.u9-1"
+      "jdk11-openjdk=11.0.32.1.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -62353,10 +62353,10 @@
   },
   {
     "name": "openjdk8-src",
-    "version": "8.502.u07-1",
+    "version": "8.504.u01-1",
     "origin": "artix-world",
-    "sha256": "09a909d857f0e770653a96f4bc98a97e48d2e762682d21e2bfdfd8059fd32345",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk8-src-8.502.u07-1-x86_64.pkg.tar.zst",
+    "sha256": "d0b1c331a35ff9786798b3613c86cc07857c685ebabb2e2a317e4c87507a1ed1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk8-src-8.504.u01-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -80229,10 +80229,10 @@
   },
   {
     "name": "python-firewall",
-    "version": "2.5.1-1",
+    "version": "2.5.1-2",
     "origin": "artix-world",
-    "sha256": "9cefdf740718ca2de4ec1a35fc1695d80ef55113bae07e7d364e37860fed2bcf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-firewall-2.5.1-1-any.pkg.tar.zst",
+    "sha256": "b2ed2dc11b63850b91a73f0e366dcb705ca147031b011ebfdc997e2a06e1c822",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-firewall-2.5.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95112,10 +95112,10 @@
   },
   {
     "name": "python-tracerite",
-    "version": "2.6.3-1",
+    "version": "2.6.4-1",
     "origin": "artix-world",
-    "sha256": "5c990e5028fc153b0d46453c4b575e5641bffb1be9cd589dd31e8fe6780682d4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tracerite-2.6.3-1-any.pkg.tar.zst",
+    "sha256": "95e03ef327c591fc2ce358b26fb4f07e57675953ee53dfc731553e02bb7841ae",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tracerite-2.6.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
