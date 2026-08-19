@@ -150,6 +150,7 @@ async function fetchAndParseArchDb(repo) {
             const version = pkgData['VERSION']?.[0] || "";
             const filename = pkgData['FILENAME']?.[0] || "";
             const sha256 = pkgData['SHA256SUM']?.[0] || null;
+            const groups = pkgData['GROUPS'] || [];
             packages.push(normalizePackage({
                 name: name,
                 version: version,
@@ -226,12 +227,20 @@ async function main() {
         const archPkgs = await fetchAndParseArchDb(repo);
         const updatedArchMap = new Map();
         const SYSTEMD_KEYWORDS = ['systemd', 'systemctl', 'journald', 'sd-bus', 'sd_notify', 'nspawn'];
+        const BLACKLISTED_GROUPS = new Set([
+            "gnome", "gnome-extra", "plasma", "kde-applications", "lxqt", "xfce4", "xfce4-goodies", "mate",
+            "mate-extra", "cinnamon", "deepin", "deepin-extra"
+        ]);
         for (const pkg of archPkgs) {
             const lowerName = pkg.name.toLowerCase();
             const lowerDesc = (pkg.description || "").toLowerCase();
+            const isBlacklistedGroup = pkg.groups && pkg.groups.some(g => BLACKLISTED_GROUPS.has(g));
             const nameHasSystemd = SYSTEMD_KEYWORDS.some(kw => lowerName.includes(kw));
             const descHasSystemd = SYSTEMD_KEYWORDS.some(kw => lowerDesc.includes(kw));
             if (nameHasSystemd || descHasSystemd) {
+                continue;
+            }
+            if (isBlacklistedGroup) {
                 continue;
             }
             if (blacklist.has(pkg.name) ||
