@@ -129,7 +129,7 @@ async function fetchAndParseArchDb(repo) {
     try {
         const res = await fetch(dbUrl);
         if (!res.ok) {
-            console.error(`[!] Failed to downloading database: ${dbUrl}`);
+            console.error(`[!] Failed to download database: ${dbUrl}`);
             return [];
         }
         const arrayBuffer = await res.arrayBuffer();
@@ -142,8 +142,7 @@ async function fetchAndParseArchDb(repo) {
         for (const folder of folders) {
             const pkgDirPath = path.join(extractDir, folder);
             if (!fs.statSync(pkgDirPath).isDirectory()) continue;
-            const dependsData = parseArchDbSectionFile(path.join(pkgDirPath, 'depends'));
-            const pkgData = { ...dependsData };
+            const pkgData = parseArchDbSectionFile(path.join(pkgDirPath, 'desc'));
             const name = pkgData['NAME']?.[0];
             if (!name) continue;
             const version = pkgData['VERSION']?.[0] || "";
@@ -152,7 +151,7 @@ async function fetchAndParseArchDb(repo) {
             packages.push(normalizePackage({
                 name: name,
                 version: version,
-                origin: `arch-${repo}`,
+                origin: `artix-${repo}`,
                 sha256: sha256,
                 url: filename ? `${repoUrl}/${filename}` : "",
                 provides: pkgData['PROVIDES'] || [],
