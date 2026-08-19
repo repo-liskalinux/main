@@ -3,8 +3,8 @@ const path = require('path');
 const crypto = require('crypto');
 const { execSync } = require('child_process');
 
-const ARCH_MIRROR = "http://mirror.rackspace.com/archlinux";
-const REPOS = ["core", "extra"];
+const ARCH_MIRROR = "https://mirror2.artixlinux.org";
+const REPOS = ["system", "world", "galaxy"];
 const ARCHS = ["x86_64"];
 
 function loadBlacklist() {
@@ -142,15 +142,13 @@ async function fetchAndParseArchDb(repo) {
         for (const folder of folders) {
             const pkgDirPath = path.join(extractDir, folder);
             if (!fs.statSync(pkgDirPath).isDirectory()) continue;
-            const descData = parseArchDbSectionFile(path.join(pkgDirPath, 'desc'));
             const dependsData = parseArchDbSectionFile(path.join(pkgDirPath, 'depends'));
-            const pkgData = { ...descData, ...dependsData };
+            const pkgData = { ...dependsData };
             const name = pkgData['NAME']?.[0];
             if (!name) continue;
             const version = pkgData['VERSION']?.[0] || "";
             const filename = pkgData['FILENAME']?.[0] || "";
             const sha256 = pkgData['SHA256SUM']?.[0] || null;
-            const groups = pkgData['GROUPS'] || [];
             packages.push(normalizePackage({
                 name: name,
                 version: version,
@@ -226,26 +224,12 @@ async function main() {
         const dbTarZstPath = path.join(repoDir, 'db.json.tar.zst');
         const archPkgs = await fetchAndParseArchDb(repo);
         const updatedArchMap = new Map();
-        const SYSTEMD_KEYWORDS = ['systemd', 'systemctl', 'journald', 'sd-bus', 'sd_notify', 'nspawn'];
-        const BLACKLISTED_GROUPS = new Set([
-            "gnome", "gnome-extra", "plasma", "kde-applications", "lxqt", "xfce4", "xfce4-goodies", "mate",
-            "mate-extra", "cinnamon", "deepin", "deepin-extra"
-        ]);
         for (const pkg of archPkgs) {
             const lowerName = pkg.name.toLowerCase();
-            const lowerDesc = (pkg.description || "").toLowerCase();
-            const isBlacklistedGroup = pkg.groups && pkg.groups.some(g => BLACKLISTED_GROUPS.has(g));
-            const nameHasSystemd = SYSTEMD_KEYWORDS.some(kw => lowerName.includes(kw));
-            const descHasSystemd = SYSTEMD_KEYWORDS.some(kw => lowerDesc.includes(kw));
-            if (nameHasSystemd || descHasSystemd) {
-                continue;
-            }
-            if (isBlacklistedGroup) {
-                continue;
-            }
             if (blacklist.has(pkg.name) ||
+                lowerName.startsWith('artix-') ||
+                lowerName.startsWith('artixnews') ||
                 lowerName.startsWith('archlinux-') ||
-                lowerName.startsWith('arch-') ||
                 lowerName.startsWith('mkinitcpio-') ||
                 lowerName.endsWith('-doc') ||
                 lowerName.endsWith('-docs')) {
@@ -254,7 +238,7 @@ async function main() {
             if (repo === "core" && liskaMap.has(pkg.name)) continue;
             updatedArchMap.set(pkg.name, pkg);
         }
-        const repoLiskaPackages = (repo === "core") ? Array.from(liskaMap.values()) : [];
+        const repoLiskaPackages = (repo === "system") ? Array.from(liskaMap.values()) : [];
         const finalPackages = [
             ...repoLiskaPackages,
             ...Array.from(updatedArchMap.values())
