@@ -13211,14 +13211,20 @@
   },
   {
     "name": "dvdauthor",
-    "version": "0.7.2-15",
+    "version": "0.7.2-16",
     "origin": "artix-world",
-    "sha256": "9cebe3f68438612ff852cde1b83a73b6e07cc4067f866a25ed47d3f1b4b61d39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dvdauthor-0.7.2-15-x86_64.pkg.tar.zst",
+    "sha256": "75ac21c03850b914033ebd803e3e22baf7f7aa32a1b72abb41e84e31bc9f2d70",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dvdauthor-0.7.2-16-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libdvdread",
+      "bash",
+      "fontconfig",
+      "freetype2",
+      "fribidi",
+      "glibc",
       "imagemagick",
+      "libdvdread",
+      "libpng",
       "libxml2"
     ],
     "optdepends": [],
@@ -109626,13 +109632,22 @@
   },
   {
     "name": "scite",
-    "version": "5.6.2-1",
+    "version": "5.6.6-1",
     "origin": "artix-world",
-    "sha256": "ecfe77fbe190cd5b6b49fba5adb166bdf5298b54d1c463563ba3d68273f451c4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/scite-5.6.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a09928fc82d59e68ecba46d915460a213ea564485904cba8dd77fabe15c367bd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/scite-5.6.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gtk3"
+      "at-spi2-core",
+      "cairo",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
+      "libgcc",
+      "libstdc++",
+      "pango"
     ],
     "optdepends": [],
     "conflicts": []
