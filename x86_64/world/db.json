@@ -6934,10 +6934,10 @@
   },
   {
     "name": "c-ares",
-    "version": "1.34.6-1",
+    "version": "1.34.8-1",
     "origin": "artix-world",
-    "sha256": "994aa2c40dc72903cc73cb6a3fe57e6ae22d9ec2c617264cbc6b2577534be684",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/c-ares-1.34.6-1-x86_64.pkg.tar.zst",
+    "sha256": "c222170b7fab2753e2920f1543859e9e4b07c016001be80554f789bbbeeeb009",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/c-ares-1.34.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libcares.so=2-64"
     ],
@@ -113947,10 +113947,10 @@
   },
   {
     "name": "syslog-ng",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "b455bca50ae13df352db05587a95c755b690081094ede513668d7180efe5a7cb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "763685c5a80364beb40c0f86e70e8e5c839bb7adb93ee6f9114c9a47b9f2693c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -113979,10 +113979,10 @@
   },
   {
     "name": "syslog-ng-amqp",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "f20cb86fe04a56c22de27eaab2bbee19e3f7bffd12f60fc35041958b0252f754",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-amqp-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "1928358ec87698dbf58e07341bee419c46ff82d5ad5eeba4b5a7cd823e46fb3f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-amqp-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114013,10 +114013,10 @@
   },
   {
     "name": "syslog-ng-geoip2",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "3db022908689b0e197392b8878fe25b4635c541cb2ea31d7077a65d833a3065c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-geoip2-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "8d3597b97c2b578abece3ce2db4a04bfa80301b0bd7b2c7ac3c68156783b88e6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-geoip2-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114029,10 +114029,10 @@
   },
   {
     "name": "syslog-ng-kafka",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "c5672b21d69287f34f6649c2fe4860bc6747cacfbc51e814ea2251c77ff5d12c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-kafka-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "5893ba2008f18cfb8af41c78c77409669812927f35ea50fd0f9620fce90802f1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-kafka-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114045,10 +114045,10 @@
   },
   {
     "name": "syslog-ng-mongodb",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "12dfe4dbde59de36fb776ceb5173d7b870b62f67431ee4be9dd6f909bf011df9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-mongodb-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "5ae442fa4842ad1db5c0e4f92b81a7c9c4aaec9a797073e783b1bb979ce5506c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-mongodb-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114079,10 +114079,10 @@
   },
   {
     "name": "syslog-ng-python",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "2cfae6dc8b0d41cb062d7c9c8ed39f5aa8b54ac5f08c49d6240d9aebef8e619f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-python-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "588318a5a80e4dc10d7e2c23cf97a01d234dd8bd4ba857f63da6a2ba7a0d4124",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-python-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114101,10 +114101,10 @@
   },
   {
     "name": "syslog-ng-redis",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "5d893b967311a82da66ed62700271ef42fb6d6bc390681ff5c944829eb425352",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-redis-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "175264e020d1cf67e0c193d6682e72fec1209dce5d51a75ab877fb5b9d38718e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-redis-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114153,10 +114153,10 @@
   },
   {
     "name": "syslog-ng-smtp",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "b991abd52c5a11584d7465e5105047956692b25fd19bfb6597fdca8ecfc29853",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-smtp-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "84cf9514c3d494654d83bd462dda167f8fd79245aa4b9fbbeff8dd0a669689b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-smtp-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114169,10 +114169,10 @@
   },
   {
     "name": "syslog-ng-snmp",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "2116a1f9b677ccb91c161af658edff3fd7aa072a073c47af4e0e929d869a28cb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-snmp-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "401e573270530ed9a470ce42ac0093bf93e368b97b946c30c32d08f7c8265b60",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-snmp-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114185,10 +114185,10 @@
   },
   {
     "name": "syslog-ng-sql",
-    "version": "4.11.0-6",
+    "version": "4.11.0-7",
     "origin": "artix-world",
-    "sha256": "77e641b6244a4351d28dbd74646944c6e763dec9a988c77aabda26ca70c5e601",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-sql-4.11.0-6-x86_64.pkg.tar.zst",
+    "sha256": "e0298faffd77d4c13942b6dfeea6fd9334f9e133e4d144db16959c842388b5a2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-sql-4.11.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
