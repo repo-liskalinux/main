@@ -37165,6 +37165,27 @@
     "conflicts": []
   },
   {
+    "name": "kirigami-app-components",
+    "version": "1.0.2-1",
+    "origin": "artix-world",
+    "sha256": "a2d83071e3f3758628214f2aa935be24e98f9571e930cb2815e966d7378a31cb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kirigami-app-components-1.0.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "kconfig",
+      "kguiaddons",
+      "ki18n",
+      "kirigami",
+      "kitemmodels",
+      "libstdc++",
+      "qt6-base",
+      "qt6-declarative"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "kirigami-gallery",
     "version": "26.04.3-1",
     "origin": "artix-world",
