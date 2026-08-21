@@ -4872,10 +4872,10 @@
   },
   {
     "name": "fcitx5-qt",
-    "version": "5.1.14-1",
+    "version": "5.1.14-2",
     "origin": "artix-galaxy",
-    "sha256": "bf2fc06b652ae796d7345555ab27f7e1be4cec64e487960136eb9e366a42b39d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.14-1-x86_64.pkg.tar.zst",
+    "sha256": "8bd8e3c018202f3c70c88d8d81bad0437a324d0a78c597c044c26be7b715c248",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.14-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11086,10 +11086,10 @@
   },
   {
     "name": "libcmis",
-    "version": "0.6.3-1",
+    "version": "0.6.3-2",
     "origin": "artix-galaxy",
-    "sha256": "00c7bacec3d734b11348cb3f9b7bca4dafaedf8f2f4f53a6a778059c72f12be4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libcmis-0.6.3-1-x86_64.pkg.tar.zst",
+    "sha256": "4926ecec267fa0a9e9a1fa050be26f098d6ee5063c9f803bf2984602975bbcbd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libcmis-0.6.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -11613,10 +11613,10 @@
   },
   {
     "name": "libreoffice-fresh",
-    "version": "26.2.5-1",
+    "version": "26.2.5-2",
     "origin": "artix-galaxy",
-    "sha256": "4f4bfee3c85b6b914c1a3d886bc29ff6989ffd4a2371d6fb73d14c9aa11ff007",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "6d0f081595a0b17085f17f3e05ac0e02b1fdab250f71f51b48d0e23c6a648980",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-26.2.5-2-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice",
       "libreoffice-en-US"
@@ -11699,6 +11699,7 @@
       "md4c"
     ],
     "optdepends": [
+      "libreoffice-fresh-i18n: Localizations",
       "java-runtime: adds java support",
       "java-environment>=17: required by extension-wiki-publisher and extension-nlpsolver",
       "pstoedit: translates PostScript and PDF graphics into other vector formats",
@@ -13220,10 +13221,10 @@
   },
   {
     "name": "libreoffice-fresh-sdk",
-    "version": "26.2.5-1",
+    "version": "26.2.5-2",
     "origin": "artix-galaxy",
-    "sha256": "1c387d5c67bd92c5dbe6e6af8c08e8945ab21ba2accabadf8711a057a64beee4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sdk-26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "cb165544785541af505677761985fb9c179c0ce7ffe4af9c32f820d8ec33a049",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sdk-26.2.5-2-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice-sdk"
     ],
@@ -13755,10 +13756,10 @@
   },
   {
     "name": "libreoffice-still",
-    "version": "25.8.7-5",
+    "version": "25.8.7-6",
     "origin": "artix-galaxy",
-    "sha256": "456fc661878646c7115527f55caacd7ef428683924b325fcc6aa2e5c5a09e266",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-25.8.7-5-x86_64.pkg.tar.zst",
+    "sha256": "8b23f1ddbfac569ee49909d8fcab13d8a392284ae29061e528d21ac2ea753c38",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-25.8.7-6-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice",
       "libreoffice-en-US"
@@ -13840,6 +13841,7 @@
       "argon2"
     ],
     "optdepends": [
+      "libreoffice-still-i18n: Localizations",
       "java-runtime: adds java support",
       "java-environment>=17: required by extension-wiki-publisher and extension-nlpsolver",
       "pstoedit: translates PostScript and PDF graphics into other vector formats",
@@ -15361,10 +15363,10 @@
   },
   {
     "name": "libreoffice-still-sdk",
-    "version": "25.8.7-5",
+    "version": "25.8.7-6",
     "origin": "artix-galaxy",
-    "sha256": "c6be97abb30010829bdad4cf6b0aa80191e024e4ca71d69454ee543f0f75329a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-sdk-25.8.7-5-x86_64.pkg.tar.zst",
+    "sha256": "3837c0deed6b34f51cf027f81fb1c7ad055df2bef7276f9f687be5e04b260bae",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-sdk-25.8.7-6-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice-sdk"
     ],
@@ -16825,10 +16827,10 @@
   },
   {
     "name": "logstalgia",
-    "version": "1.1.5-1.1",
+    "version": "1.1.5-1.2",
     "origin": "artix-galaxy",
-    "sha256": "b03fde4bbd594d984c0f1eb2f9b16bc933429c97bdd1a173d7e25d832cab151e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/logstalgia-1.1.5-1.1-x86_64.pkg.tar.zst",
+    "sha256": "1bf253e9100f3fa63ccbf3196dd248ed0f53237105e16882105a328023d1ac98",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/logstalgia-1.1.5-1.2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -19978,14 +19980,14 @@
   },
   {
     "name": "monero",
-    "version": "0.18.5.1-1",
+    "version": "0.18.5.1-2",
     "origin": "artix-galaxy",
-    "sha256": "a9201170f0df01253800ff08d9eefef9f39240c0759963762535c766ba0eec85",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-0.18.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b70b8364fbe43795489326a4c929f19e9a8fe0319ac620dd9e3cedde1c10dcfd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-0.18.5.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "libboost_program_options.so=1.91.0-64",
+      "libboost_program_options.so=1.92.0-64",
       "libgcc",
       "libhidapi-libusb.so=0-64",
       "libreadline.so=8-64",
@@ -20005,15 +20007,15 @@
   },
   {
     "name": "monero-gui",
-    "version": "0.18.5.2-1",
+    "version": "0.18.5.2-2",
     "origin": "artix-galaxy",
-    "sha256": "6e7bc4b5c476ca2e415a8be9cd4add0a730e8eac801c93bbd1ebcae5040e8e28",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-gui-0.18.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9ed7b5987169c72db739e2434b87253b8e7d73485b760f580cc25c20f0876b6e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-gui-0.18.5.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "hicolor-icon-theme",
-      "libboost_program_options.so=1.91.0-64",
+      "libboost_program_options.so=1.92.0-64",
       "libgcc",
       "libgcrypt",
       "libhidapi-libusb.so=0-64",
