@@ -134412,10 +134412,10 @@
   },
   {
     "name": "yt-dlp",
-    "version": "2026.07.04-1",
+    "version": "2026.08.19-1",
     "origin": "artix-world",
-    "sha256": "f46ca7c21f72e5e61d5407dfda45395b3f7132265fca15916e7943329d39416c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yt-dlp-2026.07.04-1-any.pkg.tar.zst",
+    "sha256": "a3339d88ad22289308459f375387ab4b181e26ebd171494515be71a7a5b9b389",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yt-dlp-2026.08.19-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -134438,7 +134438,6 @@
       "python-brotlicffi: brotli content encoding support",
       "python-xattr: for writing xattr metadata",
       "python-pyxattr: for writing xattr metadata (alternative option)",
-      "phantomjs: for extractors with javascript code",
       "python-secretstorage: For -cookies-from-browser to access the GNOME keyring while decrypting cookies of Chromium-based browsers"
     ],
     "conflicts": []
