@@ -690,10 +690,10 @@
   },
   {
     "name": "akonadi",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "38459e1d1beea1a69490b4de828ab9469ddd18b328f7779b70f12e563051ecd9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5ffd112185c3e064d25f22b2cff4d15b0ea47d0250ebd0d45e9a734e06d26838",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libakonadi"
     ],
@@ -718,7 +718,8 @@
     "optdepends": [
       "kirigami-addons: QML bindings",
       "mariadb: MariaDB backend",
-      "postgresql: PostgreSQL backend"
+      "postgresql: PostgreSQL backend",
+      "pyside6: Python bindings"
     ],
     "conflicts": [
       "libakonadi"
@@ -726,10 +727,10 @@
   },
   {
     "name": "akonadi-calendar",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "fd48bcc88fab248c6d9230dd2648fcac10a042457c311ccb40c97d8ff6a4dd6f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-calendar-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "dbe68c35cbc477f70b3556d6b84c20cfc678c942629e7f4b105ac5b43287c62f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-calendar-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -762,15 +763,17 @@
       "qgpgme",
       "qt6-base"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "pyside6: Python bindings"
+    ],
     "conflicts": []
   },
   {
     "name": "akonadi-calendar-tools",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "ae332fb7046e10ad10aa525ef80bd901c736381616929029c035d6539febf28b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-calendar-tools-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "904b8a4dddd2caca28dbfb60980235f5adda088611d207b77aa92c3c8f8123c4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-calendar-tools-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -789,10 +792,10 @@
   },
   {
     "name": "akonadi-contacts",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "5c953dbd5e2f2068d90cf99e3cf6af82da882bf8a16be43e71469c52b0b146f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-contacts-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "eaa01430514e8a2706f6f699fdb688cc785f47594954873e4fb9b08eb7bf6b80",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-contacts-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -824,10 +827,10 @@
   },
   {
     "name": "akonadi-import-wizard",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "21ffbb004377658cfd8dd85dd43c40319bfde7faf2b28c89a0aefe1187b7e8fb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-import-wizard-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "88eade9c80e3a337a369b1d11bdd6e56ffa497a289a0821d55312ef1948f816f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-import-wizard-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -860,10 +863,10 @@
   },
   {
     "name": "akonadi-mime",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "ed3a00a216a760c74942fb72589f42d6f216ae824c701363b15e71a3e97f4cbc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-mime-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "07f3af549eae296ad90b2395855c2bc1ea88573f6e51f851a2d4f5064cfeb743",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-mime-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -886,10 +889,10 @@
   },
   {
     "name": "akonadi-search",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "74ea204e53b885689b1cfb60b4e3a13def963caa9bd862f10f6b25bbab94ad6b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-search-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3dbce2bb9e968657927d0595dbb3dc37cfeb8aac3df56d5c3b8f7a2392bd920c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadi-search-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -916,10 +919,10 @@
   },
   {
     "name": "akonadiconsole",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "c232c5ac3a18d8c22fd72b73ba50e5b31c39d4655ce6ef6ab1599a95b07cb533",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadiconsole-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "bfea0453bd6e8c322a03911b9242bf8d5eefae64a820abf86bc566a78879d7bf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akonadiconsole-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -946,7 +949,6 @@
       "libkdepim",
       "libstdc++",
       "messagelib",
-      "qgpgme",
       "qt6-base",
       "xapian-core"
     ],
@@ -955,10 +957,10 @@
   },
   {
     "name": "akregator",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "f4db17d5a43bb0162d4b7344ccd058c99c0b0a1ba197cb70612c2187c7e1877e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akregator-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cb040d3a0df56573579571d4d4ee55daf3eaf169232a7fa0b2121850f3a952ff",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/akregator-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1356,10 +1358,10 @@
   },
   {
     "name": "analitza",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "0da01932f89010b669167c38fc255c080ce71625951da6f45f77471dd667a075",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/analitza-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0c14eb00d21b3c10b93823b3ce54b0073d4914816c14507a479c48c611160d9f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/analitza-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -2415,10 +2417,10 @@
   },
   {
     "name": "arianna",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "478b07c9376c301926e5b33a4f257c86a0c5758d017f897d065a402dea5e75eb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arianna-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b883a9f1067574b51b67b0d2fb70885a56c33615bb323d806d19811ee118db6e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arianna-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "baloo",
@@ -2491,10 +2493,10 @@
   },
   {
     "name": "ark",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "69de438a2f5290a397e41d92324afaf50b6ce40e16d0c5a5d242cf6432bf3041",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ark-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2c799f61d8a6a2a1caf919c717c3563abf7192ac43f18991ae20e0bacf2e512c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ark-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "breeze-icons",
@@ -2650,10 +2652,10 @@
   },
   {
     "name": "artikulate",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "3ccb87937310d285ba590351d4651588ec8d4c9a8ed071c157d0dbaa114e8c1b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artikulate-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "02119a0134aab75ce045f6e386155db43dca60f0a92d9756f74711579f08d494",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artikulate-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -4638,10 +4640,10 @@
   },
   {
     "name": "baloo-widgets",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "187925deb2aa892db872687cd29517ddeb5036a9c24f653ea7a5869b188f85f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/baloo-widgets-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "41b42d9f5d5adee3aecc290d87d2efdca0c64c0864d58a89adb8e8098aa52de5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/baloo-widgets-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5362,10 +5364,10 @@
   },
   {
     "name": "blinken",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "e8a140497c3bb6f11d78d1343c2783afd796bb87688b1529878cfabdc496eeff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blinken-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ca075c0e067d67179f72bf77cb82ad7cbfa668c40d51c475b3233d0378facdd8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blinken-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -7129,10 +7131,10 @@
   },
   {
     "name": "calendarsupport",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "dfb5438b0e4bd9226116fc3e850d7c6eb3105072e0664ee9c137128008d22322",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calendarsupport-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "88f360fb9961b2ca8ca1d46edc371be0db05cd15cb485642adea30021eea1303",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calendarsupport-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -7265,10 +7267,10 @@
   },
   {
     "name": "cantor",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "e83f7f1f4839f503d12530777c07b1c8c5c8c8b12bfd6e9b11e86abd33f3ef86",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cantor-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "387c315e5955c601b2458657cf1927e4f4128973d523bbdf5c3dd3f57d9c4dfa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cantor-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -7290,7 +7292,6 @@
       "kxmlgui",
       "libgcc",
       "libqalculate",
-      "libspectre",
       "libstdc++",
       "libxml2",
       "libxslt",
@@ -12317,10 +12318,10 @@
   },
   {
     "name": "dolphin",
-    "version": "26.04.3-1.1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "bc418378d5647e3584a742476f9a37523c4c5bebfe43db1b2b382f07df1e8d7c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dolphin-26.04.3-1.1-x86_64.pkg.tar.zst",
+    "sha256": "22f6ffa4dfbb0ec201dfffaba30ad85121acb8ebc4442fd2dda349700c635175",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dolphin-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "baloo",
@@ -15108,10 +15109,10 @@
   },
   {
     "name": "eventviews",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "13aa36884dac632a045eae976b28953cfbcc4f0b6dc7c5d91a2203b9b09fbf3a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eventviews-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5d8894ad62f55a3da067ad2eedaec915d3b4e109f553e3a815527fbf6df6797d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eventviews-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -16648,10 +16649,10 @@
   },
   {
     "name": "filelight",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "f54cc286e16449e5d0acbc3ffd0c2c42c2249537a401b87b69729d806bfef713",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filelight-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "34cab7a4a0af4515149c61c545c7d62fe42289733b0bfd8dc2f72268a5d355b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filelight-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -17918,10 +17919,10 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.4.0-1",
+    "version": "3.4.3-1",
     "origin": "artix-world",
-    "sha256": "6eb6eb975313d9a958ec055764fa98dcb23e5ab705bc05d9fb31210312a6cec1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "dea09095365fe4cb653d6bd0de10dc12fdadc0f32ee834babd5875d37f4d1acf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.4.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -23296,10 +23297,10 @@
   },
   {
     "name": "grantlee-editor",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "2740aca1814a2fe233055e6b8c60a525f5d1a9a78061803fec8c2facd7006195",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grantlee-editor-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "41b9d3f855d63fa18cc91a8a7cb729737502745aa57777767d8fe7bb1c2bad8d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grantlee-editor-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi-contacts",
@@ -23332,10 +23333,10 @@
   },
   {
     "name": "grantleetheme",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "4336348546cf546a8ef7d6577446280d046aeab30f401bfb97a9148a426ab1c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grantleetheme-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8545b5b6c868d317b1ced16f5f38faa9135728e3952a608e62fd8439ff3f2edf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grantleetheme-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -29673,10 +29674,10 @@
   },
   {
     "name": "incidenceeditor",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "ebad26d87573ad277e7d845d525615d29a4f273555ed76d6fbe06255e5c1a4da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/incidenceeditor-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "08523a43d466a2a8837d063a925be5b44b9cf3a9cf68f7332e8a6839c0b02915",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/incidenceeditor-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -30788,10 +30789,10 @@
   },
   {
     "name": "itinerary",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "e267c0add69216cc1fa1ee1ed2b3ad98c2fd04d096078b05827b4db3bce0c284",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/itinerary-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0791ff586b01eb1ab6b3f16715bf4b301e7e7aa200d8fab67d441431c92057b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/itinerary-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -30801,6 +30802,7 @@
       "kcrash",
       "kdbusaddons",
       "kfilemetadata",
+      "kguiaddons",
       "khealthcertificate",
       "kholidays",
       "ki18n",
@@ -32813,10 +32815,10 @@
   },
   {
     "name": "kaccounts-integration",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "b1be31e7b333d45065b098e49e6d9bbc79b22f2421b3f77c336b6306e41bd899",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaccounts-integration-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c2a6507ddef3d723dd305efb157dad9821551ad2def2a77499c9624cd4088f2f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaccounts-integration-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -32843,10 +32845,10 @@
   },
   {
     "name": "kaccounts-providers",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "696f9b32824a235a81fd44b1c89b3ebfdc3963b8f44356049607a4f19c37933c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaccounts-providers-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "80683278635f0a7ed07c16be8adf1a524b68610d1e1d0b423db9fbb7433bfc6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaccounts-providers-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -32907,10 +32909,10 @@
   },
   {
     "name": "kaddressbook",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "f6f587b3f160f2bd0e7a1ee73783088d789e7e67339bc7eefceb81fae06888f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaddressbook-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a71c49e3adaa09544e3a18797ce4850ed03bbe4a25b3b0f95cc950cdc59e93d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaddressbook-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -32966,10 +32968,10 @@
   },
   {
     "name": "kalarm",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "dd26aae5722aeffe4f420ba62d9443f3b8643aa20f0e15d3fb675e5d0127aeed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kalarm-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e90ba8757916e1752a5fc55297904cc40239502d65482b08d825f6b767330b87",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kalarm-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -33018,10 +33020,10 @@
   },
   {
     "name": "kalgebra",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "8a0eca1bedf48fd81a82c4a89b386038d250c236e626272feb1fc8962cd20874",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kalgebra-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6444d07ec68c7c1e198c8fdcd4060dc58c86c57821cebc873aa0c7d77b2a24fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kalgebra-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "analitza",
@@ -33094,10 +33096,10 @@
   },
   {
     "name": "kalzium",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "0b10fe0a81c3dbf59074a251079dc91c880cffa0707260a769c676699614ae98",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kalzium-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7965ab1d26499e18f366e98e4d43e93fe3f91944b5938d82636cfc7714ddd136",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kalzium-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "avogadrolibs",
@@ -33130,10 +33132,10 @@
   },
   {
     "name": "kamera",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d9e65650805985e5fc1b2a3d50c341dafba3581dd48bb2585ca1de8fc4ddc022",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kamera-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "624ab82bbdb882b404da8b800a3f11bbfd9d726e823591ab302879e5932ff5d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kamera-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33185,10 +33187,10 @@
   },
   {
     "name": "kanagram",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "fbf61ba6481bb7c0c968a549d86b0329c37e010d52b28cdad9a699390d0ea45c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kanagram-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ce42dcaadd007f29f5b157e14d80f828d0fbd99a6b4230ef1a31f5e1d54f6857",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kanagram-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33355,10 +33357,10 @@
   },
   {
     "name": "kate",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "7cd0b3fa4649b2809f04d7d30e8ed5162e25387dfb4a3eab2d40a28623b602ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kate-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b02a740680ed5bb60e734dfd36ea6cf58618c26c5da25b8f1c137ccb3ecc3f36",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kate-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "kwrite"
     ],
@@ -33467,10 +33469,10 @@
   },
   {
     "name": "kbackup",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "a6478fea905d1affce7568787282913138897b365e5845e3f1563eecfd3d1095",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kbackup-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3ea59ce7a3b23d18be11bd0c290cbf4d3afa4990399da44b6ddea6b2c3ce4ca5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kbackup-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33639,10 +33641,10 @@
   },
   {
     "name": "kbruch",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "a6843ff9b40e331fe47693e79571bdeef01f9c623b3a01b8a6dec0653240688a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kbruch-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "feb782208ed6851e2ff16fec0267402a7ab4d1ea811c8747d7df0ee2724c9b2d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kbruch-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33705,10 +33707,10 @@
   },
   {
     "name": "kcalc",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "699ef2226e7dcc4d74aabf0156dd1c1ca7a6eacaa99161395f5652989f88baf9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcalc-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "85f7eef23ddb3e8f26921d5d6284cf30c041c687d17abf836f900fb8d158acd3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcalc-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33753,10 +33755,10 @@
   },
   {
     "name": "kcalutils",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "89a5eddde19a2bb38e1c17aede88aa15135f96b4a170f7a6adfa6f08594eadd8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcalutils-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "177931ae38d74a9c65f780dc453624e5b4126797b41aee467a03220a965c5d85",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcalutils-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33777,10 +33779,10 @@
   },
   {
     "name": "kcharselect",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "e9ef2272039515cc0262ecf20262df3e50bd0ab4448777d88381ff9dfe5cf08f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcharselect-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fb2a62079654ebe4785049754fb50b7a9f80fbafeede2da76e560d877e9a12a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcharselect-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -33910,10 +33912,10 @@
   },
   {
     "name": "kcolorchooser",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "9c3ff2862774d647273cf6db92dc01267d47d5f2be16eb85a4fa24110e4c5e9d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcolorchooser-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "dcc28b2f1ff842f0a01c726fcf56db96ec6ac47b34adfe66bfe936db90e79177",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcolorchooser-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -34209,10 +34211,10 @@
   },
   {
     "name": "kcron",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "960315f03920b2b4cf60875664922b2cd3e66efb21dc299e1d96eadc5c7f21ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcron-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "bef6d8de7dc71ade62a2c312077fe24c4a7bf8a0b04a848d1a39287ac465d3a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcron-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cron",
@@ -34858,10 +34860,10 @@
   },
   {
     "name": "kdebugsettings",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "262cb0a044a9190d1f20fa0794006214554b0941ff5a4d46025fcde2e58c12ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdebugsettings-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "953844891d22c13176b7cb3c82b9c3d563deb982dc820b075ea8f601134db835",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdebugsettings-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -34923,10 +34925,10 @@
   },
   {
     "name": "kdeconnect",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "861197558c5fee3960e1dfcb6b91ec7853d14e1aef213be2e6278f64f1ae98a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdeconnect-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "44bcbb47ce45117b385d26e531b021a9c72429e468dc520cd5fcd0b3a49e04cb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdeconnect-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -35028,10 +35030,10 @@
   },
   {
     "name": "kdeedu-data",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "1850fd4a07b0553c2f9c7523d991d907ec8eda915f552ad0473fa9bf523b0923",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdeedu-data-26.04.3-1-any.pkg.tar.zst",
+    "sha256": "e9e82c08046966bdf852979c742184fef9632c272b0fe1aac07657deae2ff3c0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdeedu-data-26.08.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme"
@@ -35041,10 +35043,10 @@
   },
   {
     "name": "kdegraphics-mobipocket",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "53aea9efd9273afecbb7d2599c1da21b598edefbab594246e0f7909160dd9959",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdegraphics-mobipocket-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f045e322d006c796d992620dac1dc2cf3d0bd4bc18206d2ff77732b983076a1a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdegraphics-mobipocket-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35056,10 +35058,10 @@
   },
   {
     "name": "kdegraphics-thumbnailers",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "8dfb47e44358cf70ca2920c390e442e524e542b89047f12e39c25ddc5d87e010",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdegraphics-thumbnailers-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8cadcc2246e758b47bf70670cc22b0145bf45957d291cb402a37d083d3368af9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdegraphics-thumbnailers-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ghostscript",
@@ -35078,10 +35080,10 @@
   },
   {
     "name": "kdenetwork-filesharing",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "16ce801b5b624a1c132100ce890fe8faa0570136bd9397f08f7f634164b17032",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdenetwork-filesharing-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a790f0feb70289a9145c46b92c73119818019442450ecaa90687a8a471e39c46",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdenetwork-filesharing-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35163,10 +35165,10 @@
   },
   {
     "name": "kdepim-addons",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "378ccd4bcafd9718f9384b2068e43c3a1a8f96b52f10215cf4ae2c2a15dbe79c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdepim-addons-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "825b56e38adc30d8a91d7b307403a5e0cd42bd25eabbc5857a13b95b255825a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdepim-addons-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -35235,10 +35237,10 @@
   },
   {
     "name": "kdepim-runtime",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "12bebcd863da0397c029a830b2917e307a1a3846a47c244e9adae835a4d5d08a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdepim-runtime-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "679d4cb89dad940aa8fcebc0a616ff131a86a8670968df3d57aabf93133da25e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdepim-runtime-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -35562,10 +35564,10 @@
   },
   {
     "name": "kdf",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "8cb51ba4e1e0045a8cfcb03ec2a3c149083053ae5b01598362b0fe4fbed43ac8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdf-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2a76518c0652af63e484cc7af6bb883afea9d4489af43e56e78f4d9f5e8f6449",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdf-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35607,10 +35609,10 @@
   },
   {
     "name": "kdialog",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "ea79e755f7227d818e0fe1fa7b183d15bc98a90beb64ae096b852806e5d0231c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdialog-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "1d5a5e5fb4d6f8ec1042d7587a261c8181a54df6f1fd70e545a9518c48768e5c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdialog-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35768,10 +35770,10 @@
   },
   {
     "name": "keditbookmarks",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "c28d39e70d21024d57b9238657d4fe4b239f5ae8ff52b85e7b1d58452a875838",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keditbookmarks-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "10d1c55073586899187839e5ec5d597ca8f69ca0ee9c9ec86f6df2e742a9740e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keditbookmarks-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35925,10 +35927,10 @@
   },
   {
     "name": "kfind",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "c91af07b5c9f4668cfd0b833bbb2bb129d5f8803b54a6ae0898d073896329375",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kfind-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0197576f31d1b9e59ee8131b13e404cbce3801d5c56dcee95d8b37541fc7d776",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kfind-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36004,10 +36006,10 @@
   },
   {
     "name": "kgeography",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "4ec5915cf0cbf4c800ea135c681682a2ff81d67a5b2b00e11bac914a3f69f19b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kgeography-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "744e43cc6e914e47528e77088c9be46b7ff996ec5f605bf99ceaa182dc99fcb0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kgeography-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36027,10 +36029,10 @@
   },
   {
     "name": "kget",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "33dec455b25201ab0b2883e005dedc685fddd71a361cc4589132057dbf86cb71",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kget-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "55c46df431e97f5b4a522bd5dcf163ee9d93ffd19e604fd85fc31c0bcaf545c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kget-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36152,10 +36154,10 @@
   },
   {
     "name": "kgpg",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "88e196be396afabd21e5e7571412863d002373ef1c5ff56aa472e4aef6a23781",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kgpg-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "15b0c109411eaf29349d5c0f5c8676223149715f890b3c94b4ea2c791e06c2ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kgpg-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -36246,10 +36248,10 @@
   },
   {
     "name": "khangman",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "209fcdf847439c4172075f5a3e98908ce5a61235521414741094e31df6ffd159",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/khangman-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5602641a19d160b147734009778167430a3d20278df53f926029929d5def9825",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/khangman-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36271,10 +36273,10 @@
   },
   {
     "name": "khealthcertificate",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "12fdcf5f955ac112e111568cfb78d647363c6badcea56de500cc98f38646b4b7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/khealthcertificate-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a33b718db879c1f7b409f82dd029f351acea70954a791a6f4b7262d30dae9df8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/khealthcertificate-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36293,10 +36295,10 @@
   },
   {
     "name": "khelpcenter",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "9c5288cfbfe9357b7b88df281c4febbe24216d94a4dd1b5618f687d7a8b9471d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/khelpcenter-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2f2e5379c44ef041ac85b5703700c88a22077f267bcbd4429c25962586de72bd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/khelpcenter-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36563,10 +36565,10 @@
   },
   {
     "name": "kidentitymanagement",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "26fea64fbd492a270ea10c97d05b09bc5b7382c9398d9c4d9b0b18532b92184a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kidentitymanagement-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b6142a2334006090384160d87df1af93a80e663b93bfa280db8ef14b7cbd0ab3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kidentitymanagement-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36630,10 +36632,10 @@
   },
   {
     "name": "kig",
-    "version": "26.04.3-2",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d3156cc6f4c9aef25ad325cd1d4349415ec9a7d40b1977d2f1b9b54c0eba7b46",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kig-26.04.3-2-x86_64.pkg.tar.zst",
+    "sha256": "38df2e0d6a217cfccfbb08024b4eb4a5c851f5b25d0955d3d27c747528438e0a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kig-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -36820,10 +36822,10 @@
   },
   {
     "name": "kimagemapeditor",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "8253d5e5c004b7e881c5afd5893aea6f0fca7c7766a06a8a764311afe59945ae",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kimagemapeditor-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7755f809244c6b2673aeffbe36ed54dbd17740925d1e2b41ee5a258b5480496c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kimagemapeditor-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36844,10 +36846,10 @@
   },
   {
     "name": "kimap",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "9797df68da6f16a4d83d94ae04888beb7f26a9123d4039a760f3907768f28e24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kimap-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5755d69f4116e4ab80a0ff26f88b243e682bf75130642fa7e0a02d37b8c0d521",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kimap-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36955,10 +36957,10 @@
   },
   {
     "name": "kio-admin",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "1c23be5894d509aaedb874f15ca1012567e234741f92f1aede27a109881bb86a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-admin-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "76d3136a2f67306bdd5ecbbcd84b81cc121acfe2e620c5f3eaa03f98a9666883",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-admin-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -36975,10 +36977,10 @@
   },
   {
     "name": "kio-extras",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "79e1a029bc3eaf8c244fa79d97b1bd52e27925ab1182fc2c92d1c525755635c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-extras-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0c5fa24f4fa858ab22ee56d6174f92be406d95ff2eaddf96150eb1a51da2855b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-extras-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37045,10 +37047,10 @@
   },
   {
     "name": "kio-gdrive",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "f1df09563ea726f96cdb70b7dc8f6da174115aef0b25b65b8c1fc0ea2a9ad130",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-gdrive-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "67bcfc845176ca822102c6ed12a30ab3488d958b739f2d3758f695454c74439d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-gdrive-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37074,10 +37076,10 @@
   },
   {
     "name": "kio-zeroconf",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "35fd488e12723dfad28454edeedd7c9c083501ba329d9ae3a966021e14d9e60f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-zeroconf-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f5383b6dd5fcf5da6eb1bd9759999ee1b085decf33508f90a2d1c6d3a2476327",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kio-zeroconf-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37338,10 +37340,10 @@
   },
   {
     "name": "kiten",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "eb009a6298f38d17e3a210edf369b749b5547c51c13892c6b9bd7422f7d58d81",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kiten-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f047503a9a43258e05ad7c9977b0453d59eee245cddce5361b6ac8c53f4d6392",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kiten-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37364,10 +37366,10 @@
   },
   {
     "name": "kitinerary",
-    "version": "26.04.3-2",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d98c36ad8e7d29b333a4bdc4f790827eb065d3bb30a8d0e9188aeeef2bd7348f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.04.3-2-x86_64.pkg.tar.zst",
+    "sha256": "a7db0df39389f31e35cef16e9b913ee1593724db52376e2741053e8ca755672e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37526,10 +37528,10 @@
   },
   {
     "name": "kldap",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "3b9f171b76c341248306c2dba0cf784a19545c9af26ef00ea5655fd218454aad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kldap-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6d01fca592c254034aa4ec0f19b10c55a34d1c07892dfbb20ffb262c90f52c93",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kldap-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37549,10 +37551,10 @@
   },
   {
     "name": "kleopatra",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "fc75b81af47d0f79a9764683604a8a63aba6f558c904672d964f1da19a97e676",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kleopatra-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3e6b373730d30174d2317e80ec096c7682a3810fc5e79e1a04c896a12e99a798",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kleopatra-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi-mime",
@@ -37564,7 +37566,7 @@
       "kconfigwidgets",
       "kcoreaddons",
       "kcrash",
-      "kdbusaddons",
+      "kdsingleapplication",
       "ki18n",
       "kiconthemes",
       "kidentitymanagement",
@@ -37666,10 +37668,10 @@
   },
   {
     "name": "kmag",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "de3f8faee0d0a0ec99dec9a41592c35043e64a5ee2e0d4cdd4b6207e06a31276",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmag-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "00ff85e1ab372ffb8ca866974e1d40da47ae2a37db7f3b0ac6fd5f47237847f6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmag-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37715,10 +37717,10 @@
   },
   {
     "name": "kmail",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "95f88446584fececbce5641725ee75fc1c23d337e822ccad2904037c3f0ab026",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmail-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "63c49ae0c856c3892a453c8ea90468a6c6c1fa71507398a788815e74f31a5794",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmail-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -37794,10 +37796,10 @@
   },
   {
     "name": "kmail-account-wizard",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d395dffec8c2cb46b6a29ae081451b6df9b2101a7447bb159e033836c45a3524",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmail-account-wizard-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2bc5e61f90cc559a30df52ca0ea84d0f0cbf1683d34f6fec9a88bbf0b7633442",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmail-account-wizard-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -37824,10 +37826,10 @@
   },
   {
     "name": "kmailtransport",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "59835423522416560034a525d1bbcd34d84149dc7d7f533591fb3540a9c69e39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmailtransport-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0fdbf9e3f3b5cb506c12a71d3a07faa36324bc8af3cd1640d3664bce12d06301",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmailtransport-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37849,10 +37851,10 @@
   },
   {
     "name": "kmbox",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "94138456ef8aa6f3f9245d22843b6f165119d0837305afe15f682c0de862d3c7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmbox-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "70f0595e4b8a3ad2c3f49747cfa5d86d53aa1f6f31538da2ef4e513833ccc27e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmbox-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37896,10 +37898,10 @@
   },
   {
     "name": "kmime",
-    "version": "1:6.29.0-1",
+    "version": "1:6.29.0-2",
     "origin": "artix-world",
-    "sha256": "368d7b6e2a4e6bb11bc73201fe52082942067a868d129e79c48247becd4263ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmime-1:6.29.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2f4e627e7c1f612f85db41d8a9f758ad0e55b299e7eb1508a8df96542877d240",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmime-1:6.29.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37971,10 +37973,10 @@
   },
   {
     "name": "kmousetool",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "28c2fc8eedfb9ba5b9959a79cad17f0193723484245e021d8934f18ccac3e54f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmousetool-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c03eac13a4067ff4cfcfe2cce59458d478bb309bfd8b60d7361107b6aefa612f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmousetool-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -37996,10 +37998,10 @@
   },
   {
     "name": "kmouth",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "5ca708731cc27fd5ae75814241c6dbe3d02a41eab5226eaa721c4549312dc736",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmouth-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e49118721489fcc6632823f3b334e62226bd2a360ea5c78e721c8969e8b912f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmouth-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38535,10 +38537,10 @@
   },
   {
     "name": "kolourpaint",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "29eed9825b7615db20706d9acc019491a3aa72d1d5b5f1c2dd6dae15f9ce2537",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kolourpaint-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2a639490729c45a2607c889f67f8bf30010afefa3d52626754db2ffa193a356a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kolourpaint-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38648,10 +38650,10 @@
   },
   {
     "name": "konqueror",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d54c7462d510d89affa59f25070b2eedd46a84fd0378e9cc462404f952215ef8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/konqueror-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f6caa8fcb0516477f470a74a4d9b15b96a3dc962cd7453ee843db71bbf8d4dd3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/konqueror-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38721,10 +38723,10 @@
   },
   {
     "name": "konsole",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "bcb73ffcbafebad4fbeec52968a5b2b90378a0835e38d57ade86056197b21366",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/konsole-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2c4c338a32b9206de1aadadf3697f1032c1fff60e95129ba30bd3ad2298de3ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/konsole-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38751,6 +38753,7 @@
       "kwidgetsaddons",
       "kwindowsystem",
       "kxmlgui",
+      "libssh",
       "libstdc++",
       "libxkbcommon",
       "qt6-base",
@@ -38804,10 +38807,10 @@
   },
   {
     "name": "kontact",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "3f2272b0debd8b7b367835b65dd9b00381aefefe1e997cc276b7ad9a25671e41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kontact-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b599a192c7b3b5a3a34919ca1815c116acb3e1b8f8c618d07c7e8167bea46d10",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kontact-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38846,10 +38849,10 @@
   },
   {
     "name": "kontactinterface",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "f086a634c340b31c60295be641216201b9ddb4121eaddaea90d627ee33a436b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kontactinterface-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5b88d22c4f7af73d2c03075d44c9efb2548efd9833259a3d8a8609c530fdc33f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kontactinterface-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38866,10 +38869,10 @@
   },
   {
     "name": "kontrast",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "bf1be65bf319f86500ea47fd4997623cdd9f24e2c6af816ef20a10668dd99de6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kontrast-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ac77fbfc267e168c15e5e37d357f14c53717c57cd09be4af28e998ca3dfef017",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kontrast-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "futuresql",
@@ -38890,10 +38893,10 @@
   },
   {
     "name": "konversation",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "8ef4e1cd92edd3d2c13a08cea11fa86787ff044e58e191bb63b2e6b180f63bab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/konversation-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "77d54d5ead8b63306d16f6bac512d289d8c7647e17fae6d3163971088ded34e2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/konversation-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38939,10 +38942,10 @@
   },
   {
     "name": "kopeninghours",
-    "version": "26.04.3-2",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "2ad1bdebeee5d7e554919fd4d985dcb2536073dca1080e75180cc1c9547807bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kopeninghours-26.04.3-2-x86_64.pkg.tar.zst",
+    "sha256": "296244e90dad4baa2d857e5a59fd65ddec599d3af5e716cae88372693e186a0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kopeninghours-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38961,10 +38964,10 @@
   },
   {
     "name": "korganizer",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "7c42fa215565a2bcc20a19545a586e2f18c988819958ca5d5ff4985a3d3fbc53",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/korganizer-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "acbd56b9853222409b1821ce0a95329068ac34cb34184bed779f8db3da49bd57",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/korganizer-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -39180,10 +39183,10 @@
   },
   {
     "name": "kpimtextedit",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "4c7f2bdcbdda9cc42a1defc2282b1d21ca70be5ebe873f99b1ea52bf53ee5643",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpimtextedit-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6484c8158a83d7d9fc6f2fbcdad7674712fff5463fc3277c6a101075a2d68bad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpimtextedit-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39230,10 +39233,10 @@
   },
   {
     "name": "kpkpass",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "4e16439cfa1f414b9f652676b3cacf7acbaf8f9b4a8bb88e57932d23b363cce8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpkpass-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "429a52bbdf76d7abcfbf3abb80ad9ce20c099a2ff1820a94e0b36c020a071665",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpkpass-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39263,10 +39266,10 @@
   },
   {
     "name": "kpmcore",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "f3b2b99e6f27bec0bb9dac037b5eb69fa841ebe9fedbf937fdb43a2eec113794",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpmcore-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8438e6416a3f2a33c1b64a333e2f366e6d8e7e8080e0e35c409f9ed23ec4b2ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpmcore-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39333,10 +39336,10 @@
   },
   {
     "name": "kpublictransport",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "6606bf1bec0b4a66403b4656490b875a6b2075c9f576cf74fd48c93f4129f2f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpublictransport-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6bb2533903c8ea36cc670fd6a08b31da56462fdd6ad41c317c9ffee27cbd0825",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kpublictransport-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39428,10 +39431,10 @@
   },
   {
     "name": "krdc",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "b04636a1f10e531b10b7362d2a9796e01a41f43efd0cbbff14ce6357683e9827",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krdc-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "dafc480b913847f7e09b2dd61bbb3b035b734489405d7998e86099f9834e2637",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krdc-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39580,10 +39583,10 @@
   },
   {
     "name": "krfb",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "998832ab617e1de738e73829fc6991481defb4978d24c37c136ab785ce024c4e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krfb-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "03ddc4e0184f8609837781347350ccf470453151a490fd09660850299f426726",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krfb-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39680,10 +39683,10 @@
   },
   {
     "name": "kruler",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d1fea5447efa7e9bc122aaf3559862ab9313308d7358f7dc2399bf2c0e65ba62",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kruler-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9ff02d36d60cc90bd929cde8877a983b3960b0dde149b698b4c567a7f5c1e75b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kruler-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39802,10 +39805,10 @@
   },
   {
     "name": "ksanecore",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "e9201afffc9676c849b489e0cd086ad9c1dfbcfa4708d46bda5e325b196fd626",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ksanecore-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "97f4a5e0756b893a51c746e69033453a8389e8834d83acf7f591673a56627c0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ksanecore-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40036,10 +40039,10 @@
   },
   {
     "name": "ksmtp",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "55e5392595a1e34fd979e76f00c4fc665ceb1c9119daaca22531506fec1e011d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ksmtp-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cbcba2deb1bcb8910af022dc34fc95a60463c431989119ca8a667261ef3928fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ksmtp-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40286,10 +40289,10 @@
   },
   {
     "name": "ksystemlog",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "52db5bf86724b36822faaf85f3b1511313c78407cea9dae68b914a0bbeb22a25",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ksystemlog-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3842d6e7cb68b38bcd6fb90634c8ce475b6b7a66365fabceb05404090fbce10b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ksystemlog-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "audit",
@@ -40342,10 +40345,10 @@
   },
   {
     "name": "kteatime",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "07d1c30f81904dc9eaca951a09ddf9a48cd7d5e3d2985a42ac9e3087339a8883",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kteatime-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9fe18e61faf3d4fa4bb2fea16872a2a5e27b90ba345f60a2391d71a4ae53eb57",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kteatime-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40545,10 +40548,10 @@
   },
   {
     "name": "ktimer",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "232430bcb6435666b01412a80cbede93edead7a564153cf0ad97ef020a5359e2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktimer-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fcebe09de957827cd18e7bbbd5548e1179f5910ca129b26ab58c0633c0ef26f4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktimer-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40569,10 +40572,10 @@
   },
   {
     "name": "ktnef",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d609af72b93df125ee5a93d9c81d7c2ee0732735fcf30421a376c243e5336397",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktnef-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ec1255da7ae6fb3708fbba52e22d91e1b581acf895f7a76a41f06e028c10b114",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktnef-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40588,10 +40591,10 @@
   },
   {
     "name": "ktorrent",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "bec8048b350f5d2a35aa406cc9035d9ad5f0aae1f654e5a9eaedcc5aba52469c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktorrent-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8c2461499e90f51ab958a2b622fd29410150815669ab8d6489ba12692f5da609",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktorrent-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40604,6 +40607,7 @@
       "kcrash",
       "kdbusaddons",
       "kglobalaccel",
+      "kguiaddons",
       "ki18n",
       "kiconthemes",
       "kio",
@@ -41020,10 +41024,10 @@
   },
   {
     "name": "kwalletmanager",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "4476da749e47f8ec0a29212caab4efb5156971cf76764f6818382157e13f3afe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwalletmanager-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2fe91343cdb237d9e70b4443838df38f9f5f9225b9f78f2598dbd5ce3e35d97a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwalletmanager-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -44915,10 +44919,10 @@
   },
   {
     "name": "libgravatar",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "5e694d2637d072d6c781cc211f4854ed7a756c5b08b05bee0e7d8c34ab1a7b7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgravatar-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "80baf9c7cb236cdd23faa6789d4a07e25c9b07be2392ee04beeafb06cbf490a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgravatar-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45805,10 +45809,10 @@
   },
   {
     "name": "libkdcraw",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "44f130fa9a8bfdaf2267850258467b80147b934654484d0dc752ae90e3fbe1b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkdcraw-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3615f9df5908494cecfa02666a7561c1f333ece4a2707f96ec3fd3d2688e3c0e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkdcraw-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45869,10 +45873,10 @@
   },
   {
     "name": "libkdepim",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "00cc5c2436326ed1c1334c392220d53b18081b621e7871a63f6db463f25453c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkdepim-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "86087ebb1bc3a790df68b342877809ff04fa75aa28041a45be693cd62d658882",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkdepim-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45886,10 +45890,10 @@
   },
   {
     "name": "libkeduvocdocument",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "fb85ac0c75ec6a7e5ace6ce8b593f94d4004a7266c2b74fa0536120468762542",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkeduvocdocument-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "95c77dd4cc25db726240b56f622852125d12ce9344b731fa174f586be61d522b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkeduvocdocument-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45906,10 +45910,10 @@
   },
   {
     "name": "libkexiv2",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "bc35394124576c1e4a3632781414686e4bdff1c9748885af3455c7688803d09c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkexiv2-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d1d35a7f25c04d82d8c263feb6772b62851fe77abcbf3b709f83378a7b480fcd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkexiv2-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45984,10 +45988,10 @@
   },
   {
     "name": "libkgapi",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "af0a8928efab992fca6eab4dd17435e5c8638251da227296f0dec0cd5619c7fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkgapi-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "77ccb19ea243122d15fb7cfa63bdd72718275c8f5b74e1a886ffcc916cf2ea6c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkgapi-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -46002,10 +46006,10 @@
   },
   {
     "name": "libkleo",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "73cc91315bea0676bfc318710f0bcf4738501553d35584f38e0c4fab906abc53",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkleo-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "2bde717e7b9943d7539e6f8799a4ac0182454e886c40da65a975ce3ae51497fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkleo-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -46102,10 +46106,10 @@
   },
   {
     "name": "libksane",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "af27a2a2f0f912f27bf57902fbc50b892e3d97419f7112ee501bb0e2c257ea2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libksane-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e89a2a5a27175b7bf8764b51674e5b6a5b1a86bc88e5c77762f692ae289237cb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libksane-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -46163,10 +46167,10 @@
   },
   {
     "name": "libksieve",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "771ab7cdfa5cd2d66d2cef716421a381658aae4f1c22eb5a3d4aacf0541a8b52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libksieve-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8b437ca93feb15776b754b030db516b62d61e77486a5b551f27a5b64c9aa73d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libksieve-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -46229,10 +46233,10 @@
   },
   {
     "name": "libktorrent",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "6eec9c2c7b460deb30c6aef6a496b0d5b071fc3add1dbf9cc11fe1e663e3f6c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libktorrent-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "dda8470324ca139c26dab928d2229e4d9bb8fb4d300c50376f45f38aaf4c8aa8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libktorrent-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54000,10 +54004,10 @@
   },
   {
     "name": "mailcommon",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "7a4b6934f0ffa34d5962b16ad84b1305c58daca6c2b2adb9a96589037a1d512b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mailcommon-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a67d67ce43508359c0d029b8f850218e7d893e4a177add78aa5a5a22e8969fab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mailcommon-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -54046,10 +54050,10 @@
   },
   {
     "name": "mailimporter",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "67aae66662297c570c4b13c6ffef8519932939c73498d62b31006907a90b4464",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mailimporter-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a9185f28f81e4f9393853ffacdf4ccb96ff97cdbf752fb369b1f9648b9efe606",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mailimporter-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -55060,10 +55064,10 @@
   },
   {
     "name": "markdownpart",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "1dbe5561d90bab3cf58e6010ff6c8b11a6002a347f18b1f8430b6c5dd5615202",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/markdownpart-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c98fec474ee8ec42595b4f64542534b9498f8b4fd9b204dcf15e15e3d89c6834",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/markdownpart-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -55535,10 +55539,10 @@
   },
   {
     "name": "mbox-importer",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "4aefc89af7b2b19f11273ba437f5d2a6b9665cc85e4b89670a341442a259657d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mbox-importer-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e2303f6025e0f74aa52ea925d58b60ad824f09be9155cea342525b93baecb2f8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mbox-importer-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -55881,10 +55885,10 @@
   },
   {
     "name": "merkuro",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "55c1a444cb0228f02cb634b13ab67311e61117f16461ed6aca15adeeef6760fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/merkuro-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "bd46bfcd704f29caaca5dc19175cace9ce117d158e499da66cbf861d7977a94a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/merkuro-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -55929,7 +55933,6 @@
       "mimetreeparser",
       "pimcommon",
       "prison",
-      "qgpgme",
       "qqc2-desktop-style",
       "qt6-5compat",
       "qt6-base",
@@ -56066,10 +56069,10 @@
   },
   {
     "name": "messagelib",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "39297adf9725e1598463e70ca8519e91115d34fc74d75154f198cafeec3877b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/messagelib-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "64cb718ac3bae44aedd87668b2a61673c4a9c0f148535eb5e9e0d44cf1a22332",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/messagelib-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -56298,10 +56301,10 @@
   },
   {
     "name": "mimetreeparser",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "dd9de4167815be6f624168f0d9df71efc5e9743397720496b30e14c02e6d6db2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimetreeparser-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "863c148d62a66062a7410384143811278b12263682692b6bf465d614dd418b7e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimetreeparser-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -61216,10 +61219,10 @@
   },
   {
     "name": "okular",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "74b7967953a0ec86a81d80a1023efb57cf3b3137c5eb6e74874fabe46f264327",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/okular-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "258a5bd2162c7eece8bcecaee7c1cd1244b7e7991f1cf4d3a82e90256abaf463",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/okular-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "discount",
@@ -64100,10 +64103,10 @@
   },
   {
     "name": "partitionmanager",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "778f83924f97ff0d5fd2c78513e2153c1b5435177b433e83af61bae5401201db",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/partitionmanager-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "09112c17b4a5b5b891068e23554c2b10f194df1c5f1e56c9b637ad7bcaaf7d6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/partitionmanager-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -70538,10 +70541,10 @@
   },
   {
     "name": "pim-data-exporter",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "fa23384edc927a7abfcd0c5dec9e710a7458a962f1edc7684ce987f20c9e7c7d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pim-data-exporter-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "640ed7ace2288389a8d6ae2432855eb7844dfbefbcc7adb0758653f90386475c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pim-data-exporter-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -70578,10 +70581,10 @@
   },
   {
     "name": "pim-sieve-editor",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "5522803bbe6de02d6da5c024508e7b00c98d7a857a1cd27dcbb097dfce888c07",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pim-sieve-editor-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "777c7042c2eb53dcd0b4819e8dbb4b6cac2981074c715aa2ab8a90c8dc535e43",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pim-sieve-editor-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -70611,10 +70614,10 @@
   },
   {
     "name": "pimcommon",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "0f6545d11c110ea74bb62b579ebd30ce78cb090836b789edfb5c49913ea9bddd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pimcommon-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7ce0e43eb531547ea292335f30dd2a76363ca9d4f4ff195a973f194d31457d6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pimcommon-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -110660,10 +110663,10 @@
   },
   {
     "name": "signon-kwallet-extension",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "897756712a12a0a1abeffa1ca35b3268dfc88220a7ba3e0d30d28e0e5631f9e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/signon-kwallet-extension-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "842a3acad7ba09b48b76b3e48047a08e4551ce94a2d09f4efe4581853383ab3d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/signon-kwallet-extension-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -110837,10 +110840,10 @@
   },
   {
     "name": "skanpage",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "d2b80d9f518d10668844732daa622ce3a211c3ee7e6a64457ff0edf19a82c1a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/skanpage-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e6a04e4b63a59959602a1927cce85d3bf6b513fdbb62da67b37cde2335110fb7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/skanpage-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -113383,14 +113386,14 @@
   },
   {
     "name": "svgpart",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "219a333981be2e710f0c7f582b79fac504f3421b0ccf9896f601960ccf108429",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/svgpart-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ebeb12dd257684cbb07cecf061a103c9470dc831621997546b124138b96581e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/svgpart-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "kconfigwidgets",
+      "kconfig",
       "kcoreaddons",
       "kparts",
       "kxmlgui",
@@ -113522,10 +113525,10 @@
   },
   {
     "name": "sweeper",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "45087db8fe396e46bfa76e70a8a1234e1610238601c63c9cacb4e4fbd088f7c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sweeper-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "291ee10b0db58a36ff0dd31174d0564947794f2ae287c3c874b71f9a1e31fc9b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sweeper-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -134169,10 +134172,10 @@
   },
   {
     "name": "yakuake",
-    "version": "26.04.3-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "1817c3ae6b329726452f390e47bd2d070c01ec932c5f1fa156285c8857ec3868",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yakuake-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0dd4762b8156e1fbe5ffdf883ef70e8dcbedb774143e827edf2db98db3a5e792",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yakuake-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
