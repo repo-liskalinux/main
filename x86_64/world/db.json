@@ -16674,10 +16674,10 @@
   },
   {
     "name": "filezilla",
-    "version": "3.70.6-1.2",
+    "version": "3.71.0-1",
     "origin": "artix-world",
-    "sha256": "6c8e6e2d638f25a09c158bb9a13d0afb5d39aa0abed1a3bcf2d178eeae5cdd16",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filezilla-3.70.6-1.2-x86_64.pkg.tar.zst",
+    "sha256": "f27430f8f7249abb90602d74260a9c76480b14f4f11a9ca19aad06c674ea6fd0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filezilla-3.71.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -16688,7 +16688,7 @@
       "libgdk-3.so=0-64",
       "hicolor-icon-theme",
       "libfilezilla",
-      "libfilezilla.so=58-64",
+      "libfilezilla.so=59-64",
       "sqlite",
       "libsqlite3.so=0-64",
       "wxwidgets-gtk3",
@@ -26255,17 +26255,18 @@
   },
   {
     "name": "gunicorn",
-    "version": "26.0.0-1",
+    "version": "26.1.0-1",
     "origin": "artix-world",
-    "sha256": "844ff008090593be6f4ec5d08efcc444fe971450232b50abb17cbe9d1d928cdc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gunicorn-26.0.0-1-any.pkg.tar.zst",
+    "sha256": "5d5f2b305c3eab95f1a18d3bd5f55b91120acf263bf4e9a3cc10e2b605f5e040",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gunicorn-26.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "python-packaging"
+      "python"
     ],
     "optdepends": [
       "python-gevent: for asynchronous request handling with gevent",
       "python-h2: for HTTP/2 support",
+      "python-packaging: for gevent worker version checks",
       "python-setproctitle: for process renaming",
       "python-tornado: for asynchronous request handling with tornado",
       "python-uvloop: for ASGI event loop performance"
@@ -126648,10 +126649,10 @@
   },
   {
     "name": "virtualbox",
-    "version": "7.2.14-1",
+    "version": "7.2.16-1",
     "origin": "artix-world",
-    "sha256": "6d8eca9b4d9716b02dd9776b67674dfb83af6705655aaaf04e6efdd82e14231b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-7.2.14-1-x86_64.pkg.tar.zst",
+    "sha256": "f3fcf1c5a49ff6cd7e4a885b3f86de1974b4f7a2f36f17b53bcfc72c3e55053f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-7.2.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -126708,10 +126709,10 @@
   },
   {
     "name": "virtualbox-ext-vnc",
-    "version": "7.2.14-1",
+    "version": "7.2.16-1",
     "origin": "artix-world",
-    "sha256": "204775c45469b3020d569ea608e3b36402f65a05a5b104b01eb5a50243f89d18",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-ext-vnc-7.2.14-1-x86_64.pkg.tar.zst",
+    "sha256": "838af01ce1ec59abb88e801b4872c2f69b8664884f72d05dccc41c0eb85a3869",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-ext-vnc-7.2.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "virtualbox",
@@ -126740,10 +126741,10 @@
   },
   {
     "name": "virtualbox-guest-utils",
-    "version": "7.2.14-1",
+    "version": "7.2.16-1",
     "origin": "artix-world",
-    "sha256": "55ec6656112bcc9e4e31f6d0eb10f2d19b8ae06babfae5dde4a5728bd735ee0b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-7.2.14-1-x86_64.pkg.tar.zst",
+    "sha256": "17462101eca1f2813ba861193c48cb7c4e75ddd1d84804289d7bea3b86fb72be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-7.2.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126771,10 +126772,10 @@
   },
   {
     "name": "virtualbox-guest-utils-nox",
-    "version": "7.2.14-1",
+    "version": "7.2.16-1",
     "origin": "artix-world",
-    "sha256": "f8586ee084104a1165b1f56766133032cdf1e27a01bf563bb48a4f3c9f4842b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-nox-7.2.14-1-x86_64.pkg.tar.zst",
+    "sha256": "af57ff2c6695847528b7a5175ead5ad488276aec1c3a1dce6edbfe4a5577e901",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-nox-7.2.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126792,10 +126793,10 @@
   },
   {
     "name": "virtualbox-host-dkms",
-    "version": "7.2.14-1",
+    "version": "7.2.16-1",
     "origin": "artix-world",
-    "sha256": "002d3264803bb8fecf68937f8a1e5105c84f77f82f1fb5a7dbc3c617a0f75101",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-host-dkms-7.2.14-1-x86_64.pkg.tar.zst",
+    "sha256": "f20df8574e46cc708e4e7e3223963fdb7d90d972a175a070f1cb54ebd4cc8baf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-host-dkms-7.2.16-1-x86_64.pkg.tar.zst",
     "provides": [
       "VIRTUALBOX-HOST-MODULES"
     ],
@@ -126832,10 +126833,10 @@
   },
   {
     "name": "virtualbox-sdk",
-    "version": "7.2.14-1",
+    "version": "7.2.16-1",
     "origin": "artix-world",
-    "sha256": "941b667191a04558d3e1db885f229ace7fb4ebbbb1be42113934275d8739c3c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-sdk-7.2.14-1-x86_64.pkg.tar.zst",
+    "sha256": "e9587efaff994027f624c35d47c01d7176bf17c4b1c908b08acd1df451c101bc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-sdk-7.2.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
