@@ -424,10 +424,10 @@
   },
   {
     "name": "busybox",
-    "version": "1.36.1-4",
+    "version": "1.36.1-1",
     "origin": "liska-core",
-    "sha256": null,
-    "url": "https://github.com/repo-liskalinux/main/releases/download/stable/busybox-1.36.1-4-x86_64.pkg.tar.zst",
+    "sha256": "c97f5b2984c3082de1482d1aa6bc8f4f9a298e8a3dfd6a1ae341c3a355539225",
+    "url": "https://github.com/repo-liskalinux/main/releases/download/stable/busybox-1.36.1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -4703,6 +4703,20 @@
       "yarn",
       "go"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "lksu",
+    "version": "1.0.0-1",
+    "origin": "liska-core",
+    "sha256": "08da362b98e4b13918c40d80fa99131851db1d9845496d1d7499e539a4cfa435",
+    "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lksu-1.0.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [
+      "pam",
+      "glibc"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
