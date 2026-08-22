@@ -7180,10 +7180,10 @@
   },
   {
     "name": "calligra",
-    "version": "26.04.3-2",
+    "version": "26.08.0-2.1",
     "origin": "artix-world",
-    "sha256": "b77e4cf19fd23c70f7f33bf113eabefd5bae0a5e849066e0019b9f2c87460d6d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calligra-26.04.3-2-x86_64.pkg.tar.zst",
+    "sha256": "d24ebbeb4550aef0a746af638338e11eb11c2f0e182f4fa0d64d05d57ba7c611",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calligra-26.08.0-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cauchy",
@@ -18683,10 +18683,10 @@
   },
   {
     "name": "gdal",
-    "version": "3.13.3-1",
+    "version": "3.13.3-2",
     "origin": "artix-world",
-    "sha256": "6abb94434e4b0123cc4bbfbf55c34b42c68b6a5e46533bd63cb2124e74dd9c1d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdal-3.13.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a91f68df81e058eb8084e6e5ab8cc1e6b014e4fda509d9a03ed32d122f53311f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdal-3.13.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc",
@@ -29746,10 +29746,10 @@
   },
   {
     "name": "inkscape",
-    "version": "1.4.4-5",
+    "version": "1.4.4-6.1",
     "origin": "artix-world",
-    "sha256": "836cc5d83718a2176aee21db435f984df6047e5e8b7faf3ee68e5d5ab7a05832",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/inkscape-1.4.4-5-x86_64.pkg.tar.zst",
+    "sha256": "bd7e4d1c35f5425da1e760d1d8567b0680cba4f0604c638883442a3ad72a84ff",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/inkscape-1.4.4-6.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "atkmm",
@@ -29824,7 +29824,7 @@
       "pangomm",
       "libpangomm-1.4.so=1-64",
       "poppler",
-      "libpoppler.so=162-64",
+      "libpoppler.so=163-64",
       "poppler-glib",
       "libpoppler-glib.so=8-64",
       "potrace",
@@ -37425,10 +37425,10 @@
   },
   {
     "name": "kitinerary",
-    "version": "26.08.0-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "a7db0df39389f31e35cef16e9b913ee1593724db52376e2741053e8ca755672e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.0-1-x86_64.pkg.tar.zst",
+    "sha256": "25a7fd8e67d5ca5ccdfc9f338a9fd6835496b6ba8250b5638c1ee68eea796228",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72672,12 +72672,12 @@
   },
   {
     "name": "poppler",
-    "version": "26.07.0-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "9a5240208067696153ab847abc6abb68e3ebc4f27442e9a2a2b6677ece39aac3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-26.07.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b83e9561d5b5d61cc6bb8db5dd5a2bac73b3c362581837e734afad1730aa9819",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libpoppler.so=162-64",
+      "libpoppler.so=163-64",
       "libpoppler-cpp.so=3-64"
     ],
     "depends": [
@@ -72702,8 +72702,8 @@
       "poppler-data: highly recommended encoding data to display PDF documents with certain encodings and characters"
     ],
     "conflicts": [
-      "poppler-qt3<26.07.0",
-      "poppler-qt4<26.07.0"
+      "poppler-qt3<26.08.0",
+      "poppler-qt4<26.08.0"
     ]
   },
   {
@@ -72721,15 +72721,15 @@
   },
   {
     "name": "poppler-glib",
-    "version": "26.07.0-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "44ff09a2059ef048fc899e05446d52c230eb8a5ed600690d585864b82fc2a289",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-glib-26.07.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c8bd81dfab4a1b9885b9176e957a1d2c82d44bc8f01a48a50874f641798ce7e1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-glib-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-glib.so=8-64"
     ],
     "depends": [
-      "poppler=26.07.0",
+      "poppler=26.08.0",
       "glib2",
       "libgcc",
       "libstdc++",
@@ -72742,15 +72742,15 @@
   },
   {
     "name": "poppler-qt5",
-    "version": "26.07.0-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "34eee1bf2a492d6c4d32061f36e1b4648bd2e6941613466d4624c7ea55aabbdb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt5-26.07.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f7d185f769f5af30112ffb58c7b6872b2764995e81bc3b31c3dcb4c694511bf5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt5-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-qt5.so=1-64"
     ],
     "depends": [
-      "poppler=26.07.0",
+      "poppler=26.08.0",
       "qt5-base",
       "lcms2",
       "freetype2",
@@ -72763,15 +72763,15 @@
   },
   {
     "name": "poppler-qt6",
-    "version": "26.07.0-1",
+    "version": "26.08.0-1",
     "origin": "artix-world",
-    "sha256": "8eedde725b54f3b47d812d93a53d37080155a21d7a66f93fefc679ebc25bda3f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt6-26.07.0-1-x86_64.pkg.tar.zst",
+    "sha256": "256f01c5f224bf37f21d14370d291df198205e2857c980165650f72a3aa5551e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt6-26.08.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-qt6.so=3-64"
     ],
     "depends": [
-      "poppler=26.07.0",
+      "poppler=26.08.0",
       "qt6-base",
       "lcms2",
       "freetype2",
@@ -80915,10 +80915,10 @@
   },
   {
     "name": "python-gdal",
-    "version": "3.13.3-1",
+    "version": "3.13.3-2",
     "origin": "artix-world",
-    "sha256": "0173cfe5555b54e91593590540732f6af07f0ffa218d136f5396b9021c3c9137",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gdal-3.13.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3523e35ee62cd721f60a70f56f513f8523f80554ec50255bb715be29faa014a2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gdal-3.13.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdal=3.13.3",
