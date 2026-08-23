@@ -10814,17 +10814,16 @@
   },
   {
     "name": "lact-openrc",
-    "version": "20250404.01-1",
+    "version": "20260823-1.2",
     "origin": "artix-galaxy",
-    "sha256": "483bf089bb2eda663886773cde83ff667e14b875c8ca9b36fc230a19f8fa4334",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lact-openrc-20250404.01-1-any.pkg.tar.zst",
+    "sha256": "3ac2d67c55d1cbb5391f7a7fb868e5863e29a9487133d70ee8b1a81f3c0116f4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lact-openrc-20260823-1.2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "lact"
+      "lact",
+      "openrc"
     ],
-    "optdepends": [
-      "openrc: To make use of this initscript."
-    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
