@@ -39076,10 +39076,10 @@
   },
   {
     "name": "kosmindoormap",
-    "version": "26.04.3-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "5bbd1cbdb5b7df7ac304901b314269523ed51f4bd018d67704e4b1b4af863fc6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kosmindoormap-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "4dae6c512ddd934ead84a0334c8d254fab25104446b40e06a2eef33e6bba0cec",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kosmindoormap-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -54769,10 +54769,10 @@
   },
   {
     "name": "marble",
-    "version": "26.04.3-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "7879d0537e090af5646760d17d5aa8bfde2d41d689ba514a78384b0f8634fb87",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f0d93dcd1e2d96ca78834fb55b8ea16e4c47f0592fa9c2e7639cf10fe9e2cdfd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54791,16 +54791,17 @@
     "optdepends": [
       "kcmutils: Plasma applets",
       "kirigami-addons: Plasma applets",
-      "libplasma: Plasma applets"
+      "libplasma: Plasma applets",
+      "plasma5support: Plasma applets"
     ],
     "conflicts": []
   },
   {
     "name": "marble-behaim",
-    "version": "26.04.3-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "644d4bc02169313b120ab1f6df3d6611dbd35d2c4619afd61465b2b07ebb7189",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-behaim-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ddbd52b34fdac0ccc7f984e9323c14903498796954ea72f8de91af53b6937063",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-behaim-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54819,10 +54820,10 @@
   },
   {
     "name": "marble-common",
-    "version": "26.04.3-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "6d2d672b04f359f4b4ab4ac97a2a8039a936fd49dd1b66a20afc848cdeadf778",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-common-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "12cbd61ee2b1827cba024aaa7f873f1e6eb1870399f933db0752cf651f226aee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-common-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -54849,10 +54850,10 @@
   },
   {
     "name": "marble-maps",
-    "version": "26.04.3-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "c9c4997a4a56498977209b65cbe4e01b125b533cda6ddb38f6bd4cac1f2600a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-maps-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f7e6077d2ac04f426224d65e3e250beb343cd626b7a4a44ce1a1a72e48f2dd08",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-maps-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54873,10 +54874,10 @@
   },
   {
     "name": "marble-qt",
-    "version": "26.04.3-1",
+    "version": "26.08.0-2",
     "origin": "artix-world",
-    "sha256": "a64e116890dc2bbc8310d15298a8775fb75b0354265bbf7ecdd83795c2bd2198",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-qt-26.04.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f1a65b6809ddde76d275d25594f22b96b003d073aa3be3bf1df1f2dc844ebddc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-qt-26.08.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
