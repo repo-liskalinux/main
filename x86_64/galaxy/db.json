@@ -30548,12 +30548,12 @@
   },
   {
     "name": "xlibre-video-dummy",
-    "version": "25.0.0-8",
+    "version": "25.0.0-9",
     "origin": "artix-galaxy",
-    "sha256": "8231adb6bae525915a18e44869a81af03d5629fb83214a7a69bfc759ac26d381",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-video-dummy-25.0.0-8-x86_64.pkg.tar.zst",
+    "sha256": "66363f67703f089208fe2614781a1f8b4bdc8f2b34b3044802bac2fbfa9715d9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-video-dummy-25.0.0-9-x86_64.pkg.tar.zst",
     "provides": [
-      "xlibre-xf86-video-dummy",
+      "xf86-video-dummy",
       "x11win-video-dummy"
     ],
     "depends": [
