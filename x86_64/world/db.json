@@ -2551,10 +2551,10 @@
   },
   {
     "name": "arm-none-eabi-gcc",
-    "version": "16.1.0-1",
+    "version": "16.2.0-1",
     "origin": "artix-world",
-    "sha256": "93c192bbd6b937adc81d83fd466d4f3b22fbe8241faa9edcaaed9462e9ae01bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arm-none-eabi-gcc-16.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f405b6c450d61007907fa2e5040e3054be54703d1a98ebde82eebff56ffafc93",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arm-none-eabi-gcc-16.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "arm-none-eabi-binutils",
@@ -23143,10 +23143,10 @@
   },
   {
     "name": "grafana",
-    "version": "13.1.3-1",
+    "version": "13.2.0-1",
     "origin": "artix-world",
-    "sha256": "a2942c0a28c5be21f3cf7c205b0ca7239f8c3531bf568f959449d486a5a794b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grafana-13.1.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0e57b7501fd00b6e4769b17af9f69d2c7ddaeed2402d939a1cbdaa9955076172",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grafana-13.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -47113,10 +47113,10 @@
   },
   {
     "name": "libmysofa",
-    "version": "1.3.4-1",
+    "version": "1.3.5-1",
     "origin": "artix-world",
-    "sha256": "fad87ea04c506b4df25e2728d25dda7d71647df4b480e8a4dc4caef48fab2ef3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmysofa-1.3.4-1-x86_64.pkg.tar.zst",
+    "sha256": "8711606e81c01e8aec6c27974fe366b880ec399b5d8202da8396d94e3d7bd3bd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmysofa-1.3.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmysofa.so=1-64"
     ],
@@ -59893,12 +59893,12 @@
   },
   {
     "name": "nodejs-lts-krypton",
-    "version": "24.18.1-1",
+    "version": "24.19.0-1",
     "origin": "artix-world",
-    "sha256": "c20f2cd6113e2e9de9e9b236b4faab82462dec91d2cfb5338a923a6b4c8de7d5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-krypton-24.18.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6b9adcb449c2f8f758e762a84c06d01b41260295727a561130633e8b856c65dc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-krypton-24.19.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "nodejs=24.18.1",
+      "nodejs=24.19.0",
       "nodejs-lts"
     ],
     "depends": [
@@ -79791,10 +79791,10 @@
   },
   {
     "name": "python-evdev",
-    "version": "1.9.3-1",
+    "version": "2.0.0-1",
     "origin": "artix-world",
-    "sha256": "15c4eb285eaed906a113d543905bd53beedab4e233e1a082ec15479920a727e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-evdev-1.9.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e5618df386c5e3bca9d3342064c59d60ac591cb1da97b83f144416e254c770d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-evdev-2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -79903,10 +79903,10 @@
   },
   {
     "name": "python-faker",
-    "version": "40.33.1-1",
+    "version": "40.33.2-1",
     "origin": "artix-world",
-    "sha256": "39fa44d8f0ce783b5fd293630dfe86f7773f8ac43047ee30863067bbac30730b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-faker-40.33.1-1-any.pkg.tar.zst",
+    "sha256": "0b2dae8d2016839eb2cb50b995d59d38585c90a27458596d0342a08f53001646",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-faker-40.33.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -81368,10 +81368,10 @@
   },
   {
     "name": "python-googleapis-common-protos",
-    "version": "1.75.0-2",
+    "version": "1.75.1-1",
     "origin": "artix-world",
-    "sha256": "4e326ca882a47162e4abf3850a6c9ac94569d61dbadaa3a5ef4d180b7c7ab7da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-googleapis-common-protos-1.75.0-2-any.pkg.tar.zst",
+    "sha256": "0ab8c01c791acc3237867410e58ff85bd287a300c48c9b72c492bbb96e427eb7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-googleapis-common-protos-1.75.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -82359,10 +82359,10 @@
   },
   {
     "name": "python-idna",
-    "version": "3.18-1",
+    "version": "3.19-1",
     "origin": "artix-world",
-    "sha256": "71ec26e14e1e845a48307e12354d4d695eb1f43be6931447897695199b611688",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-idna-3.18-1-any.pkg.tar.zst",
+    "sha256": "2e9f49bd8e2539df76261d883d90497dde1d2d1e582fd79ec93639916cc8c87d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-idna-3.19-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -84157,10 +84157,10 @@
   },
   {
     "name": "python-lmdb",
-    "version": "2.2.1-1",
+    "version": "2.3.0-1",
     "origin": "artix-world",
-    "sha256": "083246bec50f9a075f5db66f53857f523ac3fb0a8cb04707a64d82c79aff3357",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-lmdb-2.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "859fbe4616d5ef195042b517b7f0ae9b617bb233a47abc59dd0280bde3a23b3a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-lmdb-2.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -86906,10 +86906,10 @@
   },
   {
     "name": "python-pbr",
-    "version": "7.1.0-1",
+    "version": "7.1.1-1",
     "origin": "artix-world",
-    "sha256": "91c76b54fdf5e2f574a4147683f876dc01048216d2dff26c4f154abd42910c41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbr-7.1.0-1-any.pkg.tar.zst",
+    "sha256": "431cc8961f6bdeeb8bd95f8bda1a6b239e4690dcc698b489156eac1d953e49be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbr-7.1.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-setuptools"
@@ -87191,10 +87191,10 @@
   },
   {
     "name": "python-pika",
-    "version": "1.4.1-1",
+    "version": "1.4.4-1",
     "origin": "artix-world",
-    "sha256": "be7b2ecb509319aea97650ad4299ee5f19d975381c69912f06bbdc9366b023e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pika-1.4.1-1-any.pkg.tar.zst",
+    "sha256": "46368a450464e1cbee94b1bb2d6e18efe82042866f9e7282f6842c54673017d5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pika-1.4.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -87850,10 +87850,10 @@
   },
   {
     "name": "python-prometheus_client",
-    "version": "0.25.0-1",
+    "version": "0.26.0-1",
     "origin": "artix-world",
-    "sha256": "e1531b75a0d9587a358d4c608bee0bcf534c2b31e742e41c6f6f69d2b146348a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-prometheus_client-0.25.0-1-any.pkg.tar.zst",
+    "sha256": "f6e7ccb1858f3496fdcb6f74fd11992f927cf17e9df3911448b0f303f8ace222",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-prometheus_client-0.26.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -88522,10 +88522,10 @@
   },
   {
     "name": "python-pycrdt",
-    "version": "0.14.3-1",
+    "version": "0.14.4-1",
     "origin": "artix-world",
-    "sha256": "538e3bcb75e063afed5b805b4371252334279dd2b4d843ff1f9a9e74415812c7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycrdt-0.14.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0bda9160cdcd7946aada3d03c40b3469b2dd4f3a69014bd2cb347efb821b150b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycrdt-0.14.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -89541,10 +89541,10 @@
   },
   {
     "name": "python-pypdf",
-    "version": "6.16.1-1",
+    "version": "6.16.2-1",
     "origin": "artix-world",
-    "sha256": "0ef7753194a896b55bb4e0aafa8493057e2c1339236834a2c465d9b79e0c2a47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pypdf-6.16.1-1-any.pkg.tar.zst",
+    "sha256": "f1e412cbb0c229ac26764914c677d830eb7a5ea489adc53c75a55229c87a6033",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pypdf-6.16.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
