@@ -2437,10 +2437,10 @@
   },
   {
     "name": "claws-mail",
-    "version": "4.4.0-4",
+    "version": "4.4.0-5",
     "origin": "artix-galaxy",
-    "sha256": "d74aff351bc9b7d47d870fd65c3033527d5a0768e3142da30c307c53ba5080c9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/claws-mail-4.4.0-4-x86_64.pkg.tar.zst",
+    "sha256": "99d5e1314dfcb99a9cc6563ef9628442f5c9f8a5232611417a65e9f8dda1dc3a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/claws-mail-4.4.0-5-x86_64.pkg.tar.zst",
     "provides": [
       "claws"
     ],
@@ -2453,7 +2453,6 @@
       "libetpan",
       "compface",
       "libsm",
-      "dbus-glib",
       "librsvg",
       "libldap",
       "glib2",
@@ -2473,8 +2472,7 @@
       "bogofilter: adds support for spamfiltering",
       "libnotify: for notification plugin",
       "libcanberra: for notification plugin",
-      "dbus: for notification plugin",
-      "libayatana-appindicator: for notification plugin",
+      "libappindicator: for notification plugin",
       "libxml2: for rssyl plugins",
       "curl: for vcalendar, rssyl and spamreport plugins",
       "libarchive: for archive plugin and various other plugins",
