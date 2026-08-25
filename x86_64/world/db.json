@@ -4663,10 +4663,10 @@
   },
   {
     "name": "bamf",
-    "version": "0.5.6-3",
+    "version": "0.5.6-4",
     "origin": "artix-world",
-    "sha256": "5c14498abb5652b4c5cbc8ad7aada721bb3eda3409a1ee90afac72c9f225f7df",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bamf-0.5.6-3-x86_64.pkg.tar.zst",
+    "sha256": "4e3bd641fbb9825f4409589be37566755e431fc3e7bab4c099c3abca3303d363",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bamf-0.5.6-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -6309,10 +6309,10 @@
   },
   {
     "name": "brasero",
-    "version": "3.12.3+r44+gdea4990b-1",
+    "version": "3.12.3+r44+gdea4990b-2",
     "origin": "artix-world",
-    "sha256": "14730aa2fb14de9efa6260d05510f6fda28871dddcfae46a21bf6f11910e2d9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/brasero-3.12.3+r44+gdea4990b-1-x86_64.pkg.tar.zst",
+    "sha256": "35e6ecd87250543218d6d91683e53c87e3cc18d4c2742b09b5d1ed7aa42564b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/brasero-3.12.3+r44+gdea4990b-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -17897,10 +17897,10 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.4.3-1",
+    "version": "3.5.0-1",
     "origin": "artix-world",
-    "sha256": "dea09095365fe4cb653d6bd0de10dc12fdadc0f32ee834babd5875d37f4d1acf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.4.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6e92088d70d5196c626350b4224d645cc38b01e389948110c98a6d59728820dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -18975,10 +18975,10 @@
   },
   {
     "name": "geary",
-    "version": "1:46.0-8",
+    "version": "1:46.0-9",
     "origin": "artix-world",
-    "sha256": "dbdcfb5b79fe63f57a7ccbaf647b4f079cb31c3fdaac14166f9151320a13c097",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/geary-1:46.0-8-x86_64.pkg.tar.zst",
+    "sha256": "cde7069d6a5368c8979dfcc4c5088d9bc3db57922a6b4af3f30b401799d141b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/geary-1:46.0-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -21150,15 +21150,15 @@
   },
   {
     "name": "gnome-color-manager",
-    "version": "3.36.2-1",
+    "version": "3.36.2-2",
     "origin": "artix-world",
-    "sha256": "d9e850c45d5f0cb702ec22f158c6c1b523128754860e588a0d40018f4201c268",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-color-manager-3.36.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1b970a681a377e684619981787df778403f12804c290ea11010591b7eb267dd4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-color-manager-3.36.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
       "colord",
-      "gcc-libs",
+      "libgcc",
       "gdk-pixbuf2",
       "glib2",
       "glibc",
@@ -55735,10 +55735,10 @@
   },
   {
     "name": "meld",
-    "version": "3.24.0-1",
+    "version": "3.24.0-2",
     "origin": "artix-world",
-    "sha256": "8f2d2b530ea0ce00002b3cf882bdda7d52553352e6e8cc29a334dbab567394d6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/meld-3.24.0-1-any.pkg.tar.zst",
+    "sha256": "f353ac634a1e0a9403fdb71b7c81e5c9d2f65d339a95b8ae0566a9e9b9f1c363",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/meld-3.24.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -123343,10 +123343,10 @@
   },
   {
     "name": "totem",
-    "version": "43.2-5",
+    "version": "43.2-6",
     "origin": "artix-world",
-    "sha256": "ef7a070648ba0e04186e3e221dbdd39cd90f788045dd18c1d822500d1c7cbd52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/totem-43.2-5-x86_64.pkg.tar.zst",
+    "sha256": "06db308b228ce3e486e9f5b86ccedc2a2d662fc21f341205fcc69c969f461263",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/totem-43.2-6-x86_64.pkg.tar.zst",
     "provides": [
       "libtotem.so=0-64"
     ],
