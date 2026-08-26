@@ -2537,10 +2537,10 @@
   },
   {
     "name": "code",
-    "version": "1.131.0-2",
+    "version": "1.134.0-1",
     "origin": "artix-galaxy",
-    "sha256": "77353f914d3beea2385dce3815879d313c35091acdd7bdecbba9c6cf245a8fc3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/code-1.131.0-2-x86_64.pkg.tar.zst",
+    "sha256": "e015cd8b35728b64e4cd54d8540a9039be904a96a5b93e3c00bd365e32cd1a2f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/code-1.134.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "vscode"
     ],
@@ -4255,10 +4255,10 @@
   },
   {
     "name": "elementary-icon-theme",
-    "version": "8.2.0-2",
+    "version": "9.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "0328adb3e7c691420582e69f4842be24caadc681413c8fad0b3ff6f9ac64650f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/elementary-icon-theme-8.2.0-2-any.pkg.tar.zst",
+    "sha256": "88e2e25fca776c004f1eeaa23edfbfdadf37b52e14826eca150893d20403249c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/elementary-icon-theme-9.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme"
@@ -25529,18 +25529,20 @@
   },
   {
     "name": "spotify-launcher",
-    "version": "0.6.6-1",
+    "version": "0.6.6-2",
     "origin": "artix-galaxy",
-    "sha256": "b471e84138a89de0d414bc1158fa17f97554a168735974738e40543de0eeaeb5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/spotify-launcher-0.6.6-1-x86_64.pkg.tar.zst",
+    "sha256": "47442dd5bf467bc302e2768164150327c8f249611c75aa4ceb50211d9cb77d4c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/spotify-launcher-0.6.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib>=1.0.14",
       "at-spi2-atk",
+      "ayatana-ido",
       "glibc",
       "gtk3",
       "hicolor-icon-theme",
       "libayatana-appindicator",
+      "libayatana-indicator",
       "libcurl-gnutls",
       "libgcc",
       "libgcc_s.so=1-64",
