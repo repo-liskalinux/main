@@ -10061,10 +10061,10 @@
   },
   {
     "name": "jellyfin-ffmpeg",
-    "version": "1:7.1.4p1-3",
+    "version": "1:7.1.4p1-4",
     "origin": "artix-galaxy",
-    "sha256": "04b12c58a8c088662118be389f18069586d4714e741c589ea46671542dd8eb61",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-ffmpeg-1:7.1.4p1-3-x86_64.pkg.tar.zst",
+    "sha256": "aeeb3a7382f4ee143246dbbe28907403f6efee37f928b8797eec5b3d39cc5d21",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-ffmpeg-1:7.1.4p1-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10076,7 +10076,7 @@
       "gnutls",
       "lame",
       "libass.so=9-64",
-      "libbluray.so=3-64",
+      "libbluray.so=4-64",
       "libchromaprint.so=1-64",
       "libdav1d.so=7-64",
       "libdrm",

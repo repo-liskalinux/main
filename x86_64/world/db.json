@@ -64543,6 +64543,21 @@
     "conflicts": []
   },
   {
+    "name": "pdfio",
+    "version": "1.6.5-1",
+    "origin": "artix-world",
+    "sha256": "0b9a8737432526de7e2d695f0f848dd455baa1f45f936a8af7a26bcfcc4bdf1c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pdfio-1.6.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libpng",
+      "zlib",
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "pdfmixtool",
     "version": "1.2.2-2",
     "origin": "artix-world",
