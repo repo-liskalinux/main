@@ -7623,10 +7623,10 @@
   },
   {
     "name": "cef",
-    "version": "151.3.18-1",
+    "version": "151.3.24-1",
     "origin": "artix-world",
-    "sha256": "83bbd50eaf49423e9444339dc491d8fb437e7f744838f3cbf2df4dcd3486bd00",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cef-151.3.18-1-x86_64.pkg.tar.zst",
+    "sha256": "bab575f13fd04f8586a9a7f29d250dd63da7ec59f4c3f6366152fe90915304ea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cef-151.3.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -49011,10 +49011,10 @@
   },
   {
     "name": "libslirp",
-    "version": "4.9.3-1",
+    "version": "4.9.4-1",
     "origin": "artix-world",
-    "sha256": "e4710817b32e4d478d71c206457cdd8a655f2fea35440182d6d3eaaf4a2f6326",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libslirp-4.9.3-1-x86_64.pkg.tar.zst",
+    "sha256": "48bb1fb5ae5d1290a9d283ea606607911bf6e42ed69d9a18714055908fd1e05c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libslirp-4.9.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libslirp.so=0-64"
     ],
@@ -129721,10 +129721,10 @@
   },
   {
     "name": "wasi-libc",
-    "version": "1:0+592+161b3195-1",
+    "version": "1:0+659+2e6fb9d8-1",
     "origin": "artix-world",
-    "sha256": "e442d24dc7e886e447929c23f7b1cc850994aff824b48ef743e358a5f508b6cb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc-1:0+592+161b3195-1-any.pkg.tar.zst",
+    "sha256": "18d85a3b8f045f0150461bfe9dce3556fdb7ff21a922e976a6a0a418323c3715",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc-1:0+659+2e6fb9d8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -130484,12 +130484,12 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.15-1",
+    "version": "11.16-1",
     "origin": "artix-world",
-    "sha256": "5b992d3cf1a2d1cc2971ef1c421f47c1882b2e26882d8c53c923d2e4c05a0321",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.15-1-x86_64.pkg.tar.zst",
+    "sha256": "f920f5f98c2d6e6bbba0d4846dc043e2fb37a729bbe7e8d4dac323e910440598",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.16-1-x86_64.pkg.tar.zst",
     "provides": [
-      "wine=11.15"
+      "wine=11.16"
     ],
     "depends": [
       "attr",
