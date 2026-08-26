@@ -8694,50 +8694,6 @@
     ]
   },
   {
-    "name": "forkgram",
-    "version": "7.0.9-2",
-    "origin": "artix-galaxy",
-    "sha256": "2314eb527d119c7a864b4ff91b7a3d2f37a039b31e46d8f369fd10fc004eec72",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/forkgram-7.0.9-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "ada",
-      "ffmpeg",
-      "hunspell",
-      "kcoreaddons",
-      "libavif",
-      "libdispatch",
-      "libheif",
-      "libjxl",
-      "libsrtp",
-      "libvpx",
-      "libxdamage",
-      "minizip",
-      "openal",
-      "openh264",
-      "opus",
-      "protobuf",
-      "qt6-base",
-      "qt6-declarative",
-      "qt6-svg",
-      "qt6-wayland",
-      "rnnoise",
-      "xcb-util-keysyms",
-      "xxhash",
-      "libpipewire",
-      "libxcomposite",
-      "libxrandr",
-      "libxtst"
-    ],
-    "optdepends": [
-      "webkit2gtk: embedded browser features",
-      "xdg-desktop-portal: desktop integration"
-    ],
-    "conflicts": [
-      "forkgram-bin"
-    ]
-  },
-  {
     "name": "fpc",
     "version": "3.2.2-11",
     "origin": "artix-galaxy",
