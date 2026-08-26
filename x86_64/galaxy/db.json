@@ -9949,13 +9949,13 @@
   },
   {
     "name": "impala",
-    "version": "0.7.4-1",
+    "version": "0.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "4b6938c8ad15d343c411dd56a59c577f007595a751fdbd347631418c90f76e63",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/impala-0.7.4-1-x86_64.pkg.tar.zst",
+    "sha256": "cd9cf54bb12e69165f9137f1ccc4b02b230582fcb9aa5e05464eee7b06072ee0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/impala-0.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
+      "libgcc",
       "glibc",
       "iwd"
     ],
@@ -10656,10 +10656,10 @@
   },
   {
     "name": "labwc",
-    "version": "0.20.1-1",
+    "version": "0.20.2-1",
     "origin": "artix-galaxy",
-    "sha256": "16fef56b170576f9f5d5e8c67914415eb92a3cbb7f6fb0f86f976edcbd447a24",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/labwc-0.20.1-1-x86_64.pkg.tar.zst",
+    "sha256": "83c4d6f7620dd855943e00fe764735b781dcf790f6eb21c376d07a82a99f518a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/labwc-0.20.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",

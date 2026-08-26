@@ -15616,10 +15616,10 @@
   },
   {
     "name": "faac",
-    "version": "2.0-1",
+    "version": "2.1-1",
     "origin": "artix-world",
-    "sha256": "2ca0cd2e0952e23bf9b6f3496b5e92885e00ae3065d72f71c9fd4f7495b22bba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/faac-2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1511058a86763b2308dbfd0a302fb8e29cfa7ba870139838905e754cb15845e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/faac-2.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfaac.so=1-64"
     ],
@@ -30875,16 +30875,17 @@
   },
   {
     "name": "iwd-dinit",
-    "version": "20240622-1",
+    "version": "20240622-2",
     "origin": "artix-world",
-    "sha256": "bbc2043718290b992780a7c71f1145b90a7d5a59bead902066ae18e05c21724f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/iwd-dinit-20240622-1-any.pkg.tar.zst",
+    "sha256": "77e1f0017998b4dcb4a56243c7f0db198ca17c750b1840550ee5e449069a9df0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/iwd-dinit-20240622-2-any.pkg.tar.zst",
     "provides": [
       "init-iwd"
     ],
     "depends": [
       "iwd",
-      "dinit"
+      "dinit",
+      "dbus-dinit"
     ],
     "optdepends": [],
     "conflicts": [
