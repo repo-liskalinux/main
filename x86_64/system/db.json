@@ -2036,10 +2036,10 @@
   },
   {
     "name": "glibc",
-    "version": "2.44+r24+g16be1518495f-1",
+    "version": "2.44+r24+g16be1518495f-1.1",
     "origin": "artix-system",
-    "sha256": "f15b5425df0b002ef302e02124fdabdeff514e21c9537a84975d064e59179a8d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
+    "sha256": "1f8f7a032c9eae17f94b69fa4a57fd34d7eb5d6f9d3fa47251c0ddedc102cac8",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-2.44+r24+g16be1518495f-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-api-headers>=4.10",
@@ -2054,10 +2054,10 @@
   },
   {
     "name": "glibc-locales",
-    "version": "2.44+r24+g16be1518495f-1",
+    "version": "2.44+r24+g16be1518495f-1.1",
     "origin": "artix-system",
-    "sha256": "a716bd21010c912d4e36f28476693d53a0a24b1e6780bcdd1bb2b309b2858970",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-locales-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
+    "sha256": "e7a52fd0d8a9f6ed986fc9a61cce79571e48fdd46a516756b4f960844c16babb",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-locales-2.44+r24+g16be1518495f-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc=2.44+r24+g16be1518495f"
@@ -3032,10 +3032,10 @@
   },
   {
     "name": "lib32-glibc",
-    "version": "2.44+r24+g16be1518495f-1",
+    "version": "2.44+r24+g16be1518495f-1.1",
     "origin": "artix-system",
-    "sha256": "91f2f496976806b9e526e7ba8c9f833697b34aca91dd22004fddc5905e0f0086",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lib32-glibc-2.44+r24+g16be1518495f-1-x86_64.pkg.tar.zst",
+    "sha256": "78d2190d1d87a6754d5b80d232fd1458d5301288d01eedf32905a11755736061",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lib32-glibc-2.44+r24+g16be1518495f-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc=2.44+r24+g16be1518495f"
