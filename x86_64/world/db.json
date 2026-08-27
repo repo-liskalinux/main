@@ -56308,10 +56308,10 @@
   },
   {
     "name": "mimalloc",
-    "version": "3.4.5-1",
+    "version": "3.5.0-1",
     "origin": "artix-world",
-    "sha256": "d77dc684fa8e01fa3931f3a4ecb6959945fb8e29828d6936a9855bcd61482ce3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimalloc-3.4.5-1-x86_64.pkg.tar.zst",
+    "sha256": "7400a808bb00a684c2fb5ef19cda51b134fe45ee4f41f7cb8669ea0a1b598424",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimalloc-3.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -57734,18 +57734,18 @@
   },
   {
     "name": "msgraph",
-    "version": "0.3.4-1",
+    "version": "0.3.5-1",
     "origin": "artix-world",
-    "sha256": "a9c06b1fa5f7bd609707e6817295b0bc995645d82d10fac2d3c056b7aa31cd64",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/msgraph-0.3.4-1-x86_64.pkg.tar.zst",
+    "sha256": "306f663f95060b14a141d0bebf8a56cfa2f35cb9ac2a4a7a95dfa73b288442a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/msgraph-0.3.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmsgraph-1.so=1-64"
     ],
     "depends": [
-      "gcc-libs",
       "glib2",
       "glibc",
       "json-glib",
+      "libgcc",
       "libgoa",
       "libsoup3"
     ],
@@ -73510,10 +73510,10 @@
   },
   {
     "name": "power-profiles-daemon-s6",
-    "version": "20260512-1",
+    "version": "20260826-1",
     "origin": "artix-world",
-    "sha256": "107dd9d87db1fdb721320eb6e1a9d02491cefd134647d8232927a921e5013887",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/power-profiles-daemon-s6-20260512-1-any.pkg.tar.zst",
+    "sha256": "8ae49e03cb7761f805ebe08d69389c62c9186f2c019f6cc7adc4149e88ea8493",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/power-profiles-daemon-s6-20260826-1-any.pkg.tar.zst",
     "provides": [
       "init-power-profiles-daemon"
     ],
@@ -74859,10 +74859,10 @@
   },
   {
     "name": "pv",
-    "version": "1.10.5-1",
+    "version": "1.11.0-1",
     "origin": "artix-world",
-    "sha256": "ada70d0ca49d635b9e6317495546813552f52f87358779a7d788b71eeb7acf57",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pv-1.10.5-1-x86_64.pkg.tar.zst",
+    "sha256": "a34b1afc964b01851ed87f9c189c829c03e0e1f66b79364fde2ac03aa3cf38d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pv-1.11.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"

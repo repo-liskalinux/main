@@ -4662,6 +4662,19 @@
     "conflicts": []
   },
   {
+    "name": "execline-man-pages",
+    "version": "2.9.9.1.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "5c4905d305257fe2220a5d9e56d3f737cb971c5b58a67d835da43e69a9549b6d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/execline-man-pages-2.9.9.1.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [
+      "execline: package documented by these man pages"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "exo",
     "version": "4.20.0-2",
     "origin": "artix-galaxy",
@@ -24768,6 +24781,19 @@
       "openrc"
     ],
     "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "s6-frontend-man-pages",
+    "version": "0.0.1.2.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "0c6bdbacf8682145d596ae71962609198bcc2baee99082acd25844f8d83ff182",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-frontend-man-pages-0.0.1.2.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [
+      "s6-frontend: package documented by these man pages"
+    ],
     "conflicts": []
   },
   {
