@@ -21844,10 +21844,10 @@
   },
   {
     "name": "pcmanfm-qt",
-    "version": "2.4.0-1",
+    "version": "2.4.1-1",
     "origin": "artix-galaxy",
-    "sha256": "32203c0ee6b5f8f14e83db137f35a7a92b7a73253f41b02c8132ee8f32d6d57e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pcmanfm-qt-2.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8f9948312432c77ea1e41a8fee65e24d58e172cf98cefb0dbc1ec33030019af7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pcmanfm-qt-2.4.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
@@ -24768,6 +24768,58 @@
       "openrc"
     ],
     "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "s6-man-pages",
+    "version": "2.15.0.0.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "4f77fec9d5d722336bd79c25479ff09085de536d932a9d5155c6b33b9fb6f45e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-man-pages-2.15.0.0.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [
+      "s6: package documented by these man pages"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "s6-networking-man-pages",
+    "version": "2.8.0.0.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "4e9c0c1a01b09e14e83436d072c39c80344fff00e90c887b5803255dfd362bfa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-networking-man-pages-2.8.0.0.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [
+      "s6-networking: package documented by these man pages"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "s6-portable-utils-man-pages",
+    "version": "2.3.1.2.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "ffe73dc5af5096f855d1fedda12f21cb9d14fc23bf661668f5eb889c2fe2b725",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-portable-utils-man-pages-2.3.1.2.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [
+      "s6-portable-utils: package documented by these man pages"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "s6-rc-man-pages",
+    "version": "0.6.1.1.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "bb6f898e067ad01aedaf6e1f82f33e63b05a835211bcd351fdb0a844c4b7cbec",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-rc-man-pages-0.6.1.1.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [
+      "s6-rc: package documented by these man pages"
+    ],
     "conflicts": []
   },
   {

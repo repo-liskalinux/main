@@ -3749,10 +3749,10 @@
   },
   {
     "name": "avahi",
-    "version": "1:0.9rc4-1",
+    "version": "1:0.9rc5-1",
     "origin": "artix-world",
-    "sha256": "1cbcb1633eb33ad76c54aef82a036e26e88930600e6d39cd4c3de7b14a17be44",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/avahi-1:0.9rc4-1-x86_64.pkg.tar.zst",
+    "sha256": "30bff2447cef75e695b452e31fe365e0754fc42e0ebc635c008c045920333ee0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/avahi-1:0.9rc5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libavahi-client.so=3-64",
       "libavahi-common.so=3-64",
@@ -17742,10 +17742,10 @@
   },
   {
     "name": "freerdp",
-    "version": "2:3.30.0-2",
+    "version": "2:3.31.0-1",
     "origin": "artix-world",
-    "sha256": "6c9a61d4b471c6ef5b55648d33e9baf329af37b846cc9c1a3246ff447de0f189",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freerdp-2:3.30.0-2-x86_64.pkg.tar.zst",
+    "sha256": "e3953ce0918e065521858e7789e9518655ad602aec4d7034f877549f41586672",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freerdp-2:3.31.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfreerdp-client3.so=3-64",
       "libfreerdp-server-proxy3.so=3-64",
@@ -42362,16 +42362,15 @@
   },
   {
     "name": "libayatana-appindicator",
-    "version": "0.6.0-1",
+    "version": "0.6.0-2",
     "origin": "artix-world",
-    "sha256": "e0b52f86906066baeca6a2ef4a343861c3d75c6ed087f4532bb25da60c59ca66",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libayatana-appindicator-0.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "85530141a915ad9f44eab13caa3b830a4bc1dae610e293a4327eca9199216f72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libayatana-appindicator-0.6.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "glibc",
       "gtk3",
-      "libayatana-indicator",
       "libdbusmenu-glib",
       "libdbusmenu-gtk3",
       "libgcc"
@@ -49867,10 +49866,10 @@
   },
   {
     "name": "libuv",
-    "version": "1.52.1-1",
+    "version": "1.52.1-2",
     "origin": "artix-world",
-    "sha256": "3cdce80ef90afb1fb955aac2b9724d09fdfaa1040fb21dfa41502de58356c840",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libuv-1.52.1-1-x86_64.pkg.tar.zst",
+    "sha256": "62122d8d8c85f72747f4b9fbc46ae196e655c36a2ac8efcc8bc7ccbe6e7e60ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libuv-1.52.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -79879,10 +79878,10 @@
   },
   {
     "name": "python-faker",
-    "version": "40.34.0-1",
+    "version": "40.35.0-1",
     "origin": "artix-world",
-    "sha256": "e44e715d7ae0a6bc514275b0e778865847f21bcd8d2324093632e10cedcbc355",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-faker-40.34.0-1-any.pkg.tar.zst",
+    "sha256": "a6a14e125bbd5bdc58c8d824a68f092c8f1814c73f96bdce2babbbd75491f374",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-faker-40.35.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -80190,10 +80189,10 @@
   },
   {
     "name": "python-filelock",
-    "version": "3.29.3-1",
+    "version": "3.29.4-1",
     "origin": "artix-world",
-    "sha256": "889bee1c78510057acac5628477c28a4ddf33ad782b0ca0bc7d7661c86515c22",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-filelock-3.29.3-1-any.pkg.tar.zst",
+    "sha256": "b81bd6eeb54c9dbefb396b72381a71de0ad40d90b57965fede28fd8d3dddc82c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-filelock-3.29.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -83641,10 +83640,10 @@
   },
   {
     "name": "python-keystoneauth1",
-    "version": "5.15.0-1",
+    "version": "5.16.0-1",
     "origin": "artix-world",
-    "sha256": "bce6032565c5cd71025627d1b53fe4edad044c7dcee52e53a79d889060426248",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-keystoneauth1-5.15.0-1-any.pkg.tar.zst",
+    "sha256": "00bb904eab1e8b1e627d135f6c7c4a65cef4992a4cc71076c2b1e36a8385b238",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-keystoneauth1-5.16.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-iso8601",
@@ -86090,10 +86089,10 @@
   },
   {
     "name": "python-openstacksdk",
-    "version": "4.18.0-1",
+    "version": "4.19.0-1",
     "origin": "artix-world",
-    "sha256": "f9d801a5283dd901c7dda58398bae36b83272c87d81d491fc630a1e036e21897",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-openstacksdk-4.18.0-1-any.pkg.tar.zst",
+    "sha256": "6be59413dce44e32b2eca444eda4b8ba520f09dbd70cbd4e164bc9f04ba6f5af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-openstacksdk-4.19.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-cryptography",
@@ -86882,10 +86881,10 @@
   },
   {
     "name": "python-pbr",
-    "version": "7.1.1-1",
+    "version": "7.1.2-1",
     "origin": "artix-world",
-    "sha256": "431cc8961f6bdeeb8bd95f8bda1a6b239e4690dcc698b489156eac1d953e49be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbr-7.1.1-1-any.pkg.tar.zst",
+    "sha256": "f0aa4dc748db2f28b553b375aebc17bba2206ec102771f61b6f1ada8b9cd42b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbr-7.1.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-setuptools"
@@ -93341,10 +93340,10 @@
   },
   {
     "name": "python-sphinx-argparse",
-    "version": "0.6.0-1",
+    "version": "0.6.1-1",
     "origin": "artix-world",
-    "sha256": "6d783a9981a5ed5b76635c624bba8041058ce5b0bd95fdf7597dc26e9eabb76a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sphinx-argparse-0.6.0-1-any.pkg.tar.zst",
+    "sha256": "26abab028302af684459fa0cc2887131adf98cd72d26f69f87cf913f7393f712",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sphinx-argparse-0.6.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -97074,10 +97073,10 @@
   },
   {
     "name": "python-zope-i18nmessageid",
-    "version": "8.2-2",
+    "version": "8.3-1",
     "origin": "artix-world",
-    "sha256": "e322d8f82eed885dd8459c921b54e40fc59bc216a885b4a0601db40f543c162d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zope-i18nmessageid-8.2-2-x86_64.pkg.tar.zst",
+    "sha256": "f9f2802b57a2f765ace481c5b6d129133efb659f480e9e0abe4f39c0b5214ef6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zope-i18nmessageid-8.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
