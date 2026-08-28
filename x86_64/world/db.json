@@ -3074,10 +3074,10 @@
   },
   {
     "name": "astyle",
-    "version": "3.6.17-1",
+    "version": "3.6.18-1",
     "origin": "artix-world",
-    "sha256": "8cad01853b756a8dfc6c38262ce90b2c8f3f096e09f6b7c0b9862327f8415994",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/astyle-3.6.17-1-x86_64.pkg.tar.zst",
+    "sha256": "cb0485298b4d218da0b38f100204debea0f8a8eaf607f94f0d13d819dbeaf6fd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/astyle-3.6.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10167,10 +10167,10 @@
   },
   {
     "name": "curl-impersonate",
-    "version": "2.1.0-1",
+    "version": "2.1.1-1",
     "origin": "artix-world",
-    "sha256": "575c65bc1d6a687143687871bef4dd2ab49a40f507f0838fe604cb81a2b263b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/curl-impersonate-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "71b4e12594f9b0a129697d9414411c12dd4c3957dcaa7e9be0fff97a0b3e71cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/curl-impersonate-2.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10505,10 +10505,10 @@
   },
   {
     "name": "dart",
-    "version": "3.13.0-1",
+    "version": "3.13.2-1",
     "origin": "artix-world",
-    "sha256": "0968e44fe23be1272cad1087cf8c7355f993be3e64f1a97c462efba59ea0d2a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-3.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "196e9dafcc4884f415848c0dcb79e36459c0705983f80df2ed42fa2259eaf3c0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-3.13.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -17936,14 +17936,20 @@
   },
   {
     "name": "ftgl",
-    "version": "2.4.0-3",
+    "version": "2.4.0-4",
     "origin": "artix-world",
-    "sha256": "69005ec0bef18c281d992d805d11d49b00cf765eded24ee9f3bca4ade51a3a3e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ftgl-2.4.0-3-x86_64.pkg.tar.zst",
-    "provides": [],
+    "sha256": "ad575687a634175142f64d18bcb2d77865e4bf8eda32b76ad63d6e72f8412f89",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ftgl-2.4.0-4-x86_64.pkg.tar.zst",
+    "provides": [
+      "libftgl.so=2-64"
+    ],
     "depends": [
       "freetype2",
-      "glu"
+      "glibc",
+      "glu",
+      "libgcc",
+      "libglvnd",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
@@ -54658,10 +54664,10 @@
   },
   {
     "name": "mandown",
-    "version": "1.1.0-2",
+    "version": "1.1.1-1",
     "origin": "artix-world",
-    "sha256": "260b0d5590fef83f18b66a9cae4fc16864a774a25dce1bc1464820039e3ac2d3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mandown-1.1.0-2-x86_64.pkg.tar.zst",
+    "sha256": "56c6216e9222e9e7167930e237ee92452fa6d26784dfb8bb31212131ef146755",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mandown-1.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54845,16 +54851,16 @@
   },
   {
     "name": "mariadb",
-    "version": "12.3.2-4",
+    "version": "12.3.3-2",
     "origin": "artix-world",
-    "sha256": "f08bb1060e98cc29ca3ccb05f9fad7a0777861af05c6f247d31fa390b1fd14eb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-12.3.2-4-x86_64.pkg.tar.zst",
+    "sha256": "39a8a7ebf7cc6add05b81d890bebb079fdcbaa0b96cec8883daae5404b090b23",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-12.3.3-2-x86_64.pkg.tar.zst",
     "provides": [
-      "mariadb-server=12.3.2",
+      "mariadb-server=12.3.3",
       "mysql"
     ],
     "depends": [
-      "mariadb-clients=12.3.2",
+      "mariadb-clients=12.3.3",
       "bzip2",
       "libbz2.so=1.0-64",
       "coreutils",
@@ -54882,15 +54888,15 @@
   },
   {
     "name": "mariadb-clients",
-    "version": "12.3.2-4",
+    "version": "12.3.3-2",
     "origin": "artix-world",
-    "sha256": "25792e1b6ace7dcc099a436e9b66a15be6b7af384d24e4955b5b3926a7154313",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-clients-12.3.2-4-x86_64.pkg.tar.zst",
+    "sha256": "a48adaa064e4bb2f0aabddc9117f56cd41f5d62c4921b2acfb4c18124006052a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-clients-12.3.3-2-x86_64.pkg.tar.zst",
     "provides": [
-      "mysql-clients=12.3.2"
+      "mysql-clients=12.3.3"
     ],
     "depends": [
-      "mariadb-libs=12.3.2",
+      "mariadb-libs=12.3.3",
       "ncurses",
       "libncursesw.so=6-64"
     ],
@@ -54920,10 +54926,10 @@
   },
   {
     "name": "mariadb-libs",
-    "version": "12.3.2-4",
+    "version": "12.3.3-2",
     "origin": "artix-world",
-    "sha256": "f1da8e77ee347e433f1595cc3bcd6c8cbf9c953c56278c38ad33e7561d3806e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-libs-12.3.2-4-x86_64.pkg.tar.zst",
+    "sha256": "5db66e41096818fda2c5ebb82a67a57324c673cf9c39f1035ece191524de3668",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-libs-12.3.3-2-x86_64.pkg.tar.zst",
     "provides": [
       "libmariadbclient",
       "mariadb-connector-c",
@@ -54956,10 +54962,10 @@
   },
   {
     "name": "mariadb-mytop",
-    "version": "12.3.2-4",
+    "version": "12.3.3-2",
     "origin": "artix-world",
-    "sha256": "fc4c3e9cc8958337b71474ecfb85b1564f96f910d8cbac8aa82690ed7f09a962",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-mytop-12.3.2-4-x86_64.pkg.tar.zst",
+    "sha256": "fb1e0b2be309f963ec30d0e3907e608bd41600d29e44d7532d22cb4a059b4634",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-mytop-12.3.3-2-x86_64.pkg.tar.zst",
     "provides": [
       "mytop"
     ],
@@ -54994,13 +55000,13 @@
   },
   {
     "name": "mariadb-pam",
-    "version": "12.3.2-4",
+    "version": "12.3.3-2",
     "origin": "artix-world",
-    "sha256": "d15f214669510c3d53b1b3bdf86d70006fdba42f30a950e0acb743e65521a356",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-pam-12.3.2-4-x86_64.pkg.tar.zst",
+    "sha256": "278f7d145c46425f28634c529d13a896a18f7da776fb3460171b8cb3f37a52bb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-pam-12.3.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "mariadb=12.3.2",
+      "mariadb=12.3.3",
       "pam",
       "libpam.so=0-64"
     ],
@@ -78336,14 +78342,14 @@
   },
   {
     "name": "python-curl_cffi",
-    "version": "0.16.0-2",
+    "version": "0.16.2-1",
     "origin": "artix-world",
-    "sha256": "aaf39b104756b879ba834bbf47d6c89214a0e2b6d4104e466ae0670eafab4b58",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-curl_cffi-0.16.0-2-x86_64.pkg.tar.zst",
+    "sha256": "a613f52b5a1f339ba2f0bc7fd9f83349ba99aa61dc08d03af029683b85b1d2c8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-curl_cffi-0.16.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "curl-impersonate=2.1.0",
+      "curl-impersonate=2.1.1",
       "python",
       "python-certifi",
       "python-cffi",
@@ -103726,10 +103732,10 @@
   },
   {
     "name": "rtl-sdr",
-    "version": "1:2.0.2-1",
+    "version": "1:2.0.3-1",
     "origin": "artix-world",
-    "sha256": "d9cb6393ea13d0a7abec8aa360fb194718e3dc9d9c34c2d854e2871eaba309c4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtl-sdr-1:2.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "bc7ccb83bcdff7c6faadf5c1d4b21b6bee0c123ad259eb575194a7d7fa6409d8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtl-sdr-1:2.0.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
