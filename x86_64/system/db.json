@@ -466,10 +466,10 @@
   },
   {
     "name": "ca-certificates-mozilla",
-    "version": "3.127-1",
+    "version": "3.128-1",
     "origin": "artix-system",
-    "sha256": "c9f42dea376b5d21cf241f560071532b88abe687550a57d819018701e992d20e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.127-1-x86_64.pkg.tar.zst",
+    "sha256": "444d5d1fea6e8ab6749f0f838b9c9789393f53ba00bfc7f665af7cfffeff6030",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.128-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates-utils>=20181109-3"
@@ -4629,7 +4629,7 @@
     "name": "liskaiso",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": "b2d399d7dbdf96ae16b46ead9b1d1e79e4419af6ef08bf93755072949a4d2600",
+    "sha256": "fee7d86c1b9885ee47eba7241dafd0cd82dbd881c95a53d8814d17c9407a4859",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/liskaiso-1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -4667,7 +4667,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "05cfcb0ddde725ddf5c57e4c534d0f6b2389a26ce15015b5ef537ab8b6567aaf",
+    "sha256": "495cc1b72c85b160d94c4838a77c2f8701bd60d5a4a78dfda01a667281b4edee",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -5381,10 +5381,10 @@
   },
   {
     "name": "nss",
-    "version": "3.127-1",
+    "version": "3.128-1",
     "origin": "artix-system",
-    "sha256": "d22e1e1ea9b0b203e65b55ce713128be2544f776716883825e4271461139f761",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.127-1-x86_64.pkg.tar.zst",
+    "sha256": "caece9ed13af43d8fea6777f35d6ef17a33dd7bbb5400a97ad89842472feaab8",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.128-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
