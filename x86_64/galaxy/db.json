@@ -616,10 +616,10 @@
   },
   {
     "name": "audacious-plugins",
-    "version": "4.6.1-4",
+    "version": "4.6.1-5",
     "origin": "artix-galaxy",
-    "sha256": "7377ada244c52ca1cb509eec5849f8642d224e14fe617fdbb041443aafc5db4b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/audacious-plugins-4.6.1-4-x86_64.pkg.tar.zst",
+    "sha256": "513107f81cfa5557dc8fc11f1cc3c02648b220f22b7ede104219e7afce5d99d8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/audacious-plugins-4.6.1-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -9918,15 +9918,16 @@
   },
   {
     "name": "impala",
-    "version": "0.8.1-1",
+    "version": "0.9.0-1",
     "origin": "artix-galaxy",
-    "sha256": "20d48417272c93b866f7f821ff2559e6be9c03dd880e665092da782eb9fbda59",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/impala-0.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5131a9c67a9cffcab2c4dc633f689cd427084e586ea1648393881d4a76bd4948",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/impala-0.9.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
       "glibc",
-      "iwd"
+      "iwd",
+      "libgcc_s.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -10387,10 +10388,10 @@
   },
   {
     "name": "kodi",
-    "version": "21.3-7",
+    "version": "21.3-8",
     "origin": "artix-galaxy",
-    "sha256": "4c5e26e15f52fd71e50929818e506c3d49c7b0a648105a29d79d7908f681c14d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-21.3-7-x86_64.pkg.tar.zst",
+    "sha256": "e63adaee38b8ce269c53e3133efbe57d5664d1535174fdb03257d5de4e340fa7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-21.3-8-x86_64.pkg.tar.zst",
     "provides": [
       "kodi-common",
       "kodi-x11",
@@ -10451,10 +10452,10 @@
   },
   {
     "name": "kodi-dev",
-    "version": "21.3-7",
+    "version": "21.3-8",
     "origin": "artix-galaxy",
-    "sha256": "4f9e5ebb75b7f35b396789267e05f9b4c97e064f4ad98f7f9d06a09b85d81260",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-dev-21.3-7-x86_64.pkg.tar.zst",
+    "sha256": "7e41d50fd412d6630f6c1252179b1619890211aa1bb2d6285f9c3401f0c703a5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-dev-21.3-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kodi"
@@ -10464,10 +10465,10 @@
   },
   {
     "name": "kodi-eventclients",
-    "version": "21.3-7",
+    "version": "21.3-8",
     "origin": "artix-galaxy",
-    "sha256": "4be9c8b9d0e5bc117c76912b532c2d553d2ee47eff855fbf68228e861a1b07f4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-eventclients-21.3-7-x86_64.pkg.tar.zst",
+    "sha256": "09019e039e6faca89d0a6e1896b6d118f5a351447fb36a96ab45a7dec6e5aaf8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-eventclients-21.3-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -10478,10 +10479,10 @@
   },
   {
     "name": "kodi-gles",
-    "version": "21.3-7",
+    "version": "21.3-8",
     "origin": "artix-galaxy",
-    "sha256": "7dc4e58a1a14754b301e7e3dad08e8e512568d13fdc3314da57bc08116f70a1a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-gles-21.3-7-x86_64.pkg.tar.zst",
+    "sha256": "579cf3ab14a1f36b98f33884903a8556d4a0f93108da9f6e23ce8b64c3034968",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-gles-21.3-8-x86_64.pkg.tar.zst",
     "provides": [
       "kodi-common",
       "kodi-x11",
@@ -10543,10 +10544,10 @@
   },
   {
     "name": "kodi-tools-texturepacker",
-    "version": "21.3-7",
+    "version": "21.3-8",
     "origin": "artix-galaxy",
-    "sha256": "069b8fea3d1e1e5990b9bb8eebe71de52a304e62f3ea8eb94fdda84c576cb11f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-tools-texturepacker-21.3-7-x86_64.pkg.tar.zst",
+    "sha256": "6b507f19275e2d02436cf48a94774688bce0b9a9f5e2e8e08c7c88214d30fd80",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-tools-texturepacker-21.3-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libpng",
@@ -18767,10 +18768,10 @@
   },
   {
     "name": "mixxx",
-    "version": "2.5.6-5",
+    "version": "2.5.6-6",
     "origin": "artix-galaxy",
-    "sha256": "8a37be06494fe76578b6d2f3a5266049ac0c722a2b409aa0dab96daaea1fd8ba",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mixxx-2.5.6-5-x86_64.pkg.tar.zst",
+    "sha256": "abc976214172253fc5deb0bf3391239a13e43e654711ccd8b61904d0fb5a5fbd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mixxx-2.5.6-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -18828,7 +18829,7 @@
       "portmidi",
       "libportmidi.so=2-64",
       "protobuf",
-      "libprotobuf-lite.so=35.1.0-64",
+      "libprotobuf-lite.so=36.0.0-64",
       "rubberband",
       "librubberband.so=3-64",
       "zlib",
@@ -20080,10 +20081,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.15-1",
+    "version": "0.24.15-2",
     "origin": "artix-galaxy",
-    "sha256": "61d205f904dcf7ec06261b04a84b48db9c1078ac6c60ee9f8d5b67ddca8ce597",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.15-1-x86_64.pkg.tar.zst",
+    "sha256": "de991f166412d92f0498cfb715e3a9a3871ac8cc43dd3da174824a112de5873d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.15-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23380,10 +23381,10 @@
   },
   {
     "name": "qgis",
-    "version": "4.2.1-2",
+    "version": "4.2.1-3",
     "origin": "artix-galaxy",
-    "sha256": "70cde91dce70250dfb6ae33d846075002e728ebff78bf784f75d421543de3537",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qgis-4.2.1-2-x86_64.pkg.tar.zst",
+    "sha256": "ac55cf77d26cd8903d1305f77cbbfeab3d98e1dcb4616e93a5c22e8321aad3dd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qgis-4.2.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -23503,10 +23504,10 @@
   },
   {
     "name": "qmmp",
-    "version": "2.3.2-1",
+    "version": "2.4.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1fa0c59331fe9800c34572471093d2eab558b672006a9ff59c20c58bc2ccfb2f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qmmp-2.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "57ff20a04b3afa44284ec26d42dbdae6319189be8e1684474ccb4deb932b5f79",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qmmp-2.4.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -24784,6 +24785,38 @@
     "conflicts": []
   },
   {
+    "name": "s6-bash-completion",
+    "version": "20260827-1",
+    "origin": "artix-galaxy",
+    "sha256": "682e84b7b4d40411529481dd04f53c05c6541ab488839029fae432f87be57883",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-bash-completion-20260827-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "s6",
+      "s6-frontend",
+      "s6-rc",
+      "bash"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "s6-fish-completion",
+    "version": "20260731-2",
+    "origin": "artix-galaxy",
+    "sha256": "23424b0c443b540fd8f7b8ea4099e26f4f70dae5e3ad42af1f93c81dff744cfa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-fish-completion-20260731-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "s6",
+      "s6-frontend",
+      "s6-rc",
+      "fish"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "s6-frontend-man-pages",
     "version": "0.0.1.2.1-1",
     "origin": "artix-galaxy",
@@ -24846,6 +24879,22 @@
     "optdepends": [
       "s6-rc: package documented by these man pages"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "s6-zsh-completion",
+    "version": "20260827-1",
+    "origin": "artix-galaxy",
+    "sha256": "7047f476999c88a6717f023f625cd532d1b1efaf0592adb8bca2e423618275d5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-zsh-completion-20260827-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "s6",
+      "s6-frontend",
+      "s6-rc",
+      "zsh"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -25298,10 +25347,10 @@
   },
   {
     "name": "signal-desktop",
-    "version": "8.24.1-1",
+    "version": "8.25.0-1",
     "origin": "artix-galaxy",
-    "sha256": "0de1a3d71808db3fb7af789c1440ae396a5639a2d18a35ae528ed324dd7fc35c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/signal-desktop-8.24.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c57524bf245cedcec515cc745aa008f2577976c66789d50494c327734d3f1f32",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/signal-desktop-8.25.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -31335,10 +31384,10 @@
   },
   {
     "name": "zed",
-    "version": "1.16.3-1",
+    "version": "1.17.2-1",
     "origin": "artix-galaxy",
-    "sha256": "b25b6a1fbf068c1ad728fade3b5cc169e317c388a65d7a7ffc4a2b66d46fd408",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zed-1.16.3-1-x86_64.pkg.tar.zst",
+    "sha256": "04b34043b9059bdec5300a84b774660f7952a4953ca43b30476e5b24fe8c57c3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zed-1.17.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
