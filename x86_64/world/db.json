@@ -1428,10 +1428,10 @@
   },
   {
     "name": "android-tools",
-    "version": "37.0.0-3",
+    "version": "37.0.0-4",
     "origin": "artix-world",
-    "sha256": "1ac7820508b19aa42dea18c8ce8e67f9fe59ac1b22ea09f10e80416cfeedbb76",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/android-tools-37.0.0-3-x86_64.pkg.tar.zst",
+    "sha256": "0d5f7a34782c1db5ae046a3dd1d2103f15c2ab26c6a81fe3ef17d3e6f2a53536",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/android-tools-37.0.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -26842,10 +26842,10 @@
   },
   {
     "name": "harfbuzz",
-    "version": "14.3.1-1",
+    "version": "14.4.0-1",
     "origin": "artix-world",
-    "sha256": "301bc8c061a9209915a5209b9a87bb5a921e25be701e2deb1a2241e1b2253fc7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2929b31a3cb941496fb79a46321c8067a87b3bb1dad3f95038f309bdb3f8c938",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-14.4.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz.so=0-64",
       "libharfbuzz-subset.so=0-64",
@@ -26874,10 +26874,10 @@
   },
   {
     "name": "harfbuzz-cairo",
-    "version": "14.3.1-1",
+    "version": "14.4.0-1",
     "origin": "artix-world",
-    "sha256": "209b4cba8a719c25a98e8396ddbb788ee684e564987b4f3d4dd53a0b86fecbd5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b2d5facd8a992df7ec69bbdd5a5615779ce3925ac6f96d47285b163999b62cb5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-14.4.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-cairo.so=0-64"
     ],
@@ -26896,10 +26896,10 @@
   },
   {
     "name": "harfbuzz-icu",
-    "version": "14.3.1-1",
+    "version": "14.4.0-1",
     "origin": "artix-world",
-    "sha256": "887702dda8df0a682ce806e425220213efdf0e7f2d70480172d18b83c6c82f17",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b7e2a322de2434f68e04aba6a7316ad08ba51e64f93a3579da67097beaef4859",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-14.4.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-icu.so=0-64"
     ],
@@ -26915,10 +26915,10 @@
   },
   {
     "name": "harfbuzz-utils",
-    "version": "14.3.1-1",
+    "version": "14.4.0-1",
     "origin": "artix-world",
-    "sha256": "82afe0cfea09581b64769b21f17d4e1db42db71e0f00163f4a4051b80d6ee91d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-14.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3e0ff69d0c4323f2bf3c39d519e0bca5118dbb7003c2a649acb7a43d828dcded",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-14.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -36412,10 +36412,10 @@
   },
   {
     "name": "kicad",
-    "version": "10.0.5-3",
+    "version": "10.0.6-1",
     "origin": "artix-world",
-    "sha256": "53d43f0fd293cdafe3f69ff92b875e905cefd61ff56036fc81b2ea0a05126cfc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.5-3-x86_64.pkg.tar.zst",
+    "sha256": "8178f913fdc15f0db4ca7b704daf046e7a9b72a65a9ad91de3fbbb6f2bd9861d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -36461,10 +36461,10 @@
   },
   {
     "name": "kicad-demos",
-    "version": "10.0.5-3",
+    "version": "10.0.6-1",
     "origin": "artix-world",
-    "sha256": "2deabc790bcb7a7a97d79bbad7bc89bbb3ba3181b18706ddb1858f0f11119959",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.5-3-x86_64.pkg.tar.zst",
+    "sha256": "79723b5351c2a02b589846483aa1c6c4b85fb7e4eda90efb6dad83ecf8f0669a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kicad",
@@ -36475,10 +36475,10 @@
   },
   {
     "name": "kicad-library",
-    "version": "10.0.5-1",
+    "version": "10.0.6-1",
     "origin": "artix-world",
-    "sha256": "7e7f13c63f231d6419bb86e3f206bd924fb373b533bc3c694cb0b63060ef2f6d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-10.0.5-1-any.pkg.tar.zst",
+    "sha256": "922a74fc74fde5ba5cecac20fe5a0f139a906400a6b49f8a8b5a202bfc4c2c2f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-10.0.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -36486,10 +36486,10 @@
   },
   {
     "name": "kicad-library-3d",
-    "version": "10.0.5-1",
+    "version": "10.0.6-1",
     "origin": "artix-world",
-    "sha256": "b786d2233325356568001ab735d32b47d1353b6d20e8a1560b09c8ba1d36249b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-3d-10.0.5-1-any.pkg.tar.zst",
+    "sha256": "87cc9c407d644ce6033cd00cb85eeb36458c02bf3f3d8978773595937380db67",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-3d-10.0.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -43960,10 +43960,10 @@
   },
   {
     "name": "libetonyek",
-    "version": "0.1.13-2",
+    "version": "0.1.13-3",
     "origin": "artix-world",
-    "sha256": "5338ab27432e8480dbc7d6d0200c7a281167d47c2af37f5178449adba2ad856b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libetonyek-0.1.13-2-x86_64.pkg.tar.zst",
+    "sha256": "0d1c0a1149c6ba0bc19edcc8fcbd468e76961c6735074730d576fad6b5648dac",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libetonyek-0.1.13-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxml2",
@@ -45678,10 +45678,10 @@
   },
   {
     "name": "libixion",
-    "version": "0.20.0-8",
+    "version": "0.20.0-9",
     "origin": "artix-world",
-    "sha256": "361141a8ce8e76f6d71401014831f35137eae4aca54e80c44fe85417b15330b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libixion-0.20.0-8-x86_64.pkg.tar.zst",
+    "sha256": "60b33032f38f45603afc9902376c5ccea35d603f0c15a1c88ffa2bbd3e9299aa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libixion-0.20.0-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -47666,10 +47666,10 @@
   },
   {
     "name": "liborcus",
-    "version": "0.21.0-7",
+    "version": "0.21.0-8",
     "origin": "artix-world",
-    "sha256": "3d46f46e4d3ce405f6d55f99eb7107d239b6d403bc785ee05541c43ff9748623",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/liborcus-0.21.0-7-x86_64.pkg.tar.zst",
+    "sha256": "82d8b53d3739973d3cb13bb12d8361b6e887fd78996536cb79de43abd1242d3f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/liborcus-0.21.0-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libixion",
@@ -55674,10 +55674,10 @@
   },
   {
     "name": "mdds",
-    "version": "3.1.0-1",
+    "version": "3.2.1-1",
     "origin": "artix-world",
-    "sha256": "ffd8b6b37b629a866001f633bdce0b0e6db30f0b1bd8ad4e36164d1e2df6a568",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mdds-3.1.0-1-any.pkg.tar.zst",
+    "sha256": "27eb1b94384c322905f7c955196eb7d0df3719e361d9c7aa333070154392e297",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mdds-3.2.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -100537,10 +100537,10 @@
   },
   {
     "name": "qt6-base",
-    "version": "6.11.2-2",
+    "version": "6.11.2-3",
     "origin": "artix-world",
-    "sha256": "583277bf30863babdfcf2e2e4a0077f4cd4d53af71f1dc3dbcf2e7a3299c2869",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "57904693794838fb2987d82f6fb580048b10a11ca69db83c814bf3283865fd23",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.11.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -101324,10 +101324,10 @@
   },
   {
     "name": "qt6-xcb-private-headers",
-    "version": "6.11.2-1",
+    "version": "6.11.2-3",
     "origin": "artix-world",
-    "sha256": "74b3b41706aa14db188894f1e9e87e765748a1def5279c40393b8977b47f8959",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "572a6d115f834b656c43e62131c0a0edd67a834116eb6c1fb19d127ce7166df4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.11.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base=6.11.2"
@@ -108971,10 +108971,10 @@
   },
   {
     "name": "run-parts",
-    "version": "5.23.2-1",
+    "version": "5.24-1",
     "origin": "artix-world",
-    "sha256": "3b3f358bc1cbe1f30b8903c1288824b6b9d834bce662780783f48ac4650bf6ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/run-parts-5.23.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0f27797f10b59bb3fbf55238e106b95fac8fe264137e0b6d63144abe86808080",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/run-parts-5.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -132751,10 +132751,10 @@
   },
   {
     "name": "xonsh",
-    "version": "0.24.1-1",
+    "version": "0.24.2-1",
     "origin": "artix-world",
-    "sha256": "589da68388f30ee30225e6b2230362b43bdb128aa1703473bfff2525ec54a86e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xonsh-0.24.1-1-any.pkg.tar.zst",
+    "sha256": "672acf42aa1785e1ac4552ac3070b5faf2515d7b6c7ba1ffc3ba54e64ff6db83",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xonsh-0.24.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
