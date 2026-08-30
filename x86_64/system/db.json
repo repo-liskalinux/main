@@ -312,10 +312,10 @@
   },
   {
     "name": "binutils",
-    "version": "2.47-2",
+    "version": "2.47-4",
     "origin": "artix-system",
-    "sha256": "70accaf68086680f303116341d5b7f1ebdcd84488e8356e311f0245fe36d681c",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/binutils-2.47-2-x86_64.pkg.tar.zst",
+    "sha256": "355cf6162a6fb3ef92aea7962971be3c506347ba25f9743ee3931c60d045a21e",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/binutils-2.47-4-x86_64.pkg.tar.zst",
     "provides": [
       "libctf.so=0-64",
       "libgprofng.so=0-64",
@@ -3065,10 +3065,10 @@
   },
   {
     "name": "libaio",
-    "version": "0.3.113-4",
+    "version": "0.3.113-5",
     "origin": "artix-system",
-    "sha256": "dbf46c249485a520bafc2683cced83126b6774a6b78baf0e1d857deb8e72b362",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libaio-0.3.113-4-x86_64.pkg.tar.zst",
+    "sha256": "ef690b8514c82927450ca5098b35ea463b8ccbad5afa553e47169ade9bda8b65",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libaio-0.3.113-5-x86_64.pkg.tar.zst",
     "provides": [
       "libaio.so=1-64"
     ],
@@ -3194,10 +3194,10 @@
   },
   {
     "name": "libcap-ng",
-    "version": "0.9.3-1",
+    "version": "0.9.5-1",
     "origin": "artix-system",
-    "sha256": "10a745ceaa133b8cd6b0101f36f1b5c9225f3db88d6245869374ec2151920489",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libcap-ng-0.9.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d4c6713741b090116d593e864267c36623bad1560676bdae1bde883e6aa9646d",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libcap-ng-0.9.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libcap-ng.so=0-64",
       "libdrop_ambient.so=0-64"
@@ -3454,10 +3454,10 @@
   },
   {
     "name": "libgcrypt",
-    "version": "1.12.2-1",
+    "version": "1.12.3-1",
     "origin": "artix-system",
-    "sha256": "982366973c22219bc4a1b760bf699f025dd7ed39008bda4ce5a6a4bddcb62c8b",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libgcrypt-1.12.2-1-x86_64.pkg.tar.zst",
+    "sha256": "aa0b82c2ee1c23f32088d348f04fb5e1de8244afaea9344e5d5f1d0d92d9516a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libgcrypt-1.12.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgpg-error",
@@ -3653,10 +3653,10 @@
   },
   {
     "name": "libksba",
-    "version": "1.8.0-1",
+    "version": "1.8.1-1",
     "origin": "artix-system",
-    "sha256": "328a2fae5ad3e05cbbaf41441b1bb9f25c67bc97180d6b7a8833d93ba2ac39ad",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libksba-1.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "eb152f0d5d5046d42ab4272786c57d7bea1f7ec874999768902b59023c728b9c",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libksba-1.8.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -4958,10 +4958,10 @@
   },
   {
     "name": "man-pages",
-    "version": "6.18-1",
+    "version": "6.19-1",
     "origin": "artix-system",
-    "sha256": "7067aabdfcb1f17b14adb219ad117557e7cdd37acc08a3a288ad3db89b210763",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/man-pages-6.18-1-any.pkg.tar.zst",
+    "sha256": "721df1a9803ce8d81be0b89d2ca0843d4a47812a3fedadcd7ceac2bf98eed46e",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/man-pages-6.19-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -4969,10 +4969,10 @@
   },
   {
     "name": "man-pages-utils",
-    "version": "6.18-1",
+    "version": "6.19-1",
     "origin": "artix-system",
-    "sha256": "4e833b039eefe9dac644e511aa1798b0edbb3d21d25c692dcc70dc613e1f4951",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/man-pages-utils-6.18-1-any.pkg.tar.zst",
+    "sha256": "69f9767abb78bba33b0fc625e8f027deed9a9aea8c81c3ad469670184290b23f",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/man-pages-utils-6.19-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh"
@@ -5765,10 +5765,10 @@
   },
   {
     "name": "pcre",
-    "version": "8.45-4",
+    "version": "8.45-5",
     "origin": "artix-system",
-    "sha256": "bd5ff61a8a0f4789e7c23564e6353de0e472b3fd1228d53c0b3f73ce28763af2",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pcre-8.45-4-x86_64.pkg.tar.zst",
+    "sha256": "fd39a62233afbb7268d9895f0b122beff1fc09fc2959db237b8d3ee60e33d94a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pcre-8.45-5-x86_64.pkg.tar.zst",
     "provides": [
       "libpcre.so=1-64",
       "libpcre16.so=0-64",
@@ -5778,7 +5778,8 @@
     ],
     "depends": [
       "glibc",
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "readline",
       "zlib",
       "bzip2",
@@ -5970,10 +5971,10 @@
   },
   {
     "name": "pkgconf",
-    "version": "3.0.5-1",
+    "version": "3.0.6-1",
     "origin": "artix-system",
-    "sha256": "15af9efc469d9e0037cccb9ce18b5ae975c6655e1370475190084ea7ea1c3d23",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pkgconf-3.0.5-1-x86_64.pkg.tar.zst",
+    "sha256": "3ddb3cfddb4662bdea3844997a9dfa5e0498d7b3d828bd40da690bce4e408032",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pkgconf-3.0.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpkgconf.so=8-64",
       "pkg-config",
@@ -6132,10 +6133,10 @@
   },
   {
     "name": "python-capng",
-    "version": "0.9.3-1",
+    "version": "0.9.5-1",
     "origin": "artix-system",
-    "sha256": "6094d177a68cb4b0ba734995e8794d8b771446360eaed2ea04b314e816b907e6",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-capng-0.9.3-1-x86_64.pkg.tar.zst",
+    "sha256": "af36173c4f2875cf5fbac566dc53436ca77f92512d2585896b9bbb5b9daf5788",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-capng-0.9.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "python-libcap-ng"
     ],
@@ -6632,14 +6633,28 @@
   },
   {
     "name": "tar",
-    "version": "1.35-2",
+    "version": "1.35-5",
     "origin": "artix-system",
-    "sha256": "27c255af12d294301ac48bc512e204eaef298f1e2c8597491ea170d46d67545a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tar-1.35-2-x86_64.pkg.tar.zst",
+    "sha256": "91ca219db84bb0343e0fd276414db3aaceaff6733a072134873b39ee6e320089",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tar-1.35-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "acl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "tar-scripts",
+    "version": "1.35-5",
+    "origin": "artix-system",
+    "sha256": "d789ce2aff1327491ea4b00840605682cdafeb9f07400d1842e931fd80cfe77e",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tar-scripts-1.35-5-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "sh",
+      "tar"
     ],
     "optdepends": [],
     "conflicts": []
@@ -6680,22 +6695,25 @@
   },
   {
     "name": "tpm2-tss",
-    "version": "4.1.3-1",
+    "version": "4.2.0-2",
     "origin": "artix-system",
-    "sha256": "3e98513230f46f26646a2f632433639f594d84398c55316049049efde361b1ce",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.1.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ee5f6072042cba6031124f1493047808187b8d876de1a113ba193a5335b4caef",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libtss2-esys.so=0-64",
       "libtss2-fapi.so=1-64",
       "libtss2-mu.so=0-64",
       "libtss2-rc.so=0-64",
       "libtss2-sys.so=1-64",
+      "libtss2-tcti-null.so=0-64",
       "libtss2-tctildr.so=0-64"
     ],
     "depends": [
       "curl",
+      "glibc",
       "json-c",
       "openssl",
+      "util-linux-libs",
       "libjson-c.so=5-64"
     ],
     "optdepends": [],
