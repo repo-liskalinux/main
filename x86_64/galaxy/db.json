@@ -25520,6 +25520,19 @@
     ]
   },
   {
+    "name": "shfmt",
+    "version": "3.13.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "9784a503f2a7326a66c488fe9b0fdb52c866e2fa450de8d312b1dd509c2b26e9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/shfmt-3.13.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "shortwave",
     "version": "5.1.0-2",
     "origin": "artix-galaxy",
