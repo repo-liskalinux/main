@@ -11070,10 +11070,10 @@
   },
   {
     "name": "deno",
-    "version": "2.9.5-1",
+    "version": "2.9.6-1",
     "origin": "artix-world",
-    "sha256": "137453d5cff0cd098d3a1907dde44a7323a69972e60aca2d54d209468539ff31",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/deno-2.9.5-1-x86_64.pkg.tar.zst",
+    "sha256": "d5a15efed9d94e22bdaff1c6bb050aa976216cadd0de9d5e8de0c7eb36175b61",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/deno-2.9.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -11669,12 +11669,12 @@
   },
   {
     "name": "dmd",
-    "version": "1:2.112.1-2",
+    "version": "1:2.113.0-2",
     "origin": "artix-world",
-    "sha256": "f6bc682b2b176a8eef9190f59fb50f0219674a234cabdf23633f785a01e62ca8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dmd-1:2.112.1-2-x86_64.pkg.tar.zst",
+    "sha256": "b7f81760b2f62026387cb84f2b1ced97586a43d25d3065a14026ce04a3c82552",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dmd-1:2.113.0-2-x86_64.pkg.tar.zst",
     "provides": [
-      "d-compiler=2.112.1"
+      "d-compiler=2.113.0"
     ],
     "depends": [
       "gcc",
@@ -47958,14 +47958,14 @@
   },
   {
     "name": "libphobos",
-    "version": "1:2.112.1-2",
+    "version": "1:2.113.0-2",
     "origin": "artix-world",
-    "sha256": "11ed79dc114273f8dcb62575cc231c15dfbc209db3f40cd480be5e9ed8dc7f29",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libphobos-1:2.112.1-2-x86_64.pkg.tar.zst",
+    "sha256": "5c511733c9aae58c06013cdf14eadb085141aedae4ae4f2b42ed5fed4928023f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libphobos-1:2.113.0-2-x86_64.pkg.tar.zst",
     "provides": [
-      "d-runtime=2.112.1",
-      "d-stdlib=2.112.1",
-      "libphobos-devel=2.112.1"
+      "d-runtime=2.113.0",
+      "d-stdlib=2.113.0",
+      "libphobos-devel=2.113.0"
     ],
     "depends": [],
     "optdepends": [],
@@ -50486,10 +50486,10 @@
   },
   {
     "name": "libwireplumber",
-    "version": "0.5.15-1.5",
+    "version": "0.5.16-1",
     "origin": "artix-world",
-    "sha256": "331371ebe29e9323e42f0a4ef226909cf79c7c365b52fcc75ba484f5d3c70264",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.15-1.5-x86_64.pkg.tar.zst",
+    "sha256": "737603397376d32a2259ad5524c0b6aa8f5936a4b33479046c261ea9eba52b6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.16-1-x86_64.pkg.tar.zst",
     "provides": [
       "libwireplumber-0.5.so=0-64"
     ],
@@ -56835,10 +56835,10 @@
   },
   {
     "name": "mkdocs-material",
-    "version": "9.7.6-1",
+    "version": "9.7.7-1",
     "origin": "artix-world",
-    "sha256": "1800b303d8a11ba378939b87b6bdb3f2e197e3647096a822af9abbf74a0a3b98",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-material-9.7.6-1-any.pkg.tar.zst",
+    "sha256": "1b68f13de1013facce64a118216d4a9e64a8b23d6488ba6ceb8c99266dc95fa4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-material-9.7.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mkdocs",
@@ -130688,15 +130688,15 @@
   },
   {
     "name": "wireplumber",
-    "version": "0.5.15-1.5",
+    "version": "0.5.16-1",
     "origin": "artix-world",
-    "sha256": "2e2e0add60789b1e1e4ee709770bf25491a5fa675090225f0f37afdc255364ef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.15-1.5-x86_64.pkg.tar.zst",
+    "sha256": "7908e9ce7b0b9c894ce84dd227c338041ce4703c67332f76fefd7a2355d85818",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.16-1-x86_64.pkg.tar.zst",
     "provides": [
       "pipewire-session-manager"
     ],
     "depends": [
-      "libwireplumber=0.5.15-1.5",
+      "libwireplumber=0.5.16-1",
       "glibc",
       "libgcc",
       "libglib-2.0.so=0-64",

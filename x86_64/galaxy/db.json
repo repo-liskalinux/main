@@ -9749,10 +9749,10 @@
   },
   {
     "name": "helium-browser",
-    "version": "0.15.6.1-2",
+    "version": "0.16.2.1-1",
     "origin": "artix-galaxy",
-    "sha256": "814e0020759e4d8a225f993f2281b7b5093df4e8a2f3e5c9da3e1ec4147b34ba",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.15.6.1-2-x86_64.pkg.tar.zst",
+    "sha256": "88812c98ddffcdc444f306cf0d6047e413ab5baa335f7e232eaed65930502760",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.16.2.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "chromium"
     ],
@@ -9772,11 +9772,7 @@
       "libva",
       "libffi",
       "desktop-file-utils",
-      "hicolor-icon-theme",
-      "libgcc",
-      "glib2",
-      "glibc",
-      "nspr"
+      "hicolor-icon-theme"
     ],
     "optdepends": [
       "pipewire: WebRTC desktop sharing under Wayland",
