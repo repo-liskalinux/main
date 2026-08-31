@@ -9791,10 +9791,10 @@
   },
   {
     "name": "helvum",
-    "version": "0.6.2-1",
+    "version": "0.6.2-2",
     "origin": "artix-galaxy",
-    "sha256": "cc2bce5cf35fefaaf44b0064aafa940da45daaf5f2def4177ff120a8f2470892",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helvum-0.6.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0673ea7e29765160ec0cd4dd67b834b473bf586dd2a3ebe6a4fa89e4b54d4b5d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helvum-0.6.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -24384,10 +24384,10 @@
   },
   {
     "name": "rapydscript-ng",
-    "version": "0.7.23-1",
+    "version": "0.8.6-1",
     "origin": "artix-galaxy",
-    "sha256": "25f5c4b1f2fa8dd3db87c7ea5220dc944a32eddb59520c0f95df5b6cefba79e8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rapydscript-ng-0.7.23-1-any.pkg.tar.zst",
+    "sha256": "f6ec21e4f6354aeb7ec89cee7759a68fa55278407688c95883b0cf3d2c4d23b5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rapydscript-ng-0.8.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs"
@@ -24557,13 +24557,19 @@
   },
   {
     "name": "refine",
-    "version": "0.6.0-1",
+    "version": "0.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "481f68197415d58432be63d06a4db4fdd20655dd5f5acf91d53c5baea14785aa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/refine-0.6.0-1-any.pkg.tar.zst",
+    "sha256": "6871a8d358a60010e89823a4ac9b8e9d05aa828f255257f364d881d5415c7281",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/refine-0.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "dconf",
+      "glib2",
+      "gtk4",
+      "hicolor-icon-theme",
       "libadwaita",
+      "libportal",
+      "pango",
       "python",
       "python-gobject"
     ],
@@ -31098,18 +31104,18 @@
   },
   {
     "name": "zellij",
-    "version": "0.44.3-1",
+    "version": "0.45.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b9b86fdb343b053bb2c3673ff811fe221f6e6dc7da4f1c834f30e1a280e1ed9b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zellij-0.44.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d5825785fa27b999fedde70ed24ddd21c3cdda68f7d5e0f892fd41a8487c0997",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zellij-0.45.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
-      "libcurl.so",
       "glibc",
       "libgcc",
-      "libgcc_s.so=1-64",
       "zlib",
+      "libcurl.so",
+      "libgcc_s.so=1-64",
       "libz.so=1-64"
     ],
     "optdepends": [],
