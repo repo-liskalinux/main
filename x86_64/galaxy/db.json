@@ -26024,6 +26024,34 @@
     "conflicts": []
   },
   {
+    "name": "stress-ng",
+    "version": "0.22.00-1",
+    "origin": "artix-galaxy",
+    "sha256": "ec5bcbc6b1dbe2c35aeac52a9795178c50f41c34f1df2bd9fcd06d1cdd8eabcb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/stress-ng-0.22.00-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "acl",
+      "apparmor",
+      "gmp",
+      "judy",
+      "kmod",
+      "libbsd",
+      "libjpeg-turbo",
+      "lksctp-tools",
+      "mpfr",
+      "xxhash"
+    ],
+    "optdepends": [
+      "intel-ipsec-mb: support for IPsec tests",
+      "linux-headers: include some headers from the Arch kernel",
+      "linux-lts-headers: include some headers from the LTS kernel",
+      "linux-zen-headers: include some headers from the ZEN kernel",
+      "linux-hardened-headers: include some headers from the HARDENED kernel"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "subtitleeditor",
     "version": "0.54.0-5",
     "origin": "artix-galaxy",

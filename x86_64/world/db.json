@@ -5420,10 +5420,10 @@
   },
   {
     "name": "blosc2",
-    "version": "3.3.2-1",
+    "version": "3.3.3-1",
     "origin": "artix-world",
-    "sha256": "4179b6f51cbd27a2416e5b2867d123b6c4c3fb79e8adf21d6ee444c42c7646d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blosc2-3.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "b4930abb08e2eab06292a1a2aead0af5be368f498fa75f00269b7d184eae4d96",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blosc2-3.3.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libblosc2.so=9-64"
     ],
@@ -14054,10 +14054,10 @@
   },
   {
     "name": "enchant",
-    "version": "2.8.16-1",
+    "version": "2.8.17-1",
     "origin": "artix-world",
-    "sha256": "15568d3613a550a369037128d23ac72458fa8bd86d6e3cb3fb86ad7367c0b5a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/enchant-2.8.16-1-x86_64.pkg.tar.zst",
+    "sha256": "d14d08d3b853e90fcd869617ab32633dd9578d4ed53ece3296f77f973def6813",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/enchant-2.8.17-1-x86_64.pkg.tar.zst",
     "provides": [
       "libenchant-2.so=2-64"
     ],
@@ -52512,12 +52512,12 @@
   },
   {
     "name": "localsearch",
-    "version": "3.11.1-2.1",
+    "version": "3.11.2-1",
     "origin": "artix-world",
-    "sha256": "3e1e9ec659ba6ef6155f2c1a43318ca49029911e531bff01cf48ff99371b0eb3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-3.11.1-2.1-x86_64.pkg.tar.zst",
+    "sha256": "d10bf276d0d8f4720f2e546a5baeb783c141403193e8b6cd7c5403b9b7163a7b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-3.11.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "tracker3-miners=3.11.1"
+      "tracker3-miners=3.11.2"
     ],
     "depends": [
       "dconf",
@@ -52559,10 +52559,10 @@
   },
   {
     "name": "localsearch-testutils",
-    "version": "3.11.1-2.1",
+    "version": "3.11.2-1",
     "origin": "artix-world",
-    "sha256": "84086c00e2146dce13a0f2443f8122c873fb3ba4271c1c4cd7a97119d552ed3c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-testutils-3.11.1-2.1-x86_64.pkg.tar.zst",
+    "sha256": "7ebdcefd4e0147e29e29e36a9d078cda1be41920d4f56699445b58c8819a43a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-testutils-3.11.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -95885,24 +95885,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.7-1",
+    "version": "0.12.8-1",
     "origin": "artix-world",
-    "sha256": "28d3d966b3f132e79526d6351625a1d89df086ba822e74cecc42c388e696300d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.7-1-x86_64.pkg.tar.zst",
+    "sha256": "92beeafb0190a711448603a7bed7cc7ffbf9d8c5f2fb4eb032d5d2951fe9134f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.7"
+      "uv=0.12.8"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.7-1",
+    "version": "0.12.8-1",
     "origin": "artix-world",
-    "sha256": "e898f2a3d2846c44d43b28222a8cd620ec68a1dada90721db34ac5d57111ba3e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.7-1-x86_64.pkg.tar.zst",
+    "sha256": "7604ad92b74fedc3c1b070a4aace3f086f339ac15063057cf1f1c45cfef3b78b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -125723,10 +125723,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.7-1",
+    "version": "0.12.8-1",
     "origin": "artix-world",
-    "sha256": "b21ee3f05076c8baec9c0dfafbd2645b34c5e645bbd1825448072588f53dab0c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.7-1-x86_64.pkg.tar.zst",
+    "sha256": "894c87ed5e6014f4e27dfb1dc6add1a92769c41dbc6ebee62c218805610218a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126242,10 +126242,10 @@
   },
   {
     "name": "vault",
-    "version": "2.0.4-1",
+    "version": "2.1.0-1",
     "origin": "artix-world",
-    "sha256": "009f3f9c3704c3f02a22c8e43b6209f3951ce10d46a6d062958354966f97d8e0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vault-2.0.4-1-x86_64.pkg.tar.zst",
+    "sha256": "89330e36bd269745b1388753b8b23f712ad83420477ad0a30388695616c00a12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vault-2.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "esysusers",
