@@ -474,10 +474,10 @@
   },
   {
     "name": "ada",
-    "version": "3.4.4-1.1",
+    "version": "4.0.0-1",
     "origin": "artix-world",
-    "sha256": "26218636fd2dd22b1be4c077963c1121735936589aa54b5ea5bcf372d05e380d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ada-3.4.4-1.1-x86_64.pkg.tar.zst",
+    "sha256": "d3fc8806ce3e73cbfdbb61a432dcce6d0e76fe00621a872644cc58c24969a4b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ada-4.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -8398,10 +8398,10 @@
   },
   {
     "name": "cmake",
-    "version": "4.4.2-1",
+    "version": "4.4.3-1",
     "origin": "artix-world",
-    "sha256": "3c430fefedf7e863b6f2302189698e59d64b103e19b737cea2a1ea0b2373305d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cmake-4.4.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6dfdedb7c9d54839e9dc04308e38738bea55ab0976fa2c03849e2882d32680e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cmake-4.4.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cppdap",
@@ -12297,10 +12297,10 @@
   },
   {
     "name": "dolphin",
-    "version": "26.08.0-4",
+    "version": "26.08.0-5",
     "origin": "artix-world",
-    "sha256": "80e17964f47cc2616df120aac5f6648c0ee17ecee8be4e7f70a3e834d7fc8ead",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dolphin-26.08.0-4-x86_64.pkg.tar.zst",
+    "sha256": "0bd41908ccf3d80bcfa6dcfee1eb56227b92338359edf52542125f7614093fe3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dolphin-26.08.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "baloo",
@@ -18412,10 +18412,10 @@
   },
   {
     "name": "gamescope",
-    "version": "3.16.25-1",
+    "version": "3.16.28-1",
     "origin": "artix-world",
-    "sha256": "77696000df63bd00288b291a8f3e870e3b822cfd06da43eb82851120d7b39980",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gamescope-3.16.25-1-x86_64.pkg.tar.zst",
+    "sha256": "ae2816e70bbde9ead6641bfd96c502cc0b68dc02586fd82f2c5767ffec9b75f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gamescope-3.16.28-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -59783,10 +59783,10 @@
   },
   {
     "name": "nodejs",
-    "version": "26.8.1-1",
+    "version": "26.8.1-2",
     "origin": "artix-world",
-    "sha256": "f9557e71f97e9c08829ba619e57e59fc344af50d93fd77a799e9cb91f4801715",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "cf5c5fe93da80e2858f3542acab6626ac25c5694481fe42a1b1aea029c1308fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.8.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ada",
@@ -59861,10 +59861,10 @@
   },
   {
     "name": "nodejs-lts-krypton",
-    "version": "24.20.0-1",
+    "version": "24.20.0-2",
     "origin": "artix-world",
-    "sha256": "d5355456e8c83e1840568a4a410f46a12abe8a0167d15b166a4387b2035b923f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-krypton-24.20.0-1-x86_64.pkg.tar.zst",
+    "sha256": "780eb469f6687432f3f88249717f8b64da5dae58addafbc218e3f6b8ff29cabe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-krypton-24.20.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "nodejs=24.20.0",
       "nodejs-lts"
@@ -84857,13 +84857,14 @@
   },
   {
     "name": "python-ml-dtypes",
-    "version": "0.5.4-2",
+    "version": "0.6.0-1",
     "origin": "artix-world",
-    "sha256": "63e5a7afb2fa425ac23021cdb3419b49fb9ee114fb3260939891b58ede8a037b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ml-dtypes-0.5.4-2-x86_64.pkg.tar.zst",
+    "sha256": "896cc0a56d5bbf57c3a92378865af9608addab6d07cdeb28cbc7426f9544bb6a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ml-dtypes-0.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "glibc",
       "python-numpy"
     ],
