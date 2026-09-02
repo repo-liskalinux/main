@@ -1137,10 +1137,10 @@
   },
   {
     "name": "blender",
-    "version": "17:5.2.0-4",
+    "version": "17:5.2.1-2",
     "origin": "artix-galaxy",
-    "sha256": "1a3b8f845a71c025d47c15090e9c490724c89d049dd4a33716796a3d33eb5117",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/blender-17:5.2.0-4-x86_64.pkg.tar.zst",
+    "sha256": "bcfcc6c141f4d90f85113af56041afee3b7b13dea81d1e6f14148b86b74d0ae7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/blender-17:5.2.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alembic",
@@ -1200,6 +1200,7 @@
       "pugixml",
       "pystring",
       "python",
+      "python-cattrs",
       "python-numpy",
       "python-requests",
       "sdl2",
@@ -8676,10 +8677,10 @@
   },
   {
     "name": "forgejo-runner",
-    "version": "13.0.0-1",
+    "version": "13.1.0-1",
     "origin": "artix-galaxy",
-    "sha256": "f498684837cc869c4cbbf7cbb46b12309354a4ce6e54b717a21731dd2a373096",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/forgejo-runner-13.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ee9023b5f6654f5c6b8398b560a576ddacc9c1cee4611878aabdf8bdffba95e8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/forgejo-runner-13.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
