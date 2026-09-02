@@ -18337,10 +18337,10 @@
   },
   {
     "name": "gala",
-    "version": "8.5.1-3",
+    "version": "8.6.0-1",
     "origin": "artix-world",
-    "sha256": "72ed672997f0662b304fff1a63da25d3f716779dab9a4b2cbb7288f4bd8d32c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.5.1-3-x86_64.pkg.tar.zst",
+    "sha256": "85c7341e4d4c6e0c11dc178621cbd3a3521a3a39aecae0edbc1aad0dc2b6a010",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgala.so=0-64"
     ],
@@ -18352,14 +18352,16 @@
       "glib2",
       "glibc",
       "gnome-desktop-4",
+      "granite",
+      "granite7",
       "graphene",
       "gtk3",
       "gtk4",
+      "json-glib",
       "libgee",
       "libgl",
-      "libgranite.so=6-64",
-      "libgranite-7.so=7-64",
-      "libhandy-1.so=0-64",
+      "libhandy",
+      "libibus",
       "libxext",
       "libxfixes",
       "mutter",
@@ -42814,10 +42816,10 @@
   },
   {
     "name": "libbluray",
-    "version": "1.5.0-1",
+    "version": "1.5.1-1",
     "origin": "artix-world",
-    "sha256": "b1b7fdb4d2217ab49df743bc1916c463b9c3d28dac6ee9b5420ebbdc56a77488",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libbluray-1.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ee5172982908e37cb51bb0be05d1d13bfb58a59d9629f2ab62a9b01c40ac5137",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libbluray-1.5.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libbluray.so=4-64"
     ],
@@ -49578,10 +49580,10 @@
   },
   {
     "name": "libtlsrpt",
-    "version": "0.5.0-2",
+    "version": "0.5.1-1",
     "origin": "artix-world",
-    "sha256": "98b5fb3b1beaf079f438239cd4034a86a452fb2ff7d769c0a3a3f5176a2bd65c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtlsrpt-0.5.0-2-x86_64.pkg.tar.zst",
+    "sha256": "6284a26d460f445c3689c7bbafac8159325a02c69db1f029743cc4b15ef11250",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtlsrpt-0.5.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libtlsrpt.so=0-64"
     ],
@@ -56317,10 +56319,10 @@
   },
   {
     "name": "mimalloc",
-    "version": "3.5.0-1",
+    "version": "3.5.1-1",
     "origin": "artix-world",
-    "sha256": "7400a808bb00a684c2fb5ef19cda51b134fe45ee4f41f7cb8669ea0a1b598424",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimalloc-3.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "755cc7a1d9e1755b59c1bf41487ae72e19820a1b3a69389a4a7db423734e3724",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimalloc-3.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -58120,10 +58122,10 @@
   },
   {
     "name": "mutt",
-    "version": "2.4.1-1",
+    "version": "2.4.2-1",
     "origin": "artix-world",
-    "sha256": "bd6b560cca815693a19a98a6e91426421a8c89083d45019b7fd1a5a010880e90",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutt-2.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7397560ccb6a552a10a29dcbee9722ff69d750bea5d242f19999dae981ffe458",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutt-2.4.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -95887,24 +95889,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.8-1",
+    "version": "0.12.9-1",
     "origin": "artix-world",
-    "sha256": "92beeafb0190a711448603a7bed7cc7ffbf9d8c5f2fb4eb032d5d2951fe9134f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.8-1-x86_64.pkg.tar.zst",
+    "sha256": "de0e4855e988d9c844a8134e1b7fb9e660df43688584ca0201c283a119d978fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.8"
+      "uv=0.12.9"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.8-1",
+    "version": "0.12.9-1",
     "origin": "artix-world",
-    "sha256": "7604ad92b74fedc3c1b070a4aace3f086f339ac15063057cf1f1c45cfef3b78b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.8-1-x86_64.pkg.tar.zst",
+    "sha256": "e0a1564098a4251a92779a7e4c739c7aa0112f025fe3b998c4918f1cb219db02",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -109712,10 +109714,10 @@
   },
   {
     "name": "scons",
-    "version": "4.11.0-1",
+    "version": "4.11.1-1",
     "origin": "artix-world",
-    "sha256": "eb0229998e9ea061538d6cb2bd4b087d679c7db8e1b68e5e5e537feac8b941aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/scons-4.11.0-1-any.pkg.tar.zst",
+    "sha256": "1fb0cc0c147da198ec9f98011112a396ba454d87a4d46a8b8582fc32cdd48250",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/scons-4.11.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -125725,10 +125727,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.8-1",
+    "version": "0.12.9-1",
     "origin": "artix-world",
-    "sha256": "894c87ed5e6014f4e27dfb1dc6add1a92769c41dbc6ebee62c218805610218a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.8-1-x86_64.pkg.tar.zst",
+    "sha256": "6c50e4290604cd83f2d9b35974af6d2982513ed82f47770e4688590c70479d61",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
