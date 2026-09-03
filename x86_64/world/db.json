@@ -8398,10 +8398,10 @@
   },
   {
     "name": "cmake",
-    "version": "4.4.3-1",
+    "version": "4.4.3-2",
     "origin": "artix-world",
-    "sha256": "6dfdedb7c9d54839e9dc04308e38738bea55ab0976fa2c03849e2882d32680e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cmake-4.4.3-1-x86_64.pkg.tar.zst",
+    "sha256": "07408e49387d4da81805cacdf9137b4116ac7d60939be0d62268237a2fcc75ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cmake-4.4.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cppdap",
@@ -18801,10 +18801,10 @@
   },
   {
     "name": "gdm",
-    "version": "50.2-1",
+    "version": "50.3-1",
     "origin": "artix-world",
-    "sha256": "0d7c974fda815fc842bef27947292400e0b48b723e85c0b25088cb991e8cc2be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdm-50.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ec9618664e1ec4a7436765e5fd167e83cb8bcc6d0b2ad2d59c2954eab8ced6fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdm-50.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -20806,10 +20806,10 @@
   },
   {
     "name": "gnome-autoar",
-    "version": "0.5.1-1",
+    "version": "0.5.2-1",
     "origin": "artix-world",
-    "sha256": "7b0a9909e1baf9b5f299eb72b184b7dc814d8f1377356e50fef2dcd24a6cf04f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-autoar-0.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a71fe6c6d22f53bf16de3186c8386dcf0b6e774f76d42a52f13686d8d5ddcab2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-autoar-0.5.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgnome-autoar-0.so=0-64"
     ],
@@ -32322,15 +32322,17 @@
   },
   {
     "name": "jsoncpp",
-    "version": "1.9.6-3",
+    "version": "1.9.8-1",
     "origin": "artix-world",
-    "sha256": "0a18b4c6f53478a6a00946f8321fecf3ed61889ff17828e17e2e28030da56ecb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jsoncpp-1.9.6-3-x86_64.pkg.tar.zst",
+    "sha256": "4ebe5871662d9b1cea41bbf1b331f15b2014bb4cf4e20e97db88b33f159cc1d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jsoncpp-1.9.8-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libjsoncpp.so=26-64"
+      "libjsoncpp.so=27-64"
     ],
     "depends": [
-      "gcc-libs"
+      "glibc",
+      "libgcc",
+      "libstdc++"
     ],
     "optdepends": [
       "jsoncpp-doc: documentation"
@@ -44454,10 +44456,10 @@
   },
   {
     "name": "libgdm",
-    "version": "50.2-1",
+    "version": "50.3-1",
     "origin": "artix-world",
-    "sha256": "7a3202a9209264ae030ecf12082b1ea3dd1cd5967a12fd1cb5cc26aec12bd841",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgdm-50.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a679d01f9958ed8f147b52127c660612d56aa424fe64775ffc36cbae0215b61e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgdm-50.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgdm.so=1-64"
     ],
@@ -55146,10 +55148,10 @@
   },
   {
     "name": "marked",
-    "version": "15.0.8-1",
+    "version": "15.0.9-1",
     "origin": "artix-world",
-    "sha256": "95e1986e7c065816d865d8da8c183373e6f9a3620b1d3ae0c2046a43637f58d6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marked-15.0.8-1-any.pkg.tar.zst",
+    "sha256": "53bc63ece5fbde1c32ccdc41f7ec38285ffd21c9d473cb0bf9d65e44140936fd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marked-15.0.9-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs"
@@ -58890,10 +58892,10 @@
   },
   {
     "name": "neovim-qt",
-    "version": "0.2.19-1",
+    "version": "0.2.20-1",
     "origin": "artix-world",
-    "sha256": "16604a1f2618dcdd357eb565f597ee9543e265c126a69bf8c6be209293f6e314",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/neovim-qt-0.2.19-1-x86_64.pkg.tar.zst",
+    "sha256": "3305debc60ea239fb0ef19c8b15f8a4ebf61623b6767bedc749e025d750b3e22",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/neovim-qt-0.2.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",
@@ -63272,10 +63274,10 @@
   },
   {
     "name": "openvr",
-    "version": "2.15.6-1",
+    "version": "2.15.6-2",
     "origin": "artix-world",
-    "sha256": "dd2e9de0c64faa2eef73afb49be33d3a7e65f61cff12415294c18b67ab2ce60a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openvr-2.15.6-1-x86_64.pkg.tar.zst",
+    "sha256": "fe96349a580b878994aab4a420000a3601f9e68819bbd5ec9bf791febf5db5c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openvr-2.15.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jsoncpp",
@@ -76862,10 +76864,10 @@
   },
   {
     "name": "python-blessed",
-    "version": "1.48-1",
+    "version": "1.49-1",
     "origin": "artix-world",
-    "sha256": "d5a91392fa9ca0e0b3ca693db3075492e19ed748b5bc0570b8bd84422d53d4e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-blessed-1.48-1-any.pkg.tar.zst",
+    "sha256": "fff8fe71e5eafdcdca56659d29dcd84a11a2b1e1232f908a1da2116fee69771f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-blessed-1.49-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -77087,10 +77089,10 @@
   },
   {
     "name": "python-brotlicffi",
-    "version": "1.2.0.1-4",
+    "version": "1.2.0.2-1",
     "origin": "artix-world",
-    "sha256": "2e21090c132145271af796ca547d554e5dccf6fc3f2af7610fa7d10ca07451cf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-brotlicffi-1.2.0.1-4-x86_64.pkg.tar.zst",
+    "sha256": "7f306daa37147c29456b746049d9dd0889f56712260e4dd23e7db16888549ec2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-brotlicffi-1.2.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -78100,10 +78102,10 @@
   },
   {
     "name": "python-coverage",
-    "version": "7.14.3-1",
+    "version": "7.15.0-1",
     "origin": "artix-world",
-    "sha256": "fbf4b5e6b14260a60276f4386603358966a3357790257683e49f97d07ae3d753",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-coverage-7.14.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b84c128bb43a7eb55c8bbfd0f39eb78b58493d32cf04753cf741cb0092f46b3f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-coverage-7.15.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -81450,10 +81452,10 @@
   },
   {
     "name": "python-graphql-core",
-    "version": "3.2.11-1",
+    "version": "3.2.12-1",
     "origin": "artix-world",
-    "sha256": "de56db707d981dbfd433b1fdc2010c4bd2cc628e10a03d12ee80c1fec76d8acd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-graphql-core-3.2.11-1-any.pkg.tar.zst",
+    "sha256": "4a9e6fc0f5f389fedb24e8e51fcdc3f3e17262b6fb7c649688aa276db1a46732",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-graphql-core-3.2.12-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -91646,10 +91648,10 @@
   },
   {
     "name": "python-quart",
-    "version": "0.21.0-1",
+    "version": "0.23.1-1",
     "origin": "artix-world",
-    "sha256": "c8de578e34703c23d628aa20bf0e06c65fbf460f1bbc8d521022c24230f401f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-quart-0.21.0-1-any.pkg.tar.zst",
+    "sha256": "47aa4f67fda271d13223d4e3d05441f35bdf63b0557d25338b37eb80eb2e096a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-quart-0.23.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hypercorn",
