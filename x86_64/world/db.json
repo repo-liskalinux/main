@@ -57927,10 +57927,10 @@
   },
   {
     "name": "multipath-tools",
-    "version": "0.15.0-1",
+    "version": "0.15.1-1",
     "origin": "artix-world",
-    "sha256": "0dd3cab3b1c07b5357303161991bbde048b2c5900f819febd7b9cd3cc09dd7e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/multipath-tools-0.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f2617b1310be1f0d014a2824c3018c20468e9b1157137d8de82f246ebdb01fea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/multipath-tools-0.15.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72668,10 +72668,10 @@
   },
   {
     "name": "polybar",
-    "version": "3.7.2-2",
+    "version": "3.7.2-3",
     "origin": "artix-world",
-    "sha256": "180c96e04834eb0b66561c170ff7a9fb0bbf570732da307b1f75be68179a6d55",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/polybar-3.7.2-2-x86_64.pkg.tar.zst",
+    "sha256": "0a10fb2ab56d1bf6d1ea23848cc50dde50b2d75d72223fc514b85b393a3d1b62",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/polybar-3.7.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libuv",
@@ -134441,18 +134441,17 @@
   },
   {
     "name": "yazi",
-    "version": "26.8.15-1",
+    "version": "26.9.1-1",
     "origin": "artix-world",
-    "sha256": "99f2dc5cc4fb463f6daaf0b21aeb801e4e0009676f35fa0242ebc47cc6a9f371",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yazi-26.8.15-1-x86_64.pkg.tar.zst",
+    "sha256": "a29c73b2e6d390acd2cdf6b265adc1d17dd0d87419a758b46e282ee15b12ee4f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yazi-26.9.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "hicolor-icon-theme",
       "libgcc",
       "lua",
-      "oniguruma",
-      "ttf-font-nerd"
+      "oniguruma"
     ],
     "optdepends": [
       "ffmpeg: for video thumbnails",
@@ -134469,7 +134468,8 @@
       "xsel: for X11 clipboard support",
       "wl-clipboard: for Wayland clipboard support",
       "chafa: for ASCII image preview as fallback",
-      "git: for Yazi package management"
+      "git: for Yazi package management",
+      "ttf-font-nerd: for icons"
     ],
     "conflicts": []
   },
