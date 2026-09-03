@@ -49639,10 +49639,10 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.21-1",
+    "version": "0.16.22-1",
     "origin": "artix-world",
-    "sha256": "e6d8a81125b01ff20542d1078fca1e9dff8fde97bff8c154850ec040e3d30106",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.21-1-x86_64.pkg.tar.zst",
+    "sha256": "72f6ee14c43a16e8e47f0d19e6bd35c7584f4d184b96105d0554c5aff2edb263",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl"
@@ -50519,10 +50519,10 @@
   },
   {
     "name": "libwireplumber",
-    "version": "0.5.16-1",
+    "version": "0.5.17-1",
     "origin": "artix-world",
-    "sha256": "737603397376d32a2259ad5524c0b6aa8f5936a4b33479046c261ea9eba52b6d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.16-1-x86_64.pkg.tar.zst",
+    "sha256": "5c0f6a6d169d31784862fbf56f5ea58b9d14992181316d9c86b587ed76afaea2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.17-1-x86_64.pkg.tar.zst",
     "provides": [
       "libwireplumber-0.5.so=0-64"
     ],
@@ -103828,13 +103828,13 @@
   },
   {
     "name": "rtorrent",
-    "version": "0.16.21-1",
+    "version": "0.16.22-1",
     "origin": "artix-world",
-    "sha256": "1a86b7e194fe79925e4b8c89c2823d1849ff854ef56e1b22de77107d1a212983",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.21-1-x86_64.pkg.tar.zst",
+    "sha256": "1462a50bf2327332fc0b31f4a727809c4b7a4cb6f756636fe659e1348cc2951d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libtorrent=0.16.21",
+      "libtorrent=0.16.22",
       "curl",
       "tinyxml2"
     ],
@@ -130726,15 +130726,15 @@
   },
   {
     "name": "wireplumber",
-    "version": "0.5.16-1",
+    "version": "0.5.17-1",
     "origin": "artix-world",
-    "sha256": "7908e9ce7b0b9c894ce84dd227c338041ce4703c67332f76fefd7a2355d85818",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.16-1-x86_64.pkg.tar.zst",
+    "sha256": "3a8ec95dc88ca486c62375903a617bc175b3ad0887d10e43ff08da10538039b9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.17-1-x86_64.pkg.tar.zst",
     "provides": [
       "pipewire-session-manager"
     ],
     "depends": [
-      "libwireplumber=0.5.16-1",
+      "libwireplumber=0.5.17-1",
       "glibc",
       "libgcc",
       "libglib-2.0.so=0-64",
