@@ -3886,10 +3886,10 @@
   },
   {
     "name": "easyeffects",
-    "version": "8.2.8-1",
+    "version": "8.2.9-1",
     "origin": "artix-galaxy",
-    "sha256": "8a258cd0280b5693e70878f89193965abf32c136e8e40eca06337c759ac00475",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/easyeffects-8.2.8-1-x86_64.pkg.tar.zst",
+    "sha256": "138089f765cabb4de3e066c0d4cbdd6301c34269d0f8ac13a6ea1f5264e16670",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/easyeffects-8.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kirigami",
@@ -8752,10 +8752,10 @@
   },
   {
     "name": "fuzzel",
-    "version": "1.14.1-2",
+    "version": "1.15.0-1",
     "origin": "artix-galaxy",
-    "sha256": "59bb735d9bb47ffdefd0ef333a71993f4198e5fd5d7d29f0eaf46f53122a6904",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fuzzel-1.14.1-2-x86_64.pkg.tar.zst",
+    "sha256": "9821fdf4b245ccb5f08e5004cf3a20924062bc27dfcf30857265eb7fc1de27fc",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fuzzel-1.15.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -11420,12 +11420,12 @@
   },
   {
     "name": "libopenshot",
-    "version": "0.7.0-1.4",
+    "version": "1.0.0-2",
     "origin": "artix-galaxy",
-    "sha256": "58fae235667e0dd60b4ac9738c53ddb01df2fc69e0caac476f79e88adb2d1d65",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-0.7.0-1.4-x86_64.pkg.tar.zst",
+    "sha256": "275e2fd4bb65d7ffddef5b6e07722c789d47cc0e2b53160161ebbafffa714cc5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-1.0.0-2-x86_64.pkg.tar.zst",
     "provides": [
-      "libopenshot.so=30-64"
+      "libopenshot.so=31-64"
     ],
     "depends": [
       "babl",
@@ -11434,9 +11434,8 @@
       "libgcc",
       "glibc",
       "libmagick",
-      "opencv",
       "python",
-      "qt5-base",
+      "qt6-base",
       "ffmpeg4.4",
       "libavcodec.so=58-64",
       "libavformat.so=58-64",
@@ -11444,7 +11443,7 @@
       "libswscale.so=5-64",
       "libswresample.so=3-64",
       "jsoncpp",
-      "libjsoncpp.so=26-64",
+      "libjsoncpp.so=27-64",
       "libopenshot-audio",
       "libopenshot-audio.so=10-64",
       "protobuf",
@@ -11457,10 +11456,10 @@
   },
   {
     "name": "libopenshot-audio",
-    "version": "0.6.0-1",
+    "version": "1.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "8e0c5597d7f811a2327eeb85840cefe10b3b041735959337cdfb3f21b123badb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-audio-0.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d7855fec56fa6b223e4a4b8e3adafa8842a65217bfd8ef7ac047b76a9a98e707",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-audio-1.0.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libopenshot-audio.so=10-64"
     ],
@@ -21485,22 +21484,23 @@
   },
   {
     "name": "openshot",
-    "version": "3.5.1-1",
+    "version": "4.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "aec875ced6544e0bb431208d0fbb09c1338313679958c6d4ee94a6edcd49397c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openshot-3.5.1-1-any.pkg.tar.zst",
+    "sha256": "23987bae41ad346c3ae06799fae29f39297005c0a143ab27161e3b700fa38a22",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openshot-4.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "git",
       "ffmpeg",
       "hicolor-icon-theme",
       "libopenshot",
       "libopenshot-audio",
       "python",
-      "python-pyqt5",
+      "python-pyqt6",
       "python-pyzmq",
       "python-requests",
-      "qt5-base",
-      "qt5-svg"
+      "qt6-base",
+      "qt6-svg"
     ],
     "optdepends": [
       "faac: for exporting audio using AAC",
@@ -26465,10 +26465,10 @@
   },
   {
     "name": "thunderbird",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "360ad9ec087fde961249afc7f340596e3c36fb86b80843c7bb33ea098f3d3536",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cdedc9a4bcba5280a21fa75c5d804976e94778c0ea63b57428f37fe93bab6a1d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -26532,10 +26532,10 @@
   },
   {
     "name": "thunderbird-i18n-af",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "45cd218f4be6685cbaf9cc44cf229a5998312a96e737d3a3ad6cabaf4dfab3fe",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-af-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "327146289aa2480e1625f3e2d3555ee43a1304f9eb764cfbc489bf5ce90c59f0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-af-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26545,10 +26545,10 @@
   },
   {
     "name": "thunderbird-i18n-ar",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "7284ad8c056cb9854361846ca41fec2dd4c9860f1c14751d429e5a21bff0636e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ar-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "aa3e95d000f62f0bfa1c37bc4701e4a14436924521e3ea90989cb158f4aad465",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ar-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26558,10 +26558,10 @@
   },
   {
     "name": "thunderbird-i18n-ast",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "f35486edf7753e9e91b07f2eb7b60b19aacf083f59372e10a66a2083023f3049",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ast-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a8d33d81279f97fc9a5a3be4196455985687d009bc2c944f01de4044f65c091d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ast-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26571,10 +26571,10 @@
   },
   {
     "name": "thunderbird-i18n-be",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "3ac844a9c185eb842514af4a584a40fc997dfe0070b52d0b553b576e696c2697",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-be-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "47693b10fb4fb1bb2286fad3b30d0f2f08f794e6cb463eeffb0b4da98029c770",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-be-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26584,10 +26584,10 @@
   },
   {
     "name": "thunderbird-i18n-bg",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "ed38d650eb0e284e9d2bdc58523e73386473b87d403a6dec645384a9389f6511",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-bg-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5faf58a969624e213112f29219d4f08d029c00e82eb817ad58338d43c438bbc8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-bg-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26597,10 +26597,10 @@
   },
   {
     "name": "thunderbird-i18n-br",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "6b4e02308e2f6af69ce56071b7cbc43bb5cdc10e1da6422008e8b9f0d3bf97e2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-br-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3b809f4cd2af7548a8d2f9f0c921b1a7cce2a6d1fe432ff4c7b5584ead5e612e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-br-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26610,10 +26610,10 @@
   },
   {
     "name": "thunderbird-i18n-ca",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "13fb51b7012b4cabe4bb300646851a3312845657ff1be90814433254d8c4a955",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ca-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "44180cd45da3f0ab3cf1c043d36bb65c3f6485ec77f2c11eb5027974f5964445",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ca-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26623,10 +26623,10 @@
   },
   {
     "name": "thunderbird-i18n-cak",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "80fbc6e412b60c2a09345038fa5430d6246dd05a7e911ac979121f0743b186c2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-cak-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "231f26cb0a718209cf9f44fe4922dce5abff34fd1c52dce07d91ce2bdda129be",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-cak-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26636,10 +26636,10 @@
   },
   {
     "name": "thunderbird-i18n-cs",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "bc6570a69b67a6ad539cee6754e8114c2e354076a78f5c89e6df70f5ba26e3d5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-cs-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6a7f01c7739c9f6325d97e959035f7d53dbd7618f94cf3d741be14f717674c8b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-cs-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26649,10 +26649,10 @@
   },
   {
     "name": "thunderbird-i18n-cy",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "3db12ded58af731e02ff811bde07b16a7d8ffd7e8af9571950f65f6918a08fcb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-cy-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3e54cf145b49f06405bac4a938073127caf760e623e908d459aa61107998c810",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-cy-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26662,10 +26662,10 @@
   },
   {
     "name": "thunderbird-i18n-da",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "d935490740829304c73ef540683b1beb8f79d064bf2ded717ae864ece88549ff",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-da-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9220a8b1fa99ae6189600b449e8c4eb9c87e0a6275206f1bbb71333fda0c59ff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-da-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26675,10 +26675,10 @@
   },
   {
     "name": "thunderbird-i18n-de",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "4a1b5aef532e8d27dfb33af57b6c017209ae66ffa37dde1dcc434d017e60c1d5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-de-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6dfdc531095e6dfa3169cf28d02d46cec356126fd67a8c080dfa7720eb6eaca1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-de-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26688,10 +26688,10 @@
   },
   {
     "name": "thunderbird-i18n-dsb",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "36795cec717427d74a9eb52365f22e36cdf94e2f31baaba4ac48d6894edb71b1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-dsb-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "61681315a448ac4fd1787ce5eb0818be0a15824286401886c7e89df76852f75a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-dsb-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26701,10 +26701,10 @@
   },
   {
     "name": "thunderbird-i18n-el",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "403e3668b5daecc289bfdfa1fb55f507dafb1b0c8262e2f66b202af7912fa041",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-el-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "069cc6aad5322f06a8a5da611759d87e1284f6638f0561dae39efd8aa88a6dcf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-el-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26714,10 +26714,10 @@
   },
   {
     "name": "thunderbird-i18n-en-gb",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "1d79796a875d98fc7df6c3bef1c96b95541516ef62334205df213ee51f1a5dcc",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-en-gb-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1b8ef3eca2f1083f2716d73449210f8f7f0bebe07d3cc885d697fbb070fd7b4b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-en-gb-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26727,10 +26727,10 @@
   },
   {
     "name": "thunderbird-i18n-en-us",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "8bad1789b0da9522f57a0c4edc0e060ea2aaeaae547de126bf91584a21c9d7d2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-en-us-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f3db52a6ba486cb1cc8869e41ea37894a987aefcfd470852a848919eac5e0c7d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-en-us-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26740,10 +26740,10 @@
   },
   {
     "name": "thunderbird-i18n-es-ar",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "d2d3a577e941ce767204cabb8bb3b5cada1e24d3c069eaf1c60605a6968bb4cf",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-es-ar-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "60bf093be5db56d541e33548adf5580672b9ffc1b5c406cb8e14621bb42813d9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-es-ar-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26753,10 +26753,10 @@
   },
   {
     "name": "thunderbird-i18n-es-es",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "3def75bbc3ce0a444eba5b1497cd0b095e93e10e50f6b7d05463bb40db984c48",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-es-es-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a0c96bb7b093a0b3f6f70130223c5b8a0aee9b869358ed566c7a1e204ba37b6d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-es-es-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26766,10 +26766,10 @@
   },
   {
     "name": "thunderbird-i18n-et",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "229ee090f2169e10ac6ffc75f39069ef4b274ebbbacfc12738ea4551266d0480",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-et-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "75eb29015e363d1a92479f323ad6d13828ee58828a8ba1e4cfb810691095ba56",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-et-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26779,10 +26779,10 @@
   },
   {
     "name": "thunderbird-i18n-eu",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "6cddfba9d055c8435c38134ac33f05b19ed04286d58846bb35cdceb97c61139b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-eu-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4af6df4f6f51999774a171c2999ba562f08e57e6b32d7c3602bb412f71c343a4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-eu-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26792,10 +26792,10 @@
   },
   {
     "name": "thunderbird-i18n-fi",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "ae72f7b82d5865bbb63e706ec9bd102115780c73520a608110af096333153135",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-fi-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e7aed7ce614b423258f2fc1acbaf1fb3e31910c7705b1ee213c198b149488109",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-fi-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26805,10 +26805,10 @@
   },
   {
     "name": "thunderbird-i18n-fr",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "306495caf24af6c547e53635653ae28aebce90138b891ed5239e8691abcbbc26",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-fr-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6ff75f632f0fc9b1b779565517a512498175b5ffa08c79fe1a56b223d96e790c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-fr-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26818,10 +26818,10 @@
   },
   {
     "name": "thunderbird-i18n-fy-nl",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "a7a337b5f1aca8fa5b23b1b2f4ca57bf9ac2d490047bcd0db74551e7aca5ee03",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-fy-nl-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a9359df05ea906614c68a5cb3a027d3f349070cf8cb281cde473866ba041027d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-fy-nl-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26831,10 +26831,10 @@
   },
   {
     "name": "thunderbird-i18n-ga-ie",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "5445ff67cae7472fb707ef9a8757dacc622358e0bf7232065f740b8fda1e1c23",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ga-ie-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "245e2c3f1df89816fca9366c1eace59373c939365d8b09f7daf9ae10128f97d6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ga-ie-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26844,10 +26844,10 @@
   },
   {
     "name": "thunderbird-i18n-gd",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "a566c86962559493aebde796467a5b1315fe5b410f5b229c1a08d58406b74e90",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-gd-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d795a07a18aa4c56d8879c7a17103e7b7b0eef74701eea43a555367e7f0f4a02",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-gd-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26857,10 +26857,10 @@
   },
   {
     "name": "thunderbird-i18n-gl",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "23b5ddae56e4858102fae6849d74f7222bebd7817f7c0d72d127ff1b7ea7ccbb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-gl-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "125b28506e39f4fcc9bf4ee48f06812272e1485ede67e16f495407c9d6dfd0a7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-gl-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26870,10 +26870,10 @@
   },
   {
     "name": "thunderbird-i18n-he",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "0149661cf10e2444637ee50ea099b02904a04f542fdf54b5b3ee10569eede3e7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-he-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c87570ea2da624246226606f223acad80f3507c88928f712bd2599ec21c8a4a1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-he-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26883,10 +26883,10 @@
   },
   {
     "name": "thunderbird-i18n-hr",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "d4a27e6bbad796c9da939fd3bd34f00fef547b47fa539571729a85134fb60115",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hr-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "78a13902425771fef5a034d0946ff28e111523d3fd3cf97ba2c9a8a3d8e6709b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hr-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26896,10 +26896,10 @@
   },
   {
     "name": "thunderbird-i18n-hsb",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "6556ba8850bc5c7d37aa134e41b58d6632096351d6dd17e9c68050ecc00ba38b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hsb-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9131e9e997a25970b805359f9c2ea643c4a826954b05cda2f0f7b504944ad3a7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hsb-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26909,10 +26909,10 @@
   },
   {
     "name": "thunderbird-i18n-hu",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "2e4206d0e57fe1778424bfa1fe5e5b043839b87ac80fba10c1abee0de863cf98",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hu-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ddb6ec5584226caf2cbc386ef5ad693eaa65802a94afc5f1a87c89a2b3248801",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hu-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26922,10 +26922,10 @@
   },
   {
     "name": "thunderbird-i18n-hy-am",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "c3353dd2a0dafc8a0e04adfb313b4782e73dfd49fd9cf4799ee6266c0a710785",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hy-am-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d6d1e231243562657241e54f7aa3ba420cefb4dfeba68b2c1cfdd40487fc7cb9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-hy-am-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26935,10 +26935,10 @@
   },
   {
     "name": "thunderbird-i18n-id",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "8cb1c0f071ce2ae04f35fada65b9799d078a6b48e99ea410274ea5c844d4859d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-id-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8b3b526726a92ec6a81eb59645815c21db19adef7a29d929c461e9f058d691b1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-id-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26948,10 +26948,10 @@
   },
   {
     "name": "thunderbird-i18n-is",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "0083e1813bac41515f8cbd68b77f68d80379b935242c81b08eb31a270f72ed6d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-is-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "50a8f0e00b21de2e1d85da91d1f0e73240d06f924003ba458bf130ae794f70ff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-is-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26961,10 +26961,10 @@
   },
   {
     "name": "thunderbird-i18n-it",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "d7f27017936e2ac12699eeee79c4ad3b6204f1f1af8b20106841fc76a740f5cb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-it-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9733726057e2285bb7f755917e3733fb8a826db69ea8c2288416060d73711748",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-it-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26974,10 +26974,10 @@
   },
   {
     "name": "thunderbird-i18n-ja",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "5fb0214e6ac7c42c010fda774edf712b11fbb088a139258b8fa2249bbc977921",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ja-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c79910e697d32becffc900f402f88bf203ff28c1dca79d2f411614ee92190161",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ja-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -26987,10 +26987,10 @@
   },
   {
     "name": "thunderbird-i18n-ka",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "0a085091bb3d54d5c8c520b315a453e1130aec837fadd2f796a018305cbea5a8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ka-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a0d7d59326ac116b1da9df1de161cc273c60757929c9626be951beb1ee89bf23",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ka-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27000,10 +27000,10 @@
   },
   {
     "name": "thunderbird-i18n-kab",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "49a5610392c57ee5ea7965b88a1459aeb2e970c47a46b00b0237c24845821d77",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-kab-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "04234fd2357a7676583df7ca2923217f0a7410299c4c97215a8a4eb094fdba84",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-kab-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27013,10 +27013,10 @@
   },
   {
     "name": "thunderbird-i18n-kk",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "d9eebda0c901bba10fdfac4218b35456bbbed2985cb5898ae19eb82b4e60ff29",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-kk-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1550044bb13abc8673d4307e9d023e7ea39f502826d3717bbb8eb7db3f7cf29d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-kk-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27026,10 +27026,10 @@
   },
   {
     "name": "thunderbird-i18n-ko",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "7f44db08915fd773c3794baa8423468160cdfae890b0e1a2a4fcf0974f0eb793",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ko-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b380426ae9b7975bc958f44a55e2520decb73dc98baf3db8d12958829dc71b0d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ko-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27039,10 +27039,10 @@
   },
   {
     "name": "thunderbird-i18n-lt",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "bda286e703739c05fac9c3f50a28bfc9a26f6b3925823ca6669e2fa4f4b5aa19",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-lt-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d9da2f932fae727c25bce0ec32720263682514a228212b918dad3e27970f154c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-lt-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27052,10 +27052,10 @@
   },
   {
     "name": "thunderbird-i18n-ms",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "e32f32aee2019acff1053a15d0ac7e32263ddd323bdcafb5289311da86da1c81",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ms-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "37739621ae02e2b842665c1ec27210a3cdfb09f6ee32593014c8e9ca7ea3d172",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ms-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27065,10 +27065,10 @@
   },
   {
     "name": "thunderbird-i18n-nb-no",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "c5c1c478aa090e8648db7d9579aeea72275ba8d6582745b17787938974499444",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-nb-no-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "36f9bd8f6d2acad45b34d1fc3e10469a9baab3ac9507501e8d21db12595d6c36",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-nb-no-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27078,10 +27078,10 @@
   },
   {
     "name": "thunderbird-i18n-nl",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "919be7ec379a1f98227876714e85ae76ef0a44adf1a8d9152f8e2cf32fa76ba2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-nl-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9411061e28f9bcd9529196fdeec63db36be90941f1d0204271f7ee3d3eaf9aba",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-nl-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27091,10 +27091,10 @@
   },
   {
     "name": "thunderbird-i18n-nn-no",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "543648a027d6bae2a2b2d724f3ebe05198cc3cf117cffe2d7b95eae08420ad62",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-nn-no-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9feaadb41d2f62a1020cc066283ccb1a4f72dbe306b6315d995f95c2831c6e25",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-nn-no-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27104,10 +27104,10 @@
   },
   {
     "name": "thunderbird-i18n-pa-in",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "ac895ad6c6c2ef9c2bcc48fd723f0901579a44e4b7d458ee4d704d1235970498",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pa-in-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bb673bf22cc7478520e1170fcfd1db18e8373252d14024dbc7b74ed04fae27d0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pa-in-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27117,10 +27117,10 @@
   },
   {
     "name": "thunderbird-i18n-pl",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "72729b6fd3c15cf2972af3e14d324e44d32304c355e072ca2a0c8a2eaedce41b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pl-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9dd9576d12366712ebc1a8552e544903cd0d336e0330531055e9e005df1d0b4d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pl-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27130,10 +27130,10 @@
   },
   {
     "name": "thunderbird-i18n-pt-br",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "7bf4a5b1d81690c1c3495b4b648eb81a3d8025d0019794f15a98bdbc8dd7892c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pt-br-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "79863290cfbf389e13f3a2798d544eaee702ab2759aaa9c4886bc14870a5d7b2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pt-br-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27143,10 +27143,10 @@
   },
   {
     "name": "thunderbird-i18n-pt-pt",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "e98624510350f812541992f740a796d5da818ad74857e74b6834f6ce344ad082",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pt-pt-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d2ed9c608171229b06662da30cdd61996b3eac8ed39306a196ce02ae87a44674",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-pt-pt-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27156,10 +27156,10 @@
   },
   {
     "name": "thunderbird-i18n-rm",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "1e3a12986b418538251561464b3500b320b9f70b0bb8d092799eca7faf581d64",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-rm-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c16ac883229c4f5cccf44d4bae1719bddc97046a17b05ed07fa502cd976c7351",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-rm-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27169,10 +27169,10 @@
   },
   {
     "name": "thunderbird-i18n-ro",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "904b3e1aaf95647ed6b70f3fbe498626363603c65836bb1c7321843ae7585925",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ro-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "46720a8841739596f0fd57fc03767551d98831509a6898141c148d53b6a257f8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ro-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27182,10 +27182,10 @@
   },
   {
     "name": "thunderbird-i18n-ru",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "e8d03863a09eb8f089161b11290577c90787fdde26ea881d7b33325f79bb7a3c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ru-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a300a9af69b743895987e2ad8a58b7f7abe8f9b45a1dcfca192bcb1586986eb9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-ru-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27195,10 +27195,10 @@
   },
   {
     "name": "thunderbird-i18n-sk",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "7ceee7979ab133e54a12c76fd3377d2433231b76132bdc7d7df587816e1bf924",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sk-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "48a1779a48ab7c402dabc26d2ca55139264d97ad848e0d589aa518427ae4dce6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sk-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27208,10 +27208,10 @@
   },
   {
     "name": "thunderbird-i18n-sl",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "11da0076d7de0a066daf6adc7ab2290a3947401f8372ab935b629e401fe4dc66",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sl-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "133f41421a88756809f54756ec1120115b9427c737a3762ec6f7c90c6545ebf0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sl-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27221,10 +27221,10 @@
   },
   {
     "name": "thunderbird-i18n-sq",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "2e4b3954f90a5dd0cc2eb21fe53fc0dbde748fbeffabb386828d025854ab21ec",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sq-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "520841069cace2a95dba7d52119b8cc2871f56c09084ee92c168307401304564",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sq-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27234,10 +27234,10 @@
   },
   {
     "name": "thunderbird-i18n-sr",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "ceba5c95881fac98aa5113c3aa37c0ea351333b0dc0cd03224589bb002d54cf4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sr-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e23705a58881dc350b6261c26574d16fdac0706f7429f6b2f56f6166e725b74c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sr-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27247,10 +27247,10 @@
   },
   {
     "name": "thunderbird-i18n-sv-se",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "0584b02220766e9fc4120b20cf6a8772da57d67b4169a7dcf2cfd415fe2bf767",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sv-se-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7a72994a1f9fae2d307508ea30185f820a2365c83cb827d873a03fbff7984b12",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-sv-se-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27260,10 +27260,10 @@
   },
   {
     "name": "thunderbird-i18n-th",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "90fc01e4d2d3e83bab6c6a46cfb6d1f74da831f112acca6db36b84de09f9117d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-th-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e4e02d0a44117fef00c485f780a19dadb9bf05d8bd13f668aa0512c8da10d278",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-th-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27273,10 +27273,10 @@
   },
   {
     "name": "thunderbird-i18n-tr",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "c006a62581bcca91d93c6dd92a02227ce1a9278c2b7281c957e7dc78db436bc2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-tr-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "774e734ab26f94e00760a27c7109dd114355ecca31e479ea4e40227f97d58c8b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-tr-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27286,10 +27286,10 @@
   },
   {
     "name": "thunderbird-i18n-uk",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "e944d70fdcc8c55b015281705767eb76648f429543b4abed26ba09d53e887f40",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-uk-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8e780660013715317bf766dd9f384766d053a1d4b9282fff5d33e7108910dcfe",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-uk-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27299,10 +27299,10 @@
   },
   {
     "name": "thunderbird-i18n-uz",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "3447f9bdcba3ce5a4c4f527a3296d5e8c84364aa65247ab10c774271aea7ab57",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-uz-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6cd5d67c89b8eb3f648e83ee96f532c51aafdcef0699b687e274a13135cfe233",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-uz-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27312,10 +27312,10 @@
   },
   {
     "name": "thunderbird-i18n-vi",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "3e849ec65a678ec1148bc4f6fe7b320ccb5764d22057f0650a9a1dde2e3f7e2f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-vi-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2235c3a132708bef7e58fadd1297e2fab20039d6381f6e4136b63c522189f770",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-vi-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27325,10 +27325,10 @@
   },
   {
     "name": "thunderbird-i18n-zh-cn",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "72092a52e7482fcb0d08998e3cfb3a38b137f95712cba8f8746d05d5eece0eb8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-zh-cn-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c1659c3b8d3bd699985a7097d5672424c565b2694e9ca0b1724545fb7ef10185",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-zh-cn-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -27338,10 +27338,10 @@
   },
   {
     "name": "thunderbird-i18n-zh-tw",
-    "version": "154.0-1",
+    "version": "154.0-2",
     "origin": "artix-galaxy",
-    "sha256": "6fceabff2c4bd56766909465faeb7e24d1f1c47bdc945816551c3c949cd6420a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-zh-tw-154.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a4d44fa2f6a1732bce1dec987da4e355d87c0b4f343fa1f44c2e7763887d0498",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunderbird-i18n-zh-tw-154.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "thunderbird>=154.0"
@@ -29025,10 +29025,10 @@
   },
   {
     "name": "voa-verifiers-arch",
-    "version": "20260727-1",
+    "version": "20260902-1",
     "origin": "artix-galaxy",
-    "sha256": "fd38c5b8f7eecee430b51bda8c8f9e5a0a7ab1fb6548e074bd146ed353435cba",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/voa-verifiers-arch-20260727-1-any.pkg.tar.zst",
+    "sha256": "52f3c1cb64ec780301b60eb63ad8f7b4a25793a268cdaed4736b0216bc6c2e6a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/voa-verifiers-arch-20260902-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
