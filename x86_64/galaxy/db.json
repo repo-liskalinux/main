@@ -268,10 +268,10 @@
   },
   {
     "name": "appstream-generator",
-    "version": "0.10.2-2",
+    "version": "1.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "adc51e72b664c1fa3e9961b048674013511eaed81cbbc2507afbccf9493d3844",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/appstream-generator-0.10.2-2-x86_64.pkg.tar.zst",
+    "sha256": "589834f024a1043e87d15a79c00243d81ebdce91a92c6950fc32855480812c78",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/appstream-generator-1.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -279,6 +279,7 @@
       "glib2",
       "glibc",
       "libarchive",
+      "libelf",
       "libfyaml",
       "libgcc",
       "libstdc++",

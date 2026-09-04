@@ -4609,6 +4609,17 @@
     ]
   },
   {
+    "name": "backward-cpp",
+    "version": "1.6-2",
+    "origin": "artix-world",
+    "sha256": "f43c7abf06b7b29307698b3b8e2f17dcbe5fb3d8cf071376f7ceb8771cd9e423",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/backward-cpp-1.6-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "baloo",
     "version": "6.29.0-2",
     "origin": "artix-world",
@@ -101523,6 +101534,17 @@
     "conflicts": []
   },
   {
+    "name": "quill",
+    "version": "13.0.0-1",
+    "origin": "artix-world",
+    "sha256": "497ead431181f9d27142867b0dea73f0adbcd8481f10650bbb3c89d4966cb31d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/quill-13.0.0-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "quilt",
     "version": "0.69-1",
     "origin": "artix-world",
@@ -129853,10 +129875,10 @@
   },
   {
     "name": "wasm-tools",
-    "version": "1.257.1-1",
+    "version": "1.258.0-1",
     "origin": "artix-world",
-    "sha256": "f1898a4df2b8f0c54b3e036081ae2f32071dbbf5fb8bb61d7dc6bf55676757aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-tools-1.257.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5c09628cbd76e7b00d7d9a6c1bbf13bfda7eca5fc6098991a8b412b693251ce2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-tools-1.258.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -135481,10 +135503,10 @@
   },
   {
     "name": "zvbi",
-    "version": "0.2.44-1",
+    "version": "0.2.45-1",
     "origin": "artix-world",
-    "sha256": "fa011da802e409e847c9bd32a414508cdec046e18f7efc72e9ea589ae3f82413",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zvbi-0.2.44-1-x86_64.pkg.tar.zst",
+    "sha256": "632e876074d5e6ff809bfce4d52d3adec793364b05f4a461b540c31614559339",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zvbi-0.2.45-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libpng",
