@@ -2213,12 +2213,12 @@
   },
   {
     "name": "aquamarine",
-    "version": "0.14.0-2",
+    "version": "0.15.0-2",
     "origin": "artix-world",
-    "sha256": "0c62e998819db10ddbfd0177c59993bce793b11b21e285fa14252cfda17527c4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aquamarine-0.14.0-2-x86_64.pkg.tar.zst",
+    "sha256": "2d3cfea859a89811c3e45566b940f349286d2d2e32735bb89dd4643ac02af552",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aquamarine-0.15.0-2-x86_64.pkg.tar.zst",
     "provides": [
-      "libaquamarine.so=13-64"
+      "libaquamarine.so=14-64"
     ],
     "depends": [
       "libgcc",
@@ -2226,7 +2226,6 @@
       "glibc",
       "hyprutils",
       "libhyprutils.so=13-64",
-      "hyprwayland-scanner",
       "libdisplay-info",
       "libdisplay-info.so=3-64",
       "libdrm",
@@ -14158,10 +14157,10 @@
   },
   {
     "name": "eog",
-    "version": "50.2-1",
+    "version": "50.3-1",
     "origin": "artix-world",
-    "sha256": "f891f0113ade9521635815b56dcd198eb4716a9553ed3d5145bbf1f98734161c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eog-50.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5ccd9200d860b5845878fd16924c3a2b37795e7e4b7cd192864cf505d4c56ab1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eog-50.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -19985,10 +19984,10 @@
   },
   {
     "name": "gimp-plugin-gmic",
-    "version": "4.0.4-1",
+    "version": "4.0.5-1",
     "origin": "artix-world",
-    "sha256": "af8e9109d277ec465a166bd5d89bb6f8a7a56420056c733f985579e2b5ca0b74",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-plugin-gmic-4.0.4-1-x86_64.pkg.tar.zst",
+    "sha256": "1af84b2dba766a7366cb60287dd9b9ffcaee5ca5d01be603871986c3c0d1af72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-plugin-gmic-4.0.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fftw",
@@ -20409,10 +20408,10 @@
   },
   {
     "name": "glaze",
-    "version": "8.2.0-1",
+    "version": "8.3.0-1",
     "origin": "artix-world",
-    "sha256": "5027d008eb0f5379a387f080ec7f5aa2013b0345e3f2b8a08248dc6304f2f363",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glaze-8.2.0-1-any.pkg.tar.zst",
+    "sha256": "a9f267265bafe22be383c02bb6de879a619110a8d209283be0c677d398581fbb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glaze-8.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -20708,10 +20707,10 @@
   },
   {
     "name": "gmic",
-    "version": "4.0.4-1",
+    "version": "4.0.5-1",
     "origin": "artix-world",
-    "sha256": "9037520c4fca549a9594efa2eb9ebda9a9bfaa46e2040b562494b070ed9f9924",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gmic-4.0.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d671350cb65f4e3829573cd5c37d8cdc84ddc9b3b7c32dccfc0047377ad95d9c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gmic-4.0.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fftw",
@@ -28655,10 +28654,10 @@
   },
   {
     "name": "hypridle",
-    "version": "0.1.8-1",
+    "version": "0.1.8-2",
     "origin": "artix-world",
-    "sha256": "9c45df48619d1905a4020efa5728fef6dede245306e68005c011c04b62bf0bf5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hypridle-0.1.8-1-x86_64.pkg.tar.zst",
+    "sha256": "93346d0535bc2c46a6e991a34b7ac469397e21b727c6e301161a3cf01228a4b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hypridle-0.1.8-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -28666,7 +28665,6 @@
       "glibc",
       "hyprlang",
       "libhyprlang.so=2-64",
-      "hyprwayland-scanner",
       "sdbus-cpp",
       "libsdbus-c++.so=2-64",
       "wayland",
@@ -28678,17 +28676,17 @@
   },
   {
     "name": "hyprland",
-    "version": "0.56.1-3",
+    "version": "0.56.2-2",
     "origin": "artix-world",
-    "sha256": "3897c3be49f4fb83d45e210d008327fd37b4745a8d1b8512713b804ff25c6370",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.1-3-x86_64.pkg.tar.zst",
+    "sha256": "c8bb63fb66684d15c5e04f7edacfbabd47e34065ed95b03667e7e42db65479ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
     "depends": [
       "cairo",
       "aquamarine",
-      "libaquamarine.so=13-64",
+      "libaquamarine.so=14-64",
       "libgcc",
       "libstdc++",
       "glibc",
@@ -28763,10 +28761,10 @@
   },
   {
     "name": "hyprland-guiutils",
-    "version": "0.2.2-2",
+    "version": "0.2.2-3",
     "origin": "artix-world",
-    "sha256": "10c2343dbfda6632f75ded154e57988791d2001eb381b352a40746be545a38bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-guiutils-0.2.2-2-x86_64.pkg.tar.zst",
+    "sha256": "eb9592f98dccf84131355e3f58368658bad7f1f9af43f169e8c893b1bdf72ee5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-guiutils-0.2.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -28839,10 +28837,10 @@
   },
   {
     "name": "hyprlock",
-    "version": "0.9.6-2",
+    "version": "0.9.6-3",
     "origin": "artix-world",
-    "sha256": "7aa3f8a54cd3b134a573ebccbf9b17e464acba5384c9881c89111edfc23757d9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprlock-0.9.6-2-x86_64.pkg.tar.zst",
+    "sha256": "33d7f6425e26e3614f09433834be0a87f4a6612422fccc211ff3b712d3b6e848",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprlock-0.9.6-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -28855,7 +28853,6 @@
       "libhyprlang.so=2-64",
       "hyprutils",
       "libhyprutils.so=13-64",
-      "hyprwayland-scanner",
       "libdrm",
       "libglvnd",
       "libEGL.so=1-64",
@@ -28876,10 +28873,10 @@
   },
   {
     "name": "hyprpaper",
-    "version": "0.8.4-6",
+    "version": "0.8.4-8",
     "origin": "artix-world",
-    "sha256": "a4f89d6caf111fb9dc461f42740187575ff2f1e07918b0032ae6621dcebe7742",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpaper-0.8.4-6-x86_64.pkg.tar.zst",
+    "sha256": "5124bbad43897dfc29f3b07f9684bc2d1b67b3ba20fe74e0a643ee679453d4e1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpaper-0.8.4-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "file",
@@ -28895,7 +28892,6 @@
       "libhyprtoolkit.so=5-64",
       "hyprutils",
       "libhyprutils.so=13-64",
-      "hyprwayland-scanner",
       "hyprwire",
       "libhyprwire.so=3-64",
       "libglvnd",
@@ -29013,10 +29009,10 @@
   },
   {
     "name": "hyprtoolkit",
-    "version": "0.5.4-4",
+    "version": "0.5.4-5",
     "origin": "artix-world",
-    "sha256": "35e7f5aed8398565f7e69177fa924a10fe9bfaeb03ab449b22da3a98d67fcfa4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprtoolkit-0.5.4-4-x86_64.pkg.tar.zst",
+    "sha256": "b2fa5fd80cd4fadeb03fe7a70beff8a8973613623ad08eadfe37b8eb9ee6641c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprtoolkit-0.5.4-5-x86_64.pkg.tar.zst",
     "provides": [
       "libhyprtoolkit.so=5-64"
     ],
@@ -29024,7 +29020,7 @@
       "libgcc",
       "libstdc++",
       "aquamarine",
-      "libaquamarine.so=13-64",
+      "libaquamarine.so=14-64",
       "cairo",
       "libcairo.so=2-64",
       "glib2",
@@ -29503,10 +29499,10 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.30-1",
+    "version": "7.1.2.31-1",
     "origin": "artix-world",
-    "sha256": "74dc2860e96a4b445822cbece3b5d177c6e095377bf47eee90804534b0ff2de3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.30-1-x86_64.pkg.tar.zst",
+    "sha256": "2989ac4311cb99cfbdfd673766165d3914ad67e56b87f89ee42d5245bfd6a526",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.31-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmagick"
     ],
@@ -131835,10 +131831,10 @@
   },
   {
     "name": "xdg-desktop-portal-hyprland",
-    "version": "1.4.1-1",
+    "version": "1.4.1-2",
     "origin": "artix-world",
-    "sha256": "39654a015b3c0ce6e93c2c1bccca613ab3f028fee46af428fc6da2ffaca52b0e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-hyprland-1.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4dd4f7311bcf368f82adbc0e2f76bdd6511d7f32f9d90bed7dd4d2e7960972c8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-hyprland-1.4.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "xdg-desktop-portal-impl"
     ],
@@ -131850,7 +131846,6 @@
       "libhyprlang.so=2-64",
       "hyprutils",
       "libhyprutils.so=13-64",
-      "hyprwayland-scanner",
       "libinih",
       "pipewire",
       "qt6-base",
