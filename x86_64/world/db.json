@@ -47,10 +47,10 @@
   },
   {
     "name": "7zip",
-    "version": "26.02-1",
+    "version": "26.03-1",
     "origin": "artix-world",
-    "sha256": "6bb1e320075a958f786e0d5db49b557203476bfc2fb93a5803e8912b555cf423",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/7zip-26.02-1-x86_64.pkg.tar.zst",
+    "sha256": "88a89c4b3b967c7ec65afedc2b9214edede8bf29ceeb98a68d2317f1374480ee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/7zip-26.03-1-x86_64.pkg.tar.zst",
     "provides": [
       "p7zip"
     ],
@@ -338,10 +338,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-382",
+    "version": "1.2.2-384",
     "origin": "artix-world",
-    "sha256": "2e2258e5863a7f5a2f1ffcc52becba4b8922b31b66cd545af180ad066587243b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-382-x86_64.pkg.tar.zst",
+    "sha256": "6842eeab549f46fb1328cd6bc57549b1826d4c9d3cd12db3298f4070b3590e80",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-384-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4834,10 +4834,10 @@
   },
   {
     "name": "bbswitch",
-    "version": "0.8-850",
+    "version": "0.8-852",
     "origin": "artix-world",
-    "sha256": "a2bd8bcf3805f84102b8d1af5b0837f86e5f65c0d5d38e68891d1c149d5fc125",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-850-x86_64.pkg.tar.zst",
+    "sha256": "469fdf210f4d013c922ca0b8ccabf106b6bd3b148a99ef021bc173743111716d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-852-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4847,10 +4847,10 @@
   },
   {
     "name": "bbswitch-dkms",
-    "version": "0.8-850",
+    "version": "0.8-852",
     "origin": "artix-world",
-    "sha256": "6ebb5fa2824d4a51fe5be2a2a93b98e249fcd656a2fb3cef9229b6595c9063a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-850-x86_64.pkg.tar.zst",
+    "sha256": "dcc6bbeca32da4d406fa43b78da061933dfdacebbc3469e07fea1e834a6c361e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-852-x86_64.pkg.tar.zst",
     "provides": [
       "bbswitch"
     ],
@@ -7528,10 +7528,10 @@
   },
   {
     "name": "ccache",
-    "version": "4.13.6-1",
+    "version": "4.14-1",
     "origin": "artix-world",
-    "sha256": "e137ef0da7b01cf572a47050eb0471d15710b5490c63c2a4009ce0baf7370b85",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ccache-4.13.6-1-x86_64.pkg.tar.zst",
+    "sha256": "3b9d6d600bd8189f234eb4ac02303240e5cbf19414a5a242ca3a39d1526f74db",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ccache-4.14-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fmt",
@@ -83322,10 +83322,10 @@
   },
   {
     "name": "python-jsonrpclib-pelix",
-    "version": "0.4.3.3-3",
+    "version": "1.2.0-1",
     "origin": "artix-world",
-    "sha256": "cdd8bb5ba31747127e600c64dda004df105135d74fa7d4a172d652d148c4fd13",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonrpclib-pelix-0.4.3.3-3-any.pkg.tar.zst",
+    "sha256": "44cabdde1e7be4de8578068f3aca8c4b28a4d7f473f70f17a80180ca972a3444",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonrpclib-pelix-1.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -94032,10 +94032,10 @@
   },
   {
     "name": "python-sqlparse",
-    "version": "0.5.3-2",
+    "version": "0.5.4-1",
     "origin": "artix-world",
-    "sha256": "5f5f11617fb515876d5132e5c4da66d32b3c8468c0bfd2f167b7105e6845a136",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sqlparse-0.5.3-2-any.pkg.tar.zst",
+    "sha256": "7bf47d62cfe08106edd4060d564dd739ba8e88d66bfc05039d7dfc0cb31dcb59",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sqlparse-0.5.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -112208,10 +112208,10 @@
   },
   {
     "name": "spirv-llvm-translator",
-    "version": "22.1.5-1",
+    "version": "22.1.6-1",
     "origin": "artix-world",
-    "sha256": "494c115192947e7ca657ab239e09176edc27734fb659a58c0496cd4d01a1b927",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/spirv-llvm-translator-22.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "adae73624cd18c7839e8b10543334d6844a3ce4a7cee53888524647797718fbf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/spirv-llvm-translator-22.1.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -123496,10 +123496,10 @@
   },
   {
     "name": "towncrier",
-    "version": "25.8.0-3",
+    "version": "26.9.0-1",
     "origin": "artix-world",
-    "sha256": "76ac34ada025c1119c19ec9001774854b30bb1435ba69eb7cf3efb6068bf1a21",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/towncrier-25.8.0-3-any.pkg.tar.zst",
+    "sha256": "06be35ca332fba3a507bba29895231a487c55cfe17e9b833ba93685eec041c28",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/towncrier-26.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -130506,10 +130506,10 @@
   },
   {
     "name": "wine",
-    "version": "11.16-2",
+    "version": "11.17-1",
     "origin": "artix-world",
-    "sha256": "3d8bb8a0a82f86d959a494d16b3abcbf0574a7f8950bb222d6f0a62696e5dbb8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-11.16-2-x86_64.pkg.tar.zst",
+    "sha256": "de33fe963f442e7c108693d73a2fffc50fb590b57d513156d7b502200ea7d08c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-11.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
@@ -134176,10 +134176,10 @@
   },
   {
     "name": "xterm",
-    "version": "410-1",
+    "version": "411-1",
     "origin": "artix-world",
-    "sha256": "382bd42c6e37fb1ebf5058d35c53471086180699fa5616f0ab56d56eddbfc565",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xterm-410-1-x86_64.pkg.tar.zst",
+    "sha256": "4d345830b80afd0ec926eecdfd997295984b5773ca92e5a3c1f41c710e17bf7d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xterm-411-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fontconfig",
