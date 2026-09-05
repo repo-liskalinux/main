@@ -130563,12 +130563,12 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.16-2",
+    "version": "11.17-1",
     "origin": "artix-world",
-    "sha256": "acaee0135f7f2ed459bdef126ee8f42bd4503cdf955d5eb5b14f311c636c0f02",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.16-2-x86_64.pkg.tar.zst",
+    "sha256": "c6339bc5359621975d61b820bc893d4c0929a4b8f475a0c9c7f0aa12c5a23a68",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.17-1-x86_64.pkg.tar.zst",
     "provides": [
-      "wine=11.16"
+      "wine=11.17"
     ],
     "depends": [
       "attr",
@@ -133054,10 +133054,10 @@
   },
   {
     "name": "xorg-server",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "8fd0a43566b60d66fd92f53c0eb6fb3930890d39badbdc34fd5609f40a1c0805",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "08df193f7c843b0631a5f285dca2057e2447442a3664346173008e2430c8a88b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [
       "X-ABI-VIDEODRV_VERSION=25.2",
       "X-ABI-XINPUT_VERSION=24.4",
@@ -133096,10 +133096,10 @@
   },
   {
     "name": "xorg-server-common",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "09b996b3dc720a2cea186b4d6c42408a083423f2a4d93217df4b7c8954abbf1e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-common-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "ea182eb4bee29bd50587c3b61f6936109b8244312a39fa188356770b23e60b54",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-common-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "xkeyboard-config",
@@ -133111,10 +133111,10 @@
   },
   {
     "name": "xorg-server-devel",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "846f3887c2c79604607d7118694322ed6d1254e2307e24a2fc0663bc61695d30",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-devel-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "d419f2731176da5e9e72c2f51da49944b8bbe0dde4d9ff90cffcf49a5cf50313",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-devel-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "xorgproto",
@@ -133128,10 +133128,10 @@
   },
   {
     "name": "xorg-server-src",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "a1bfa434261641a6c6aca6393b71cd2f85902d87fabc14d93c54c5f9e7560ddb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-src-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "873e1d993c2a6e12062522269714b24ff13bd169dc548ebdbf0d69fd94f76564",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-src-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -133182,10 +133182,10 @@
   },
   {
     "name": "xorg-server-xephyr",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "0b0a750bf57aa05ca7e4b2542bd03c865aabd7f85e82dad990e7e7abf6fd5179",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xephyr-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "08438ed679e4ef26b2da6a51308341e0ddd2196b02482f3c653212f47f1e9a3b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xephyr-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
@@ -133213,10 +133213,10 @@
   },
   {
     "name": "xorg-server-xnest",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "aac493c878aeea4a0ccb27fb63781e9c760062d683c689b8f658d61cdb062611",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xnest-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "a697f339edaeaa4dd6729f810769a9d41af8830e80224dc717413457811752ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xnest-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
@@ -133237,10 +133237,10 @@
   },
   {
     "name": "xorg-server-xvfb",
-    "version": "21.1.24-1.2",
+    "version": "21.1.24-1.4",
     "origin": "artix-world",
-    "sha256": "3752d5010008e0abb2bcdb4fdeb2fed43a2f775ca99c049e3d8dc5072f69e12e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xvfb-21.1.24-1.2-x86_64.pkg.tar.zst",
+    "sha256": "67dd60e089aa44edac405820015500c105fa2eda1309b824a1bb4f0a35e121ca",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xvfb-21.1.24-1.4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
