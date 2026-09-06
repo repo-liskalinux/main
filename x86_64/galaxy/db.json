@@ -4808,10 +4808,10 @@
   },
   {
     "name": "fcitx5-bamboo",
-    "version": "1.0.10-1",
+    "version": "1.0.11-1",
     "origin": "artix-galaxy",
-    "sha256": "c2ada5ff02fb2c0cdcdba9443afaa06142f0c50f5e709582efa76c5e86398c36",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-bamboo-1.0.10-1-x86_64.pkg.tar.zst",
+    "sha256": "61e2bfa915c1cf0245761f052494b05af4205a4dc73fec4b1c60caa80f4db21b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-bamboo-1.0.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fcitx5"
@@ -4821,13 +4821,12 @@
   },
   {
     "name": "fcitx5-chinese-addons",
-    "version": "5.1.13-2.1",
+    "version": "5.1.14-1",
     "origin": "artix-galaxy",
-    "sha256": "cb38717aeeb3b2ef63f45a48f0091037432e39fd7eb252cec3a1e7f28a2d5b63",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-chinese-addons-5.1.13-2.1-x86_64.pkg.tar.zst",
+    "sha256": "a986edd1678462bd8504cc3bd60f90ad3b3e9328bcbeb3a98fd3131499a9d54f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-chinese-addons-5.1.14-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "boost-libs",
       "curl",
       "fcitx5-qt",
       "libime",
@@ -4843,10 +4842,10 @@
   },
   {
     "name": "fcitx5-configtool",
-    "version": "5.1.14-1",
+    "version": "5.1.15-1",
     "origin": "artix-galaxy",
-    "sha256": "fa98ffc2f12a0e8f1ab84514e843c1981bf049117f82c42b58a42d0b6eb550a2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-configtool-5.1.14-1-x86_64.pkg.tar.zst",
+    "sha256": "3d1dee8a96735c45f97b1ef393abb2f0b838005e734612c0bfb8be6a9acee7f4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-configtool-5.1.15-1-x86_64.pkg.tar.zst",
     "provides": [
       "fcitx5-config-qt",
       "kcm-fcitx5"
@@ -4872,10 +4871,10 @@
   },
   {
     "name": "fcitx5-lua",
-    "version": "5.0.17-1",
+    "version": "5.0.18-1",
     "origin": "artix-galaxy",
-    "sha256": "db6728c498ec1c3c8eb5c0da15bfe07c1320370071a246ee3c881e31d56dc095",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-lua-5.0.17-1-x86_64.pkg.tar.zst",
+    "sha256": "f55c27d06c70508b803ad509bee0c26a1697fda53d23fd320fdfc97a569a9170",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-lua-5.0.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fcitx5",
@@ -4886,10 +4885,10 @@
   },
   {
     "name": "fcitx5-qt",
-    "version": "5.1.14-2",
+    "version": "5.1.15-1",
     "origin": "artix-galaxy",
-    "sha256": "8bd8e3c018202f3c70c88d8d81bad0437a324d0a78c597c044c26be7b715c248",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.14-2-x86_64.pkg.tar.zst",
+    "sha256": "5c5d6166045133bc68af6154665c8cf67402f9d92dbdb06caab00488a3bf2f74",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -4906,10 +4905,10 @@
   },
   {
     "name": "fcitx5-unikey",
-    "version": "5.1.11-1",
+    "version": "5.1.12-1",
     "origin": "artix-galaxy",
-    "sha256": "5e2bdfda93f731ce69e1d09b5ed6aa281833536e3d366ed95472bd90f417fd17",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-unikey-5.1.11-1-x86_64.pkg.tar.zst",
+    "sha256": "2f2ac3a9ff390b9400d7870f03a593971e353b1a1977d53b7c78aa55e748549a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-unikey-5.1.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fcitx5-qt"
@@ -11228,10 +11227,10 @@
   },
   {
     "name": "libime",
-    "version": "1.1.15-1",
+    "version": "1.1.16-1",
     "origin": "artix-galaxy",
-    "sha256": "6f2c399110ca602601cd64d4f95426aaffe7080216e8d42e52e077baa76bd172",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libime-1.1.15-1-x86_64.pkg.tar.zst",
+    "sha256": "28a9040633ff4473cd8a8a44363aedb85a2c307508cf7240215d4a4263acd431",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libime-1.1.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -25110,10 +25109,10 @@
   },
   {
     "name": "s6-rc-man-pages",
-    "version": "0.6.1.1.1-1",
+    "version": "0.7.0.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bb6f898e067ad01aedaf6e1f82f33e63b05a835211bcd351fdb0a844c4b7cbec",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-rc-man-pages-0.6.1.1.1-1-any.pkg.tar.zst",
+    "sha256": "a6f6dba5da126e4f8896a94ee2f1cc5d89b9ab7bfd3990ce67c971a0f26d8b14",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/s6-rc-man-pages-0.7.0.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
