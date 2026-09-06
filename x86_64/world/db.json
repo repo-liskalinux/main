@@ -13503,10 +13503,10 @@
   },
   {
     "name": "egl-gbm",
-    "version": "1.1.3-1",
+    "version": "1.1.4-1",
     "origin": "artix-world",
-    "sha256": "c53adb1a6963f1c52b6388c36e1f0d3f425adf5b2155c6771a1f49a0fec5a6c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/egl-gbm-1.1.3-1-x86_64.pkg.tar.zst",
+    "sha256": "67f2f9ec73ee476db11eb80dfd23b37aac67b1e88d1561b5eb2fd448c6e4640e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/egl-gbm-1.1.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libnvidia-egl-gbm.so=1"
     ],
@@ -109098,10 +109098,10 @@
   },
   {
     "name": "rust-bindgen",
-    "version": "0.72.1-3",
+    "version": "0.73.0-1",
     "origin": "artix-world",
-    "sha256": "1c99ffab868689dc7c4834a88b689169363a50d389902fa1f305ef0e80cde0f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-bindgen-0.72.1-3-x86_64.pkg.tar.zst",
+    "sha256": "2d5e80c4ab397ba5dba644d0c1eb7e6a0ec4bc67effe0e397ed5ff9e9b72141a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-bindgen-0.73.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -110144,12 +110144,12 @@
   },
   {
     "name": "sdl2-compat",
-    "version": "2.32.70-1",
+    "version": "2.32.72-1",
     "origin": "artix-world",
-    "sha256": "103e3df9f01f8dd47997deb464249330acfaefd8ba3ab1f7324e5b5ca5151eef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl2-compat-2.32.70-1-x86_64.pkg.tar.zst",
+    "sha256": "ac7b48c664a555370022ca1e4bff6e804a3d7341deff5aa58a955e826fbff7d5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl2-compat-2.32.72-1-x86_64.pkg.tar.zst",
     "provides": [
-      "sdl2=2.32.70"
+      "sdl2=2.32.72"
     ],
     "depends": [
       "sdl3",
@@ -110162,10 +110162,10 @@
   },
   {
     "name": "sdl3",
-    "version": "3.4.14-1",
+    "version": "3.4.16-1",
     "origin": "artix-world",
-    "sha256": "80c0bf13d3392ad25ad00a083c09dc3184c12cb2c2397e6c4648fb1cf962f9ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl3-3.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "3b95a76ab889978ae4a52ff9e77787b915691c1e23d6884c7b50ad4f016ecafb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl3-3.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
