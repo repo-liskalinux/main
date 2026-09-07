@@ -213,6 +213,17 @@
         "conflicts": []
     },
     {
+        "name": "lk",
+        "version": "1.0.0-1",
+        "origin": "liska-core",
+        "sha256": "",
+        "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lk-1.0.0-1-x86_64.lsk.tar.zst",
+        "provides": [],
+        "depends": [],
+        "optdepends": [],
+        "conflicts": []
+    },
+    {
         "name": "lkfs",
         "version": "1.0.0-1",
         "origin": "liska-core",
@@ -328,7 +339,7 @@
     },
     {
         "name": "util-linux",
-        "version": "2.42.2-1",
+        "version": "2.42.3-1",
         "origin": "liska-core",
         "sha256": "",
         "url": "https://github.com/repo-liskalinux/main/releases/download/stable/util-linux-2.42.2-1-x86_64.lsk.tar.zst",
