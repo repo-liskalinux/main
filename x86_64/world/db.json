@@ -47011,10 +47011,10 @@
   },
   {
     "name": "libmupdf",
-    "version": "1.28.0-1.1",
+    "version": "1.28.3-1",
     "origin": "artix-world",
-    "sha256": "16be79c7c5594b4536849ca6f93b8d4ecec948a874cdcb70e68ef976910bfe19",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmupdf-1.28.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "da0a757d04a4d46038afdeb7eec8b1c414a44f91c874057eebd68da3b95fb2f4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmupdf-1.28.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -58056,10 +58056,10 @@
   },
   {
     "name": "mupdf",
-    "version": "1.28.0-1.1",
+    "version": "1.28.3-1",
     "origin": "artix-world",
-    "sha256": "4285e31c73ddc7cab62927da9dbf9026ca2f1e285c6660bea3ddfbde2b75b12f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mupdf-1.28.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "5d4caa0a67e69fe14be1bb046ada888d0151b7cf37758838ee98afc32d95fd46",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mupdf-1.28.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
@@ -58073,12 +58073,12 @@
   },
   {
     "name": "mupdf-gl",
-    "version": "1.28.0-1.1",
+    "version": "1.28.3-1",
     "origin": "artix-world",
-    "sha256": "618ebac2c1f00660ca0572580ec981b44dc9e48ae8eff4c0a98fb77e3a5d316d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mupdf-gl-1.28.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "ba7ae42a70d987376912c12a04d5388f8540c3d58c6dae58a82880383ca2b61e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mupdf-gl-1.28.3-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mupdf=1.28.0"
+      "mupdf=1.28.3"
     ],
     "depends": [
       "desktop-file-utils",
@@ -58095,10 +58095,10 @@
   },
   {
     "name": "mupdf-tools",
-    "version": "1.28.0-1.1",
+    "version": "1.28.3-1",
     "origin": "artix-world",
-    "sha256": "775b5e7acda593b6e1cf2b818d5918eb018d5ca8a45c2ac637be51be6923d68e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mupdf-tools-1.28.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "368d7b9f83475b9f3a9344f0805ad37c0a35d1d84a927827d284ff2d9d813848",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mupdf-tools-1.28.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72259,10 +72259,10 @@
   },
   {
     "name": "plocate",
-    "version": "1.1.24-2",
+    "version": "1.1.25-1",
     "origin": "artix-world",
-    "sha256": "30c5895ec3850a4a667070fed2b65151572baa463b4fff80df7720fb12aa6be2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plocate-1.1.24-2-x86_64.pkg.tar.zst",
+    "sha256": "ae7d79fb76e7f7fa34df8695a217f55d0463b3442f5027c16c7d21cd83a62d8d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plocate-1.1.25-1-x86_64.pkg.tar.zst",
     "provides": [
       "mlocate",
       "locate"
@@ -74995,10 +74995,10 @@
   },
   {
     "name": "pyenv",
-    "version": "1:2.8.4-1",
+    "version": "1:2.8.5-1",
     "origin": "artix-world",
-    "sha256": "7de9764e6b63a90e6cd79760ff05ad0612df38232e6c24cd987c9aca9bbfdd08",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyenv-1:2.8.4-1-any.pkg.tar.zst",
+    "sha256": "dbeb1393bb7244d9dd1b1c7035d5706a971cf05b428920e82522b762d375b2b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyenv-1:2.8.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash"
@@ -77982,15 +77982,16 @@
   },
   {
     "name": "python-configargparse",
-    "version": "1.7.5-1",
+    "version": "1.7.7-1",
     "origin": "artix-world",
-    "sha256": "92f9b019ff7d837d3ae9e3dd73ab1c8f619f79b8113338757d8c1f8a890750b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-configargparse-1.7.5-1-any.pkg.tar.zst",
+    "sha256": "53d3b5ff95d5faf8def24d3398b828436be85d024031fbfd9b7155ddcd837d22",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-configargparse-1.7.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
     ],
     "optdepends": [
+      "python-toml: for writing TOML configuration files",
       "python-yaml: for YAML support"
     ],
     "conflicts": []
@@ -78246,10 +78247,10 @@
   },
   {
     "name": "python-crispy-bootstrap5",
-    "version": "2026.3-1",
+    "version": "2026.9-1",
     "origin": "artix-world",
-    "sha256": "9260c10c94302a15d913c6ac90a667169c5816a3f43a6cfc71ecdb1365a5a9d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-crispy-bootstrap5-2026.3-1-any.pkg.tar.zst",
+    "sha256": "acd6ce0eb12f40a9433cef80212ede363f2f095eec64666bcea4edf3f0b94547",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-crispy-bootstrap5-2026.9-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -79167,10 +79168,10 @@
   },
   {
     "name": "python-django-guardian",
-    "version": "3.4.0-1",
+    "version": "3.4.1-1",
     "origin": "artix-world",
-    "sha256": "49f6460423f8629732262c459de5baa7d868e8fc0fe1b82a65e208df8af573b0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-guardian-3.4.0-1-any.pkg.tar.zst",
+    "sha256": "f31ef5568432e10ca527cdee04fd6a635e0b21f82185216139568f5ac0cb5949",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-guardian-3.4.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -79225,10 +79226,10 @@
   },
   {
     "name": "python-django-ninja",
-    "version": "1.6.3-1",
+    "version": "1.7.0-1",
     "origin": "artix-world",
-    "sha256": "1046fa51a9a8f77b345e82891a86515a2f9ea7977f0ff7b27f49258b6ec911f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-ninja-1.6.3-1-any.pkg.tar.zst",
+    "sha256": "449162db5bb97acd189dbfe44e98612bd1feb5e1ba9361dcd9c09a07f2bb53ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-ninja-1.7.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -82265,10 +82266,10 @@
   },
   {
     "name": "python-hypothesis",
-    "version": "6.167.0-1",
+    "version": "6.167.1-1",
     "origin": "artix-world",
-    "sha256": "7de99784be0bae8c5248cb9ec83af879f1215803935aa187f435887306a6c479",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-hypothesis-6.167.0-1-x86_64.pkg.tar.zst",
+    "sha256": "97faf10ade4434e43117a8817b46bd4d708ff01934ba8cde01177f2823b61f80",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-hypothesis-6.167.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -85213,10 +85214,10 @@
   },
   {
     "name": "python-mupdf",
-    "version": "1.28.0-1.1",
+    "version": "1.28.3-1",
     "origin": "artix-world",
-    "sha256": "98b2f9f4edfe224963258069996fe4e4f81cd526dbda1c05733a3d241c247f33",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-mupdf-1.28.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "4ed595371a945367d8a0b6a62388c95096639b9c5f90d65e8330a5e2a6e7d94c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-mupdf-1.28.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -85788,10 +85789,10 @@
   },
   {
     "name": "python-numpy",
-    "version": "2.5.2-1",
+    "version": "2.5.3-1",
     "origin": "artix-world",
-    "sha256": "5bb8820807fdbcb12b35627e7a7c47f4bc673c8047b608125423c0d422294e2c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-numpy-2.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1d983691240872250be073d7052f303fc3984bba883b01871010b46864cd7704",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-numpy-2.5.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cblas",
@@ -86951,10 +86952,10 @@
   },
   {
     "name": "python-pbs-installer",
-    "version": "2026.08.25-1",
+    "version": "2026.09.01-1",
     "origin": "artix-world",
-    "sha256": "346dbd6abb493070e09ef6e42a1cbb8e17f8fca0598d6335a801f995bb060f14",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbs-installer-2026.08.25-1-any.pkg.tar.zst",
+    "sha256": "90645712c6ad7196aa162df1251102b5a82a1555be72e2540475afa58ef3e7cc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbs-installer-2026.09.01-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -89361,10 +89362,10 @@
   },
   {
     "name": "python-pymupdf",
-    "version": "1.28.0-1",
+    "version": "1.28.2-1",
     "origin": "artix-world",
-    "sha256": "2860bfd1977fdad7b14a23c0f8388dc2e1c212642f699e911b543c4c6b0e081e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pymupdf-1.28.0-1-x86_64.pkg.tar.zst",
+    "sha256": "10478dcc13d0397aabcb089054b3c86b27ec7f3395c7f5f4fad993840934ff8a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pymupdf-1.28.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -89999,10 +90000,10 @@
   },
   {
     "name": "python-pysequoia",
-    "version": "0.1.34-1",
+    "version": "0.1.35-1",
     "origin": "artix-world",
-    "sha256": "4dac22676a6441e6c85b66363e679b47fc06395c045c290e2894560b25186a78",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pysequoia-0.1.34-1-x86_64.pkg.tar.zst",
+    "sha256": "1bc91849635b7c9ba8a66f9db4e2e2a935fd532ab092609b69c82884e51b30d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pysequoia-0.1.35-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -91729,10 +91730,10 @@
   },
   {
     "name": "python-rapidjson",
-    "version": "1.24-1",
+    "version": "1.25-1",
     "origin": "artix-world",
-    "sha256": "515a6e93d83fd13ad7d2799e5af6e8a71834a36257306e87ec335bd4a3b12664",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-rapidjson-1.24-1-x86_64.pkg.tar.zst",
+    "sha256": "21f2e9cf23886f6b12d2cae639945d252d7e69d26249c6cc7a049b2e74045db9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-rapidjson-1.25-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -91876,13 +91877,13 @@
   },
   {
     "name": "python-regress",
-    "version": "2025.10.1-2",
+    "version": "2026.9.1-1",
     "origin": "artix-world",
-    "sha256": "5fdec7f0ac2f1a12cc4b3ce5d0fae201ee2b4f20ca8026d15c3af0c50068300e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-regress-2025.10.1-2-x86_64.pkg.tar.zst",
+    "sha256": "7489c8a71661a66d83bafb269a8dbdeba04d74072a285bde3ba1a875b1428551",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-regress-2026.9.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
+      "libgcc",
       "glibc",
       "python"
     ],
@@ -94450,10 +94451,10 @@
   },
   {
     "name": "python-strawberry-graphql",
-    "version": "0.327.3-1",
+    "version": "0.327.4-1",
     "origin": "artix-world",
-    "sha256": "f42e5eb378ada3228a409d19307eea0413e2526e0123bc22108dc7d2668f6c65",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.327.3-1-any.pkg.tar.zst",
+    "sha256": "fdae5f3608b24c33f653ae44483079d7f797b562f83f8e8f46d57f74e80c53b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.327.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96858,10 +96859,10 @@
   },
   {
     "name": "python-yaspin",
-    "version": "3.4.0-1",
+    "version": "3.5.0-1",
     "origin": "artix-world",
-    "sha256": "02adebf6f9006533e516c61d9f18a1873ec5f944fa83c05bea5e1511a752dc2f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-yaspin-3.4.0-1-any.pkg.tar.zst",
+    "sha256": "f275f3188d33b8cdb83ecc2d2b9bf3bcf89c3bf35258550d61937f0743404659",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-yaspin-3.5.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-termcolor"
@@ -128645,10 +128646,10 @@
   },
   {
     "name": "vncdotool",
-    "version": "1.4.1-1",
+    "version": "1.4.2-1",
     "origin": "artix-world",
-    "sha256": "40ff1db55f49929ece6619d64d94ae32aef01c8eba6524db402d338bd7d54f94",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vncdotool-1.4.1-1-any.pkg.tar.zst",
+    "sha256": "889d977cef31a2ed1ead76f92c6c30a011cea6ba7be5db5e5a2dfe00e91d61d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vncdotool-1.4.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pillow",
@@ -134499,10 +134500,10 @@
   },
   {
     "name": "yazi",
-    "version": "26.9.1-1",
+    "version": "26.9.1-2",
     "origin": "artix-world",
-    "sha256": "a29c73b2e6d390acd2cdf6b265adc1d17dd0d87419a758b46e282ee15b12ee4f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yazi-26.9.1-1-x86_64.pkg.tar.zst",
+    "sha256": "307a5d5e916738fd5ed04020407d801b1db4b7d7a99a936da914ca6ee15cf049",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yazi-26.9.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -134512,6 +134513,7 @@
       "oniguruma"
     ],
     "optdepends": [
+      "ttf-font-nerd: for icons",
       "ffmpeg: for video thumbnails",
       "7zip: for archive extraction and preview",
       "jq: for JSON preview",
@@ -134526,8 +134528,7 @@
       "xsel: for X11 clipboard support",
       "wl-clipboard: for Wayland clipboard support",
       "chafa: for ASCII image preview as fallback",
-      "git: for Yazi package management",
-      "ttf-font-nerd: for icons"
+      "git: for Yazi package management"
     ],
     "conflicts": []
   },

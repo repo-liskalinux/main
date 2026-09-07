@@ -20903,6 +20903,55 @@
     "conflicts": []
   },
   {
+    "name": "noctalia",
+    "version": "5.0.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "bf5fb570896c622a3578bc13672e167bfccbbf547eb255ae17c6879d503163e9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/noctalia-5.0.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "cairo",
+      "curl",
+      "fontconfig",
+      "freetype2",
+      "git",
+      "glib2",
+      "glibc",
+      "harfbuzz",
+      "hicolor-icon-theme",
+      "jemalloc",
+      "libgcc",
+      "libglvnd",
+      "libical",
+      "libjxl",
+      "libpipewire",
+      "libqalculate",
+      "librsvg",
+      "libsecret",
+      "libsndfile",
+      "libsodium",
+      "libstdc++",
+      "libwebp",
+      "libwireplumber",
+      "libxkbcommon",
+      "libxml2",
+      "md4c",
+      "pam",
+      "polkit",
+      "pango",
+      "sdbus-cpp",
+      "tomlplusplus",
+      "wayland"
+    ],
+    "optdepends": [
+      "ddcutil: monitor brightness control",
+      "power-profiles-daemon: power profile management",
+      "upower: battery and power device integration"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "ntpd-rs",
     "version": "1.8.0-1.1",
     "origin": "artix-galaxy",
@@ -26121,6 +26170,23 @@
     ],
     "optdepends": [],
     "conflicts": []
+  },
+  {
+    "name": "svgo",
+    "version": "4.1.0-1",
+    "origin": "artix-galaxy",
+    "sha256": "b7f8f6172aa6c6d81b78c73b8ee6dcaabf54c9a1eec1e25f25e6abdffb1da983",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/svgo-4.1.0-1-any.pkg.tar.zst",
+    "provides": [
+      "nodejs-svgo"
+    ],
+    "depends": [
+      "nodejs"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "nodejs-svgo"
+    ]
   },
   {
     "name": "sway-contrib",
