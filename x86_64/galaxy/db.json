@@ -9117,10 +9117,10 @@
   },
   {
     "name": "gnote",
-    "version": "50.1-1",
+    "version": "50.2-1",
     "origin": "artix-galaxy",
-    "sha256": "70f1f8328a26f9177b270f4c373152e93ae1e10c3fcfcf89d5e0be20f8361739",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gnote-50.1-1-x86_64.pkg.tar.zst",
+    "sha256": "87872ba430805b2437875a98c9f580c76249fbbbc86511436d11d8c231936395",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gnote-50.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairomm-1.16",
@@ -16387,10 +16387,10 @@
   },
   {
     "name": "librewolf",
-    "version": "155.0.0_1-1",
+    "version": "155.0.1_1-1",
     "origin": "artix-galaxy",
-    "sha256": "c1ed8184e866916eb85bdeeba36e1e4b467fe5ba1aae3b7f456ed23aede0e247",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-155.0.0_1-1-x86_64.pkg.tar.zst",
+    "sha256": "a745a53917d1f9ac78f9921bb438123c9ee04005ea3e6fcc99ca7528d6a3cf1f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-155.0.1_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -16656,10 +16656,10 @@
   },
   {
     "name": "libva-nvidia-driver",
-    "version": "0.0.17-1",
+    "version": "0.0.18-1",
     "origin": "artix-galaxy",
-    "sha256": "96425a45d3e781c24bb8e5342baca267432c2efba51744d7828eac1e19bbbc60",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libva-nvidia-driver-0.0.17-1-x86_64.pkg.tar.zst",
+    "sha256": "f3c381417bd8cbf33d5dee57add7c62bbceb73a6497e227b38811be8bcb1320c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libva-nvidia-driver-0.0.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28869,10 +28869,10 @@
   },
   {
     "name": "vdirsyncer",
-    "version": "0.20.0-4",
+    "version": "0.21.0-1",
     "origin": "artix-galaxy",
-    "sha256": "7555488593edcf3cf339f7eebeda6e81c41583c49add2ca8ff83bc45179216c5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/vdirsyncer-0.20.0-4-any.pkg.tar.zst",
+    "sha256": "a9312f485102fc11ca81b44f831e09a13cb9df62664bb7b4995193e562b49766",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/vdirsyncer-0.21.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -28880,7 +28880,8 @@
       "python-aiostream",
       "python-click",
       "python-click-log",
-      "python-requests"
+      "python-requests",
+      "python-tenacity"
     ],
     "optdepends": [
       "python-aiohttp-oauthlib: Google support"
@@ -31199,10 +31200,10 @@
   },
   {
     "name": "zathura-pdf-mupdf",
-    "version": "2026.07.18-1.1",
+    "version": "2026.07.18-2",
     "origin": "artix-galaxy",
-    "sha256": "f19d56fee29b79dd5a06fc56a0732a5b7f32ba460d576bd573b6776c70dd42c4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-1.1-x86_64.pkg.tar.zst",
+    "sha256": "c4b039ea143fbe5b6d9a9fa185fe365578ba28d697ef64558a0dbf1f5681975c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -31382,12 +31383,14 @@
   },
   {
     "name": "zramen",
-    "version": "1.0.0-1",
+    "version": "1.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fcd030683212d34b88fcc7e9e50c7c893dca0bceefc7981b3f81d54986420ad7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zramen-1.0.0-1-any.pkg.tar.zst",
+    "sha256": "3654b308b3e3f68cfb94a80c6fe2b3f1c5994d42c9bb884e7681188c10bfa96b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zramen-1.0.1-1-any.pkg.tar.zst",
     "provides": [],
-    "depends": [],
+    "depends": [
+      "bash"
+    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -31425,12 +31428,13 @@
   },
   {
     "name": "zramen-runit",
-    "version": "0.2.1-1",
+    "version": "1.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "41caaa9caab5374810b07ed889e6f5616424a7e8e7b1ca29fecec98b701b7f59",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zramen-runit-0.2.1-1-any.pkg.tar.zst",
+    "sha256": "b6c80798dce4c42fe48ccf8a92628d4c03c6f59ec20523061658c8927c521fc7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zramen-runit-1.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "bash",
       "zramen",
       "runit"
     ],
