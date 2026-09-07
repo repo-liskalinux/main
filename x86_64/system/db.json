@@ -4629,7 +4629,7 @@
     "name": "liskaiso",
     "version": "1-1",
     "origin": "liska-core",
-    "sha256": "1f61b24801e3f849fc0e39004060ffe58a5883774f9c3a7f0338a895c41b3bac",
+    "sha256": "29b2a35bf0273cf0ddf1b36f35e5d51d7731837fbf0758caeaf03d74bf4743ba",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/liskaiso-1-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -4641,6 +4641,17 @@
       "squashfs-tools",
       "xorriso"
     ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lk",
+    "version": "1.0.0-1",
+    "origin": "liska-core",
+    "sha256": "6281e58a4dc4c619a1c1c930f96c92d3cd04178b5aa058b811055d1d06f9f9ec",
+    "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lk-1.0.0-1-x86_64.lsk.tar.zst",
+    "provides": [],
+    "depends": [],
     "optdepends": [],
     "conflicts": []
   },
@@ -4667,7 +4678,7 @@
     "name": "lkpm",
     "version": "1.1.0-1",
     "origin": "liska-core",
-    "sha256": "40cad10b5dd342acb4d6536f27fed835b788b378b8ea609f692e5d48106d61e1",
+    "sha256": "0ce2ad5fc8d026769bd73cb4aebf0fa65c1ff5c757c7e083d2b1a324f071d3f4",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/lkpm-1.1.0-1-x86_64.lsk.tar.zst",
     "provides": [],
     "depends": [
@@ -5700,7 +5711,7 @@
   },
   {
     "name": "pam",
-    "version": "1.7.2",
+    "version": "1.7.2-1",
     "origin": "liska-core",
     "sha256": "051556bc281531eeb0c3feead9e3356afac563cbd190e63750ed0f700ac5d678",
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/pam-1.7.2-1-x86_64.lsk.tar.zst",
@@ -6874,9 +6885,9 @@
   },
   {
     "name": "util-linux",
-    "version": "2.42.2-1",
+    "version": "2.42.3-1",
     "origin": "liska-core",
-    "sha256": "5195227a258da045ebe5371d071b59b77447edcf30b1f4ca291bf583bf5e2f5c",
+    "sha256": null,
     "url": "https://github.com/repo-liskalinux/main/releases/download/stable/util-linux-2.42.2-1-x86_64.lsk.tar.zst",
     "provides": [
       "libblkid",
