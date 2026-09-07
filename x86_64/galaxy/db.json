@@ -21533,13 +21533,12 @@
   },
   {
     "name": "openshot",
-    "version": "4.0.0-1",
+    "version": "4.0.0-2.1",
     "origin": "artix-galaxy",
-    "sha256": "23987bae41ad346c3ae06799fae29f39297005c0a143ab27161e3b700fa38a22",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openshot-4.0.0-1-any.pkg.tar.zst",
+    "sha256": "91b382d807f4e7c9faf2cc8c9cf54accea027096cc9552f6457691086fa17ad7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openshot-4.0.0-2.1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "git",
       "ffmpeg",
       "hicolor-icon-theme",
       "libopenshot",
@@ -21548,8 +21547,15 @@
       "python-pyqt6",
       "python-pyzmq",
       "python-requests",
+      "python-certifi",
+      "python-defusedxml",
+      "python-distro",
+      "python-numpy",
+      "python-opengl",
+      "python-pillow",
       "qt6-base",
-      "qt6-svg"
+      "qt6-svg",
+      "qt6-scxml"
     ],
     "optdepends": [
       "faac: for exporting audio using AAC",
