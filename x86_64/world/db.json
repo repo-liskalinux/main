@@ -1394,10 +1394,10 @@
   },
   {
     "name": "anari-sdk",
-    "version": "0.15.0-1",
+    "version": "0.16.0-1",
     "origin": "artix-world",
-    "sha256": "011fe8eadade0da1d1c4ad5ce5b28f151d82bddf4694b47aaab30607e8824293",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/anari-sdk-0.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8589623f1a61b714bed76e3b2293fadd196fbcaf81455612f4f31630a96f63e2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/anari-sdk-0.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9071,10 +9071,10 @@
   },
   {
     "name": "conky",
-    "version": "1.22.3-3",
+    "version": "1.24.2-1",
     "origin": "artix-world",
-    "sha256": "9cb087b99c270d800483f0ac67d951bc6f19122c58a48e5cc05c89d47ec51870",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/conky-1.22.3-3-x86_64.pkg.tar.zst",
+    "sha256": "278b8bbf0dd2634f84fd4bfc060748ab147abb5000f7ca1c80ca6ca3ff2d32b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/conky-1.24.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -9096,6 +9096,7 @@
       "libxext",
       "libxfixes",
       "libxft",
+      "libxi",
       "libxinerama",
       "libxml2",
       "libxnvctrl",
@@ -9311,10 +9312,10 @@
   },
   {
     "name": "containerd",
-    "version": "2.3.4-1",
+    "version": "2.3.5-1",
     "origin": "artix-world",
-    "sha256": "7307f39b17b65d0756102f003affcb81cb4154481eae74aa2d310f6cecdf86d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containerd-2.3.4-1-x86_64.pkg.tar.zst",
+    "sha256": "148466d7ebd3991db6368ddbc13042e022d963afcef6570866088f168bdf458f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containerd-2.3.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "container-runtime"
     ],
@@ -10526,10 +10527,10 @@
   },
   {
     "name": "dart-sass",
-    "version": "1.103.1-1",
+    "version": "1.104.0-1",
     "origin": "artix-world",
-    "sha256": "1045067685f7c462c13ba37398754e5210f2358a94639586f013ade9ca5038e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.103.1-1-x86_64.pkg.tar.zst",
+    "sha256": "fb99b43a5d99cde030f85a41bddecec1f8998b3573a0342da075ae3ce20114f4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.104.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "sass"
     ],
@@ -45240,10 +45241,10 @@
   },
   {
     "name": "libheif",
-    "version": "1.23.3-1",
+    "version": "1.23.4-1",
     "origin": "artix-world",
-    "sha256": "10d41f4b858af1819712cf8613e43513c945da164bbca54e3f1868ae22a0833a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libheif-1.23.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d5c317de3974a4784800605b065b78deca7a291bac781c352c3c980c396e46fd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libheif-1.23.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libheif.so=1-64"
     ],
@@ -47868,10 +47869,10 @@
   },
   {
     "name": "libpathrs",
-    "version": "0.2.5-2",
+    "version": "0.2.6-1",
     "origin": "artix-world",
-    "sha256": "b97c2444a4bca93952e2b616acf9628f20f43e6a21433e2c04780e106ef913e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpathrs-0.2.5-2-x86_64.pkg.tar.zst",
+    "sha256": "29119f40c5698a5c95ef28c6266ebb6fea3878cd1272fd483e2584c7f7d3f8b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpathrs-0.2.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -102185,10 +102186,10 @@
   },
   {
     "name": "rclone",
-    "version": "1.75.0-1",
+    "version": "1.75.1-1",
     "origin": "artix-world",
-    "sha256": "4e4de6bdb199da4d047f4007ff7904bf23e450335eb2c57d3c7567af556abefe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rclone-1.75.0-1-x86_64.pkg.tar.zst",
+    "sha256": "002e03d44887a2018bc58f431ee15470c73e9ef6f72e75fd2cc4467f96a214d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rclone-1.75.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -104710,10 +104711,10 @@
   },
   {
     "name": "ruby-chef-utils",
-    "version": "19.4.22-1",
+    "version": "19.4.25-1",
     "origin": "artix-world",
-    "sha256": "2da2e1483e1aa39a6cc6da427d24e62436407dcda88dbec8d53aa0d1dec19a2f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.22-1-any.pkg.tar.zst",
+    "sha256": "0d806d55398127e39df89e0818ae70062487292687b134b1bf895e5281a1e574",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.25-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -106918,10 +106919,10 @@
   },
   {
     "name": "ruby-process-metrics",
-    "version": "0.13.0-1",
+    "version": "0.14.0-1",
     "origin": "artix-world",
-    "sha256": "8a591f9d42b42d0177c5009655be07ad73ccbde7d622629bb325e86e21009e69",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-process-metrics-0.13.0-1-any.pkg.tar.zst",
+    "sha256": "2e6f20dde7b7b0bc04ca5570dd0bd537a5c395e12a888fe4a2f5800fe800c140",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-process-metrics-0.14.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "procps-ng",

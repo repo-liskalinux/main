@@ -3313,10 +3313,10 @@
   },
   {
     "name": "dbeaver",
-    "version": "26.2.0-1",
+    "version": "26.2.0-2",
     "origin": "artix-galaxy",
-    "sha256": "11976e0551223a61b875d05ca96fd0c2de355604b0dead22cd2c61d9150f925f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dbeaver-26.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "33d20b2e62b74d4b4f9801c5f457efa8298b13c5af5febef874f61e705e859ae",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dbeaver-26.2.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime>=21",
@@ -16117,10 +16117,10 @@
   },
   {
     "name": "libretro-beetle-psx",
-    "version": "20260720.083450.g3adb56126e78-1",
+    "version": "20260902.124635.gb4bca9f86817-1",
     "origin": "artix-galaxy",
-    "sha256": "500ac821187a8301f04e8b62a00bbd3247849d1bc56b0bbc80d9119dd820d4dd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-beetle-psx-20260720.083450.g3adb56126e78-1-x86_64.pkg.tar.zst",
+    "sha256": "bca293a3967f2424ba9693063aded17fe4ec3e7a4e86d0883b83900df121b923",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-beetle-psx-20260902.124635.gb4bca9f86817-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -16133,10 +16133,10 @@
   },
   {
     "name": "libretro-beetle-psx-hw",
-    "version": "20260720.083450.g3adb56126e78-1",
+    "version": "20260902.124635.gb4bca9f86817-1",
     "origin": "artix-galaxy",
-    "sha256": "8f6be8ef664f77b78e8413195ac117035eccda3f60d31ff2c58f7feb227aa9bf",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-beetle-psx-hw-20260720.083450.g3adb56126e78-1-x86_64.pkg.tar.zst",
+    "sha256": "0ecf476f1d74b4555f511bcee3001a22bcce80b146d64a4088219864f4cf764c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-beetle-psx-hw-20260902.124635.gb4bca9f86817-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -16161,10 +16161,10 @@
   },
   {
     "name": "libretro-dolphin",
-    "version": "20260625.121047.g2b19e1876cd9-1",
+    "version": "20260902.223111.ge1e6d25fa139-1",
     "origin": "artix-galaxy",
-    "sha256": "9f9caf46432c4e34b7da8587b258741794873e4c9e5ef43c2ee6958748b416b6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-dolphin-20260625.121047.g2b19e1876cd9-1-x86_64.pkg.tar.zst",
+    "sha256": "00a73f4badb139c481628e147f1ad89593e5eebbcd40ba72308d97d59d1044e1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-dolphin-20260902.223111.ge1e6d25fa139-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bluez-libs",
@@ -16195,10 +16195,10 @@
   },
   {
     "name": "libretro-gambatte",
-    "version": "20260626.114630.g7bc6861b2395-1",
+    "version": "20260821.105908.gd9d6cd06382d-1",
     "origin": "artix-galaxy",
-    "sha256": "c4b46af6a274f8e1534327f496a4e6318e640924eab8ccececa09255ddc6debc",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-gambatte-20260626.114630.g7bc6861b2395-1-x86_64.pkg.tar.zst",
+    "sha256": "c7782065efdffd9247a224220571d894e547a21b0c286b5b53a4f7bb78b1c620",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-gambatte-20260821.105908.gd9d6cd06382d-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -16256,10 +16256,10 @@
   },
   {
     "name": "libretro-mupen64plus-next",
-    "version": "1:20260520.104813.g98c1b0d87754-1",
+    "version": "1:20260806.132731.gf275caf4b2bf-1",
     "origin": "artix-galaxy",
-    "sha256": "3db1d41a305470b264d06f8bd09cda460fa193c12f641757790b36a233f58954",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-mupen64plus-next-1:20260520.104813.g98c1b0d87754-1-x86_64.pkg.tar.zst",
+    "sha256": "6577f2b516fe7fc02fc2af684ae6d36e08b9b1165ad09b4748a5141ffbb23f11",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-mupen64plus-next-1:20260806.132731.gf275caf4b2bf-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -16277,21 +16277,25 @@
   },
   {
     "name": "libretro-overlays",
-    "version": "20260624.142726.gd89fb7f05d65-1",
+    "version": "20260624.142726.gd89fb7f05d65-2",
     "origin": "artix-galaxy",
-    "sha256": "c8ab3cc1a91ad147537c5a66361f4b9c46d290e55fd23cc7a785b87bff4399eb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-overlays-20260624.142726.gd89fb7f05d65-1-any.pkg.tar.zst",
+    "sha256": "3af0d7d99e8aacaaaa2896d56719d614aac3eb216198d2b7b5f92f181fbcaebd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-overlays-20260624.142726.gd89fb7f05d65-2-any.pkg.tar.zst",
     "provides": [],
-    "depends": [],
+    "depends": [
+      "bash",
+      "python",
+      "python-pillow"
+    ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "libretro-parallel-n64",
-    "version": "20260626.052303.g60817554d605-1",
+    "version": "20260903.191659.g2f3bf60dcd96-1",
     "origin": "artix-galaxy",
-    "sha256": "47b4eddffd64596494aac9ab49ca1894d5f120c152fa34f63c930bdc848e92f3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-parallel-n64-20260626.052303.g60817554d605-1-x86_64.pkg.tar.zst",
+    "sha256": "8828d83d393302436b3757ca4540d756f2a60a06e5ef71811e0084955dad1d54",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-parallel-n64-20260903.191659.g2f3bf60dcd96-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -16305,10 +16309,10 @@
   },
   {
     "name": "libretro-play",
-    "version": "20260622.165905.g1e4f393f3c52-1",
+    "version": "20260903.184445.g83700b2c31e5-1",
     "origin": "artix-galaxy",
-    "sha256": "ec58440a46ae94f602d3bb5251533c03cf5e228bd999d747c7ab861e81e041d8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-play-20260622.165905.g1e4f393f3c52-1-x86_64.pkg.tar.zst",
+    "sha256": "049a0a0654b5003b8a9097e392cab6ece729f0299fa34af5797eda540fd2a7cc",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-play-20260903.184445.g83700b2c31e5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -16325,10 +16329,10 @@
   },
   {
     "name": "libretro-ppsspp",
-    "version": "20260626.001958.gdee3cbac84f5-1",
+    "version": "20260903.192221.g410939fc5eed-1",
     "origin": "artix-galaxy",
-    "sha256": "2829b510a6b8fe9e33c5776be622185cbb3ff1a42a6decb742bff79f9dff4e65",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-ppsspp-20260626.001958.gdee3cbac84f5-1-x86_64.pkg.tar.zst",
+    "sha256": "a0021c6ae9d7f0263e3c9c7be21c8ddaf14571338936542ae86c5457fd112f71",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-ppsspp-20260903.192221.g410939fc5eed-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -16343,10 +16347,10 @@
   },
   {
     "name": "libretro-sameboy",
-    "version": "20260420.173536.g06c184f0b186-1",
+    "version": "20260722.225329.gaa158a889a48-1",
     "origin": "artix-galaxy",
-    "sha256": "20ad165d30f91792d6e5fe2b02735a37e1ff60a2ef4b9652f30146ddcd2b9d59",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-sameboy-20260420.173536.g06c184f0b186-1-x86_64.pkg.tar.zst",
+    "sha256": "bc5c05b942c6c537f547c922bc1e7903cc1c272fece822dd4362263d74ae4c76",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-sameboy-20260722.225329.gaa158a889a48-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -16371,10 +16375,10 @@
   },
   {
     "name": "libretro-snes9x",
-    "version": "1:20260420.172910.g185488cd83aa-1",
+    "version": "1:20260816.181733.g890b5d445538-1",
     "origin": "artix-galaxy",
-    "sha256": "ccab5cd6f31658242892ae4511a0f0a1bef8d7b44c51f85b8dced8f7151865e1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-snes9x-1:20260420.172910.g185488cd83aa-1-x86_64.pkg.tar.zst",
+    "sha256": "2979e0671cbed6cb23494530eec2e4f6047bfd80a84d9974a689c03d41afb628",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libretro-snes9x-1:20260816.181733.g890b5d445538-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -21489,10 +21493,10 @@
   },
   {
     "name": "openrct2",
-    "version": "0.5.4-1",
+    "version": "0.5.5-1",
     "origin": "artix-galaxy",
-    "sha256": "ade8365fc3acc40748f7d26824776d607a658925896f6a7d48144fa4d2d5e9b5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openrct2-0.5.4-1-x86_64.pkg.tar.zst",
+    "sha256": "e57cafa2d907db77c821fb667fb8cb7abd726459de2b00acf0eeede13c3e946c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openrct2-0.5.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",
