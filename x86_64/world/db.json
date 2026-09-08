@@ -338,10 +338,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-384",
+    "version": "1.2.2-385",
     "origin": "artix-world",
-    "sha256": "6842eeab549f46fb1328cd6bc57549b1826d4c9d3cd12db3298f4070b3590e80",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-384-x86_64.pkg.tar.zst",
+    "sha256": "658e026cb4047bb69922618862ec0e6f445c51e4f61e2a30b0d19646b469bacc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-385-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -1428,10 +1428,10 @@
   },
   {
     "name": "android-tools",
-    "version": "37.0.0-4",
+    "version": "37.0.0-5",
     "origin": "artix-world",
-    "sha256": "0d5f7a34782c1db5ae046a3dd1d2103f15c2ab26c6a81fe3ef17d3e6f2a53536",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/android-tools-37.0.0-4-x86_64.pkg.tar.zst",
+    "sha256": "98078d65a8c72bdd3f50cb01d57c65230b36ed4f4477196846fedbc85b0c3c49",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/android-tools-37.0.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -1586,10 +1586,10 @@
   },
   {
     "name": "ansible-lint",
-    "version": "26.8.0-1",
+    "version": "26.8.0-2",
     "origin": "artix-world",
-    "sha256": "d96b4e625503af22ae56bfed84fdfe47b7ce40a46af108b174276723a4f8ecab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-lint-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "e71416df7f5d83dd25edf59e5c01d14ceedec776cebbd67359b94d62dd39be11",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-lint-26.8.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -1598,11 +1598,18 @@
       "yamllint",
       "python-ansible-compat",
       "python-black",
+      "python-cffi",
+      "python-cryptography",
+      "python-distro",
       "python-filelock",
       "python-jsonschema",
       "python-packaging",
+      "python-pathspec",
+      "python-referencing",
       "python-ruamel-yaml",
+      "python-subprocess-tee",
       "python-wcmatch",
+      "python-yaml",
       "python-importlib-metadata"
     ],
     "optdepends": [
@@ -1768,10 +1775,10 @@
   },
   {
     "name": "apache-orc",
-    "version": "2.3.1-3",
+    "version": "2.3.1-4",
     "origin": "artix-world",
-    "sha256": "c6c974946f8a7b40ff220a21efcabefe8b30472484a2ccbdb48aa49dfbbbd806",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/apache-orc-2.3.1-3-x86_64.pkg.tar.zst",
+    "sha256": "1c3cf06baabfeea33c30d7bbcf8cd3c1e56462dc6da18f5c8fbdcd6c7a854cf5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/apache-orc-2.3.1-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -2612,10 +2619,10 @@
   },
   {
     "name": "arrow",
-    "version": "25.0.1-4",
+    "version": "25.0.1-5",
     "origin": "artix-world",
-    "sha256": "ad7fe29d13ac84858c015cb3dbc694b2d31908e845268389796a12cf08e88001",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-25.0.1-4-x86_64.pkg.tar.zst",
+    "sha256": "35f639e753bc75873d60feab159325ca997bce2d691572886b0a7b0ec54206f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-25.0.1-5-x86_64.pkg.tar.zst",
     "provides": [
       "parquet-cpp"
     ],
@@ -3428,10 +3435,10 @@
   },
   {
     "name": "audacity",
-    "version": "1:3.7.8-4",
+    "version": "1:3.7.9-1",
     "origin": "artix-world",
-    "sha256": "2d43052348a64a1a6c9f379dcd55b06b03a34ad418202050d93e68d5f03fb92a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/audacity-1:3.7.8-4-x86_64.pkg.tar.zst",
+    "sha256": "15ac92b6ba2087a9d43126f7921b55b3bad1791eb2f3058c9b7f2018a1f7cba9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/audacity-1:3.7.9-1-x86_64.pkg.tar.zst",
     "provides": [
       "ladspa-host",
       "lv2-host",
@@ -4834,10 +4841,10 @@
   },
   {
     "name": "bbswitch",
-    "version": "0.8-852",
+    "version": "0.8-853",
     "origin": "artix-world",
-    "sha256": "469fdf210f4d013c922ca0b8ccabf106b6bd3b148a99ef021bc173743111716d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-852-x86_64.pkg.tar.zst",
+    "sha256": "223ae024d29da75144d09f0e4a0b9159d38407c433296ba7466ae9bd3181d780",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-853-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4847,10 +4854,10 @@
   },
   {
     "name": "bbswitch-dkms",
-    "version": "0.8-852",
+    "version": "0.8-853",
     "origin": "artix-world",
-    "sha256": "dcc6bbeca32da4d406fa43b78da061933dfdacebbc3469e07fea1e834a6c361e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-852-x86_64.pkg.tar.zst",
+    "sha256": "8b1427dffea9f0fc4966e9fbd2648016c0a10179e20471ef7f03b590392dbe08",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-853-x86_64.pkg.tar.zst",
     "provides": [
       "bbswitch"
     ],
@@ -4909,10 +4916,10 @@
   },
   {
     "name": "bear",
-    "version": "4.2.1-1",
+    "version": "4.2.2-1",
     "origin": "artix-world",
-    "sha256": "c41a560f2f083f4c8af7f1e58ccbe1c9eced9ffc380530e59e303a1526bcecbb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bear-4.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "93985c11a431feb75d64151de1c20b7f1676904cc1f9f01d96905c45fa0bcf89",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bear-4.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -7414,10 +7421,10 @@
   },
   {
     "name": "catch2",
-    "version": "3.15.3-1",
+    "version": "3.16.0-1",
     "origin": "artix-world",
-    "sha256": "9dcf6ec9e5ed47e5abdcce4163aec1bb10c71ac76c0f50c8dd109d3774f8970b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/catch2-3.15.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b43b690426f336adcd1e60306455e34224ce9e26733d26ddd81cd71d028d63a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/catch2-3.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -12186,10 +12193,10 @@
   },
   {
     "name": "docker-buildx",
-    "version": "0.36.1-1",
+    "version": "0.37.0-1",
     "origin": "artix-world",
-    "sha256": "71743223641b045abac982434874a55a890334a740517354564a164c448389f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.36.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5199102f6a1be0cd583ddf1f9b04fc436a1217ac7d468e62e00f987fde1249ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.37.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -13522,10 +13529,10 @@
   },
   {
     "name": "egl-wayland",
-    "version": "4:1.1.21-1",
+    "version": "4:1.1.22-1",
     "origin": "artix-world",
-    "sha256": "5cd9deb9907cf658dc714fa73f9dc578eb49b354797d439eaec599372ccab662",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/egl-wayland-4:1.1.21-1-x86_64.pkg.tar.zst",
+    "sha256": "2df7351f1c019983f87ba292dc14d6e1f513e8bb7aa2d18a35acca92b4719b72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/egl-wayland-4:1.1.22-1-x86_64.pkg.tar.zst",
     "provides": [
       "libnvidia-egl-wayland.so=1-64"
     ],
@@ -15217,10 +15224,10 @@
   },
   {
     "name": "evolution-data-server",
-    "version": "3.60.2-4",
+    "version": "3.60.2-5",
     "origin": "artix-world",
-    "sha256": "0a03b88f79557453f0bfcb6c09b3d605200f107921eda9339f0f33e0a689b006",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-data-server-3.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "0c827bfa03249529b59eddc04661acc4188bb05d8592c97c8752991ae3d75de5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-data-server-3.60.2-5-x86_64.pkg.tar.zst",
     "provides": [
       "libcamel-1.2.so=67-64",
       "libebackend-1.2.so=11-64",
@@ -16827,10 +16834,10 @@
   },
   {
     "name": "fish",
-    "version": "4.9.1-1",
+    "version": "4.9.2-1",
     "origin": "artix-world",
-    "sha256": "2aa532f162dc40c53cccc75244d3bb5a081b8e308d48997c6e106775c3b54ac3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fish-4.9.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7ac0891961a53b79d57b3671a7361e8275e9262dc3f0aef45819fbdff37209af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fish-4.9.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23623,10 +23630,10 @@
   },
   {
     "name": "grpc",
-    "version": "1.83.1-1",
+    "version": "1.83.1-2",
     "origin": "artix-world",
-    "sha256": "a01accc17404ac222d6a1931c25873f98ed576d890c81eb8ea7c9269c17109f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-1.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9aa8173f24139cb5ef5cae9d8cd527c4757c1015ff0b2b56e0e1dc1fd4de1cc7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-1.83.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libupb.so",
       "libgrpcpp_channelz.so=1.83-64",
@@ -23656,10 +23663,10 @@
   },
   {
     "name": "grpc-cli",
-    "version": "1.83.1-1",
+    "version": "1.83.1-2",
     "origin": "artix-world",
-    "sha256": "039519346d2cae94bb1b1d09c2bc691c9b2da14f15385b194bbf99fcad9ebddd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-cli-1.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "45078dc5facb41668e89b841a245d3ccf568c2cadf235149ab6f3ae8a6a40495",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-cli-1.83.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23890,17 +23897,17 @@
   },
   {
     "name": "gst-devtools",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "14853fb4fce67106e0ecdd3906789a8240cc2fabf9458271c732e9cbf1ec1b92",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "b60bc173af47b84f05bb9a93292af0098179c4fc093442f25429bb5bc11ce746",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-devtools-libs=1.28.6-3",
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gst-rtsp-server=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-devtools-libs=1.28.7-1",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gst-rtsp-server=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "cairo",
       "glib2",
       "glibc",
@@ -23919,14 +23926,14 @@
   },
   {
     "name": "gst-devtools-libs",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "e9bb7a6b52b5c36b2ad650d2d16d8550f0557117b12ab5ecec9fc3099cc30b9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-libs-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "81fcb19b12b9e2dc9ab173ff10ead72168bccbb532cd2ce8b087a9e7a8f5c523",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-libs-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "json-glib",
@@ -23938,16 +23945,16 @@
   },
   {
     "name": "gst-editing-services",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "2658abd301fa536e75b88600a4bf24285de0d8bf0c140ba7dfcf63bd99adf8e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-editing-services-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "b85f270df294a247bb61f3359952184b8de84ea58e546211b5ffe6932557aa49",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-editing-services-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-devtools-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gst-python=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-devtools-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gst-python=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "json-glib",
@@ -23964,16 +23971,16 @@
   },
   {
     "name": "gst-libav",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "e82a3c22d9d15650aafa09c20e64e55b686578d31e50cae9dccfb8dea7e33bef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-libav-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "a738afc38fc6656a5824d8c84080e648a53327a909b7bb6477ba2206027a962d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-libav-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [
-      "gst-ffmpeg=1.28.6-3"
+      "gst-ffmpeg=1.28.7-1"
     ],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "ffmpeg",
       "glib2",
       "glibc"
@@ -24230,15 +24237,15 @@
   },
   {
     "name": "gst-plugin-gtk",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "e609b92fbe848fc4c928956abf4c413325563f6396ca137d496a398bdd24344c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-gtk-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "acb4c8cb67ca780f8e40d2e8b1171663a1610bf11a26aea85112846f52e32881",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-gtk-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "cairo",
       "glib2",
       "glibc",
@@ -24269,15 +24276,15 @@
   },
   {
     "name": "gst-plugin-hip",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "07c32e77a8694463dd7aa2588081247e9ac09e434fdbb84d7eec73bd770ca87f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-hip-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "cd0d8ed1f3a82b5c28c2e2d35adc2615448042cf219a4f90b92e5c51ecdd8492",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-hip-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libdrm",
@@ -24470,15 +24477,15 @@
   },
   {
     "name": "gst-plugin-msdk",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "0c4106feeb1fdff49e076e74429e3c9f5d773a0a74d1d14e626a261455cde09a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-msdk-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "0d9dc9bca7d872c29d7cf016a49141cf208e5b725c384acb8d66de27947f38f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-msdk-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libdrm",
@@ -24491,14 +24498,14 @@
   },
   {
     "name": "gst-plugin-opencv",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "341cd5df381b6fad68198367b2256acf3694d1cd516ad4e9b500305bcf257967",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-opencv-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "8b9039992c4d74069ad7c1da90d7e895dfbc317b6720b6415c9ebbb5e6f9db1b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-opencv-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgcc",
@@ -24551,14 +24558,14 @@
   },
   {
     "name": "gst-plugin-qml6",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "228ba9f7917380311c7c78e8baabe0eaac1595662b43648611ec026074ce0583",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qml6-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "b617732a29afc4d456557544a1c4e0a2d253c824b26079efe6030adc2be227d1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qml6-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgcc",
@@ -24572,14 +24579,14 @@
   },
   {
     "name": "gst-plugin-qmlgl",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "ebd6d277c86d6a81221c5e19ba3ef59d5b60a5cfbc2c16011dc827d689f07470",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qmlgl-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "cce5e2248e613cd3c115d2712c9b718984df453f32a511a08c140fc62ba6a615",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qmlgl-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgcc",
@@ -24595,15 +24602,15 @@
   },
   {
     "name": "gst-plugin-qsv",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "975bcc58bd1083bd6f027b6ce44ee8e3e651c2cffe2c463b95309fa67de28d02",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qsv-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "0660d3d938b861399dd1fe2aa5402a35988fdfdbaafbe175372239f143c862b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qsv-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgcc",
@@ -25054,15 +25061,15 @@
   },
   {
     "name": "gst-plugin-svthevcenc",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "dff0751139e24f5d1e9deb187a99c3dd1c4ba00c8b92a3b7fb1009bbda01e1c1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-svthevcenc-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "4c3cf91ec3944b909087205d47c21a5442844f7c4b5afd852860eccc4daa9d50",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-svthevcenc-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "svt-hevc"
@@ -25170,15 +25177,15 @@
   },
   {
     "name": "gst-plugin-va",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "a82898e08a8ed31af81542998e37f5903662c95497f0eb6434d99656646ffbc3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-va-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "6a9051d080846f8a993217aa319cd8a24750a45d15d48c22c8f235617687583a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-va-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgudev",
@@ -25227,14 +25234,14 @@
   },
   {
     "name": "gst-plugin-wpe",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "dc67ca15ec100f31208da0ce4760009f00601add9bc771b8591a098de4c8433a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-wpe-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "b9e24852438eaf8dfd52734580142c73c88d158fa05bc5422a137209dd355a71",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-wpe-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgcc",
@@ -25250,14 +25257,14 @@
   },
   {
     "name": "gst-plugin-wpe2",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "86bb6534f4b06dc6a4ee8ac73d39cc760b4b65c241a9a8655c1152284d57b219",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-wpe2-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "74f3d460dbe7278fe459c170593daf6055757463093f84f71cefe12c83edeb12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-wpe2-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libgcc",
@@ -25271,15 +25278,15 @@
   },
   {
     "name": "gst-plugins-bad",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "8e24f20ac588b03895cbf9a2bd705155f812e1712a1548ef87244d5050307bae",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "f2e46c5661b066128818a149fbc85c77c2bae6a64fa0f115e50118930601ca6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.6-3",
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-bad-libs=1.28.7-1",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "aom",
       "bzip2",
       "cairo",
@@ -25361,14 +25368,14 @@
   },
   {
     "name": "gst-plugins-bad-libs",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "b84e093439f2bcf84f8cb56447c6fc71487dca9052328e772d0b63620188942c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-libs-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "7557270ea06fd02ad1241947fd96209237dbfc4b959cedc0a48be414793a70d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-libs-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "libdrm",
@@ -25395,14 +25402,14 @@
   },
   {
     "name": "gst-plugins-base",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "a69a5290635a1e47994fff06bff4fe68158faee87e40cb6b5f8f4ca41fc187d0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "387432eeb9250124095c23e9a55801d0b249274d1a7b3a7a7a8c3680d9a0cf83",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "alsa-lib",
       "cairo",
       "cdparanoia",
@@ -25420,13 +25427,13 @@
   },
   {
     "name": "gst-plugins-base-libs",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "99e18df0df6cddb09a806b9449876f214ba5caba068ecb8098571b0add83e7ba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-libs-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "44619099f787711420d75a981fba0aea810b266ee90f5e20ef3988330f624cee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-libs-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gstreamer=1.28.6-3",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "graphene",
@@ -25451,14 +25458,14 @@
   },
   {
     "name": "gst-plugins-good",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "48d0f521036bdc45cf8a3519b9f7ead2799fcdc151c4e6e5a93c3ebec4619b85",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-good-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "35729b32ce867239561c1cbd1cf3bce27452eb575f07d5c6a98186e4724560a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-good-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "aalib",
       "bzip2",
       "cairo",
@@ -25505,14 +25512,14 @@
   },
   {
     "name": "gst-plugins-ugly",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "38513f04fd37cb92affbaa21a211e21170c05c7604378e46d2d7c27552d8224e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-ugly-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "b1d2121271a27bd20941e26dbbdf212deb9b9754b505da8636c506839c89c115",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-ugly-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "a52dec",
       "glib2",
       "glibc",
@@ -25526,14 +25533,14 @@
   },
   {
     "name": "gst-python",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "0d07e949dce4f2268760abbd9a329768d80d634ab8426c407ee329309242866a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-python-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "ae88c1332600762de782371a327ebe928d67880952c19403d719f29e81fa6f01",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-python-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "python",
@@ -25547,14 +25554,14 @@
   },
   {
     "name": "gst-rtsp-server",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "a4c0b803f9f9cce3c1619a4bd79228895a982e94f31c865183b0ad6f808703cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-rtsp-server-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "f00532d7439e69a96d14022217aa6bf62c23b030b691c4a02f7ac517e73cb2ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-rtsp-server-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.6-3",
-      "gstreamer=1.28.6-3",
+      "gst-plugins-base-libs=1.28.7-1",
+      "gstreamer=1.28.7-1",
       "glib2",
       "glibc",
       "orc",
@@ -25579,10 +25586,10 @@
   },
   {
     "name": "gstreamer",
-    "version": "1.28.6-3",
+    "version": "1.28.7-1",
     "origin": "artix-world",
-    "sha256": "3f9ff85bb0412d65d56fd660d65885dc1d1e3bde70eedb286dff372f68e22d80",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gstreamer-1.28.6-3-x86_64.pkg.tar.zst",
+    "sha256": "66b6948bbaf3c6465af622568be0560477dd00daf7b46d6e34f18e724a477916",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gstreamer-1.28.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -26236,10 +26243,10 @@
   },
   {
     "name": "gunicorn",
-    "version": "26.2.0-1",
+    "version": "26.2.2-1",
     "origin": "artix-world",
-    "sha256": "79c1f15da884fa88abebe7a4cc05502441d0f9372b4f2e77c43119fce5dbfadf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gunicorn-26.2.0-1-any.pkg.tar.zst",
+    "sha256": "a51adf0f0deccc77c3a216d7db42ea02df6d29b81419f942eb0b425c36c6b93b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gunicorn-26.2.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -36423,10 +36430,10 @@
   },
   {
     "name": "kicad",
-    "version": "10.0.6-1",
+    "version": "10.0.6-2",
     "origin": "artix-world",
-    "sha256": "8178f913fdc15f0db4ca7b704daf046e7a9b72a65a9ad91de3fbbb6f2bd9861d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.6-1-x86_64.pkg.tar.zst",
+    "sha256": "ae84afad5f3dc4f853de91452672b0c01f8166173fe9ec76caa5bf207b376a21",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -36472,10 +36479,10 @@
   },
   {
     "name": "kicad-demos",
-    "version": "10.0.6-1",
+    "version": "10.0.6-2",
     "origin": "artix-world",
-    "sha256": "79723b5351c2a02b589846483aa1c6c4b85fb7e4eda90efb6dad83ecf8f0669a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.6-1-x86_64.pkg.tar.zst",
+    "sha256": "4ad9e670f2653ed4c42d4d7db09fecab31879ec0566a2e15623934898ce9326c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kicad",
@@ -37406,10 +37413,10 @@
   },
   {
     "name": "kitinerary",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "5b5b57ec4d29a282a4fa34021e046c4db1a3a914b51ac3c59c100450f6eb080d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "f01328f658c3c5ad7311ea4c3d0780c7e0a40dd8923984ae1504acf12b3058be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -39057,10 +39064,10 @@
   },
   {
     "name": "kosmindoormap",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "7a247cdfe12f4abe6e663af35e14613475bf877f532602c635dc2f0ce3957a2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kosmindoormap-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "10fa49a40536f8a7d3355280da5d62542d69015388fad5b3502886d4907c0eec",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kosmindoormap-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -43864,15 +43871,15 @@
   },
   {
     "name": "libedataserverui4",
-    "version": "3.60.2-4",
+    "version": "3.60.2-5",
     "origin": "artix-world",
-    "sha256": "ec7bf005d0fae230ed7476a33971e7100325650c993b9ac582e80f433466d403",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libedataserverui4-3.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "26f71a2dea9f93954fd3dde9814b5462545173fb1cbf72758194df9777426de4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libedataserverui4-3.60.2-5-x86_64.pkg.tar.zst",
     "provides": [
       "libedataserverui4-1.0.so=0-64"
     ],
     "depends": [
-      "evolution-data-server=3.60.2-4",
+      "evolution-data-server=3.60.2-5",
       "glib2",
       "glibc",
       "gtk4",
@@ -48001,10 +48008,10 @@
   },
   {
     "name": "libphonenumber",
-    "version": "1:9.0.38-1",
+    "version": "2:9.0.38-1",
     "origin": "artix-world",
-    "sha256": "b34e393dc512ac556800a8886b9742dad74483c7dc7ac4200a477b18a900d387",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libphonenumber-1:9.0.38-1-x86_64.pkg.tar.zst",
+    "sha256": "3e29dbfe92b94a679bffa42f495c0eaa154a042204c7bd6f60654ff5c2a123a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libphonenumber-2:9.0.38-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgeocoding.so=9-64",
       "libphonenumber.so=9-64"
@@ -48018,7 +48025,7 @@
       "protobuf",
       "libicuuc.so=78-64",
       "libicui18n.so=78-64",
-      "libprotobuf.so=36.0.0-64"
+      "libprotobuf.so=36.1.0-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -50259,10 +50266,10 @@
   },
   {
     "name": "libvlc",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "d625051d32570511c52c2e13b5812ec7af4bc83371ebcbd0c48f85cd85621767",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libvlc-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "f592e069aa47643873d6d80e51f796b50c8e9fdf5f86f8fe92133fb35c5ca948",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libvlc-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [
       "libvlc.so=5-64",
       "libvlccore.so=9-64"
@@ -52271,10 +52278,10 @@
   },
   {
     "name": "llvm-julia",
-    "version": "18.1.7.4-3",
+    "version": "18.1.7.5-1",
     "origin": "artix-world",
-    "sha256": "faef6b6776a8b75e39127ed67b06e5de2b8cd608f0e2978f4e0d74b5f211f4d9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-18.1.7.4-3-x86_64.pkg.tar.zst",
+    "sha256": "fd4f234ec775f171d17d0b90345f2b944219a16163d9042cd54183b70c872ee2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-18.1.7.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -52289,10 +52296,10 @@
   },
   {
     "name": "llvm-julia-libs",
-    "version": "18.1.7.4-3",
+    "version": "18.1.7.5-1",
     "origin": "artix-world",
-    "sha256": "87816ff7baf6bd85b55fa4ac3df97707bf18ff007bd216e81bea87d5cc82129e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-libs-18.1.7.4-3-x86_64.pkg.tar.zst",
+    "sha256": "743e189749b4b2535ec9f35c8b1cc3e3f3c066ef1fa654a40af13bdbf6187d77",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-libs-18.1.7.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54778,10 +54785,10 @@
   },
   {
     "name": "marble",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "506fc34a58dfc9d7de8968f4d2a0da1f06450447a04caa8469e0090019d26e5e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "d41438d5d7cb2d6d76921a05df9b7faaf0230bc89887651e7b58301b9c7eebad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54807,10 +54814,10 @@
   },
   {
     "name": "marble-behaim",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "f2818ad6ea7338a87cbd01a9325f95eb040c90283be602e90a9c908c805e247c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-behaim-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "f37cf854073e197b17ee448f25948c6c7d1182737945516accd2a62b71d725c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-behaim-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54829,10 +54836,10 @@
   },
   {
     "name": "marble-common",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "923a38722475ad5eef7787a097a22784f7a1c3cfd21f3e7820b5f9072e13c08d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-common-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "184a915de9c6c7c7064988c4653c26a6d102f7bd4fab1e971d9e571caef5df3b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-common-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -54859,10 +54866,10 @@
   },
   {
     "name": "marble-maps",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "b6a7d3046f63e53cb64fc7b0ce6024e83e2b5b8d9e5b8a89a9533e1a508760e3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-maps-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "36968403896ddd88c234f24f59c73e46fc8e6d7796c21fabc7edf3bacabb1415",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-maps-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54883,10 +54890,10 @@
   },
   {
     "name": "marble-qt",
-    "version": "26.08.0-3",
+    "version": "26.08.0-4",
     "origin": "artix-world",
-    "sha256": "1b9bb34a290f319da23b3a8fc536a5bc806ccd5ae2d63b8e77bb59084f7e9b25",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-qt-26.08.0-3-x86_64.pkg.tar.zst",
+    "sha256": "e6c810881b43acd662034f7db5016ec584613b886601c3a19127d334d5c12383",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-qt-26.08.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -56286,10 +56293,10 @@
   },
   {
     "name": "mgard",
-    "version": "1.6.0-11",
+    "version": "1.6.0-12",
     "origin": "artix-world",
-    "sha256": "39362dc257422d1b1925249101e5cd06e97d08e63c2c4da44423b78f5f7fbd90",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mgard-1.6.0-11-x86_64.pkg.tar.zst",
+    "sha256": "0726c8ba98ad60c98193acbb66055ef03206e72d4c03b2a52b774c72ac98958a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mgard-1.6.0-12-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -56298,7 +56305,7 @@
       "libgomp",
       "libstdc++",
       "protobuf",
-      "libprotobuf.so=36.0.0-64",
+      "libprotobuf.so=36.1.0-64",
       "zlib",
       "libz.so=1-64",
       "zstd",
@@ -57369,10 +57376,10 @@
   },
   {
     "name": "mosh",
-    "version": "1.4.0-34",
+    "version": "1.4.0-35",
     "origin": "artix-world",
-    "sha256": "3b6bbc71d0eafd1eb6c8fa7d3803049b66085042ddc0a2aa275c2960efabb36f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mosh-1.4.0-34-x86_64.pkg.tar.zst",
+    "sha256": "d6d75456920adb5e732b092dfb8670acba6eb38354cc0af5d542cec6e1589576",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mosh-1.4.0-35-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libutempter",
@@ -57961,10 +57968,10 @@
   },
   {
     "name": "mumble",
-    "version": "1.5.915-3",
+    "version": "1.5.915-4",
     "origin": "artix-world",
-    "sha256": "1654795a6ab84f18a0eae669ced1168ba670efad7c01c2739248d117a6d151ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mumble-1.5.915-3-x86_64.pkg.tar.zst",
+    "sha256": "328b554486ca7a6574cc604ce4f21d9f91f23b855e4498c20f767e8ee50d6d6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mumble-1.5.915-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -57979,7 +57986,7 @@
       "hicolor-icon-theme",
       "jack",
       "protobuf",
-      "libprotobuf.so=36.0.0-64",
+      "libprotobuf.so=36.1.0-64",
       "libpulse",
       "libsndfile",
       "libsndfile.so=1-64",
@@ -58011,10 +58018,10 @@
   },
   {
     "name": "mumble-server",
-    "version": "1.5.915-3",
+    "version": "1.5.915-4",
     "origin": "artix-world",
-    "sha256": "4197017a38b2d09025b9cecc87fdf8502009a67f8f71bde80767d1fca5f8f675",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mumble-server-1.5.915-3-x86_64.pkg.tar.zst",
+    "sha256": "f483e4052df1fb3d43743cbe2a5f989fa79cf43bd327fe5e76c5eb27aad9e06a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mumble-server-1.5.915-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -58031,7 +58038,7 @@
       "libcrypto.so=3-64",
       "libssl.so=3-64",
       "protobuf",
-      "libprotobuf.so=36.0.0-64",
+      "libprotobuf.so=36.1.0-64",
       "zeroc-ice"
     ],
     "optdepends": [],
@@ -61481,10 +61488,10 @@
   },
   {
     "name": "onnx",
-    "version": "1:1.22.0-3",
+    "version": "1:1.22.0-4",
     "origin": "artix-world",
-    "sha256": "40fdc08199e6df1a69643b2460b5c75c7fa6a4695ffdb0303e9f4c68c1ee0108",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/onnx-1:1.22.0-3-x86_64.pkg.tar.zst",
+    "sha256": "65a679ff84b073389f99557f56f1d46d7172b01b1d6211257403c7e36eef34d3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/onnx-1:1.22.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -64756,10 +64763,10 @@
   },
   {
     "name": "percona-server",
-    "version": "9.7.1_1-5",
+    "version": "9.7.1_1-6",
     "origin": "artix-world",
-    "sha256": "ccf81086aacbf1e27570b92c7a7e192c86aa537fd17431dc003185912451d817",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-9.7.1_1-5-x86_64.pkg.tar.zst",
+    "sha256": "22c0167bf898295f01725dd27aafc150ad28c1d1ba4668dae790e23c82217b4b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-9.7.1_1-6-x86_64.pkg.tar.zst",
     "provides": [
       "mysql=9.7.1_1",
       "mariadb=9.7.1_1"
@@ -64792,10 +64799,10 @@
   },
   {
     "name": "percona-server-clients",
-    "version": "9.7.1_1-5",
+    "version": "9.7.1_1-6",
     "origin": "artix-world",
-    "sha256": "1fc029fac4f9db74f8bb6c4207a521698996f7b4c6225b3c8d98f59269914454",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-clients-9.7.1_1-5-x86_64.pkg.tar.zst",
+    "sha256": "750893fcecbdd30f3911d722ca710c0c000728e0fde563ba23a8cafa31963e1f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-clients-9.7.1_1-6-x86_64.pkg.tar.zst",
     "provides": [
       "mysql-clients=9.7.1_1",
       "mariadb-clients=9.7.1_1"
@@ -69806,10 +69813,10 @@
   },
   {
     "name": "php-grpc",
-    "version": "1.83.1-1",
+    "version": "1.83.1-2",
     "origin": "artix-world",
-    "sha256": "c107cd6530cc58efa24a30d4b1f972b4a8f01c2a089edeec7765f94694f5d037",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-grpc-1.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "560bab05ec6e8855579bf045e3856898c2b266e1e9b5c8afef7a1b9848e5f50d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-grpc-1.83.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -70014,10 +70021,10 @@
   },
   {
     "name": "php-legacy-grpc",
-    "version": "1.83.1-1",
+    "version": "1.83.1-2",
     "origin": "artix-world",
-    "sha256": "4801cc14d4b55eaeec9e9c348479790b3481e473da257441a22327b8faea72da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-grpc-1.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3892b66714a32a3db6c2b701f6d483c74b6395c13e1fe30f79f0dbbd82cfa2c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-grpc-1.83.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -74437,14 +74444,14 @@
   },
   {
     "name": "protobuf",
-    "version": "36.0-1",
+    "version": "36.1-1",
     "origin": "artix-world",
-    "sha256": "bd284cdd06d1c70f73af130edee79958c2a34c70715a62408d9a61139610b156",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/protobuf-36.0-1-x86_64.pkg.tar.zst",
+    "sha256": "85cf7ee65158c2300ce2702bffbfb387ec31a130d51f533bcd22b15fa6052082",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/protobuf-36.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libprotoc.so=36.0.0-64",
-      "libprotobuf.so=36.0.0-64",
-      "libprotobuf-lite.so=36.0.0-64"
+      "libprotoc.so=36.1.0-64",
+      "libprotobuf.so=36.1.0-64",
+      "libprotobuf-lite.so=36.1.0-64"
     ],
     "depends": [
       "abseil-cpp",
@@ -74458,10 +74465,10 @@
   },
   {
     "name": "protobuf-c",
-    "version": "1.5.2-14",
+    "version": "1.5.2-15",
     "origin": "artix-world",
-    "sha256": "3e94306fd2e81779fe50552a30d8b0f7eedaefa0baa7f21ca61cb25363035ee5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/protobuf-c-1.5.2-14-x86_64.pkg.tar.zst",
+    "sha256": "45177eb8d6c0f9d8fd388c31c375c7eee9038483840114e518413550bb1f4319",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/protobuf-c-1.5.2-15-x86_64.pkg.tar.zst",
     "provides": [
       "libprotobuf-c.so=1-64"
     ],
@@ -74560,14 +74567,16 @@
   },
   {
     "name": "ptex",
-    "version": "2.5.2-1",
+    "version": "2.5.4-1",
     "origin": "artix-world",
-    "sha256": "7d42ecad37a9f77db5b79ffc4ee54f5dcd77f1b2b14433a4539099530116ea0c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ptex-2.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "bcc151bbebe1080953e85a079c7474bdae778779529674dbb55506450875d948",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ptex-2.5.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "zlib",
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "libdeflate"
     ],
     "optdepends": [],
@@ -81565,10 +81574,10 @@
   },
   {
     "name": "python-grpcio",
-    "version": "1.83.1-1",
+    "version": "1.83.1-2",
     "origin": "artix-world",
-    "sha256": "723380c8dbd6d8870e9f8bc39c2657ab2699d06d78025631a366510694bc7e9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-1.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f07e9ef36de80131bbb38496eb1d5f29de30c114b347905f4c45a830a737011e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-1.83.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -81588,10 +81597,10 @@
   },
   {
     "name": "python-grpcio-tools",
-    "version": "1.83.1-1",
+    "version": "1.83.1-2",
     "origin": "artix-world",
-    "sha256": "415f7b4b248ff9597ff434f3bb52e8c18d9ab2e66a96b89fbd6a472d2d663a5c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-tools-1.83.1-1-x86_64.pkg.tar.zst",
+    "sha256": "634167ba96404d1831b9dfaef8467650c0f098fd05f04eae1a41a7fd3d93fde6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-tools-1.83.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -85915,10 +85924,10 @@
   },
   {
     "name": "python-onnx",
-    "version": "1:1.22.0-3",
+    "version": "1:1.22.0-4",
     "origin": "artix-world",
-    "sha256": "3c93ca3ac84b855d192ff6f40905358e240599d821183e1c1afecd40688bcb61",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-onnx-1:1.22.0-3-x86_64.pkg.tar.zst",
+    "sha256": "29a9413a7ee626487222b7e74c7c13e4eb2b6527491fe40e3525557ce197ae07",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-onnx-1:1.22.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -87946,13 +87955,13 @@
   },
   {
     "name": "python-protobuf",
-    "version": "36.0-1",
+    "version": "36.1-1",
     "origin": "artix-world",
-    "sha256": "d21f1282821618019adf42e5ec45e4a98a727a034c2c23ef01d3c42a70a0a6a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-protobuf-36.0-1-x86_64.pkg.tar.zst",
+    "sha256": "591c1cd4a48255706a89728f27ed35f88695be1d5c22e7a0f97b4426193b9bce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-protobuf-36.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "protobuf=36.0",
+      "protobuf=36.1",
       "python"
     ],
     "optdepends": [],
@@ -100765,10 +100774,10 @@
   },
   {
     "name": "qt6-grpc",
-    "version": "6.11.2-3",
+    "version": "6.11.2-4",
     "origin": "artix-world",
-    "sha256": "b25293fd7152127576a9b5e39f6d1010660362bd657fe1875c8c080fea4f200d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-grpc-6.11.2-3-x86_64.pkg.tar.zst",
+    "sha256": "727033357f83c0f70807262ce86c8cd36adfc41fc9ed0194c43cb142a63127c6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-grpc-6.11.2-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -105473,10 +105482,10 @@
   },
   {
     "name": "ruby-google-protobuf",
-    "version": "36.0-1",
+    "version": "36.1-1",
     "origin": "artix-world",
-    "sha256": "29eda662a7942fb2185663b4c58c4d40423e7091228e5f52b909788526c094bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-google-protobuf-36.0-1-x86_64.pkg.tar.zst",
+    "sha256": "dffd0a56426c408672185c378705bd833d86868e7afe5b916cc26a84b3475ae7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-google-protobuf-36.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -114060,10 +114069,10 @@
   },
   {
     "name": "syslog-ng",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "5f7fa7e253f38f1c38a2f095c41536d5acf3ecdf9e304659c93695ee4995c136",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c49aefeeb25a256619816674cd3301176cd980ee3eaf841f7fc5b49fff756731",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -114092,10 +114101,10 @@
   },
   {
     "name": "syslog-ng-amqp",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "b345c368ad091dd201463282899f23e0ba0f93d9cb06e54e749a9ba63f44a909",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-amqp-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b9206b43391567aa41d811d05b07d2e6d1cf8a83b2ba814adf20ec5a1db4e601",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-amqp-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114126,10 +114135,10 @@
   },
   {
     "name": "syslog-ng-geoip2",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "0bae3fe26846333c8399aad6d6e20c04e90550c6a94201e9b72c49bc1eb934b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-geoip2-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "14fe796259d842902c89d62c90b5c523a0d23bce2b95861871a502d720cb9f2e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-geoip2-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114142,10 +114151,10 @@
   },
   {
     "name": "syslog-ng-kafka",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "c176c9d37be425e79528afb3f0fa80c7137db7c10b1389027f07520a7ae3453b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-kafka-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "45f68484cf67bfc9b682a71ef6b0b7f4420ce42ed55463bd24105e02a283d841",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-kafka-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114158,10 +114167,10 @@
   },
   {
     "name": "syslog-ng-mongodb",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "6a3c175adf29fa75d40125cc1b22892e3adf7698a0ec6014a86f4000412a4d01",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-mongodb-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fe7cfa3ae363fcd742d0a11e8abaa37f43548abbbde4449b2f446bf14a3fc710",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-mongodb-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114192,10 +114201,10 @@
   },
   {
     "name": "syslog-ng-python",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "b4e091df86071354761b7b96bf907d8680766600d461b26779378f7390ff9718",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-python-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "16d0bf8f638978367c8aa38be103ec00f7cd2f7581cbc521ee054bfd629825b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-python-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114214,10 +114223,10 @@
   },
   {
     "name": "syslog-ng-redis",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "73bcc10e567fa9a7bf0901cdf87350ffd8f4d94f0f28eab2140c9cc9cb8b4568",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-redis-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ea87c7d060d7a3fa4df6bab8e0b35785c99e7de8c3a9c9cbacf5b19a13c0207a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-redis-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114266,10 +114275,10 @@
   },
   {
     "name": "syslog-ng-smtp",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "ff6cc9e2bb199c0d0057535b6f893885cbb9f40590052956a4370b00f2eaf654",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-smtp-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "26272e2d1f784c687cabf6b384e2cdc68823eaa7470dd7b0ae5e670319be8647",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-smtp-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114282,10 +114291,10 @@
   },
   {
     "name": "syslog-ng-snmp",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "e5a6f7e82c7af4c7b6f60806d90e1a82ead758749e554d923374df67288729c5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-snmp-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "85b37182733ee463c72a3d5bdbc896f8ab57677efe20d1e5a23b1818af2f2986",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-snmp-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114298,10 +114307,10 @@
   },
   {
     "name": "syslog-ng-sql",
-    "version": "4.12.0-1",
+    "version": "4.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "3f9a04e99bbeb99d7252a221c998acc4a475c3d912bfc0ea681eedb19ea0323f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-sql-4.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d5844ac2deb911a017955102ef57c5e8af0e7103254669e994840dde823610fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-sql-4.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114979,10 +114988,10 @@
   },
   {
     "name": "terminator",
-    "version": "2.1.5-2",
+    "version": "2.1.6-1",
     "origin": "artix-world",
-    "sha256": "6b37056193cfc1fbf03a67e9e3c062a3ca232de3a96eebf2c27bbf82f2aaf025",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/terminator-2.1.5-2-any.pkg.tar.zst",
+    "sha256": "ad5a17bd75411c72ea12f5f79dcda601ac27f3972694db5dd5bcf81fa125ea6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/terminator-2.1.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gsettings-desktop-schemas",
@@ -125543,10 +125552,10 @@
   },
   {
     "name": "usbguard",
-    "version": "1.1.4-10",
+    "version": "1.1.4-11",
     "origin": "artix-world",
-    "sha256": "28c5cb5720ff521e8cffc9003e742bcfc313feed3298ec0a586beda6548a0876",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbguard-1.1.4-10-x86_64.pkg.tar.zst",
+    "sha256": "2cfdd14087d71e0c0b83d7eff89dfada54282d9b3f770a19734335d9026e7292",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbguard-1.1.4-11-x86_64.pkg.tar.zst",
     "provides": [
       "libusbguard.so=1-64"
     ],
@@ -125568,7 +125577,7 @@
       "libstdc++",
       "polkit",
       "protobuf",
-      "libprotobuf.so=36.0.0-64",
+      "libprotobuf.so=36.1.0-64",
       "dbus-glib"
     ],
     "optdepends": [],
@@ -127045,10 +127054,10 @@
   },
   {
     "name": "vlc",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "03ad2e6bea8e9cc78b2b1fd2fa01fef28fd4a1d03dbd2c96ea4bc41e50530ed5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "d2d1f70362ef92121c33db4386348b42d6805b562a76a0a5335e712d1c24d166",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -127112,10 +127121,10 @@
   },
   {
     "name": "vlc-cli",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "aa8c7ecfe5afe3ec93c7c201a1660bf366269dea66368ebf80e8fb2b45851ef3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-cli-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "d4631abd757f0b51fb93906fbb8e3a746c69e916758890b84e6114adbff49ee0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-cli-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -127131,10 +127140,10 @@
   },
   {
     "name": "vlc-gui-ncurses",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "ac83795399c6ee864c55bc7457927c250f7a60abf3135c46e8da996c10b5daff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-gui-ncurses-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "167f654efd9f5aba25ffb4a68a65cc2fefe47658c72c9da79a79aed633d3814a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-gui-ncurses-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -127149,10 +127158,10 @@
   },
   {
     "name": "vlc-gui-qt",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "964426219855b31ee31d5685f6d1c5c2e294990d11c3065ad114641c854da80e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-gui-qt-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "b92e3b52dd86cc73d2a825f79cbcdc2a4da0e7827ed149540cbdd3bbbd5da96c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-gui-qt-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -127183,10 +127192,10 @@
   },
   {
     "name": "vlc-gui-skins2",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "9a57faf28f8e082219afb00f8058e795e253fa29ba035d10966812f135782513",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-gui-skins2-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "ca98e3f99ba62f07b835e295a9658c435ae21b2f999b5e737709f6d3cccbeb7b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-gui-skins2-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -127209,10 +127218,10 @@
   },
   {
     "name": "vlc-plugin-a52dec",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "6f393074a68077e09a3d23e78076eceda906a826b3c1c7f8f2cc9de160d13513",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-a52dec-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "74217bc210e020ab059106f805c948ed0361850e3909e74fb714b2e60db443b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-a52dec-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "a52dec",
@@ -127225,10 +127234,10 @@
   },
   {
     "name": "vlc-plugin-aalib",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "62fc11fba01169297ae7ac5f408e3c4c1ffa6acdec7051099bc8a258d58b4664",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aalib-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "b388b521e90f3efa397ffa7def146d39905a4c3521cd27c49bb51ca2f9d7d582",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aalib-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aalib",
@@ -127243,10 +127252,10 @@
   },
   {
     "name": "vlc-plugin-alsa",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "c9c33ebe97bb937bdd864db7b6af1adcc2dfa4dd2ac2b4e35299e9bad0b63615",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-alsa-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "6cc36cb3b63fabdf3062d0d0f2aaf11c6c6ff81f45d10939fbed43954b1ea570",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-alsa-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -127259,10 +127268,10 @@
   },
   {
     "name": "vlc-plugin-aom",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "d1099f38653a5b3c777fc215cdc1251ad28d8359bc937b5577a0c8931c4a3f29",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aom-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "2eee24b63cf42b0cc1232295222353f2fc4a85d81087d1237b9223665207c8c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aom-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aom",
@@ -127276,10 +127285,10 @@
   },
   {
     "name": "vlc-plugin-archive",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "e706b2564d1f7b485dfdc78ea862c5b3d7c4c147cdc47248855a5ee6f4c59ace",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-archive-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "745afce2eb67376971484d3123a294ca42def7ab8c4fe5f036c5c08957b05104",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-archive-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127292,10 +127301,10 @@
   },
   {
     "name": "vlc-plugin-aribb24",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "7681cce16ea44686a8a67ed553801246f56cec1c1bd5424885452897d27cfd5d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aribb24-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "828b64099f48757812ada7b126e6c788d8e76003cd2f5ca606168f8e60b17a32",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aribb24-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aribb24",
@@ -127309,10 +127318,10 @@
   },
   {
     "name": "vlc-plugin-aribb25",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "15e398ccfca214dec5a387e406a56bf769be8131ba97f3da9ab9517f39804a89",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aribb25-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "bcb7a499bebde01539e32e74f4aa244be4f81ced06fe290bf7a2a640aadebaab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-aribb25-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aribb25",
@@ -127327,10 +127336,10 @@
   },
   {
     "name": "vlc-plugin-ass",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "625729dc81c8e6627e6df112e61a814a7f6d2d4ac1922862bb35ca3075921be0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-ass-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "767d1043cddcfb84b500aff7fe7b97cb4c9ee0a01e0cf7d649fc57d408d3ace0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-ass-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127344,10 +127353,10 @@
   },
   {
     "name": "vlc-plugin-avahi",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "6fc61c1a6641027d10dcadcb14e926dd42d232ba2c74b54d7f9271a83697cdeb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-avahi-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "8ab64b2d248e354283a82da76c1614d99035a38faf0b112f2b890f40aefbfe33",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-avahi-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "avahi",
@@ -127361,10 +127370,10 @@
   },
   {
     "name": "vlc-plugin-bluray",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "d592c897e8a77ac2371cd65d32bd9ca487b3310e3f150ff1db8abfbabaf5ccd2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-bluray-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "39dec4164762aa6f2b38f8a892b7b26870b388502fa22362d54ea9d6d7c0bddd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-bluray-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127378,10 +127387,10 @@
   },
   {
     "name": "vlc-plugin-caca",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "8a0bb7bb2779676c89e348f61095d342e82b44bb2bfddbf533b817713aa91a2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-caca-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "8a82afbdbb0deec26975c6d50277eab90d3aefe0f42f8d045b32704755a4d45f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-caca-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127396,10 +127405,10 @@
   },
   {
     "name": "vlc-plugin-cddb",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "fd907ea668858d06b42bdaa2b63c89adb3ea0a2fea9d2f46dbdefed08d368062",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-cddb-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "a67d35d3ea94bbf56347794a8cc45020a8646a502b44b4352046a6492324282f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-cddb-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127413,10 +127422,10 @@
   },
   {
     "name": "vlc-plugin-chromecast",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "887d01db2a8f3f140fc3d2d2ec14e2d5bc2db170990e6a3681fb8c8802ed4854",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-chromecast-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "138a6b15389dc6b63312ee6f3ce058db4834f9f0e0ad5bc01a707ac4abb21df5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-chromecast-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -127433,10 +127442,10 @@
   },
   {
     "name": "vlc-plugin-dav1d",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "5941f573edd7e5d95f7c27d350cc931fab7c081184bc6b924e07eb06420cc16e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dav1d-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "fe295e635b1dc1d0695914dbdb01eeb30dc78fcce446dc5b4bc528a3a04b53af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dav1d-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dav1d",
@@ -127449,10 +127458,10 @@
   },
   {
     "name": "vlc-plugin-dbus",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "a5ed2159c02a795f5db7987348a4742ee87cfd771e536212ce7e2287c6ddf7b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dbus-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "233cdb03965a2a23f0c8a38293b5b40c7c0305cd0ec01605113ed99adb565e7d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dbus-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -127465,10 +127474,10 @@
   },
   {
     "name": "vlc-plugin-dbus-screensaver",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "a5ade82f0045c3f708d3c57837c91849c7a9f4da61c5fdab55019f9456619e7c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dbus-screensaver-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "0a349308041056c86f5d0e62a85db7242e83b1c8379ffbb976cc56c8a2be863c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dbus-screensaver-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -127481,10 +127490,10 @@
   },
   {
     "name": "vlc-plugin-dca",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "c715531e1bf04fafd07dc1b5d63f0a3dc4868a7a1db2a714345240342d8e29ac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dca-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "1df0a7752746b00c770d926d9e013df1a08ddb548bd8b6026c7516c3c278cd85",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dca-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127498,10 +127507,10 @@
   },
   {
     "name": "vlc-plugin-dvb",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "bc57c90617e119c1513678dcf6dc0a4f5abbcf735f2566bce2e3fae1db44c303",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dvb-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "6b73f1ea2760af6fab277d2a789706b3e631027433807853ef13aed38109e599",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dvb-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aribb24",
@@ -127516,10 +127525,10 @@
   },
   {
     "name": "vlc-plugin-dvd",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "7e0cddb75fe07b3e9cbd113892f1225b4ccd280eab3ca2f12f7008d9926ace37",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dvd-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "26f199e3ad7439c142337de8f794c4a2a08f6253a2400b0005f8fcb4a0ef3247",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-dvd-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127536,10 +127545,10 @@
   },
   {
     "name": "vlc-plugin-faad2",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "c0e5e004a189f6a5a6c5893ff2a831a30f03b9689516b267a928b0e43849288d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-faad2-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "b0ef12c33d27c6ee48995e79b66165529f79e98a7ef83c649ce1112a23a5de32",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-faad2-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "faad2",
@@ -127552,10 +127561,10 @@
   },
   {
     "name": "vlc-plugin-ffmpeg",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "f246efa89f45d7d48e17ace07ff8dec981fe0af4d47edd6a0a5bf6ef2d80ae35",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-ffmpeg-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "51eda15e57b7dff85a1646b4724b4622bec34150ddb17e169fc5c1a9e9350f5e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-ffmpeg-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ffmpeg",
@@ -127577,10 +127586,10 @@
   },
   {
     "name": "vlc-plugin-firewire",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "2867eb0e81283acaa4c8e100ab2379c6d2daca7a50e2c9fa973d259643675120",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-firewire-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "1b4278e2d635f5fe45a2345336047e3d9a97444a5376f6949b5f6d72698cc075",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-firewire-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127597,10 +127606,10 @@
   },
   {
     "name": "vlc-plugin-flac",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "1c7cec622f27c0ac6f95fbf5e4b41ae7529a1bedfa500e8000eac93bb6c3cc19",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-flac-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "65e3112d161733a10b753377618e84262a865003841d23885aefe610f0e579a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-flac-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "flac",
@@ -127613,10 +127622,10 @@
   },
   {
     "name": "vlc-plugin-fluidsynth",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "354a3f72130cf99452eed6fffb9ea09a260e2517f35debae666ecfe6400cdc6f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-fluidsynth-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "d1af8dc1d76e0e3cc23e79037c4b165fc5b9d0aeb73e3f05563bfdc66a6cf740",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-fluidsynth-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fluidsynth",
@@ -127630,10 +127639,10 @@
   },
   {
     "name": "vlc-plugin-freetype",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "8551ff67c4a7e296d818df743a0d9c399925204c4a5db74b2d4bd45f17d239f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-freetype-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "1be572eb40864f3cfb4fa56c6d8468fb171bcdce378397164112371d09b7fea8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-freetype-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fontconfig",
@@ -127650,10 +127659,10 @@
   },
   {
     "name": "vlc-plugin-gme",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "b5fdb4531acb45bbd2e4f68f7cd4b8a5891817863aa99b5f09be4f813a3f7646",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-gme-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "f95f979a716a2cb2d95df66855e3ebc13370365b57248120b1301de962e3a1d2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-gme-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127667,10 +127676,10 @@
   },
   {
     "name": "vlc-plugin-gnutls",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "e8b22463aa35b5000193313b211fa71c7ba4cd4bae0b594f170bb88685abcdf0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-gnutls-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "042ac0f77a8d4b60829a4f77b61a334d680b80fb4d8443b41d36ce55ca9b471e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-gnutls-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127683,10 +127692,10 @@
   },
   {
     "name": "vlc-plugin-gstreamer",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "ee7b6de730efbc7a00fdda3f3f040fc8815a4a9b85e88a3da1292724d8f2f2ef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-gstreamer-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "bd62adcd6ef0a4bafb3072bae952d12d8338cda5781f5bee523bf1af81bbeb01",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-gstreamer-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -127702,10 +127711,10 @@
   },
   {
     "name": "vlc-plugin-inflate",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "eb82318dcad459d160838a35c88b60edb28a8f34572fb5ca3cd0a763fde61cea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-inflate-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "14498668a6b60de634674772c3d82988e1e6ee5811a26153faf93c887021164f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-inflate-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127718,10 +127727,10 @@
   },
   {
     "name": "vlc-plugin-jack",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "855544e01b97e51427a204347f05344873cdddf66fda54223f98776c30f5d446",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-jack-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "00e1e00e0c691e18e9d4e62a419f16cf7a54feac5816f0eb8f47d1d57320b62a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-jack-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127736,10 +127745,10 @@
   },
   {
     "name": "vlc-plugin-jpeg",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "c4363a6dc1421a7831d8c9c448f0632a6d8f7b1b1fa61b544019970f4ea50bcc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-jpeg-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "26e5066835f24ded7455c56dd43cf10bd222f383a7fbf1243dc23c3a615ad387",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-jpeg-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127752,10 +127761,10 @@
   },
   {
     "name": "vlc-plugin-kate",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "afa0bc8f25f56e4b21ca3709c71f515ceba95eac20ec93caf2c91118a6564908",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-kate-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "b8dd43346e68a1caf82a687b7aa6c07e9a9bcd0ec74efbdf65b211e05a4f99a0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-kate-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127788,10 +127797,10 @@
   },
   {
     "name": "vlc-plugin-libsecret",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "02185d5306b6c11b4a0844350224a9405140afa73f5e961bc5b6a6a630160754",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-libsecret-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "e313e1579815d4757296847ee129d9cfe1e46689085a6a3db6a8e5547474b62f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-libsecret-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -127806,10 +127815,10 @@
   },
   {
     "name": "vlc-plugin-lirc",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "7d79f84d19aad7fe5fc0cdf1b24fd8199c857e4a7e66269d346b573a7deff811",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-lirc-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "a6afe668205177fb1ca5b46a0ab22940928ce6c4918eb641903b015dea469cb9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-lirc-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127823,10 +127832,10 @@
   },
   {
     "name": "vlc-plugin-live555",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "5ec74363bfacffd53cc2749041d342c6ec8309e1acad6112ea28db89068b0653",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-live555-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "82c661f7d68dadd9dc0dfe91ee49221886715bee286e83eef6d4edc94e80179b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-live555-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127842,10 +127851,10 @@
   },
   {
     "name": "vlc-plugin-lua",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "f6a1bf4e1835da92b06ed51553fc4c7d0655c87d6a39a2f647b1f3f3f52aff9f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-lua-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "9da5f9ff8d3f41232d1450cbd66e9491f9e65f7ba0bbd3efb4c89a21887fb444",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-lua-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127862,10 +127871,10 @@
   },
   {
     "name": "vlc-plugin-mad",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "bb62806ba4e079453be5c65a6fe05254f6c8dd7f66b521400aaca7387f534338",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mad-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "7c1c321896201770ad658ecc6681ba3e81b86002caac5d13daea0070fe9f6ad6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mad-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127879,10 +127888,10 @@
   },
   {
     "name": "vlc-plugin-matroska",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "694ceceb76c53bd8e5b5d4325600fb2da58492360fb4f6f0fb3cc4420e82a027",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-matroska-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "34d0b2778409368ce2e0dc79805f86e1f424691ec679ddfb7441de8404b75ee6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-matroska-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127900,10 +127909,10 @@
   },
   {
     "name": "vlc-plugin-mdns",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "07ae3ca93979b44bdcfa88380aed99b2b77c13cedc2988a8a6f8848952945a02",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mdns-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "5bff8f94ba77f971a8a740b988a718434ab4fedbb85ba10843d09d80a553a32e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mdns-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127917,10 +127926,10 @@
   },
   {
     "name": "vlc-plugin-modplug",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "60ab9b04379a4a53587f759f6d69ea68251745c6d80b99438604b1f38d8cf4bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-modplug-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "f78749a9d3a65ac5598629ed5bc2c77420ca66d8e1c863ebc7a050e8ea2ee5d8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-modplug-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127934,10 +127943,10 @@
   },
   {
     "name": "vlc-plugin-mpeg2",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "62e7259dc5cf1912d8c99133c80cafb249ce17472741b18838afd5fd18036b7c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mpeg2-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "1d552c8532c8b2c342bbf7394357bd4083818cffce12239ac8bbb92b26d313a6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mpeg2-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127951,10 +127960,10 @@
   },
   {
     "name": "vlc-plugin-mpg123",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "e8cbf7b4485a840f886e8597be113a425a4513320db8b1b61a8888b34e3a041d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mpg123-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "70a5584ad3abba0829a301158fa191f7bdfe7abf1e1e5633750cbca4b2e0052d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mpg123-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127967,10 +127976,10 @@
   },
   {
     "name": "vlc-plugin-mtp",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "c64d14e114d3ed2c77d984af9e54f42c2c7d04788d6f29e45802c564ce0a9632",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mtp-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "3c0d5930d71f0d8a88fa20956aa5061207febf864d279437d9bae99a8d3cc5ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-mtp-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127984,10 +127993,10 @@
   },
   {
     "name": "vlc-plugin-musepack",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "f8f111d8f65d9e7a8b064a0db109638669ff3be3be5ab1e88b693a54e34f8226",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-musepack-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "4a61e09610cfb6f8e92a29a5a4b6251bffd2a8d9b33dedd04fd5da1c8863247c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-musepack-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128001,10 +128010,10 @@
   },
   {
     "name": "vlc-plugin-nfs",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "c35d8726adff09c320f3945f8d1bab4a9604772a3b5234f48d879a3b21d126f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-nfs-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "e8686e62cc08ce78df7c7369e921fd8a967948114c1084cdaa93da2c7eb768b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-nfs-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128018,10 +128027,10 @@
   },
   {
     "name": "vlc-plugin-notify",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "fef565ad076e60976a2e051eba20ccd2c01f9b1304ba79e53686dfed3cee25cf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-notify-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "fee3fdd8f47a3f612f342454f34ffc54d7399789fa8547d45371c0a297634938",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-notify-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdk-pixbuf2",
@@ -128038,10 +128047,10 @@
   },
   {
     "name": "vlc-plugin-ogg",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "f2ad3c2488d51beca7da59cb51db0eba834bc63e6324e441e852bacc9c89bc0e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-ogg-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "6f95c0170b2d1b9f7586335980e3daf39406108d9445a7418aa6152d2fce0f8a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-ogg-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128055,10 +128064,10 @@
   },
   {
     "name": "vlc-plugin-opus",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "6f0e577694a0eebe365ee3aaa7cc1eeaa8527afb15bb94676690b4e4835661a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-opus-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "beae3a69cde05e469eb3527a854977c020ec0c918b2df230eed470fbd758c681",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-opus-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128071,10 +128080,10 @@
   },
   {
     "name": "vlc-plugin-png",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "d2e5cc501c55d0c83698ebbfbd031f56bddc5e93fcbe9fef9095a603e4efd3e0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-png-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "31fb7080dce4fbc71812909dd1aa43771df77dd0e0bc98a23d7bd8907f8151ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-png-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128087,10 +128096,10 @@
   },
   {
     "name": "vlc-plugin-pulse",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "02a8d59d462a296931bdba6ab99780f1830b9f6fe63fb37f1a3e3178a82d3750",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-pulse-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "2e0e6f82c312f2584ae298f2e8b02169f9643da6d4efb958e2ca6dcda7cbcfe3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-pulse-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128121,10 +128130,10 @@
   },
   {
     "name": "vlc-plugin-samplerate",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "322d25d0c2e1680a2637540a17117473f8344f6b5db5ae11358fb2ba08b04351",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-samplerate-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "322f92e94d83686a08a9d71243496f13bb92a15a2ba77ab416e841b38cf1210a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-samplerate-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128138,10 +128147,10 @@
   },
   {
     "name": "vlc-plugin-sdl",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "3260159ba7e46f5e82d0b1c28d03e38bae6996c7edac23ed8832f4b5f707c669",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-sdl-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "595df9e03d9ce76dc24d2e0732ef03db3f0aaaf73f23c4ae691b1a7b5d2c2362",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-sdl-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128156,10 +128165,10 @@
   },
   {
     "name": "vlc-plugin-sftp",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "befb71ddbc7cd095738ab7445052891dde4973193ec0531883f973bee07cebb8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-sftp-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "cd2b17e52b20ed8e4cdd3d834eea9941d50c84b4fa6e2f8c6c9d1f9142063e0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-sftp-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128173,10 +128182,10 @@
   },
   {
     "name": "vlc-plugin-shout",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "ea6574c185c02aa94c03afd1379be68145cb2caf1e45c46724a3e032b039adee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-shout-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "fde0fbe31a1149550ea36162e84b5c751dc5ea9ca5902beb6d746242457c87e7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-shout-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128189,10 +128198,10 @@
   },
   {
     "name": "vlc-plugin-smb",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "ae84826fc8020f902ea5cb26435dd9fd57e9def59966b7c8676ae3be23711005",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-smb-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "e2934844c71fe238052b51c4c31581774618878beb38d48164e703eb00ed1912",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-smb-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128206,10 +128215,10 @@
   },
   {
     "name": "vlc-plugin-soxr",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "6f466f72ba00ab7c5e7f93bfffb86fc365f434d1e7676b04b360f417b89a3d31",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-soxr-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "bdc0c22d9f2f25813c3509f6680972de521464b11dc92962b24bceaf476f8cd8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-soxr-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128223,10 +128232,10 @@
   },
   {
     "name": "vlc-plugin-speex",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "0e9e7908a395b080102f34c16fb98ddc27c7e16ef543aaa7a0851762c02d083d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-speex-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "8faa4b4bfc0d16b7ac5a63a5b1698745ff93843c1da6da02c3631f942d2e68fa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-speex-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128240,10 +128249,10 @@
   },
   {
     "name": "vlc-plugin-srt",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "43194c53b5e650ff8672fd8c9bb317aa59b6dfe46a556e4bcd600c0d05d2ee52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-srt-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "121f2e0159de641abf4957ace1d7a80d53bb86c3f00f39a96615169588cbfd47",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-srt-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128257,10 +128266,10 @@
   },
   {
     "name": "vlc-plugin-svg",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "9c6ab79c5ba8d5fdc7e81e4c2689d3fa72df7a470ca20c46576a40b29ec210e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-svg-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "06a0d85e1215cf187f2f91d7035d781cf86438ee4f1450c73e9cca492cbb7198",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-svg-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -128276,10 +128285,10 @@
   },
   {
     "name": "vlc-plugin-tag",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "cf233d963263b31791f2b2155ae9ca53c4db21d02f88b711542f0fa6f8406b00",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-tag-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "778207cc3edb26622e63ed659022da2977da7c54a0e70bbb9476d8c7db0dc6eb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-tag-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128294,10 +128303,10 @@
   },
   {
     "name": "vlc-plugin-theora",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "333526979924e5f9bb0e03bc85ac8a21a8b14e423047217cee8c9f26c5a47efa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-theora-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "547dbdaf16f98e9ca107ad30cf131c802005d445409e79800fc994f684835a8a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-theora-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128310,10 +128319,10 @@
   },
   {
     "name": "vlc-plugin-twolame",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "8da2e16b2224dc05e76856c70577e39662b98fd2004858fc93b9a65f4d5af4fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-twolame-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "2c7ff3e9aa87b99c1e71b46eaea7fb5dd0f45d9008128951e2101e38473e70a4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-twolame-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128326,10 +128335,10 @@
   },
   {
     "name": "vlc-plugin-udev",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "89d148f385a578217dcaf1958c09651c542ecef2e2d1a6e9adc4191a34545228",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-udev-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "18a5f824aff70f9046026823d3062ad44a59659d3e1752d3f30828a1fabdb092",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-udev-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -128344,10 +128353,10 @@
   },
   {
     "name": "vlc-plugin-upnp",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "5a65c86eb77bbda72917f78831750d32233547d9f18bd0370a347b8b5aa34830",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-upnp-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "7f88f88d35dd1f4a87203f1a2943d679af0caf83a5defa8a7f36616557fda25a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-upnp-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128363,10 +128372,10 @@
   },
   {
     "name": "vlc-plugin-vorbis",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "75984a04a5374c2d8c706e2d0205d0fe72ffda6a51edb17db757e05d3634dfe6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-vorbis-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "27acce3014cf730fd5758dfb41b8a44c4c69645e34099354bbef8708d04f2e54",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-vorbis-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128379,10 +128388,10 @@
   },
   {
     "name": "vlc-plugin-vpx",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "b34657f7bd2a1bbe53e267d972288117c4165b191df572302524eef67bd0d94f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-vpx-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "b270ae46ecb1cc94719e54fcd08649e7ec58c78c3a2c81353d20695e36f5885d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-vpx-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128395,10 +128404,10 @@
   },
   {
     "name": "vlc-plugin-x264",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "ed085e53c6f63620425476b6265e9e4f2de003de80914b58b446005b855df35b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-x264-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "cd77e017efb0716b85b680d35d88dbb55f402a8e36d8082f1267f921b97ccdf7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-x264-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128412,10 +128421,10 @@
   },
   {
     "name": "vlc-plugin-x265",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "7e1175d9698881b4e152b9f12dbf35ab73eeed8c41c97213b580a91a23c3f8a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-x265-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "fc52639f548b27a66461b680a3db7e1c6c21dcb57044b798b87842e8c3990021",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-x265-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128429,10 +128438,10 @@
   },
   {
     "name": "vlc-plugin-xml",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "b908db6cc2e1cb5f947aeab9fc6969fc0ddba76052fc33d29fc5c712d6f96aba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-xml-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "b2b8fa0d268beac49a8cac85e7ba7b2ab760d3bf375312eab7148352e7ee2d0a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-xml-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128445,10 +128454,10 @@
   },
   {
     "name": "vlc-plugin-zvbi",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "4711bccc7de4be63676a934566bc079e3683a402723603861c2f55157a7d83ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-zvbi-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "e072c89d02fa0371854fa3975cc8aa4cbbf66ec7a703261b5f4852afc0d7a1f1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugin-zvbi-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128462,10 +128471,10 @@
   },
   {
     "name": "vlc-plugins-all",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "636b8796a8a96a64413f8f167e9b8a7c3735ddc8686132184d8137f57737fcfc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-all-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "80be30a413798f3c5af5acfa6d2986762f3243ba6683ec8b02718945aba22a2a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-all-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "vlc-plugin-fluidsynth",
@@ -128490,10 +128499,10 @@
   },
   {
     "name": "vlc-plugins-base",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "be6bed402175199f915274376a35daf8d5202396ee29b14fb32cd196119e1cdd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-base-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "3f392135ea3d99d529c71255b49f47191609b9226ee2fc39c21343b1257a3c68",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-base-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128532,10 +128541,10 @@
   },
   {
     "name": "vlc-plugins-extra",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "590f8353166fe7868b03314f053a1873b53991076c794bb18ac7c6fa8c6e0eea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-extra-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "68684a5e1945ee04ed5fff4a64c0083168c437c7650e3859f858380fb04cce6e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-extra-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -128583,10 +128592,10 @@
   },
   {
     "name": "vlc-plugins-video-output",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "5d57c8a5bf9cffcb59f7db02d489000238cc0b95533b9abab91b4e158d9bf6b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-video-output-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "af71dc8252688cc3ca4340cf584066708384922d5d68a335f81b796d7c590fc4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-video-output-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [
       "libvlc_xcb_events.so=0-64",
       "libvlc_vdpau.so=0-64"
@@ -128611,10 +128620,10 @@
   },
   {
     "name": "vlc-plugins-visualization",
-    "version": "3.0.23_2-13",
+    "version": "3.0.23_2-14",
     "origin": "artix-world",
-    "sha256": "f0c1ed6a43303657bd88123f15d94b149495f80d3d6b35417cc78700e1a23467",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-visualization-3.0.23_2-13-x86_64.pkg.tar.zst",
+    "sha256": "54b35bdf7d1f9e2de3ec9acebefae9bda992e3ab4de1188954e24863da03591b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vlc-plugins-visualization-3.0.23_2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130324,10 +130333,10 @@
   },
   {
     "name": "weechat",
-    "version": "4.10.0-1",
+    "version": "4.10.1-1",
     "origin": "artix-world",
-    "sha256": "ba9a963bf46329e266d2d28930e52a3c37dff6494db58c359da011d551dff7e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/weechat-4.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f75f2ce0263c505fe462e74f68dad0aa0d8059e0c62894c462d9781199611e33",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/weechat-4.10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
