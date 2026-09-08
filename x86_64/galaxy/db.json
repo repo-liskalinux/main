@@ -1821,15 +1821,15 @@
   },
   {
     "name": "certbot",
-    "version": "5.7.0-1.1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "7a34a72d326daafdc3def0bf9815fc99be5883ff3d29e2a3a63dc3092ff31842",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-5.7.0-1.1-any.pkg.tar.zst",
+    "sha256": "63149572daad948853ebc97adc1ecfa75e1375fd6f8ab84f8b2e2d46482cdd4a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates",
       "python",
-      "python-acme=5.7.0",
+      "python-acme=5.8.0",
       "python-configargparse",
       "python-configobj",
       "python-cryptography",
@@ -1846,14 +1846,14 @@
   },
   {
     "name": "certbot-apache",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "30d3d032c1e2a2343a67cc86de1786b0903cd27120e8c6a8c0413804690539d0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-apache-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "83e80d31dcadabd5ee2f5d19dca8605107bbbcb503ab80eb2793d6cd8a4b1775",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-apache-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-augeas"
     ],
     "optdepends": [],
@@ -1861,14 +1861,14 @@
   },
   {
     "name": "certbot-dns-cloudflare",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "8866502b2b9415f374a38b812016ba88874e59aedf04cca0aaa6d9e22da5f021",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-cloudflare-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "11672a9ec06080a013205e51245211db97ecde65893d910d210898936d7a4676",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-cloudflare-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-cloudflare"
     ],
     "optdepends": [],
@@ -1876,14 +1876,14 @@
   },
   {
     "name": "certbot-dns-digitalocean",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "351cf89644ee87bd93b04c2ce5a965914167375c0de80569deac5b9d5db360a5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-digitalocean-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "77e8c8a9c0a43dcf3f03fcc978da86c91839e61d66f83384b47163a8b3e7054a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-digitalocean-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-digitalocean"
     ],
     "optdepends": [],
@@ -1891,14 +1891,14 @@
   },
   {
     "name": "certbot-dns-dnsimple",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "d8c3befca8cbdb4f23e1d413cdafd12d2f667e5c82ff87ca5aa7e31ab700b9e8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-dnsimple-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "8013a3638983541f506158bab3283d35baccc2d0a18b6b2fb6b6b71165cf8010",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-dnsimple-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -1906,14 +1906,14 @@
   },
   {
     "name": "certbot-dns-dnsmadeeasy",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "f5353857ebbc83d61937cb7ea534c3232454286f5e95ee76dda6e81d11fef5a9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-dnsmadeeasy-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "88364565218ea3781d27a42e7a6ac53fac4a8cf42a1bbcba02817d7597a5eb05",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-dnsmadeeasy-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -1921,14 +1921,14 @@
   },
   {
     "name": "certbot-dns-gehirn",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "002a07c108175e635550248b31375f9fa5966bd66f68fbcd847c678376ad1ba8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-gehirn-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "b72940c6ac89796d0e2a961e3a6dd361379a24312bf26ac48fbf868f2157740a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-gehirn-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -1936,14 +1936,14 @@
   },
   {
     "name": "certbot-dns-google",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "9e9ff224a2d4728dc4e61faca58c4bfb241729dcaa0c21e028434d14a4c063dd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-google-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "ee48a7f2f04e16b0447f99913ee125ba422b3c7d0ba0e0e48769f20f3f9c5710",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-google-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-google-api-python-client",
       "python-httplib2"
     ],
@@ -1952,14 +1952,14 @@
   },
   {
     "name": "certbot-dns-linode",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "190ceeea4ace9b9c2dab6bb90236177e375a379bd07eab05bf1da8a4e22f0ec9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-linode-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "8011beb60782231b03421fba511337d0ef73a008f54f3f00f07e7e21a5d33c99",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-linode-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -1967,14 +1967,14 @@
   },
   {
     "name": "certbot-dns-luadns",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "8c554b5146ee0deb260a0027770139b24c2dbe51cbcf63558a38d7283f11b453",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-luadns-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "f55bc85cf6d73f7c33a239a68c1055c4e887824d07e81ca80f0c3075e0351de6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-luadns-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -1982,14 +1982,14 @@
   },
   {
     "name": "certbot-dns-nsone",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c65a9ca43c2df616db2f72aa49a40d008a2121ab4be9801cccf7022ce7169e19",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-nsone-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "5508b3853e4f617bc7de3140792326809d1b16b46e98a21acb1fb88850f39856",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-nsone-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -1997,14 +1997,14 @@
   },
   {
     "name": "certbot-dns-ovh",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "e35ea128bfbac6c7930984d72ca67aff05368113c2b89bcaa011a73169e50894",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-ovh-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "9d61184977e92b49c2e3efac029f1d762ac88902b97e1f9e351f463757f43fff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-ovh-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -2012,14 +2012,14 @@
   },
   {
     "name": "certbot-dns-rfc2136",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "841211b116fe09cab2c6a770e0b5d14908ee41582c576f7f5fab6399fd062d39",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-rfc2136-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "3a6fd9b63ef06e58b8cfe02a4763bde0759d6513e0cbbfc5f4beeb24b758278e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-rfc2136-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-dnspython"
     ],
     "optdepends": [],
@@ -2027,14 +2027,14 @@
   },
   {
     "name": "certbot-dns-route53",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "f74261ab1dc589aae5fb346b5b7428f8a4d42d3eb3d4b645af34ee45a115c677",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-route53-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "522b69ebc3f6c7238075ccb0425b696ca26518074258df8820dc3c89df9e3530",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-route53-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-boto3"
     ],
     "optdepends": [],
@@ -2042,14 +2042,14 @@
   },
   {
     "name": "certbot-dns-sakuracloud",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "0540792f6190b6406032c3c1b1f10e0db1675e6d1cc9030c488f757268ffb71b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-sakuracloud-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "37d37df6b61adbd1674896577f8be2d942c69b67878d1026528fe2c7f2a63a0a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-dns-sakuracloud-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "dns-lexicon"
     ],
     "optdepends": [],
@@ -2057,14 +2057,14 @@
   },
   {
     "name": "certbot-nginx",
-    "version": "5.7.0-1",
+    "version": "5.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "cd8cf95af47061ffeda27b22fe3b88ab45a4f5f7bb794f2de3418286d14386bb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-nginx-5.7.0-1-any.pkg.tar.zst",
+    "sha256": "44b5eef73b1f54aab63c770dacff57fc36184ecfeddbdfc5d5705337b8ad1180",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/certbot-nginx-5.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "certbot=5.7.0",
-      "python-acme=5.7.0",
+      "certbot=5.8.0",
+      "python-acme=5.8.0",
       "python-pyopenssl",
       "python-pyparsing"
     ],
@@ -8638,10 +8638,10 @@
   },
   {
     "name": "foot",
-    "version": "1.28.0-1",
+    "version": "1.28.0-2",
     "origin": "artix-galaxy",
-    "sha256": "18aee295f032e8db526780288d887eddcf7cfc88d4c6da383d28eda3920043cd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/foot-1.28.0-1-x86_64.pkg.tar.zst",
+    "sha256": "aa306ed5cf42e4e3ea106aff04a066e93d5e870cc0d26249a07b325743a548b5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/foot-1.28.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fcft",
@@ -8662,10 +8662,10 @@
   },
   {
     "name": "foot-terminfo",
-    "version": "1.28.0-1",
+    "version": "1.28.0-2",
     "origin": "artix-galaxy",
-    "sha256": "d64a86bd98014413fe31f17bd05246c2a938faf3e616ae356f4caf4067b3e077",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/foot-terminfo-1.28.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a3f369d32a1ceb8d491832358eda5073c4f23c67a9b4b03c4432b1ff92e98fce",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/foot-terminfo-1.28.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ncurses"
