@@ -6190,10 +6190,10 @@
   },
   {
     "name": "bootconfig",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "d3aecdb6c7afe1a875108bc1d24e3b534cb4b797be13fb607ae4cd89e2e09b2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ed57dbfbd531c41b954ca6db4b8598c4312ec2c3c03524d4d060e5b7bb87e5cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -6267,10 +6267,10 @@
   },
   {
     "name": "bpf",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "7bf3dc9582254965619f1450a87154ca584f59ce7db8b7da82a8182d2d114fc8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b6f9eb3a39fcbe1b53a280fe3d2c511ab11733f38114aeec3ebd7468e341b52c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9683,10 +9683,10 @@
   },
   {
     "name": "cpupower",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "ec4e2a07b2f4e874743a6329afb9eb53c44fd0b413f5ff19701441f60f4d7a7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "463ce59f359022548785df614c33ec1b5b3a0334231666879afbc205a282d6b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -26578,17 +26578,17 @@
   },
   {
     "name": "gvim",
-    "version": "9.2.1011-1",
+    "version": "9.2.1046-1",
     "origin": "artix-world",
-    "sha256": "6da87f02110a0afab3bbb628597e0f3b1d9521a7f048bb3ff0fd26aca013e0a5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvim-9.2.1011-1-x86_64.pkg.tar.zst",
+    "sha256": "a57a4355406d18ca5950378ad14780573cd94e111b691df26fd468be621b5828",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvim-9.2.1046-1-x86_64.pkg.tar.zst",
     "provides": [
-      "vim=9.2.1011-1",
+      "vim=9.2.1046-1",
       "xxd",
       "vim-plugin-runtime"
     ],
     "depends": [
-      "vim-runtime=9.2.1011-1",
+      "vim-runtime=9.2.1046-1",
       "gpm",
       "libxt",
       "gtk3",
@@ -28549,10 +28549,10 @@
   },
   {
     "name": "hyperv",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "ddf5d1668c1a327633613ea30c665f4dddfc1ec45d24d191d07a45daeca0cd24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "81ace4a902eeaa4bbd2a26303598440ac72a291506ea90a9a727a683309f8455",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -30306,10 +30306,10 @@
   },
   {
     "name": "intel-speed-select",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "955bdd48541f31752536b506cddc133ac59f2063939a41e5b8c9193c79af31fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "db50a67059d7cf69a1bdab8530c00823b404875a6621c5bbce97870692a00292",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnl"
@@ -34149,10 +34149,10 @@
   },
   {
     "name": "kcpuid",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "a825638f6a859ee318ab01644d5c228082bc40c4be8e7d2470b739ce9e70d586",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "20d7fc5e90a20d6206337bb3be6e043b4633b7696a7bb28c116af1c114552641",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -51959,10 +51959,10 @@
   },
   {
     "name": "linux-tools-meta",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "5d2ca9c8bc0b159b43610e2dfd3f87ad9b3267a5e717cbe1b7c1fed219e41acb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6e53274ef6b7e9bc102fc711528bcb77b4273a46e401c95dc8fea5703dc636f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bootconfig",
@@ -64829,10 +64829,10 @@
   },
   {
     "name": "perf",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "8a2f0c7dcf69505340392c1247ef4f1f241529427c605822f8d0ea83506bd86f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "59258d98261db4872cc9d5d6e474accac10217ea5dc93ba339c368300407853a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -109110,10 +109110,10 @@
   },
   {
     "name": "rust-bindgen",
-    "version": "0.73.1-1",
+    "version": "0.73.2-1",
     "origin": "artix-world",
-    "sha256": "b2a89537fea05a972d89154ba4265ef6861273ed59403bcb286219c9810f99b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-bindgen-0.73.1-1-x86_64.pkg.tar.zst",
+    "sha256": "dd97be23ab4f09339e4ab3b89d7953cabf04d90dd2dc05265b48f774ae0ed72d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-bindgen-0.73.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -123194,10 +123194,10 @@
   },
   {
     "name": "tmon",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "95937596e3c13a6c0d8ac49a3bb8a79ff5edd08d269e973a7408843107748c90",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "67a95b55b6f5d4af7bee36ea6585ebb13ac333279b9c11a6db2ee523f2b14a58",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -124423,10 +124423,10 @@
   },
   {
     "name": "turbostat",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "6bf75e2ed42052c89d9d800da1f010c90a19bdf079937d8a62bfdef335428f12",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "851d3bad0d3a7c966b34203527128f87b443fdc14bf62e6402ad7bf627fab32c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125657,10 +125657,10 @@
   },
   {
     "name": "usbip",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "f25d74a0673e81f697df96f8a5d913d724695c1c5635b5f51c2438068155731d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9be662e86d5ceaff238cf3f80ef9692917ae933ddd6df40874b4f503c8b33606",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126590,17 +126590,17 @@
   },
   {
     "name": "vim",
-    "version": "9.2.1011-1",
+    "version": "9.2.1046-1",
     "origin": "artix-world",
-    "sha256": "33e798166dd5c46773661ac240b3271d45b4e2b8fcc84784a5bf2a83c4f0e8b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-9.2.1011-1-x86_64.pkg.tar.zst",
+    "sha256": "f6317c45ec92a49ca38c36dcffe9d188c532868985435a483e5b83059625d829",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-9.2.1046-1-x86_64.pkg.tar.zst",
     "provides": [
       "xxd",
       "vim-minimal",
       "vim-plugin-runtime"
     ],
     "depends": [
-      "vim-runtime=9.2.1011-1",
+      "vim-runtime=9.2.1046-1",
       "gpm",
       "acl",
       "glibc",
@@ -126637,10 +126637,10 @@
   },
   {
     "name": "vim-runtime",
-    "version": "9.2.1011-1",
+    "version": "9.2.1046-1",
     "origin": "artix-world",
-    "sha256": "cfa1decc4d8c6f90772b34d8acea854f769cef4a3bb938216972db44c3251a76",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-runtime-9.2.1011-1-x86_64.pkg.tar.zst",
+    "sha256": "4bd228a7d6fc0e9778056c3c5a96a97640adf28fb2d1515eec17ecb882beef2f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-runtime-9.2.1046-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -131423,10 +131423,10 @@
   },
   {
     "name": "x86_energy_perf_policy",
-    "version": "7.2.3-1",
+    "version": "7.2.4-1",
     "origin": "artix-world",
-    "sha256": "f618780597fdd32a51ac25f5cfbc93fc94cf35cc8a139b9b19d79ab974fa5392",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7b9ae6e5f7eeb325510f424a2a50f01e44c39a5d49d018a3de4a8caceb06c87f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
