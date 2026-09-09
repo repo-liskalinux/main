@@ -11655,10 +11655,10 @@
   },
   {
     "name": "dleyna",
-    "version": "0.8.4-1",
+    "version": "0.8.5-1",
     "origin": "artix-world",
-    "sha256": "827645e7b5ddb71d5017fdd89c9b4243b62c55df6e240f34abc33e61b834dac3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dleyna-0.8.4-1-x86_64.pkg.tar.zst",
+    "sha256": "11d3b4eff5d0a1631796773ed35525eeb768f8b570ed2529480f07f225defbca",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dleyna-0.8.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "dleyna-connector-dbus",
       "dleyna-core",
@@ -19063,10 +19063,10 @@
   },
   {
     "name": "gegl",
-    "version": "0.4.70-3",
+    "version": "0.4.72-2",
     "origin": "artix-world",
-    "sha256": "94d3d042aeaca63e00cf5257985cc8850ca691a44d902a8b7f39680a9b5cdb2f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gegl-0.4.70-3-x86_64.pkg.tar.zst",
+    "sha256": "22341a06db590032005a395ddad6c8782e5bed43e39df4d326786d3b568e9b3f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gegl-0.4.72-2-x86_64.pkg.tar.zst",
     "provides": [
       "libgegl-0.4.so=0-64",
       "libgegl-npd-0.4.so=libgegl-npd-0.4.so-64",
@@ -19119,9 +19119,8 @@
       "suitesparse"
     ],
     "optdepends": [
-      "ffmpeg: FFmpeg Frame Loader and FFmpeg Frame Saver plugins",
       "graphviz: for gegl-introspect",
-      "sdl2: SDL2 Display plugin"
+      "sdl3: SDL3 Display plugin"
     ],
     "conflicts": []
   },
@@ -50388,10 +50387,10 @@
   },
   {
     "name": "libwacom",
-    "version": "2.19.1-1",
+    "version": "2.20.0-1",
     "origin": "artix-world",
-    "sha256": "40c3c3f1cf614da51f7dd06e000278d5396106404b9dde19036eafe82cdcbb8e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwacom-2.19.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a9bb77221c0d210c644d3534aa37265d2c71c8d2d75b3a6994906c378e60982c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwacom-2.20.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -62788,10 +62787,10 @@
   },
   {
     "name": "opensips",
-    "version": "4.0.1-1.1",
+    "version": "4.0.2-1",
     "origin": "artix-world",
-    "sha256": "bf45667275b877207acea6d7d84e1c06fb59aa1108401cecd71750fdb997b82f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensips-4.0.1-1.1-x86_64.pkg.tar.zst",
+    "sha256": "c8291ac32199bd2ccedae3d2aaff5e58aa7e6321dff1e5bed5fef3ef6c7ebefa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensips-4.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -79347,10 +79346,10 @@
   },
   {
     "name": "python-dleyna",
-    "version": "0.8.4-1",
+    "version": "0.8.5-1",
     "origin": "artix-world",
-    "sha256": "e4d97b9ee1407f9d1086ea2ebdd6bdaaf92e226d17bfb12c7a27e9a30114f759",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dleyna-0.8.4-1-x86_64.pkg.tar.zst",
+    "sha256": "72aff5b816bf2248d8a6fb4f43829c427a4515d6ac556d4dba9998ffee8e98fd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dleyna-0.8.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dleyna",
@@ -102769,10 +102768,10 @@
   },
   {
     "name": "ripgrep-all",
-    "version": "0.10.10-2",
+    "version": "0.10.10-3",
     "origin": "artix-world",
-    "sha256": "d70fc04dac1c97b401d0f611b499cd5c7e8ba5ddcf39dad967057672dd3aa591",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ripgrep-all-0.10.10-2-x86_64.pkg.tar.zst",
+    "sha256": "cb57df3e228697bf0e32a016a2a7531e6bafc4c9751dea0d06e81fcdb92dc6e8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ripgrep-all-0.10.10-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -102785,10 +102784,8 @@
     ],
     "optdepends": [
       "ffmpeg: for the ffmpeg adapter",
-      "graphicsmagick: for the pdfpages adapter",
       "pandoc: for the pandoc adapter",
-      "poppler: for the poppler adapter",
-      "tesseract: for the tesseract adapter"
+      "poppler: for the poppler adapter"
     ],
     "conflicts": []
   },
@@ -105993,10 +105990,10 @@
   },
   {
     "name": "ruby-markly",
-    "version": "0.17.0-1",
+    "version": "0.18.0-1",
     "origin": "artix-world",
-    "sha256": "1628696b538361d9ed127b5872c157cb213e4fbcb35a86e49ec14ac8eb9a6287",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-markly-0.17.0-1-x86_64.pkg.tar.zst",
+    "sha256": "df79b8bff8fc30827de1b21cd6b156e852ac7238bcb66336f3c351e72a664e42",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-markly-0.18.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -112954,10 +112951,10 @@
   },
   {
     "name": "strawberry",
-    "version": "1.2.28-2",
+    "version": "1.2.29-2",
     "origin": "artix-world",
-    "sha256": "e410b74d3ceab98a54314351a843dcf68ed6339bd54f85513519bcd37981cabb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strawberry-1.2.28-2-x86_64.pkg.tar.zst",
+    "sha256": "1e58aeec5f7f633c43c8b313b4b02e8c165d51601bd424d63a7652cdc7ebc8e2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strawberry-1.2.29-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -112980,6 +112977,7 @@
       "libpulse",
       "libstdc++",
       "libx11",
+      "openssl",
       "qt6-base",
       "sqlite",
       "taglib",
