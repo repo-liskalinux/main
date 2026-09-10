@@ -17988,10 +17988,10 @@
   },
   {
     "name": "fuse-common",
-    "version": "3.18.2-1",
+    "version": "3.18.3-1",
     "origin": "artix-world",
-    "sha256": "835f4454a5cabddd8b935fc9f62874464c4b41da5e2a8456d9bbbca0654d4bc1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse-common-3.18.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2e6851c9e63da712e054e8721a551bb644a1b9d43d7d618bccba5421500cd5f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse-common-3.18.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -18084,14 +18084,18 @@
   },
   {
     "name": "fuse3",
-    "version": "3.18.2-1",
+    "version": "3.18.3-1",
     "origin": "artix-world",
-    "sha256": "cc1eeb56c7fa7c3a621f59a3b6e5f2e864c178479268c3f2dfeaa6f192e61c45",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse3-3.18.2-1-x86_64.pkg.tar.zst",
+    "sha256": "28d3e5411ac144455dd0e5ba1270a8094414097f3345e69e324e4ba86d9a5c54",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse3-3.18.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse-common",
-      "glibc"
+      "glibc",
+      "liburing",
+      "liburing.so=2-64",
+      "numactl",
+      "libnuma.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -49773,10 +49777,10 @@
   },
   {
     "name": "libunrar",
-    "version": "1:7.2.7-1",
+    "version": "1:7.3.1-1",
     "origin": "artix-world",
-    "sha256": "ab15e3226bb597af6fe9e9e9201b982f639f3a93b415b10034556008273fd368",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libunrar-1:7.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "d519f8d1a1499e6d5119a153d048a403a27cbac1186bdf1f91e8e0e80c837132",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libunrar-1:7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125315,10 +125319,10 @@
   },
   {
     "name": "unrar",
-    "version": "1:7.2.7-1",
+    "version": "1:7.3.1-1",
     "origin": "artix-world",
-    "sha256": "86e65088e755baedd2e259c1c65ef8512310b227ac0644c5adcc4f9d27d2dfb2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unrar-1:7.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "cf5cafa7765d805be1eee406783ee0bf8ef752cbac35c43482e7ff0751b05336",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unrar-1:7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
