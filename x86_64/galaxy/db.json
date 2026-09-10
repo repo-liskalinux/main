@@ -9955,20 +9955,6 @@
     ]
   },
   {
-    "name": "incron",
-    "version": "0.5.12-6",
-    "origin": "artix-galaxy",
-    "sha256": "7f65686955ce518e862138bff85c9ef3fa4d18279c3b1d83dc973d970d104093",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/incron-0.5.12-6-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "gcc-libs",
-      "bash"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "incron-next",
     "version": "0.5.17-2",
     "origin": "artix-galaxy",
@@ -24452,6 +24438,21 @@
     "conflicts": []
   },
   {
+    "name": "rate-mirrors",
+    "version": "0.29.0-1",
+    "origin": "artix-galaxy",
+    "sha256": "946223b774535dc019b8c22f86b1acc430fc895026f6fc45b0e19e752d6710b1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rate-mirrors-0.29.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "openssl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "ratpoison",
     "version": "1.4.9-6",
     "origin": "artix-galaxy",
@@ -28429,10 +28430,10 @@
   },
   {
     "name": "ttf-sarasa-gothic",
-    "version": "1.0.40-1",
+    "version": "1.0.41-1",
     "origin": "artix-galaxy",
-    "sha256": "e659afceb1acfb242443d48e66e9c1bce66c0a1e17f7bdcee457967eba4cb0aa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ttf-sarasa-gothic-1.0.40-1-any.pkg.tar.zst",
+    "sha256": "e1d1b699934d64b65ce6410df5113046f996bd3ddb844317d0da5e682fdf6fa3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ttf-sarasa-gothic-1.0.41-1-any.pkg.tar.zst",
     "provides": [
       "ttf-sarasa-slab"
     ],
