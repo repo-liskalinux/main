@@ -1501,10 +1501,10 @@
   },
   {
     "name": "ansible",
-    "version": "14.3.1-1.1",
+    "version": "14.4.0-1",
     "origin": "artix-world",
-    "sha256": "ca88a577932a2745fe6f3977792a29cd09762d80b826a7781b4e4fd1fcec9b68",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-14.3.1-1.1-any.pkg.tar.zst",
+    "sha256": "29a3eb3f67fc4f79077d776e055d73a0730c4711e56361690f4f5ec590f3c9af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-14.4.0-1-any.pkg.tar.zst",
     "provides": [
       "python-ansible_collections"
     ],
@@ -1533,10 +1533,10 @@
   },
   {
     "name": "ansible-core",
-    "version": "2.21.3-1",
+    "version": "2.21.4-1",
     "origin": "artix-world",
-    "sha256": "acec875091c601da2b9b0f8de60f5c441a3f527ef00be8c48f57559847a1d3ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-core-2.21.3-1-any.pkg.tar.zst",
+    "sha256": "3ddc6fa9092d9ab94eb720790cdc68242a8cd04deb4fbcacb2d86f402c76c3fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-core-2.21.4-1-any.pkg.tar.zst",
     "provides": [
       "python-ansible",
       "ansible-base"
@@ -9993,10 +9993,10 @@
   },
   {
     "name": "cudnn",
-    "version": "9.25.1.1-1",
+    "version": "9.26.0.51-1",
     "origin": "artix-world",
-    "sha256": "9142c2d50bed8d9644e9ec933062fc08953e4bfa380a2e8fc93aefc42e06e411",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cudnn-9.25.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7d3174660ae12093a1548ab50783b410570ae114a8432f5bcbea73b17bdc0816",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cudnn-9.26.0.51-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cuda>=13",
@@ -10074,10 +10074,10 @@
   },
   {
     "name": "cups-filters",
-    "version": "2.0.1-2.1",
+    "version": "2.0.1-3",
     "origin": "artix-world",
-    "sha256": "76b4eb3156f01eedc14d192d167cea26541a49abfe26fc4186b17f7397a329c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cups-filters-2.0.1-2.1-x86_64.pkg.tar.zst",
+    "sha256": "7d5ef4131d93b1cf2b69d928ff03eedbb71802fa5bceecb55136e9b4e790eb80",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cups-filters-2.0.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcups",
@@ -19446,10 +19446,10 @@
   },
   {
     "name": "ghostscript",
-    "version": "10.07.1-1",
+    "version": "10.08.0-1",
     "origin": "artix-world",
-    "sha256": "c11d84d6fd44b3c5e0178b72529ba19f986d85be41f7a957a4591de486437075",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ghostscript-10.07.1-1-x86_64.pkg.tar.zst",
+    "sha256": "579d22fb6f4e699cf6d890fd7039c39321f645b0e48fb8eaef01210152b18198",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ghostscript-10.08.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxt",
@@ -23401,10 +23401,10 @@
   },
   {
     "name": "graphviz",
-    "version": "16.0.0-1",
+    "version": "16.1.0-1",
     "origin": "artix-world",
-    "sha256": "cda8074842c6bff9b92bfe03a07a721aedd19b1edc230226ebcee49408a3e5c1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/graphviz-16.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "96e6606452fe35232ef79ecbd4c6079772f627349cb79c4d9425c977974c3e71",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/graphviz-16.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libltdl",
@@ -41772,10 +41772,10 @@
   },
   {
     "name": "ldb",
-    "version": "2:4.24.6-1",
+    "version": "2:4.24.7-1",
     "origin": "artix-world",
-    "sha256": "c7f2bfa99c90ea3de2b5fdb4bdd269937adcd7162540774253a644898c74f80a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ldb-2:4.24.6-1-x86_64.pkg.tar.zst",
+    "sha256": "26726ca19654ab5dd554ae75965a9257b9e5030dcc1d4fba55606e5d1dd86e23",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ldb-2:4.24.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libldb.so=2-64"
     ],
@@ -50422,10 +50422,10 @@
   },
   {
     "name": "libwbclient",
-    "version": "2:4.24.6-1",
+    "version": "2:4.24.7-1",
     "origin": "artix-world",
-    "sha256": "9421d74f0f65455221f5a5aa1c76735185e2a1a56169a30c50e5c7c872bf2045",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwbclient-2:4.24.6-1-x86_64.pkg.tar.zst",
+    "sha256": "3295b61be70c951468078e9ef451925f01b9edc06b01d76573c024e2ab4a90e7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwbclient-2:4.24.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libbsd"
@@ -53594,10 +53594,10 @@
   },
   {
     "name": "luajit",
-    "version": "2.1.1788460057+24c20c9-1",
+    "version": "2.1.1788856981+c6ffc14-1",
     "origin": "artix-world",
-    "sha256": "ecc889cec56839a9b86270208aa5b9f34463d3240484919a3dc8ba39128dcceb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luajit-2.1.1788460057+24c20c9-1-x86_64.pkg.tar.zst",
+    "sha256": "ed3bc3ac9bf5effa82a278d9770827b1df79a0b10e1447c69e75f0dc3e6686e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luajit-2.1.1788856981+c6ffc14-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -59834,10 +59834,10 @@
   },
   {
     "name": "nodejs",
-    "version": "26.8.1-2",
+    "version": "26.8.2-1",
     "origin": "artix-world",
-    "sha256": "cf5c5fe93da80e2858f3542acab6626ac25c5694481fe42a1b1aea029c1308fb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.8.1-2-x86_64.pkg.tar.zst",
+    "sha256": "09e8a65523ecbbc2a7c0670202f3ea6c578af0292df2d5ab92ae2951a3bdc1ae",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ada",
@@ -60253,10 +60253,10 @@
   },
   {
     "name": "nsight-compute",
-    "version": "2026.2.1.5-1",
+    "version": "2026.3.0.13-1",
     "origin": "artix-world",
-    "sha256": "c963d5866780f3abd2bf0b04240327ac807caeec7a3bdfbe48c94238d8f97f9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nsight-compute-2026.2.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "9cac9f75c8a35df7a47ad837294a2fe85d5d93e081a06489c2b73850122b23c6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nsight-compute-2026.3.0.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -60300,10 +60300,10 @@
   },
   {
     "name": "nsight-systems",
-    "version": "2026.1.3.425-1",
+    "version": "2026.3.2.313-1",
     "origin": "artix-world",
-    "sha256": "91f359e5ab0d73455a0901cf3b8684d539234b4b26214b35142560e5a149ccc2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nsight-systems-2026.1.3.425-1-x86_64.pkg.tar.zst",
+    "sha256": "3da8325aef556d52b5de05a1f2352223ffeecedb6f899bd2d36af4786fa9668b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nsight-systems-2026.3.2.313-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -72880,10 +72880,10 @@
   },
   {
     "name": "postfix",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "af7c8114ceb04a1665359d4a372ae91a8d7cddd224a05e4b096f245050a38994",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "efb8ccb4e99a209b03caba0b8cdd2e2059b567244dc0ede4d595f903e80c97cb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "smtp-server",
       "smtp-forwarder"
@@ -72922,10 +72922,10 @@
   },
   {
     "name": "postfix-cdb",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "8e1863020428aee2a4b50c5dfb586781451a3828a7a08df8366d8839b9d6e7d5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-cdb-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "1e4f8a68b5f73430db476fcd3dae25857892c2a64b3d48b627b302b95ca9c79b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-cdb-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72956,10 +72956,10 @@
   },
   {
     "name": "postfix-ldap",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "acbb5e1185392204fbfea86cb5ee2fc44f5a548c702b48882c2c7caa4700ffbf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-ldap-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "641810235f8a791d91157ce2a572ed29fad68ada29e991c687c3193e4b2fa5de",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-ldap-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72971,10 +72971,10 @@
   },
   {
     "name": "postfix-lmdb",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "65e496edc7a72469f1941f7c006dbb5603e959a160d5427e1ebee46a35b636cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-lmdb-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "0d0296ad7e027481a6535eeb43b2bd2770a054329317c8db76c6bdc518fb1d5e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-lmdb-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72986,10 +72986,10 @@
   },
   {
     "name": "postfix-mongodb",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "42f3c6969a9dea9f5baa2ef66af6c2e75c3b616befb25f114c3bc5dfacbc3f2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mongodb-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "a6bef08ec926e4e5b7b9b5abd0e93138d055184f365674690eb6b36cca29dabf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mongodb-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -73001,10 +73001,10 @@
   },
   {
     "name": "postfix-mysql",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "f53a49466d8a4c5af3d8b7195fe315439f0b208b30e7833cde7e5c0012ff074e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mysql-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "daa353d6398d1c8d4c4d5cf0d758ce9cdc28b9b6f4b4e239d7fba2e4e80bc1f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mysql-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -73035,10 +73035,10 @@
   },
   {
     "name": "postfix-pcre",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "63af7e283e62913195c8a09ba81fcc0dbd0e303348783270dbdbeda3969c9cbb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pcre-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "7df094e7e8938ccf392a3532dc62ac0cf56175d67c186fc0c2eb62a303adbb7a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pcre-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -73051,10 +73051,10 @@
   },
   {
     "name": "postfix-pgsql",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "e39445cb5c1c31460c6c2f9d3cd05128d1203eff56cb38586dc796bd46e8d4be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pgsql-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "188b63848dc0f0c5082fb53ac86a35ef0b9bc96968182c87535706e35c05d68c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pgsql-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -73103,10 +73103,10 @@
   },
   {
     "name": "postfix-sqlite",
-    "version": "3.11.6-2",
+    "version": "3.11.7-1",
     "origin": "artix-world",
-    "sha256": "3f3d5e2e540fb2d7a9a1a1df1b6e2ffa9e4854f6f58d4f626dc9883c0e2bcf5b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-sqlite-3.11.6-2-x86_64.pkg.tar.zst",
+    "sha256": "e9a64180c9a00000ecb9db37265967a20a55f1328353def062335ee440e932b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-sqlite-3.11.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -86419,10 +86419,10 @@
   },
   {
     "name": "python-oslo-log",
-    "version": "8.3.1-1",
+    "version": "8.3.2-1",
     "origin": "artix-world",
-    "sha256": "41fd77afcef79b5fafaa48e8a7269e4ade2459400047add28c5049a9556a4852",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-oslo-log-8.3.1-1-any.pkg.tar.zst",
+    "sha256": "67932c24e3970ffecee1910d3ede68ac6cc41234c8a69d9ed072e0641b2b4afd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-oslo-log-8.3.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pbr",
@@ -87306,16 +87306,17 @@
   },
   {
     "name": "python-pint",
-    "version": "0.25.3-1",
+    "version": "0.26-1",
     "origin": "artix-world",
-    "sha256": "c7ef51cfc8093f564d72721d679e748eabf2798d1a0752bed6971f99d43a2391",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pint-0.25.3-1-any.pkg.tar.zst",
+    "sha256": "ffa588ca2590e8448320b85510b1632c11978524e9ad52317143888cd1e8e9c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pint-0.26-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
       "python-flexcache",
       "python-flexparser",
-      "python-platformdirs"
+      "python-platformdirs",
+      "python-typing_extensions"
     ],
     "optdepends": [],
     "conflicts": []
@@ -92464,10 +92465,10 @@
   },
   {
     "name": "python-ruff",
-    "version": "0.16.6-1",
+    "version": "0.16.7-1",
     "origin": "artix-world",
-    "sha256": "fe159cac5f1c7e9f89b7d07d92fcc7ed79e2e4bfe3cb7a6132d0e32d6133e130",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.16.6-1-x86_64.pkg.tar.zst",
+    "sha256": "9bc8bc542eff531d84414ae7bb915d51b192ca98902e26f36555f21c5b84c34a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.16.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95944,24 +95945,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.10-1",
+    "version": "0.12.13-1",
     "origin": "artix-world",
-    "sha256": "523a2b908a895cda539d64d4476d35d208f643115a3d5b98232cb62ed3ab71b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.10-1-x86_64.pkg.tar.zst",
+    "sha256": "d2d380819467e932bb3c25e7b100118e1094b577c65c5113d496eb3cc1de085f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.10"
+      "uv=0.12.13"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.10-1",
+    "version": "0.12.13-1",
     "origin": "artix-world",
-    "sha256": "8fc2e00191a04b1765cebcd1308382512307cc02332bb6021e7a05efe2cdb886",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.10-1-x86_64.pkg.tar.zst",
+    "sha256": "c12a4d8a7c73bf07572aedc626e874c0df7afb5910806c3b21575b78d801a6f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -96540,10 +96541,10 @@
   },
   {
     "name": "python-wrapt",
-    "version": "2.4.0-1",
+    "version": "2.4.1-1",
     "origin": "artix-world",
-    "sha256": "8342222f53c5ea1e1523ca6088b92d16d64aeb367785961be9733b09ca9d505c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-wrapt-2.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0ca186bdd411505387908e43cd75feb869cd9b3316bac222158a497c076c1967",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-wrapt-2.4.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -109025,10 +109026,10 @@
   },
   {
     "name": "ruff",
-    "version": "0.16.6-1",
+    "version": "0.16.7-1",
     "origin": "artix-world",
-    "sha256": "f59952a05f67e1306834100d7e16a823c846efdb952677582b338477087733ac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.16.6-1-x86_64.pkg.tar.zst",
+    "sha256": "f64e43a66981ac25e63f39de4e4ab8bac0aec44e951421fdccf9e4194e000fcd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.16.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -109414,10 +109415,10 @@
   },
   {
     "name": "samba",
-    "version": "2:4.24.6-1",
+    "version": "2:4.24.7-1",
     "origin": "artix-world",
-    "sha256": "2def72c540c28010294b543c06c076a81ee05ba64029c2e25e0dce47e6124809",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/samba-2:4.24.6-1-x86_64.pkg.tar.zst",
+    "sha256": "ffcd93138eabbb691a55204ab772c35bc92da58ea55968d4aa199dd65f9fdcf0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/samba-2:4.24.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gnutls>=2.4.1",
@@ -109433,7 +109434,7 @@
       "libwbclient",
       "popt",
       "python",
-      "smbclient>=4.24.6",
+      "smbclient>=4.24.7",
       "talloc",
       "tdb"
     ],
@@ -111208,10 +111209,10 @@
   },
   {
     "name": "smbclient",
-    "version": "2:4.24.6-1",
+    "version": "2:4.24.7-1",
     "origin": "artix-world",
-    "sha256": "9f9b60eeb4e00918a297835215e16942c9d284fda60e255861f481e595724b0e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/smbclient-2:4.24.6-1-x86_64.pkg.tar.zst",
+    "sha256": "574f7311eb6873fe46bd00aebf120f1e7ee7c62ea5f180533e8a9f48d52b25f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/smbclient-2:4.24.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cifs-utils",
@@ -113752,10 +113753,10 @@
   },
   {
     "name": "swtpm",
-    "version": "0.10.1-2",
+    "version": "0.10.2-1",
     "origin": "artix-world",
-    "sha256": "e864cb94605ab4f0bee8f05f1a40d70528b2c55e74fca3445cf783b90e422731",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/swtpm-0.10.1-2-x86_64.pkg.tar.zst",
+    "sha256": "9e5ea2b9e2094117e4e6eec83fe6d44764a47f57b2c959686f8364504760574c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/swtpm-0.10.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse2",
@@ -122581,10 +122582,10 @@
   },
   {
     "name": "thermald",
-    "version": "2:2.5.12-1",
+    "version": "2:2.5.13-1",
     "origin": "artix-world",
-    "sha256": "4dff7a0d75bc1b4a4110ce395d985143800c4e51c9a26af3d75f0e58f20e5401",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/thermald-2:2.5.12-1-x86_64.pkg.tar.zst",
+    "sha256": "5b8af6272c22452cd75d127e1ae18ad20287c3743a00e17fbc5785bbc0f97624",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/thermald-2:2.5.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus-glib",
@@ -125791,10 +125792,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.10-1",
+    "version": "0.12.13-1",
     "origin": "artix-world",
-    "sha256": "beb183099936159619cae60699414bdbd1faed5527f1ce1d13475d51097c4fb2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.10-1-x86_64.pkg.tar.zst",
+    "sha256": "70250949bf4c030597a86995a4b3fce5825aca86c226ba1db9ff3d667c0bc0e3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126071,10 +126072,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20260904020013-1",
+    "version": "20260908094002-1",
     "origin": "artix-world",
-    "sha256": "c3585bb6c7a97bf0cfc6b319da411e7b8a55b26a15a3db01e2b3400e49e17a8e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20260904020013-1-any.pkg.tar.zst",
+    "sha256": "50807f7b739e3e064e76963066d4fdf28e147b4e98cac7d83b1f01e52d99d856",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20260908094002-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
