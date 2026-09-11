@@ -12193,10 +12193,10 @@
   },
   {
     "name": "docker-buildx",
-    "version": "0.37.0-1",
+    "version": "0.37.1-1",
     "origin": "artix-world",
-    "sha256": "5199102f6a1be0cd583ddf1f9b04fc436a1217ac7d468e62e00f987fde1249ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.37.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b2f6213016ee29031ebac2d0ac7eaacb3d12193785a7aa5322789658b011d118",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.37.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -32456,14 +32456,16 @@
   },
   {
     "name": "julia",
-    "version": "2:1.12.7-1",
+    "version": "2:1.13.0-1",
     "origin": "artix-world",
-    "sha256": "19cf4f2e01cef99b5f2f1bfd629cd3de3259a839569b6a15c6f46c38a656bc31",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.12.7-1-x86_64.pkg.tar.zst",
+    "sha256": "5a9dc9ebecfed8d49250c659b25e783431c88d422c8e9206f5f3bcbcba241075",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas64-openblas",
+      "dsfmt",
       "fftw",
+      "libatomic",
       "libblastrampoline",
       "libgit2",
       "libnghttp2",
@@ -32475,7 +32477,8 @@
       "openssl",
       "7zip",
       "pcre2",
-      "suitesparse"
+      "suitesparse",
+      "zstd"
     ],
     "optdepends": [
       "gnuplot: If using the Gaston Package from julia"
@@ -60618,10 +60621,10 @@
   },
   {
     "name": "nuspell",
-    "version": "5.1.8-1",
+    "version": "5.1.9-1",
     "origin": "artix-world",
-    "sha256": "ff53e9cbf9defd1933c73f4cbb2ac30e6368cb2128196127afd947b211d29604",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nuspell-5.1.8-1-x86_64.pkg.tar.zst",
+    "sha256": "b4e0f3659ccc6c44f5ca4054c435e86820f7283eac5ccf9016dab66377948ca8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nuspell-5.1.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "icu",
@@ -102667,10 +102670,10 @@
   },
   {
     "name": "restinio",
-    "version": "0.7.9.1-2",
+    "version": "0.7.10-1",
     "origin": "artix-world",
-    "sha256": "e8de03e13e65d8115af391109733608551da023e706a5b592558c567dd352e4c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/restinio-0.7.9.1-2-any.pkg.tar.zst",
+    "sha256": "0891530902315b2285dcc6e72543600b360d2ab8dd0f25e5cfa549e9e7aead4d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/restinio-0.7.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "asio",
