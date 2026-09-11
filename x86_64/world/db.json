@@ -13024,6 +13024,19 @@
     ]
   },
   {
+    "name": "dsfmt",
+    "version": "2.2.5-1",
+    "origin": "artix-world",
+    "sha256": "27edca938fa27dc50f805f60a6da5266573e02aafb71b9bac56fe106ed809135",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dsfmt-2.2.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "dssi",
     "version": "1.1.1-14",
     "origin": "artix-world",
@@ -19532,10 +19545,10 @@
   },
   {
     "name": "gimp",
-    "version": "3.2.4-2",
+    "version": "3.2.6-1",
     "origin": "artix-world",
-    "sha256": "cebc95835836ed22f907994499cb0911aeb1130140836fddffd77a03e2ba0fe6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-3.2.4-2-x86_64.pkg.tar.zst",
+    "sha256": "0b6fa5e2a9a57a7c411d4c04ba26f049b65e1958597bb92c0de41d7bd1a04295",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-3.2.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -19582,7 +19595,7 @@
       "libstdc++.so=6-64",
       "libunwind",
       "libunwind.so=8-64",
-      "mypaint-brushes1",
+      "mypaint-brushes",
       "pango",
       "libpango-1.0.so=0-64",
       "libpangocairo-1.0.so=0-64",
@@ -19623,7 +19636,6 @@
       "libxfixes",
       "libxmu",
       "libxpm",
-      "mypaint-brushes",
       "openexr",
       "openjpeg2",
       "poppler-data",
@@ -22241,10 +22253,10 @@
   },
   {
     "name": "gnome-software",
-    "version": "50.3-1",
+    "version": "50.4-1",
     "origin": "artix-world",
-    "sha256": "c56ba8f57931f714d829c5073e349e6f64aa21c492ce90bb1b3ee35060fac063",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-software-50.3-1-x86_64.pkg.tar.zst",
+    "sha256": "39e58df422b622bed3a1824a27c2728ea62514af95ff03d65b107b9e07baf40d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-software-50.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -25713,10 +25725,10 @@
   },
   {
     "name": "gtk-update-icon-cache",
-    "version": "1:4.22.4-1",
+    "version": "1:4.22.5-1",
     "origin": "artix-world",
-    "sha256": "44dd22cae857abee3f0e175a1611d0e5f3bde6d0c62dd7b1553236c86625690b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk-update-icon-cache-1:4.22.4-1-x86_64.pkg.tar.zst",
+    "sha256": "7de357db9558a40cba3619b52faa5d0f2c23ca83fe68285e1343b95c882c83c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk-update-icon-cache-1:4.22.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -25854,10 +25866,10 @@
   },
   {
     "name": "gtk4",
-    "version": "1:4.22.4-1",
+    "version": "1:4.22.5-1",
     "origin": "artix-world",
-    "sha256": "a05fea5de641c1bbe4f18faab4dfa40579178f7de9a2ded1c4cd04b43c6cbaaf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-1:4.22.4-1-x86_64.pkg.tar.zst",
+    "sha256": "69328037b9e627fd3ab333c9dccb7e83943be92ee15f7ab2b417a17411018d0a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-1:4.22.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgtk-4.so=1-64"
     ],
@@ -25916,10 +25928,10 @@
   },
   {
     "name": "gtk4-demos",
-    "version": "1:4.22.4-1",
+    "version": "1:4.22.5-1",
     "origin": "artix-world",
-    "sha256": "ea38e24c494e8f8559155c9bca5b07ad7a7fb9d843a8b621dfcb7427964775c9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-demos-1:4.22.4-1-x86_64.pkg.tar.zst",
+    "sha256": "441444650db6848b035866c11f6b31925e65e7c452c3ee079c0565a484f62b7f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-demos-1:4.22.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -26218,10 +26230,10 @@
   },
   {
     "name": "gum",
-    "version": "2.0.0-1",
+    "version": "2.0.1-1",
     "origin": "artix-world",
-    "sha256": "6d93843900e9eac36fdffe68d6e59cadafd07a6a75591190cc7bf9fdf98aa8e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gum-2.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d04ab5f8d801b6009867fc28dd6bb63634aea6c557312a5c7cff56461e762862",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gum-2.0.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -51165,10 +51177,10 @@
   },
   {
     "name": "libxmp",
-    "version": "4.7.2-1",
+    "version": "4.7.3-1",
     "origin": "artix-world",
-    "sha256": "771da62128955da9674b8cf5fb93ce02539f86e28b4240ac54bdb83538b7b26d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxmp-4.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "d6173a17316be78d2c4d962828fe2e4c13170eb7f54fe5c9c6ebd8a1d2b39c94",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxmp-4.7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -52281,10 +52293,10 @@
   },
   {
     "name": "llvm-julia",
-    "version": "18.1.7.5-1",
+    "version": "20.1.8.2-1",
     "origin": "artix-world",
-    "sha256": "fd4f234ec775f171d17d0b90345f2b944219a16163d9042cd54183b70c872ee2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-18.1.7.5-1-x86_64.pkg.tar.zst",
+    "sha256": "f14362606565f42b73f8225bbb2f0c404d32bfa00776fc6ff96290ba4263b9b3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-20.1.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -52299,10 +52311,10 @@
   },
   {
     "name": "llvm-julia-libs",
-    "version": "18.1.7.5-1",
+    "version": "20.1.8.2-1",
     "origin": "artix-world",
-    "sha256": "743e189749b4b2535ec9f35c8b1cc3e3f3c066ef1fa654a40af13bdbf6187d77",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-libs-18.1.7.5-1-x86_64.pkg.tar.zst",
+    "sha256": "8d25560793004fff5308fcd526ee241ad977dd06424a03df5047bba6fe6780f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-libs-20.1.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -52312,8 +52324,7 @@
       "zstd",
       "libedit",
       "libffi",
-      "libxml2",
-      "ncurses"
+      "libxml2"
     ],
     "optdepends": [],
     "conflicts": []
@@ -57175,10 +57186,10 @@
   },
   {
     "name": "mold",
-    "version": "2.42.0-1",
+    "version": "2.42.1-1",
     "origin": "artix-world",
-    "sha256": "4e9ea999170efd6612a1df5993d3ec92579de97b676251d2c86aaa5707663d49",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mold-2.42.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5efde7e48e76811284dec2345735597d2c42eb5fb941ec3d6a7abcae5c45a2f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mold-2.42.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -58485,10 +58496,10 @@
   },
   {
     "name": "nanomsg",
-    "version": "1.2.2-1",
+    "version": "1.2.5-1",
     "origin": "artix-world",
-    "sha256": "f40a178dfae65b80bfccf06f40d18d279488cea631ec08f0944beb69525278a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nanomsg-1.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "45f21139a8e3bbc194787ae8139e03de8a73264a6d0331e0edf21c24677528bf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nanomsg-1.2.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -61266,10 +61277,10 @@
   },
   {
     "name": "okteta",
-    "version": "1:0.26.27-1",
+    "version": "1:0.26.28-1",
     "origin": "artix-world",
-    "sha256": "69a74afd57f35dd21ae92ac66923f13d43e94d4dae29be5cd7907330db6172ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/okteta-1:0.26.27-1-x86_64.pkg.tar.zst",
+    "sha256": "7e66ee5223a045c816e4583066c9914573cd840143bf16c45bdec3d33e934386",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/okteta-1:0.26.28-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -131918,10 +131929,10 @@
   },
   {
     "name": "xdg-desktop-portal-wlr",
-    "version": "0.8.2-1",
+    "version": "0.8.4-1",
     "origin": "artix-world",
-    "sha256": "4b569344873ac0213b9fd5047eae5336249e36b9d560411018023e36aac4c1e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-wlr-0.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "acc5859d9ed2862cb0a69a794c8afc1c170786b6c5c71f3b884caab1dff11a12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-wlr-0.8.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "xdg-desktop-portal-impl"
     ],
