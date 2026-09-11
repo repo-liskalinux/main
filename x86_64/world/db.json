@@ -370,10 +370,10 @@
   },
   {
     "name": "acpica",
-    "version": "20250404-1",
+    "version": "20251212-1",
     "origin": "artix-world",
-    "sha256": "2779bb72e9229806ea6bc295bc73fe69d8e863bbb9e04efdf8d6c54567debe29",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpica-20250404-1-x86_64.pkg.tar.zst",
+    "sha256": "88589a198cda399397bcb9e998330f1681495581542644b5ca4363c686bd9e65",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpica-20251212-1-x86_64.pkg.tar.zst",
     "provides": [
       "iasl"
     ],
@@ -633,10 +633,10 @@
   },
   {
     "name": "afl++",
-    "version": "4.40c-1",
+    "version": "5.00c-1",
     "origin": "artix-world",
-    "sha256": "e6f529532ceba2e85ba42c988c78cb0983029953e325e216b709673916a94480",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/afl++-4.40c-1-x86_64.pkg.tar.zst",
+    "sha256": "b01037c1a5766b344789e4cd0090335aac3aa3493f4603c6ba1b6472a15e46d1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/afl++-5.00c-1-x86_64.pkg.tar.zst",
     "provides": [
       "afl"
     ],
@@ -7893,10 +7893,10 @@
   },
   {
     "name": "chrony",
-    "version": "4.8-3",
+    "version": "4.9-1",
     "origin": "artix-world",
-    "sha256": "23d7197d0973256b92de08b6d10cfd1c36f48ea5b491501b26f23a50c9b4d64a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/chrony-4.8-3-x86_64.pkg.tar.zst",
+    "sha256": "2f314ea5eb8f222e88e17c88fac9e992af1ee959b9e55ef894eafd2a3abec593",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/chrony-4.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9458,10 +9458,10 @@
   },
   {
     "name": "coturn",
-    "version": "4.17.2-1",
+    "version": "4.18.0-1",
     "origin": "artix-world",
-    "sha256": "db90504650db2073d8eb9290e5112042e668358d555e51eaea061c21ac5b075f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/coturn-4.17.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c567b12bd8c0a7b7a6245ed5fb73c388aaa58c23ebde07d983006fd285aabc6e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/coturn-4.18.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libevent",
@@ -12290,10 +12290,10 @@
   },
   {
     "name": "doctest",
-    "version": "2.5.2-1",
+    "version": "2.5.3-1",
     "origin": "artix-world",
-    "sha256": "2277dfb2e2d20ae3f4654ee4a21ed40658700ffc81c1070e1fd7f92736e6b3bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/doctest-2.5.2-1-any.pkg.tar.zst",
+    "sha256": "81522eed84e034f0fdc9ca4e67fc4abd9e0c9d3d24922f7e259bc26459a2c7d1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/doctest-2.5.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -15379,10 +15379,10 @@
   },
   {
     "name": "exim",
-    "version": "4.99.4-1",
+    "version": "4.100-1",
     "origin": "artix-world",
-    "sha256": "d3da3ce39b755ab0e50adb68942ef1291d0b9b987d435121600f5739ff8d1a25",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/exim-4.99.4-1-x86_64.pkg.tar.zst",
+    "sha256": "c5a7815f5d17f2d9b11da5484e6fbe2fab0f6c27ad64a2e765dc20e38c6668a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/exim-4.100-1-x86_64.pkg.tar.zst",
     "provides": [
       "smtp-server",
       "smtp-forwarder"
@@ -23618,10 +23618,10 @@
   },
   {
     "name": "groovy",
-    "version": "5.1.0-1",
+    "version": "5.1.2-1",
     "origin": "artix-world",
-    "sha256": "6ecc883bcc00b365750dec6eab3ba45f5d54760d6eaed0f5fe00f5f311231aee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/groovy-5.1.0-1-any.pkg.tar.zst",
+    "sha256": "f78490cf83e4a373513efdd0c700c291b31154b9f38175a7c38a41e466e619b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/groovy-5.1.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-environment"
@@ -58139,10 +58139,10 @@
   },
   {
     "name": "musl",
-    "version": "1.2.6-1",
+    "version": "1.2.6-2",
     "origin": "artix-world",
-    "sha256": "21d1e6727369e7815209e2fb4ecd593a10bbc8b16b60f2a96f0d3f82e33ac006",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/musl-1.2.6-1-x86_64.pkg.tar.zst",
+    "sha256": "9e397a6e1e9e9cb9a233ba7f8746e355840473dd4b8bb5a942df912a4464702c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/musl-1.2.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -58150,10 +58150,10 @@
   },
   {
     "name": "musl-aarch64",
-    "version": "1.2.6-1",
+    "version": "1.2.6-2",
     "origin": "artix-world",
-    "sha256": "dbd6e2789279f28f73a6760c7f6d59254dd78f605ac7489184f0d402239a3e3a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/musl-aarch64-1.2.6-1-x86_64.pkg.tar.zst",
+    "sha256": "b87c8cb915ddb893b93870d9cdff00f57ad98b8ac9b0932a033a738140d1f4f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/musl-aarch64-1.2.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -58161,10 +58161,10 @@
   },
   {
     "name": "musl-riscv64",
-    "version": "1.2.6-1",
+    "version": "1.2.6-2",
     "origin": "artix-world",
-    "sha256": "a7daa01197cf89dc1fdf793c4be08944c442291cccb3c49dc17abfd84a450d01",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/musl-riscv64-1.2.6-1-x86_64.pkg.tar.zst",
+    "sha256": "650c64efac3b77cfb03a6639912836097ae5ca8230d94e565ff407111af702d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/musl-riscv64-1.2.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -63422,10 +63422,10 @@
   },
   {
     "name": "orc",
-    "version": "0.4.43-1",
+    "version": "0.4.44-1",
     "origin": "artix-world",
-    "sha256": "c3f7e69ad51d7f64b3cbe18b124fb43c451f82a2c759cf1cd774ccbaa647e6e3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/orc-0.4.43-1-x86_64.pkg.tar.zst",
+    "sha256": "19693368b4829bab16387c9097c58830a5c2a78658fe57cd46e70c4541d7c617",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/orc-0.4.44-1-x86_64.pkg.tar.zst",
     "provides": [
       "liborc-0.4.so=0-64",
       "liborc-test-0.4.so=0-64"
@@ -64253,15 +64253,16 @@
   },
   {
     "name": "pass-otp",
-    "version": "1.2.0-3",
+    "version": "1.2.0-4",
     "origin": "artix-world",
-    "sha256": "b9a57f28335daff3f123357e0daba9ded8ee7883f9e21c0cc0841933a879c95d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pass-otp-1.2.0-3-any.pkg.tar.zst",
+    "sha256": "0ebcd38713a857d998d848778bca4dbb6b42048c6bf7f929e09f092e6b669647",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pass-otp-1.2.0-4-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pass",
       "oath-toolkit",
-      "qrencode"
+      "qrencode",
+      "which"
     ],
     "optdepends": [],
     "conflicts": []
@@ -102795,10 +102796,10 @@
   },
   {
     "name": "riscv64-linux-gnu-binutils",
-    "version": "2.46.1-1",
+    "version": "2.47-1",
     "origin": "artix-world",
-    "sha256": "399da76b6bb572439e1a7c570fd69226710d4a0c600cf990c2f089bd15400b63",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-binutils-2.46.1-1-x86_64.pkg.tar.zst",
+    "sha256": "269243074930780611b67772146b2ed8505d84b08dc1bce8d5c88cbe44607387",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-binutils-2.47-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -102813,10 +102814,10 @@
   },
   {
     "name": "riscv64-linux-gnu-gcc",
-    "version": "16.1.0-1",
+    "version": "16.2.1-1",
     "origin": "artix-world",
-    "sha256": "4ee66a981c6533ea48218f0b73ffb235c1f8a9d282ee1a0b8c9661e30163e2ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-gcc-16.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "953a5e44d26a4262eb903d3d3815109c75f0bb617dd549fb5dd4c8ec250c1c1b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-gcc-16.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "riscv64-linux-gnu-binutils",
@@ -102853,10 +102854,10 @@
   },
   {
     "name": "riscv64-linux-gnu-linux-api-headers",
-    "version": "6.18-1",
+    "version": "7.2-1",
     "origin": "artix-world",
-    "sha256": "eb05287b7be42a23f18edc1b304366efbd61e1379fecbb7514597df7406f365e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-linux-api-headers-6.18-1-any.pkg.tar.zst",
+    "sha256": "a2797211aaf4cd086058dfd9514055d84dc6b82054d047bc328788b4b3e08115",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-linux-api-headers-7.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -111574,10 +111575,10 @@
   },
   {
     "name": "sonivox",
-    "version": "4.0.1-1",
+    "version": "4.0.2-1",
     "origin": "artix-world",
-    "sha256": "78be39e3813e80b39c4412be4a87aaab647c11a026b5aea62827bdea8f6eeb23",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sonivox-4.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "768d3529f0b612af931e6ff1bae2f6922ff51cdfd78994b0cf29c3e6dcb41802",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sonivox-4.0.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libsonivox.so=4-64"
     ],
@@ -112825,16 +112826,17 @@
   },
   {
     "name": "stellarsolver",
-    "version": "2.7-2",
+    "version": "2.8-1",
     "origin": "artix-world",
-    "sha256": "f265002d31e0458d906852f4b94b8f9d8171faafd53f07fc876526767df3f6b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/stellarsolver-2.7-2-x86_64.pkg.tar.zst",
+    "sha256": "1049b0011956237a4ba9dbed0825330fda36c243ec5fe042e8707516b9d75b68",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/stellarsolver-2.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cfitsio",
-      "gcc-libs",
       "glibc",
       "gsl",
+      "libgcc",
+      "libstdc++",
       "qt6-base",
       "wcslib"
     ],
@@ -112955,10 +112957,10 @@
   },
   {
     "name": "strawberry",
-    "version": "1.2.29-2",
+    "version": "1.2.30-1",
     "origin": "artix-world",
-    "sha256": "1e58aeec5f7f633c43c8b313b4b02e8c165d51601bd424d63a7652cdc7ebc8e2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strawberry-1.2.29-2-x86_64.pkg.tar.zst",
+    "sha256": "7b4af87accbac6356e959bb778d1a4e2449e1a339d5cec7595d5e940157a04b3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strawberry-1.2.30-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -113012,10 +113014,10 @@
   },
   {
     "name": "strongswan",
-    "version": "6.1.0-1",
+    "version": "6.1.0-2",
     "origin": "artix-world",
-    "sha256": "0074f79f833fffb1d9b975abdbeaad7c7fc00bc3340aa836dcfacf306b6702a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strongswan-6.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0d314a57cf11ddfab2da0c97c63c69fb3f053cd7e06e1a89d01d7a599dd9f231",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strongswan-6.1.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -114610,10 +114612,10 @@
   },
   {
     "name": "talloc",
-    "version": "2.5.0-1",
+    "version": "2.5.0-2",
     "origin": "artix-world",
-    "sha256": "f1694fa637efa4e6b4c99254daf53dedfc5df2e5e7d874a3cbd5a27ad1359b7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/talloc-2.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "17f22f92133492c09c64d8eb86ec95a2357369f91a75ddf3c763041afa3359eb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/talloc-2.5.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -123060,10 +123062,10 @@
   },
   {
     "name": "tlp",
-    "version": "1.9.1-1",
+    "version": "1.10.2-1",
     "origin": "artix-world",
-    "sha256": "89810feb3a12f3d6fd17f8bc197964088d8fabca31a405cd9ee4d684a3684c40",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tlp-1.9.1-1-any.pkg.tar.zst",
+    "sha256": "da03d1990ef1eb1027b1c13518a77fe6b9cba66f4c106f001f1e2df8bb0d3134",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tlp-1.10.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -123122,17 +123124,16 @@
   },
   {
     "name": "tlp-pd",
-    "version": "1.9.1-1",
+    "version": "1.10.2-1",
     "origin": "artix-world",
-    "sha256": "39e710e96fdc06a276d9466c722d3c14c954bfcebea7890367d221f7a11c3384",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tlp-pd-1.9.1-1-any.pkg.tar.zst",
+    "sha256": "696fdf24b950ebbfbd0e7991aab15554dcccec850519b1cec3b8c6510620adcd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tlp-pd-1.10.2-1-any.pkg.tar.zst",
     "provides": [
       "power-profiles-daemon"
     ],
     "depends": [
       "glib2",
       "python",
-      "python-dbus",
       "python-gobject",
       "python-shtab",
       "tlp"
@@ -123145,10 +123146,10 @@
   },
   {
     "name": "tlp-rdw",
-    "version": "1.9.1-1",
+    "version": "1.10.2-1",
     "origin": "artix-world",
-    "sha256": "e48a3c1c0dc44f445ecf4a81fc0901cdf69cc352ff47989daef7c6fbc0c7a247",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tlp-rdw-1.9.1-1-any.pkg.tar.zst",
+    "sha256": "2b5c32f11d006f4c6c001a1113820644ad55704356560d7fcc9cf87708222e0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tlp-rdw-1.10.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -125096,15 +125097,17 @@
   },
   {
     "name": "unbound",
-    "version": "1.25.1-1",
+    "version": "1.26.0-1",
     "origin": "artix-world",
-    "sha256": "f9b3eb6b2c6a9ab811b9b9f2c69ccde732b967db9e3024f611024a835575cdd9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unbound-1.25.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3352cf45be6780877d4f9c860f9f9cb74cee3c6b2d6d3667a75bd673eb2a8151",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unbound-1.26.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libunbound.so=8-64"
     ],
     "depends": [
+      "bash",
       "dnssec-anchors",
+      "expat",
       "fstrm",
       "glibc",
       "hiredis",
@@ -125112,6 +125115,7 @@
       "libnghttp2",
       "libngtcp2",
       "libsodium",
+      "python",
       "libevent",
       "libevent-2.1.so=7-64",
       "openssl",
@@ -125120,11 +125124,7 @@
       "protobuf-c",
       "libprotobuf-c.so=1-64"
     ],
-    "optdepends": [
-      "expat: for unbound-anchor",
-      "sh: for unbound-control-setup",
-      "python: for python-bindings"
-    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -130813,10 +130813,10 @@
   },
   {
     "name": "wireshark-cli",
-    "version": "4.7.2-1",
+    "version": "4.7.3-1",
     "origin": "artix-world",
-    "sha256": "a46793276c704077ab715b2f9b60d24c38b5ba70100c380672b1d208fd683b9f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireshark-cli-4.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "e5e3f396d25f622e63c7ad6ee5a0bc10edf0ba5095588b36ccfe98351003ad3a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireshark-cli-4.7.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libwireshark.so=0-64",
       "libwiretap.so=0-64",
@@ -130866,10 +130866,10 @@
   },
   {
     "name": "wireshark-qt",
-    "version": "4.7.2-1",
+    "version": "4.7.3-1",
     "origin": "artix-world",
-    "sha256": "740d32b6fd685a65e8e75562de813d53bdc4a96aeee5bd0b9fa60dbb38e8b1f2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireshark-qt-4.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1ad4a74cc7d19345498e8f3d72271f8fba23f8a3dbc70f47b3db23e1fa51befc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireshark-qt-4.7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
