@@ -2737,10 +2737,10 @@
   },
   {
     "name": "cosmic-app-library",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c2dfd274c6760801cc6b68ffad7648bd143a4deaf672d90191902b30cc4f3e3d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-app-library-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9439ef93e145c138aa5e456fc81cab56ee6de348220b1cff8483ccd09cf43a6f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-app-library-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2753,10 +2753,10 @@
   },
   {
     "name": "cosmic-applets",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a29a0aea6053659beed13f5a4e5733ba79510ffa1541cab20b2bab09c2f337bb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-applets-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d8fe325aa0e29e0be85d8dce789c4210791dd6dc304531c5fc408834a37624fd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-applets-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2775,10 +2775,10 @@
   },
   {
     "name": "cosmic-bg",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a6b3bc6706c05353ac70a0eba449d70afe4a264b887426040f739a38d48d2dff",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-bg-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a0b3a0afcc6b5c365e772bf6a5e2946ab70df2d3c0dc13c280bf80e754b65a5f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-bg-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2792,10 +2792,10 @@
   },
   {
     "name": "cosmic-comp",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a1b6c560ca92f22ae190796d7bc467cb5197dcad12953c67ad18c83c63a737a6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-comp-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3ae766fa0afa824af8153c9fd8e8f6b1b926d3aa329fcf84626b2740d1d000fa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-comp-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fontconfig",
@@ -2816,10 +2816,10 @@
   },
   {
     "name": "cosmic-files",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "5602f59d7f59d04760aed6e94349a1f27c9a90fb01eba4db55804b63f50c6a3c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-files-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d84e14693b0f4169a91f34e5bc9aacce5f851aef1e47c16a1ca2b91119f2a2d0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-files-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2828,17 +2828,18 @@
       "glibc",
       "gvfs",
       "libxkbcommon",
-      "xdg-utils"
+      "xdg-utils",
+      "zstd"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "cosmic-greeter",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "ef3448b985650c92029452f930a3b6830d9cb4259083b816aaa3ac2b34a80f11",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-greeter-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5ee5cf41119624be0a11966c7fe340d8f01d445a07a49a0b63674e8e18f5c232",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-greeter-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-comp",
@@ -2856,10 +2857,10 @@
   },
   {
     "name": "cosmic-icon-theme",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c1fb264b8df9fe4c7941d81c74510076abedd55d395bdcfd187f77cc33819bc2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-icon-theme-1:1.7.0-1-any.pkg.tar.zst",
+    "sha256": "572b23934ea37387a5ec7855f78dd3e642f22ca0070667924df1ed0353bb0125",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-icon-theme-1:1.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pop-icon-theme"
@@ -2869,10 +2870,10 @@
   },
   {
     "name": "cosmic-idle",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "0a5e056d08f715a754d03b1c4fafdc367711d43c7307202a1407ec48e39e92eb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-idle-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3de89c67daca7f2735b75c8b779128ae1c59cb37e5712f6fe5730d9d64a94870",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-idle-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -2885,10 +2886,10 @@
   },
   {
     "name": "cosmic-initial-setup",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "237bdc73c6470102d6b527398cf2415d1fe184c384a9b27c86b58c82b5846129",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-initial-setup-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4ea72a61853405b35346857ea75482ad1d06b1fbb4ae281ae2aa1f833d546178",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-initial-setup-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2903,10 +2904,10 @@
   },
   {
     "name": "cosmic-launcher",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "8811deed28c32705d47c54a6ebdbfdb62a70d553f82bcbe7b5c6928511c8ba53",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-launcher-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "11419921b37d0037fe248c6a92e177e980bbd17d8a795b1f25cac701b666cae3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-launcher-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2921,10 +2922,10 @@
   },
   {
     "name": "cosmic-monitor",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "12edd65a99f38144b5757e487f9f35d2774e14a6401f834c928c77ef08985058",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-monitor-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5822b7ceb70f06e9e6ca57c00dc855a4f7f089736866cf4ca050329c7bac25a2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-monitor-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxkbcommon"
@@ -2934,10 +2935,10 @@
   },
   {
     "name": "cosmic-notifications",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a86f32da40ee6e10f186a5864589e5223f28b6a6d113552cf09824a9bc7878fd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-notifications-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b0f9721077a2cd7a7570df3f08d6e81592785f6615e371ea46dcaa427e2e6e3d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-notifications-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -2951,10 +2952,10 @@
   },
   {
     "name": "cosmic-osd",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "47949aaae815e9464a7a65b57ca408e8b09b8eda93585cee6170fb3f423f59b7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-osd-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0ae4116daf8d20ae72c0ab4992d08342f62056f63743ab4500c3bf96f810e8dd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-osd-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -2972,10 +2973,10 @@
   },
   {
     "name": "cosmic-panel",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "22cddbb921e5f2a9884966ddf8671812411e22390616c19936d50c34dfd9b4e7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-panel-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2c70b9a2ac60578a1c8c1f1775548eba24ca099cffaf778da840de6fa6f4d876",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-panel-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -2988,10 +2989,10 @@
   },
   {
     "name": "cosmic-player",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "832b4bdaabf98546ad933fcd6d0f083434a24426657672305a1fce990192796e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-player-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9a4a9500f432f18616c1ed7aff3c905355ab03e4856c5e15ac92fdc3fb89615f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-player-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -3008,10 +3009,10 @@
   },
   {
     "name": "cosmic-randr",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "362ca5886cfdec29ece3a8323e5187661a4347606559b5fe223ecc6b0131239b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-randr-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f552eed3599e30d33f996c3dc8ead31efa3c53e99cc7ca7e8295b9fc66a4f750",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-randr-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -3023,10 +3024,10 @@
   },
   {
     "name": "cosmic-screenshot",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "1771f8f63132f43395531dcf934db98fba9fb7f76a4d3087a4f7a730bc2f01af",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-screenshot-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c32723f347be60cd5224aca33d5480877b835f8ffe2cd5011bdfd1fa86bf2828",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-screenshot-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -3039,10 +3040,10 @@
   },
   {
     "name": "cosmic-session",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "7168506cd0143801f9421d74076c7d03d2f2934d3b492a0a317a63c455f9a9be",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-session-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "55f7bbbeb613bd4d3a25f0e88b8c7a18a00a880f34481db2db57df4c74087d1f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-session-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -3086,10 +3087,10 @@
   },
   {
     "name": "cosmic-settings",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "1014510476dcb5bd33c9f56a061a669bc49950a39740b774e813b22bbcb572ad",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-settings-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "64d04ac675a182917809033efe9d2205392940b1c91b80d055f440560b91435c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-settings-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -3118,10 +3119,10 @@
   },
   {
     "name": "cosmic-settings-daemon",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "2a46c5d288c130c4c90ab43d5ef0198c4ef4afa55c25c461080db4b60b1786f0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-settings-daemon-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7cb7024664cfec44c3415579438134cfdc4d2266d535396033cd2055d8e2b093",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-settings-daemon-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acpid",
@@ -3149,10 +3150,10 @@
   },
   {
     "name": "cosmic-sound-theme",
-    "version": "1.7.0-1",
+    "version": "1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "f0c0bb281b9d2bff491cb7c2ba352c5f296738770aa6ed2ffc0472a211219665",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-sound-theme-1.7.0-1-any.pkg.tar.zst",
+    "sha256": "4a95c0c0bf7f371e53428a46e675675eb109de84862164f2dac1b1a17c59083d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-sound-theme-1.8.0-1-any.pkg.tar.zst",
     "provides": [
       "pop-sound-theme"
     ],
@@ -3162,10 +3163,10 @@
   },
   {
     "name": "cosmic-store",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "7f2434e848ccc7d6b9d689430b1a6f9578ce19ff6f6c9630573826c1b4ebaed9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-store-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "378af4cfc48c69dd864c218f315a86765ce6bf4941e7ec5ea04dc0be85694c62",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-store-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "artixlinux-appstream-data",
@@ -3183,10 +3184,10 @@
   },
   {
     "name": "cosmic-terminal",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "9639674891f6f53e0f2e36be1bc85c5329cfb7a62b889b21d1a36741fc0cd2a8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-terminal-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a87b0414001aea98981c61c8215f2f6bd6ee002c2de5e53ad95563c993b9754a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-terminal-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -3200,10 +3201,10 @@
   },
   {
     "name": "cosmic-text-editor",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "7e591f42fe6e1d038bcdec57593cdc8070402c29ec896dc724d32bea49f3dfb7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-text-editor-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a56faa70e4edc023044789acb4450dee1af79842b9cc33b13abd8c8dbe43d052",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-text-editor-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -3211,17 +3212,18 @@
       "libgcc",
       "glibc",
       "libxkbcommon",
-      "wayland"
+      "wayland",
+      "oniguruma"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "cosmic-wallpapers",
-    "version": "2:1.7.0-1",
+    "version": "2:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "5656f35cce8aa83a9d82b917260ada3588e5a4cd3bce480a89b21d162bbb2fd1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-wallpapers-2:1.7.0-1-any.pkg.tar.zst",
+    "sha256": "e796537733529f8db5b8da86e7b4ddcdd57729c99063f1023ed746ea69d69fb1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-wallpapers-2:1.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -3229,10 +3231,10 @@
   },
   {
     "name": "cosmic-workspaces",
-    "version": "2:1.7.0-1",
+    "version": "2:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "0a5b2fb35644597558d84762892a446cf04ec2f243c4c87de7b2736d10b770bb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-workspaces-2:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ebd66edbe6063da7652a2985e0f3b43f8e7e9405a986a82a627aad4f92e057e6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cosmic-workspaces-2:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cosmic-icon-theme",
@@ -9751,10 +9753,10 @@
   },
   {
     "name": "helium-browser",
-    "version": "0.16.5.1-1",
+    "version": "0.17.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cc1e684c9f89e7d438ab44e0b43ec8a6b9ab53f6f4024b985d87cb0b79268765",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.16.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "eedf250ba21361ddc271702c969890c3bc52e3dd50078dafb49f4581080a97f8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.17.0.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "chromium"
     ],
@@ -29901,10 +29903,10 @@
   },
   {
     "name": "xdg-desktop-portal-cosmic",
-    "version": "1:1.7.0-1",
+    "version": "1:1.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c5ce5e89f52179e6c86f550a1fc0ecfd22e9cf89983c7a9d77c064646cde708c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xdg-desktop-portal-cosmic-1:1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d92cd2386b8bb57020be4e02e9685d1dbbfe3e33ca146ca9e339c257e7bdfbd1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xdg-desktop-portal-cosmic-1:1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "xdg-desktop-portal-impl"
     ],
