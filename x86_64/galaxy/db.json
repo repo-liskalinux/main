@@ -29695,10 +29695,10 @@
   },
   {
     "name": "xapp",
-    "version": "3.2.2-1",
+    "version": "3.2.3-1",
     "origin": "artix-galaxy",
-    "sha256": "036837335d6089e57739b8691fbc04cc5fc8139324008727674973c193089b02",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xapp-3.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "88d23e2e11c9cdb862c4bbb92d72108caf4d2cd3f96f52045c1a3d556c9de0d6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xapp-3.2.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "xapps"
     ],
@@ -29706,7 +29706,7 @@
       "bash",
       "cairo",
       "dconf",
-      "gcc-libs",
+      "libgcc",
       "gdk-pixbuf2",
       "glib2",
       "glibc",
@@ -31063,16 +31063,16 @@
   },
   {
     "name": "xreader",
-    "version": "4.6.5-1",
+    "version": "4.6.7-1",
     "origin": "artix-galaxy",
-    "sha256": "9276a84e0c22ad1a3739abd12e571477636776979374f194e0315d1329b72673",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xreader-4.6.5-1-x86_64.pkg.tar.zst",
+    "sha256": "db4c55cb02bafbac24373a55ef9163a6fb51c25fd80d1f7cee9d0c9acbd8d053",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xreader-4.6.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
       "cairo",
       "dconf",
-      "gcc-libs",
+      "libgcc",
       "gdk-pixbuf2",
       "glib2",
       "glibc",
@@ -31082,11 +31082,9 @@
       "libice",
       "libsm",
       "libtiff",
-      "libx11",
       "libxml2",
       "pango",
       "poppler-glib",
-      "webkit2gtk-4.1",
       "xapp",
       "zlib"
     ],
@@ -31094,7 +31092,6 @@
       "djvulibre: support for djvu files",
       "libgxps: support for xps files",
       "libspectre: support for dvi and ps files",
-      "mathjax2: support for math in epub files",
       "texlive-bin: support for dvi files"
     ],
     "conflicts": []

@@ -19437,10 +19437,10 @@
   },
   {
     "name": "ghex",
-    "version": "50.3-1",
+    "version": "50.4-1",
     "origin": "artix-world",
-    "sha256": "5c437bae8b6b4ac408c23781e058fabdeb14397b4002c11104cc7047491fc40e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ghex-50.3-1-x86_64.pkg.tar.zst",
+    "sha256": "5570ab770edef7a2a8a96a7ab44229c796358b60577932f5fa369e2cb2e88f68",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ghex-50.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgtkhex-4.so=1-64"
     ],
@@ -20247,10 +20247,10 @@
   },
   {
     "name": "gitea-runner",
-    "version": "3.3.2-1",
+    "version": "3.4.2-1",
     "origin": "artix-world",
-    "sha256": "28ef95726da34a361f005492f31fec857cafb1157c63cb0f6d417b9a722106c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-3.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0b9299ed4a1b06b9a66007291fe42765751ba53396e839daac1295f36a3b3c64",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-3.4.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "act_runner"
     ],
@@ -21109,10 +21109,10 @@
   },
   {
     "name": "gnome-chess",
-    "version": "50.0-1",
+    "version": "50.1-1",
     "origin": "artix-world",
-    "sha256": "ec08cbcca25f8039a6ab0b83d335955d6576ea7db493d5bdad466cc873c85429",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-chess-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "922cb0a7c10ea1ee59464248c7b7ff3a26eb0c2cf46ddf02720e9cc6d60b31a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-chess-50.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -21657,10 +21657,10 @@
   },
   {
     "name": "gnome-maps",
-    "version": "50.4-1",
+    "version": "50.5-1",
     "origin": "artix-world",
-    "sha256": "8db3376690aa4327935d8650e4c8d74181681f64902912ba76c2de7547529c7d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-maps-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "3275657fffc95a34441e271f9be1ca483387382cffeefdb7f105b76fcc2f2593",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-maps-50.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22726,10 +22726,10 @@
   },
   {
     "name": "go",
-    "version": "2:1.27.0-1",
+    "version": "2:1.27.1-1",
     "origin": "artix-world",
-    "sha256": "bcb3106c089ff7b9957c02a7690fd0b8f1acc063cd85545bb17b1a2513bac795",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/go-2:1.27.0-1-x86_64.pkg.tar.zst",
+    "sha256": "760659ba06d584a37be5767a72cc7c6654e52f268636486dbf075b2a55631b72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/go-2:1.27.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "go-pie"
     ],
@@ -22780,10 +22780,10 @@
   },
   {
     "name": "go-tools",
-    "version": "4:0.49.0-1",
+    "version": "4:0.50.0-1",
     "origin": "artix-world",
-    "sha256": "d2e29cc33bf63818a059723bfb4c45638e1b2d254dbe33a24cf751aaa7543edc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/go-tools-4:0.49.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b0ca13f0b4b599e010d238162c030313f0433c40c62cea32152d56fc80fae970",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/go-tools-4:0.50.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -26389,10 +26389,10 @@
   },
   {
     "name": "gvfs",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "f172825a5d872821beff68db32f2429083f421da4fd0b8cf02a76a1c6cfd5f99",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "5ebea2d07f34f2934752e3f33f7933bbb47d1dd35ecf235ffc3f2585d32ffe8b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -26431,13 +26431,13 @@
   },
   {
     "name": "gvfs-afc",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "749876d20335883ce907b14d5594602739ec7ac0945f713fb7ea0193953d6001",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-afc-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "3a81adc021085112f96c060010443e9730fc8f419415cfe2af34254cdb2e0818",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-afc-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "glib2",
       "glibc",
       "libimobiledevice",
@@ -26449,13 +26449,13 @@
   },
   {
     "name": "gvfs-dnssd",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "5dbe6e752c22116b2f303ab4b9472310c16a9586b413d1145085de3864cdf010",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-dnssd-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "85ccd9397f742d9e9d1d6ea5ee9309c1024f92ae7ed4409e812fed1761870982",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-dnssd-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "avahi",
       "dconf",
       "glib2",
@@ -26468,13 +26468,13 @@
   },
   {
     "name": "gvfs-goa",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "92f4c0d37f0c430f75bbf32815dcc48f6fb20cf5aaafbb1d98cae6806b0b879c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-goa-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "44782d4f4e48804793356de8f1a33b91dd4392f49fe12eb599534af3f8967a4f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-goa-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "glib2",
       "glibc",
       "libgcc",
@@ -26485,13 +26485,13 @@
   },
   {
     "name": "gvfs-gphoto2",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "33341974db18130d8a53f9c0152bb3740192ed504b36f6cfbfa29ceb5eeea00f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-gphoto2-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "df7401947171f19942f9e3cea5f78e187fb712d24fc91dd3949822fbb6efdfee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-gphoto2-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "glib2",
       "glibc",
       "libgcc",
@@ -26503,13 +26503,13 @@
   },
   {
     "name": "gvfs-mtp",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "f0df35f967ec04572db2653f3e031e339330ba409a05608dd6b93f6a540a3c5b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-mtp-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "ed02d194b6c6b5627f07f8955d0f577a4f35a289c48b632b2e5dc265b24df1ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-mtp-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "glib2",
       "glibc",
       "libgcc",
@@ -26522,13 +26522,13 @@
   },
   {
     "name": "gvfs-nfs",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "9669f8eb132f781436c5d6e92c9cfdb1846ef69925f04d89ce7c0dbc9e0fa3b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-nfs-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "9b0dc117dd504d7ec73320900e3eb8e8ce07419a9eb055a05d66bad161f50e4f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-nfs-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "glib2",
       "glibc",
       "libgcc",
@@ -26539,13 +26539,13 @@
   },
   {
     "name": "gvfs-onedrive",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "1ca4a9c7e69d8d7f45b7c0cfbc2d9508044f76201ccb6a85b0cc4cd955777c98",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-onedrive-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "492e860615d826eee0deb825f90e8178fcdefa1a9800b1c21286cff2734c77fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-onedrive-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs-goa=1.60.2",
+      "gvfs-goa=1.60.3",
       "glib2",
       "glibc",
       "libgcc",
@@ -26557,13 +26557,13 @@
   },
   {
     "name": "gvfs-smb",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "edf0c76286b62bbcc9cffda87cab747ac9e99b4656343f69d65e936a89e51f8f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-smb-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "4d6eaad241402e419406fcd9621053c55b6c48554b82aed0529653c678f40382",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-smb-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "smbclient>=4.12.0",
       "dconf",
       "glib2",
@@ -26575,13 +26575,13 @@
   },
   {
     "name": "gvfs-wsdd",
-    "version": "1.60.2-4",
+    "version": "1.60.3-1",
     "origin": "artix-world",
-    "sha256": "0879aeb6355bd6c426ff438fb590f7a7d444206316d77f9cb465ad165d771966",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-wsdd-1.60.2-4-x86_64.pkg.tar.zst",
+    "sha256": "13781af4a8b96158be0a056cbf3685f0a44ec356ae93eaff9976450fde8185b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-wsdd-1.60.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.2",
+      "gvfs=1.60.3",
       "dconf",
       "glib2",
       "glibc",
@@ -31628,10 +31628,10 @@
   },
   {
     "name": "jenkins",
-    "version": "2.580-1",
+    "version": "2.581-1",
     "origin": "artix-world",
-    "sha256": "534135696fd1af560318f28c8d82ee75a33ed9c0e576ce1b9cb9f227b5fd1ad1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.580-1-any.pkg.tar.zst",
+    "sha256": "381a898d448e4dffca2f0d3a789b2a4f3378d90627d8b5cadaa6cc25d6abe8f4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.581-1-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
@@ -51210,10 +51210,10 @@
   },
   {
     "name": "libxnvctrl",
-    "version": "610.57.04-1",
+    "version": "615.71.09-1",
     "origin": "artix-world",
-    "sha256": "8721802bfc5f1f85d602200d396576e0298afd5a0bb39d57088836241732ecd3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-610.57.04-1-x86_64.pkg.tar.zst",
+    "sha256": "bce47eee01f935f50a4f6a2e70211d0bf477f0c7fbd463358e7c8e0d6a692b55",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-615.71.09-1-x86_64.pkg.tar.zst",
     "provides": [
       "libXNVCtrl.so=0-64"
     ],
@@ -60782,10 +60782,10 @@
   },
   {
     "name": "nvidia-open-dkms",
-    "version": "610.57.04-1",
+    "version": "615.71.09-1",
     "origin": "artix-world",
-    "sha256": "1de8daf3c8626f6b02e01847dd08165e9744158b208a3bff5e64232a33808218",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-dkms-610.57.04-1-x86_64.pkg.tar.zst",
+    "sha256": "b09d0d54c7cf6c6a4469690e03f54e846953611d42e1cf21cd03320b390f953c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-dkms-615.71.09-1-x86_64.pkg.tar.zst",
     "provides": [
       "nvidia-open",
       "NVIDIA-MODULE",
@@ -60793,7 +60793,7 @@
     ],
     "depends": [
       "dkms",
-      "nvidia-utils=610.57.04"
+      "nvidia-utils=615.71.09"
     ],
     "optdepends": [],
     "conflicts": [
@@ -60803,10 +60803,10 @@
   },
   {
     "name": "nvidia-settings",
-    "version": "610.57.04-1",
+    "version": "615.71.09-1",
     "origin": "artix-world",
-    "sha256": "ac2e207de6a9c6ceacb9a72f45a48e46b894aa77bcf57f34628aa02119325b90",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-settings-610.57.04-1-x86_64.pkg.tar.zst",
+    "sha256": "b7702673ca82a4af165e8002944b82b8b6152bc10add0da732f2e7a2b364f188",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-settings-615.71.09-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jansson",
@@ -60821,10 +60821,10 @@
   },
   {
     "name": "nvidia-utils",
-    "version": "610.57.04-1",
+    "version": "615.71.09-1",
     "origin": "artix-world",
-    "sha256": "23f42a6626a6453edc1f461f7fe6b853e680f31c317120179c93812129e4164a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-utils-610.57.04-1-x86_64.pkg.tar.zst",
+    "sha256": "d4a682007361e89e62c03fca08b8cd14a90127635a6a80554a1b4493b8cd7e9e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-utils-615.71.09-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver",
       "opengl-driver",
@@ -61812,10 +61812,10 @@
   },
   {
     "name": "opencl-nvidia",
-    "version": "610.57.04-1",
+    "version": "615.71.09-1",
     "origin": "artix-world",
-    "sha256": "9ca74fd62912569f597892b112be11c230af1b6fbbc7edb535259fc3d0401539",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-610.57.04-1-x86_64.pkg.tar.zst",
+    "sha256": "b390fa9280b25fd9e5b188646784849895a2aba711668cdeeb5b539430f4dad0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-615.71.09-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],
@@ -64043,10 +64043,10 @@
   },
   {
     "name": "papers",
-    "version": "50.2-1",
+    "version": "50.3-1",
     "origin": "artix-world",
-    "sha256": "5b607010ccc83129ef6580b8fe8d1d80e0729da52ae79f870be2bde6ee5739b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/papers-50.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ee0574c7f22fa0d7c6f3159fb58b4dd0812428945a65e469b8f8a0b47b84613e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/papers-50.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -114747,10 +114747,10 @@
   },
   {
     "name": "tdb",
-    "version": "1.4.15-1",
+    "version": "1.4.15-2",
     "origin": "artix-world",
-    "sha256": "5790103d2f997c78a276e3b6e326193e28f4ac38a8f07822bfbdd50dc82a21ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tdb-1.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "31b2350ffa6983faf9c9c99c24f93590dfbea05abbc5a86ab8fbbbcc3cb8406b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tdb-1.4.15-2-x86_64.pkg.tar.zst",
     "provides": [
       "libtdb.so=1-64"
     ],
@@ -117129,10 +117129,10 @@
   },
   {
     "name": "tevent",
-    "version": "1:0.17.2-1",
+    "version": "1:0.17.2-2",
     "origin": "artix-world",
-    "sha256": "70599ec60227ddd2f75bbadba42d96ba56758cb3ed02ca701ab0bbf19c087e3a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tevent-1:0.17.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6db04e35503f8c9d1a1e71eae884a98f55adc404521da73133b49ce53c6ae5ba",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tevent-1:0.17.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "libtevent.so=0-64"
     ],
