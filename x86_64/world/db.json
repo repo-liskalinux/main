@@ -28700,10 +28700,10 @@
   },
   {
     "name": "hyprland",
-    "version": "0.56.2-2",
+    "version": "0.56.2-3",
     "origin": "artix-world",
-    "sha256": "c8bb63fb66684d15c5e04f7edacfbabd47e34065ed95b03667e7e42db65479ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.2-2-x86_64.pkg.tar.zst",
+    "sha256": "bba5195c0890a8172a06c3183a7da76e7915fabf5bdb903a50bd29dadaec007f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -28727,7 +28727,6 @@
       "libhyprlang.so=2-64",
       "hyprutils",
       "libhyprutils.so=13-64",
-      "hyprwayland-scanner",
       "hyprwire",
       "libhyprwire.so=3-64",
       "lcms2",
@@ -28757,7 +28756,7 @@
       "re2",
       "libre2.so=11-64",
       "tomlplusplus",
-      "libtomlplusplus.so=3-64",
+      "libtomlplusplus.so",
       "util-linux-libs",
       "libuuid.so=1-64",
       "wayland",
@@ -28773,12 +28772,8 @@
       "xorg-xwayland"
     ],
     "optdepends": [
-      "cmake: to build and install plugins using hyprpm",
-      "cpio: to build and install plugins using hyprpm",
-      "glaze: to build and install plugins using hyprpm",
-      "hyprland-protocols: to build and install plugins using hyprpm",
+      "hyprpm: build and install plugins",
       "hyprshutdown: clean logout and shutdown helper",
-      "meson: to build and install plugins using hyprpm",
       "xdg-desktop-portal-hyprland: xdg-desktop-portal backend for hyprland"
     ],
     "conflicts": []
@@ -28943,6 +28938,31 @@
     ],
     "optdepends": [
       "wl-clipboard: Allows --autocopy to automatically copy the output to the clipboard"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "hyprpm",
+    "version": "0.56.2-3",
+    "origin": "artix-world",
+    "sha256": "13e726dfdec539a0adbedf1e87f71a77b1d15f6e4caf243e9eab86fe7ee40f1f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.56.2-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "wayland-compositor"
+    ],
+    "depends": [
+      "cmake",
+      "cpio",
+      "glaze",
+      "hyprland",
+      "hyprland-protocols",
+      "hyprwayland-scanner",
+      "meson"
+    ],
+    "optdepends": [
+      "hyprpm: build and install plugins",
+      "hyprshutdown: clean logout and shutdown helper",
+      "xdg-desktop-portal-hyprland: xdg-desktop-portal backend for hyprland"
     ],
     "conflicts": []
   },
@@ -97571,26 +97591,26 @@
   },
   {
     "name": "qemu-audio-alsa",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "de619f22d7f2f5cf99a51a1a9c46e0c3195098accb449dc2ff59f1cb9506c724",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-alsa-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b8d6adea7565ba9abcbe73c79b5f20f0a3f305b0417b5fd240d93a926105ac6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-alsa-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
       "libasound.so=2-64",
       "glibc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-dbus",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "454ea86588256242555053dc9735044614dc5586d0a4b712ed376e70b6884120",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-dbus-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "63fcccdce4d6c055032d3edcfc0ecf09a535472a54918a05369e11bc6070b437",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-dbus-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -97599,84 +97619,84 @@
       "libgobject-2.0.so=0-64",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-jack",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "271d6a319c0e9440a12f670f516cd89b12e3df80702f5e4fdf8fad72fe035680",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-jack-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6cf86d68ef9d4e478fcf4edbf16901511fac0a12453471d1be58b1391914f692",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-jack-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "jack",
       "libgcc",
       "libjack.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-oss",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "9c1be58599d1ce2df05c9dff2a0621c75681de49978c0989ceba1a43a61881b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-oss-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2dc58e9a2739d746fbaeb1cbe74008154995b5f3ece4b0ddb11ef4e196364ca5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-oss-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-pa",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "242ec73fabf2ad7b2f640c46d6b240fdda297cec16b1ca6d6b90cb09e5e843e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pa-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4ec21074cfb7c645c10241b199093802bbb489cf3cc7295a9e90e03f72fddde2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pa-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libpulse",
       "libpulse.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-pipewire",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "3fbab4e775ab60e153042dca4eca1f21be4e93ec1dc5bd5a3833d33e9e67367c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pipewire-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e4ee5659fc237dc97eeaf666e43479d6d20d9bab536e29f867b30bfb1a86ded3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pipewire-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libpipewire",
       "libpipewire-0.3.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-sdl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "cc0e0561a58eb3582dbcc2ef71bc202094da5950a1b9de00cf6eb2141baa104d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-sdl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3351c9d5e1f080e9721bd81e21adde190b24293031be30da73bec57f2859615d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-sdl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "sdl2"
     ],
     "optdepends": [],
@@ -97684,15 +97704,15 @@
   },
   {
     "name": "qemu-audio-spice",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "ea1f1c3c4863e7d03ccc9987727c5c370545595d5061b5125a601a7bd36a59aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-spice-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3c0e44cbb09230fcabf30eacc47a29a80467737c076524df1f218b7720380900",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-spice-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-1",
-      "qemu-ui-spice-core=11.1.1-1",
+      "qemu-common=11.1.1-2",
+      "qemu-ui-spice-core=11.1.1-2",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -97701,17 +97721,17 @@
   },
   {
     "name": "qemu-base",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "2976664da874a3258a181585317665eb63a6e8f14eb18a70cf490383d2fa3332",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-base-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "da1fe7c14577c849b9a17b9d843c9c5daf6cb1ec94f91bbc0c41d8c77e7b6837",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-base-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "qemu=11.1.1"
     ],
     "depends": [
-      "qemu-common=11.1.1-1",
-      "qemu-img=11.1.1-1",
-      "qemu-system-x86=11.1.1-1",
+      "qemu-common=11.1.1-2",
+      "qemu-img=11.1.1-2",
+      "qemu-system-x86=11.1.1-2",
       "virtiofsd"
     ],
     "optdepends": [
@@ -97788,114 +97808,114 @@
   },
   {
     "name": "qemu-block-curl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "e35a9baf12f008778b7d1ce5f02bcf314576c3ae2a19af8ade8e362af04dd819",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-curl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3f97f3b6730e2621115a9d471ba716fa5e399cfab6ef190dd7395ebe07ef4e06",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-curl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
       "libcurl.so=4-64",
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-dmg",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "656a50746874f50f69c487d1f18234d7e978ee4bd27856cf0f63ef3e1b7b627a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-dmg-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c1f0cc83bbd5d237979a2bf170d858640b4ede1dd86570e2c290a9893853e335",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-dmg-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
       "libbz2.so=1.0-64",
       "glibc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-iscsi",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "77f7700b8a0d6706495f038df5871ded4dceff6789ee50d0b676e023d8fc5925",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-iscsi-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6c54fc75bdda8e3a1ca4c4859935f441d4ddc3f31306cbf906062b6afe135fa9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-iscsi-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libiscsi",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-nfs",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "2eecbe8cc2b8aa0c62eb855e94a8e5b981526b700ae2a8b716e9193c245c78a0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-nfs-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "bedb086bdf642be14289d0067d7d1939ef8d5eebca26b8e673f8b6b479582bd7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-nfs-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libnfs",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-ssh",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "5e3438020d5c0d5540b91e8c1d846c1e2c2570d9b6ebc5f460c8d448e934a9a5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-ssh-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4b61a1898eb5a52f55b8027f8acc18078334ca6fa632a129f9753edbcb149fde",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-ssh-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libssh",
       "libssh.so=4-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-chardev-baum",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "39a6daf002848dc7c4c88a4fb9f110e69e20a1a01950ead8ee9b1b91e5d4392b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-baum-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ed3e30cfd9edd09c3af6fc9f67b27267b5f566380f4993e7f9bb8908b2db01b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-baum-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brltty",
       "libbrlapi.so=0.8-64",
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-chardev-spice",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "21f6139c9e9f2eca7bcf3ac7b8521aeb5666be131da725338e98b19a6d907831",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-spice-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "54dc260f0e601b52c5b204a5032a4ff779567ebe797aa0ccf19472227d9257d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-spice-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-1",
-      "qemu-ui-spice-core=11.1.1-1",
+      "qemu-common=11.1.1-2",
+      "qemu-ui-spice-core=11.1.1-2",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -97904,10 +97924,10 @@
   },
   {
     "name": "qemu-common",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "1115f2e5eb2e7edbc709e92cb5f808c5f7ac40558271299f17ebc2c0d7493dc8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-common-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0d12ce55603bb0f0d559ab177232b3f62ea194fdc3ed5ebb984cda2986c4b863",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-common-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -97928,51 +97948,51 @@
   },
   {
     "name": "qemu-desktop",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "b709b60eb1b16d23270a12cdb147138510d41accb6573527e924d44831c1534e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-desktop-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "50388ec2a7af032e495019ddfa561ad9ef67ffdcdc379b89c5fc519047e68bb7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-desktop-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "qemu=11.1.1"
     ],
     "depends": [
-      "qemu-base=11.1.1-1",
-      "qemu-audio-alsa=11.1.1-1",
-      "qemu-audio-dbus=11.1.1-1",
-      "qemu-audio-jack=11.1.1-1",
-      "qemu-audio-oss=11.1.1-1",
-      "qemu-audio-pa=11.1.1-1",
-      "qemu-audio-pipewire=11.1.1-1",
-      "qemu-audio-sdl=11.1.1-1",
-      "qemu-audio-spice=11.1.1-1",
-      "qemu-block-curl=11.1.1-1",
-      "qemu-block-dmg=11.1.1-1",
-      "qemu-block-nfs=11.1.1-1",
-      "qemu-block-ssh=11.1.1-1",
-      "qemu-chardev-spice=11.1.1-1",
-      "qemu-hw-display-qxl=11.1.1-1",
-      "qemu-hw-display-virtio-gpu=11.1.1-1",
-      "qemu-hw-display-virtio-gpu-gl=11.1.1-1",
-      "qemu-hw-display-virtio-gpu-rutabaga=11.1.1-1",
-      "qemu-hw-display-virtio-gpu-pci=11.1.1-1",
-      "qemu-hw-display-virtio-gpu-pci-gl=11.1.1-1",
-      "qemu-hw-display-virtio-gpu-pci-rutabaga=11.1.1-1",
-      "qemu-hw-display-virtio-vga=11.1.1-1",
-      "qemu-hw-display-virtio-vga-gl=11.1.1-1",
-      "qemu-hw-display-virtio-vga-rutabaga=11.1.1-1",
-      "qemu-hw-uefi-vars=11.1.1-1",
-      "qemu-hw-usb-host=11.1.1-1",
-      "qemu-hw-usb-redirect=11.1.1-1",
-      "qemu-hw-usb-smartcard=11.1.1-1",
-      "qemu-ui-curses=11.1.1-1",
-      "qemu-ui-dbus=11.1.1-1",
-      "qemu-ui-egl-headless=11.1.1-1",
-      "qemu-ui-gtk=11.1.1-1",
-      "qemu-ui-opengl=11.1.1-1",
-      "qemu-ui-sdl=11.1.1-1",
-      "qemu-ui-spice-app=11.1.1-1",
-      "qemu-ui-spice-core=11.1.1-1",
-      "qemu-vhost-user-gpu=11.1.1-1"
+      "qemu-base=11.1.1-2",
+      "qemu-audio-alsa=11.1.1-2",
+      "qemu-audio-dbus=11.1.1-2",
+      "qemu-audio-jack=11.1.1-2",
+      "qemu-audio-oss=11.1.1-2",
+      "qemu-audio-pa=11.1.1-2",
+      "qemu-audio-pipewire=11.1.1-2",
+      "qemu-audio-sdl=11.1.1-2",
+      "qemu-audio-spice=11.1.1-2",
+      "qemu-block-curl=11.1.1-2",
+      "qemu-block-dmg=11.1.1-2",
+      "qemu-block-nfs=11.1.1-2",
+      "qemu-block-ssh=11.1.1-2",
+      "qemu-chardev-spice=11.1.1-2",
+      "qemu-hw-display-qxl=11.1.1-2",
+      "qemu-hw-display-virtio-gpu=11.1.1-2",
+      "qemu-hw-display-virtio-gpu-gl=11.1.1-2",
+      "qemu-hw-display-virtio-gpu-rutabaga=11.1.1-2",
+      "qemu-hw-display-virtio-gpu-pci=11.1.1-2",
+      "qemu-hw-display-virtio-gpu-pci-gl=11.1.1-2",
+      "qemu-hw-display-virtio-gpu-pci-rutabaga=11.1.1-2",
+      "qemu-hw-display-virtio-vga=11.1.1-2",
+      "qemu-hw-display-virtio-vga-gl=11.1.1-2",
+      "qemu-hw-display-virtio-vga-rutabaga=11.1.1-2",
+      "qemu-hw-uefi-vars=11.1.1-2",
+      "qemu-hw-usb-host=11.1.1-2",
+      "qemu-hw-usb-redirect=11.1.1-2",
+      "qemu-hw-usb-smartcard=11.1.1-2",
+      "qemu-ui-curses=11.1.1-2",
+      "qemu-ui-dbus=11.1.1-2",
+      "qemu-ui-egl-headless=11.1.1-2",
+      "qemu-ui-gtk=11.1.1-2",
+      "qemu-ui-opengl=11.1.1-2",
+      "qemu-ui-sdl=11.1.1-2",
+      "qemu-ui-spice-app=11.1.1-2",
+      "qemu-ui-spice-core=11.1.1-2",
+      "qemu-vhost-user-gpu=11.1.1-2"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
@@ -98011,65 +98031,65 @@
   },
   {
     "name": "qemu-emulators-full",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "e5ce3b521810445fffb43735a63f9773a6db014bdaff84f0e9344adae5706193",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-emulators-full-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5fbcf1e7efab361018b8d7834f293385f9c6168c3836ff106a35b2ab3b428e16",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-emulators-full-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-system-aarch64=11.1.1-1",
-      "qemu-system-alpha=11.1.1-1",
-      "qemu-system-arm=11.1.1-1",
-      "qemu-system-avr=11.1.1-1",
-      "qemu-system-hexagon=11.1.1-1",
-      "qemu-system-hppa=11.1.1-1",
-      "qemu-system-loongarch64=11.1.1-1",
-      "qemu-system-m68k=11.1.1-1",
-      "qemu-system-microblaze=11.1.1-1",
-      "qemu-system-mips=11.1.1-1",
-      "qemu-system-or1k=11.1.1-1",
-      "qemu-system-ppc=11.1.1-1",
-      "qemu-system-riscv=11.1.1-1",
-      "qemu-system-rx=11.1.1-1",
-      "qemu-system-s390x=11.1.1-1",
-      "qemu-system-sh4=11.1.1-1",
-      "qemu-system-sparc=11.1.1-1",
-      "qemu-system-tricore=11.1.1-1",
-      "qemu-system-x86=11.1.1-1",
-      "qemu-system-xtensa=11.1.1-1",
-      "qemu-user=11.1.1-1"
+      "qemu-system-aarch64=11.1.1-2",
+      "qemu-system-alpha=11.1.1-2",
+      "qemu-system-arm=11.1.1-2",
+      "qemu-system-avr=11.1.1-2",
+      "qemu-system-hexagon=11.1.1-2",
+      "qemu-system-hppa=11.1.1-2",
+      "qemu-system-loongarch64=11.1.1-2",
+      "qemu-system-m68k=11.1.1-2",
+      "qemu-system-microblaze=11.1.1-2",
+      "qemu-system-mips=11.1.1-2",
+      "qemu-system-or1k=11.1.1-2",
+      "qemu-system-ppc=11.1.1-2",
+      "qemu-system-riscv=11.1.1-2",
+      "qemu-system-rx=11.1.1-2",
+      "qemu-system-s390x=11.1.1-2",
+      "qemu-system-sh4=11.1.1-2",
+      "qemu-system-sparc=11.1.1-2",
+      "qemu-system-tricore=11.1.1-2",
+      "qemu-system-x86=11.1.1-2",
+      "qemu-system-xtensa=11.1.1-2",
+      "qemu-user=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-full",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "103e06f3a52441f27b3549bb877486bd5d61319f8ee6cc42195b2db5edb5e9f2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-full-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1494f2bf32c2732ef6d5432089209aa058d26ef03f88b1991f148ba462238617",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-full-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "qemu=11.1.1"
     ],
     "depends": [
-      "qemu-audio-alsa=11.1.1-1",
-      "qemu-audio-dbus=11.1.1-1",
-      "qemu-audio-jack=11.1.1-1",
-      "qemu-audio-oss=11.1.1-1",
-      "qemu-audio-pa=11.1.1-1",
-      "qemu-audio-sdl=11.1.1-1",
-      "qemu-audio-spice=11.1.1-1",
-      "qemu-block-iscsi=11.1.1-1",
-      "qemu-chardev-baum=11.1.1-1",
-      "qemu-desktop=11.1.1-1",
-      "qemu-docs=11.1.1-1",
-      "qemu-emulators-full=11.1.1-1",
-      "qemu-hw-s390x-virtio-gpu-ccw=11.1.1-1",
-      "qemu-pr-helper=11.1.1-1",
-      "qemu-tests=11.1.1-1",
-      "qemu-tools=11.1.1-1",
-      "qemu-user=11.1.1-1",
-      "qemu-vmsr-helper=11.1.1-1"
+      "qemu-audio-alsa=11.1.1-2",
+      "qemu-audio-dbus=11.1.1-2",
+      "qemu-audio-jack=11.1.1-2",
+      "qemu-audio-oss=11.1.1-2",
+      "qemu-audio-pa=11.1.1-2",
+      "qemu-audio-sdl=11.1.1-2",
+      "qemu-audio-spice=11.1.1-2",
+      "qemu-block-iscsi=11.1.1-2",
+      "qemu-chardev-baum=11.1.1-2",
+      "qemu-desktop=11.1.1-2",
+      "qemu-docs=11.1.1-2",
+      "qemu-emulators-full=11.1.1-2",
+      "qemu-hw-s390x-virtio-gpu-ccw=11.1.1-2",
+      "qemu-pr-helper=11.1.1-2",
+      "qemu-tests=11.1.1-2",
+      "qemu-tools=11.1.1-2",
+      "qemu-user=11.1.1-2",
+      "qemu-vmsr-helper=11.1.1-2"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
@@ -98079,10 +98099,10 @@
   },
   {
     "name": "qemu-guest-agent",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "bf50f01e713d02e0cbfb2f75fe266b1e4e2d43aa84142ccabf0b3dd61fac7749",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-guest-agent-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5bb0b433be370a059b28e263cc97de4d086db93020db3d19e1d540f31e585a26",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-guest-agent-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -98175,18 +98195,18 @@
   },
   {
     "name": "qemu-hw-display-qxl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "83559fc92bd3c4c07a7d31fcd5f9da8b17f59cc0b73a6d3a99581b67a528c730",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-qxl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "06d65dfbb1d697f39f9036e13a3059672de662e1171e006bc9c7133208bc9f0f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-qxl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
-      "qemu-ui-spice-core=11.1.1-1",
+      "qemu-common=11.1.1-2",
+      "qemu-ui-spice-core=11.1.1-2",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -98195,31 +98215,31 @@
   },
   {
     "name": "qemu-hw-display-virtio-gpu",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "e4ec1211b8b21610e8226e6961990cd3648ee8ba7a65256eaaa5761dcefc0782",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1f528ed0630896cc332a2920f494f75cb2ebc804ad44643de05d48640fb43a58",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-gl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "1c222df06aa7bf35e3ec41939e8a590f88ecfea93fe76deaacac958101ca0e44",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-gl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "54a649fb18fabdfa164c8d8896461348fc896be6629d68f8aa88b76c513931d5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-gl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "virglrenderer"
     ],
     "optdepends": [],
@@ -98227,56 +98247,56 @@
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "696d914e81097ea4a09f0f06e6be2d7bb7f0a743150527a06f0342bd24284c10",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "64b54016cbcc53d46a761976704d8ecfe34f211efd00f3b989b4b5f03773473f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci-gl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "6e9c8c829d6bc4e21192cd109d19e56f6f01ef61ca05bed4487e67c3cc28099a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-gl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a99f2fc81d47bdd7cea8730509b0f448eb92ee1f919261cbbb247eb73e26b00d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-gl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci-rutabaga",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "b59f9d5cb37c067cf2c345aedc5ac7350769c65e9e17815c97822f92bfa90327",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-rutabaga-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7919e8a947007103578c12ba08465b31cb983a30fb93ad4db16539e1c360308e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-rutabaga-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-rutabaga",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "cb8ed1baa4ac7d34144eb008a63307cbc0f5b32c2f4978edc8c7cc7b19e546ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-rutabaga-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "96206169b090e8327dc378e00229225060ea2f4f876f67ee9516d3156d540380",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-rutabaga-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rutabaga-ffi"
     ],
     "optdepends": [],
@@ -98284,99 +98304,99 @@
   },
   {
     "name": "qemu-hw-display-virtio-vga",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "ac8bc63d8854e388e23a9a43bcf6bf7c3103b0beacfa41a718a8e09a107d606d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "182e7081a3ddea537103bb5259575d5787e6de456aae009e0e743eba78edf005",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-vga-gl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "218b4969a8bd2e33260b6ee80fc38fa15e4fe81f183167fc36215937871c0743",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-gl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2284398ab56586ff826464ebe14978e5fe9838eda7bb6b0b1d3799640f3d5661",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-gl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-vga-rutabaga",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "9fd7746fd05d37f2533be0ba0953c729458da1124c9ff837f0040d5866020d92",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-rutabaga-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b9bebee34d8fc31c4b5c0319b747771fbc827db87ea7c2d1dd1961bf29084bc1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-rutabaga-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-s390x-virtio-gpu-ccw",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "abd56590c36d0310bde57dd2da5da2e8cda2024fdbc6948d4422a85f4f9ff767",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-s390x-virtio-gpu-ccw-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "78632faea43cf6993902bf3bfd7a372e5e7d6a25974c90e53e080ad85c0ae83d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-s390x-virtio-gpu-ccw-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-uefi-vars",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "9ed3250d84e54c5e0e86b5f6e352ae1e802a11e1595d9a49621d7c43f2157f7e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-uefi-vars-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6c2bfc823ac830550a4b2370ec8d580bc71ba5faf54635dd428c70d47853a048",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-uefi-vars-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "gnutls",
       "libgcc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-usb-host",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "f6eba7504d6d1e8004e3d0e593449a533b9fd83b48cb29361763b443a5cc06db",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-host-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "bd30458a018dab55e7737dd511eda7b4d65cc2f75ced373aa9c3283f3ff7c8c8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-host-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libusb",
       "libusb-1.0.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-usb-redirect",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "5dbaf94aaabb8dd9174d408298e1f5a1809c45cf005335f05fe6f9bd4c27c5f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-redirect-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "63c5d7cd9fc67030bd2af176bc4aad63d37ceaa6e2e2ad587bf37907afdd6b9f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-redirect-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "usbredir"
     ],
     "optdepends": [],
@@ -98384,10 +98404,10 @@
   },
   {
     "name": "qemu-hw-usb-smartcard",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "d9a58ba74474a4bc9a2bffd67fd5a8b727acfa692f2b5a41752961a0dba42641",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-smartcard-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d2bb8dbee457213ef3798ace0f79b3fac745ad7a566cda29caac73440159d8e0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-smartcard-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcacard",
@@ -98395,17 +98415,17 @@
       "libgcc",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-img",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "3ccd3d41dd87c9143523f27ff5543a2ac138de4f9d5c264d4a2872604478f5af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-img-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "463079c6cd37e4b6f6d50321240adf113553427c5057806816e37caf44b0437e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-img-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse3",
@@ -98431,10 +98451,10 @@
   },
   {
     "name": "qemu-pr-helper",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "86cb1ac4b959c1176e178247c0e026c671a788768d6a9866a3cd8cc8dadab53e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-pr-helper-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6d0fb2a3c0fbc8d49ef43f2ccd9aa86c77d3c2df18b04f73f7a4215a0c3e5c5d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-pr-helper-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -98452,7 +98472,7 @@
       "libnuma.so=1-64",
       "pam",
       "libpam.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "libudev"
     ],
     "optdepends": [],
@@ -98460,10 +98480,10 @@
   },
   {
     "name": "qemu-system-aarch64",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "7d96438d6090216afa115756d0efd33324e0897997ff668082c626a37b0b0cbe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-aarch64-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d6ca3cf3d6c353bf0b1cbd448dcea2a9c4d37a80910f25c9f1b87f5fc2bd4d0f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-aarch64-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98500,7 +98520,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98516,10 +98536,10 @@
   },
   {
     "name": "qemu-system-alpha",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "f3a14cdc38f211951d2b88e25b6d20e6b3649909688901916b5d52cfe8e38cd2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1ea1c5917059786de989daecdbb6779f5ef266a66db7864b95e7969e7f0cfb11",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98556,14 +98576,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-alpha-firmware=11.1.1-1",
+      "qemu-system-alpha-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -98572,10 +98592,10 @@
   },
   {
     "name": "qemu-system-alpha-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "05ad5be9bc72c284354e04a6d672fc602ba4c17422416f5413151bee7a72b33f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f9639809866e07c8f7b2cd0b252086128995db60f2597cabac9798d4ac6fe057",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -98583,10 +98603,10 @@
   },
   {
     "name": "qemu-system-arm",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "b69dc48c39a3e2d7b6cbd909012a5037091ad28b45cd0525103fbf5753b40cc5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e2dd439968562b77a7bf52a40d1713397579e8bb4d050a2370f792470a334fe3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98623,7 +98643,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98631,7 +98651,7 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-arm-firmware=11.1.1-1",
+      "qemu-system-arm-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -98640,10 +98660,10 @@
   },
   {
     "name": "qemu-system-arm-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "618e8f8b2d071fe3745cb7edbe789c381643bb427feb75e734de6592afe1b696",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8a419f676e9474cff62e6aee4d8e7f6608567761dcf0e409846cad7e4e9d49d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -98653,10 +98673,10 @@
   },
   {
     "name": "qemu-system-avr",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "d7e3a6eb2b69165a822b46bc8842b693dd0576cb7f62d121586e05d4d911e275",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-avr-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2cc56e7af6f3dac1aff75ce3b2aa880f4b7d8f4fc3c2d68f73abff1cafc8a687",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-avr-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98693,7 +98713,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98706,10 +98726,10 @@
   },
   {
     "name": "qemu-system-hexagon",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "4c1fdec351ebf1f3dddbfa4e664382b2c217de90cb4c15023c10fae635a0298b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hexagon-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ef2db8d035c3619b39733798a6a81875780c0d1a61a92e05b93b746c4ddab3f6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hexagon-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98746,7 +98766,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98760,10 +98780,10 @@
   },
   {
     "name": "qemu-system-hppa",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "cab72f778db2cff388167b5be59e6d39bdaf2f2ec9d4a5653193a094c38a563e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f24649d42531e2b4c8e41e1c9e8b98f342f18a26bf2125656e237c784253916a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98800,14 +98820,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-hppa-firmware=11.1.1-1",
+      "qemu-system-hppa-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -98816,10 +98836,10 @@
   },
   {
     "name": "qemu-system-hppa-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "25d6bbedf4d19b354633d1a27212da9e62621bfe0b9bd1ce970d8a30f2c87db2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4cc47e4c5d73887ff319576f34ce6b1f1567474e3c39fc06b68a14462109b8da",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -98827,10 +98847,10 @@
   },
   {
     "name": "qemu-system-loongarch64",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "b6f65b34e89a4fa7ef756a0b48fdfe561eaeb76d412a322e39895a4fc96237ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-loongarch64-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "90657b10fec883f589f481c45c73790972e8bc442ce5534ac8e55883589be575",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-loongarch64-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98867,7 +98887,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98882,10 +98902,10 @@
   },
   {
     "name": "qemu-system-m68k",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "aba65ca03da2738ecf5d82b095c3424c92b7e27e4c739da5a96604b8f73ef636",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-m68k-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f4346c86a5673850d6049f0351925c77e3b5d06e4e7982f037fa5961b26df884",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-m68k-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98922,7 +98942,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98935,10 +98955,10 @@
   },
   {
     "name": "qemu-system-microblaze",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "95aea1dddcf255ecde16d1762587d783ea72091d19acf99873419fa78225a5fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "05085dda3faac8409b7815403dedf8568b2e86258de736e9009d408e2b73f740",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98975,7 +98995,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98983,17 +99003,17 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-microblaze-firmware=11.1.1-1"
+      "qemu-system-microblaze-firmware=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-system-microblaze-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "8ee1b18eb46993dd4463ef7ae983bea535992635b7e4d0908fd0afcaf559d48c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "78573d5cae5e94b8162a7a6d201549bf064d75e3efb01c53a567aca707b8de6a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99001,10 +99021,10 @@
   },
   {
     "name": "qemu-system-mips",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "c5194ed8fd72b71b9174a7873d4541790e382e9f89642e8de6fb52a840d409a2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-mips-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0915fa4b1b6f0d080e732c98d52c7d28433a7d3ac9384c1e56854069d56fd5b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-mips-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99041,7 +99061,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99057,10 +99077,10 @@
   },
   {
     "name": "qemu-system-or1k",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "3f90358bc7c66945c3b03bbea2824690304adcfadc8e27a40e37210a6205768c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-or1k-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0d640dcc6c5e0995a6eac1b56c281c8b6437c8dad8d8e4d4dfffae407fc94a41",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-or1k-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99097,7 +99117,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99112,10 +99132,10 @@
   },
   {
     "name": "qemu-system-ppc",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "ea7e0b1001a4637a3c1103d0b5518e025f84f5abc3d1dcb72cdef089f66e6a39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "fff426bb58d0077032d1ed3f6c4b296e08fc3327f11edcaa8ba239d67099e74b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99152,7 +99172,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99160,7 +99180,7 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-ppc-firmware=11.1.1-1",
+      "qemu-system-ppc-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99169,10 +99189,10 @@
   },
   {
     "name": "qemu-system-ppc-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "af5275febbfe24205c5cc32bbec4854ddda5f1d252ca4fab28f5c40759d169f8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "cb74827e5b500f89ac65bce41032375b0b3f0c43cabb1e5948aab99f8960184b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99180,10 +99200,10 @@
   },
   {
     "name": "qemu-system-riscv",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "41546ad8bdb96e5cbfd8139be13d8d80e31120c498679d78b9c1bd6cbc423b6d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9b59a37d5cd2ba5dd54a3ef2da7cc323a343335d3ce421cb152a8e5f186d3b48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99220,7 +99240,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99229,7 +99249,7 @@
       "libzstd.so=1-64",
       "dtc",
       "edk2-riscv64",
-      "qemu-system-riscv-firmware=11.1.1-1",
+      "qemu-system-riscv-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99238,10 +99258,10 @@
   },
   {
     "name": "qemu-system-riscv-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "ed25d314bfef743096dbc98e5a93452de49bc740ed7879f921f40446815058c1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e16892052a708b8b63bd1475ab5e9041081c28e8ffee03282d3423060a00da7a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99249,10 +99269,10 @@
   },
   {
     "name": "qemu-system-rx",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "13e04d33e46d973aa59d85bd70d7f08f8e38dacfb1f71a782ad654061a1b5f4e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-rx-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "cf806c13dbc5ea1f33cd9861a232654a2a7b50177a8106972723988fe32a825b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-rx-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99289,7 +99309,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99303,10 +99323,10 @@
   },
   {
     "name": "qemu-system-s390x",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "0892138f0f6ab718436a44c407bc51dcce78506508201347e1f242771ff8e941",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b741f0fd7f4be1e98c7827bd053ea514d39e23597e78ebc57cf760a47a339b60",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99343,14 +99363,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-s390x-firmware=11.1.1-1",
+      "qemu-system-s390x-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99359,10 +99379,10 @@
   },
   {
     "name": "qemu-system-s390x-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "f152dc29d3a56bd831ce4afc2cc8263c6180367537874565b3dfcc72a7ff5dd8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c4087594fc3e460e2d8a3e5fe26be89a48ce79c5454b079dfa0b75d842f79780",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99370,10 +99390,10 @@
   },
   {
     "name": "qemu-system-sh4",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "8eb68de9617e0a68d87f866e99c8d26e6b0b08aab3deacbf998a2421614eed6c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sh4-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4c151f429267b782623d6ae9415f57b7420ebe5d640be1190b46f5b0f4720a6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sh4-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99410,7 +99430,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99425,10 +99445,10 @@
   },
   {
     "name": "qemu-system-sparc",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "0b6f014ca1bf9b125159b27ed9398b568fd6397e0a54140cc366a9f460eb83bb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "853d2aea5e0f59f11d614f280e3b64364683f2628a74ecda2d1e94670d0335d3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99465,14 +99485,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-sparc-firmware=11.1.1-1",
+      "qemu-system-sparc-firmware=11.1.1-2",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99481,10 +99501,10 @@
   },
   {
     "name": "qemu-system-sparc-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "f846c0bbf5469447468335bb0dea04deea7453f9b4f501fa6e4376280c7c275d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8c6480b555870b889815f1b6479579ec2bebd6b536f02dd9c2daf1b65d94216a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99492,10 +99512,10 @@
   },
   {
     "name": "qemu-system-tricore",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "e32f47094bd55166121ce930bc4a00fdbfb522ab468004ac357e86889747884e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-tricore-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "748dca9b30735c8d9c18eab35ac534a631586348334b92626aa81ded42a8e8ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-tricore-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99532,7 +99552,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99545,10 +99565,10 @@
   },
   {
     "name": "qemu-system-x86",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "2b6fc0b833813a8c3566f8f914d943906bbf179c4b337fe2d920151c0b296170",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "06f0b94bab06493b8c70558634135bd4a13fa9730b701e059c2684b2175d5579",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99585,7 +99605,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99596,7 +99616,7 @@
       "edk2-ovmf",
       "libcbor",
       "libcbor.so=0.14-64",
-      "qemu-system-x86-firmware=11.1.1-1",
+      "qemu-system-x86-firmware=11.1.1-2",
       "seabios",
       "libudev",
       "libudev.so=1-64"
@@ -99606,10 +99626,10 @@
   },
   {
     "name": "qemu-system-x86-firmware",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "86bf949c5d4ad2ec02418a81c569aa1dbbbc0983207b6150487226827357ff26",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-firmware-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "71c717eba7c4bb69d45d7b314a7bc32938d3a21ac2339586d9f53894101e3473",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-firmware-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99617,10 +99637,10 @@
   },
   {
     "name": "qemu-system-xtensa",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "d957620f0349a462dac4996a801f23c206338515918684efa473ea83bf8131f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-xtensa-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7b80fefaeb8fbca510fc1c9840e26b175e2d2f343227dc4cfc43cc3f3e257195",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-xtensa-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99657,7 +99677,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99673,23 +99693,23 @@
   },
   {
     "name": "qemu-tests",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "8956fdf0ce39c1e4676beb9eff2253cf3ad4fcacc717a55d47377ce290800489",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tests-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "fabc3d0ee8a4c763ed81d8c7a81f27c66c0cfe258cd03af3cd06849415bc7475",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tests-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-tools",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "889689010041e065fe13c01fe0eacfb44401979b8471dccc17277deec549bf47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tools-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0d409d26b38b502d3167e4448f09367713744d50a7a8c42dd9244733aee80d1c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tools-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -99702,17 +99722,17 @@
       "libxkbcommon",
       "libxkbcommon.so=0-64",
       "python",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-curses",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "78f10f40f1938dda7015f4377ba2665a80ecd285eb3ccedaec174d112344e771",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-curses-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ab0cce8c5d450e0f7a084a3316e31ae66824d3555c430664e3348c35a3833d48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-curses-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -99721,17 +99741,17 @@
       "glibc",
       "ncurses",
       "libncursesw.so=6-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-dbus",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "e92dd96c43fa775d87be1fcb47a95ba6dea256cdfb19b11fba9e9cfc830c1851",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-dbus-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ac7cfc40dac7c171f98b38782577db9491310ac04ba103e0e66a87483721599e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-dbus-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -99743,34 +99763,34 @@
       "libepoxy",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-egl-headless",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "d49144099b8b8df45225aa542ed06c9388abf0d9266107bed5de0cceaf717613",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-egl-headless-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9535698a3b99e2ddb777548de7f5bab8a7112208e46e73ade3c9a503520eb841",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-egl-headless-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
-      "qemu-ui-opengl=11.1.1-1"
+      "qemu-common=11.1.1-2",
+      "qemu-ui-opengl=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-gtk",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "f4af64152c5777c351d31ea4886d9662afc4277b2015600bd056cae064537415",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-gtk-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0bf668439952064466bd6d8ce42f39daf5a0d6b3f332b69cd6002cc056a6710d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-gtk-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -99788,7 +99808,7 @@
       "libx11",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "qemu-ui-opengl",
       "vte3",
       "libvte-2.91.so=0-64"
@@ -99798,10 +99818,10 @@
   },
   {
     "name": "qemu-ui-opengl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "8372ed140fba3d707df51d1b0085bf643ba53333a14eeed4247f97e2e9e07154",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-opengl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "878329dcae2be444bbd5ab164c1cad90605a38af0287a803b5299d8717cf81b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-opengl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -99810,17 +99830,17 @@
       "mesa",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-sdl",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "2692dae28eea61542d8403a582771ccf5058829eed303c4c2579df9260382524",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-sdl-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "fab3d311b785337500d6b2a5b906d999409037de62e18ec340a7714cdaf29b87",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-sdl-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -99830,7 +99850,7 @@
       "pixman",
       "libepoxy",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "sdl2_image",
       "sdl2"
     ],
@@ -99839,37 +99859,37 @@
   },
   {
     "name": "qemu-ui-spice-app",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "f6ca542f78378919dc3bde6e05fe0b95168ff9fee60ca7e073399aa613dad623",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-app-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ae6b965e8131cc41ffa4ee4aa1a996286d9a8ffbce7a5b7e9198be37380cf21e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-app-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "libgio-2.0.so=0-64",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.1.1-1",
-      "qemu-chardev-spice=11.1.1-1",
-      "qemu-ui-spice-core=11.1.1-1"
+      "qemu-common=11.1.1-2",
+      "qemu-chardev-spice=11.1.1-2",
+      "qemu-ui-spice-core=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-spice-core",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "3788d230a0f0aaae21831b4b96c1988c2ee65ada0cb23355b43734c704a31289",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-core-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "23b859a56806b261d73f279a6c4fa30b35581a7d56dcde20ee802553731dd732",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-core-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-1",
-      "qemu-ui-opengl=11.1.1-1",
+      "qemu-common=11.1.1-2",
+      "qemu-ui-opengl=11.1.1-2",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -99878,10 +99898,10 @@
   },
   {
     "name": "qemu-user",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "0e0978f6118a028634585603696b288d078cbd43b4b8fe247338b9ed847ce9ba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b69c34bfa3dad64c447c69b6d29f2fc2afb4de29f20f3df0aa00871193a42f9a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99896,7 +99916,7 @@
       "liburing.so=2-64",
       "numactl",
       "libnuma.so=1-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "zlib"
     ],
     "optdepends": [
@@ -99906,15 +99926,15 @@
   },
   {
     "name": "qemu-user-binfmt",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "a0fef0b46b44940d7c094398d3a96f13e6a5fca4af58e6012e7121800fbc8889",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-binfmt-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "be8b8eb6a0f65a64c845218532168de990e0e511bf59dbc0a939349aa462b08b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-binfmt-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "qemu-user-binfmt-provider"
     ],
     "depends": [
-      "qemu-user=11.1.1-1"
+      "qemu-user=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": [
@@ -99923,10 +99943,10 @@
   },
   {
     "name": "qemu-user-static",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "a8798146dcf0d5fb76f6fc8c4faec07eb3ec2c31e4133825c96ef2b697612194",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "04990ea7ab17b0de38d7bded2556d0b558a5d4abc79366332e5af91f6fdb8fe7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -99936,15 +99956,15 @@
   },
   {
     "name": "qemu-user-static-binfmt",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "154722c05289af7fc1f0d95165ded2681124c4cc71c90a1681fc355298d00f20",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-binfmt-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6ca8d55126286162aa4af77a8406bb8483b6ed206c4710726a30e90467b465a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-binfmt-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "qemu-user-binfmt-provider"
     ],
     "depends": [
-      "qemu-user-static=11.1.1-1"
+      "qemu-user-static=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": [
@@ -99953,10 +99973,10 @@
   },
   {
     "name": "qemu-vhost-user-gpu",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "af20140c416fa67b536723687726eeee6064bfb247120cb5f6a78f5c81bb5e69",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vhost-user-gpu-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4729c1375221bca03ce4eb548d0275535f2b6309ef1168127996e0f1d3d83a00",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vhost-user-gpu-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -99970,7 +99990,7 @@
       "mesa",
       "numactl",
       "libnuma.so=1-64",
-      "qemu-common=11.1.1-1",
+      "qemu-common=11.1.1-2",
       "virglrenderer"
     ],
     "optdepends": [],
@@ -99978,10 +99998,10 @@
   },
   {
     "name": "qemu-vmsr-helper",
-    "version": "11.1.1-1",
+    "version": "11.1.1-2",
     "origin": "artix-world",
-    "sha256": "388ee044e0ebb01a22dd52c37e51ee9e5f309602fc2aafadf384a0ccdcd8d3d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vmsr-helper-11.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c65d2ef9a8bca95b53e6c29dcf0feb9c7b837fa6dcfcd2186ea4bd8a40fa0154",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vmsr-helper-11.1.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -99998,7 +100018,7 @@
       "libnuma.so=1-64",
       "pam",
       "libpam.so=0-64",
-      "qemu-common=11.1.1-1"
+      "qemu-common=11.1.1-2"
     ],
     "optdepends": [],
     "conflicts": []
