@@ -30825,24 +30825,6 @@
     "conflicts": []
   },
   {
-    "name": "xlibre-video-voodoo",
-    "version": "25.0.0-5",
-    "origin": "artix-galaxy",
-    "sha256": "438213035b8a063b4bde9f0b3a5250eaa73ed19493cea39d4ed3c5f6f11b70be",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xlibre-video-voodoo-25.0.0-5-x86_64.pkg.tar.zst",
-    "provides": [
-      "xf86-video-voodoo"
-    ],
-    "depends": [
-      "xlibre-xserver>=25.0",
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "xf86-video-voodoo"
-    ]
-  },
-  {
     "name": "xonotic",
     "version": "0.8.6-3",
     "origin": "artix-galaxy",
