@@ -30614,13 +30614,13 @@
   },
   {
     "name": "ipython",
-    "version": "9.17.0-1",
+    "version": "9.17.1-1",
     "origin": "artix-world",
-    "sha256": "c31d271c322d91c6df7cd9028ece6715f5896780613ee7ea92f4a3da94bb43f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ipython-9.17.0-1-any.pkg.tar.zst",
+    "sha256": "e9dabeb037eeb700017d7e517e742187311507b1954e44633ac18ee54e10e662",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ipython-9.17.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "python-decorator",
+      "python",
       "python-ipython-pygments-lexers",
       "python-jedi",
       "python-matplotlib-inline",
@@ -30630,7 +30630,7 @@
       "python-pygments",
       "python-stack-data",
       "python-traitlets",
-      "sqlite"
+      "python-wcwidth"
     ],
     "optdepends": [
       "python-black: to auto format with Black",
@@ -32644,10 +32644,10 @@
   },
   {
     "name": "jupyter-server",
-    "version": "2.21.0-1",
+    "version": "2.21.0-2",
     "origin": "artix-world",
-    "sha256": "744e28eb7262365ca5641dbe955f41554a8617c38540b3307a528aa8728fe652",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jupyter-server-2.21.0-1-any.pkg.tar.zst",
+    "sha256": "98668d0be93771c7921343a9feeb82e59961ae31091fabf83d891422b5df58b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jupyter-server-2.21.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jupyter-nbconvert",
@@ -32668,7 +32668,6 @@
       "python-websocket-client"
     ],
     "optdepends": [
-      "jupyter-server-mathjax: to use local MathJax",
       "python-jupyter-server-terminals: terminals support"
     ],
     "conflicts": []
@@ -56145,10 +56144,10 @@
   },
   {
     "name": "meson-python",
-    "version": "0.21.0-1",
+    "version": "0.21.1-1",
     "origin": "artix-world",
-    "sha256": "a6c7a530cc7df09698ee6188a0e3dc5b52dd2eeab04e5b81a1489c7b878bf52f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/meson-python-0.21.0-1-any.pkg.tar.zst",
+    "sha256": "d0c6185d30dd4a891436566c94db8719fc2da3803c5b11a00b2380353689b873",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/meson-python-0.21.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "meson",
@@ -59970,10 +59969,10 @@
   },
   {
     "name": "nodejs-yaml",
-    "version": "2.9.0-1",
+    "version": "2.9.1-1",
     "origin": "artix-world",
-    "sha256": "b1a504f8e14899231f3756451f243a73b76d761faeb0f4fac439eb9a2ceb59f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-yaml-2.9.0-1-any.pkg.tar.zst",
+    "sha256": "652f6a5b4988032adb4379cef60edca2ca31f7333611d9f246f6096f218688b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-yaml-2.9.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs"
@@ -63115,10 +63114,10 @@
   },
   {
     "name": "openucc",
-    "version": "1.8.0-2",
+    "version": "1.9.0-1",
     "origin": "artix-world",
-    "sha256": "1d9d38cc56006df71a08ab79a2065668d2c4e41cf7a80ec6bc257e189895d7b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openucc-1.8.0-2-x86_64.pkg.tar.zst",
+    "sha256": "bf4fc12ef5ea580490c81929fe42d8934bb325b9d9710f3efb0be5aa89fea81a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openucc-1.9.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libucc.so=1-64"
     ],
@@ -75627,10 +75626,10 @@
   },
   {
     "name": "python-alembic",
-    "version": "1.19.2-1",
+    "version": "1.20.0-1",
     "origin": "artix-world",
-    "sha256": "b2fa1a3d3c0c34534df21b00f0f8d3e9148ae3288d369302cbe3901d6b4ff382",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-alembic-1.19.2-1-any.pkg.tar.zst",
+    "sha256": "9a2a299d837b8520460b6839cf687128e23493528681cc1ed9a04aaf3bf49b98",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-alembic-1.20.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -85383,10 +85382,10 @@
   },
   {
     "name": "python-nbdime",
-    "version": "4.0.4-1",
+    "version": "4.0.4-2",
     "origin": "artix-world",
-    "sha256": "27648142f6919a8fed7c32921daa50dd93f9a167ecde2f5f20ec254cc5b446c0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-nbdime-4.0.4-1-any.pkg.tar.zst",
+    "sha256": "5d100d4c56f2c608de76960bf2fad6325bad3e66c735092f0e805eb2539949d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-nbdime-4.0.4-2-any.pkg.tar.zst",
     "provides": [
       "jupyterlab-extension-nbdime",
       "jupyter-nbdime"
@@ -85400,7 +85399,6 @@
       "python-requests",
       "python-gitpython",
       "jupyter-server",
-      "jupyter-server-mathjax",
       "python-jinja",
       "python-traitlets",
       "python-jupyter-core"
@@ -86605,10 +86603,10 @@
   },
   {
     "name": "python-pandas",
-    "version": "2.3.3-5",
+    "version": "2.3.3-6",
     "origin": "artix-world",
-    "sha256": "16611e3a597cedaf23b37bee290fbdf7906e60528001696ca06ea0a347f57925",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pandas-2.3.3-5-x86_64.pkg.tar.zst",
+    "sha256": "f5412f470841fa94a43662b9c268d9666578a16528cf8b9718b871f4686ff3dc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pandas-2.3.3-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-numpy",
@@ -91922,10 +91920,10 @@
   },
   {
     "name": "python-rencode",
-    "version": "1.0.8-3",
+    "version": "1.0.9-1",
     "origin": "artix-world",
-    "sha256": "6afd68c5a6be717c37bb0b1214922c73c62af8c6073478271d54207acd13cf4d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-rencode-1.0.8-3-x86_64.pkg.tar.zst",
+    "sha256": "0dcb0400a39f8c39badcdb3e0faea3619ca25ed70eb795d79c81bc826fb87228",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-rencode-1.0.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -96151,10 +96149,10 @@
   },
   {
     "name": "python-virtualenv",
-    "version": "21.7.8-1",
+    "version": "21.7.9-1",
     "origin": "artix-world",
-    "sha256": "291175eca96cd994a1f82027e99d5d595a952073120ae9eee5e6a18112b85303",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-virtualenv-21.7.8-1-any.pkg.tar.zst",
+    "sha256": "51d7b03bad820a0d2083d1d925c9d8b18fae7595831aee6ca15a59ffa3f818e8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-virtualenv-21.7.9-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -102248,10 +102246,10 @@
   },
   {
     "name": "rdma-core",
-    "version": "64.0-1",
+    "version": "65.0-1",
     "origin": "artix-world",
-    "sha256": "8fac40c15861d54393ab1e1eb491aa7098e1a87e014f6431a537ee2a4577d316",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rdma-core-64.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d1984c355c0a4d65bbf2093049d0928b68db89fe227720dc2a7da305d505c8f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rdma-core-65.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "ibacm",
       "infiniband-diags",
