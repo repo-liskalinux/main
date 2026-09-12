@@ -17004,10 +17004,10 @@
   },
   {
     "name": "flatpak-builder",
-    "version": "1.4.10-1",
+    "version": "1.4.11-1",
     "origin": "artix-world",
-    "sha256": "f5da5379a12a77562bf20b8ebba1d5456c742b8f55b36157ddc622346be53398",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-builder-1.4.10-1-x86_64.pkg.tar.zst",
+    "sha256": "7b7fbacecda23d6a394b77cda07e1881747a7c19d7b86505e85610895f158b8c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-builder-1.4.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "7zip",
@@ -48199,10 +48199,10 @@
   },
   {
     "name": "libportal",
-    "version": "0.10.0-1",
+    "version": "0.11.0-1",
     "origin": "artix-world",
-    "sha256": "5be82ead3ab9945544757481aac1a6bf0ef368d01b2db3d6ff9312a013726235",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-0.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "890c5121ccb123bc2f27f4ffe69d17c03a3a00f7159d3d78de7a43d4c4c0a811",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-0.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libportal.so=1-64"
     ],
@@ -48226,10 +48226,10 @@
   },
   {
     "name": "libportal-gtk3",
-    "version": "0.10.0-1",
+    "version": "0.11.0-1",
     "origin": "artix-world",
-    "sha256": "9bb2db44ac40ec78b0eb9f04c654156a21537110ee169ef6d6ec620d40e3a0b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-gtk3-0.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2b0e8a8a9814b4e420dee0c7701ea31699038cb4d2dcf862abc1b5056eb33e7a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-gtk3-0.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libportal-gtk3.so=1-64"
     ],
@@ -48237,7 +48237,7 @@
       "glib2",
       "glibc",
       "libgcc",
-      "libportal=0.10.0-1",
+      "libportal=0.11.0-1",
       "gtk3",
       "libgdk-3.so=0-64",
       "libgtk-3.so=0-64"
@@ -48247,10 +48247,10 @@
   },
   {
     "name": "libportal-gtk4",
-    "version": "0.10.0-1",
+    "version": "0.11.0-1",
     "origin": "artix-world",
-    "sha256": "e6e0c045cfdc6600e9404b899ebca438e86db1aa1fe45709ad307f4254a63712",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-gtk4-0.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d93b5766e1864d2698403663ce4df1a802c364b7cd0dfd4a6fe8e92ee2d8251f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-gtk4-0.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libportal-gtk4.so=1-64"
     ],
@@ -48258,7 +48258,7 @@
       "glib2",
       "glibc",
       "libgcc",
-      "libportal=0.10.0-1",
+      "libportal=0.11.0-1",
       "gtk4",
       "libgtk-4.so=1-64"
     ],
@@ -48267,10 +48267,10 @@
   },
   {
     "name": "libportal-qt5",
-    "version": "0.10.0-1",
+    "version": "0.11.0-1",
     "origin": "artix-world",
-    "sha256": "8e7c7cc9a127c33f2deec9a5d81cacc2237b9ff26785429eedb8891a28f944f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-qt5-0.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9da0ce98db158d76fdf57720f38c2ba5cbebc4d5ed2a40a60f1b7fb842fdfbb6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-qt5-0.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libportal-qt5.so=1-64"
     ],
@@ -48278,7 +48278,7 @@
       "glib2",
       "glibc",
       "libgcc",
-      "libportal=0.10.0-1",
+      "libportal=0.11.0-1",
       "libstdc++",
       "qt5-base",
       "qt5-x11extras"
@@ -48288,10 +48288,10 @@
   },
   {
     "name": "libportal-qt6",
-    "version": "0.10.0-1",
+    "version": "0.11.0-1",
     "origin": "artix-world",
-    "sha256": "4cfb08a43739bf3d3d16a5a9577ee946fe173ddcecd466fa18cde34a00d2ed56",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-qt6-0.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "54eb2ff3118412e49319022dd52e3e68a46f6e7be257d73cc1e70bc58ab8e826",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libportal-qt6-0.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libportal-qt6.so=1-64"
     ],
@@ -48299,7 +48299,7 @@
       "glib2",
       "glibc",
       "libgcc",
-      "libportal=0.10.0-1",
+      "libportal=0.11.0-1",
       "libstdc++",
       "qt6-base"
     ],
@@ -89175,10 +89175,10 @@
   },
   {
     "name": "python-pyjwt",
-    "version": "2.13.0-1",
+    "version": "2.14.0-1",
     "origin": "artix-world",
-    "sha256": "15148c50572eb44764e0cce8ba567c42d1d619612d63dc4f81f19c39728dd65f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyjwt-2.13.0-1-any.pkg.tar.zst",
+    "sha256": "16218eaa45fe8f6763e7ecd8b2140f7d21d3e3ede40a0c4bd54b24c3e35aca8a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyjwt-2.14.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95927,10 +95927,10 @@
   },
   {
     "name": "python-urwid",
-    "version": "4.1.2-1",
+    "version": "4.1.3-1",
     "origin": "artix-world",
-    "sha256": "99bb5899653f905bdfbd777afded23e377e17a04a280cd6e3bf671cf81d1d8f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-urwid-4.1.2-1-any.pkg.tar.zst",
+    "sha256": "a235325154ae2b4a5a5dac8c2192635c057da101ea614ce57b7d035e1a25d7f4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-urwid-4.1.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
