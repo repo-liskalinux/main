@@ -6750,10 +6750,10 @@
   },
   {
     "name": "buf",
-    "version": "1.72.0-1",
+    "version": "1.73.0-1",
     "origin": "artix-world",
-    "sha256": "77f7e3bc8316d75b11f79a4412e470cde76b4d4118836cf72cf946f0576b0ef3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/buf-1.72.0-1-x86_64.pkg.tar.zst",
+    "sha256": "573447bf69488728f8eb5f3318fed3cdffa5a65197b63e6de1a9dc4b88bae54f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/buf-1.73.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -10534,10 +10534,10 @@
   },
   {
     "name": "dart-sass",
-    "version": "1.104.0-1",
+    "version": "1.104.1-1",
     "origin": "artix-world",
-    "sha256": "fb99b43a5d99cde030f85a41bddecec1f8998b3573a0342da075ae3ce20114f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.104.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2d5aa8c5fba63d299cf82f1816d09aea77514b7c0879fb81d0bf9ef2cf3abaec",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.104.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "sass"
     ],
@@ -12167,10 +12167,10 @@
   },
   {
     "name": "docker",
-    "version": "1:29.7.2-1",
+    "version": "1:29.8.0-1",
     "origin": "artix-world",
-    "sha256": "01a27afde081a1d176e579d821a3a7b9a0ec7957d3d340800cf6e1f7a21d9249",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "42ecc39d5154f18aca02695d0e1eef73a88c06bc89417a6e4e5e1c0f96b0c154",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -32476,10 +32476,10 @@
   },
   {
     "name": "julia",
-    "version": "2:1.13.0-1",
+    "version": "2:1.13.0-2",
     "origin": "artix-world",
-    "sha256": "5a9dc9ebecfed8d49250c659b25e783431c88d422c8e9206f5f3bcbcba241075",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "99e90a5ebaf65f1fd080a921909f88dee1a8a5ad3d7a36cbd469312bb2cee354",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas64-openblas",
@@ -35853,24 +35853,31 @@
   },
   {
     "name": "keepassxc",
-    "version": "2.7.12-4.1",
+    "version": "2.7.12-5",
     "origin": "artix-world",
-    "sha256": "6cd772a661ac24dba6755d9b89315bfa65eb134f79d83c24ff7d9d792946b0ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keepassxc-2.7.12-4.1-x86_64.pkg.tar.zst",
+    "sha256": "f5ebc89bee495dbda04397ae0171468e7835b788a79696a04c95c157aa8e57f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keepassxc-2.7.12-5-x86_64.pkg.tar.zst",
     "provides": [
       "org.freedesktop.secrets"
     ],
     "depends": [
       "argon2",
       "botan",
+      "glibc",
       "hicolor-icon-theme",
+      "libgcc",
+      "libstdc++",
+      "libusb",
       "libxtst",
+      "libx11",
       "minizip",
       "pcsclite",
       "qrencode",
+      "qt5-base",
       "qt5-svg",
       "qt5-x11extras",
-      "libusb"
+      "readline",
+      "zlib"
     ],
     "optdepends": [
       "xclip: keepassxc-cli clipboard support under X server",
@@ -87387,17 +87394,17 @@
   },
   {
     "name": "python-pipenv",
-    "version": "2026.6.1-1",
+    "version": "2026.8.0-1",
     "origin": "artix-world",
-    "sha256": "5a93fbc5c0313c68ae5744f50a8201ddae605fac681c513526a3ee736a351f42",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pipenv-2026.6.1-1-any.pkg.tar.zst",
+    "sha256": "a61ec68c7595f0152275649882135a80d1c18a8bfc37ebfee590b8def958bed3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pipenv-2026.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "python-pip",
       "python-certifi",
-      "python-virtualenv-clone",
-      "python-virtualenv"
+      "python-pip",
+      "python-virtualenv",
+      "python-virtualenv-clone"
     ],
     "optdepends": [],
     "conflicts": []
@@ -87492,10 +87499,10 @@
   },
   {
     "name": "python-platformdirs",
-    "version": "4.11.7-1",
+    "version": "4.11.8-1",
     "origin": "artix-world",
-    "sha256": "5271b5132c7bd034fd1870da6d9a09df957de0d9c83113476bc192f1d8bc8fb5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-platformdirs-4.11.7-1-any.pkg.tar.zst",
+    "sha256": "0221129ff858df29133e1e1350bc940c13b5153da248f01e5da738fa4c0e5d96",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-platformdirs-4.11.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -88082,10 +88089,10 @@
   },
   {
     "name": "python-psycopg2",
-    "version": "2.9.12-1",
+    "version": "2.9.13-1",
     "origin": "artix-world",
-    "sha256": "b06f001ebd77eef935e6bfc5c05ba4b6092a5b3ed2058dca74d8fc3d2777f55e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-psycopg2-2.9.12-1-x86_64.pkg.tar.zst",
+    "sha256": "8c35acad81474011cd325eeba99b9d6963f98182120e2b4de46f545663457bf9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-psycopg2-2.9.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -92801,10 +92808,10 @@
   },
   {
     "name": "python-semver",
-    "version": "3.0.4-2",
+    "version": "3.1.0-1",
     "origin": "artix-world",
-    "sha256": "dffa187176fdd8a336f4136cfd7a7226230252abe52aa9ebca19fa9694bad407",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-semver-3.0.4-2-any.pkg.tar.zst",
+    "sha256": "bce5d3eab75072a67ea79ceaaf4009a67ebd68c9db6dfdca627994a73c9cbf49",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-semver-3.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -93530,10 +93537,10 @@
   },
   {
     "name": "python-sphinx-autodoc-typehints",
-    "version": "3.13.5-1",
+    "version": "3.13.6-1",
     "origin": "artix-world",
-    "sha256": "cebe350a1d1b31d17183a523dc000553e3e20d995c2dbfa611f7773ffbe5ba9c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sphinx-autodoc-typehints-3.13.5-1-any.pkg.tar.zst",
+    "sha256": "69862ebe73c66734c27f9def2e633f4c09a09e7aa3f45a89ed978c8ddd3d1e89",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sphinx-autodoc-typehints-3.13.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95008,10 +95015,10 @@
   },
   {
     "name": "python-time-machine",
-    "version": "3.5.0-1",
+    "version": "3.5.1-1",
     "origin": "artix-world",
-    "sha256": "782bdc92c58a1c7bd8d0ef4239010c792749ff10e2e2d52817727c3d4e49c2fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-time-machine-3.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ad9b11aee0885a1ce011217c646d32d999dfae04602544900267a17249dd22f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-time-machine-3.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -104757,10 +104764,10 @@
   },
   {
     "name": "ruby-chef-utils",
-    "version": "19.4.25-1",
+    "version": "19.4.28-1",
     "origin": "artix-world",
-    "sha256": "0d806d55398127e39df89e0818ae70062487292687b134b1bf895e5281a1e574",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.25-1-any.pkg.tar.zst",
+    "sha256": "8b7a4d9989220a1e94a8e398f5425825da2e78936efc52d238661b266eaa918b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.28-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -106030,10 +106037,10 @@
   },
   {
     "name": "ruby-markly",
-    "version": "0.18.0-1",
+    "version": "0.18.1-1",
     "origin": "artix-world",
-    "sha256": "df79b8bff8fc30827de1b21cd6b156e852ac7238bcb66336f3c351e72a664e42",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-markly-0.18.0-1-x86_64.pkg.tar.zst",
+    "sha256": "70e7cda294efe20e9f1fa06036551a1032dc90bba9e60b015b340409a73731f8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-markly-0.18.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -107035,13 +107042,15 @@
   },
   {
     "name": "ruby-protocol-rack",
-    "version": "0.22.1-1",
+    "version": "0.23.0-1",
     "origin": "artix-world",
-    "sha256": "ae625ac703167cb313c1c7254b30efbc96f0b7718304eb08ba145177af118436",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-protocol-rack-0.22.1-1-any.pkg.tar.zst",
+    "sha256": "6dfa6cd555b4d2fa884f84f5fd7e7bf64f728b39a83c1e1238f2ff0eed4e2b5b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-protocol-rack-0.23.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
+      "ruby-console",
+      "ruby-io-stream",
       "ruby-protocol-http",
       "ruby-rack"
     ],
