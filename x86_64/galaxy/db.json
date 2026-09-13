@@ -24652,6 +24652,21 @@
     "conflicts": []
   },
   {
+    "name": "restic",
+    "version": "0.19.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "94202c486b4fc5c2db9b310a9608b15b2bff88bb8dea9f8f8b1f070026b5e1a1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/restic-0.19.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc"
+    ],
+    "optdepends": [
+      "fuse2: mount archive"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "retroarch",
     "version": "1.22.2-5",
     "origin": "artix-galaxy",
