@@ -21867,10 +21867,10 @@
   },
   {
     "name": "ouch",
-    "version": "0.8.2-1",
+    "version": "0.8.3-1",
     "origin": "artix-galaxy",
-    "sha256": "6190d5ae28e94385e57e11b07f398e9184df587d241fb9e1f0d1c26f0d8b264a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ouch-0.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "043b1847617e34a73032239db270e79af19c1d31a301c4af843b5f2192dde83e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ouch-0.8.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip3",
@@ -26488,10 +26488,10 @@
   },
   {
     "name": "thunar",
-    "version": "4.20.9-1",
+    "version": "4.20.10-1",
     "origin": "artix-galaxy",
-    "sha256": "d292a2d4af3e38edf3cb95c3de6e9182538d65f7d0c3ee7eb6ade746444e535e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunar-4.20.9-1-x86_64.pkg.tar.zst",
+    "sha256": "c3f3c998c50076986250a323b990efc0152b08b2ada97f2b88b1737454fb2f55",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/thunar-4.20.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
@@ -31420,6 +31420,38 @@
     "conflicts": [
       "zig"
     ]
+  },
+  {
+    "name": "zim",
+    "version": "0.77.2-2",
+    "origin": "artix-galaxy",
+    "sha256": "2ea3df68cb1be8ac92db8287f7561681d88a3b098692b4b53ec07e51c9db4380",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zim-0.77.2-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "gtk3",
+      "python",
+      "python-gobject",
+      "python-pyxdg",
+      "ttf-font"
+    ],
+    "optdepends": [
+      "breezy: Version Control plugin",
+      "ditaa: Insert Ditaa plugin",
+      "git: Version Control plugin",
+      "gnuplot: Insert Gnuplot plugin",
+      "graphviz: Insert Diagram plugin",
+      "gtksourceview4: Source View plugin",
+      "gtkspell3: Spell Checker plugin",
+      "libappindicator: StatusNotifierItem support",
+      "lilypond: Insert Score plugin",
+      "mercurial: Version Control plugin",
+      "r: Insert GNU R Plot plugin",
+      "scrot: Insert Screenshot plugin",
+      "texlive-bin: Insert Equation plugin",
+      "xdot: Link Map plugin"
+    ],
+    "conflicts": []
   },
   {
     "name": "zita-convolver",
