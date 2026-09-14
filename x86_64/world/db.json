@@ -9963,10 +9963,10 @@
   },
   {
     "name": "cuda",
-    "version": "13.3.1-1.1",
+    "version": "13.4.1-1",
     "origin": "artix-world",
-    "sha256": "b12e9ea3e26c9fab6456c775df8fe1eb4fe572dc9f1dbcb747688ce33f8d07fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cuda-13.3.1-1.1-x86_64.pkg.tar.zst",
+    "sha256": "58f3d1b875f913a775acfebca245f7eb30699a33a9d79c68a9e3cabee63f2340",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cuda-13.4.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "cuda-toolkit",
       "cuda-sdk",
@@ -9978,8 +9978,7 @@
     "depends": [
       "cccl",
       "opencl-nvidia",
-      "python",
-      "gcc15"
+      "python"
     ],
     "optdepends": [
       "gdb: for cuda-gdb",
@@ -18315,14 +18314,15 @@
   },
   {
     "name": "gajim",
-    "version": "2.6.0-1.1",
+    "version": "2.6.0-3",
     "origin": "artix-world",
-    "sha256": "a2e534f367263fc010dcd8f8bd91f2f78496e41982f4cf16ec3049e683fc84dd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gajim-2.6.0-1.1-any.pkg.tar.zst",
+    "sha256": "dbf57f5d49b71b451c8bdeb7d1614742840770c3a0e23d10867b15ba6672a639",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gajim-2.6.0-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gtk4",
       "gtksourceview5",
+      "gstreamer",
       "libadwaita",
       "python-cairo",
       "python-gobject",
@@ -18360,7 +18360,6 @@
       "geoclue: share current location",
       "gsound: Notification Sounds",
       "farstream: for video and audio calls",
-      "gstreamer: for video and audio calls",
       "gst-plugins-base: for video and audio calls",
       "gst-plugins-ugly: for video and audio calls",
       "gst-libav: for video and audio calls",
@@ -63595,10 +63594,10 @@
   },
   {
     "name": "ostra-cg",
-    "version": "1:1.31-2",
+    "version": "1:1.32-1",
     "origin": "artix-world",
-    "sha256": "2e7d21d8cf78a7c28cdbfd5cd324fdc438fc0c835159223e7c97a520935c3e75",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ostra-cg-1:1.31-2-x86_64.pkg.tar.zst",
+    "sha256": "967b9f8db599037ec7ad1a4f5ff271c6fd0d0b0fbd26d2f30ade537c2c78cce6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ostra-cg-1:1.32-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pahole",
@@ -63886,10 +63885,10 @@
   },
   {
     "name": "pahole",
-    "version": "1:1.31-2",
+    "version": "1:1.32-1",
     "origin": "artix-world",
-    "sha256": "8a6f364a454b900cf3c74d7839f23f2a8270abbee0f732fd41611103f36d2f23",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pahole-1:1.31-2-x86_64.pkg.tar.zst",
+    "sha256": "9835a9eb79161b79937cf4a62947bbcf55dc040ef608aa0d7bbd470b61446d51",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pahole-1:1.32-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdwarves.so=1-64",
       "libdwarves_emit.so=1-64",
