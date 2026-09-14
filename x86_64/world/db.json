@@ -2619,10 +2619,10 @@
   },
   {
     "name": "arrow",
-    "version": "25.0.1-5",
+    "version": "25.0.1-6",
     "origin": "artix-world",
-    "sha256": "35f639e753bc75873d60feab159325ca997bce2d691572886b0a7b0ec54206f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-25.0.1-5-x86_64.pkg.tar.zst",
+    "sha256": "1e72def456bae06bf2060ba414d5f08dee93ebfb55f1cf7b0ce29041fda1ff31",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-25.0.1-6-x86_64.pkg.tar.zst",
     "provides": [
       "parquet-cpp"
     ],
@@ -7619,10 +7619,10 @@
   },
   {
     "name": "cef",
-    "version": "151.3.24-1",
+    "version": "152.0.6-1",
     "origin": "artix-world",
-    "sha256": "bab575f13fd04f8586a9a7f29d250dd63da7ec59f4c3f6366152fe90915304ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cef-151.3.24-1-x86_64.pkg.tar.zst",
+    "sha256": "3a11adceafa8c42f8cd8b54c7f9483deffb569b4c20e69271d0c93d2c51657e2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cef-152.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -23644,21 +23644,21 @@
   },
   {
     "name": "grpc",
-    "version": "1.83.1-2",
+    "version": "1.84.0-1",
     "origin": "artix-world",
-    "sha256": "9aa8173f24139cb5ef5cae9d8cd527c4757c1015ff0b2b56e0e1dc1fd4de1cc7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-1.83.1-2-x86_64.pkg.tar.zst",
+    "sha256": "2272585f652b8377c277968f335384a075ba9acea51bb722e0b2d033cacef1b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-1.84.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libupb.so",
-      "libgrpcpp_channelz.so=1.83-64",
+      "libgrpcpp_channelz.so=1.84-64",
       "libgrpc_unsecure.so=56-64",
-      "libgrpc_plugin_support.so=1.83-64",
+      "libgrpc_plugin_support.so=1.84-64",
       "libgrpc.so=56-64",
-      "libgrpc++_unsecure.so=1.83-64",
-      "libgrpc++_reflection.so=1.83-64",
-      "libgrpc++_error_details.so=1.83-64",
-      "libgrpc++_alts.so=1.83-64",
-      "libgrpc++.so=1.83-64",
+      "libgrpc++_unsecure.so=1.84-64",
+      "libgrpc++_reflection.so=1.84-64",
+      "libgrpc++_error_details.so=1.84-64",
+      "libgrpc++_alts.so=1.84-64",
+      "libgrpc++.so=1.84-64",
       "libgpr.so=56-64",
       "libaddress_sorting.so=56-64"
     ],
@@ -23677,10 +23677,10 @@
   },
   {
     "name": "grpc-cli",
-    "version": "1.83.1-2",
+    "version": "1.84.0-1",
     "origin": "artix-world",
-    "sha256": "45078dc5facb41668e89b841a245d3ccf568c2cadf235149ab6f3ae8a6a40495",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-cli-1.83.1-2-x86_64.pkg.tar.zst",
+    "sha256": "cb2bf008d10ce7e44f28c559f0f71b740e2dbeb56155807357d5c4069e25b63f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-cli-1.84.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -69856,10 +69856,10 @@
   },
   {
     "name": "php-grpc",
-    "version": "1.83.1-2",
+    "version": "1.84.0-1",
     "origin": "artix-world",
-    "sha256": "560bab05ec6e8855579bf045e3856898c2b266e1e9b5c8afef7a1b9848e5f50d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-grpc-1.83.1-2-x86_64.pkg.tar.zst",
+    "sha256": "5bc1fa11fa7a920e5c91e02ac7690b81d22cb07ea87e5238b519c49f75a16afe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-grpc-1.84.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -70064,10 +70064,10 @@
   },
   {
     "name": "php-legacy-grpc",
-    "version": "1.83.1-2",
+    "version": "1.84.0-1",
     "origin": "artix-world",
-    "sha256": "3892b66714a32a3db6c2b701f6d483c74b6395c13e1fe30f79f0dbbd82cfa2c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-grpc-1.83.1-2-x86_64.pkg.tar.zst",
+    "sha256": "5ab773af12a83325c5303e5f41df39f698a8d61320a13f9723bbd93072042858",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-grpc-1.84.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -81617,10 +81617,10 @@
   },
   {
     "name": "python-grpcio",
-    "version": "1.83.1-2",
+    "version": "1.84.0-1",
     "origin": "artix-world",
-    "sha256": "f07e9ef36de80131bbb38496eb1d5f29de30c114b347905f4c45a830a737011e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-1.83.1-2-x86_64.pkg.tar.zst",
+    "sha256": "5f62d6c7ce58257df8dc866acf2c180b48f0af5bfb6db9e812b1c63d415a3c0b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-1.84.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -81640,10 +81640,10 @@
   },
   {
     "name": "python-grpcio-tools",
-    "version": "1.83.1-2",
+    "version": "1.84.0-1",
     "origin": "artix-world",
-    "sha256": "634167ba96404d1831b9dfaef8467650c0f098fd05f04eae1a41a7fd3d93fde6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-tools-1.83.1-2-x86_64.pkg.tar.zst",
+    "sha256": "abbdd7130869d74d10c114912919ba5f4cc7d0e16b82e3dfbf161db61a1d50a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-tools-1.84.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -114116,10 +114116,10 @@
   },
   {
     "name": "syslog-ng",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "c49aefeeb25a256619816674cd3301176cd980ee3eaf841f7fc5b49fff756731",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "e1155eb3e0bc8fe0ed2eff17c34c91f4d1570f981742776c305367c5404aaffc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -114148,10 +114148,10 @@
   },
   {
     "name": "syslog-ng-amqp",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "b9206b43391567aa41d811d05b07d2e6d1cf8a83b2ba814adf20ec5a1db4e601",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-amqp-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "87bd3f4f154971d19447ce5bdd6b7d614c8610cc0cd0fb50d626770baeefe66b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-amqp-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114182,10 +114182,10 @@
   },
   {
     "name": "syslog-ng-geoip2",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "14fe796259d842902c89d62c90b5c523a0d23bce2b95861871a502d720cb9f2e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-geoip2-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "e7588661b7e112fbab85644c6a87b35875d6d71b17d30f8ccefc24c6e494cc6e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-geoip2-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114198,10 +114198,10 @@
   },
   {
     "name": "syslog-ng-kafka",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "45f68484cf67bfc9b682a71ef6b0b7f4420ce42ed55463bd24105e02a283d841",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-kafka-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "4612e506e51b4cbdfe31e44d4e0aa824c26530bcb8bb6932515b1075cda4defd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-kafka-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114214,10 +114214,10 @@
   },
   {
     "name": "syslog-ng-mongodb",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "fe7cfa3ae363fcd742d0a11e8abaa37f43548abbbde4449b2f446bf14a3fc710",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-mongodb-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "3f4b4dbe28b98284155866286cc850c97032fcf6bbcd039938aca582964d670f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-mongodb-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114248,10 +114248,10 @@
   },
   {
     "name": "syslog-ng-python",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "16d0bf8f638978367c8aa38be103ec00f7cd2f7581cbc521ee054bfd629825b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-python-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "63408afbafa4b978eaf0a71a9e99ce3b04ce99427438f5ed977276b9711212b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-python-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114270,10 +114270,10 @@
   },
   {
     "name": "syslog-ng-redis",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "ea87c7d060d7a3fa4df6bab8e0b35785c99e7de8c3a9c9cbacf5b19a13c0207a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-redis-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "7e82179f689f52e6700ee05d3dc8e82381e8d62f8c741efd02b7aeef9f5a1509",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-redis-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114322,10 +114322,10 @@
   },
   {
     "name": "syslog-ng-smtp",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "26272e2d1f784c687cabf6b384e2cdc68823eaa7470dd7b0ae5e670319be8647",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-smtp-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "d05ce7dbf39ad454f07657d5fdc27ca62ef0c693614da3a1598f43be9214eb09",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-smtp-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114338,10 +114338,10 @@
   },
   {
     "name": "syslog-ng-snmp",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "85b37182733ee463c72a3d5bdbc896f8ab57677efe20d1e5a23b1818af2f2986",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-snmp-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "8b90a5204657d7d082f1973868901db225c629813b45723dc7129da4a04fcb87",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-snmp-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -114354,10 +114354,10 @@
   },
   {
     "name": "syslog-ng-sql",
-    "version": "4.12.0-1.1",
+    "version": "4.12.0-2",
     "origin": "artix-world",
-    "sha256": "d5844ac2deb911a017955102ef57c5e8af0e7103254669e994840dde823610fc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-sql-4.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "9d3a56bd41169885b1283bf5016b42d703a5ad83cdce9aca4ddd8016e67167d3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/syslog-ng-sql-4.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
