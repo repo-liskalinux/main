@@ -216,10 +216,10 @@
   },
   {
     "name": "anki",
-    "version": "26.08.1-1",
+    "version": "26.09-1",
     "origin": "artix-galaxy",
-    "sha256": "13d4fed8bdb555c76a04a6aa0a45f58efeca7f904d79353c6d813fe660491058",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/anki-26.08.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c4757669a36804188d418886f06706b687a0873969c0a361b08fb1183d4a2792",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/anki-26.09-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10546,10 +10546,10 @@
   },
   {
     "name": "konform-browser",
-    "version": "1:140.15.0.100-1",
+    "version": "1:140.16.0.100-1",
     "origin": "artix-galaxy",
-    "sha256": "332341c832db492c7d295bb8b7e17dec6cf64f8bea1a2ce26be335f1b3796b38",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:140.15.0.100-1-x86_64.pkg.tar.zst",
+    "sha256": "6feed5a31c982b3ea638021b045ab724dfe81dea5caf87f530783c6154f850ce",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:140.16.0.100-1-x86_64.pkg.tar.zst",
     "provides": [
       "konform-browser"
     ],
@@ -22833,6 +22833,25 @@
     "conflicts": [
       "profanity"
     ]
+  },
+  {
+    "name": "protontricks",
+    "version": "1.14.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "b8fbb9f005e20170d95433748ea9f175ac4a6279fcbbb0526f8b5f52cb7a07a2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/protontricks-1.14.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "python",
+      "python-pillow",
+      "python-vdf",
+      "winetricks"
+    ],
+    "optdepends": [
+      "yad: GUI for game selection",
+      "zenity: GUI for winetricks"
+    ],
+    "conflicts": []
   },
   {
     "name": "psi-plus",
