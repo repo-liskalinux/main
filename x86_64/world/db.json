@@ -338,10 +338,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-387",
+    "version": "1.2.2-389",
     "origin": "artix-world",
-    "sha256": "23edd0015f5d18efd6d4c57f7cbff6585e05b4c23b8ccb6141f4467d4f8527ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-387-x86_64.pkg.tar.zst",
+    "sha256": "faf68d952edfce5c31f03355cc278a3120dde87f9b2cbf6846f164a52b7e0d14",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-389-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -18314,10 +18314,10 @@
   },
   {
     "name": "gajim",
-    "version": "2.6.0-3",
+    "version": "2.6.0-4",
     "origin": "artix-world",
-    "sha256": "dbf57f5d49b71b451c8bdeb7d1614742840770c3a0e23d10867b15ba6672a639",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gajim-2.6.0-3-any.pkg.tar.zst",
+    "sha256": "8737632b80c941c95eaa2cc7cf76f5c79c4be38ce2c25cad12294ef5578065e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gajim-2.6.0-4-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gtk4",
@@ -18352,7 +18352,7 @@
     ],
     "optdepends": [
       "python-dbus: to have gajim-remote working",
-      "python-sentry_sdk: for Sentry error reporting to dev.gajim.org (users decide whether to send reports or not)",
+      "python-sentry_sdk: for Sentry error reporting (users decide whether to send reports or not)",
       "libspelling: for spell checking support",
       "libsecret: for GNOME Keyring or KDE support as password storage",
       "gupnp-igd: for better NAT traversing",
@@ -20430,10 +20430,10 @@
   },
   {
     "name": "glaze",
-    "version": "8.3.0-1",
+    "version": "8.4.0-1",
     "origin": "artix-world",
-    "sha256": "a9f267265bafe22be383c02bb6de879a619110a8d209283be0c677d398581fbb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glaze-8.3.0-1-any.pkg.tar.zst",
+    "sha256": "d81c040f9a3051df32cd429d46a4b9397df37384e988c82b9b201f7f0ed1ef13",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glaze-8.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -68475,15 +68475,15 @@
   },
   {
     "name": "perl-sub-exporter",
-    "version": "0.991-4",
+    "version": "0.992-1",
     "origin": "artix-world",
-    "sha256": "7e6534455e267524065b196b2fafed846f2eee86de551e0b2bac48f3d14e8e0e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-sub-exporter-0.991-4-any.pkg.tar.zst",
+    "sha256": "03e12844d647e20995064d847b7e1de962e75f48c4a487d39452f4ca1cd5d0cb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-sub-exporter-0.992-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
       "perl-data-optlist",
-      "perl-params-util",
+      "perl-params-someutil",
       "perl-sub-install"
     ],
     "optdepends": [],
@@ -110458,19 +110458,15 @@
   },
   {
     "name": "sequoia-sq",
-    "version": "1.4.0-2",
+    "version": "1.4.1-1",
     "origin": "artix-world",
-    "sha256": "e324d7fd4ca2ba77d910487c4c5adf78ebb2a30c98edd8b5496a6abe8da1f441",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sequoia-sq-1.4.0-2-x86_64.pkg.tar.zst",
+    "sha256": "8154f4f9d56e5a41889ed12d764201f39b47e4e5c1d6d09acac7e418301c3396",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sequoia-sq-1.4.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "gmp",
       "libgcc",
       "sqlite",
-      "nettle3",
-      "libnettle.so=8-64",
-      "libhogweed.so=6-64",
       "openssl",
       "libcrypto.so=3-64",
       "libssl.so=3-64"

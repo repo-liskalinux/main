@@ -16,10 +16,10 @@
   },
   {
     "name": "amd-ucode",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "2916940c337825b97733f89a422ebe904f9ac35666764972ea7b6a7f1340ea14",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/amd-ucode-20260910-1-any.pkg.tar.zst",
+    "sha256": "0c0deb2e7faf688f2108484ea1074a1dd80c9270d4984192e28ba8431f446838",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/amd-ucode-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -4350,10 +4350,10 @@
   },
   {
     "name": "linux-firmware",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "81f47ca905d02e229fe77779af14d3c8656e6b16fba6b71c32920c2ef2470231",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-20260910-1-any.pkg.tar.zst",
+    "sha256": "7fff78c9f3349ad05b2428f010d8c159d969ef093622cbd4f47ec52c96e0beae",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-amd",
@@ -4381,10 +4381,10 @@
   },
   {
     "name": "linux-firmware-amd",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "3e8e3f82b67351f9d14e849f4cf19b8e13c6a89ca192c2866785e69aa33b8656",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-amd-20260910-1-any.pkg.tar.zst",
+    "sha256": "86420e0306a7e0a0863b8da489ac076c49afebdc85ca567c7e6646e2ef330dfe",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-amd-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4394,10 +4394,10 @@
   },
   {
     "name": "linux-firmware-amdgpu",
-    "version": "20260810-3",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "dda5418002355a7e4894cebeffad74e90beeced79ccb2510e04d53b2561fa19c",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-amdgpu-20260810-3-any.pkg.tar.zst",
+    "sha256": "aa38a57d1b47af9d97393cf5197d9d5cf04940d2be46df0fe134cc65a3739095",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-amdgpu-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4407,10 +4407,10 @@
   },
   {
     "name": "linux-firmware-atheros",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "5eb5f0fb4864343e23478c6a7949eb7b3ab370667fb465bac4c6794fd87768cc",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-atheros-20260910-1-any.pkg.tar.zst",
+    "sha256": "649879f6bc9d020f57853ac787697b15bedf756b12e0566cf8f453359b7eaf70",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-atheros-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4433,10 +4433,10 @@
   },
   {
     "name": "linux-firmware-broadcom",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "886d4cf182f2853f41f17ac159a42da9905675b6a159c78e70b49f835d3aa198",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-broadcom-20260910-1-any.pkg.tar.zst",
+    "sha256": "8376a0ed76c2f3e5b8dc86b7128e3acfe24bc752e2f2bb9c29a567a69edfba06",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-broadcom-20260910-2-any.pkg.tar.zst",
     "provides": [
       "linux-firmware-bnx2x"
     ],
@@ -4450,10 +4450,10 @@
   },
   {
     "name": "linux-firmware-cirrus",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "2afeae2f346ce32aada097e3150dfca805cf29afb55807ea229845c67079bc31",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-cirrus-20260910-1-any.pkg.tar.zst",
+    "sha256": "918619ccabe895d7d2621f4a197d59fab27b7ac341581d45c38ce7feb8301c6b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-cirrus-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4463,10 +4463,10 @@
   },
   {
     "name": "linux-firmware-intel",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "dea6006c42cdc135dcfeb0de321615074ce06601b90a014f3699736079a54690",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-intel-20260910-1-any.pkg.tar.zst",
+    "sha256": "9b4eb1462037f7bec1eec0fe3c8cacad88270542207ed66a65747f7e44bba269",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-intel-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4476,10 +4476,10 @@
   },
   {
     "name": "linux-firmware-liquidio",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "d6601a93ff7bb580b871c4856e63469eac11e7c2f2bbf8de6a4fa9af51e99d2a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-liquidio-20260910-1-any.pkg.tar.zst",
+    "sha256": "5cc9ca3a6de70d6488bb58e8cabaa3c78fbbe18d1fd7616df9621c4045ee2832",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-liquidio-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4489,10 +4489,10 @@
   },
   {
     "name": "linux-firmware-marvell",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "0d9ee8e8fc7435e1aa24e1bf4db02f2a06352c423cb8cc9c15c5b0d72068df1e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-marvell-20260910-1-any.pkg.tar.zst",
+    "sha256": "4f297d84e00ce06f5dca63a8755cdf1fb06f891fd7018e1769c36f3ba0392a67",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-marvell-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4502,10 +4502,10 @@
   },
   {
     "name": "linux-firmware-mediatek",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "602dfa18dc63c36a748483e851eab861b4d7075d31cf1e6a6197ae21edbbbd48",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-mediatek-20260910-1-any.pkg.tar.zst",
+    "sha256": "9ce30fee0597f5f340caf1d67ae2bbf4466923af0520a215a75fa574c6f45b74",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-mediatek-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4515,10 +4515,10 @@
   },
   {
     "name": "linux-firmware-mellanox",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "2e8572f65321bec23093ebfae1206bea8a18ba4caf75d6a6ba6a8ec33fc8a1bb",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-mellanox-20260910-1-any.pkg.tar.zst",
+    "sha256": "418918e7cb923b9f5694397978c099bfdc7cd511777e15ad24c00571c717b6c7",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-mellanox-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4528,10 +4528,10 @@
   },
   {
     "name": "linux-firmware-nfp",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "ab6f9f5b11cca661d1cab436354c94d510f80b39e310e42c147f33561cd71aa8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-nfp-20260910-1-any.pkg.tar.zst",
+    "sha256": "97aa571856e246210e2544c10b9e153d87dca194bdb8fb27832825f367db51bf",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-nfp-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4541,10 +4541,10 @@
   },
   {
     "name": "linux-firmware-nvidia",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "23169525a6a39ea6456885db4fc14e634ebfacbf4e6e5d29dd0fea0c57feff55",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-nvidia-20260910-1-any.pkg.tar.zst",
+    "sha256": "6fb466e4495546701d4984e4b6de292fdd33092f481616f2692ea1f153c9cc99",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-nvidia-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4554,10 +4554,10 @@
   },
   {
     "name": "linux-firmware-other",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "c33d21384a92a817e13e2ba5d44a6cba47daa3bd102a91120a5be7e31ddfa5fb",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-other-20260910-1-any.pkg.tar.zst",
+    "sha256": "310573279646118341c81eded280dfa83392a7efb12a4282462ae9c3207420b7",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-other-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -4565,10 +4565,10 @@
   },
   {
     "name": "linux-firmware-qcom",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "2205f1bba4d918cdfac9e4f477903d7b1cc186993ff42f5155d6b62f8ce3a5e8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-qcom-20260910-1-any.pkg.tar.zst",
+    "sha256": "438ec32b2212ab681a1c8a9d31565bbbb352147c0b29342d091ec04f6825c763",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-qcom-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-atheros",
@@ -4579,10 +4579,10 @@
   },
   {
     "name": "linux-firmware-qlogic",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "4395787750345b87d47569f7c57d15bc6f67e48f3a9d6aa61992b6e77c8c92ca",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-qlogic-20260910-1-any.pkg.tar.zst",
+    "sha256": "544205c4afd89596220e214f7cdd2f61856a6bc0c9e55a1cd68b68b1f0ffa683",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-qlogic-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4592,10 +4592,10 @@
   },
   {
     "name": "linux-firmware-radeon",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "1e90db0e96ad876dd7b09a86bf055305aaa64cd146e1c29b918e96ea37ed1817",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-radeon-20260910-1-any.pkg.tar.zst",
+    "sha256": "dd49fa7932b739024edf4f8f2196dd6e48821b137d63ad84238bebeb3875b0cd",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-radeon-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4605,10 +4605,10 @@
   },
   {
     "name": "linux-firmware-realtek",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "d5cc1adfceb12180bb990a33a86bd2f505bfbffa964947ea3aff5806366e8f6d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-realtek-20260910-1-any.pkg.tar.zst",
+    "sha256": "bff6b43666808b7c7a3044ae51b3f5376fcb26a17b366e5a2aea1ce1468970ae",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-realtek-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4618,10 +4618,10 @@
   },
   {
     "name": "linux-firmware-ti",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "afeaae1445b17f9b42e67f68a2386a4eb0cdd80c80c18659b6b93e191040d960",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-ti-20260910-1-any.pkg.tar.zst",
+    "sha256": "ed515c15b20c844aec6a8d53aeb8aa00b26f3bff10013c58bedd6bade7308e69",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-ti-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-firmware-whence"
@@ -4631,10 +4631,10 @@
   },
   {
     "name": "linux-firmware-whence",
-    "version": "20260910-1",
+    "version": "20260910-2",
     "origin": "artix-system",
-    "sha256": "e30b806f5fe13dba7c7ea5c8dc7fffdd948d024c4e1824fa32d9fbf39631409d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-whence-20260910-1-any.pkg.tar.zst",
+    "sha256": "225ed6bd58bd2b050bce6287ea8e10b8ee0fbcb6c146c69a36a1d6ba7d63355e",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/linux-firmware-whence-20260910-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
