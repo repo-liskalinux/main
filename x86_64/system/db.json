@@ -3789,12 +3789,13 @@
   },
   {
     "name": "libnftnl",
-    "version": "1.3.1-1",
+    "version": "1.3.2-1",
     "origin": "artix-system",
-    "sha256": "4ebeae33d94d632beef969b6da7a3cf31855cf4e9eff2fd20f0dc89f98e528b5",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libnftnl-1.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0a8580b1a9f923322da1bd19a7a5236401c7f94cd25201efd05470b674fdc1e8",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libnftnl-1.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "libmnl"
     ],
     "optdepends": [],
@@ -3925,10 +3926,10 @@
   },
   {
     "name": "libpcap",
-    "version": "1.10.6-1",
+    "version": "1.11.0-1",
     "origin": "artix-system",
-    "sha256": "0dc753e69fa641cde03518f794d69dcf9fae565ce03e79bddad7b9fbae13587a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libpcap-1.10.6-1-x86_64.pkg.tar.zst",
+    "sha256": "efe408086d285e97bfa212d8c0911f34049f522becac7efd49b2eae7b0c79f5c",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libpcap-1.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpcap.so=1-64"
     ],
@@ -4090,10 +4091,10 @@
   },
   {
     "name": "libtirpc",
-    "version": "1.3.7-1",
+    "version": "1.3.8-1",
     "origin": "artix-system",
-    "sha256": "730ddf46fa0e32b8fe878804c22bb46cfa9e06d621a35e6ddfe75ce08d116e77",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libtirpc-1.3.7-1-x86_64.pkg.tar.zst",
+    "sha256": "c7a7e317f6f693432497ad967f55416e7e30672ab40741b961909983c41c0bb6",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libtirpc-1.3.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "krb5",

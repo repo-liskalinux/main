@@ -16380,10 +16380,10 @@
   },
   {
     "name": "librewolf",
-    "version": "155.0.1_1-1",
+    "version": "156.0.0_1-1",
     "origin": "artix-galaxy",
-    "sha256": "a745a53917d1f9ac78f9921bb438123c9ee04005ea3e6fcc99ca7528d6a3cf1f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-155.0.1_1-1-x86_64.pkg.tar.zst",
+    "sha256": "96b29ef7e28c2c31a989feb372cddefbff8c2b8ed85c3c2317a3a5fded107868",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-156.0.0_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -20447,10 +20447,10 @@
   },
   {
     "name": "mpv-shim-default-shaders",
-    "version": "2.1.0-2",
+    "version": "3.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "2c60924339d0d2504a6fbf0cc446542a8628a77477dde5424fa7826a436a91ab",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpv-shim-default-shaders-2.1.0-2-any.pkg.tar.zst",
+    "sha256": "746a4dfdd967b5987aa7eff5eab99a9a9f3d2b265b5c14f889cb8d761a6ae3a9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpv-shim-default-shaders-3.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -29407,18 +29407,20 @@
   },
   {
     "name": "wcm",
-    "version": "0.10.0-4",
+    "version": "0.11.0-1",
     "origin": "artix-galaxy",
-    "sha256": "731c4eda6f0e2b3e2daac83dc91fbc59f3c92dcef97ce878608121bddc3c83d1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/wcm-0.10.0-4-x86_64.pkg.tar.zst",
+    "sha256": "89b87542f0090b8bdda257d09f14b1a9d3f1859dc10e6579f29f4751f3c291e5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/wcm-0.11.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "atkmm",
+      "fmt",
       "glib2",
       "glibc",
       "glibmm",
       "gtk3",
       "gtkmm3",
+      "hicolor-icon-theme",
       "libevdev",
       "libgcc",
       "libsigc++",
@@ -29426,7 +29428,7 @@
       "libxkbcommon",
       "libxml2",
       "wayland",
-      "wf-config>=0.10.0"
+      "wf-config>=0.11.0"
     ],
     "optdepends": [
       "wdisplays: Display configuration tool"
@@ -31197,10 +31199,10 @@
   },
   {
     "name": "xwayland-satellite",
-    "version": "0.8.1-2",
+    "version": "0.8.2-1",
     "origin": "artix-galaxy",
-    "sha256": "dfad08be2f259aa6b16af377c2146a5ef2281704b6205db3e202c470ad2a172d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xwayland-satellite-0.8.1-2-x86_64.pkg.tar.zst",
+    "sha256": "7f712e8047a5c1260486bbf94adee0db5ec7bff1de8b9e58bea205deb7d649ff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xwayland-satellite-0.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
