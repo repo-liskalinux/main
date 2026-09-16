@@ -8352,10 +8352,10 @@
   },
   {
     "name": "cloc",
-    "version": "2.08-1",
+    "version": "2.10-1",
     "origin": "artix-world",
-    "sha256": "342e54eaede57916cfa2120c603425de8035df4d9900949909f16f9784b33067",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cloc-2.08-1-any.pkg.tar.zst",
+    "sha256": "f8c980e4a6f28afaebc85e03f9e7e42716552bbbe9be93fdbeea945c5fe2cbe7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cloc-2.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -14243,10 +14243,10 @@
   },
   {
     "name": "erlang",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "cad9933e3af6a94cd3ab74f018e4acfc47bd056b222587dd088e15747ff11691",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "926e38ab85e0a20446aa994fdce20b9931dd3d949ab5cd4a0e368d0b75cbe8fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-asn1",
@@ -14289,10 +14289,10 @@
   },
   {
     "name": "erlang-asn1",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "4b5fb21ad80b5933c24f8029d9ab6e1ae380220e2175a5fc892e74af1db9143d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-asn1-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f546aee6b5a18276180e59314d20042456752523cc9816da39102ae7fbd53bc3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-asn1-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14305,10 +14305,10 @@
   },
   {
     "name": "erlang-common_test",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "7cf46b4d629075ec776ca6dec452683861057b009b3474a617429bb7874a8934",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-common_test-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4bfb896e587961537aea9081635c280202885471ce44c02de59efa8cef85524f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-common_test-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14332,10 +14332,10 @@
   },
   {
     "name": "erlang-core",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "f82db0073fe2f07fe57fd1319d798bebd4620ec75c72b44cc01cb106b8eb4486",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-core-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "563fe7fead63cb6fb54c88c62eadaf53ef0e80eb5213950e9ca716c0f931c3b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-core-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "erlang-compiler",
       "erlang-crypto",
@@ -14359,10 +14359,10 @@
   },
   {
     "name": "erlang-debugger",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "1ba4f0ef84440dfbe6c422e7a3cb598b8bdf822b11eba81153c920ae5b5c4c25",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-debugger-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "de852cdd2c65168f520ed0935829ce622d508d34082d73664de1aea89efdfedb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-debugger-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14375,10 +14375,10 @@
   },
   {
     "name": "erlang-dialyzer",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "0fce8e6139bcd5cf011fb9edab4e09e74b71df2bd3241df52e378b57d3aaead4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-dialyzer-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ba7ecf6e075a747d523dcf4f232e50633bc6535bf2f1c782d7735a6e3627df5a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-dialyzer-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14392,10 +14392,10 @@
   },
   {
     "name": "erlang-diameter",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "4e4717f056a4239e94c600b962b42ed68f8209e7a685a7c50b0a964a31b386cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-diameter-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "cf624ac0f7a2997a0f2f00d273455806ce85596ae42b37d65bded07b082db39e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-diameter-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14411,10 +14411,10 @@
   },
   {
     "name": "erlang-edoc",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "a43278d01cf49b8da61250ec38f9e13e141880f2997bf92736fdd8cb7db77dc9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-edoc-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "950bcf11cd125ac83a40bc6e53e4fe271adcd25be5a33ced8a1cf0a62738d11d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-edoc-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14429,10 +14429,10 @@
   },
   {
     "name": "erlang-eldap",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "d513b41033b02fd32fb788c6b6049a508cc14b96eed3b077dfdcf414a16e5024",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-eldap-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f2efdc530c91a52997db2dba4cced4aa94e1392226aecc4908462b80b04c6fc8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-eldap-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-asn1",
@@ -14446,10 +14446,10 @@
   },
   {
     "name": "erlang-erl_interface",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "cf3fae4db7ff7dfd00055a89fd8c9327f612d05b07b62dde2aca2fb84e8cc46c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-erl_interface-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9e9d23c0746c60044119d7251ab3e2ab4a83addc5f56e17cee88030095fadad5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-erl_interface-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14462,10 +14462,10 @@
   },
   {
     "name": "erlang-et",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "b5d52ce6bc4b9b185d79a6b71060c32dc45e5e9579164a6d130ebf1e7daaf09f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-et-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "16ce2a47b480c1142529196991c780cb4699d2f81add316979824ee51c70c7b3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-et-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14479,10 +14479,10 @@
   },
   {
     "name": "erlang-eunit",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "4e2f96758698cce8a6ac79d446d0346308faa89a5b2a6fb5f5f4af6721f8114a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-eunit-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a9f981de1530c25d575eb961b80ee63c470042db5a918948420e834aa124e86e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-eunit-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -14494,10 +14494,10 @@
   },
   {
     "name": "erlang-ftp",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "39aba7bee3cfdd4525921da0292fa43acaae498a7447d702fca804a321a0eb37",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-ftp-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e77c7f1bc81be64e3f3e15935773cc96701350fa78349ecfeaf40a5192156482",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-ftp-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -14509,10 +14509,10 @@
   },
   {
     "name": "erlang-headless",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "f2e9747e7c51b930204cd7c3ad564fcb570d0b38451cda35ee02061ce79d10b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-headless-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e623e063d3054e983d74708f70f59e3fbb7019354e61e37d883054748660a14e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-headless-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-asn1",
@@ -14550,10 +14550,10 @@
   },
   {
     "name": "erlang-inets",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "bf9fc41fb2e8ba88297a4055cb36c37e22a01bee41a009658caccdf9a27405ac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-inets-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1c711137280bb1ad71cd27d72e8a7ab97683444ea63b64c7e6401de67c421543",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-inets-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14568,10 +14568,10 @@
   },
   {
     "name": "erlang-jinterface",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "53352922604e5b68b52b063c0b761a51e1999760aa55ad41af30aca6d0596b92",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-jinterface-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c4c1eed41e2636bfc9d7d286f109eaa8e3ea21529c7b9bd038ceb3c69a3a9797",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-jinterface-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14600,10 +14600,10 @@
   },
   {
     "name": "erlang-megaco",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "b066f854de23c106418630d8a7b0bcc2fbb7aae21f9aed2ffba9f5f1c039a5fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-megaco-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d5513d0d0cc4abf48e24bbf2dbea9ce3ccf877d85209840c811261269210f764",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-megaco-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-asn1",
@@ -14620,10 +14620,10 @@
   },
   {
     "name": "erlang-mnesia",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "08edadb5595ab7cd98dfeee40ea36c307cf57cd87b723f78be2b42149b523318",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-mnesia-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "90254c852aac2cd2acad53fdb06f9ed4358f4300556b1fd3b0c3325d6d956824",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-mnesia-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -14635,10 +14635,10 @@
   },
   {
     "name": "erlang-observer",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "1ff31c90f3c4b20f36574bef24d629fe01977227e1506ffd2bf418990c184527",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-observer-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f6e303d6d2fd73c64828909dc3b931818de76b96c2ec02a69e970b16b7669075",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-observer-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14654,10 +14654,10 @@
   },
   {
     "name": "erlang-odbc",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "4b21662496587096b292571b9e00a93ef85f0f4da047b10c1a42524765db572c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-odbc-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ff99fab1a4b91da06903735bd52a2d3fabafac756e5871529e78cef719da6352",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-odbc-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14671,10 +14671,10 @@
   },
   {
     "name": "erlang-os_mon",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "6ce32975ede687c945820c827cad2e6fef34be0a1f2ec8a35578e8df5c0858ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-os_mon-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ee521a334cb19899752e7da4720b2a1122f19868f673c1c193d9125577365728",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-os_mon-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14690,10 +14690,10 @@
   },
   {
     "name": "erlang-parsetools",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "c98b2003d6bb2ddc477f4e67a92b8f6c4e15c51d1ffa30536911c1883e514d2f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-parsetools-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ee8dd3371aa79dcc858ee6e09b77e08b7419b36ff276f7b7eb1e907595828540",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-parsetools-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -14705,10 +14705,10 @@
   },
   {
     "name": "erlang-public_key",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "a2f82cd614324f80f135551b9ef3e2567d73a27cb19988482bcfe82d7581ae03",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-public_key-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f6e9d3f9d675c6ba33f03f749e64e34a1d8b1c9fd9fc57cadef78f4ac4c05d0e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-public_key-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-asn1",
@@ -14721,10 +14721,10 @@
   },
   {
     "name": "erlang-reltool",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "7f4ecd49761d5b8786e0ed0c41e41c14b951e21f7f93ca4d4e552c5a2ef0f1a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-reltool-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a16257f064f926a721eab4628b9e38c986bb3247fac38b9fe58cb95173a1635a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-reltool-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14739,10 +14739,10 @@
   },
   {
     "name": "erlang-runtime_tools",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "5f64da84aa9ab7c4d2546cfadd0096c486a3fe87af1c83191542567293d9b83e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-runtime_tools-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "be0f737f04b2db473a54c9ba68d0d5cdc16c197bec04dce2259304b85a510b38",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-runtime_tools-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14774,10 +14774,10 @@
   },
   {
     "name": "erlang-sasl",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "d0f1d356b73ba5578539bc5dbdbb3f3da5524325d87f8c4872365b09869aad1a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-sasl-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "285dcb1fed8d0fa43689659bed696c75962db0d6288ba11d2361d961a088d85f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-sasl-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14790,10 +14790,10 @@
   },
   {
     "name": "erlang-snmp",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "05aa352e8b5737b5e697e88fe56c2f1aa17fb5821f01a4a7ecfd459451497d51",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-snmp-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e11bbf45428ace8d5f5862e465fb30d906dea3615a90b7f8a6094f1e1ca48593",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-snmp-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14807,10 +14807,10 @@
   },
   {
     "name": "erlang-ssh",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "3004a4f17f4be6339c7e69bce8cbd7c157b6b944ec7a3bebeea06ceca3298a17",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-ssh-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3c1e23755822ac91e1ce35cf60379ce9221d41d23885b76a6c3d19768eec2001",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-ssh-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14823,10 +14823,10 @@
   },
   {
     "name": "erlang-ssl",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "1ae8f395141ae8a6ae1c91de9a10bfa799ff5d530f935ab46b382d3cc4949b8f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-ssl-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c1ced182a5edc8bbdcca228025dc6b80237d365a8fba3eeab43d4dd99edd6b88",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-ssl-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14840,10 +14840,10 @@
   },
   {
     "name": "erlang-syntax_tools",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "72931d93b455cd16aa316557390cbdab8e91486981ec4865ec098285b8756b6a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-syntax_tools-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3975e42f997f336fec0003af298733b37ac9f3c3b1f6a1acf7ead0585f6f92df",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-syntax_tools-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -14855,10 +14855,10 @@
   },
   {
     "name": "erlang-tftp",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "ecc0e2d64c93f68b57676083e7afd73ff510fc455d6dc305a5f6587cbbfba0d0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-tftp-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "973ac35c2eb3c6b24673fc1cca859d5c44313fa8a4379f23960f5a2943c25797",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-tftp-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -14870,10 +14870,10 @@
   },
   {
     "name": "erlang-tools",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "92c4ad0dc2eda9e51a18a81cb7243c730a35c10930c6e024d4517af2a8f76cf3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-tools-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d78c2447043d71d4e54192c1415363f02cbf448ee50c7d9543a8135604bd8bb2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-tools-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14901,10 +14901,10 @@
   },
   {
     "name": "erlang-wx",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "4ff4e41e635b248ed00ecdea3372b40a68b1956d693fc2db431572cb25c1d630",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-wx-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e6476070f89ca38451a91efecd2b4a8946543ea09ae6741d5ebd73c5a6651f18",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-wx-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core",
@@ -14925,10 +14925,10 @@
   },
   {
     "name": "erlang-xmerl",
-    "version": "29.0.1-1",
+    "version": "29.0.6-1",
     "origin": "artix-world",
-    "sha256": "215dded825b3ee2a7a196ece4ceaa5584e0a3f4fe6ee0964134f6d8eff756d88",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-xmerl-29.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1f0b9c83342850966f9d570890b99b4d3eca385e00ce7c3f15f5939081afa1dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/erlang-xmerl-29.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "erlang-core"
@@ -17002,10 +17002,10 @@
   },
   {
     "name": "flatpak-builder",
-    "version": "1.4.11-1",
+    "version": "1.4.12-1",
     "origin": "artix-world",
-    "sha256": "7b7fbacecda23d6a394b77cda07e1881747a7c19d7b86505e85610895f158b8c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-builder-1.4.11-1-x86_64.pkg.tar.zst",
+    "sha256": "75418b345cd2ff4bc398e17d96626578fbd0c2f6d111bef36e6828b74ede0dce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-builder-1.4.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "7zip",
@@ -22167,10 +22167,10 @@
   },
   {
     "name": "gnome-shell",
-    "version": "1:50.4-1",
+    "version": "1:50.5-1",
     "origin": "artix-world",
-    "sha256": "6e5bab3cb451ea793f42bf114c9d5d941e031f042235ec38426bfb6741ee5524",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-1:50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "605304820f36a4b599cdba0d9991b25dd4847eacf0adb8ba84b2cd4cef660841",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-1:50.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -25646,10 +25646,10 @@
   },
   {
     "name": "gthumb",
-    "version": "3.12.10-4",
+    "version": "3.12.11-1",
     "origin": "artix-world",
-    "sha256": "2eb2df86f8e13c74923c259e37f2f94774ea42fd46f798733ac4834d1f8b0214",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gthumb-3.12.10-4-x86_64.pkg.tar.zst",
+    "sha256": "ebc5b80ce70cc23c943e7721aa7806402c3ac5f1ec5f475c252c9a152a959984",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gthumb-3.12.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -31211,10 +31211,10 @@
   },
   {
     "name": "java-commons-logging",
-    "version": "1.3.6-1",
+    "version": "1.4.0-1",
     "origin": "artix-world",
-    "sha256": "903796bccf7cdc263e5078e6a1fec3b3f3ecc5462cd2587af07cbe5b012965b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/java-commons-logging-1.3.6-1-any.pkg.tar.zst",
+    "sha256": "1379dcb1412334363d4394b76afb11aa176c582c6c100ae5da27d354722c8726",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/java-commons-logging-1.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime"
@@ -32317,10 +32317,10 @@
   },
   {
     "name": "js140",
-    "version": "140.15.0-1",
+    "version": "140.16.0-1",
     "origin": "artix-world",
-    "sha256": "582e9f8de378024b666c229701471517688b267fe61f8ff3627f840a5e43c05e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/js140-140.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e7d6681985350c9805010c13d601fa724bd7fda1e2baeb28932d65839145e697",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/js140-140.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -32659,10 +32659,10 @@
   },
   {
     "name": "jupyter-server",
-    "version": "2.21.0-2",
+    "version": "2.21.1-1",
     "origin": "artix-world",
-    "sha256": "98668d0be93771c7921343a9feeb82e59961ae31091fabf83d891422b5df58b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jupyter-server-2.21.0-2-any.pkg.tar.zst",
+    "sha256": "58b17f9a79a718791bd26897d8108b15b7ac1108cc7d9e859fb3abf8303f6fe7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jupyter-server-2.21.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jupyter-nbconvert",
@@ -58242,10 +58242,10 @@
   },
   {
     "name": "mutter",
-    "version": "50.4-1",
+    "version": "50.5-1",
     "origin": "artix-world",
-    "sha256": "4e2df5429fa25c1039c9aaf5029e0004458bdaef91b8e76a0c0a9ceeecce88a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "1c5b3c5aa4e5a9608c6956b2d8ff3b9e63427c36d75439b305848244a9e39063",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-50.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmutter-18.so=0-64"
     ],
@@ -58315,10 +58315,10 @@
   },
   {
     "name": "mutter-devkit",
-    "version": "50.4-1",
+    "version": "50.5-1",
     "origin": "artix-world",
-    "sha256": "5f6ce75d9b85865ab1e1fe75ec4b028238c73d15a34e06ffe0b20492a43a5fac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-devkit-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "7fa5c6db11f9dd840426d119bd2eb0c278bc2b9bfe71749dc4f9ffc7141c3dc5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-devkit-50.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -60784,16 +60784,16 @@
   },
   {
     "name": "nvidia-open",
-    "version": "610.57.04-11.1",
+    "version": "615.71.09-3",
     "origin": "artix-world",
-    "sha256": "d712346ecc44102a70a6110aaf2f87d679ced395a7ab3a7776de30f162903327",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-610.57.04-11.1-x86_64.pkg.tar.zst",
+    "sha256": "244b4ee0bdd302bf8b17bc9ddadc342fad8bc001186dbafdfa31be94c0f5baa9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.71.09-3-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
     "depends": [
       "linux",
-      "nvidia-utils=610.57.04",
+      "nvidia-utils=615.71.09",
       "libglvnd"
     ],
     "optdepends": [],
@@ -60924,10 +60924,10 @@
   },
   {
     "name": "nvme-cli",
-    "version": "2.16-2",
+    "version": "3.0-1",
     "origin": "artix-world",
-    "sha256": "051ac2f91ea29406281497ea0d9b5d541acee2c1cbb234316b178b9ca2cb686b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvme-cli-2.16-2-x86_64.pkg.tar.zst",
+    "sha256": "5e2cc9da70c06f0bc355d830be2d8e30da17722dfcb2e15d4a3e338aef27bc5f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvme-cli-3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -70480,10 +70480,10 @@
   },
   {
     "name": "php-snuffleupagus",
-    "version": "0.13.0-1",
+    "version": "0.14.0-1",
     "origin": "artix-world",
-    "sha256": "6a599700d6647701bb8b4e6dc3221f927a981f19b025513596120a3753bbfce6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-snuffleupagus-0.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "94dc6abe6aaf2ff1819c5158a0f1092abf0b18b3c1e9a26afec9cb33ef62e793",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-snuffleupagus-0.14.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -78255,10 +78255,10 @@
   },
   {
     "name": "python-crc32c",
-    "version": "2.9-1",
+    "version": "2.9.post0-1",
     "origin": "artix-world",
-    "sha256": "45c02aa72d41fff5f70fdd4960ff6452b568fb61e68f99b55041fce351ac88ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-crc32c-2.9-1-x86_64.pkg.tar.zst",
+    "sha256": "f0e6f8a8ad0a7c617254ecfc3df9179d341589da1dd266913774cb7b285e9096",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-crc32c-2.9.post0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -79230,10 +79230,10 @@
   },
   {
     "name": "python-django-guardian",
-    "version": "3.4.1-1",
+    "version": "3.5.0-1",
     "origin": "artix-world",
-    "sha256": "f31ef5568432e10ca527cdee04fd6a635e0b21f82185216139568f5ac0cb5949",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-guardian-3.4.1-1-any.pkg.tar.zst",
+    "sha256": "4b81851a332090a8bba62482670d52769374816ce8a5b5eaa9526788b8ec9700",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-guardian-3.5.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -83633,10 +83633,10 @@
   },
   {
     "name": "python-jwcrypto",
-    "version": "1.6.0-1",
+    "version": "1.6.1-1",
     "origin": "artix-world",
-    "sha256": "c9750e0854694b384d454c6c5a1617a728b1bb1c5c29052275b43b168481570c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jwcrypto-1.6.0-1-any.pkg.tar.zst",
+    "sha256": "50104c5ece4f6be73eb9a14aabce308b5e8628d65b33f43b1c6a4cf60e833a82",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jwcrypto-1.6.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -85466,10 +85466,10 @@
   },
   {
     "name": "python-nbxmpp",
-    "version": "7.4.0-2",
+    "version": "7.4.0-6",
     "origin": "artix-world",
-    "sha256": "392e3377fafe98ca82e5233d12668e9b5e64e6cc48224681dae7fba6f30a0bb5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-nbxmpp-7.4.0-2-any.pkg.tar.zst",
+    "sha256": "0cee37de927d1e265ee721229e8f5cf81bd59f746a5afd59d26e5bdbdafc38da",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-nbxmpp-7.4.0-6-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libsoup3",
@@ -85945,10 +85945,10 @@
   },
   {
     "name": "python-omemo-dr",
-    "version": "1.2.0-2",
+    "version": "1.2.0-3",
     "origin": "artix-world",
-    "sha256": "3b5d5c242fb63aec929ac6324e1c8b6357504ea4aab0a6ab27d3589264f71f73",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-omemo-dr-1.2.0-2-x86_64.pkg.tar.zst",
+    "sha256": "8e2db3a292229205b75f6eb35a6cc0031c2ce9e35255e6a0106fc02f6d0a6e5b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-omemo-dr-1.2.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-cryptography",
@@ -87048,10 +87048,10 @@
   },
   {
     "name": "python-pdm",
-    "version": "2.29.0-1",
+    "version": "2.29.1-1",
     "origin": "artix-world",
-    "sha256": "3c53463f79a469c95531128755e135996a56c257a7262d5baeec437936605540",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pdm-2.29.0-1-any.pkg.tar.zst",
+    "sha256": "16aa447d3919fe4ebd49c0467fcc86e9c14720c7b0cc11b7ceb8fcb5c85e5cfe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pdm-2.29.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95204,10 +95204,10 @@
   },
   {
     "name": "python-tornado",
-    "version": "6.5.9-1",
+    "version": "6.5.10-1",
     "origin": "artix-world",
-    "sha256": "4f5ec2613b911e8b13f47c3e4009af4afa664554ee492a706afb7bfeee5c66f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tornado-6.5.9-1-x86_64.pkg.tar.zst",
+    "sha256": "88746d2adb606bb21e8a44d17c0fedd1be5491a9e7abb283c043c3d8ddf79b83",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tornado-6.5.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -95626,10 +95626,10 @@
   },
   {
     "name": "python-tzdata",
-    "version": "2026.3-1",
+    "version": "2026.4-1",
     "origin": "artix-world",
-    "sha256": "c268167b204f87ae637e6065c0289b5ecc053ff426a889bb3b02bdf94a005226",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tzdata-2026.3-1-any.pkg.tar.zst",
+    "sha256": "1cc26993dbe36fb905f0a29286e31e6628cc58596b2137c022deefebbb413d99",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tzdata-2026.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -96130,10 +96130,10 @@
   },
   {
     "name": "python-vcs-versioning",
-    "version": "2.3.4-1",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "058ca9aafe4ca1ced538d49e216ecda6dea986700cd3886f76539a0ce0da36ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-vcs-versioning-2.3.4-1-any.pkg.tar.zst",
+    "sha256": "2e496a5f9a6db1a54ec35d7e93c0d2b58dd5d398ac29ce393400f54d5c779caa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-vcs-versioning-2.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96212,10 +96212,10 @@
   },
   {
     "name": "python-virtualenv",
-    "version": "21.7.9-1",
+    "version": "21.7.10-1",
     "origin": "artix-world",
-    "sha256": "51d7b03bad820a0d2083d1d925c9d8b18fae7595831aee6ca15a59ffa3f818e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-virtualenv-21.7.9-1-any.pkg.tar.zst",
+    "sha256": "d1a90b95b4f35ee4d2859b33f103a2d722097ef1d39474d85fccbb19e4870bbe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-virtualenv-21.7.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -132828,10 +132828,10 @@
   },
   {
     "name": "xmlstarlet",
-    "version": "1.6.1-6",
+    "version": "1.7.0-1",
     "origin": "artix-world",
-    "sha256": "561f6099e2ec7e1a45cba564531e9d806da496dbec97a418c875a0e8379a00d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xmlstarlet-1.6.1-6-x86_64.pkg.tar.zst",
+    "sha256": "73096a5ba8179f8085c74a38036b79c8f7d09cbce28fdb038f2137427cb747ec",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xmlstarlet-1.7.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxslt"
