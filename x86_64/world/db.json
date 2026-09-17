@@ -2695,10 +2695,10 @@
   },
   {
     "name": "artools-base",
-    "version": "0.39.1-1",
+    "version": "0.40.0-1",
     "origin": "artix-world",
-    "sha256": "fb42744bb3c68a52b273d8b13761a0ca6aefab4757c8e675f4dc8a749e822a53",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-base-0.39.1-1-any.pkg.tar.zst",
+    "sha256": "db3537d464e95d04eb19cd7020479aa9c2a58d37be7ecd31936f770bf66f10cd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-base-0.40.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "awk",
@@ -2717,10 +2717,10 @@
   },
   {
     "name": "artools-iso",
-    "version": "0.39.1-1",
+    "version": "0.40.0-1",
     "origin": "artix-world",
-    "sha256": "af16f9d1d9ba96418a9e61991a5023f47959a903e1860f08c36f9c297f73135d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-iso-0.39.1-1-any.pkg.tar.zst",
+    "sha256": "276df20c3bd10fa4d315c3a18f46a985290726bc850e1f8daf15f10244d8061a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-iso-0.40.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "artools-base",
@@ -2742,10 +2742,10 @@
   },
   {
     "name": "artools-pkg",
-    "version": "0.39.1-1",
+    "version": "0.40.0-1",
     "origin": "artix-world",
-    "sha256": "7e5036d28fa6aafb655d077841babeca779449ac133deebbc214bafadbf05962",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-pkg-0.39.1-1-any.pkg.tar.zst",
+    "sha256": "58bb452cddf689c69573c474898478193c0e590bce7a0bfdb53340c53ebcd5ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-pkg-0.40.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "artools-base",
@@ -3182,13 +3182,13 @@
   },
   {
     "name": "at-spi2-core",
-    "version": "2.60.6-1",
+    "version": "2.60.7-1",
     "origin": "artix-world",
-    "sha256": "765e45ccc0fd8f9a6c85f0fa4e2145bddb91b0cbc0644f692c47dcd38d8e042f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/at-spi2-core-2.60.6-1-x86_64.pkg.tar.zst",
+    "sha256": "4710ca0b2bd22f3b892e86819fa778af884008870119efc9a57631a76f0019d1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/at-spi2-core-2.60.7-1-x86_64.pkg.tar.zst",
     "provides": [
-      "at-spi2-atk=2.60.6-1",
-      "atk=2.60.6-1",
+      "at-spi2-atk=2.60.7-1",
+      "atk=2.60.7-1",
       "libatk-1.0.so=0-64",
       "libatk-bridge-2.0.so=0-64",
       "libatspi.so=0-64"
@@ -16192,10 +16192,10 @@
   },
   {
     "name": "feh",
-    "version": "3.13-1",
+    "version": "3.13.1-1",
     "origin": "artix-world",
-    "sha256": "7252de30ed6122315679068705fa260ba5bdd40ab9f2bfdd02536f205863c79a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/feh-3.13-1-x86_64.pkg.tar.zst",
+    "sha256": "19bbfd16ee634ab791a034b64a017dbf5ad3f6d3000590ae249f511fa6ae73b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/feh-3.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -18448,10 +18448,10 @@
   },
   {
     "name": "gamescope",
-    "version": "3.16.28-1",
+    "version": "3.16.29-1",
     "origin": "artix-world",
-    "sha256": "ae2816e70bbde9ead6641bfd96c502cc0b68dc02586fd82f2c5767ffec9b75f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gamescope-3.16.28-1-x86_64.pkg.tar.zst",
+    "sha256": "d3b9333652f618b114025ad0bc2d98faa2afb259fb304e0592f0a1db05a03248",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gamescope-3.16.29-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -22234,10 +22234,10 @@
   },
   {
     "name": "gnome-shell-extensions",
-    "version": "50.3-1",
+    "version": "50.4-1",
     "origin": "artix-world",
-    "sha256": "a1fc414bc88964dc1ec7630526a4946fb92e7b53b18c8b8eb1d8a568f4b60a25",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-extensions-50.3-1-any.pkg.tar.zst",
+    "sha256": "00beccb303377a4ce1979780d584c5a95e18b04f1daff1966906963d5bda0e24",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-extensions-50.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -60689,10 +60689,10 @@
   },
   {
     "name": "nvidia-580xx",
-    "version": "580.178.04-4",
+    "version": "580.178.04-5",
     "origin": "artix-world",
-    "sha256": "1cb1c2c08a6a5a208a646251bb3cf3b007f27ee55c3bca2d291e46a632f0a266",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.178.04-4-x86_64.pkg.tar.zst",
+    "sha256": "1cc2c2f905d26d4565831edc7150a9ff863a48ceb8eaf66a2c2586e9b6c50197",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.178.04-5-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE",
       "nvidia",
