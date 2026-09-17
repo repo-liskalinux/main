@@ -39707,10 +39707,10 @@
   },
   {
     "name": "krita",
-    "version": "6.0.3-2",
+    "version": "6.0.4-1",
     "origin": "artix-world",
-    "sha256": "47202d974f4b8c182b98dea8dd4da8a247c85fdd3d998de856c6e481935ea418",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krita-6.0.3-2-x86_64.pkg.tar.zst",
+    "sha256": "ae189acad50d0993f7b69adaec59d60a041b947c9d0a81c00275e4f6ed946827",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krita-6.0.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "exiv2",
@@ -52317,10 +52317,10 @@
   },
   {
     "name": "llvm-julia",
-    "version": "20.1.8.2-1",
+    "version": "20.1.8.3-1",
     "origin": "artix-world",
-    "sha256": "f14362606565f42b73f8225bbb2f0c404d32bfa00776fc6ff96290ba4263b9b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-20.1.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "384677c484ebba5dab513aa7d8436a61e9ecc23da2cf3395b0fa602284aca661",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-20.1.8.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -52335,10 +52335,10 @@
   },
   {
     "name": "llvm-julia-libs",
-    "version": "20.1.8.2-1",
+    "version": "20.1.8.3-1",
     "origin": "artix-world",
-    "sha256": "8d25560793004fff5308fcd526ee241ad977dd06424a03df5047bba6fe6780f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-libs-20.1.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "eb16d5b6ebb23de552512fd81e46b94c996babf7196ab30621cc407d4d500487",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-julia-libs-20.1.8.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -59429,10 +59429,10 @@
   },
   {
     "name": "nginx",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "8dfe136c29414a985b98b292d0adc9c7661ae3b18170d985f37dc1cf82aab0a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "7d510fefafd2cdd79b8af42f6218f480e1935fe3137842959d334eff97a6d636",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -59472,13 +59472,13 @@
   },
   {
     "name": "nginx-mod-geoip",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "2d5df04351d7ca620f3299689a9b986a325a30a53f7b61d2b2b0b558828f1c7e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-geoip-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d0aec85dbdee4d86b73ff426e780dc37907e91d1b7d8b11d94571b957454dca3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-geoip-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.4",
+      "nginx=1.30.5",
       "glibc",
       "geoip"
     ],
@@ -59487,13 +59487,13 @@
   },
   {
     "name": "nginx-mod-image-filter",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "df28fc14eb88d9d27ff617f324233242372f312f857cf825ff8baff1263e20ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-image-filter-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "ff10716bd4423bc312f4133db339fb91543d4f50d7c5878cf634f3160be0eef7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-image-filter-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.4",
+      "nginx=1.30.5",
       "glibc",
       "gd"
     ],
@@ -59502,13 +59502,13 @@
   },
   {
     "name": "nginx-mod-mail",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "dca4b25361c0fd0ea5aec85bd609a592282579a854c816317f5f291b7f32cb28",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-mail-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "6a6723771902ba2a4c8d3cc9b4affad9e2c823a935e8656341adfd0d17765c34",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-mail-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.4",
+      "nginx=1.30.5",
       "glibc"
     ],
     "optdepends": [],
@@ -59516,13 +59516,13 @@
   },
   {
     "name": "nginx-mod-perl",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "13c0a9086f30f033f259ec1ee588aaa54df7c2aa77f8a0fb5ec9601b0b13ecf0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-perl-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "b61ca3bda2561ad22dbed6fc526e93ab57994b4c7e84a6e4cf6e5ce11cedf35b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-perl-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.4",
+      "nginx=1.30.5",
       "glibc",
       "perl"
     ],
@@ -59531,13 +59531,13 @@
   },
   {
     "name": "nginx-mod-stream",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "45688833c9331acdad8ba01973eb5389efe8bcedd88457e5c94eb617c3656aab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-stream-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "19c99aa3b2ae8a817f51d00aa7a731c74e034a3fe47a1e987220347c31ab21ac",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-stream-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.4",
+      "nginx=1.30.5",
       "glibc"
     ],
     "optdepends": [],
@@ -59545,13 +59545,13 @@
   },
   {
     "name": "nginx-mod-xslt",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "5337348f53b70ba038cbf9031f8a26e75a0b743c83c35e6c79d4366e50e46a04",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-xslt-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d37a44f79860bc91b38b453f04e14bc39c12a987ed82f925b5e7f1ef5c146845",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-xslt-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.4",
+      "nginx=1.30.5",
       "glibc",
       "libxml2",
       "libxslt"
@@ -59615,10 +59615,10 @@
   },
   {
     "name": "nginx-src",
-    "version": "1.30.4-1",
+    "version": "1.30.5-1",
     "origin": "artix-world",
-    "sha256": "1c26954ac97a2ac21c51e47119f23118b7dc71d2772db010a47bce8f4b5c22d6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-src-1.30.4-1-x86_64.pkg.tar.zst",
+    "sha256": "0ca5b31d8b62e82ca8b38b90340525306bf78f70cbce7fee213df32374d6d275",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-src-1.30.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
