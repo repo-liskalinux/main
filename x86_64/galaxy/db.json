@@ -22277,10 +22277,10 @@
   },
   {
     "name": "perl-crypt-des",
-    "version": "2.07-16",
+    "version": "2.09-1",
     "origin": "artix-galaxy",
-    "sha256": "d64dfa41701f766b2105be019923caad936157ad9fce7b9796c2beb998a6a8a8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-crypt-des-2.07-16-x86_64.pkg.tar.zst",
+    "sha256": "15bda7643feb8eaa6066872cee3ad9c682555dd2e6e4dc6db8ec04ae3c6a4cf5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-crypt-des-2.09-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -24973,10 +24973,10 @@
   },
   {
     "name": "rofimoji",
-    "version": "6.7.0-2",
+    "version": "6.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "44a7ea683e18b895409ae03781a1a332f1201dafdbaf369dce6ca53f46023335",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rofimoji-6.7.0-2-any.pkg.tar.zst",
+    "sha256": "b3316ec4106d414d1d6e6b55af615520bc973c33461e09a068f79b11c711cdfe",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rofimoji-6.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-configargparse"
@@ -24993,10 +24993,12 @@
       "xsel: for one of the X.Org clipboarders",
       "xdotool: for the X.Org typer",
       "fuzzel: for one of the Wayland selectors",
+      "hpyrlauncher: for one of the Wayland selectors",
       "tofi: for one of the Wayland selectors",
       "wmenu: for one of the Wayland selectors",
       "wofi: for one of the Wayland selectors",
       "wl-clipboard: for the Wayland clipboarder",
+      "wl-ime-type: for one of the Wayland typers",
       "wtype: for one of the Wayland typers",
       "ydotool: for one of the Wayland typers"
     ],

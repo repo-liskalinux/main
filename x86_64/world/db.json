@@ -46686,10 +46686,10 @@
   },
   {
     "name": "libmaxminddb",
-    "version": "1.14.0-1",
+    "version": "1.14.1-1",
     "origin": "artix-world",
-    "sha256": "73e0462fd0e50a8b70d7a59c801cdb48b38981058f384578f9280d9ba2e912f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmaxminddb-1.14.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ad6d85fe4de73ab3793dedbff57575b2bdb041681a8410011540865fdd5a8fc0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmaxminddb-1.14.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -57045,10 +57045,10 @@
   },
   {
     "name": "mmdblookup",
-    "version": "1.14.0-1",
+    "version": "1.14.1-1",
     "origin": "artix-world",
-    "sha256": "36bf3c06818c0a7fceb092a790e3b064c44b36a5e080d8eadc8cb28877d96900",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mmdblookup-1.14.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5f2376d0c68c6d1b685831ca0e9f06501af1c5ee38030309dcaea52077d7ab3b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mmdblookup-1.14.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libmaxminddb"
@@ -60924,16 +60924,15 @@
   },
   {
     "name": "nvme-cli",
-    "version": "3.0-1",
+    "version": "3.0-2",
     "origin": "artix-world",
-    "sha256": "5e2cc9da70c06f0bc355d830be2d8e30da17722dfcb2e15d4a3e338aef27bc5f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvme-cli-3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fa1f6cd35b16a5c7e814c426df021b0965f496a4d590d30e38b8a7e314a4c95d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvme-cli-3.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
       "glibc",
       "json-c",
-      "libnvme",
       "libudev",
       "util-linux"
     ],
