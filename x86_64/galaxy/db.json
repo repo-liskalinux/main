@@ -10374,10 +10374,10 @@
   },
   {
     "name": "kodi",
-    "version": "21.3-8",
+    "version": "21.3-12",
     "origin": "artix-galaxy",
-    "sha256": "e63adaee38b8ce269c53e3133efbe57d5664d1535174fdb03257d5de4e340fa7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-21.3-8-x86_64.pkg.tar.zst",
+    "sha256": "5f99f817ca6d5f5986eda107a95a0e22e9c19ac6f5dfdb8f3305d0b9bde5b24a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-21.3-12-x86_64.pkg.tar.zst",
     "provides": [
       "kodi-common",
       "kodi-x11",
@@ -10438,10 +10438,10 @@
   },
   {
     "name": "kodi-dev",
-    "version": "21.3-8",
+    "version": "21.3-12",
     "origin": "artix-galaxy",
-    "sha256": "7e41d50fd412d6630f6c1252179b1619890211aa1bb2d6285f9c3401f0c703a5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-dev-21.3-8-x86_64.pkg.tar.zst",
+    "sha256": "4c8321f72d043c2a34e1ee2e67076bc3851cf0854a6d7d1cd9335d2581e80218",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-dev-21.3-12-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kodi"
@@ -10451,10 +10451,10 @@
   },
   {
     "name": "kodi-eventclients",
-    "version": "21.3-8",
+    "version": "21.3-12",
     "origin": "artix-galaxy",
-    "sha256": "09019e039e6faca89d0a6e1896b6d118f5a351447fb36a96ab45a7dec6e5aaf8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-eventclients-21.3-8-x86_64.pkg.tar.zst",
+    "sha256": "2a1b5005d5f0fc973a60549d1db3b5cd61e19522a6fb20a7027f633992b0ebaf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-eventclients-21.3-12-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -10465,10 +10465,10 @@
   },
   {
     "name": "kodi-gles",
-    "version": "21.3-8",
+    "version": "21.3-12",
     "origin": "artix-galaxy",
-    "sha256": "579cf3ab14a1f36b98f33884903a8556d4a0f93108da9f6e23ce8b64c3034968",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-gles-21.3-8-x86_64.pkg.tar.zst",
+    "sha256": "591ffffb976b828c27aeeace86094755424d82190045aaa7c8f7bc0cae589d0a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-gles-21.3-12-x86_64.pkg.tar.zst",
     "provides": [
       "kodi-common",
       "kodi-x11",
@@ -10530,10 +10530,10 @@
   },
   {
     "name": "kodi-tools-texturepacker",
-    "version": "21.3-8",
+    "version": "21.3-12",
     "origin": "artix-galaxy",
-    "sha256": "6b507f19275e2d02436cf48a94774688bce0b9a9f5e2e8e08c7c88214d30fd80",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-tools-texturepacker-21.3-8-x86_64.pkg.tar.zst",
+    "sha256": "cb00e9bded95f33654d4ea5037ef75816b443bd02cbba47139ef087f9bdadc44",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kodi-tools-texturepacker-21.3-12-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libpng",
@@ -10997,14 +10997,13 @@
   },
   {
     "name": "libcec",
-    "version": "7.1.1-2",
+    "version": "8.1.7-1",
     "origin": "artix-galaxy",
-    "sha256": "69d57da2aaf58135b54542c0ca8d2528826f405c148e854cb106b7169f6cd513",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libcec-7.1.1-2-x86_64.pkg.tar.zst",
+    "sha256": "eea9687cf485fc50e64514dad9156889145a8e78dd584e34cfa2418fc5e1b113",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libcec-8.1.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "udev",
-      "p8-platform",
       "libxrandr"
     ],
     "optdepends": [
@@ -20306,10 +20305,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.15-2",
+    "version": "0.24.15-4",
     "origin": "artix-galaxy",
-    "sha256": "de991f166412d92f0498cfb715e3a9a3871ac8cc43dd3da174824a112de5873d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.15-2-x86_64.pkg.tar.zst",
+    "sha256": "319a3abd11e8b2d98ec8a89bfb8ad379719f791fe7be65abe0f08e681ce11b02",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.15-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28848,13 +28847,13 @@
   },
   {
     "name": "ungoogled-chromium",
-    "version": "152.0.7977.82-1",
+    "version": "153.0.8010.47-1",
     "origin": "artix-galaxy",
-    "sha256": "da93907a14a3a761d17a85c6ccbe553a55a3652fc42022abd705a02d29c08396",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ungoogled-chromium-152.0.7977.82-1-x86_64.pkg.tar.zst",
+    "sha256": "3a97c58768d0fe50b70a6e73c3a49e4320a6c0d4de19628ab0567502e3b19389",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ungoogled-chromium-153.0.8010.47-1-x86_64.pkg.tar.zst",
     "provides": [
-      "chromium=152.0.7977.82",
-      "chromedriver=152.0.7977.82"
+      "chromium=153.0.8010.47",
+      "chromedriver=153.0.8010.47"
     ],
     "depends": [
       "alsa-lib",
@@ -28897,6 +28896,7 @@
       "brotli",
       "libjpeg-turbo",
       "openh264",
+      "highway",
       "dav1d",
       "flac",
       "libdrm",
