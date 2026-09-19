@@ -9963,10 +9963,10 @@
   },
   {
     "name": "cuda",
-    "version": "13.4.1-1",
+    "version": "13.4.2-1",
     "origin": "artix-world",
-    "sha256": "58f3d1b875f913a775acfebca245f7eb30699a33a9d79c68a9e3cabee63f2340",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cuda-13.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2a4d3f03162bb6caa8ffd05a5760e247864b27451e95af5fc58215aa831dbd5b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cuda-13.4.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "cuda-toolkit",
       "cuda-sdk",
@@ -58643,10 +58643,10 @@
   },
   {
     "name": "nccl",
-    "version": "2.31.2-1",
+    "version": "2.32.3-1",
     "origin": "artix-world",
-    "sha256": "98321fd3fa433be05da9c3af8e38862d87ae8107f5f14421faab1611f9b1088e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nccl-2.31.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f59ca692960dc6f7b50a14f075fe32cd87de3c63c13a50d4c120a3291865e06b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nccl-2.32.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -96007,24 +96007,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.16-1",
+    "version": "0.12.17-1",
     "origin": "artix-world",
-    "sha256": "e01c80fe73a751342a95ff9dc76ed76ed28385845a64084ac3d0a9a57711adda",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.16-1-x86_64.pkg.tar.zst",
+    "sha256": "72dc248953a6dbc8fa4965010ec3a8f757920068286e050fa0c5351c8197d0c1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.16"
+      "uv=0.12.17"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.16-1",
+    "version": "0.12.17-1",
     "origin": "artix-world",
-    "sha256": "e6a9b84e67849fbf63bc0c8551471bf378393b4c25467dca59c61f0114f7513c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.16-1-x86_64.pkg.tar.zst",
+    "sha256": "19e50a87d8fa57f6f4b696df5f0a6a30a9d1891a543996c607ee0d03be932532",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -103497,10 +103497,10 @@
   },
   {
     "name": "rpm-sequoia",
-    "version": "1.10.2-2",
+    "version": "1.10.3-1",
     "origin": "artix-world",
-    "sha256": "38db637f0e69000b5e7171f94f45d13331546cb0d1c265d57986f70f3536873f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rpm-sequoia-1.10.2-2-x86_64.pkg.tar.zst",
+    "sha256": "7e7d7d6f5335401a4a5f9b4ed84c23492a993c28be0f2cad029209eeb0c5359d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rpm-sequoia-1.10.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nettle3"
@@ -125866,10 +125866,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.16-1",
+    "version": "0.12.17-1",
     "origin": "artix-world",
-    "sha256": "49662744defa88de662e7bd49538871e81f35653476862c2b402bc0a96c01b1c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.16-1-x86_64.pkg.tar.zst",
+    "sha256": "cb0e7a780cede8d083c24db4bfd4dd0fb62e688d49d2a23b7e70808120eb6fd7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",

@@ -23644,13 +23644,13 @@
   },
   {
     "name": "qbittorrent-openrc",
-    "version": "20260823-1.1",
+    "version": "20260823-1.2",
     "origin": "artix-galaxy",
-    "sha256": "5e58248cf60e254b3e0ceb2ff4b9ac4fac3921c6e8011e3e4462253249a7a401",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qbittorrent-openrc-20260823-1.1-any.pkg.tar.zst",
+    "sha256": "9c33787810832330892f4d45bb8b48f7c2e581361fa7bbc1e80c1a9619d3780a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qbittorrent-openrc-20260823-1.2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qbittorrent",
+      "qbittorrent-nox",
       "openrc"
     ],
     "optdepends": [],
@@ -27707,10 +27707,10 @@
   },
   {
     "name": "tlottie",
-    "version": "0.1.0.git1.758c7cb-1",
+    "version": "1.0.6-1",
     "origin": "artix-galaxy",
-    "sha256": "9842ad298e174415a1faf3e323146a4a6d494c49654186c9b13368bae4b8a5d1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/tlottie-0.1.0.git1.758c7cb-1-x86_64.pkg.tar.zst",
+    "sha256": "cd881acf29ba0237f2031877d615ceaee5005732191821fd781e0862e694944f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/tlottie-1.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
