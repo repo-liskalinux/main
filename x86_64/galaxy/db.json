@@ -28629,10 +28629,10 @@
   },
   {
     "name": "tumbler",
-    "version": "4.20.2-1",
+    "version": "4.20.2-2",
     "origin": "artix-galaxy",
-    "sha256": "0809650c172cdd3dcb0c3a1e9ff01d9f799b22e368a7406e00b86bc8cfdbade8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/tumbler-4.20.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0902e675fad10bb22359343322964d37ac914c825d0860d438a8ec1797fe100c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/tumbler-4.20.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfce4util",
@@ -28640,7 +28640,7 @@
       "hicolor-icon-theme"
     ],
     "optdepends": [
-      "ffmpegthumbnailer: video thumbnails",
+      "ffmpegthumbnailer: audio and video thumbnails",
       "poppler-glib: PDF thumbnails",
       "libgsf: ODF thumbnails",
       "libgepub: EPUB thumbnails",
