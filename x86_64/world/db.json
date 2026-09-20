@@ -50574,10 +50574,10 @@
   },
   {
     "name": "libwireplumber",
-    "version": "0.5.17-1",
+    "version": "0.5.17-2",
     "origin": "artix-world",
-    "sha256": "5c0f6a6d169d31784862fbf56f5ea58b9d14992181316d9c86b587ed76afaea2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.17-1-x86_64.pkg.tar.zst",
+    "sha256": "883db57a9884df7c3cdd657bf6ec287f5d5882e52910bc31afb637fdd1b5e405",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.17-2-x86_64.pkg.tar.zst",
     "provides": [
       "libwireplumber-0.5.so=0-64"
     ],
@@ -130832,15 +130832,15 @@
   },
   {
     "name": "wireplumber",
-    "version": "0.5.17-1",
+    "version": "0.5.17-2",
     "origin": "artix-world",
-    "sha256": "3a8ec95dc88ca486c62375903a617bc175b3ad0887d10e43ff08da10538039b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.17-1-x86_64.pkg.tar.zst",
+    "sha256": "46022613e1a8ebc06980cce7a387f655be75233044e425816df960134bdafec6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.17-2-x86_64.pkg.tar.zst",
     "provides": [
       "pipewire-session-manager"
     ],
     "depends": [
-      "libwireplumber=0.5.17-1",
+      "libwireplumber=0.5.17-2",
       "glibc",
       "libgcc",
       "libglib-2.0.so=0-64",
