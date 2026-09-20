@@ -4160,10 +4160,10 @@
   },
   {
     "name": "libudev",
-    "version": "261.2-1",
+    "version": "261.3-1",
     "origin": "artix-system",
-    "sha256": "46d4b1f17a3d73970b04ae947b4ee0e5900116630e3405b704c1968f8fab49ec",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "83b68a3b70e7be4e2ef07983f263d63864c21e753f6629030083e46225d3b6c9",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-261.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libudev.so=1-64"
     ],
@@ -6788,10 +6788,10 @@
   },
   {
     "name": "udev",
-    "version": "261.2-1",
+    "version": "261.3-1",
     "origin": "artix-system",
-    "sha256": "ea1e070a59432a18bca6c390d603056bea93456f2df4468057f6c22516d29496",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1bb0146cd994ec29312188c5b2d314660993ef6ad1373bb27dbd267192c5a215",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-261.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6801,7 +6801,7 @@
       "hwdata",
       "kbd",
       "kmod",
-      "libudev=261.2",
+      "libudev=261.3",
       "util-linux"
     ],
     "optdepends": [

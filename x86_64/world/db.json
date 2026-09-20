@@ -9580,10 +9580,10 @@
   },
   {
     "name": "cppcheck",
-    "version": "2.21.1-1",
+    "version": "2.22.0-1",
     "origin": "artix-world",
-    "sha256": "b0ba8322c608611c91c81d5605a92809f47f7fa7a32d49de496ae662c09b3b64",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cppcheck-2.21.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0e2162116627e8257c49d63460035fe893e7f2c8a8ef245f27f81c2b5a92fe14",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cppcheck-2.22.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -29489,10 +29489,10 @@
   },
   {
     "name": "igsc",
-    "version": "0.9.5-13",
+    "version": "0.9.5-14",
     "origin": "artix-world",
-    "sha256": "ed39af5a43666f895574a901487231d4d47722fb27ff88be43e2509860b7c399",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/igsc-0.9.5-13-x86_64.pkg.tar.zst",
+    "sha256": "765c21335e1a8efc2874c5f765e7c5d5b85124ac36bb2b8969a62c7ba6def087",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/igsc-0.9.5-14-x86_64.pkg.tar.zst",
     "provides": [
       "libigsc.so=0-64"
     ],
@@ -29905,10 +29905,10 @@
   },
   {
     "name": "intel-compute-runtime",
-    "version": "26.31.39395.13-1",
+    "version": "26.35.39758.10-1",
     "origin": "artix-world",
-    "sha256": "109e8d4816b2f340f1c5de6bbb1eed4388c85f9f33f443697677ee36a86891a5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-compute-runtime-26.31.39395.13-1-x86_64.pkg.tar.zst",
+    "sha256": "37af6743353faa4ebe09f26b286bb9e7fe226f1a271bc4787cf0cf3f230d0114",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-compute-runtime-26.35.39758.10-1-x86_64.pkg.tar.zst",
     "provides": [
       "level-zero-driver",
       "opencl-driver"
@@ -29950,12 +29950,12 @@
   },
   {
     "name": "intel-graphics-compiler",
-    "version": "1:2.40.13-1",
+    "version": "1:2.41.5-1",
     "origin": "artix-world",
-    "sha256": "3b9b92dafb626e633e0565540d5efa4e0ad4fabcf5cdd116b9edc97cf10af757",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-graphics-compiler-1:2.40.13-1-x86_64.pkg.tar.zst",
+    "sha256": "728933a1b6bcbcb0352ab646f4d324b52b1d5eb07e279b570bc9f92657362be2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-graphics-compiler-1:2.41.5-1-x86_64.pkg.tar.zst",
     "provides": [
-      "intel-opencl-clang=17"
+      "intel-opencl-clang=22.1"
     ],
     "depends": [
       "glibc",
@@ -30010,10 +30010,10 @@
   },
   {
     "name": "intel-metee",
-    "version": "6.2.5-1",
+    "version": "6.2.6-1",
     "origin": "artix-world",
-    "sha256": "6a2eb2e03f3572025fed8b981c78f1cd86d4de1bc76ab2d251dacf6626ace5af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-metee-6.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "2cf4dccd9918877606353edba317de00d15af591bca327c4e1a34a44dd368189",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-metee-6.2.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -57967,10 +57967,10 @@
   },
   {
     "name": "mujs",
-    "version": "1.3.9-1",
+    "version": "1.3.10-1",
     "origin": "artix-world",
-    "sha256": "6f1fb8ad41c2d5d175aee62bea43739751d9ee9c76c8e3e879cd0c46379c2d43",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mujs-1.3.9-1-x86_64.pkg.tar.zst",
+    "sha256": "e1fe17c1b58db302337ffd72fd7fca29614313b6824bb336f79be45244f76c07",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mujs-1.3.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -108869,10 +108869,10 @@
   },
   {
     "name": "ruby-unicode-emoji",
-    "version": "4.2.0-1",
+    "version": "4.3.0-1",
     "origin": "artix-world",
-    "sha256": "b0b9037752321edac3f96896e190d988ed318d4f06d51112dde2f04782a93852",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-unicode-emoji-4.2.0-1-any.pkg.tar.zst",
+    "sha256": "85f609aea22aac6e8c036ad0724d81c5ea34439d2749ddf0fc49f7bb951f3392",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-unicode-emoji-4.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
