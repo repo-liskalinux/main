@@ -9752,6 +9752,54 @@
     "conflicts": []
   },
   {
+    "name": "hardinfo2",
+    "version": "2.3.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "45a8917e5cdc133912791c6791204fffbb3c3a9d8aeb5114fb539cd284ad38ee",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/hardinfo2-2.3.1-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "hardinfo"
+    ],
+    "depends": [
+      "cairo",
+      "dmidecode",
+      "gawk",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
+      "iperf3",
+      "json-glib",
+      "libdecor",
+      "libgcc",
+      "libsoup3",
+      "libstdc++",
+      "libx11",
+      "libxcb",
+      "lm_sensors",
+      "mesa-utils",
+      "pango",
+      "pciutils",
+      "qt5-base",
+      "sysbench",
+      "udisks2",
+      "usbutils",
+      "vulkan-icd-loader",
+      "vulkan-tools",
+      "wayland",
+      "xdg-utils"
+    ],
+    "optdepends": [
+      "apcupsd: apcaccess is used for UPS/battery information",
+      "fwupd: Firmware module",
+      "xorg-xrandr: Read monitor setup"
+    ],
+    "conflicts": [
+      "hardinfo"
+    ]
+  },
+  {
     "name": "helium-browser",
     "version": "0.17.1.1-1",
     "origin": "artix-galaxy",
