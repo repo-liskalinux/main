@@ -292,10 +292,10 @@
   },
   {
     "name": "bash",
-    "version": "5.3.15-1",
+    "version": "5.3.20-1",
     "origin": "artix-system",
-    "sha256": "09a2b269bdd47be94ec9e441f59800b6999c59d2bf5295a31bcb08881ca5ea78",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/bash-5.3.15-1-x86_64.pkg.tar.zst",
+    "sha256": "a646e7a5e6da191e8da4df10d540828ada05fe533f46a2422510a462c4e5dcc6",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/bash-5.3.20-1-x86_64.pkg.tar.zst",
     "provides": [
       "sh"
     ],
@@ -2992,10 +2992,10 @@
   },
   {
     "name": "less",
-    "version": "1:704-1",
+    "version": "1:710-1",
     "origin": "artix-system",
-    "sha256": "20552e7887f59673aa53a0557f37851778b320d0c1e1237a2f9ab34a27b08be5",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/less-1:704-1-x86_64.pkg.tar.zst",
+    "sha256": "8fcda6d73219fc4080665509e8511c053ee6a7949876b212aaf8bdc7f6370875",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/less-1:710-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6218,10 +6218,10 @@
   },
   {
     "name": "readline",
-    "version": "8.3.3-1",
+    "version": "8.3.6-1",
     "origin": "artix-system",
-    "sha256": "f51162b5bb5737dbf420d813baf6987daaa70cd7ac578c14386b773b4897eec2",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/readline-8.3.3-1-x86_64.pkg.tar.zst",
+    "sha256": "017e7ec7b99d06d9cb2a4fac42bb1fa943a5bb4c7a7cef0a49bcb3df982a9233",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/readline-8.3.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libhistory.so=8-64",
       "libreadline.so=8-64"
@@ -7087,10 +7087,10 @@
   },
   {
     "name": "xfsprogs",
-    "version": "7.1.1-1",
+    "version": "7.2.0-1",
     "origin": "artix-system",
-    "sha256": "e884f764f9ac995bf6eda16e9f481fa47756bf65a1eb87ad31429f7a3e4f1f51",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/xfsprogs-7.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5e5ce0bfb5dd92a42806d150dd5c6ced44fb6ff67787e7346b7b73f74fc7fe6b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/xfsprogs-7.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "device-mapper",
