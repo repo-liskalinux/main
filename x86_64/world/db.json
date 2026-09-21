@@ -26871,10 +26871,10 @@
   },
   {
     "name": "harfbuzz",
-    "version": "14.4.0-1",
+    "version": "14.5.0-1",
     "origin": "artix-world",
-    "sha256": "2929b31a3cb941496fb79a46321c8067a87b3bb1dad3f95038f309bdb3f8c938",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-14.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9ce53b3a4abcf4a141317c35a7ea6c11386dd976e8c31b32ce54736037878abf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-14.5.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz.so=0-64",
       "libharfbuzz-subset.so=0-64",
@@ -26903,10 +26903,10 @@
   },
   {
     "name": "harfbuzz-cairo",
-    "version": "14.4.0-1",
+    "version": "14.5.0-1",
     "origin": "artix-world",
-    "sha256": "b2d5facd8a992df7ec69bbdd5a5615779ce3925ac6f96d47285b163999b62cb5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-14.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6070875df081ddb0c8cd5839423fcb0e7c5d4823191280746c467e60da3acbbf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-14.5.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-cairo.so=0-64"
     ],
@@ -26925,10 +26925,10 @@
   },
   {
     "name": "harfbuzz-icu",
-    "version": "14.4.0-1",
+    "version": "14.5.0-1",
     "origin": "artix-world",
-    "sha256": "b7e2a322de2434f68e04aba6a7316ad08ba51e64f93a3579da67097beaef4859",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-14.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e19f4464faf88baae00b252d77cf886bb8f4ae27ba46969659c64901faccaaa3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-14.5.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-icu.so=0-64"
     ],
@@ -26944,10 +26944,10 @@
   },
   {
     "name": "harfbuzz-utils",
-    "version": "14.4.0-1",
+    "version": "14.5.0-1",
     "origin": "artix-world",
-    "sha256": "3e0ff69d0c4323f2bf3c39d519e0bca5118dbb7003c2a649acb7a43d828dcded",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-14.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ba33fd2468257f15036feacd8e97eb18765f57a9ac45658ec3878693b9549b65",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-14.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -31346,20 +31346,20 @@
   },
   {
     "name": "jdk-openjdk",
-    "version": "26.0.2.1.u1-1",
+    "version": "27.u35-1",
     "origin": "artix-world",
-    "sha256": "45c5ff67f8455efc86161db112617f9b02cfb9c9f118bc1967cc3b0a86c30935",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "13e329919c287d3c36e651de0dbed4267bb12598454ace8d22d8eb626b24e2b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-27.u35-1-x86_64.pkg.tar.zst",
     "provides": [
-      "java-environment=26",
-      "java-environment-openjdk=26",
-      "jdk26-openjdk=26.0.2.1.u1-1",
-      "java-runtime=26",
-      "java-runtime-openjdk=26",
-      "jre26-openjdk=26.0.2.1.u1-1",
-      "java-runtime-headless=26",
-      "java-runtime-headless-openjdk=26",
-      "jre26-openjdk-headless=26.0.2.1.u1-1"
+      "java-environment=27",
+      "java-environment-openjdk=27",
+      "jdk27-openjdk=27.u35-1",
+      "java-runtime=27",
+      "java-runtime-openjdk=27",
+      "jre27-openjdk=27.u35-1",
+      "java-runtime-headless=27",
+      "java-runtime-headless-openjdk=27",
+      "jre27-openjdk-headless=27.u35-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31829,17 +31829,17 @@
   },
   {
     "name": "jre-openjdk",
-    "version": "26.0.2.1.u1-1",
+    "version": "27.u35-1",
     "origin": "artix-world",
-    "sha256": "aab04d7c9eddd0e8ba30fcd29cffdf5a6f1bcfa5d8a9cc7fa5fa4731300f5390",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "ba660daad6215e280027a615192f2b2f25c4b475f539dbc77d0279f6eec70c99",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-27.u35-1-x86_64.pkg.tar.zst",
     "provides": [
-      "java-runtime=26",
-      "java-runtime-openjdk=26",
-      "jre26-openjdk=26.0.2.1.u1-1",
-      "java-runtime-headless=26",
-      "java-runtime-headless-openjdk=26",
-      "jre26-openjdk-headless=26.0.2.1.u1-1"
+      "java-runtime=27",
+      "java-runtime-openjdk=27",
+      "jre27-openjdk=27.u35-1",
+      "java-runtime-headless=27",
+      "java-runtime-headless-openjdk=27",
+      "jre27-openjdk-headless=27.u35-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31872,14 +31872,14 @@
   },
   {
     "name": "jre-openjdk-headless",
-    "version": "26.0.2.1.u1-1",
+    "version": "27.u35-1",
     "origin": "artix-world",
-    "sha256": "62fa4848113cc596b78d2a52ca68b9b2d24cff67baf8670af1f1b15573d2a466",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "f054db01280daf6194b5164fcce66b41514389791333ff7abec951ceec3b81c1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-27.u35-1-x86_64.pkg.tar.zst",
     "provides": [
-      "java-runtime-headless=26",
-      "java-runtime-headless-openjdk=26",
-      "jre26-openjdk-headless=26.0.2.1.u1-1"
+      "java-runtime-headless=27",
+      "java-runtime-headless-openjdk=27",
+      "jre27-openjdk-headless=27.u35-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -46179,10 +46179,10 @@
   },
   {
     "name": "libkrunfw",
-    "version": "5.5.0-1",
+    "version": "5.6.1-1",
     "origin": "artix-world",
-    "sha256": "408ff31c112eeeb7eb871b52d5f319c5d9792454ae45ff2587a4a8b8c9788c73",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrunfw-5.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "60ab889bf33e643ccefd80679122d377afa947316196a489013d0f44d469d1ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrunfw-5.6.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -62384,15 +62384,15 @@
   },
   {
     "name": "openjdk-src",
-    "version": "26.0.2.1.u1-1",
+    "version": "27.u35-1",
     "origin": "artix-world",
-    "sha256": "d8076693a64a84e94b2fea4bcc4dc7ff37fa68773a8390373fac0bbea9144364",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-26.0.2.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "6d3d25aeb58147c2440773ad840d952bf299099799bd42055bd54b2c13e8b93f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-27.u35-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk26-src=26.0.2.1.u1-1"
+      "openjdk27-src=27.u35-1"
     ],
     "depends": [
-      "jdk26-openjdk=26.0.2.1.u1-1"
+      "jdk27-openjdk=27.u35-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -64486,10 +64486,10 @@
   },
   {
     "name": "pcsclite",
-    "version": "2.5.1-1.1",
+    "version": "2.5.2-1",
     "origin": "artix-world",
-    "sha256": "99765ea89eb2d8249458c49f935461c155f4e46cb931e0167b650b3adc90ef9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.1-1.1-x86_64.pkg.tar.zst",
+    "sha256": "55e4bf1e6a89d1e4768cbd1a7a670bd1b0783e33d6170cbc9060374077951fee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpcsclite.so=1-64",
       "libpcsclite_real.so=1-64",
@@ -102942,10 +102942,10 @@
   },
   {
     "name": "rkcommon",
-    "version": "1.15.3-1",
+    "version": "1.15.4-1",
     "origin": "artix-world",
-    "sha256": "c525be4b07d494e7d1ab08fe54b346d9ae1df1836f6e52d6d834cc291f36aad7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rkcommon-1.15.3-1-x86_64.pkg.tar.zst",
+    "sha256": "4b3567d5fe8c89f9010da0c6ccf27002459c48fa0bcc7d3341c4c6c6d33ea2e7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rkcommon-1.15.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125122,10 +125122,10 @@
   },
   {
     "name": "umurmur",
-    "version": "0.5.0-1",
+    "version": "0.5.1-1",
     "origin": "artix-world",
-    "sha256": "7471e86045e22d1872bb2a91b0b58ccc9fbd5e4c19648ed01f368afcced857d9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/umurmur-0.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "af6d8dfa4978fd2b21ebea81bf634657a09aac61e4c1a2fbb3af151574adc3f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/umurmur-0.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
