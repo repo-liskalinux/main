@@ -2540,10 +2540,10 @@
   },
   {
     "name": "code",
-    "version": "1.136.2-1",
+    "version": "1.138.0-1",
     "origin": "artix-galaxy",
-    "sha256": "075b5d3e4c9e606906a8b354a16a924f5c0f6a9fbba658b45aace2a6c7e85c13",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/code-1.136.2-1-x86_64.pkg.tar.zst",
+    "sha256": "eef456b8b0f4bd965713b98b2b8d7efa0ef3757e1c9e3c1be2ede0188e732065",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/code-1.138.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "vscode"
     ],
@@ -8517,10 +8517,10 @@
   },
   {
     "name": "firefox-noscript",
-    "version": "13.6.31-1",
+    "version": "13.6.34-1",
     "origin": "artix-galaxy",
-    "sha256": "0ed51d80bba006b995c03423b013feb1217f30aee87fc5614b369a5135f4746f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-noscript-13.6.31-1-any.pkg.tar.zst",
+    "sha256": "0e9a60109e1070c34db9fdde764930ab586e51721906a823e368263b1da20f42",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-noscript-13.6.34-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -10109,10 +10109,10 @@
   },
   {
     "name": "jellyfin-ffmpeg",
-    "version": "1:7.1.4p1-4",
+    "version": "1:8.1.2p5-1",
     "origin": "artix-galaxy",
-    "sha256": "aeeb3a7382f4ee143246dbbe28907403f6efee37f928b8797eec5b3d39cc5d21",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-ffmpeg-1:7.1.4p1-4-x86_64.pkg.tar.zst",
+    "sha256": "51f9b1d694ebf267ae616e7e598cb8cf858acd8e7dec140bd9b5e2a9b844a412",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-ffmpeg-1:8.1.2p5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10129,6 +10129,7 @@
       "libdav1d.so=7-64",
       "libdrm",
       "libfreetype.so=6-64",
+      "libgcc_s.so=1-64",
       "libopenmpt.so=0-64",
       "libplacebo.so=360-64",
       "libtheora",
@@ -10200,16 +10201,16 @@
   },
   {
     "name": "jellyfin-server",
-    "version": "10.11.11-1",
+    "version": "12.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1c082396210bbc82193505ae39611130de893993eb2ec49fc7da87ef73dbc98f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-server-10.11.11-1-x86_64.pkg.tar.zst",
+    "sha256": "e37046e4680cc57bcfe3762c846fb07909ec67e53587cfaed3943afa9474c599",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-server-12.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libstdc++",
-      "aspnet-runtime-9.0",
+      "aspnet-runtime-10.0",
       "bash",
       "sqlite",
       "fontconfig",
