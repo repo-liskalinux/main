@@ -6735,10 +6735,10 @@
   },
   {
     "name": "bubblewrap",
-    "version": "0.12.0-1",
+    "version": "0.13.0-1",
     "origin": "artix-world",
-    "sha256": "4b82d001b630325942f006c71d7d3a0ce2f0564a21cdece639d5f039adbe55e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bubblewrap-0.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fc8b6fb4086cdcea9526f94d72e4a23a43fb274cb4bada0513e2e6dda26df663",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bubblewrap-0.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -16246,10 +16246,10 @@
   },
   {
     "name": "ffmpeg",
-    "version": "2:9.0.1-4",
+    "version": "2:9.0.2-1",
     "origin": "artix-world",
-    "sha256": "20cd19c892433aee1492688c71de790f33e0eacd81f0e62cfecdb02fd2966010",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ffmpeg-2:9.0.1-4-x86_64.pkg.tar.zst",
+    "sha256": "7b30c8c9e077af869c18797514f88fb06c53c030fc2758c185b4afe82330de14",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ffmpeg-2:9.0.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libavcodec.so=63-64",
       "libavdevice.so=63-64",
@@ -17165,10 +17165,10 @@
   },
   {
     "name": "fluidsynth",
-    "version": "2.6.0-1",
+    "version": "2.6.1-1",
     "origin": "artix-world",
-    "sha256": "e58bb6ec82b4027510ea4474a991314b7df6bfe09e28fe411d7e91e14498711b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fluidsynth-2.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8822587f9e54603e4750df0ee68c8e21d2c4312f77ba5e923310e8fadb4d2580",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fluidsynth-2.6.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfluidsynth.so=3-64",
       "soundfont-synthesizer"
@@ -47944,10 +47944,10 @@
   },
   {
     "name": "libpeas",
-    "version": "1.38.1-1",
+    "version": "1.38.1-2",
     "origin": "artix-world",
-    "sha256": "f054f28a5c539521968cf69cb916583230813ba3ee03f36e3e9578f5485713d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpeas-1.38.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b952dd12f03a6168b12b8987190317286487160651a6412534b63686a5cbef17",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpeas-1.38.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libpeas-1.0.so=1-64",
       "libpeas-gtk-1.0.so=1-64"
@@ -47956,11 +47956,10 @@
       "glib2",
       "glibc",
       "gtk3",
-      "hicolor-icon-theme",
-      "libgirepository"
+      "hicolor-icon-theme"
     ],
     "optdepends": [
-      "lua51-lgi: Lua loader"
+      "python-gobject: Python loader"
     ],
     "conflicts": []
   },
@@ -47988,17 +47987,17 @@
   },
   {
     "name": "libpeas-demos",
-    "version": "1.38.1-1",
+    "version": "1.38.1-2",
     "origin": "artix-world",
-    "sha256": "b9713da64ef8d16c48350b306a7efc8b917ece5ca4ae75aefae55b65c2f1ff94",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpeas-demos-1.38.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c60fc65ee42ff35bb4d703e8fbfbccedc10be047729b11ec26c4380964967763",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpeas-demos-1.38.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "glibc",
       "gtk3",
-      "libgirepository",
-      "libpeas"
+      "libpeas",
+      "python-gobject"
     ],
     "optdepends": [],
     "conflicts": []
@@ -104799,10 +104798,10 @@
   },
   {
     "name": "ruby-chef-utils",
-    "version": "19.4.36-1",
+    "version": "19.4.38-1",
     "origin": "artix-world",
-    "sha256": "e2826e0922f12318dd4be2913c21b9debec5cb0cb16d292dce91e721ebef6ed6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.36-1-any.pkg.tar.zst",
+    "sha256": "12d0d5a8d530a0a167135f531d7f173d1609f0ce9c5efaeb408e733843ded974",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.38-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
