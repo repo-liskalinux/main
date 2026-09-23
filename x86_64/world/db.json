@@ -10533,10 +10533,10 @@
   },
   {
     "name": "dart-sass",
-    "version": "1.104.1-1",
+    "version": "1.105.0-1",
     "origin": "artix-world",
-    "sha256": "2d5aa8c5fba63d299cf82f1816d09aea77514b7c0879fb81d0bf9ef2cf3abaec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.104.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d2fccd37715f582c1e1294544c2724b05041b8278518c4c070aefa78a4c75144",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.105.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "sass"
     ],
@@ -35927,10 +35927,10 @@
   },
   {
     "name": "keychain",
-    "version": "3.0.4-1",
+    "version": "3.0.5-2",
     "origin": "artix-world",
-    "sha256": "707df3c7e07b4c3785413c25f3d6ba5602d9d0847b151e95806a526b8c5b2e47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keychain-3.0.4-1-any.pkg.tar.zst",
+    "sha256": "0692686556ce047020d561b7df1206d44a4262bf9114ba172ac448bfe6b058af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keychain-3.0.5-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -49072,10 +49072,10 @@
   },
   {
     "name": "libslirp",
-    "version": "4.9.4-1",
+    "version": "4.9.5-1",
     "origin": "artix-world",
-    "sha256": "48bb1fb5ae5d1290a9d283ea606607911bf6e42ed69d9a18714055908fd1e05c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libslirp-4.9.4-1-x86_64.pkg.tar.zst",
+    "sha256": "828dc278562418bbe6327f1ef68b11649922bdddec19db28f32cf074b5d63a71",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libslirp-4.9.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libslirp.so=0-64"
     ],
@@ -59026,12 +59026,13 @@
   },
   {
     "name": "netcdf",
-    "version": "4.9.3-4",
+    "version": "4.10.1-1",
     "origin": "artix-world",
-    "sha256": "7321c3e513f43112e604226103bd8c3bc3dc6476a870efa014946ed353e783b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/netcdf-4.9.3-4-x86_64.pkg.tar.zst",
+    "sha256": "41f92a074ab0c5bc91665cb167b09f4e3c338f1a75bc976e2905970bc81b82a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/netcdf-4.10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "hdf5",
       "curl",
       "libxml2",
@@ -59039,6 +59040,7 @@
       "blosc",
       "bzip2",
       "libzip",
+      "zlib",
       "zstd"
     ],
     "optdepends": [
@@ -126533,10 +126535,10 @@
   },
   {
     "name": "verdict",
-    "version": "1.4.5-2",
+    "version": "1.4.5-3",
     "origin": "artix-world",
-    "sha256": "ecae60598ed6b81c21b1a4e8df12075f4605897951c15248e6759f9431722993",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/verdict-1.4.5-2-x86_64.pkg.tar.zst",
+    "sha256": "4972cfa51e1c98c6e9f354063a8ffb2b8a21d310239725261d5b6de8d06944bb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/verdict-1.4.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
