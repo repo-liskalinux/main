@@ -49694,10 +49694,10 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.23-1",
+    "version": "0.16.24-1",
     "origin": "artix-world",
-    "sha256": "82f7e9ee1faba53b4bd4b1f595bec931c4ce1e9a1e99d97ff65b1c7732dda67e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.23-1-x86_64.pkg.tar.zst",
+    "sha256": "46457493a9ee361441a7023f92b67dcaf54168e634f99ac0706d1ab65560395d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl"
@@ -103936,13 +103936,13 @@
   },
   {
     "name": "rtorrent",
-    "version": "0.16.23-1",
+    "version": "0.16.24-1",
     "origin": "artix-world",
-    "sha256": "50feaed5b70fa1ae64af6bafd4d8a4129a23fb9bbf3045a8aa47d3c486ce29b1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.23-1-x86_64.pkg.tar.zst",
+    "sha256": "285e2916ca221d9566c24a3e096ce4f8555f2d66e0a871352abf34ba0dfcc20e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libtorrent=0.16.23",
+      "libtorrent=0.16.24",
       "curl",
       "tinyxml2"
     ],
