@@ -1138,10 +1138,10 @@
   },
   {
     "name": "blender",
-    "version": "17:5.2.2-1",
+    "version": "17:5.2.2-2",
     "origin": "artix-galaxy",
-    "sha256": "ef115e76b475df9c44eb1980d0aace62cbf54ad9dfbe6d0af112010865e48d38",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/blender-17:5.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "44006b765b70dd079971166f30cfd41e387554ec420ed14e4b8639b993640be9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/blender-17:5.2.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alembic",
@@ -13875,10 +13875,10 @@
   },
   {
     "name": "libreoffice-still",
-    "version": "26.2.6-1",
+    "version": "26.2.6-2",
     "origin": "artix-galaxy",
-    "sha256": "cb9efed8b309a1fe96d3bd29f8f41acb7e9e348cccc2105a2eac90de2319beff",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-26.2.6-1-x86_64.pkg.tar.zst",
+    "sha256": "d12bb0fb4104fc826385c635ddda17c70f7e1cbe447f64fbc0f14c465263c34c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-26.2.6-2-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice",
       "libreoffice-en-US"
@@ -13957,7 +13957,8 @@
       "librevenge",
       "libxext",
       "openjpeg2",
-      "argon2"
+      "argon2",
+      "md4c"
     ],
     "optdepends": [
       "libreoffice-still-i18n: Localizations",
@@ -15570,10 +15571,10 @@
   },
   {
     "name": "libreoffice-still-sdk",
-    "version": "26.2.6-1",
+    "version": "26.2.6-2",
     "origin": "artix-galaxy",
-    "sha256": "e490096c9e5ccfe31aca662fd443a74d8f55f458f9cee9785efcef40382b18f5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-sdk-26.2.6-1-x86_64.pkg.tar.zst",
+    "sha256": "2cec06f5c0211179ca4ba7aaa3305a66c4e2d293d5eda4ed614391ef4e7f5de7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-sdk-26.2.6-2-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice-sdk"
     ],
@@ -26419,10 +26420,10 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "7.2.8-1",
+    "version": "7.2.9-1",
     "origin": "artix-galaxy",
-    "sha256": "c573a7894a06416b0c7a07e3c8c908c93ddeff250b8359bc8b07eccaed849909",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.2.8-1-x86_64.pkg.tar.zst",
+    "sha256": "69ee5b7ee75f075ff028487f4fc062237276bc232f5a3d09f458793a5935ccef",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -31413,10 +31414,10 @@
   },
   {
     "name": "zed",
-    "version": "1.20.2-1",
+    "version": "1.21.0-1",
     "origin": "artix-galaxy",
-    "sha256": "fa0f0673a2066f6c71c444e38b2bb0e7fd53f3c5ec527efceafd4b6f95af06cd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zed-1.20.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1e48013f56c46fe15adcd0a4d69d5bde8d949618760d2fcbfa0b622cdf5531aa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zed-1.21.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
