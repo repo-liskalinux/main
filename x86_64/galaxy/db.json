@@ -4824,10 +4824,10 @@
   },
   {
     "name": "fcitx5-chinese-addons",
-    "version": "5.1.14-1",
+    "version": "5.1.15-1",
     "origin": "artix-galaxy",
-    "sha256": "a986edd1678462bd8504cc3bd60f90ad3b3e9328bcbeb3a98fd3131499a9d54f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-chinese-addons-5.1.14-1-x86_64.pkg.tar.zst",
+    "sha256": "afee811981feab14d90da67ca9ddec497c707a69f4760c7e4f33e70c577db209",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-chinese-addons-5.1.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -4845,10 +4845,10 @@
   },
   {
     "name": "fcitx5-configtool",
-    "version": "5.1.15-1",
+    "version": "5.1.16-1",
     "origin": "artix-galaxy",
-    "sha256": "3d1dee8a96735c45f97b1ef393abb2f0b838005e734612c0bfb8be6a9acee7f4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-configtool-5.1.15-1-x86_64.pkg.tar.zst",
+    "sha256": "65dd30981f34595d2c17949e76a59af37838566c5970ed985170a7d6c055b0b1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-configtool-5.1.16-1-x86_64.pkg.tar.zst",
     "provides": [
       "fcitx5-config-qt",
       "kcm-fcitx5"
@@ -4888,10 +4888,10 @@
   },
   {
     "name": "fcitx5-qt",
-    "version": "5.1.15-1",
+    "version": "5.1.16-1",
     "origin": "artix-galaxy",
-    "sha256": "5c5d6166045133bc68af6154665c8cf67402f9d92dbdb06caab00488a3bf2f74",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.15-1-x86_64.pkg.tar.zst",
+    "sha256": "248fdecfe4e1d9d12bbbe9a998458d6f0fecc93bc1e247a9f0b5700dc616f3b8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9801,10 +9801,10 @@
   },
   {
     "name": "helium-browser",
-    "version": "0.17.1.1-1",
+    "version": "0.18.1.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3408786690df8a1f3514f911fcd0c2b362d4c778c1b99560d49a44208423920f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.17.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "227ec34715c763e3779f29e19696b8e8943f08c51dafd55e7c6cbb05b5efb589",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.18.1.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "chromium"
     ],
@@ -10091,6 +10091,39 @@
       "python-dissect.cstruct: for intel-gfx-fw-info"
     ],
     "conflicts": []
+  },
+  {
+    "name": "ipp-usb",
+    "version": "0.9.34-2.1",
+    "origin": "artix-galaxy",
+    "sha256": "cd6907190cccca1dd7836c004a180d1a8f092fb6de3b3c07dd82ab0f8249c3e4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ipp-usb-0.9.34-2.1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "avahi",
+      "libusb",
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "ipp-usb-openrc",
+    "version": "20260924-1",
+    "origin": "artix-galaxy",
+    "sha256": "fe634dc3254e07d037acc1b28a548f6e64d84d4ea6d514154a4e65771189e69f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ipp-usb-openrc-20260924-1-any.pkg.tar.zst",
+    "provides": [
+      "init-ipp-usb"
+    ],
+    "depends": [
+      "openrc",
+      "ipp-usb"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "init-ipp-usb"
+    ]
   },
   {
     "name": "jaq",
@@ -11264,10 +11297,10 @@
   },
   {
     "name": "libime",
-    "version": "1.1.16-1",
+    "version": "1.1.17-1",
     "origin": "artix-galaxy",
-    "sha256": "28a9040633ff4473cd8a8a44363aedb85a2c307508cf7240215d4a4263acd431",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libime-1.1.16-1-x86_64.pkg.tar.zst",
+    "sha256": "6ca33074e9014785390e13499d9254797340814b3e4b6ad179aa9c4fb2ca8418",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libime-1.1.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -22622,10 +22655,10 @@
   },
   {
     "name": "pix",
-    "version": "3.4.10-3.2",
+    "version": "3.4.11-1",
     "origin": "artix-galaxy",
-    "sha256": "58ef9c467987c87fe921875a8d406308341b761850c8256d858b5618d337f3a6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pix-3.4.10-3.2-x86_64.pkg.tar.zst",
+    "sha256": "4d8c4446c32c4206803ac77260f28dcdbee081de3b2f98c1020b11fa5478590f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pix-3.4.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "pix"
     ],
@@ -24399,10 +24432,10 @@
   },
   {
     "name": "radicle",
-    "version": "1.9.1-3",
+    "version": "1.10.3-1",
     "origin": "artix-galaxy",
-    "sha256": "6c31076774380ec866888528b232a8b35c3d74d63ca88bcd6178cf076641e8a6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-1.9.1-3-x86_64.pkg.tar.zst",
+    "sha256": "3676cd47ad156a2744b02d073ddd9caf8e5253f17e0f2f0cf9a0f01dcfb66164",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-1.10.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "radicle-node",
       "radicle-cli"

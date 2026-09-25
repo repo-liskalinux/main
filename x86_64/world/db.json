@@ -26853,18 +26853,23 @@
   },
   {
     "name": "haproxy",
-    "version": "3.4.4-1",
+    "version": "3.4.5-1",
     "origin": "artix-world",
-    "sha256": "dab28dfa887821b2611d163fb0665d185ee55d0793a422b0b61b99101a7a2027",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haproxy-3.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "07cabba7fc7bb8a584d219ed5e136df5940cd05e9b60cf54b28fa8423d191076",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haproxy-3.4.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "openssl",
-      "pcre2",
-      "zlib",
+      "glibc",
       "libxcrypt",
       "libcrypt.so=2-64",
-      "lua"
+      "lua",
+      "openssl",
+      "libcrypto.so=3-64",
+      "libssl.so=3-64",
+      "pcre2",
+      "libpcre2-8.so=0-64",
+      "zlib",
+      "libz.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -80463,10 +80468,10 @@
   },
   {
     "name": "python-flake8",
-    "version": "1:7.4.0-1",
+    "version": "1:7.4.1-1",
     "origin": "artix-world",
-    "sha256": "bd4739590c866a11894a0bedf602a7fc3e934b79ef336383aa1b0f09b78b9634",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-flake8-1:7.4.0-1-any.pkg.tar.zst",
+    "sha256": "eefce02a19b7333ab8bfb44be4341e242486ce0c534c68c10e9060d9c9787c43",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-flake8-1:7.4.1-1-any.pkg.tar.zst",
     "provides": [
       "flake8"
     ],
