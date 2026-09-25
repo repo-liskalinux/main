@@ -1455,10 +1455,10 @@
   },
   {
     "name": "android-udev",
-    "version": "20260423-1",
+    "version": "20260922-1",
     "origin": "artix-world",
-    "sha256": "ae0e2c73ce96f6e42237927f4aa32d7abb9c3dc648d93b7d40e0a01244ca42ba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/android-udev-20260423-1-any.pkg.tar.zst",
+    "sha256": "c1321384708f87ff527761407efe483b6c62d2d4f20f4ac4e21e93a5d00d3cb0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/android-udev-20260922-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "udev",
@@ -1565,10 +1565,10 @@
   },
   {
     "name": "ansible-creator",
-    "version": "26.8.0-1",
+    "version": "26.9.0-1",
     "origin": "artix-world",
-    "sha256": "4b9edb70160376055ab21c2e5f88881da5fe040744828b277065dda62f179ede",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-creator-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "a02a622b33bb276128f0133eeaedbef1606f3a3600127db4fc2e23a8cd6d689c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-creator-26.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -1586,10 +1586,10 @@
   },
   {
     "name": "ansible-lint",
-    "version": "26.8.0-2",
+    "version": "26.9.0-1",
     "origin": "artix-world",
-    "sha256": "e71416df7f5d83dd25edf59e5c01d14ceedec776cebbd67359b94d62dd39be11",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-lint-26.8.0-2-any.pkg.tar.zst",
+    "sha256": "8ace13b45899cac80a7e27fff0e2defbceab465536fc46b0b84f7636ebf7f587",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-lint-26.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -5437,10 +5437,10 @@
   },
   {
     "name": "blosc2",
-    "version": "3.3.4-1",
+    "version": "3.3.5-1",
     "origin": "artix-world",
-    "sha256": "77d46eb238dc896f5a2b73c20a6bfbeed0af0dcd0c8c74ab08f202a4c56f6c33",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blosc2-3.3.4-1-x86_64.pkg.tar.zst",
+    "sha256": "91129585e13fbb36d88410e3415b24b635784feecc174c925059ca4567ec32c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blosc2-3.3.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libblosc2.so=9-64"
     ],
@@ -23628,10 +23628,10 @@
   },
   {
     "name": "groovy",
-    "version": "5.1.2-1",
+    "version": "6.0.0-1",
     "origin": "artix-world",
-    "sha256": "f78490cf83e4a373513efdd0c700c291b31154b9f38175a7c38a41e466e619b0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/groovy-5.1.2-1-any.pkg.tar.zst",
+    "sha256": "fd673325bf2f1524f5d87029f1dd2c2a69dcf9c074205c20464fac1443b3eb27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/groovy-6.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-environment"
@@ -31648,10 +31648,10 @@
   },
   {
     "name": "jenkins",
-    "version": "2.582-1",
+    "version": "2.583-1",
     "origin": "artix-world",
-    "sha256": "ef011b0537069aa9da053afd3c120df00006c73e52b30bc2877edaa7eed162b7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.582-1-any.pkg.tar.zst",
+    "sha256": "b0d1ce3ff5a5a4be814f902590f6094d98985df6f5f27ec6900779014e3acb67",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.583-1-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
@@ -92554,10 +92554,10 @@
   },
   {
     "name": "python-ruff",
-    "version": "0.16.8-1",
+    "version": "0.16.9-1",
     "origin": "artix-world",
-    "sha256": "652694fce9dcd3dab6eb8c0b446688f79f3c29f2d540916d48407ff8302fa3da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.16.8-1-x86_64.pkg.tar.zst",
+    "sha256": "909e098027b8ab002e05dc9b88dfce60f3d151a935e2a3e81564eda4febcb468",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.16.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96049,24 +96049,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.18-1",
+    "version": "0.12.19-1",
     "origin": "artix-world",
-    "sha256": "cea158f17aba2b84fdd6f6fd73b2cbd276bf4aca72fb1fca1423438415e5eb1e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.18-1-x86_64.pkg.tar.zst",
+    "sha256": "fd2be74677a5c254ce7ee21eded1fcff4fc1445cf261308041692d9eff9b72ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.18"
+      "uv=0.12.19"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.18-1",
+    "version": "0.12.19-1",
     "origin": "artix-world",
-    "sha256": "97a13e28c618e079360d4708f6a887280498f0fd6d5196903729ec131a310014",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.18-1-x86_64.pkg.tar.zst",
+    "sha256": "e4bfd8f00074fa88245afadce1b1a3303c7a2208438e787869b22eae21b469a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -109146,10 +109146,10 @@
   },
   {
     "name": "ruff",
-    "version": "0.16.8-1",
+    "version": "0.16.9-1",
     "origin": "artix-world",
-    "sha256": "1cefd91e95147d3b5675326b2eb4cf8f82acc37802ab4157eaf3fe3d7f410d77",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.16.8-1-x86_64.pkg.tar.zst",
+    "sha256": "1472c4f2b250d8a958c072d5cccee31610a3d80944ee621e45971a53b6132940",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.16.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -123437,10 +123437,10 @@
   },
   {
     "name": "tor",
-    "version": "0.4.9.12-1",
+    "version": "0.4.9.13-1",
     "origin": "artix-world",
-    "sha256": "4a0440d7b08e2bd2813c90d67d5c4e80cf8142f450b8e39b806c8b3e8396f938",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tor-0.4.9.12-1-x86_64.pkg.tar.zst",
+    "sha256": "37f781227fc31e436cad524c81c6d84d4ce3fc07a8e1e398895c3e6705ffff04",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tor-0.4.9.13-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -125908,10 +125908,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.18-1",
+    "version": "0.12.19-1",
     "origin": "artix-world",
-    "sha256": "85a54c8f46e1313a4a44c87ec85bf4115e231384b4c4dbeac90eb5216e1aaa8e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.18-1-x86_64.pkg.tar.zst",
+    "sha256": "b404c74c90ef94f8fc22d7867bd72a46b215548426d3287f0d519528a9cb856a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126188,10 +126188,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20260920133716-1",
+    "version": "20260925013933-1",
     "origin": "artix-world",
-    "sha256": "d81d3b6761a4d57770a96d82a3dc4b3073e3a0288eae4c9f874afc9825441513",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20260920133716-1-any.pkg.tar.zst",
+    "sha256": "5a60c6a79585decaf4d9410aeaf885e9b32543c51f7ae3a23d39ddc7a9455345",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20260925013933-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -134909,10 +134909,10 @@
   },
   {
     "name": "zabbix-agent",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "0a7942f9b5a7a7e5bd9faf72f685739a1b687b9a5596d3d41f889dc0cb176972",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "f576ca39c20c96301953f48cdd5004ddb97a09b1335dbaa42019792710557333",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -134924,10 +134924,10 @@
   },
   {
     "name": "zabbix-agent2",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "817077a90a140b919a11661dab997b000213fbb3ce296effc0983e9b776dd2bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent2-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "9cc9b6c6a25089df27e02f425370509c351350c6566f941e55765efa651f2696",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent2-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -134939,10 +134939,10 @@
   },
   {
     "name": "zabbix-common",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "3e799bf46d7487c4e9b1a48649491ff6edcc415ced9f9351d727d4b561eb9f1b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-common-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "b4cd7876bcecc42f4853c849df5c38f1551a87660df73a027efa5bb6ef2913a2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-common-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -134950,10 +134950,10 @@
   },
   {
     "name": "zabbix-frontend-php",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "a517e62c8e0d4e6b0a771a84af92b8d705f673ecae4cbe9bae35f2a47764dd44",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-frontend-php-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "a9b0f6c95c05f1e5869d55d3f4e73f994a7ddace4852d527aa437a23fc33e680",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-frontend-php-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-server",
@@ -134965,10 +134965,10 @@
   },
   {
     "name": "zabbix-proxy",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "089aec1d8248a3b2cced8e9246b15cda902523cf1aa3a3ab3a2db3ae25991268",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-proxy-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "ca20242ae4f1786c53ef8a1d7f285105ec498d31c00481387cfc2aa4cffb0bc1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-proxy-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -134990,10 +134990,10 @@
   },
   {
     "name": "zabbix-server",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "fcdb7c0d0365adcdb0e41b20c201adc6a9c389f9836adb2f30e3add5c9c88d2e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-server-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "06fb365afcc94c066ce3d37e2c339def62f116c7bbd380008dbb2198293f1e3b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-server-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135015,10 +135015,10 @@
   },
   {
     "name": "zabbix-web-service",
-    "version": "7.4.14-1",
+    "version": "7.4.15-1",
     "origin": "artix-world",
-    "sha256": "158d0c2744fe22056bb9a2978202c9e651ba2b44c1f56e22fe52c269714b29b0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-web-service-7.4.14-1-x86_64.pkg.tar.zst",
+    "sha256": "b9b085e44be620f39194871a74d11847449e403274556416d994d19ecda2ca0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-web-service-7.4.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",

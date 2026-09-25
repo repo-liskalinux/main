@@ -27630,10 +27630,10 @@
   },
   {
     "name": "timeshift",
-    "version": "25.12.4-1",
+    "version": "26.09.0-1",
     "origin": "artix-galaxy",
-    "sha256": "87e024e70e150d04049bda12990ed50913e717e11e305fd63bb2a01595c8ee6f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/timeshift-25.12.4-1-x86_64.pkg.tar.zst",
+    "sha256": "4ead47a2ab2688f8589eeecb7b4617827e8a5fe546845453bf1d1e458402d997",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/timeshift-26.09.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgee",
@@ -27646,8 +27646,7 @@
     ],
     "optdepends": [
       "btrfs-progs: For BTRFS support",
-      "grub-btrfs: For BTRFS snapshots in GRUB",
-      "xorg-xhost: For authorization on Wayland"
+      "grub-btrfs: For BTRFS snapshots in GRUB"
     ],
     "conflicts": []
   },
