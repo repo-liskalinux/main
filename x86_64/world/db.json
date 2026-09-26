@@ -18448,10 +18448,10 @@
   },
   {
     "name": "gamescope",
-    "version": "3.16.29-1",
+    "version": "3.16.30-1",
     "origin": "artix-world",
-    "sha256": "d3b9333652f618b114025ad0bc2d98faa2afb259fb304e0592f0a1db05a03248",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gamescope-3.16.29-1-x86_64.pkg.tar.zst",
+    "sha256": "22d648208211d890a0bf64c8fa67c10f1c223e0d82e08da9ae1700bbbb323daa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gamescope-3.16.30-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -20430,10 +20430,10 @@
   },
   {
     "name": "glaze",
-    "version": "8.4.0-1",
+    "version": "9.0.0-1",
     "origin": "artix-world",
-    "sha256": "d81c040f9a3051df32cd429d46a4b9397df37384e988c82b9b201f7f0ed1ef13",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glaze-8.4.0-1-any.pkg.tar.zst",
+    "sha256": "c2ed48e4e2c0035e9c8e84a9a3bdbe84deb208f8f533a7d80f8ef55240dc64df",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glaze-9.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -23860,10 +23860,10 @@
   },
   {
     "name": "gspell",
-    "version": "1.14.4-1",
+    "version": "1.14.5-1",
     "origin": "artix-world",
-    "sha256": "0260611990b59d259c939e37e7164e8085c6c61758d5f45060bd6623ee83ef24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gspell-1.14.4-1-x86_64.pkg.tar.zst",
+    "sha256": "e49044d84ac4af378c830625b0f2dcfa3900b64adced44ad60f6d03db2ef9c57",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gspell-1.14.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgspell-1.so=3-64"
     ],
@@ -28780,10 +28780,10 @@
   },
   {
     "name": "hyprland-guiutils",
-    "version": "0.2.2-3",
+    "version": "0.2.2-4",
     "origin": "artix-world",
-    "sha256": "eb9592f98dccf84131355e3f58368658bad7f1f9af43f169e8c893b1bdf72ee5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-guiutils-0.2.2-3-x86_64.pkg.tar.zst",
+    "sha256": "b4f8206c931e7ce39b6852abd7169ca06fcfee2fdd6c28ad6e6ca937f654b066",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-guiutils-0.2.2-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -28791,7 +28791,7 @@
       "glibc",
       "hyprlang",
       "hyprtoolkit",
-      "libhyprtoolkit.so=5-64",
+      "libhyprtoolkit.so=6-64",
       "hyprutils",
       "libhyprutils.so=13-64",
       "libdrm",
@@ -28802,10 +28802,10 @@
   },
   {
     "name": "hyprland-protocols",
-    "version": "0.7.0-1",
+    "version": "0.7.1-1",
     "origin": "artix-world",
-    "sha256": "afdfbef23da7e19dad3cf1a149b98df0fe41a70daffe57e865ec8d370ab91bc9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-protocols-0.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "81d20825e49bf46e04e538b8660634de2ed18599be8df04c0c060f8be859ae66",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-protocols-0.7.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -28892,10 +28892,10 @@
   },
   {
     "name": "hyprpaper",
-    "version": "0.8.4-8",
+    "version": "0.8.4-9",
     "origin": "artix-world",
-    "sha256": "5124bbad43897dfc29f3b07f9684bc2d1b67b3ba20fe74e0a643ee679453d4e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpaper-0.8.4-8-x86_64.pkg.tar.zst",
+    "sha256": "44e3bc0340c3b43ada3a07a0c31d6054184181e9c12edb2c648ba23f91ca03b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpaper-0.8.4-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "file",
@@ -28908,7 +28908,7 @@
       "hyprlang",
       "libhyprlang.so=2-64",
       "hyprtoolkit",
-      "libhyprtoolkit.so=5-64",
+      "libhyprtoolkit.so=6-64",
       "hyprutils",
       "libhyprutils.so=13-64",
       "hyprwire",
@@ -28968,20 +28968,23 @@
   },
   {
     "name": "hyprpolkitagent",
-    "version": "0.1.3-10",
+    "version": "0.2.0-1",
     "origin": "artix-world",
-    "sha256": "7e2ed5df03d08a637cbcd0f5b14c6e1d547ba336fec3d6390c28a361ea6946b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpolkitagent-0.1.3-10-x86_64.pkg.tar.zst",
+    "sha256": "603276e44ed756d39d97c8c38013d96a355e277bbaebd9e5c7cbe81fd8279b24",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpolkitagent-0.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
       "libstdc++",
       "glibc",
+      "hyprgraphics",
       "hyprland-qt-support",
+      "hyprtoolkit",
       "hyprutils",
       "polkit-qt6",
       "qt6-base",
-      "qt6-declarative"
+      "qt6-declarative",
+      "sdbus-cpp"
     ],
     "optdepends": [],
     "conflicts": []
@@ -29052,16 +29055,17 @@
   },
   {
     "name": "hyprtoolkit",
-    "version": "0.5.4-6",
+    "version": "0.6.0-1",
     "origin": "artix-world",
-    "sha256": "50d191cb3ac1f25d85dc1d153fa6cd43687f82bc7e5f93355b463f2176c1ddf9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprtoolkit-0.5.4-6-x86_64.pkg.tar.zst",
+    "sha256": "0a14f37feb1aafd067d52b9b76de9bb4b7261cf5e3db2ed1300276c82799f12e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprtoolkit-0.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libhyprtoolkit.so=5-64"
+      "libhyprtoolkit.so=6-64"
     ],
     "depends": [
       "libgcc",
       "libstdc++",
+      "abseil-cpp",
       "aquamarine",
       "libaquamarine.so=14-64",
       "cairo",
@@ -43868,10 +43872,10 @@
   },
   {
     "name": "libdwarf",
-    "version": "1:2.3.2-1",
+    "version": "1:2.3.3-1",
     "origin": "artix-world",
-    "sha256": "56b15cb3953e1f18f562fd73838215beae7b763aca37d4d97d80420344627634",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libdwarf-1:2.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9c1286861e50b811aab9ebfb01d904d1f25bb3b7fe61fe8e3e204308b2389f40",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libdwarf-1:2.3.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdwarf.so=2-64"
     ],
@@ -46165,10 +46169,10 @@
   },
   {
     "name": "libkrun",
-    "version": "1.19.4-1",
+    "version": "1.19.5-1",
     "origin": "artix-world",
-    "sha256": "a95c1fe01b802e562a144004b2d2d75ae9cec6bdf9b76d5203193c6a13426929",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrun-1.19.4-1-x86_64.pkg.tar.zst",
+    "sha256": "18e6d6cb45271ca77992a8c67075378c5eaba06a1644143604d3510d59df3244",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrun-1.19.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -46184,10 +46188,10 @@
   },
   {
     "name": "libkrunfw",
-    "version": "5.6.1-1",
+    "version": "5.6.2-1",
     "origin": "artix-world",
-    "sha256": "60ab889bf33e643ccefd80679122d377afa947316196a489013d0f44d469d1ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrunfw-5.6.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ef0adfc4501a0d42997b2c4b8ecccd2db45716a5d218d06fe54ac2a019e2bff4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrunfw-5.6.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -47492,10 +47496,10 @@
   },
   {
     "name": "libntfs-3g",
-    "version": "2026.7.7-1",
+    "version": "2026.9.18-1",
     "origin": "artix-world",
-    "sha256": "3c67e0a195768f924cb2f30521aaaf425e2f83b14250146a2001a283d635165e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libntfs-3g-2026.7.7-1-x86_64.pkg.tar.zst",
+    "sha256": "0b3f0f49ea97b1ba4234446fce9363a6ebf983e5fcb244683961ed30b7c86111",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libntfs-3g-2026.9.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -58515,10 +58519,10 @@
   },
   {
     "name": "nanobind",
-    "version": "3.0.1-1",
+    "version": "3.1.0-1",
     "origin": "artix-world",
-    "sha256": "e72d5ac23b7aa79a97ff2786099a6b5067b4d78cb2153c1ee26da6c3c7959c14",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nanobind-3.0.1-1-any.pkg.tar.zst",
+    "sha256": "d6451c2df2f4df0e2bc8fce33471379c488861146ad85dcf562f424ee8060acb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nanobind-3.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -60442,10 +60446,10 @@
   },
   {
     "name": "ntfs-3g",
-    "version": "2026.7.7-1",
+    "version": "2026.9.18-1",
     "origin": "artix-world",
-    "sha256": "9c27222bbcf4c66a67e7ed85c3ad02abc792cdd95198c5c791ec2d765e4a084f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ntfs-3g-2026.7.7-1-x86_64.pkg.tar.zst",
+    "sha256": "1c93283629a26d76c18c914df252c2c8c518b5fde3ba1d8efbf167add389986f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ntfs-3g-2026.9.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -60459,10 +60463,10 @@
   },
   {
     "name": "ntfsprogs",
-    "version": "2026.7.7-1",
+    "version": "2026.9.18-1",
     "origin": "artix-world",
-    "sha256": "89df0b8007fb8b717ae046833c82e4dca8a72dc9832a0b5051a9c964ba7c2623",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ntfsprogs-2026.7.7-1-x86_64.pkg.tar.zst",
+    "sha256": "323a3c064b4f69636cd198479b3e4ebd17cf1b57c64c6d3b54e605bc4c30f9e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ntfsprogs-2026.9.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -62169,10 +62173,10 @@
   },
   {
     "name": "openexr",
-    "version": "3.5.0-2",
+    "version": "3.5.1-1",
     "origin": "artix-world",
-    "sha256": "67efc283a9d03221e0dda7cba13cdd79d147f0c5c071c08051fa144f51eeb762",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openexr-3.5.0-2-x86_64.pkg.tar.zst",
+    "sha256": "b4a7e541371a9987d62a52406a38c954b22ff729336ec767b8ce89f47762eae5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openexr-3.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -106034,10 +106038,10 @@
   },
   {
     "name": "ruby-liquid",
-    "version": "5.13.0-1",
+    "version": "5.14.0-1",
     "origin": "artix-world",
-    "sha256": "a96b5154f6374275b00404cc5c5d6afbf6e368ce6223ac2c9726bfca2aa02515",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-liquid-5.13.0-1-any.pkg.tar.zst",
+    "sha256": "d7293e5e78f31e00e437969dd17f6dcf9dc4106164a8dd609e2b8276cff9dade",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-liquid-5.14.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -106354,10 +106358,10 @@
   },
   {
     "name": "ruby-mime-types-data",
-    "version": "3.2026.0701-1",
+    "version": "3.2026.0922-1",
     "origin": "artix-world",
-    "sha256": "197eba26f62a738007c39fb39b5899a9e12bee1dc81d761c4b49bfd005def895",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mime-types-data-3.2026.0701-1-any.pkg.tar.zst",
+    "sha256": "f1651ad727fd837818abe54b2e263ffdd09e62f5c9812166b1b0b5c5ad86fb40",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mime-types-data-3.2026.0922-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -108178,10 +108182,10 @@
   },
   {
     "name": "ruby-sass-embedded",
-    "version": "1.104.0-1",
+    "version": "1.105.0-1",
     "origin": "artix-world",
-    "sha256": "28b0c2a5c338138d1cc55d6a1f3e33b190edb5389e421634173ba590a49990e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sass-embedded-1.104.0-1-any.pkg.tar.zst",
+    "sha256": "a69936fc35c3b0c92e92392b532eaec208f3f77f42b9c9ca3ab1b3977f992c4b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sass-embedded-1.105.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dart-sass",
@@ -131939,10 +131943,10 @@
   },
   {
     "name": "xdg-dbus-proxy",
-    "version": "0.1.8-1",
+    "version": "0.1.9-1",
     "origin": "artix-world",
-    "sha256": "ad41e8e22a9a38bb667b3ac0da8d998cda1d116eb012b639656f5bd8411d5a91",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-dbus-proxy-0.1.8-1-x86_64.pkg.tar.zst",
+    "sha256": "9f7c769d821bcfdb05fbf5632723276a95067f74f588ea12ce3c02191c45e254",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-dbus-proxy-0.1.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",

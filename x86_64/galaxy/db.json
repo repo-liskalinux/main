@@ -1686,10 +1686,10 @@
   },
   {
     "name": "cargo-nextest",
-    "version": "0.9.145-1",
+    "version": "0.9.146-1",
     "origin": "artix-galaxy",
-    "sha256": "67696cc4cce6b6fc434268d4f567f98258a84a0c00b5dddc7b0f5c991a627068",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cargo-nextest-0.9.145-1-x86_64.pkg.tar.zst",
+    "sha256": "1b4729e81500a4fd54f505e71e60207a933cd38bc8772b222c4c64401d8534e3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cargo-nextest-0.9.146-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cargo",
@@ -4873,10 +4873,10 @@
   },
   {
     "name": "fcitx5-configtool",
-    "version": "5.1.16-1",
+    "version": "5.1.16-2",
     "origin": "artix-galaxy",
-    "sha256": "65dd30981f34595d2c17949e76a59af37838566c5970ed985170a7d6c055b0b1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-configtool-5.1.16-1-x86_64.pkg.tar.zst",
+    "sha256": "54e00f99029d5a2485a6b262644037a94e7030a6800ad655ea898f6c940426b3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-configtool-5.1.16-2-x86_64.pkg.tar.zst",
     "provides": [
       "fcitx5-config-qt",
       "kcm-fcitx5"
@@ -24483,26 +24483,39 @@
   },
   {
     "name": "radicle-desktop",
-    "version": "0.13.0-1",
+    "version": "0.16.0-2",
     "origin": "artix-galaxy",
-    "sha256": "93207c1146349b71ce0fe56fbc94aea04ee6209ee8bcb96c48ad889ded40acea",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-desktop-0.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a4de0716994186a56454fad59e1518afac4d144610e686af7465c18c3d67564e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-desktop-0.16.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
-      "desktop-file-utils",
+      "libcairo.so=2-64",
+      "dbus",
+      "libdbus-1.so=3-64",
       "gdk-pixbuf2",
+      "libgdk_pixbuf-2.0.so=0-64",
       "glib2",
+      "libgio-2.0.so=0-64",
+      "libglib-2.0.so=0-64",
+      "libgobject-2.0.so=0-64",
+      "glibc",
       "gtk3",
+      "libgdk-3.so=0-64",
+      "libgtk-3.so=0-64",
       "hicolor-icon-theme",
-      "libjxl.so=0.12",
+      "libgcc",
+      "libgcc_s.so=1-64",
       "libsoup3",
-      "pango",
-      "webkit2gtk-4.1"
+      "libsoup-3.0.so=0-64",
+      "radicle",
+      "webkit2gtk-4.1",
+      "libjavascriptcoregtk-4.1.so=0-64",
+      "libwebkit2gtk-4.1.so=0-64",
+      "zlib",
+      "libz.so=1-64"
     ],
-    "optdepends": [
-      "radicle-node"
-    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
