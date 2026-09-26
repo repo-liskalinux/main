@@ -338,10 +338,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-389.1",
+    "version": "1.2.2-390",
     "origin": "artix-world",
-    "sha256": "fcba049e021b153ef8a4db528ede278ee205f94569b218e281e1282ccd53d32d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-389.1-x86_64.pkg.tar.zst",
+    "sha256": "8b02ba98b27d76ae976b199bab66aacc03c84b6d34af59c50ce92d0a4e05f2c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-390-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4841,10 +4841,10 @@
   },
   {
     "name": "bbswitch",
-    "version": "0.8-854.1",
+    "version": "0.8-854.2",
     "origin": "artix-world",
-    "sha256": "9b60a3e91de821e66b46545b442aaf4ecab6eaa5da7092266d8ea691d71b2bee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-854.1-x86_64.pkg.tar.zst",
+    "sha256": "dc90b9045e80039a35f95e0dfc433480b2653b550270bcab80ab6b98170fc8f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-854.2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4854,10 +4854,10 @@
   },
   {
     "name": "bbswitch-dkms",
-    "version": "0.8-854.1",
+    "version": "0.8-854.2",
     "origin": "artix-world",
-    "sha256": "7151c2b37cfa45160dc2836b1c2e7e4eb626e8e7951486cee215ce796e9df127",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-854.1-x86_64.pkg.tar.zst",
+    "sha256": "4a43709c3e211152f310e0cd8fddad790d884f36bd9bec94c06ec686e9a75335",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-854.2-x86_64.pkg.tar.zst",
     "provides": [
       "bbswitch"
     ],
@@ -6960,10 +6960,10 @@
   },
   {
     "name": "cairo",
-    "version": "1.18.4-1",
+    "version": "1.18.6-1",
     "origin": "artix-world",
-    "sha256": "4567a25f3968930cc0a0356d27aa0ac8f3c6d94a1226a3bca425c447e7ade65c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cairo-1.18.4-1-x86_64.pkg.tar.zst",
+    "sha256": "5862f09ac74e822c4f0c4d205c5f75c42b0ac1a96e63181136003ce04ed598ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cairo-1.18.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libcairo-gobject.so=2-64",
       "libcairo-script-interpreter.so=2-64",
@@ -30354,10 +30354,10 @@
   },
   {
     "name": "intel-ucode",
-    "version": "20260812-1",
+    "version": "20260925-1",
     "origin": "artix-world",
-    "sha256": "9fe0884bf28dcfc379652fb54a9b91a396057c728377d254d82b4cb2ce18ab36",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-ucode-20260812-1-any.pkg.tar.zst",
+    "sha256": "99481a94bf5bb77c9b695d215a9abf850db1522dd8a4385360ac9e1216a2e39b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-ucode-20260925-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -60796,10 +60796,10 @@
   },
   {
     "name": "nvidia-open",
-    "version": "615.71.09-4",
+    "version": "615.71.09-4.1",
     "origin": "artix-world",
-    "sha256": "1b55643434c6dff9ed233b4e455426a35334f3002fe6280ed363a73d22fc4de3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.71.09-4-x86_64.pkg.tar.zst",
+    "sha256": "21ccc65b7928c3ea23f43a78ee9e8cc58691f6c318a128c87edea9b75a55c197",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.71.09-4.1-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
@@ -108802,10 +108802,10 @@
   },
   {
     "name": "ruby-tins",
-    "version": "1.58.0-1",
+    "version": "1.59.0-1",
     "origin": "artix-world",
-    "sha256": "8d8206c2a58dcd757ffafb083528cbcc297b3e50df5b64dd7b99cb2005904b94",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-tins-1.58.0-1-any.pkg.tar.zst",
+    "sha256": "f854ca360caa8c3f2123c079e45dd11762fb7b8177b3b3c2357e51663779ca5e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-tins-1.59.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",

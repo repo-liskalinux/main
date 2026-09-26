@@ -1701,6 +1701,34 @@
     "conflicts": []
   },
   {
+    "name": "cargo-tauri",
+    "version": "2.11.5-1",
+    "origin": "artix-galaxy",
+    "sha256": "ddddb8f17843c618c47eb2d6429f407db2246a65ad2290085f1cca150e5e7516",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cargo-tauri-2.11.5-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "appmenu-gtk-module",
+      "base-devel",
+      "bzip2",
+      "libbz2.so=1.0-64",
+      "cargo",
+      "curl",
+      "file",
+      "glibc",
+      "libappindicator-gtk3",
+      "libgcc",
+      "librsvg",
+      "openssl",
+      "wget",
+      "xdotool",
+      "xz",
+      "liblzma.so=5-64"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "catfish",
     "version": "4.20.1-2",
     "origin": "artix-galaxy",
@@ -16462,10 +16490,10 @@
   },
   {
     "name": "librewolf",
-    "version": "156.0.0_1-1",
+    "version": "156.0.1_1-1",
     "origin": "artix-galaxy",
-    "sha256": "96b29ef7e28c2c31a989feb372cddefbff8c2b8ed85c3c2317a3a5fded107868",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-156.0.0_1-1-x86_64.pkg.tar.zst",
+    "sha256": "0ea75d073c3e58f4a567eb478b94ca37fc5fb3e145bdf012037359309e5a5ccb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-156.0.1_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
