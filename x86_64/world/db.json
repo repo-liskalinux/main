@@ -17894,16 +17894,17 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.5.0-1",
+    "version": "3.6.0-1",
     "origin": "artix-world",
-    "sha256": "6e92088d70d5196c626350b4224d645cc38b01e389948110c98a6d59728820dd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0a925e4302de8d81aebf7489a2f3308d5c2eebd2bfc226dfa473263d9fa2b1dc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
       "gavl",
       "glibc",
       "libgcc",
+      "libglvnd",
       "libstdc++",
       "opencv"
     ],
@@ -29546,10 +29547,10 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.31-2",
+    "version": "7.1.2.32-1",
     "origin": "artix-world",
-    "sha256": "a02f7220bf9d8767063f8394a62f49e9ca62a9d2760aaf8c343f97cb1003f61f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.31-2-x86_64.pkg.tar.zst",
+    "sha256": "d4c609ddd228b9adfc367a17da671a7cf04a0fa1d8961a892b10acf96084a6a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.32-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmagick"
     ],
