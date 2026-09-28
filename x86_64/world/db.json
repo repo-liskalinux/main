@@ -9319,10 +9319,10 @@
   },
   {
     "name": "containerd",
-    "version": "2.4.0-1",
+    "version": "2.4.1-1",
     "origin": "artix-world",
-    "sha256": "18e79762096bdacfc54b0f857a0f06d63bc5c19b177ac95f440b7f3e2b2bf143",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containerd-2.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "229637d7726eb33fe2bc65d74685da35df4289b523c0eacb8a0930706d6caa6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containerd-2.4.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "container-runtime"
     ],
@@ -13740,6 +13740,57 @@
     "conflicts": [
       "init-ejabberd"
     ]
+  },
+  {
+    "name": "electron42",
+    "version": "42.11.8-1",
+    "origin": "artix-world",
+    "sha256": "3431d1e3721e8cdb6e0fd074155893dc3ce8ec69c5d0cb583a10bc2c33d2b3f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/electron42-42.11.8-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "c-ares",
+      "libgcc",
+      "glibc",
+      "gtk3",
+      "libgtk-3.so=0-64",
+      "libevent",
+      "libffi",
+      "libffi.so=8-64",
+      "libpulse",
+      "libpulse.so=0-64",
+      "nss",
+      "zlib",
+      "libz.so=1-64",
+      "fontconfig",
+      "libfontconfig.so=1-64",
+      "brotli",
+      "libjpeg-turbo",
+      "libjpeg.so=8-64",
+      "flac",
+      "libFLAC.so=14-64",
+      "libdrm",
+      "libxml2",
+      "libxml2.so=16-64",
+      "minizip",
+      "opus",
+      "libopus.so=0-64",
+      "libxslt",
+      "libxslt.so=1-64",
+      "harfbuzz",
+      "libharfbuzz.so=0-64",
+      "libharfbuzz-subset.so=0-64",
+      "freetype2",
+      "libfreetype.so=6-64"
+    ],
+    "optdepends": [
+      "kde-cli-tools: file deletion support (kioclient)",
+      "pipewire: WebRTC desktop sharing under Wayland",
+      "gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)",
+      "trash-cli: file deletion support (trash-put)",
+      "xdg-utils: open URLs with desktop’s default (xdg-email, xdg-open)"
+    ],
+    "conflicts": []
   },
   {
     "name": "electrum",
@@ -29961,12 +30012,14 @@
   },
   {
     "name": "inotify-tools",
-    "version": "4.25.9.0-1",
+    "version": "4.26.262-1",
     "origin": "artix-world",
-    "sha256": "ec69b0e68c2ee2ce73f999f147e34a15c28951909382eb4803cf63c6a2d49108",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/inotify-tools-4.25.9.0-1-x86_64.pkg.tar.zst",
+    "sha256": "65d5b6a38207eccd5f32cd979383c7775860ed429448a7b224a85453db9b6679",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/inotify-tools-4.26.262-1-x86_64.pkg.tar.zst",
     "provides": [],
-    "depends": [],
+    "depends": [
+      "libgcc"
+    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -32538,10 +32591,10 @@
   },
   {
     "name": "julia",
-    "version": "2:1.13.0-2",
+    "version": "2:1.13.1-1",
     "origin": "artix-world",
-    "sha256": "99e90a5ebaf65f1fd080a921909f88dee1a8a5ad3d7a36cbd469312bb2cee354",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.0-2-x86_64.pkg.tar.zst",
+    "sha256": "f418c09ae240029dad684cdeb43312665fba64868d965581a0e04d41c1bfb098",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas64-openblas",
@@ -32997,10 +33050,10 @@
   },
   {
     "name": "kaddressbook",
-    "version": "26.08.1-1",
+    "version": "26.08.1-2",
     "origin": "artix-world",
-    "sha256": "fba435393595009b4f93ba486a6f857af12106be2ab19332bcf1022ca411403e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaddressbook-26.08.1-1-x86_64.pkg.tar.zst",
+    "sha256": "dd9fbe60c37e178a531a64cb264fa516e78d76b0f3c042e130735e3555275537",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kaddressbook-26.08.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -37870,10 +37923,10 @@
   },
   {
     "name": "kmail",
-    "version": "26.08.1-1",
+    "version": "26.08.1-2",
     "origin": "artix-world",
-    "sha256": "c6dc6d186aee751b89ce53ce237eaf1e3536804ac762fb407dd8393c57ef90d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmail-26.08.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b5385486b96429184e47a336b2e8813027acd4bf86453a39b429134246b73fb6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmail-26.08.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -39117,10 +39170,10 @@
   },
   {
     "name": "korganizer",
-    "version": "26.08.1-1",
+    "version": "26.08.1-2",
     "origin": "artix-world",
-    "sha256": "aa77e9e6ca869e1ac29dcc5de8db2edf537691903707420d794869660e83a83b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/korganizer-26.08.1-1-x86_64.pkg.tar.zst",
+    "sha256": "40a7f8259adcae14572f9d9770ef5b27a4dd76f0d7843a511f724372629eb89f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/korganizer-26.08.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -40524,10 +40577,10 @@
   },
   {
     "name": "ktextaddons",
-    "version": "2.1.2-1",
+    "version": "2.2.0-1",
     "origin": "artix-world",
-    "sha256": "a3825756bc2b86045b375259b657af8e9b2b9a5001d5e9b739f20439579211e9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktextaddons-2.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9afd038df0120acf5871df4c15e39777867cc7f62f295e049c1b97b34f4ecde8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ktextaddons-2.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -40544,6 +40597,7 @@
       "kwidgetsaddons",
       "libstdc++",
       "qt6-base",
+      "qt6-multimedia",
       "qt6-speech",
       "qtkeychain-qt6",
       "sonnet",
@@ -43447,10 +43501,10 @@
   },
   {
     "name": "libcupsfilters",
-    "version": "2.2.1-2",
+    "version": "2.2.1.r23.gdee3b387-1",
     "origin": "artix-world",
-    "sha256": "01ace75851072c7e5d880419d02d6f0c4f7015ef8789b42e9a855fe2c6facad4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcupsfilters-2.2.1-2-x86_64.pkg.tar.zst",
+    "sha256": "6771e1733c701fb3c7805283199bd7d3520fe6ade66a31f9fe00918d57d4f902",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcupsfilters-2.2.1.r23.gdee3b387-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcups",
@@ -70814,10 +70868,10 @@
   },
   {
     "name": "pim-sieve-editor",
-    "version": "26.08.1-1",
+    "version": "26.08.1-2",
     "origin": "artix-world",
-    "sha256": "a0633978c646deecb90c756c22a8418d2dfdc9873568d914dc72319784254fda",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pim-sieve-editor-26.08.1-1-x86_64.pkg.tar.zst",
+    "sha256": "98a5dd109b62d7c1764308139ff1b848b9bfb0031ca69bb402877768331a0cc0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pim-sieve-editor-26.08.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
