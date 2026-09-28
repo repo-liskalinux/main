@@ -28856,6 +28856,38 @@
     "conflicts": []
   },
   {
+    "name": "hyprlauncher",
+    "version": "0.1.6-9",
+    "origin": "artix-world",
+    "sha256": "33f1504d60956caef892718d8a31f69efbeb112a06be8dcdd3ad0db9410238e3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprlauncher-0.1.6-9-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "fontconfig",
+      "libfontconfig.so=1-64",
+      "glibc",
+      "hyprlang",
+      "libhyprlang.so=2-64",
+      "hyprutils",
+      "libhyprutils.so=13-64",
+      "hyprwire",
+      "libhyprwire.so=3-64",
+      "icu",
+      "libicuuc.so=78-64",
+      "libgcc",
+      "libgcc_s.so=1-64",
+      "libqalculate",
+      "libstdc++",
+      "libstdc++.so=6-64",
+      "hyprtoolkit",
+      "libhyprtoolkit.so=6-64",
+      "wayland",
+      "wl-clipboard"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "hyprlock",
     "version": "0.9.6-3",
     "origin": "artix-world",
@@ -28988,6 +29020,31 @@
       "sdbus-cpp"
     ],
     "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "hyprpwcenter",
+    "version": "0.1.2-9",
+    "origin": "artix-world",
+    "sha256": "031577c4b6f20816c7cd670f73b5e652220bfc10928449b9f57b0a1ab214db4b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpwcenter-0.1.2-9-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libgcc",
+      "libstdc++",
+      "glibc",
+      "hyprtoolkit",
+      "libhyprtoolkit.so=6-64",
+      "hyprutils",
+      "libhyprutils.so=13-64",
+      "libdrm",
+      "libpipewire",
+      "libpipewire-0.3.so=0-64",
+      "pixman"
+    ],
+    "optdepends": [
+      "ttf-material-symbols-variable: Recommended font for icons"
+    ],
     "conflicts": []
   },
   {
@@ -50934,10 +50991,10 @@
   },
   {
     "name": "libxdp",
-    "version": "1.6.3-1",
+    "version": "1.6.3-2",
     "origin": "artix-world",
-    "sha256": "67628dab702a8d9b4b7994c1d3da44715d55a9bcf171c5563db8375f33a4f563",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxdp-1.6.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c3611e12b3fcc3b193a14ac2948140f38b1e5a51d9a2b14b8802e39f7f00d790",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxdp-1.6.3-2-x86_64.pkg.tar.zst",
     "provides": [
       "libxdp.so=1-64"
     ],
@@ -51654,10 +51711,10 @@
   },
   {
     "name": "light-locker",
-    "version": "1.9.0-6",
+    "version": "1.9.0-7",
     "origin": "artix-world",
-    "sha256": "fd0c0763cc426c442867a5436c0408b0a3a4ec49ce89b124c38a076a98d087a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/light-locker-1.9.0-6-x86_64.pkg.tar.zst",
+    "sha256": "f8f3c354088e8e50aa9301af2eddb3f76dd7520352684dc0c598755857303e3d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/light-locker-1.9.0-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -57115,15 +57172,21 @@
   },
   {
     "name": "modem-manager-gui",
-    "version": "0.0.20-3",
+    "version": "0.0.20-4",
     "origin": "artix-world",
-    "sha256": "82ad8e14f5eb9ab2ba3bc48bf2a1c31ab1ea56c829d31026a0fac2c26dd92210",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/modem-manager-gui-0.0.20-3-x86_64.pkg.tar.zst",
+    "sha256": "1d38561189cabbda6802301d07d817ccdddd2e4960a1dc7256a2769d46cef06b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/modem-manager-gui-0.0.20-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "cairo",
       "gdbm",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
       "gtk3",
       "gtkspell3",
+      "hicolor-icon-theme",
+      "libappindicator",
       "libnotify",
       "modemmanager"
     ],
@@ -63020,10 +63083,10 @@
   },
   {
     "name": "opensmtpd-filter-rspamd",
-    "version": "0.1.8-2",
+    "version": "0.1.9-1",
     "origin": "artix-world",
-    "sha256": "38c9db3b92bcc18e9e7d207930a254ce7309ac58a18ffbc64853e446fd78fcec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensmtpd-filter-rspamd-0.1.8-2-x86_64.pkg.tar.zst",
+    "sha256": "8ad9d6098a0162d474859dd4aec2c9109db684c26a1dfa9d87710b4dfb37b457",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensmtpd-filter-rspamd-0.1.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -110234,10 +110297,10 @@
   },
   {
     "name": "sdl_net",
-    "version": "1.2.8-6",
+    "version": "1.2.8-7",
     "origin": "artix-world",
-    "sha256": "542a4585347b6a897d8b2fddc9815f024a02a5609e7ded6d2c852bb3d64152b0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl_net-1.2.8-6-x86_64.pkg.tar.zst",
+    "sha256": "2800082334ab41d1c427f5c6df8105423eae489e64e433bad1685346053af643",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl_net-1.2.8-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sdl"
@@ -110247,10 +110310,10 @@
   },
   {
     "name": "sdl_sound",
-    "version": "1.0.3-13",
+    "version": "1.0.3-14",
     "origin": "artix-world",
-    "sha256": "db7a927031b04d21ac0caddd057a4c9b90d021460d2cdcaa92b6ea3d02e3bd4c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl_sound-1.0.3-13-x86_64.pkg.tar.zst",
+    "sha256": "49fcd330f0d289ec9a011d68ab772b2fb0443811e8acd8a35542aad102a9ac3f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl_sound-1.0.3-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sdl",
@@ -110721,13 +110784,15 @@
   },
   {
     "name": "sg3_utils",
-    "version": "1.48-1",
+    "version": "1.49-1",
     "origin": "artix-world",
-    "sha256": "02684de6bf19f8f3d4bfd647cac7ba5987891c1ed4aa6fa2caac9763a90667d9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sg3_utils-1.48-1-x86_64.pkg.tar.zst",
+    "sha256": "db307fb1faf3bc4570ee0265ac35305927c7e4ccabfd103643e9d855ab0b3f94",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sg3_utils-1.49-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc"
+      "bash",
+      "glibc",
+      "libgcc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -123878,10 +123943,10 @@
   },
   {
     "name": "tpm2-tools",
-    "version": "5.7-1",
+    "version": "5.8-1",
     "origin": "artix-world",
-    "sha256": "842861c1d6995b7f13b04a34924ad82f5c34926bd23b8c1cbaaf6cf3614d3f39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tpm2-tools-5.7-1-x86_64.pkg.tar.zst",
+    "sha256": "516eb3cae168f9680b50c1c43b5bad8879c58f6ac1fdb72aca6c5b58a56cc358",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tpm2-tools-5.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "efivar",
@@ -125446,10 +125511,10 @@
   },
   {
     "name": "unicode-cldr",
-    "version": "48.1-1",
+    "version": "48.2-1",
     "origin": "artix-world",
-    "sha256": "c7f4afb21592c33cce20b2c5d0e401a5893245d59e7ef47554c9e67bf6c76f9f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unicode-cldr-48.1-1-any.pkg.tar.zst",
+    "sha256": "a33299a4c8a0a5f45960d1873b2b916846ab1b6306653d80c62cdf111b8cf9a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unicode-cldr-48.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "unicode-cldr-annotations"
@@ -125459,10 +125524,10 @@
   },
   {
     "name": "unicode-cldr-annotations",
-    "version": "48.1-1",
+    "version": "48.2-1",
     "origin": "artix-world",
-    "sha256": "e4deb344a3626e867af35d1d00a357395820615d47895fa424eb7c2c731222c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unicode-cldr-annotations-48.1-1-any.pkg.tar.zst",
+    "sha256": "0e972dfd4748a6a1f0b057db994bd76c6498949a7dae8ca94a0cd8fe5712f202",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unicode-cldr-annotations-48.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -131107,10 +131172,10 @@
   },
   {
     "name": "wit-bindgen",
-    "version": "0.59.0-1",
+    "version": "0.62.0-1",
     "origin": "artix-world",
-    "sha256": "3748566c39913141d50164f5e7cba0d1b0238af55608f529b2d672a0f972fb35",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wit-bindgen-0.59.0-1-x86_64.pkg.tar.zst",
+    "sha256": "df7a45d7e105f2c44fd3bcc49081cf09464d50d2e34d00ef29eb7313f4f4261d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wit-bindgen-0.62.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cargo",
@@ -132323,10 +132388,10 @@
   },
   {
     "name": "xdp-tools",
-    "version": "1.6.3-1",
+    "version": "1.6.3-2",
     "origin": "artix-world",
-    "sha256": "d445dc14b8ecce8fbd48fbeb113e6366d6c85875942b3491d82691f788770c67",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdp-tools-1.6.3-1-x86_64.pkg.tar.zst",
+    "sha256": "357d305d138bb54c657e87f120a83cb8d1f70143567f3c0da007b00e62371f0f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdp-tools-1.6.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxdp",
@@ -134753,10 +134818,10 @@
   },
   {
     "name": "yelp",
-    "version": "49.1-1",
+    "version": "49.2-1",
     "origin": "artix-world",
-    "sha256": "6c03991997cfc8d7f44013f571611a1b5b629961aca3e8662227a80eae1164b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yelp-49.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e838701cba959aaf0b30395536f543ad535beb15bed2225a42262c38fad29031",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yelp-49.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libyelp-1.so=0-64"
     ],
