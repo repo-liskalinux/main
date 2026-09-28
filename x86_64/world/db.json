@@ -20448,10 +20448,10 @@
   },
   {
     "name": "glances",
-    "version": "4.5.6-1",
+    "version": "4.5.7-1",
     "origin": "artix-world",
-    "sha256": "59001d761ac5cbe2358b546cb68ccf37c6cda6c48f188304ee360bd209e7368f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glances-4.5.6-1-any.pkg.tar.zst",
+    "sha256": "0e3559f6d1a47a3505e7123f34c9a1b37ae76bc6b71446c2c52a0e4dcccbece6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glances-4.5.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -26905,10 +26905,10 @@
   },
   {
     "name": "haproxy",
-    "version": "3.4.5-1",
+    "version": "3.4.6-1",
     "origin": "artix-world",
-    "sha256": "07cabba7fc7bb8a584d219ed5e136df5940cd05e9b60cf54b28fa8423d191076",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haproxy-3.4.5-1-x86_64.pkg.tar.zst",
+    "sha256": "a4a1e9560e9ad62425fcb1de88081633674ff4aa1ecf18f99bc766d1f2c51688",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haproxy-3.4.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -31186,10 +31186,10 @@
   },
   {
     "name": "jami-daemon",
-    "version": "20260917-1",
+    "version": "20260917-2",
     "origin": "artix-world",
-    "sha256": "2675e5980ddafcd2323f8dd3667b0a8a9df70d99676f46373e25748083ba7bf8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jami-daemon-20260917-1-x86_64.pkg.tar.zst",
+    "sha256": "864fd29b36737678208567357bbe8a3a5b5f55298105c15479915d6b85f4c226",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jami-daemon-20260917-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -50166,10 +50166,10 @@
   },
   {
     "name": "libvips",
-    "version": "8.18.6-2",
+    "version": "8.18.7-1",
     "origin": "artix-world",
-    "sha256": "962825a8c15bda246dc795946aeec5f0df8c276f8f27b75386c8142f741c42ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libvips-8.18.6-2-x86_64.pkg.tar.zst",
+    "sha256": "f9fb16d13d1cc7d617e64f3cc1b88b56c2f2cd2b13385597bfc0195676a9ca1c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libvips-8.18.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libvips.so=42-64",
       "libvips-cpp.so=42-64"
@@ -62250,10 +62250,10 @@
   },
   {
     "name": "opendht",
-    "version": "1:4.4.0-1",
+    "version": "1:4.4.1-1",
     "origin": "artix-world",
-    "sha256": "20a7fe413b1e6ab6219d960a72725e7e019e99322c0a1dd9deb6fec3440b9f24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opendht-1:4.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2c34d8bf4fe95af9ae90a27d4b0722764d2d0866a8841ff31d506e0c664cf6f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opendht-1:4.4.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "argon2",
@@ -107252,10 +107252,10 @@
   },
   {
     "name": "ruby-process-metrics",
-    "version": "0.14.0-1",
+    "version": "0.15.0-1",
     "origin": "artix-world",
-    "sha256": "2e6f20dde7b7b0bc04ca5570dd0bd537a5c395e12a888fe4a2f5800fe800c140",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-process-metrics-0.14.0-1-any.pkg.tar.zst",
+    "sha256": "b96b78cb807b245d83d87dd5f75d08f464991a87d5bddf2bd6227721308d5133",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-process-metrics-0.15.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "procps-ng",
@@ -111224,11 +111224,13 @@
   },
   {
     "name": "simdutf",
-    "version": "9.1.2-1",
+    "version": "9.2.0-1",
     "origin": "artix-world",
-    "sha256": "003bb7d33a595459ad4c5c3f30fccb8d1a6beade4cd1c45ed93ec9036c25943e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.1.2-1-x86_64.pkg.tar.zst",
-    "provides": [],
+    "sha256": "9f42b671644a49bfe40e607e201d00263eb93434bd5e80a1cdfb3236473f3038",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.2.0-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libsimdutf.so=36-64"
+    ],
     "depends": [
       "glibc",
       "libgcc",
