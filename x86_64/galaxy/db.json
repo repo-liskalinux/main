@@ -109,10 +109,10 @@
   },
   {
     "name": "amule",
-    "version": "1:3.0.1-3",
+    "version": "1:3.1.0-2",
     "origin": "artix-galaxy",
-    "sha256": "cca45de1c11eea1dcb4705affdc5b6be946d185623979cc4e6609855905ffc40",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/amule-1:3.0.1-3-x86_64.pkg.tar.zst",
+    "sha256": "0c70a1c469451195d70582b92411fb7734b6cb5a30a49cebdca2981eff6bd3c2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/amule-1:3.1.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "amule-daemon"
     ],
@@ -124,7 +124,7 @@
       "glib2",
       "glibc",
       "gtk3",
-      "libappindicator",
+      "libayatana-appindicator",
       "libgcc",
       "libmaxminddb",
       "libpng",
@@ -3955,10 +3955,10 @@
   },
   {
     "name": "easyeffects",
-    "version": "8.2.9-1",
+    "version": "8.3.0-1",
     "origin": "artix-galaxy",
-    "sha256": "138089f765cabb4de3e066c0d4cbdd6301c34269d0f8ac13a6ea1f5264e16670",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/easyeffects-8.2.9-1-x86_64.pkg.tar.zst",
+    "sha256": "e20fd1b4be7de3438042c0a18af7dbaf7081166e5f519b29eb426552ce3704ca",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/easyeffects-8.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kirigami",
@@ -9321,10 +9321,10 @@
   },
   {
     "name": "goverlay",
-    "version": "1.9.2-1",
+    "version": "1.9.3-1",
     "origin": "artix-galaxy",
-    "sha256": "1b5a1721f533db4cff65c24ccb022102f117941f2c530ef7b2b47d2432d4a62e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/goverlay-1.9.2-1-x86_64.pkg.tar.zst",
+    "sha256": "b609e2c3878ffd2d36145300864b352e7dc4735ec1b80e6d58b8f8e51b6c7ded",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/goverlay-1.9.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glu",
@@ -23732,10 +23732,10 @@
   },
   {
     "name": "qbittorrent",
-    "version": "5.2.3-3",
+    "version": "5.2.4-1",
     "origin": "artix-galaxy",
-    "sha256": "fe050747f400d4d8ce5977409a6a0ae6a18bf284e87856840a9823729ba26bbc",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qbittorrent-5.2.3-3-x86_64.pkg.tar.zst",
+    "sha256": "41a89f6ed957083939e937a85c07efaadd5f72dcc5841ece9f4ad40a8a747dd0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qbittorrent-5.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23755,10 +23755,10 @@
   },
   {
     "name": "qbittorrent-nox",
-    "version": "5.2.3-3",
+    "version": "5.2.4-1",
     "origin": "artix-galaxy",
-    "sha256": "042736eca70040ce9a156a81fbf1362b348571207ff6e27096dafe39e49e692b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qbittorrent-nox-5.2.3-3-x86_64.pkg.tar.zst",
+    "sha256": "7d6b03542f7d4a50074c4aea33b792c00cac98741e554f80e110b30974b40d66",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qbittorrent-nox-5.2.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",

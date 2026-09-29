@@ -18272,16 +18272,15 @@
   },
   {
     "name": "fwupd",
-    "version": "2.1.7-1",
+    "version": "2.1.8-1",
     "origin": "artix-world",
-    "sha256": "aed8a26900210ab6e3a8023a3b763995e4d4d8cbea7ab599bb5efe78220cc667",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fwupd-2.1.7-1-x86_64.pkg.tar.zst",
+    "sha256": "9825533a23767f4e68a31f08776d9c6884b8e47ac139030704f7d02fff23021c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fwupd-2.1.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfwupd.so=3-64"
     ],
     "depends": [
       "bash",
-      "bluez",
       "curl",
       "fwupd-efi",
       "glib2",
@@ -19220,14 +19219,17 @@
   },
   {
     "name": "gengetopt",
-    "version": "2.23-4",
+    "version": "2.23.1-1",
     "origin": "artix-world",
-    "sha256": "055a8cb226edf592fb6cd1ac462864a1ed2df50e8b174e785cd93f59fa581d1f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gengetopt-2.23-4-x86_64.pkg.tar.zst",
+    "sha256": "796582a70596e08fd5782d18d1f785470c0548a8a901d3f5aba536f204b7d7e3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gengetopt-2.23.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "gcc-libs"
+      "libgcc",
+      "libgcc_s.so=1-64",
+      "libstdc++",
+      "libstdc++.so=6-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -20397,10 +20399,10 @@
   },
   {
     "name": "gl2ps",
-    "version": "1.4.2-4",
+    "version": "1.4.3-1",
     "origin": "artix-world",
-    "sha256": "b6dc1115154da1e57c02b4ffcff5f0e68e96c49b0dbb4f016519db77d86930c2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gl2ps-1.4.2-4-x86_64.pkg.tar.zst",
+    "sha256": "712eeeffacff8d5bf3a7f366cef03b9239ba11dc0ab6e1d397f5b1c1b53cd4c4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gl2ps-1.4.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libpng",
@@ -64263,10 +64265,10 @@
   },
   {
     "name": "par2cmdline",
-    "version": "1.3.0-1",
+    "version": "1.4.0-1",
     "origin": "artix-world",
-    "sha256": "030ab40c27801dac3452808fe922e330326f9a6c2442995d5e83159090edfe2a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/par2cmdline-1.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3fa83a92fa55440a25ff34951efb5b89ed65824cdd6870fcf7d7960c1ddfeee3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/par2cmdline-1.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -78842,13 +78844,13 @@
   },
   {
     "name": "python-dbus",
-    "version": "1.4.0-2",
+    "version": "1.5.0-1",
     "origin": "artix-world",
-    "sha256": "41ae4110f71bcd07c930a5b4a5e210b9f39ea5e9681737e63226132dce8a1e12",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dbus-1.4.0-2-x86_64.pkg.tar.zst",
+    "sha256": "af55d13636256e11f7fba8a7062331f0a56c9defca20aa593c987644e32d25c9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dbus-1.5.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "dbus-python=1.4.0",
-      "python-dbus-common=1.4.0"
+      "dbus-python=1.5.0",
+      "python-dbus-common=1.5.0"
     ],
     "depends": [
       "dbus",
@@ -96251,24 +96253,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.19-1",
+    "version": "0.12.20-1",
     "origin": "artix-world",
-    "sha256": "fd2be74677a5c254ce7ee21eded1fcff4fc1445cf261308041692d9eff9b72ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.19-1-x86_64.pkg.tar.zst",
+    "sha256": "d14573e1a6c5b9cdd12cd62b97046a8c2641feb493c60fec08c9df141cd3a290",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.19"
+      "uv=0.12.20"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.19-1",
+    "version": "0.12.20-1",
     "origin": "artix-world",
-    "sha256": "e4bfd8f00074fa88245afadce1b1a3303c7a2208438e787869b22eae21b469a7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.19-1-x86_64.pkg.tar.zst",
+    "sha256": "d0dc69dc089a95654c1d7e3c2432292c36f2271b387b0bff463921986e42978e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -102154,10 +102156,10 @@
   },
   {
     "name": "radicale",
-    "version": "3.7.8-1",
+    "version": "3.8.1-1",
     "origin": "artix-world",
-    "sha256": "00b9aa89e13a7a0b2c1a6aacd915bb13cc011e37d4946ed0f5eedc28b14ec4ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/radicale-3.7.8-1-any.pkg.tar.zst",
+    "sha256": "43763a7dc3fa5ab83443a5618bf6a75b79bb96557a185328ca1e86adcdb03250",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/radicale-3.8.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -111224,10 +111226,10 @@
   },
   {
     "name": "simdutf",
-    "version": "9.2.0-1",
+    "version": "9.2.1-1",
     "origin": "artix-world",
-    "sha256": "9f42b671644a49bfe40e607e201d00263eb93434bd5e80a1cdfb3236473f3038",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a54dbe222787c34ec50814b237a76d7e2a966441f59bab89cf724d1c8479c5ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.2.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libsimdutf.so=36-64"
     ],
@@ -126115,10 +126117,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.19-1",
+    "version": "0.12.20-1",
     "origin": "artix-world",
-    "sha256": "b404c74c90ef94f8fc22d7867bd72a46b215548426d3287f0d519528a9cb856a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.19-1-x86_64.pkg.tar.zst",
+    "sha256": "d5f857ecbf9ab0a69e0948f514eb66b591fc1be4895084326d2bc9731f4e1cb5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -132051,10 +132053,10 @@
   },
   {
     "name": "xdelta3",
-    "version": "3.2.0-1",
+    "version": "3.2.1-1",
     "origin": "artix-world",
-    "sha256": "cee450a84448ec780566970798f1c4ab38b2db0d153e8e4d14a45522e4c9c367",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdelta3-3.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5eede74a92f0df402062292a29a8aea139345e5865252919ecfeb7ced8ac1880",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdelta3-3.2.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libxdelta3.so=3-64"
     ],
