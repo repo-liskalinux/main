@@ -32406,10 +32406,10 @@
   },
   {
     "name": "jruby",
-    "version": "10.1.1.0-1",
+    "version": "10.1.2.0-1",
     "origin": "artix-world",
-    "sha256": "e200e4bca7ddaf411bd11cc2a84116bec767e03941b412b8070d5337b5d3dc68",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jruby-10.1.1.0-1-any.pkg.tar.zst",
+    "sha256": "bff6fd439c1568d006b1ee143cb24d5ae194d5a718f14269fcde00568d05fbd2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jruby-10.1.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -49536,10 +49536,10 @@
   },
   {
     "name": "libsrtp",
-    "version": "1:2.8.0-1",
+    "version": "1:2.8.1-1",
     "origin": "artix-world",
-    "sha256": "26c14dc8a95561f66f760d3a0173fdee97ff9461c16c14e9a923da7c221f7c40",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsrtp-1:2.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1f7665614d578b014d7dc361454cd69b6ec546d2e5c994daba1fb35ad026dbf6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsrtp-1:2.8.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libsrtp2.so=1-64"
     ],
@@ -60006,12 +60006,13 @@
   },
   {
     "name": "nodejs",
-    "version": "26.9.0-1",
+    "version": "26.10.0-1",
     "origin": "artix-world",
-    "sha256": "5cf491ea82819f66253939072481c23712d3ba5d62b736ca0d8da6eafb263b32",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.9.0-1-x86_64.pkg.tar.zst",
+    "sha256": "640d09bc0f4d79125787bab091921bed6098670435028af01259549bacc5d6fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.10.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "abseil-cpp",
       "ada",
       "brotli",
       "c-ares",
@@ -117423,13 +117424,14 @@
   },
   {
     "name": "testdisk",
-    "version": "7.2-4",
+    "version": "7.2-5",
     "origin": "artix-world",
-    "sha256": "d5280ebcae1284dec3c2101e69a541640b7c3b081b901c4d0d789509114e1bf2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/testdisk-7.2-4-x86_64.pkg.tar.zst",
+    "sha256": "7118aa3ee266eadf2bd08afc9c74c8aaae320fa4737ab31c60b2d126e670d1b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/testdisk-7.2-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libjpeg-turbo",
+      "libntfs-3g",
       "openssl",
       "ntfsprogs"
     ],
