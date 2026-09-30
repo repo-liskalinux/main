@@ -64939,13 +64939,13 @@
   },
   {
     "name": "percona-server",
-    "version": "9.7.1_1-6",
+    "version": "9.7.2_2-1",
     "origin": "artix-world",
-    "sha256": "22c0167bf898295f01725dd27aafc150ad28c1d1ba4668dae790e23c82217b4b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-9.7.1_1-6-x86_64.pkg.tar.zst",
+    "sha256": "3096072cddfbce61eed1ff8173404e8ebd9d0737dff3072ac23a3d80ad5c975b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-9.7.2_2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mysql=9.7.1_1",
-      "mariadb=9.7.1_1"
+      "mysql=9.7.2_2",
+      "mariadb=9.7.2_2"
     ],
     "depends": [
       "glibc",
@@ -64975,13 +64975,13 @@
   },
   {
     "name": "percona-server-clients",
-    "version": "9.7.1_1-6",
+    "version": "9.7.2_2-1",
     "origin": "artix-world",
-    "sha256": "750893fcecbdd30f3911d722ca710c0c000728e0fde563ba23a8cafa31963e1f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-clients-9.7.1_1-6-x86_64.pkg.tar.zst",
+    "sha256": "c7964f1b33fcfe0fa6490c5e3df08313a0e26230a59091acf6a4ef48d18298af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-clients-9.7.2_2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mysql-clients=9.7.1_1",
-      "mariadb-clients=9.7.1_1"
+      "mysql-clients=9.7.2_2",
+      "mariadb-clients=9.7.2_2"
     ],
     "depends": [
       "glibc",
@@ -87548,10 +87548,10 @@
   },
   {
     "name": "python-pikepdf",
-    "version": "10.15.0-1",
+    "version": "10.16.0-1",
     "origin": "artix-world",
-    "sha256": "5d3e9b91bab5a750ffa4b19e3d7f6e23832981c1c2af3539cf380dbd4b78b4c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pikepdf-10.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e06f846221bd1c04a8ecefcd0144e5ff45e8f9f823140859d83ae63807ac5e52",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pikepdf-10.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
