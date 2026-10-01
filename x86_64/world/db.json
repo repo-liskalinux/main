@@ -6325,10 +6325,10 @@
   },
   {
     "name": "brasero",
-    "version": "3.12.3+r44+gdea4990b-2",
+    "version": "3.12.4-1",
     "origin": "artix-world",
-    "sha256": "35e6ecd87250543218d6d91683e53c87e3cc18d4c2742b09b5d1ed7aa42564b0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/brasero-3.12.3+r44+gdea4990b-2-x86_64.pkg.tar.zst",
+    "sha256": "1a623b896646121e7a6c3b6add9f4a52039c104c45759201934fe7bcd876f410",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/brasero-3.12.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -6349,6 +6349,7 @@
       "libnotify",
       "libxml2",
       "pango",
+      "tinysparql",
       "totem-pl-parser"
     ],
     "optdepends": [
@@ -7096,10 +7097,10 @@
   },
   {
     "name": "calc",
-    "version": "2.17.0.0-1",
+    "version": "2.17.0.2-1",
     "origin": "artix-world",
-    "sha256": "4f26906d7fff858fc25e885da90a899ee5b0fb2179ca2cf229367697f3bc4b9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calc-2.17.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e89a3932e5d0fff65eb090425af60ffd65d4ed35f03e8826ef85d883cca4d996",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calc-2.17.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "readline"
@@ -17011,10 +17012,10 @@
   },
   {
     "name": "flatpak",
-    "version": "1:1.18.3-1",
+    "version": "1:1.18.4-1",
     "origin": "artix-world",
-    "sha256": "98327b282805def847cdd91b3e87c55927bff591b7667a8208955473aa18dd6b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-1:1.18.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3956d16c99e94ffa134f9da943f95ca5ec01fab5db1774cd7975d202f096ef15",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-1:1.18.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libflatpak.so=0-64"
     ],
@@ -32439,10 +32440,10 @@
   },
   {
     "name": "js140",
-    "version": "140.16.0-1",
+    "version": "140.17.0-1",
     "origin": "artix-world",
-    "sha256": "e7d6681985350c9805010c13d601fa724bd7fda1e2baeb28932d65839145e697",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/js140-140.16.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6a9f38fe6262a8552e78ac1a927a6dbce20596bd764ddd2e563c5a4c94335af6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/js140-140.17.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45148,10 +45149,10 @@
   },
   {
     "name": "libgsf",
-    "version": "1.14.58-1",
+    "version": "1.14.60-1",
     "origin": "artix-world",
-    "sha256": "ff4b39f6b2e4dcf3a5a35d9b1ddffe197109146b4a1d61f2b9dd07bb391e23af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgsf-1.14.58-1-x86_64.pkg.tar.zst",
+    "sha256": "91a46039606cb9cdbb8a4a97e13c26a713e889c06ab766a68bc51434f6e7afdd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgsf-1.14.60-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgsf-1.so=114-64"
     ],
@@ -64176,10 +64177,10 @@
   },
   {
     "name": "pangomm-2.48",
-    "version": "2.56.2-1",
+    "version": "2.58.0-1",
     "origin": "artix-world",
-    "sha256": "d75d99b37c93761028391f988e0f95325a7a2b98c151fe9d9e680a57ecf9891f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pangomm-2.48-2.56.2-1-x86_64.pkg.tar.zst",
+    "sha256": "df17c63cc7919fa9e82c6296dac115412e526963679bd774b493e800975e46a0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pangomm-2.48-2.58.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpangomm-2.48.so=1-64"
     ],
