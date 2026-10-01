@@ -10272,10 +10272,10 @@
   },
   {
     "name": "jellyfin-mpv-shim",
-    "version": "2.10.0-2.1",
+    "version": "3.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a9b3087254bae3f1d9165c53a0fddfcecd5bf31476b63c22e8c02fb4c2853e09",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-mpv-shim-2.10.0-2.1-any.pkg.tar.zst",
+    "sha256": "4a33eb833788c0a0d48aca29367a3b892f6b0b6e310db37ecaefeb34da5b5128",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-mpv-shim-3.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mpv",
@@ -10288,7 +10288,7 @@
       "tk"
     ],
     "optdepends": [
-      "python-pystray: GUI support",
+      "python-pystray: systray support",
       "python-pillow: TrickPlay thumbnail previews",
       "python-jinja: display mirroring support",
       "python-pywebview>=3.3.1: display mirroring support",
@@ -16527,10 +16527,10 @@
   },
   {
     "name": "librewolf",
-    "version": "156.0.1_1-1",
+    "version": "157.0.0_1-1",
     "origin": "artix-galaxy",
-    "sha256": "0ea75d073c3e58f4a567eb478b94ca37fc5fb3e145bdf012037359309e5a5ccb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-156.0.1_1-1-x86_64.pkg.tar.zst",
+    "sha256": "6c7016c0a1a44e11ed49d10950215114707c70b98ad768d16aaac70bd22d064c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-157.0.0_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -31348,10 +31348,10 @@
   },
   {
     "name": "xwayland-satellite",
-    "version": "0.8.2-1",
+    "version": "0.8.3-1",
     "origin": "artix-galaxy",
-    "sha256": "7f712e8047a5c1260486bbf94adee0db5ec7bff1de8b9e58bea205deb7d649ff",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xwayland-satellite-0.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "046bea6e2b220594ace1e8f3b8884a295f135bd2160e790ef14805a42b45fe22",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xwayland-satellite-0.8.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
