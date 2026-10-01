@@ -2036,10 +2036,10 @@
   },
   {
     "name": "glibc",
-    "version": "2.44+r24+g16be1518495f-1.1",
+    "version": "2.44+r50+g1848099f063e-1",
     "origin": "artix-system",
-    "sha256": "1f8f7a032c9eae17f94b69fa4a57fd34d7eb5d6f9d3fa47251c0ddedc102cac8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-2.44+r24+g16be1518495f-1.1-x86_64.pkg.tar.zst",
+    "sha256": "cb4c8b4d02cd21d543ef5f62944bea63fdea39798441e5f2a14d0e6c82c96c5b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-2.44+r50+g1848099f063e-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-api-headers>=4.10",
@@ -2054,13 +2054,13 @@
   },
   {
     "name": "glibc-locales",
-    "version": "2.44+r24+g16be1518495f-1.1",
+    "version": "2.44+r50+g1848099f063e-1",
     "origin": "artix-system",
-    "sha256": "e7a52fd0d8a9f6ed986fc9a61cce79571e48fdd46a516756b4f960844c16babb",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-locales-2.44+r24+g16be1518495f-1.1-x86_64.pkg.tar.zst",
+    "sha256": "7e5cb774a1a30480958409526349a70d228cdcacce085f387b55aa573c7e2684",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-locales-2.44+r50+g1848099f063e-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc=2.44+r24+g16be1518495f"
+      "glibc=2.44+r50+g1848099f063e"
     ],
     "optdepends": [],
     "conflicts": []
@@ -3032,13 +3032,13 @@
   },
   {
     "name": "lib32-glibc",
-    "version": "2.44+r24+g16be1518495f-1.1",
+    "version": "2.44+r50+g1848099f063e-1",
     "origin": "artix-system",
-    "sha256": "78d2190d1d87a6754d5b80d232fd1458d5301288d01eedf32905a11755736061",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lib32-glibc-2.44+r24+g16be1518495f-1.1-x86_64.pkg.tar.zst",
+    "sha256": "1b8e0f314b6bc543ded4dbc5510888483ae77ff2374473e2116a654a477c2d7c",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lib32-glibc-2.44+r50+g1848099f063e-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc=2.44+r24+g16be1518495f"
+      "glibc=2.44+r50+g1848099f063e"
     ],
     "optdepends": [],
     "conflicts": []
