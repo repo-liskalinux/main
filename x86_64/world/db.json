@@ -30094,10 +30094,10 @@
   },
   {
     "name": "intel-media-driver",
-    "version": "26.2.4-1",
+    "version": "26.3.5-1",
     "origin": "artix-world",
-    "sha256": "3de8f487fb3aa5c27e2a8eb7f8073cc2df4c08d0629fbd1b0afd3d94d82f187b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-media-driver-26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "eb9a3ccf893e07f092aedf767d73de7fa3f23c68e5989efdc2f40ad9643f606a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-media-driver-26.3.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -50702,10 +50702,10 @@
   },
   {
     "name": "libwireplumber",
-    "version": "0.5.17-2",
+    "version": "0.5.18-1",
     "origin": "artix-world",
-    "sha256": "883db57a9884df7c3cdd657bf6ec287f5d5882e52910bc31afb637fdd1b5e405",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.17-2-x86_64.pkg.tar.zst",
+    "sha256": "faef6e1988ec50aa52adb8f305f51105141ce37016ae9c48cff6bad724e9863e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwireplumber-0.5.18-1-x86_64.pkg.tar.zst",
     "provides": [
       "libwireplumber-0.5.so=0-64"
     ],
@@ -131086,15 +131086,15 @@
   },
   {
     "name": "wireplumber",
-    "version": "0.5.17-2",
+    "version": "0.5.18-1",
     "origin": "artix-world",
-    "sha256": "46022613e1a8ebc06980cce7a387f655be75233044e425816df960134bdafec6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.17-2-x86_64.pkg.tar.zst",
+    "sha256": "e4718080ae8ca1db20f20acdc6fab0f6928b4945db15574f22a26bec905f9d5f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wireplumber-0.5.18-1-x86_64.pkg.tar.zst",
     "provides": [
       "pipewire-session-manager"
     ],
     "depends": [
-      "libwireplumber=0.5.17-2",
+      "libwireplumber=0.5.18-1",
       "glibc",
       "libgcc",
       "libglib-2.0.so=0-64",

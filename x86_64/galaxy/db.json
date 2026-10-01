@@ -11555,12 +11555,12 @@
   },
   {
     "name": "libopenshot",
-    "version": "1.0.0-3.1",
+    "version": "1.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f2a44304716da095c662abfdab2fa5dcede64a445d5104b122a307de156810ec",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-1.0.0-3.1-x86_64.pkg.tar.zst",
+    "sha256": "0f5fea3a37094f7947ab950c84c749c7a3003245a69ae958aa51df2c5073a334",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-1.0.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libopenshot.so=31-64"
+      "libopenshot.so=32-64"
     ],
     "depends": [
       "babl",
@@ -11584,7 +11584,7 @@
       "protobuf",
       "libprotobuf.so",
       "zeromq",
-      "libzmq.so=5-64"
+      "libzmq.so"
     ],
     "optdepends": [],
     "conflicts": []
@@ -19056,6 +19056,19 @@
     "conflicts": []
   },
   {
+    "name": "miniz",
+    "version": "3.1.2-1",
+    "origin": "artix-galaxy",
+    "sha256": "cf3deac1f448fd4db0b6a73bebf4678560f97f5d2de870fa72524a655ab9443a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/miniz-3.1.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "mint-themes",
     "version": "2.3.8-1",
     "origin": "artix-galaxy",
@@ -26195,6 +26208,25 @@
     "conflicts": []
   },
   {
+    "name": "soqt",
+    "version": "1.6.4-2",
+    "origin": "artix-galaxy",
+    "sha256": "2c8f4be5dbe42018fe8c5dcca290f546a19e778f474ba173fdcaa6dbc6df4cb6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/soqt-1.6.4-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libstdc++",
+      "libglvnd",
+      "libx11",
+      "coin",
+      "qt6-base"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "speedtest-cli",
     "version": "2.1.3-10.1",
     "origin": "artix-galaxy",
@@ -29373,10 +29405,10 @@
   },
   {
     "name": "vpl-gpu-rt",
-    "version": "26.2.4-1",
+    "version": "26.3.5-1",
     "origin": "artix-galaxy",
-    "sha256": "5c84570f93a6275cb3d806ca15257ef497f092303fb387b9dca4dba6eac98d87",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/vpl-gpu-rt-26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "be3b4d42883fffde55f43cb02a0d476e335951061456262cde476484690e4a09",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/vpl-gpu-rt-26.3.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "onevpl-intel-gpu",
       "vpl-runtime"
