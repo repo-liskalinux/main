@@ -8836,6 +8836,60 @@
     "conflicts": []
   },
   {
+    "name": "freecad",
+    "version": "1.1.4-1.1",
+    "origin": "artix-galaxy",
+    "sha256": "d5d477791d0c5f9addbfb3dd18dae044cb61f6081cb3bebcbc3f75766d8adfd4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/freecad-1.1.4-1.1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "boost-libs",
+      "coin",
+      "fmt",
+      "freetype2",
+      "glew",
+      "glibc",
+      "hicolor-icon-theme",
+      "icu",
+      "libgcc",
+      "libgomp",
+      "libspnav",
+      "libstdc++",
+      "med",
+      "opencascade",
+      "openmpi",
+      "pugixml",
+      "pybind11",
+      "pyside6",
+      "python",
+      "python-defusedxml",
+      "python-matplotlib",
+      "python-numpy",
+      "python-packaging",
+      "python-pip",
+      "python-pivy",
+      "python-ply",
+      "python-typing_extensions",
+      "python-yaml",
+      "qt6-base",
+      "qt6-svg",
+      "qt6-tools",
+      "shiboken6",
+      "verdict",
+      "vtk",
+      "xerces-c",
+      "yaml-cpp",
+      "zlib"
+    ],
+    "optdepends": [
+      "graphviz: dependency graph support",
+      "opencamlib: CAM workbench support",
+      "openscad: OpenSCAD support",
+      "python-ladybug-core: Solar/Wind diagram support"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "fu-perl",
     "version": "0.9-1",
     "origin": "artix-galaxy",
@@ -10239,10 +10293,10 @@
   },
   {
     "name": "jellyfin-ffmpeg",
-    "version": "1:8.1.2p5-1",
+    "version": "1:8.1.3p1-1",
     "origin": "artix-galaxy",
-    "sha256": "51f9b1d694ebf267ae616e7e598cb8cf858acd8e7dec140bd9b5e2a9b844a412",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-ffmpeg-1:8.1.2p5-1-x86_64.pkg.tar.zst",
+    "sha256": "63289192fe308e144bbb5337aa7218be73a77ee0b4536e31d2e7a80f1d1f3025",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-ffmpeg-1:8.1.3p1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -18444,10 +18498,10 @@
   },
   {
     "name": "mate-backgrounds",
-    "version": "1.28.0-2",
+    "version": "1.28.0-3",
     "origin": "artix-galaxy",
-    "sha256": "4a1a7999ed2ebc439d09846350116e9cb32ec29eb4dfef7825c72a33bc9ecd69",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-backgrounds-1.28.0-2-any.pkg.tar.zst",
+    "sha256": "778b0400c026d1ae9d5061f32da5aec99a4f5dc15cdcd121e76c8fbda557874e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-backgrounds-1.28.0-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -18536,10 +18590,10 @@
   },
   {
     "name": "mate-icon-theme",
-    "version": "1.28.0-2",
+    "version": "1.28.0-3",
     "origin": "artix-galaxy",
-    "sha256": "ac7aa2487aee79b4e05f880c02f3f54145e0e3b904e911c97bff4fbdaf56fa6e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-icon-theme-1.28.0-2-any.pkg.tar.zst",
+    "sha256": "7c0ec32c62c09171352d6a304441dfbbb4ad36fd62c170a194ac318934e7e947",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-icon-theme-1.28.0-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -18816,10 +18870,10 @@
   },
   {
     "name": "mate-themes",
-    "version": "3.22.26-3",
+    "version": "3.22.26-4",
     "origin": "artix-galaxy",
-    "sha256": "c9d5d31c4633ac04e41b43b38195b1e6dc5d2bdb4643dc7a659125fd6bcbf96c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-themes-3.22.26-3-any.pkg.tar.zst",
+    "sha256": "278557dd8c586cc5326951326e28b6a5e85837f2eef3e3da3d242e7573ee8566",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-themes-3.22.26-4-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -18829,10 +18883,10 @@
   },
   {
     "name": "mate-user-guide",
-    "version": "1.28.0-2",
+    "version": "1.28.0-3",
     "origin": "artix-galaxy",
-    "sha256": "86307017f29535357acfd08607215c98e73d1c1356e6f67cfd96bc02a08d3064",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-user-guide-1.28.0-2-any.pkg.tar.zst",
+    "sha256": "7645affa5418afb7ccb465d89682fcfe79b97784ae4da56c3eccb48379c11dea",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-user-guide-1.28.0-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "yelp"
@@ -18933,6 +18987,21 @@
       "unrar: for rar compressed comics",
       "unzip: for zip compressed comics"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "med",
+    "version": "5.0.0-4.1",
+    "origin": "artix-galaxy",
+    "sha256": "2ae0e86e1373fefb330bdf507a93f21fb0624bf12c02bba4b6f38a3342ef40c2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/med-5.0.0-4.1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "hdf5",
+      "python",
+      "tk"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -23453,6 +23522,27 @@
     "depends": [
       "poppler",
       "python"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "python-pivy",
+    "version": "1:0.6.11-2.1",
+    "origin": "artix-galaxy",
+    "sha256": "b26f770a4bb312c10603e8de77268463494642a4c7982afcad566219f9e4bdce",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/python-pivy-1:0.6.11-2.1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libstdc++",
+      "coin",
+      "python",
+      "pyside6",
+      "python-numpy",
+      "qt6-base",
+      "soqt"
     ],
     "optdepends": [],
     "conflicts": []
@@ -29194,6 +29284,17 @@
     "origin": "artix-galaxy",
     "sha256": "3a408bb89d6f555bbfc3e22578641da48c8c48ace83e3e2b88ca88c8fcbcc115",
     "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/unlzx-1.1-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "unordered_dense",
+    "version": "5.2.0-1",
+    "origin": "artix-galaxy",
+    "sha256": "c2fda3a2087347aac78334e764cb81298eb19830c1d076c39c9ad23a74e8685e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/unordered_dense-5.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],

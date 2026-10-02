@@ -12199,10 +12199,10 @@
   },
   {
     "name": "docker",
-    "version": "1:29.8.1-1",
+    "version": "1:29.8.2-1",
     "origin": "artix-world",
-    "sha256": "b79a7cb608691a97235d23eaac427125fa1201c3d3a73d4f9741e34cbf6373ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3231eac5b1f4e72edde059e9715228a6f468ba38370d4f7a3a1be2b3455ddafb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35581,10 +35581,10 @@
   },
   {
     "name": "kdevelop",
-    "version": "26.08.1-1",
+    "version": "26.08.1-2",
     "origin": "artix-world",
-    "sha256": "39a6db48414e3dc335f15c45c0ca5df26cb19c08d835453e8af1bf47aae78ffc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-26.08.1-1-x86_64.pkg.tar.zst",
+    "sha256": "db0bfc8709da0937affa11d2294582c2d70b4351424497028556e36f378b024d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-26.08.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "clang",
@@ -45446,10 +45446,10 @@
   },
   {
     "name": "libheif",
-    "version": "1.23.4-1",
+    "version": "1.23.5-1",
     "origin": "artix-world",
-    "sha256": "d5c317de3974a4784800605b065b78deca7a291bac781c352c3c980c396e46fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libheif-1.23.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d63ce1cf40f531bf3e5c9048c6eef801872aaa7736d7b4aafe20bad51b715426",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libheif-1.23.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libheif.so=1-64"
     ],
@@ -60934,10 +60934,10 @@
   },
   {
     "name": "nvidia-580xx-dkms",
-    "version": "580.178.04-1",
+    "version": "580.178.04-2.1",
     "origin": "artix-world",
-    "sha256": "7d073261555c7ae0428d3a8164c0ae85eef73502549a56efc72d44643b10f21f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-dkms-580.178.04-1-x86_64.pkg.tar.zst",
+    "sha256": "b605e43aa021c411d9c06bcc31bb890d53ae602978aa06a1280c365cbfc59c58",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-dkms-580.178.04-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE",
       "nvidia"
@@ -60978,10 +60978,10 @@
   },
   {
     "name": "nvidia-580xx-utils",
-    "version": "580.178.04-1",
+    "version": "580.178.04-2.1",
     "origin": "artix-world",
-    "sha256": "bcca5f0bc8d361663025ae7b1c948bb138b9974345946dd03615a7c78e4ea902",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-utils-580.178.04-1-x86_64.pkg.tar.zst",
+    "sha256": "8de8fbc1c47597c23437ce6dfd45604fd3e858fa89e831920a659e9e7d78592a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-utils-580.178.04-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver",
       "nvidia-utils",
@@ -62072,10 +62072,10 @@
   },
   {
     "name": "opencl-nvidia-580xx",
-    "version": "580.178.04-1",
+    "version": "580.178.04-2.1",
     "origin": "artix-world",
-    "sha256": "cdcc741c76deda70137dd1df1162d4bc8342f83fb6dfd92966fe24c72f93a9df",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-580xx-580.178.04-1-x86_64.pkg.tar.zst",
+    "sha256": "0877b1251a17ebe02ba167d11427202b218e8c1cfe9c1c3cfa34ca3cabe94a33",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-580xx-580.178.04-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver",
       "opencl-nvidia"
@@ -72675,10 +72675,10 @@
   },
   {
     "name": "pnpm",
-    "version": "11.26.0-1",
+    "version": "12.8.2-2",
     "origin": "artix-world",
-    "sha256": "0c279d2b18693c15301594c5041e1cd73586fb3fae919758ac1406aada499b5e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-11.26.0-1-any.pkg.tar.zst",
+    "sha256": "015b65b3a5783017fbd5ac5a230395cf4bf20c805b7f3dd3d42df660874a2c8f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.8.2-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "node-gyp"
@@ -73448,10 +73448,10 @@
   },
   {
     "name": "postgresql",
-    "version": "18.6-1",
+    "version": "18.6-2",
     "origin": "artix-world",
-    "sha256": "871e2c803c1f3f154918c47a5d48ecb3a0812247ca9801f06eea6774386dd93b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postgresql-18.6-1-x86_64.pkg.tar.zst",
+    "sha256": "1bd7d1e402bb424a412de6530183d879ba17f39e88d24d66768ae3c60f5c088a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postgresql-18.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -73517,10 +73517,10 @@
   },
   {
     "name": "postgresql-libs",
-    "version": "18.6-1",
+    "version": "18.6-2",
     "origin": "artix-world",
-    "sha256": "9099b05bfa0489066f34c23d0c7e790a59e59abb6cc174bdf9e6c0a568ab0fce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postgresql-libs-18.6-1-x86_64.pkg.tar.zst",
+    "sha256": "866688a16524a2677ca988dda2b06723ff545efa923d1d7515d63e2842e116eb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postgresql-libs-18.6-2-x86_64.pkg.tar.zst",
     "provides": [
       "libecpg.so=6-64",
       "libecpg_compat.so=3-64",
@@ -73554,10 +73554,10 @@
   },
   {
     "name": "postgresql-old-upgrade",
-    "version": "17.11-1",
+    "version": "17.11-2",
     "origin": "artix-world",
-    "sha256": "865d312f67208b969b3c991456c201fff1b53dd5f4ecc7f69c96e0f36c9403dc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postgresql-old-upgrade-17.11-1-x86_64.pkg.tar.zst",
+    "sha256": "6c9fdeba3299c49ea06bb2f2719d33dad919312d2dbd63c9b84f92e9ae479701",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postgresql-old-upgrade-17.11-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -73973,10 +73973,10 @@
   },
   {
     "name": "powerdns-recursor",
-    "version": "5.4.6-1",
+    "version": "5.4.7-1",
     "origin": "artix-world",
-    "sha256": "1e7aaf8dca3494314b8c1c16577d76ea4b935d0647b8699aeb0129091f17d7ba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdns-recursor-5.4.6-1-x86_64.pkg.tar.zst",
+    "sha256": "f38e2a0900db98f82926e822dff28e64154cf85cc7ee2275e5b58d86b6fb04fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdns-recursor-5.4.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "pdns-recursor"
     ],
@@ -101613,10 +101613,10 @@
   },
   {
     "name": "qt6-tools",
-    "version": "6.11.2-1",
+    "version": "6.11.2-2",
     "origin": "artix-world",
-    "sha256": "c34b6999620f1a8e02b790d0a0d4f9fede16feddae1eb848486768449d92b95a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-tools-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9a38aea1e5cda1258f1163e7656a8d1e125016a8ac259e3dcc364736a57d9d96",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-tools-6.11.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101823,10 +101823,10 @@
   },
   {
     "name": "qtcreator",
-    "version": "20.0.2-1",
+    "version": "20.0.2-2",
     "origin": "artix-world",
-    "sha256": "22c11fc9de62a2957a09c79d7c21a1b04542d00eec4889a7f1679422f0d95e34",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-20.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "294ab8f84501289e98bbc1eaf4f27b07fdd5445cf1dc3708189629a37a638b6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-20.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "clang",
@@ -101870,10 +101870,10 @@
   },
   {
     "name": "qtcreator-devel",
-    "version": "20.0.2-1",
+    "version": "20.0.2-2",
     "origin": "artix-world",
-    "sha256": "c45de5b8b688e90d85b5833b7d2cbae18ea12e6665618c45288f26f7a77289ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-devel-20.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2cfa2b53b3eb627e75f38fc1616dc5d2a0572662692dd72d10b2b58f5520ff5b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-devel-20.0.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qtcreator"
@@ -106800,10 +106800,10 @@
   },
   {
     "name": "ruby-mixlib-config",
-    "version": "3.1.10-1",
+    "version": "3.1.14-1",
     "origin": "artix-world",
-    "sha256": "afbc142ccacf097fbc154d516ea75648cbabd852e4262e8c28c03c31da270a08",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mixlib-config-3.1.10-1-any.pkg.tar.zst",
+    "sha256": "2e1b40dc4d34e7f7a187826887aa0ff571fdd6886ff0a051400a3f4dbbdb39c4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mixlib-config-3.1.14-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby-tomlrb"
@@ -107395,10 +107395,10 @@
   },
   {
     "name": "ruby-protocol-http2",
-    "version": "0.28.0-1",
+    "version": "0.29.1-1",
     "origin": "artix-world",
-    "sha256": "f9bffb9c3fcf523ebc2a161f396317d330f9663a14313c5a7c58c6f61f4dbbee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-protocol-http2-0.28.0-1-any.pkg.tar.zst",
+    "sha256": "13ddcd473e8d772e58354dac96856e4fbe536485fa46eb361fe5cd05f8ff8685",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-protocol-http2-0.29.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -107876,10 +107876,10 @@
   },
   {
     "name": "ruby-regexp_parser",
-    "version": "2.13.0-1",
+    "version": "2.13.1-1",
     "origin": "artix-world",
-    "sha256": "a45df39ad2e715b541ce64e6425af98e107ed5476eac50617f1cec421b7482bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-regexp_parser-2.13.0-1-any.pkg.tar.zst",
+    "sha256": "ad0f4b4547b9841b43e0bedc32469163c39d415962f149f0184cb63cc87fea9d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-regexp_parser-2.13.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
