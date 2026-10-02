@@ -3418,6 +3418,38 @@
     ]
   },
   {
+    "name": "deltachat-desktop",
+    "version": "2.59.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "c3c3f0fb9cbf9e9ba55005149caa815ae2c69f52435dfeaf4e1953874a497af2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.59.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "electron42",
+      "bash",
+      "hicolor-icon-theme",
+      "deltachat-rpc-server"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "deltachat-rpc-server",
+    "version": "2.59.0-1",
+    "origin": "artix-galaxy",
+    "sha256": "c891395778315c5c8042e35a5b0a514301363560df584ea44364c5a677da4630",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.59.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "openssl",
+      "sqlcipher"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "dillo",
     "version": "3.3.0-1",
     "origin": "artix-galaxy",
