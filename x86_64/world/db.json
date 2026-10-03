@@ -10567,10 +10567,10 @@
   },
   {
     "name": "dart-sass",
-    "version": "1.105.0-1",
+    "version": "1.105.1-1",
     "origin": "artix-world",
-    "sha256": "d2fccd37715f582c1e1294544c2724b05041b8278518c4c070aefa78a4c75144",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.105.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8489d3e16368973eef48383e1cc3144cb33a59f2d1fb7f2b28d41c2970c61025",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.105.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "sass"
     ],
@@ -12238,10 +12238,10 @@
   },
   {
     "name": "docker-compose",
-    "version": "5.5.1-1",
+    "version": "5.6.0-1",
     "origin": "artix-world",
-    "sha256": "5cab8e2db2acf90819786c83dc063ba8656b61ededb3a52bc059c3390bc96105",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-compose-5.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4f586c15bc6b0f431b90be804097e3f9164c604163bc9eda2a80fc76f5c10ddd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-compose-5.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -35583,10 +35583,10 @@
   },
   {
     "name": "kdevelop",
-    "version": "26.08.1-2",
+    "version": "26.08.1-3",
     "origin": "artix-world",
-    "sha256": "db0bfc8709da0937affa11d2294582c2d70b4351424497028556e36f378b024d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-26.08.1-2-x86_64.pkg.tar.zst",
+    "sha256": "07eed0eedded5b60e2bc459ec8753c8a3ff782a3a2cbcc3637d2877d37dbb593",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-26.08.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "clang",
@@ -37412,14 +37412,15 @@
   },
   {
     "name": "kirigami-app-components",
-    "version": "1.0.2-1",
+    "version": "1.1.0-1",
     "origin": "artix-world",
-    "sha256": "a2d83071e3f3758628214f2aa935be24e98f9571e930cb2815e966d7378a31cb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kirigami-app-components-1.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9392c543cad767ccf8a8040dcf5c1db278a57479aec568a9c1e3d188a24429ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kirigami-app-components-1.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "kconfig",
+      "kcoreaddons",
       "kguiaddons",
       "ki18n",
       "kirigami",
@@ -72678,10 +72679,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.8.2-2",
+    "version": "12.9.0-1",
     "origin": "artix-world",
-    "sha256": "015b65b3a5783017fbd5ac5a230395cf4bf20c805b7f3dd3d42df660874a2c8f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.8.2-2-any.pkg.tar.zst",
+    "sha256": "7ca223b2742392170e3518f92d86afd98f63df8ee1671f8218f48c3630b8241e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "node-gyp"
@@ -105135,10 +105136,10 @@
   },
   {
     "name": "ruby-chef-utils",
-    "version": "19.4.40-1",
+    "version": "19.4.41-1",
     "origin": "artix-world",
-    "sha256": "2d5900cdad81c0b2cef0848e3d4935084c1630ff80db478c171a5b44ee7504ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.40-1-any.pkg.tar.zst",
+    "sha256": "03a1e00c206bfb8a565bb98c8da770ce01fc21bf8cfe623d84452f0e498d67b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-chef-utils-19.4.41-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -109096,10 +109097,10 @@
   },
   {
     "name": "ruby-tins",
-    "version": "1.59.0-1",
+    "version": "1.60.0-1",
     "origin": "artix-world",
-    "sha256": "f854ca360caa8c3f2123c079e45dd11762fb7b8177b3b3c2357e51663779ca5e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-tins-1.59.0-1-any.pkg.tar.zst",
+    "sha256": "72705255a065aae8fa4ca0dd91ed8386be4c3a6f781654fffe4a6fe3c31bc6ae",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-tins-1.60.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -111315,10 +111316,10 @@
   },
   {
     "name": "simdutf",
-    "version": "9.2.1-1",
+    "version": "9.2.1-2",
     "origin": "artix-world",
-    "sha256": "a54dbe222787c34ec50814b237a76d7e2a966441f59bab89cf724d1c8479c5ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "14b15f80d78b71ae5161a881ed6d52d630bffd754806caa53c163ed8c6c36410",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.2.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libsimdutf.so=36-64"
     ],
