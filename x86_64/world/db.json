@@ -3079,10 +3079,10 @@
   },
   {
     "name": "astyle",
-    "version": "3.6.18-1",
+    "version": "3.6.19-1",
     "origin": "artix-world",
-    "sha256": "cb0485298b4d218da0b38f100204debea0f8a8eaf607f94f0d13d819dbeaf6fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/astyle-3.6.18-1-x86_64.pkg.tar.zst",
+    "sha256": "2fa334f7684a32c81691a1f4775c4235a89489b49da2c6b993f7967f12744b3e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/astyle-3.6.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -109710,10 +109710,10 @@
   },
   {
     "name": "s2n-tls",
-    "version": "1.7.2-1",
+    "version": "1.7.10-1",
     "origin": "artix-world",
-    "sha256": "9090837a936480df4610a4533c83c43611d9b6302b5f67feead84e73140ea0e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/s2n-tls-1.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "461b6569d65e811979011d2ce122664a1bdaa448a3c537d653f6961ea10179d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/s2n-tls-1.7.10-1-x86_64.pkg.tar.zst",
     "provides": [
       "s2n"
     ],
@@ -113369,10 +113369,10 @@
   },
   {
     "name": "strawberry",
-    "version": "1.2.30-1",
+    "version": "1.2.31-1",
     "origin": "artix-world",
-    "sha256": "7b4af87accbac6356e959bb778d1a4e2449e1a339d5cec7595d5e940157a04b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strawberry-1.2.30-1-x86_64.pkg.tar.zst",
+    "sha256": "b2e4a56550002453951b9a91d9c818c9502786f127a216ba3a3fdc72f1b206fa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/strawberry-1.2.31-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -113393,12 +113393,14 @@
       "libgpod",
       "libmtp",
       "libpulse",
+      "libsecret",
       "libstdc++",
       "libx11",
       "openssl",
       "qt6-base",
       "sqlite",
       "taglib",
+      "uchardet",
       "udisks2"
     ],
     "optdepends": [
