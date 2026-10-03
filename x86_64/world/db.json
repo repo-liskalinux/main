@@ -7558,10 +7558,10 @@
   },
   {
     "name": "cccl",
-    "version": "3.4.2-1",
+    "version": "3.5.0-1",
     "origin": "artix-world",
-    "sha256": "9eff19c8583b47b81ddba6b1f51134710e7612505840c814d2191ff901bfc234",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cccl-3.4.2-1-any.pkg.tar.zst",
+    "sha256": "5ca5a42f6807c2eefc7b0c7418bb025b46d4a5023a16666c9082f47a2e9380db",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cccl-3.5.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -10026,10 +10026,10 @@
   },
   {
     "name": "cudnn",
-    "version": "9.26.0.51-1",
+    "version": "9.27.0.42-1",
     "origin": "artix-world",
-    "sha256": "7d3174660ae12093a1548ab50783b410570ae114a8432f5bcbea73b17bdc0816",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cudnn-9.26.0.51-1-x86_64.pkg.tar.zst",
+    "sha256": "859bb24025c6ae9c50aca90a2bf279ac0c16f447cba4d0654f50da2f4614fb2d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cudnn-9.27.0.42-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cuda>=13",
@@ -12580,10 +12580,10 @@
   },
   {
     "name": "dovecot",
-    "version": "2.4.4-1",
+    "version": "2.4.5-1",
     "origin": "artix-world",
-    "sha256": "b80fe263d0bcc73eab3597aea35de1b52b087de460e31b9a705564317e0104b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dovecot-2.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "3334e9f6495713870782be4dc6d5e3fba56dd2fd020124c3da1b413ff0c5ea81",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dovecot-2.4.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "imap-server",
       "pop3-server",
@@ -12756,10 +12756,10 @@
   },
   {
     "name": "dpdk",
-    "version": "25.11.1-2",
+    "version": "25.11.3-2",
     "origin": "artix-world",
-    "sha256": "00779f2d69ce3b645376b24019ec242c999be98141b2ca3c7e3df83ff7058ef6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dpdk-25.11.1-2-x86_64.pkg.tar.zst",
+    "sha256": "aad8de7a3ca1bf8122890bb1e0b90822059fa9b2a559860a56d4117d0564e32c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dpdk-25.11.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -12773,6 +12773,8 @@
       "libpcap",
       "numactl",
       "openssl",
+      "python",
+      "python-pyelftools",
       "zlib"
     ],
     "optdepends": [],
@@ -20333,10 +20335,10 @@
   },
   {
     "name": "gitea-runner",
-    "version": "4.0.1-1",
+    "version": "4.1.0-1",
     "origin": "artix-world",
-    "sha256": "9d8fe59474ae45624b8d8e6045312f22530742ed68281ec91e9ba90cbe1cf70a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-4.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "17a050db72bde70921fd1cd8815248d77ce0bf41f64fdeb20277a4eb90f1cdb2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-4.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "act_runner"
     ],
@@ -58893,10 +58895,10 @@
   },
   {
     "name": "ncftp",
-    "version": "3.3.0-1",
+    "version": "3.3.0-2",
     "origin": "artix-world",
-    "sha256": "68441302edbd8da73185f00a0796189d40614175b77ddddd6fdfcf329205fbf7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ncftp-3.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f6c59098975b945e8792bc05ac007433007c50543124c43455e2d0cdbb80b006",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ncftp-3.3.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ncurses"
@@ -70887,13 +70889,14 @@
   },
   {
     "name": "pigeonhole",
-    "version": "2.4.4-1",
+    "version": "2.4.5-1",
     "origin": "artix-world",
-    "sha256": "57d0dad1ccf65a333325bb306b4f750f6fa4bbcef9e126d6e8e070757d1a4cbe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pigeonhole-2.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "1952dc34d677337d767a6a4cc4e6a3b41ca415c477dc29b93d14491dfe89d173",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pigeonhole-2.4.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "dovecot=2.4.4"
+      "dovecot=2.4.5",
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": [
@@ -84357,10 +84360,10 @@
   },
   {
     "name": "python-librt",
-    "version": "0.11.0-1",
+    "version": "0.15.0-1",
     "origin": "artix-world",
-    "sha256": "86937432639daaf7185a18fca1da0596bc124def05d4cec4cb9fd1611f20f328",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-librt-0.11.0-1-x86_64.pkg.tar.zst",
+    "sha256": "33c4f1809b4e2729c1ec56d4707b2b862859fcdecda584d24756e0b3dc56c747",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-librt-0.15.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -97435,10 +97438,10 @@
   },
   {
     "name": "python-zodbpickle",
-    "version": "4.4-1",
+    "version": "4.5-1",
     "origin": "artix-world",
-    "sha256": "28c6a1d1686aee0e183394c1f5242a212af53dfe6d0cee79215884fb23e7c1d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zodbpickle-4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "f61e1559005d0ab3165436c3eba459b6542e18f81b2b44f3f62c5d727c504736",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zodbpickle-4.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -103918,10 +103921,10 @@
   },
   {
     "name": "rspamd",
-    "version": "4.1.5-1",
+    "version": "4.2.1-1",
     "origin": "artix-world",
-    "sha256": "68f36787c1c67f230a4be1362d6a81e96faa979165ef17df9627220013ef3d09",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rspamd-4.1.5-1-x86_64.pkg.tar.zst",
+    "sha256": "d4bbf35201ee36906e88261d3a0f2744b7294f92238273ea76c40bbebc5b17aa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rspamd-4.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -108475,10 +108478,10 @@
   },
   {
     "name": "ruby-sequel",
-    "version": "5.108.0-1",
+    "version": "5.109.0-1",
     "origin": "artix-world",
-    "sha256": "4653ba83cc55735a1c391b38654f9613aa28f03ee9b5f8f6f435eec97af8eafb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sequel-5.108.0-1-any.pkg.tar.zst",
+    "sha256": "9df28a178d48bb24e9534e76f55b2bd8ae9c6290908a788c0d3fad6c4b943303",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sequel-5.109.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -112623,10 +112626,10 @@
   },
   {
     "name": "spirv-headers",
-    "version": "1:1.4.357.0-1",
+    "version": "1:1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "961f3d15e5b0ed2aca33e3f2111707fb50a8fa1fc03565c967560d8b879489cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/spirv-headers-1:1.4.357.0-1-any.pkg.tar.zst",
+    "sha256": "3e7d876cf0ad6aa032f1d781e51262df1f7387836b402f4a6e4870f3e0a37433",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/spirv-headers-1:1.4.363.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -112650,10 +112653,10 @@
   },
   {
     "name": "spirv-tools",
-    "version": "1:1.4.357.0-1",
+    "version": "1:1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "cd923b152f113b53a1b7a5fbbd9b484ab5b23ac68a8762a1b3504ada4f7886e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/spirv-tools-1:1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "be6ad4224f5478f495f104349fe447f03d78648dcfd87dcac8ebbb7ff554b992",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/spirv-tools-1:1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libstdc++",
@@ -123941,10 +123944,10 @@
   },
   {
     "name": "toxcore",
-    "version": "1:0.2.22-2.1",
+    "version": "1:0.2.23-1",
     "origin": "artix-world",
-    "sha256": "a15891601ce6450b8154fc03e20f47c52e2cede685b83c7256d0492002332a04",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/toxcore-1:0.2.22-2.1-x86_64.pkg.tar.zst",
+    "sha256": "6ef005e016dab78dd6cac1611871538a99d6ca04a010142bba74f3e4d468cfad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/toxcore-1:0.2.23-1-x86_64.pkg.tar.zst",
     "provides": [
       "tox"
     ],
@@ -126486,10 +126489,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20260925234224-1",
+    "version": "20261002050024-1",
     "origin": "artix-world",
-    "sha256": "20aaccf1fcc877d1e0f736e0838a4388adcaf24b18aeb1f2a6fd39bbb6a9ae66",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20260925234224-1-any.pkg.tar.zst",
+    "sha256": "c298b24f8efe98be6dc42b2c221243be972a99e05f8a3843e75df8f9c8bb3c91",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261002050024-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -129227,10 +129230,10 @@
   },
   {
     "name": "volk",
-    "version": "1.4.357.0-1",
+    "version": "1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "4107ba2c6d2d4c4fd6f887894cdb4b64032fce2fbb09758f80893e7365388e60",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/volk-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8b63555c338607bec86cb1181e7ce0a5e78df5ba95218edb0256ad223922fd50",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/volk-1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -129763,12 +129766,12 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1:1.4.357.0-1",
+    "version": "1:1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "fc4c1ead458329ce0d6b6bb770f88e1054b20112816a111ec5974af7f4b2c26d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-headers-1:1.4.357.0-1-any.pkg.tar.zst",
+    "sha256": "0d8138b79f99049d5e25122d782e5b665f4e1b748653a35452a27bd18f14c92e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-headers-1:1.4.363.0-1-any.pkg.tar.zst",
     "provides": [
-      "vulkan-hpp=1.4.357.0"
+      "vulkan-hpp=1.4.363.0"
     ],
     "depends": [],
     "optdepends": [
@@ -129778,10 +129781,10 @@
   },
   {
     "name": "vulkan-icd-loader",
-    "version": "1.4.357.0-1",
+    "version": "1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "4d7e540644c30aa74526d8877f76bac7d38a7aa9dc124e2c3ffa238951d39469",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-icd-loader-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "dd4f4aabf1cafb064338a5fa078ec9be6d3385b5fc529bd132b086a122ae3add",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-icd-loader-1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libvulkan.so=1-64"
     ],
@@ -130062,10 +130065,10 @@
   },
   {
     "name": "vulkan-tools",
-    "version": "1.4.357.0-1",
+    "version": "1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "ba6cb27bf20415dbc46017dae853f85e65236794df407a840394174bf95c5106",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-tools-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "485d7f3328bb0c89991901622ffc506e6a58a3b1b9180aa002a2d3854c36da20",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-tools-1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130081,10 +130084,10 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.357.0-1",
+    "version": "1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "e5a77b8f055e3b5e119f7ca4c73be48af49da6dcbd0b221f363167cea881f56b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-utility-libraries-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e8869d07715858c2e0df4c45d9a649609eae5d213fba152fcde699b36d1d0f1f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-utility-libraries-1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130095,10 +130098,10 @@
   },
   {
     "name": "vulkan-validation-layers",
-    "version": "1.4.357.0-1",
+    "version": "1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "c8fc90c18cb37cba093d961c0cb6dfd69591d3770bcab729d69e9ee6eb4a21e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-validation-layers-1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a72ae8a0c829f93e6ad1a2e997219a64dc6d84896329a802905899623d4b224e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-validation-layers-1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130935,10 +130938,10 @@
   },
   {
     "name": "wine",
-    "version": "11.18-1",
+    "version": "11.19-1",
     "origin": "artix-world",
-    "sha256": "ee39e2da1fc7dba8fabf7918b6cc068c2a29c078687455499f7c05e2002da7e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-11.18-1-x86_64.pkg.tar.zst",
+    "sha256": "93f21d8c62fc2e175ee2aaef5e510f079bbc786ebedccd8694e7a0f537c5f9ff",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-11.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "desktop-file-utils",
@@ -130992,12 +130995,12 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.18-1",
+    "version": "11.19-1",
     "origin": "artix-world",
-    "sha256": "e843d859028ad9586f3396f8d71e6f85135b5a1480f58552b11d24d8bece0d71",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.18-1-x86_64.pkg.tar.zst",
+    "sha256": "64855e01874116c1bb64c8ccea3b99a6842b7cf6823ede5868f3ab298197e863",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.19-1-x86_64.pkg.tar.zst",
     "provides": [
-      "wine=11.18"
+      "wine=11.19"
     ],
     "depends": [
       "attr",
