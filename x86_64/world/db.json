@@ -13166,13 +13166,11 @@
   },
   {
     "name": "dunst",
-    "version": "1.13.2-2",
+    "version": "1.13.2-3",
     "origin": "artix-world",
-    "sha256": "ca3e1b7f9635076ab5471934bfd899f40c3def833548784d92f2dbc7a114f6f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dunst-1.13.2-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "notification-daemon"
-    ],
+    "sha256": "aa0650006166988bba50c68a4dc04910b3c65e7209b37d91f8ebecfc651f718e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dunst-1.13.2-3-x86_64.pkg.tar.zst",
+    "provides": [],
     "depends": [
       "libxinerama",
       "dbus",
