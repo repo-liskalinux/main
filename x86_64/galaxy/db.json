@@ -17363,6 +17363,24 @@
     "conflicts": []
   },
   {
+    "name": "lv2lint",
+    "version": "0.16.2-3",
+    "origin": "artix-galaxy",
+    "sha256": "4da231dc520fbf917c04886f443f1ace5fe64fa593c4be5540b18c42f297707f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lv2lint-0.16.2-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libelf",
+      "curl",
+      "libcurl.so=4-64",
+      "lilv",
+      "liblilv-0.so=0-64"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "lxappearance",
     "version": "0.6.4-3",
     "origin": "artix-galaxy",
@@ -24832,10 +24850,10 @@
   },
   {
     "name": "rate-mirrors",
-    "version": "0.31.0-1",
+    "version": "0.33.0-1",
     "origin": "artix-galaxy",
-    "sha256": "bd9dbe2650a3cdfa3ad36c3c6c1fe2f518c501e68ae4268e020ad1d31e2af6e5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rate-mirrors-0.31.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a8016b59e73f335dd864fb7e87abc71ddb647356fc075d2135f47b64803bfb38",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/rate-mirrors-0.33.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -29325,10 +29343,10 @@
   },
   {
     "name": "unordered_dense",
-    "version": "5.2.0-1",
+    "version": "5.3.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c2fda3a2087347aac78334e764cb81298eb19830c1d076c39c9ad23a74e8685e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/unordered_dense-5.2.0-1-any.pkg.tar.zst",
+    "sha256": "1ad093ad65985e454f9d8c576204baedf87409c7c893dac490d47d5095b43f9e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/unordered_dense-5.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],

@@ -7798,10 +7798,10 @@
   },
   {
     "name": "checkbashisms",
-    "version": "2.26.12-1",
+    "version": "2.26.13-1",
     "origin": "artix-world",
-    "sha256": "114f8a7bc72b56f6ee556850a2f8f180cb827a3ba80f04f61b494b54d4f473d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/checkbashisms-2.26.12-1-any.pkg.tar.zst",
+    "sha256": "7e424c499929c52d18e993f2652c37be9ccbfcd38e29772efe5e2dfaac3f9f52",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/checkbashisms-2.26.13-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -12782,10 +12782,10 @@
   },
   {
     "name": "dpkg",
-    "version": "1.23.7-1",
+    "version": "1.23.11-1",
     "origin": "artix-world",
-    "sha256": "525d875f86b9c65e08be9b1956073bc02f3de5b6a60cb260754f636b6e9b16a7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dpkg-1.23.7-1-x86_64.pkg.tar.zst",
+    "sha256": "73a32f372d00c0c3c26993b7377ee9c34f1cf055b7f6f2b33f494b510c251dce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dpkg-1.23.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -14250,10 +14250,10 @@
   },
   {
     "name": "entr",
-    "version": "5.8-1",
+    "version": "5.9-1",
     "origin": "artix-world",
-    "sha256": "a1a773b1ce7dbe231782e3b1d20394b3719100dc638773935a12ec3f4c864f6e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/entr-5.8-1-x86_64.pkg.tar.zst",
+    "sha256": "02a3550002d05bee230422e879e8d9b121408a6e171fce43de5bbd3f6572cb07",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/entr-5.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -16333,10 +16333,10 @@
   },
   {
     "name": "ffmpeg",
-    "version": "2:9.0.2-1",
+    "version": "2:9.0.2-2",
     "origin": "artix-world",
-    "sha256": "7b30c8c9e077af869c18797514f88fb06c53c030fc2758c185b4afe82330de14",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ffmpeg-2:9.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9d987cbe209b17577f46c9ec1ff9cfffa5fd2e482894ca1158776b0943552825",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ffmpeg-2:9.0.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "libavcodec.so=63-64",
       "libavdevice.so=63-64",
@@ -19744,352 +19744,416 @@
   },
   {
     "name": "gimp-help-bg",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "ea1f8bc54b8adfc42b51e7b990124c23360cf989867facba66412587cbee4ffc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-bg-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "b1a7757878726070cc1800a604e4a83b1c6a660ef495932c731b71b252be2215",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-bg-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-ca",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "a022559e9dbdc186a7516b48ec3b26dacfde3d5b371b7bc162c708893c7e1585",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ca-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "510bd2cc55d721ebdf071e48322c644c7db2c7d5b7929075d3b9dd3a5f7bf2b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ca-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-cs",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "7b0eed976f0b0af12a093585c1dd853b30517d7d7ab564d62aa18a464d88edc5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-cs-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "bf32bf720af40be0edbda8131fcfb2e877fbdfe358b32982b3fe203cae160ce9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-cs-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-da",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "aeee258c9b1359168e9819bd9499eb9945075b8fb69e74890a43c84751b7aa1d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-da-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "302ed5098bc45ab58fb972f8b3d691071551f1ad4ebaa0a59d9426586b28b85d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-da-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-de",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "3fa46a906a913147a92ef043267635b94507da14ce3cf885e0df379ce12b4bfa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-de-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "1828360b1230e7c1eae003da049ad8fdd2ba86d2d6bd4d7ce147bc33c22d1a97",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-de-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-el",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "7dad4f7c0c5493c156de6f067a5e2b84579a33ca8d15b0f0a69a64b59eedc247",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-el-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "a0383598086571f2066b1026d4122e29230303ebc9129684326d55fd2204f86f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-el-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-en",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "de6250438544b5296b493ac0f78a4ac1fdc402479d2f5196da19d670966000f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-en-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "a09e125615d30d4bd818b492e3ab5a37aec74f39c90a2ba10d9ee762ffd834e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-en-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-en_gb",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "d1b36ada0729e11f405c1299ed5cc34b9cf10095dbf8f8374fe1482218918c24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-en_gb-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "135cb6ef3acc1fbac99b1a77d00a192644c2c0872680b0fa684c0f06f1f57e9d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-en_gb-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-eo",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "75abebc63b27f049ad81718153c28d8d787b8d8d3b5b8cb2ceb746f142c16808",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-eo-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "66bc7dc1e22d8cc13324013630069196754112465e925764a687fd72f746e619",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-eo-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-es",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "98389a7462177f581f45189de55fcce467510cb72215e34bf4cc9c1a044d6bb0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-es-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "69261240ce7cf3045cabf08199a73686f7fc786cea1cdf587db2259e2f99354d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-es-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-fa",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "3c066adb6e19aead4ab30dc65d24f06b3cbe8c7c1561989a1ae7576dad5b2498",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-fa-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "e9a9b7f729a78ef336884eff4503dd83f9a5519e9cae95e134ab7c86be1652a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-fa-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-fi",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "49c8c20581103af5724cbb771cb1b1dafe85e952e25584fdb932612725086da6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-fi-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "f0cf54e6599dd3d087e958ca6a05529461f4f1087ec37fe309c2e415e63438d1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-fi-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-fr",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "fa64c86837c7b259983038e92e28350f03e0deb46937d23c36bf35e7515745f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-fr-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "4b65c042da458b87c94cce6942563be41655fae9d4bba28108b00912ce13c84e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-fr-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-hr",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "8ef44860f3a55c97b9e770c63e0a791712121b7a37bc002d1a5dc9d7d50ad30b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-hr-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "98f9314947fa7d873e51cbf9b10a9822296ef86c20bcbd503f5d680f45ef5c32",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-hr-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-hu",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "3cea77c3935fcafe9a2297593914f0168bcac15f10da682dc780e0249fd4a522",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-hu-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "443576c29bcb399c67a498696b777a1319dc0572c15c401634e22f6b20a463c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-hu-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-it",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "1f8e6710ff7086c2ce1747df2d4bc4a9165b99c02c5006cc151f648d72c8c95d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-it-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "a6a486f6db82a466edb16676f80d96799438bed887b868582c08fd638d126fc3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-it-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-ja",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "27678c685cdbf88294b33aa64b810577d308911c1ab1df1507722470e2f27e9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ja-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "2926fce2ba730e558a0aa16e588d87ace77b864fb97bb8561f749ff6ae131c39",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ja-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-ko",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "7058140e789d3ec33f86024d96e20df109c83fd6775d64ad7025aa30ee6ef90f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ko-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "34a6bb28ddaf94255a45c6ede69132aa94f4073f96507218251567385c18e361",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ko-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-lt",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "9a28b051eb8e5d1a2985029b388b8d5c1f822f905363287c04af996766986aef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-lt-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "5aa40eee59e0e5d42910cb09bdaa65691c13cf0fecddb534fe719beb6d4fc436",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-lt-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-nl",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "5a3822e7e909beec71fa320373c46e73668f939ad69b467d9f4ba5131fbb9859",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-nl-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "5506286adb8930ca482d6c3aa09a7f3166c5d9dc37641774dfa16f0bb68dc515",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-nl-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-nn",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "0a90ba34a82c0fc1f862ee3e4dc5dd9b70b4e9e274313fc7425d616c9202eb47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-nn-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "64380d06aa0c5b37f7cb0c68ea8bd3c6b719523a2751e7d8137e00b84010c9f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-nn-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-pl",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "351f4d13d897451775990bad7fa27df65f15794fe9cfc5c22d1d6f1979011771",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-pl-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "a837f640a4168c6afc6911bbb4f75a365434d7f6ec6e5197698e1f1028c6f7d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-pl-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-pt",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "f226b33459c8aa1bff407395588bc440179d930a667f6280a01dbe2e69be21cc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-pt-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "9d2b232561c449bd84acd329d7b4756f31bddd100db492b199a500695ee242aa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-pt-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-pt_br",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "93357f02a9d33f3817937de2c1bd755b3ce95dfbbb33f6293c959d47b2b778d0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-pt_br-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "1d1afb3e576402145b865c6c5d20327f221039cf3aefb2e1650ffd978c971a8b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-pt_br-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-ro",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "affebd48e51da17863e7558c8924d3ba9de88eea2f3bcde37713f737cfb9dc0d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ro-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "7388789f8bee9513aaac05e28689cbe535b2935de9eaca84487753ac48575e79",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ro-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-ru",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "b2fc000912f5b619ce071ddee920a867821cdb745ec80e43eea66c7091d12e1a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ru-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "af80553fa64250495394ef45b11cbd0ccbf3f6cd1356a290bb5f3eeadf8425a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-ru-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-sk",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "72c866e580be6a10e4f414fe1e81700c5dbb7d28b598e8f965c95f3d8b2e23a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-sk-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "b827239e2ac8a96d89706020944ef77cbb7c263d7e4db860e3b5ab55c429a9f3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-sk-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-sl",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "d77264f0fd2a778e4e1cea2942cc3731e45c2f3e7c7bae24512b1d42cef83101",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-sl-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "eec11c4b957e0e8b7b44ed6ae0be8ac22e8a07a9b9a78ffde2839fd1f39b34b1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-sl-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-sv",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "7036d68de6ceb4365355a98537ad1b91403ebae7ad944a99e7fbed20b2a8357b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-sv-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "edc871148d0298b8f15e0429299e1332f35218bb02ac8e8859ea6e504c573f5e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-sv-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-tr",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "88a376374f0efcedad3fb23573584896dc10848cecc5093773fbd885e4e0e559",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-tr-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "87d116ef0a6da0a1d3f29413e758233c26d7050fa1807c20605082c65576d26c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-tr-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-uk",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "1c368733be71166e07c40ab4902db2f5eaaa7438619f1640e6b4eaf1d4d8c322",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-uk-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "cf0fd1068115c9e46b412f0fbc7f6fc0c97db7ab598c2d2ad205ed199c8cb6eb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-uk-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gimp-help-zh_cn",
-    "version": "3.2.0-1",
+    "version": "3.2.0-2",
     "origin": "artix-world",
-    "sha256": "a9d425f72f3c6d0f4714add03f0f7e33b429810d22e7362657ee17e62d3856a0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-zh_cn-3.2.0-1-any.pkg.tar.zst",
-    "provides": [],
+    "sha256": "27734295236e1c8a0c059d8870628584c224bca5b5a5b694c4cef655844ea607",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-help-zh_cn-3.2.0-2-any.pkg.tar.zst",
+    "provides": [
+      "gimp-help=3.2.0-2"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
@@ -20667,10 +20731,10 @@
   },
   {
     "name": "glslang",
-    "version": "1:1.4.357.0-1",
+    "version": "1:1.4.363.0-1",
     "origin": "artix-world",
-    "sha256": "28d86517ef7e1541f1bb694b5524add41429c3585f7c4f2e1a1783d7786c6e68",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glslang-1:1.4.357.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9f4bf2201edf933958e2339089f7affc492a9c8f4a84e949741d790504875908",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glslang-1:1.4.363.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28790,10 +28854,10 @@
   },
   {
     "name": "hyprland",
-    "version": "0.56.2-3",
+    "version": "0.56.2-4",
     "origin": "artix-world",
-    "sha256": "bba5195c0890a8172a06c3183a7da76e7915fabf5bdb903a50bd29dadaec007f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.2-3-x86_64.pkg.tar.zst",
+    "sha256": "49049404a698e82b62e711176465d2bbb8bfbcf667909258374384f5678a1134",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.2-4-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -29065,10 +29129,10 @@
   },
   {
     "name": "hyprpm",
-    "version": "0.56.2-3",
+    "version": "0.56.2-4",
     "origin": "artix-world",
-    "sha256": "13e726dfdec539a0adbedf1e87f71a77b1d15f6e4caf243e9eab86fe7ee40f1f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.56.2-3-x86_64.pkg.tar.zst",
+    "sha256": "97f5d59cc1190c5cf683e32f255ed3e8c2c3b0ee548238ef06853a2bb168152e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.56.2-4-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -45520,10 +45584,10 @@
   },
   {
     "name": "libical",
-    "version": "4.0.5-1",
+    "version": "4.0.6-1",
     "origin": "artix-world",
-    "sha256": "86aba7c2426a9e6d93a1c5747aaa128fd6281384f761dad65aa52bed9167fd9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libical-4.0.5-1-x86_64.pkg.tar.zst",
+    "sha256": "5f89ddd91ca3173edc5569444c60302ed2b1241980e47e21c7c7e70967495086",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libical-4.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -48266,10 +48330,10 @@
   },
   {
     "name": "libplacebo",
-    "version": "7.360.1-6",
+    "version": "7.360.1-7",
     "origin": "artix-world",
-    "sha256": "53be48812c942556f531f4f620779549e94a020e79a8e20bc2b27efc85420dc6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libplacebo-7.360.1-6-x86_64.pkg.tar.zst",
+    "sha256": "df445c6ffc238fb32bd7f4b2b4e900fa238e40c09390711c5b54f8b8e2e7b26f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libplacebo-7.360.1-7-x86_64.pkg.tar.zst",
     "provides": [
       "libplacebo.so=360-64"
     ],
@@ -56620,10 +56684,10 @@
   },
   {
     "name": "mimalloc",
-    "version": "3.5.3-1",
+    "version": "3.5.4-1",
     "origin": "artix-world",
-    "sha256": "a4f4d2728ad5258fc87543e1260713b2e47d36ea30fcbfde3b700053816e0dfb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimalloc-3.5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "53186398a829fb417d476bb90b805cdade9e3faa33bc3a07f34e300946efe7f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mimalloc-3.5.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -57194,10 +57258,10 @@
   },
   {
     "name": "mlt",
-    "version": "7.40.0-3",
+    "version": "7.42.0-1",
     "origin": "artix-world",
-    "sha256": "ca6cd76c4ee63e515ac2f65bfc3444be29c87863c5332c6323d1aeace0a58501",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mlt-7.40.0-3-x86_64.pkg.tar.zst",
+    "sha256": "3fdd0e436958a6b8b4a86496cffb1c9d70db15237fc527f824af76887871980e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mlt-7.42.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -57217,10 +57281,12 @@
       "libepoxy: opengl plugin",
       "libexif: auto rotate plugin",
       "libglvnd: opengl plugin",
+      "libplacebo: libplacebo plugin",
       "libsamplerate: libavresample plugin",
       "libvorbis: vorbis plugin",
       "libx11: SDL1 plugin",
       "libxml2: XML plugin",
+      "lilv: LADSPA plugin",
       "movit: opengl plugin",
       "opencv: openCV plugin",
       "qt6-5compat: Qt6 plugin",
@@ -61768,10 +61834,10 @@
   },
   {
     "name": "opam",
-    "version": "2.5.2-1",
+    "version": "2.6.0-1",
     "origin": "artix-world",
-    "sha256": "41d64a56aaa39129713cf10bf08b0ee4cd925219e69a1744060bafaafebcc1f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opam-2.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "441d9c06f4a37f355f2c7520a5a7214f9e2e9747b9c3f313b1ea2751e6adf62e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opam-2.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bubblewrap",
@@ -62383,10 +62449,10 @@
   },
   {
     "name": "openexr",
-    "version": "3.5.1-1",
+    "version": "3.5.2-1",
     "origin": "artix-world",
-    "sha256": "b4a7e541371a9987d62a52406a38c954b22ff729336ec767b8ce89f47762eae5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openexr-3.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ba3451204a344c673201c20d8f418f7c8d4936e55df4958566f30a3c9ad78571",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openexr-3.5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -62394,7 +62460,8 @@
       "libdeflate",
       "libgcc",
       "libstdc++",
-      "openjph"
+      "openjph",
+      "zstd"
     ],
     "optdepends": [
       "python: for python bindings"
@@ -72679,10 +72746,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.9.0-1",
+    "version": "12.9.1-1",
     "origin": "artix-world",
-    "sha256": "7ca223b2742392170e3518f92d86afd98f63df8ee1671f8218f48c3630b8241e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.9.0-1-any.pkg.tar.zst",
+    "sha256": "ce5b01f0ca6764b33426c536353c24f33b53b9c6f23b864a8ca7abbe393306fd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.9.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "node-gyp"
@@ -110574,12 +110641,12 @@
   },
   {
     "name": "sdl2-compat",
-    "version": "2.32.72-1",
+    "version": "2.32.74-1",
     "origin": "artix-world",
-    "sha256": "ac7b48c664a555370022ca1e4bff6e804a3d7341deff5aa58a955e826fbff7d5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl2-compat-2.32.72-1-x86_64.pkg.tar.zst",
+    "sha256": "7286fe4b987c7e1635485ecb27f678b5a10269024c145d11ded805e2227a6f58",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl2-compat-2.32.74-1-x86_64.pkg.tar.zst",
     "provides": [
-      "sdl2=2.32.72"
+      "sdl2=2.32.74"
     ],
     "depends": [
       "sdl3",
@@ -110592,10 +110659,10 @@
   },
   {
     "name": "sdl3",
-    "version": "3.4.16-1",
+    "version": "3.4.18-1",
     "origin": "artix-world",
-    "sha256": "3b95a76ab889978ae4a52ff9e77787b915691c1e23d6884c7b50ad4f016ecafb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl3-3.4.16-1-x86_64.pkg.tar.zst",
+    "sha256": "0ed78c8c9cf3e4c8242e13d161c1985e89f568407510bab1bb9b255f5bacb22e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl3-3.4.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -110958,10 +111025,10 @@
   },
   {
     "name": "shaderc",
-    "version": "2026.3-1",
+    "version": "2026.4-1",
     "origin": "artix-world",
-    "sha256": "b7e84dc111e8ced6d5ca7babe7a5166776a177e9a17c5a7b213b13efc7a1b133",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shaderc-2026.3-1-x86_64.pkg.tar.zst",
+    "sha256": "dc048548e2fa8d57e091abf772831ad2d86dfd4900d0c82ec052ee55008d977b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shaderc-2026.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libshaderc_shared.so=1-64"
     ],
@@ -124038,10 +124105,10 @@
   },
   {
     "name": "toxic",
-    "version": "0.16.2-2",
+    "version": "0.16.3-1",
     "origin": "artix-world",
-    "sha256": "0102f0e45e3b03850860386e40816703041efeadf036b6c078b25db3201faee5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/toxic-0.16.2-2-x86_64.pkg.tar.zst",
+    "sha256": "d12fe6cb7accaa1803be0a364a1f92721c9ca202f685d2d945fc0ac27f036f55",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/toxic-0.16.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -126773,10 +126840,10 @@
   },
   {
     "name": "vc-intrinsics",
-    "version": "0.25.0-1",
+    "version": "0.25.0-2",
     "origin": "artix-world",
-    "sha256": "ead45891d60ddde6158f81da5f03f8741c35094c657579935ba5e35c316f265f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vc-intrinsics-0.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6d49b572e4f3af65478c9322d46b18f2b369389fce2113027f96378fabd7b076",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vc-intrinsics-0.25.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
