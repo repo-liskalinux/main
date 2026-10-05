@@ -36152,10 +36152,10 @@
   },
   {
     "name": "keychain",
-    "version": "3.0.6-1",
+    "version": "3.0.7-1",
     "origin": "artix-world",
-    "sha256": "20540e677aa534283089db8abf753d03f7601a98f44345d81ce0b6f5a0e724c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keychain-3.0.6-1-any.pkg.tar.zst",
+    "sha256": "099fb762dfdbf1a9566b7aa0132abf5f47cd27af1d74e8855ca6cf4dd3d21e1e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keychain-3.0.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -113170,15 +113170,16 @@
   },
   {
     "name": "sshuttle",
-    "version": "1.3.2-2",
+    "version": "2.0.0-1",
     "origin": "artix-world",
-    "sha256": "96f5636d488d907cdebeb40c4c721a77234e87571da213a63342963229c7d21f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sshuttle-1.3.2-2-any.pkg.tar.zst",
+    "sha256": "c2b496258b8e696967ad5ce8e75a21484eff9fb3513b53ae82d5ff03157b456a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sshuttle-2.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "iptables",
       "openssh",
-      "net-tools"
+      "net-tools",
+      "python"
     ],
     "optdepends": [],
     "conflicts": []
