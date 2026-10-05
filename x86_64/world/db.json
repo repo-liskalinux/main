@@ -1707,10 +1707,10 @@
   },
   {
     "name": "apache",
-    "version": "2.4.68-1",
+    "version": "2.4.69-1",
     "origin": "artix-world",
-    "sha256": "b9b96c76fecc66c6844b80c7ffc52be3f5e565712a461f2b2a5896091ef270c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/apache-2.4.68-1-x86_64.pkg.tar.zst",
+    "sha256": "0297bf0622015b23d3e273c7dbacb85df0f9646be0f078b4e02db7b8c9846e25",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/apache-2.4.69-1-x86_64.pkg.tar.zst",
     "provides": [
       "mod_proxy_uwsgi"
     ],
@@ -26745,17 +26745,17 @@
   },
   {
     "name": "gvim",
-    "version": "9.2.1046-1",
+    "version": "9.2.1164-1",
     "origin": "artix-world",
-    "sha256": "a57a4355406d18ca5950378ad14780573cd94e111b691df26fd468be621b5828",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvim-9.2.1046-1-x86_64.pkg.tar.zst",
+    "sha256": "34ca692ecfa48831fe0c18e223eef0483194667b4d31302459152f46111be529",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvim-9.2.1164-1-x86_64.pkg.tar.zst",
     "provides": [
-      "vim=9.2.1046-1",
+      "vim=9.2.1164-1",
       "xxd",
       "vim-plugin-runtime"
     ],
     "depends": [
-      "vim-runtime=9.2.1046-1",
+      "vim-runtime=9.2.1164-1",
       "gpm",
       "libxt",
       "gtk3",
@@ -49925,10 +49925,10 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.24-1",
+    "version": "0.16.25-1",
     "origin": "artix-world",
-    "sha256": "46457493a9ee361441a7023f92b67dcaf54168e634f99ac0706d1ab65560395d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.24-1-x86_64.pkg.tar.zst",
+    "sha256": "a1e9650e5ec19e1eb5756aac1df7dc4be66cdd83a2e71e8af4b0cadeebd54e4d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.25-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl"
@@ -56094,10 +56094,10 @@
   },
   {
     "name": "meld",
-    "version": "3.24.0-2",
+    "version": "3.24.1-1",
     "origin": "artix-world",
-    "sha256": "f353ac634a1e0a9403fdb71b7c81e5c9d2f65d339a95b8ae0566a9e9b9f1c363",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/meld-3.24.0-2-any.pkg.tar.zst",
+    "sha256": "cbe5a29d462ffb22362acbc4121de61696d6f72e8b349963d968fedb7f1ee4c9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/meld-3.24.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -96422,24 +96422,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.22-1",
+    "version": "0.12.23-1",
     "origin": "artix-world",
-    "sha256": "018af013b6cd55f30ed9279a30c98fb997f1c66f905d4e8d33b235b8bbb90294",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.22-1-x86_64.pkg.tar.zst",
+    "sha256": "c8ecf696d07f228f6ecd202c3589a32be11efaa9b92125007231483b077c63c0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.23-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.22"
+      "uv=0.12.23"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.22-1",
+    "version": "0.12.23-1",
     "origin": "artix-world",
-    "sha256": "fd166f341a0c014cca2d6a481703fe574a84e26efd8b06b01b48daaa4d3d735f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.22-1-x86_64.pkg.tar.zst",
+    "sha256": "0a46f2d8bb6dd2c84d3da23c177d1fbfdcbec2fe07db02bcd51ea012d9dde186",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.23-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -104360,13 +104360,13 @@
   },
   {
     "name": "rtorrent",
-    "version": "0.16.24-1",
+    "version": "0.16.25-1",
     "origin": "artix-world",
-    "sha256": "285e2916ca221d9566c24a3e096ce4f8555f2d66e0a871352abf34ba0dfcc20e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.24-1-x86_64.pkg.tar.zst",
+    "sha256": "f9a4ad20d9796052c9ab7391cfd7a9e9a968a37c1362db443b1f76a6921372c2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.25-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libtorrent=0.16.24",
+      "libtorrent=0.16.25",
       "curl",
       "tinyxml2"
     ],
@@ -111591,10 +111591,10 @@
   },
   {
     "name": "slirp4netns",
-    "version": "1.3.5-1",
+    "version": "1.3.6-1",
     "origin": "artix-world",
-    "sha256": "9156be8871b6f49d0ed1b3466070fd7d4eae90ce6a44d052d2824681bcbbf738",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/slirp4netns-1.3.5-1-x86_64.pkg.tar.zst",
+    "sha256": "2c561715a1533c6c42cf7e64e40955e06fac4fc15e17c17fa039047e403265e9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/slirp4netns-1.3.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125965,10 +125965,10 @@
   },
   {
     "name": "upower",
-    "version": "1.91.4-1",
+    "version": "1.91.5-1",
     "origin": "artix-world",
-    "sha256": "e2718dd9fa85db9b9b4e81d8efe1e66bab99df6f15ee73be940c9d3cad09bef6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/upower-1.91.4-1-x86_64.pkg.tar.zst",
+    "sha256": "370da0a835b10b686420f8c933e1d353a5008c44b3b0852a0feba327258d3727",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/upower-1.91.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libupower-glib.so=3-64"
     ],
@@ -126298,10 +126298,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.22-1",
+    "version": "0.12.23-1",
     "origin": "artix-world",
-    "sha256": "6cbf086b51b6f2d3c2b5ec1b7bdb60d02c1d03d95c9565496de83bd3f3ac8645",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.22-1-x86_64.pkg.tar.zst",
+    "sha256": "ed49a9d3b4c5804d91c17990156a410f93ab0a05e58d035c1571051138f29c93",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.23-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126578,10 +126578,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261002050024-1",
+    "version": "20261004053124-1",
     "origin": "artix-world",
-    "sha256": "c298b24f8efe98be6dc42b2c221243be972a99e05f8a3843e75df8f9c8bb3c91",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261002050024-1-any.pkg.tar.zst",
+    "sha256": "2edb6b06e2401755f576fbd3e4e4930f62292d9058fbdc46041100eee51f6b34",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261004053124-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -127099,17 +127099,17 @@
   },
   {
     "name": "vim",
-    "version": "9.2.1046-1",
+    "version": "9.2.1164-1",
     "origin": "artix-world",
-    "sha256": "f6317c45ec92a49ca38c36dcffe9d188c532868985435a483e5b83059625d829",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-9.2.1046-1-x86_64.pkg.tar.zst",
+    "sha256": "c348df9efea7bfd675880bbfa9cf47d5a81bb61cc8c86b9589e5102ab56a51b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-9.2.1164-1-x86_64.pkg.tar.zst",
     "provides": [
       "xxd",
       "vim-minimal",
       "vim-plugin-runtime"
     ],
     "depends": [
-      "vim-runtime=9.2.1046-1",
+      "vim-runtime=9.2.1164-1",
       "gpm",
       "acl",
       "glibc",
@@ -127146,10 +127146,10 @@
   },
   {
     "name": "vim-runtime",
-    "version": "9.2.1046-1",
+    "version": "9.2.1164-1",
     "origin": "artix-world",
-    "sha256": "4bd228a7d6fc0e9778056c3c5a96a97640adf28fb2d1515eec17ecb882beef2f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-runtime-9.2.1046-1-x86_64.pkg.tar.zst",
+    "sha256": "9bcf4e45d674e2250aa5ce3d9c686aab03b8bb175b4f93840e1f33b8548d308c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-runtime-9.2.1164-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [

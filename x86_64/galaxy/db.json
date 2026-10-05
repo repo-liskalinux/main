@@ -3419,10 +3419,10 @@
   },
   {
     "name": "deltachat-desktop",
-    "version": "2.59.1-1",
+    "version": "2.62.0-1.1",
     "origin": "artix-galaxy",
-    "sha256": "c3c3f0fb9cbf9e9ba55005149caa815ae2c69f52435dfeaf4e1953874a497af2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.59.1-1-any.pkg.tar.zst",
+    "sha256": "8ccb8f2b92aa37d30bab65eb21557145571240d2f97f29ecec61131424a0d12a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.62.0-1.1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "electron42",
@@ -3435,10 +3435,10 @@
   },
   {
     "name": "deltachat-rpc-server",
-    "version": "2.59.0-1",
+    "version": "2.62.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c891395778315c5c8042e35a5b0a514301363560df584ea44364c5a677da4630",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.59.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2195a359401e303a99a3385145d3ddc181a56ce36349f513242bb81a267c1912",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.62.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -18914,10 +18914,10 @@
   },
   {
     "name": "mate-notification-daemon",
-    "version": "1.29.0-2",
+    "version": "1.29.0-3",
     "origin": "artix-galaxy",
-    "sha256": "667ab4a46aa4b47a526c7b6bc01d7d713c17a119b608d3f7936d29f4efa9b2b1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-notification-daemon-1.29.0-2-x86_64.pkg.tar.zst",
+    "sha256": "59610819349c589c29ff347c6b654b46edbc77ccecac59d1b8cf4dd7e6ea9fc2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-notification-daemon-1.29.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -19084,29 +19084,39 @@
   },
   {
     "name": "mate-settings-daemon",
-    "version": "1.28.0-2",
+    "version": "1.28.0-3",
     "origin": "artix-galaxy",
-    "sha256": "dd02c19e4365da438057f88dd50bda2809800824267fa076a9f637526a45784d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-settings-daemon-1.28.0-2-x86_64.pkg.tar.zst",
+    "sha256": "679d98f7b69a7eaf7ca33ce5c3ce2902a308141fc4b08917f206d783e6898fea",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-settings-daemon-1.28.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
+      "dbus",
       "dbus-glib",
+      "dconf",
+      "fontconfig",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
       "libcanberra",
+      "libgcc",
       "libmatekbd",
       "libmatemixer",
       "libnotify",
+      "libpulse",
+      "libx11",
+      "libxi",
+      "libxklavier",
       "mate-desktop",
+      "nspr",
       "nss",
-      "polkit",
-      "gettext"
+      "polkit"
     ],
-    "optdepends": [
-      "libcanberra-pulse: PulseAudio support",
-      "pulseaudio-alsa: PulseAudio support"
-    ],
-    "conflicts": [
-      "mate-settings-daemon-gtk3"
-    ]
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "mate-system-monitor",
@@ -21567,10 +21577,10 @@
   },
   {
     "name": "nushell",
-    "version": "0.116.0-1",
+    "version": "0.116.1-1",
     "origin": "artix-galaxy",
-    "sha256": "9b8b46423e7358c2878c4139c8f1a68cde9681bbc1de9a55f32402a75de229f2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nushell-0.116.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ab9ed88f7976bc45d4bba95cd9af6bba5c532c8898923ce343dd49ca414a464c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nushell-0.116.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -24519,10 +24529,10 @@
   },
   {
     "name": "qrupdate",
-    "version": "1.2.0-1",
+    "version": "1.3.0-1",
     "origin": "artix-galaxy",
-    "sha256": "8259b40bd5bce4feb3ba4578e64805fd8624774f20792c5de29fb7aba880caa6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qrupdate-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "96823afc281820ab353d766fd89565e6086d6b2effc2ef7aa5b161d96cda3bb8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qrupdate-1.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas",
