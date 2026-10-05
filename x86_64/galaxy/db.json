@@ -3381,10 +3381,10 @@
   },
   {
     "name": "dbeaver",
-    "version": "26.2.0-2",
+    "version": "26.2.2-1",
     "origin": "artix-galaxy",
-    "sha256": "33d20b2e62b74d4b4f9801c5f457efa8298b13c5af5febef874f61e705e859ae",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dbeaver-26.2.0-2-x86_64.pkg.tar.zst",
+    "sha256": "31f76a7b5f9c4b1b75c3bd939935c055f161310f90c7f3600db6ef978ca3ebe2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dbeaver-26.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-runtime>=21",
@@ -9301,10 +9301,10 @@
   },
   {
     "name": "godot",
-    "version": "4.7.2-1",
+    "version": "4.7.2-2",
     "origin": "artix-galaxy",
-    "sha256": "9a08c23ca611020debef42a633b05cc57a71f163114bfec9a88aece09c0a6d0f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/godot-4.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f18fb8cd3404a62b24642aa31537e3710a98b76899871f55c7ec6c1d82526674",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/godot-4.7.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -9335,10 +9335,10 @@
   },
   {
     "name": "godot-mono",
-    "version": "4.7.2-1",
+    "version": "4.7.2-2",
     "origin": "artix-galaxy",
-    "sha256": "76c2a5b3e2d6eae4657cb3efef23e3203201b0ed4523e670bee219f8644944d5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/godot-mono-4.7.2-1-x86_64.pkg.tar.zst",
+    "sha256": "b82bfb65596b17695818e4ceb7e4d72acd3bab5e96914be8657d6bd9d253241e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/godot-mono-4.7.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -11484,6 +11484,52 @@
       "qt5-base",
       "fftw",
       "libsamplerate"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "liblsp-audio-jack-lib",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "83199fd51f6f802cc6ba7bffe1fd6a074e9a7962d614f67b3b3a31f3674be46d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-audio-jack-lib-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "jack",
+      "libjack.so=0-64"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "liblsp-audio-pipewire-lib",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "88839cabe7004930c35b149b79f29cdc737030aebdf90daa43d832117a7ba412",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-audio-pipewire-lib-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libpipewire",
+      "libpipewire-0.3.so=0-64"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "liblsp-r3d-glx-lib",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "8cea59abcc2462d2486781dee0774e2cf4b56ce1479cadd2e9c95cee990f4954",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-r3d-glx-lib-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libglvnd",
+      "libGL.so=1-64",
+      "libx11"
     ],
     "optdepends": [],
     "conflicts": []
@@ -17302,18 +17348,199 @@
     "conflicts": []
   },
   {
-    "name": "lutris",
-    "version": "0.5.22-2",
+    "name": "lsp-plugins",
+    "version": "1.2.35-1",
     "origin": "artix-galaxy",
-    "sha256": "c1e87549fbcb9d176ea903b0f51228d638a6ab4867d1650fa09fa939efb1c665",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lutris-0.5.22-2-any.pkg.tar.zst",
+    "sha256": "f1d173c89cb0c6d032497fb303d57da582550c630012440a73fda4c1b1eacc5e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lsp-plugins-clap",
+      "lsp-plugins-gst",
+      "lsp-plugins-ladspa",
+      "lsp-plugins-lv2",
+      "lsp-plugins-standalone",
+      "lsp-plugins-vst",
+      "lsp-plugins-vst3"
+    ],
+    "optdepends": [
+      "lsp-plugins-docs: for documentation"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-clap",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "c2e8463bd78a32c9ee1a1fa0ca4b8aac391b50bdc78537354922333b463de9ed",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-clap-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cairo",
+      "clap-host",
+      "fontconfig",
+      "freetype2",
+      "glibc",
+      "libglvnd",
+      "libGL.so=1-64",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++",
+      "libx11",
+      "libxrandr"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-gst",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "30e86763ecd8d8bf1ae233106db53ac2478af367c0236b4d84b3ef2aa2967766",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-gst-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glib2",
+      "libglib-2.0.so=0-64",
+      "libgobject-2.0.so=0-64",
+      "glibc",
+      "gstreamer",
+      "gst-plugins-base-libs",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-ladspa",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "43e0a71a12c3598dd2d972e46a71e94f0b60ded55ae0bd2454726ead7a55a3b1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-ladspa-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "ladspa-host",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-lv2",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "3d832ffab010118fc6f95207ae18a5081c1048e12ea1b821490ad2f4e73abea7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-lv2-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cairo",
+      "fontconfig",
+      "freetype2",
+      "glibc",
+      "libglvnd",
+      "libGL.so=1-64",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++",
+      "libx11",
+      "libxrandr",
+      "lv2-host"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-standalone",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "e0a11cf97eb4acfd7e851c5971a6e255d98128850d9cc917cf9e7d1195f9799f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-standalone-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cairo",
+      "fontconfig",
+      "freetype2",
+      "glibc",
+      "hicolor-icon-theme",
+      "libglvnd",
+      "libGL.so=1-64",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++",
+      "libx11",
+      "libxrandr"
+    ],
+    "optdepends": [
+      "liblsp-audio-pipewire-lib: for PipeWire support",
+      "liblsp-audio-jack-lib: for JACK support"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-vst",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "181de393cf970af833ddebb0688acd9d860e1996b1effdddebf686f6bcf61273",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-vst-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cairo",
+      "fontconfig",
+      "freetype2",
+      "glibc",
+      "libglvnd",
+      "libGL.so=1-64",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++",
+      "libx11",
+      "libxrandr",
+      "vst-host"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lsp-plugins-vst3",
+    "version": "1.2.35-1",
+    "origin": "artix-galaxy",
+    "sha256": "5d06c0951af43cbe03bc633671c067c3a6668ac3dba3b670a24a765c5b03648f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-vst3-1.2.35-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cairo",
+      "fontconfig",
+      "freetype2",
+      "glibc",
+      "libglvnd",
+      "libGL.so=1-64",
+      "libsndfile",
+      "libsndfile.so=1-64",
+      "libstdc++",
+      "libx11",
+      "libxrandr",
+      "vst3-host"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lutris",
+    "version": "0.5.22-3",
+    "origin": "artix-galaxy",
+    "sha256": "7594de5fac0e7dec6b3c2640d542a061411bd5c958509329816c2f046eb88f76",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lutris-0.5.22-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cabextract",
       "curl",
       "gdk-pixbuf2",
       "glib2",
-      "gnome-desktop",
       "gobject-introspection-runtime",
       "gtk3",
       "hicolor-icon-theme",
@@ -30814,13 +31041,11 @@
   },
   {
     "name": "xfce4-notifyd",
-    "version": "0.9.7-2",
+    "version": "0.9.7-3",
     "origin": "artix-galaxy",
-    "sha256": "9614d7451180f5ca72c29191dcbc1baa8d733acbb03a44afa1b8a9bbd8f69fe7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xfce4-notifyd-0.9.7-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "notification-daemon"
-    ],
+    "sha256": "da416c5ffff48dfa07932c792d89686773c45bf97d861db74667bf3b25f6ce74",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xfce4-notifyd-0.9.7-3-x86_64.pkg.tar.zst",
+    "provides": [],
     "depends": [
       "libxfce4ui",
       "libxfce4util",
