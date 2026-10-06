@@ -1533,10 +1533,10 @@
   },
   {
     "name": "ansible-core",
-    "version": "2.21.4-1",
+    "version": "2.21.5-1",
     "origin": "artix-world",
-    "sha256": "3ddc6fa9092d9ab94eb720790cdc68242a8cd04deb4fbcacb2d86f402c76c3fb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-core-2.21.4-1-any.pkg.tar.zst",
+    "sha256": "357bdc31c9a067e437953f95a5b5e5f964ccccd454aeffb57b048011e76c58a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-core-2.21.5-1-any.pkg.tar.zst",
     "provides": [
       "python-ansible",
       "ansible-base"
@@ -6154,10 +6154,10 @@
   },
   {
     "name": "bootconfig",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "69812c0ed78d0b20b52ff15f50b0e946dd3301fd71403d8f19eacbfa8e7410ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "1a825300e765c76fa85bd6f4f0967405e804cf15387e928c336f6ff4a991260e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -6231,10 +6231,10 @@
   },
   {
     "name": "bpf",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "dfb8cee37346604f973aed837adba1b84d285ab2783e454fd88834f21a2c5713",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "65e95bb82ea86f18ffa34857850a99691805c182b67477bcabc4bb7a1cbcb9ca",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9681,10 +9681,10 @@
   },
   {
     "name": "cpupower",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "9cbc96962882d1438e8c0d4bd7bb5e69399d43748cff0fbe1c86181b9d394b2e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "518fde11fd5183cd67e5bd2c0f770711a83063078c3acba67748b0aedb0c7130",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10021,15 +10021,15 @@
   },
   {
     "name": "cups",
-    "version": "2:2.4.19-1",
+    "version": "2:2.4.20-1",
     "origin": "artix-world",
-    "sha256": "74b0a229658ccf3b6f866fd8636ec5ee5dadc1f91c22fefede512f174b89ba28",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cups-2:2.4.19-1-x86_64.pkg.tar.zst",
+    "sha256": "f587325ec5a988a9b8897e6affb36dd74ce66f59ff2ef8fd587671180b275134",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cups-2:2.4.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",
       "pam",
-      "libcups>=2.4.19",
+      "libcups>=2.4.20",
       "cups-filters",
       "dbus",
       "libudev",
@@ -26707,24 +26707,25 @@
   },
   {
     "name": "gvim",
-    "version": "9.2.1164-1",
+    "version": "9.2.1164-2",
     "origin": "artix-world",
-    "sha256": "34ca692ecfa48831fe0c18e223eef0483194667b4d31302459152f46111be529",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvim-9.2.1164-1-x86_64.pkg.tar.zst",
+    "sha256": "ea2af040879cb8343adcd0984591674374a721e8092fca1b040aa8ff41b71f46",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvim-9.2.1164-2-x86_64.pkg.tar.zst",
     "provides": [
-      "vim=9.2.1164-1",
+      "vim=9.2.1164-2",
       "xxd",
       "vim-plugin-runtime"
     ],
     "depends": [
-      "vim-runtime=9.2.1164-1",
+      "vim-runtime=9.2.1164-2",
       "gpm",
       "libxt",
       "gtk3",
       "glibc",
       "libgcrypt",
       "zlib",
-      "libcanberra"
+      "libcanberra",
+      "pixman"
     ],
     "optdepends": [
       "python: Python language support",
@@ -26995,10 +26996,10 @@
   },
   {
     "name": "harfbuzz",
-    "version": "14.5.1-1",
+    "version": "14.6.0-1",
     "origin": "artix-world",
-    "sha256": "55e4ad2e2d4290adcce3b8b731e77d66f01473cb0fc637f2889dc24a7f257315",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-14.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2a76d8061798858079660293a91d606bf61b6c96a1563375b876fa2f1f5197cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-14.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz.so=0-64",
       "libharfbuzz-subset.so=0-64",
@@ -27027,10 +27028,10 @@
   },
   {
     "name": "harfbuzz-cairo",
-    "version": "14.5.1-1",
+    "version": "14.6.0-1",
     "origin": "artix-world",
-    "sha256": "a1f7b9d5d65a2fdac6378841ac559c4d8ce961bd37b711332d2b7d2c81e8bf24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-14.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2a34a0735972bb54caaeacd38965a413077bf5de095059dc364821e0004fefd2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-14.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-cairo.so=0-64"
     ],
@@ -27049,10 +27050,10 @@
   },
   {
     "name": "harfbuzz-icu",
-    "version": "14.5.1-1",
+    "version": "14.6.0-1",
     "origin": "artix-world",
-    "sha256": "4e346d16b1b209c63262554097a9b905d543224ef31f587d254d35d9aabb9047",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-14.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "52abb19d2c66129bea370f89565bc16057fd66a2e7b41842832efea49f212734",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-14.6.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-icu.so=0-64"
     ],
@@ -27068,10 +27069,10 @@
   },
   {
     "name": "harfbuzz-utils",
-    "version": "14.5.1-1",
+    "version": "14.6.0-1",
     "origin": "artix-world",
-    "sha256": "7b0948a1d67ae925ff9032d52b891c61f5d709ccc17d01c186f78672ba82bb41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-14.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c84de690e21474b7a8c918647e1f222b4bd4687f1032b2abf65c9c5f594294e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-14.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -28683,10 +28684,10 @@
   },
   {
     "name": "hyperv",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "e8003d070942e6f2c43656e6f93627bd479111cd7199c9348f54890cca18737c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "fb39640fa1e83b8a7858e26ecea6213075d2c6ad0abf76da39a7935d4a47ae69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -30523,10 +30524,10 @@
   },
   {
     "name": "intel-speed-select",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "974a3d0b6e17fc02000babef9f05c38acfcf0835fe4efb8c2fd2a8bc2d6095b1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "95d12a91a3fed4ffa9ff6ba2d2bfcbb878ff1565ab63c245c5bcc96ce682db7d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnl"
@@ -31830,15 +31831,15 @@
   },
   {
     "name": "jenkins",
-    "version": "2.584-1",
+    "version": "2.585-2",
     "origin": "artix-world",
-    "sha256": "2eb7b19b80b896728b59bf427f6ec9affa0e884a21c93d434fad645667d8f0d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.584-1-any.pkg.tar.zst",
+    "sha256": "8a2d9560dcb09396a8f7a5023b846e39b1991deb30f5c00560d11d2a2817d87c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.585-2-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
     "depends": [
-      "java-runtime=21",
+      "java-runtime=25",
       "ttf-dejavu",
       "fontconfig"
     ],
@@ -34368,10 +34369,10 @@
   },
   {
     "name": "kcpuid",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "3651f2b1a52b641e18e0a3e14ba9757c8122c403f4c2b5bc1bf69aa4363fe4ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "4fca96c6547b115d201202bc14cd735ba31535d1c2c7cc67e76bd03f72730fb3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -38458,15 +38459,13 @@
   },
   {
     "name": "knewstuff5",
-    "version": "5.116.0-4",
+    "version": "5.116.0-5",
     "origin": "artix-world",
-    "sha256": "1de794ebdf7305bd0faed3c4e547c32229385b2f2b0f65391726768db4df00d4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knewstuff5-5.116.0-4-x86_64.pkg.tar.zst",
+    "sha256": "d049b628ba4aed1f330df57a8f4896a35874aa58cbca0574ad22e322cc0a9e1f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knewstuff5-5.116.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "kdeclarative5",
       "kio5",
-      "kirigami2",
       "kpackage5",
       "attica5",
       "syndication5"
@@ -43552,10 +43551,10 @@
   },
   {
     "name": "libcups",
-    "version": "2:2.4.19-1",
+    "version": "2:2.4.20-1",
     "origin": "artix-world",
-    "sha256": "39f1b0622722f7bba9ea215989d74a7d8ef6e2f76528c04c44f644c99e037273",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcups-2:2.4.19-1-x86_64.pkg.tar.zst",
+    "sha256": "1b1d17be2350caec130c739f01dd1f1a97a2b6bc83e7b3a3906afe6a808dddf0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcups-2:2.4.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gnutls",
@@ -43569,10 +43568,10 @@
   },
   {
     "name": "libcupsfilters",
-    "version": "2.2.1.r23.gdee3b387-1",
+    "version": "2.2.1.r28.gce65eb74-1",
     "origin": "artix-world",
-    "sha256": "6771e1733c701fb3c7805283199bd7d3520fe6ade66a31f9fe00918d57d4f902",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcupsfilters-2.2.1.r23.gdee3b387-1-x86_64.pkg.tar.zst",
+    "sha256": "ab66c5b010a369f06c89a761678ac311726523a413bdf5a2389f1201b6f23f74",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcupsfilters-2.2.1.r28.gce65eb74-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcups",
@@ -44333,12 +44332,15 @@
   },
   {
     "name": "libfaketime",
-    "version": "0.9.12-1",
+    "version": "0.9.13-1",
     "origin": "artix-world",
-    "sha256": "0970441a2480a0cc8cd9d53e2c7a16e574d658151b253e286c6c8f51c0a43ca6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libfaketime-0.9.12-1-x86_64.pkg.tar.zst",
+    "sha256": "08d0b533d15303ec2712077d7c8f57a90c93ef03b60c6413d0849b4fd36ed3b8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libfaketime-0.9.13-1-x86_64.pkg.tar.zst",
     "provides": [],
-    "depends": [],
+    "depends": [
+      "glibc",
+      "libgcc"
+    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -45478,10 +45480,10 @@
   },
   {
     "name": "libheif",
-    "version": "1.23.5-1",
+    "version": "1.23.6-1",
     "origin": "artix-world",
-    "sha256": "d63ce1cf40f531bf3e5c9048c6eef801872aaa7736d7b4aafe20bad51b715426",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libheif-1.23.5-1-x86_64.pkg.tar.zst",
+    "sha256": "e44e343d81beb301f1d6cd47712e4e4a43bf848e0ae08ca0a6fdf1d2d4369aed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libheif-1.23.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libheif.so=1-64"
     ],
@@ -46910,10 +46912,10 @@
   },
   {
     "name": "libmd",
-    "version": "1.2.0-1",
+    "version": "1.3.0-1",
     "origin": "artix-world",
-    "sha256": "8a78a8366621be9ed1b90a8889405c17ae25947ceb3d8535a5cda7a187c39751",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmd-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a0b186d1e1c7efd1757d555a865d52bf5f99fc4b5ab74c068f8e542b157ab552",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmd-1.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -52192,10 +52194,10 @@
   },
   {
     "name": "linux-tools-meta",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "9571e7842afc32ff1a8e50badf338d54de2bba953525d8e60a82ffeb77b38668",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "ffd88f7e66555bd1c9da0a34e7a4bcc72f7a04193b7390b8a2dc836d783ab2a9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bootconfig",
@@ -57463,16 +57465,14 @@
   },
   {
     "name": "mold",
-    "version": "2.42.1-1",
+    "version": "3.0.0-4",
     "origin": "artix-world",
-    "sha256": "5efde7e48e76811284dec2345735597d2c42eb5fb941ec3d6a7abcae5c45a2f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mold-2.42.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0c9c8399637ccc19098694d189fe9b7e874fc964ec4d768058e569b6a3551651",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mold-3.0.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "libblake3",
-      "libstdc++",
-      "tbb",
+      "libgcc",
       "zlib",
       "zstd"
     ],
@@ -65126,10 +65126,10 @@
   },
   {
     "name": "perf",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "dca7809a7acc55a439980257391314c25cd00559202d06b8a5e132900530bd9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "048eada018ad7333381db8af39099d97504b9f5369d4903f2e7bf99a83a1c2f3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72298,10 +72298,10 @@
   },
   {
     "name": "plasma-wayland-protocols",
-    "version": "1.22.0-1",
+    "version": "1.23.0-1",
     "origin": "artix-world",
-    "sha256": "d04c0acf90decc95b028cd785ab077e0a7d4e18a912793d6cfc71649988829f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-wayland-protocols-1.22.0-1-any.pkg.tar.zst",
+    "sha256": "45cc7192a6289223df4eff67750e5f3993c628c4b0cbe24845ce5d9724d2eb0c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-wayland-protocols-1.23.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -76492,10 +76492,10 @@
   },
   {
     "name": "python-ast-serialize",
-    "version": "0.3.0-2",
+    "version": "0.11.2-1",
     "origin": "artix-world",
-    "sha256": "4afb1f7ba12c0c3defd953d7a62d630c58b923864c5cf6460e5ec2d158e77dd2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ast-serialize-0.3.0-2-x86_64.pkg.tar.zst",
+    "sha256": "ecc3474b63c6c74e446d6532fdb2d3508f5a9496c6387d5c4d7cf43fda04d8c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ast-serialize-0.11.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "python-ast_serialize"
     ],
@@ -123666,10 +123666,10 @@
   },
   {
     "name": "tmon",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "6344121361ea26753815b6f19ca05bd4e6f8dd701d8c31f87aa6ccff8d560842",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "7696e0c3bff8ed621dbf9610d5ab705eb8d42c13e5e395fdf7dee7c8950bae20",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -124895,10 +124895,10 @@
   },
   {
     "name": "turbostat",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "83c020e5b45eb7ded7096b1f5192f7c516a1a828849021905e139682316b29d6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "f4d04fdf9a29363ddc40c1715b3f1337bf37a4dcc26b7f0f0e94f136c68e53b9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126128,10 +126128,10 @@
   },
   {
     "name": "usbip",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "4f05d2eac2c307f48d36ba4b1791fa1912770d1ffdac4717034c4a9d721c59f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "000a643b6e61e8fc501dc20e3a9764076714f0b1899252cd15ff384023cfd3b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126551,10 +126551,10 @@
   },
   {
     "name": "v2ray-geoip",
-    "version": "202609050329-1",
+    "version": "202610050438-1",
     "origin": "artix-world",
-    "sha256": "dcc27f2b5d87c717ac18c444e08affd24e2215b027d0a6b540c9d17492d3f1ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-geoip-202609050329-1-any.pkg.tar.zst",
+    "sha256": "cd20fc9559d069ef3ebeedbd9bbd3bcca16e790c29f96cdd8bce002c99474a10",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-geoip-202610050438-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -127061,17 +127061,17 @@
   },
   {
     "name": "vim",
-    "version": "9.2.1164-1",
+    "version": "9.2.1164-2",
     "origin": "artix-world",
-    "sha256": "c348df9efea7bfd675880bbfa9cf47d5a81bb61cc8c86b9589e5102ab56a51b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-9.2.1164-1-x86_64.pkg.tar.zst",
+    "sha256": "4d370bb0299f75d19d83730eb66c21a55f9cd55c6744cdbbefcae917f1e53853",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-9.2.1164-2-x86_64.pkg.tar.zst",
     "provides": [
       "xxd",
       "vim-minimal",
       "vim-plugin-runtime"
     ],
     "depends": [
-      "vim-runtime=9.2.1164-1",
+      "vim-runtime=9.2.1164-2",
       "gpm",
       "acl",
       "glibc",
@@ -127108,10 +127108,10 @@
   },
   {
     "name": "vim-runtime",
-    "version": "9.2.1164-1",
+    "version": "9.2.1164-2",
     "origin": "artix-world",
-    "sha256": "9bcf4e45d674e2250aa5ce3d9c686aab03b8bb175b4f93840e1f33b8548d308c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-runtime-9.2.1164-1-x86_64.pkg.tar.zst",
+    "sha256": "08187b9ea665dfe254567dc7d1d30098940be33b702a1e992e76f555d6134fa9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vim-runtime-9.2.1164-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -131894,10 +131894,10 @@
   },
   {
     "name": "x86_energy_perf_policy",
-    "version": "7.2.8-2",
+    "version": "7.2.9-1",
     "origin": "artix-world",
-    "sha256": "f14a4c03b1c4b2f964993a3adce65661adaacb1370cb113a5acb50677b05d4f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.2.8-2-x86_64.pkg.tar.zst",
+    "sha256": "f7e6beef0b8dd8b67bb0f9916bcdf394bf3e0086814de4ffb2bd26bb9c412d81",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.2.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"

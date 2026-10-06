@@ -4556,28 +4556,33 @@
   },
   {
     "name": "eom",
-    "version": "1.28.1-1",
+    "version": "1.28.1-2",
     "origin": "artix-galaxy",
-    "sha256": "0e0f8cb6b2fc24a25bd413dde2b4c5bfd93ae76f0559d5b982c0e01428e966e2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/eom-1.28.1-1-x86_64.pkg.tar.zst",
+    "sha256": "72713b7eeaf8d6c580f8a536f9bbc7eff981a3f16eb3c2f3fcf587517670b649",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/eom-1.28.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "dbus-glib",
-      "gobject-introspection-runtime",
-      "gettext",
+      "at-spi2-core",
+      "cairo",
+      "dconf",
       "exempi",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
       "lcms2",
       "libexif",
       "libjpeg-turbo",
+      "libpeas",
+      "librsvg",
+      "libx11",
+      "libxml2",
       "mate-desktop",
-      "libpeas"
+      "zlib"
     ],
-    "optdepends": [
-      "webp-pixbuf-loader: webp image format support"
-    ],
-    "conflicts": [
-      "eom-gtk3"
-    ]
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "eovim",
@@ -19941,15 +19946,21 @@
   },
   {
     "name": "mate-calc",
-    "version": "1.28.0-3",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "21e438bfb8163e2fcd0abd402a594105d9e7e2e58897f4622177a0b31577073c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-calc-1.28.0-3-x86_64.pkg.tar.zst",
+    "sha256": "2e5e12efed7d941ab7a9dadfc808addfc90eec34c8be67efc36a1aaf53c31e88",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-calc-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "dconf",
+      "glib2",
+      "glibc",
       "gtk3",
-      "gettext",
-      "libmpc"
+      "libmpc",
+      "libxml2",
+      "mpfr",
+      "pango"
     ],
     "optdepends": [],
     "conflicts": []
@@ -20344,22 +20355,29 @@
   },
   {
     "name": "mate-terminal",
-    "version": "1.28.1-2",
+    "version": "1.28.3-1",
     "origin": "artix-galaxy",
-    "sha256": "3b2b673b7e85ab4cd8436e4ab9c997272b1d3257a90d08068dd5bdf9b286927a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-terminal-1.28.1-2-x86_64.pkg.tar.zst",
+    "sha256": "fc6657db73e6dffd59013008923c366a4f8b424822970b3a2e3cf86286c34295",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-terminal-1.28.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "libice",
       "libsm",
-      "gettext",
+      "libx11",
       "mate-desktop",
-      "vte3",
-      "perl"
+      "pango",
+      "perl",
+      "vte3"
     ],
     "optdepends": [],
-    "conflicts": [
-      "mate-terminal-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "mate-themes",
@@ -30336,10 +30354,10 @@
   },
   {
     "name": "ttf-sarasa-gothic",
-    "version": "1.0.41-1",
+    "version": "1.0.42-2",
     "origin": "artix-galaxy",
-    "sha256": "e1d1b699934d64b65ce6410df5113046f996bd3ddb844317d0da5e682fdf6fa3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ttf-sarasa-gothic-1.0.41-1-any.pkg.tar.zst",
+    "sha256": "259efe48833b0a883e3734b9b6b0a2cc70a72cb933fb3a828f416d5d1cdda3b7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ttf-sarasa-gothic-1.0.42-2-any.pkg.tar.zst",
     "provides": [
       "ttf-sarasa-slab"
     ],
