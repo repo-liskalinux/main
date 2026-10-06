@@ -874,6 +874,42 @@
     "conflicts": []
   },
   {
+    "name": "awesome",
+    "version": "4.3-7.1",
+    "origin": "artix-galaxy",
+    "sha256": "42673b9cf871b3d36c3cf71cb5dec5a01d1468fcb8e933606378d30de195af02",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/awesome-4.3-7.1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "cairo",
+      "dbus",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "libx11",
+      "libxcb",
+      "libxdg-basedir",
+      "libxkbcommon",
+      "libxkbcommon-x11",
+      "lua53",
+      "lua53-lgi",
+      "pango",
+      "startup-notification",
+      "xcb-util",
+      "xcb-util-cursor",
+      "xcb-util-keysyms",
+      "xcb-util-wm",
+      "xcb-util-xrm"
+    ],
+    "optdepends": [
+      "rlwrap: readline support for awesome-client",
+      "dex: autostart your desktop files",
+      "vicious: widgets for the Awesome window manager"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "awww",
     "version": "0.12.1-1",
     "origin": "artix-galaxy",
@@ -1296,6 +1332,20 @@
       "snapper: Snapper support",
       "btrfsmaintenance: Btrfs maintenance support"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "busted",
+    "version": "2.3.0-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "2d66c50fb6fc9f421b90c81f1257572a9d211d0652f600f59ce81af3d6701e11",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/busted-2.3.0-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-busted"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -10588,6 +10638,50 @@
     "conflicts": []
   },
   {
+    "name": "kile",
+    "version": "2.9.94-3",
+    "origin": "artix-galaxy",
+    "sha256": "c32f21b320d2841a3d5ac9febdabe237174864fbe0a7b51af9d3161b249cec95",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/kile-2.9.94-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "kcodecs",
+      "kcolorscheme",
+      "kcompletion",
+      "kconfig",
+      "kconfigwidgets",
+      "kcoreaddons",
+      "kcrash",
+      "kdbusaddons",
+      "kguiaddons",
+      "ki18n",
+      "kiconthemes",
+      "kio",
+      "kparts",
+      "kservice",
+      "ktexteditor",
+      "ktextwidgets",
+      "kwidgetsaddons",
+      "kwindowsystem",
+      "kxmlgui",
+      "libgcc",
+      "libstdc++",
+      "okular",
+      "perl",
+      "poppler-qt6",
+      "qt6-5compat",
+      "qt6-base",
+      "qt6-declarative",
+      "texlive-basic"
+    ],
+    "optdepends": [
+      "imagemagick: for some file type conversions",
+      "konsole: embedded terminal"
+    ],
+    "conflicts": []
+  },
+  {
     "name": "knockd-openrc",
     "version": "20250331-1",
     "origin": "artix-galaxy",
@@ -11056,16 +11150,34 @@
   },
   {
     "name": "lazygit",
-    "version": "0.65.1-1",
+    "version": "0.66.0-1",
     "origin": "artix-galaxy",
-    "sha256": "4f096ca252c5c50902153da61b0d350b993464fdf9b38ba7af87e0ff4f792496",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lazygit-0.65.1-1-x86_64.pkg.tar.zst",
+    "sha256": "39c88ecd0acea7630326e73624f5d21d4b0efb40ac5489e66b7f0203ff78b430",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lazygit-0.66.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git",
       "glibc"
     ],
     "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "ldoc",
+    "version": "1.5.0-5.1",
+    "origin": "artix-galaxy",
+    "sha256": "342c06d1646b0848f56a83703c663e6fcc83551259d3040955dbbc980f5d8c38",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ldoc-1.5.0-5.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-penlight"
+    ],
+    "optdepends": [
+      "lua-discount: More full-featured Markdown support",
+      "lua-lunamark: Alternative Markdown parser",
+      "lua-cmark: CommonMark support"
+    ],
     "conflicts": []
   },
   {
@@ -17525,6 +17637,1081 @@
       "libx11",
       "libxrandr",
       "vst3-host"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-busted",
+    "version": "2.3.0-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "eaa493e4727e69586acaa98170c8061cdeaf5c197f202a6c686668b518b66f6e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-busted-2.3.0-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-cliargs",
+      "lua-dkjson",
+      "lua-filesystem",
+      "lua-luassert",
+      "lua-mediator",
+      "lua-penlight",
+      "lua-say",
+      "lua-system",
+      "lua-term"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-cassowary",
+    "version": "2.3.2-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "beeae000c08fdf9d31ee01d43f4803a908f98e395f2e46c40b41361eba11a3bf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-cassowary-2.3.2-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-penlight"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-cliargs",
+    "version": "3.0.2-2.6",
+    "origin": "artix-galaxy",
+    "sha256": "a35225ff5f78e95301d3369a5fd3372b5352b21865f09e3fe368e799356029ed",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-cliargs-3.0.2-2.6-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [
+      "lua-inifile: load config file from INI",
+      "lua-yaml: load config file from YAML"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua-dkjson",
+    "version": "2.11-1",
+    "origin": "artix-galaxy",
+    "sha256": "d9e9874edf0b596c3856db0297323ce321f5b8a938dee6a6a741cd1f6dd8c845",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-dkjson-2.11-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [
+      "lua-lpeg: speed up decoding"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua-inifile",
+    "version": "1.1-2",
+    "origin": "artix-galaxy",
+    "sha256": "48eb1a99c32d42c9949624463b43f47e00b71e6615a43a3ea094b26b2c82e1fb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-inifile-1.1-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-luassert",
+    "version": "1.9.0-3",
+    "origin": "artix-galaxy",
+    "sha256": "8189855bc91c514f2d43827ec9e120fe801273fde3439bfc88d3710b53480d89",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-luassert-1.9.0-3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-say"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-lub",
+    "version": "1.1.0-7",
+    "origin": "artix-galaxy",
+    "sha256": "61eeaf3aa62b429acb286cc2325a49b23ee34d9cd6ddd974e540ca8e46e65b67",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-lub-1.1.0-7-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-lut",
+    "version": "1.2.1-3.2",
+    "origin": "artix-galaxy",
+    "sha256": "3d8c018cbd84703dbf2782c8cfef8c76246de633b5a772a1c3d646d37d847c1c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-lut-1.2.1-3.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-filesystem",
+      "lua-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-mediator",
+    "version": "1.1.2-8.2",
+    "origin": "artix-galaxy",
+    "sha256": "494787765c2e029aea0f6b6165473287024a21b0004659a575afe02a2a79e0f1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-mediator-1.1.2-8.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-penlight",
+    "version": "1.15.0-3.5",
+    "origin": "artix-galaxy",
+    "sha256": "959b7bde4ea91e86acc1ddb33104ec326cb3f9c48361cbb64a85e5a7cb1e03e8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-penlight-1.15.0-3.5-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-say",
+    "version": "1.4.1-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "69837c5672b9e8d0ee6b80dacc9393aa584922e39de1b337b409e6cd1a3c02c9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-say-1.4.1-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-semver",
+    "version": "1.2.1-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "c6506d3d462c7325e1f69ecd8c061420ac6044d913e1f6b6afc8d04c0e5d7119",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-semver-1.2.1-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-system",
+    "version": "0.7.1-1.2",
+    "origin": "artix-galaxy",
+    "sha256": "b0c90875cedfcbaf8e8f8b922c70b3ebfebe47703c5f3f3506d7c831905700ff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-system-0.7.1-1.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-term",
+    "version": "0.8-2",
+    "origin": "artix-galaxy",
+    "sha256": "11575fec5ad51320a553505f70dcf431caeb3c090a7e202faf92219fbd0c82bb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-term-0.8-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua-yaml",
+    "version": "1.1.2-9.2",
+    "origin": "artix-galaxy",
+    "sha256": "021309457d89e9888883f12b16c2858414850fe2a6da8e042bce234e8e6d3acb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua-yaml-1.1.2-9.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua",
+      "lua-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-busted",
+    "version": "2.3.0-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "aac0522402c371ac9f60a6764ea09561bd2244b50fb1d3962c8ecbd48f33f7df",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-busted-2.3.0-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51",
+      "lua51-cliargs",
+      "lua51-dkjson",
+      "lua51-filesystem",
+      "lua51-luassert",
+      "lua51-mediator",
+      "lua51-penlight",
+      "lua51-say",
+      "lua51-system",
+      "lua51-term"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-cassowary",
+    "version": "2.3.2-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "53998a8df1c05300d7e7a1cf6fd366d71c11f08fb6acf9fcc6048bd03958ddfb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-cassowary-2.3.2-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51",
+      "lua51-penlight"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-cliargs",
+    "version": "3.0.2-2.6",
+    "origin": "artix-galaxy",
+    "sha256": "d4d35e3af53db85f07c34641d9872b590d01f1b75ad71c957bb98030cbe59e3a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-cliargs-3.0.2-2.6-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [
+      "lua51-inifile: load config file from INI",
+      "lua51-yaml: load config file from YAML"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-dkjson",
+    "version": "2.11-1",
+    "origin": "artix-galaxy",
+    "sha256": "fa71ea5368956e3b258299aa6a0890b65f89ef998b95a5d94b3da677c278b884",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-dkjson-2.11-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [
+      "lua51-lpeg: speed up decoding"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-inifile",
+    "version": "1.1-2",
+    "origin": "artix-galaxy",
+    "sha256": "18192a356d4e7d671accf84eff8de2382a831c2a6fed578757a9957b50409667",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-inifile-1.1-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-luassert",
+    "version": "1.9.0-3",
+    "origin": "artix-galaxy",
+    "sha256": "137c29392e9e5514a64d0b3a275a938566d7a327f949523a737458894b5765d2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-luassert-1.9.0-3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51",
+      "lua51-say"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-lub",
+    "version": "1.1.0-7",
+    "origin": "artix-galaxy",
+    "sha256": "62f64a177e72dc2a00756922553ff6091870a18a4e768dd5e2d61aba7c751284",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-lub-1.1.0-7-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51",
+      "lua51-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-lut",
+    "version": "1.2.1-3.2",
+    "origin": "artix-galaxy",
+    "sha256": "75e7d7af6a73220b8bfe26f3567370aaca5f0d2c49c66ed2db8c9d94b9f9c6c8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-lut-1.2.1-3.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51",
+      "lua51-filesystem",
+      "lua51-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-mediator",
+    "version": "1.1.2-8.2",
+    "origin": "artix-galaxy",
+    "sha256": "cd05fa7ee433eb476d28f80c826838995a0903bbb208b21f7333783e3a9cf83c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-mediator-1.1.2-8.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-penlight",
+    "version": "1.15.0-3.5",
+    "origin": "artix-galaxy",
+    "sha256": "356adef00ecd45d42bcf8f1a85faf9c67429de3901341779eedbd950f5c6b8e9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-penlight-1.15.0-3.5-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-say",
+    "version": "1.4.1-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "049639cc06448af923d23272132d637a7e7e17df4f427658c19fed779f30eca9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-say-1.4.1-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-semver",
+    "version": "1.2.1-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "b1c1b30ea3c06848be7dffe529d920b4be8c34f4705ea6b468ef3ec0cb284cf2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-semver-1.2.1-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-system",
+    "version": "0.7.1-1.2",
+    "origin": "artix-galaxy",
+    "sha256": "4a580e59aa21b18b5bfe1990172b0356e7b74b923a8c3362809e8909e2939d63",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-system-0.7.1-1.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-term",
+    "version": "0.8-2",
+    "origin": "artix-galaxy",
+    "sha256": "2bbd4cf5a3fac6f98d685a2d6e9eb40e76852eb0e874562505c79b03368154de",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-term-0.8-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua51-yaml",
+    "version": "1.1.2-9.2",
+    "origin": "artix-galaxy",
+    "sha256": "61f74b8b3e1c86f4ff1032d770365eea82a4b361d4bf13d56437317a76e5c1d8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua51-yaml-1.1.2-9.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua51",
+      "lua51-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-busted",
+    "version": "2.3.0-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "f8155382c14a698e729a4060b139e2b8e97ec083f8aa040451233554b300734a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-busted-2.3.0-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52",
+      "lua52-cliargs",
+      "lua52-dkjson",
+      "lua52-filesystem",
+      "lua52-luassert",
+      "lua52-mediator",
+      "lua52-penlight",
+      "lua52-say",
+      "lua52-system",
+      "lua52-term"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-cassowary",
+    "version": "2.3.2-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "33363d8beca88470af879cb5ae5f04a70c0efac5c47a4a9a1192e1565f79055d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-cassowary-2.3.2-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52",
+      "lua52-penlight"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-cliargs",
+    "version": "3.0.2-2.6",
+    "origin": "artix-galaxy",
+    "sha256": "5e85c6237254ed29a2cf308308db12a91371e9ad55a9e34a4ca13a8e41f0edcf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-cliargs-3.0.2-2.6-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [
+      "lua52-inifile: load config file from INI",
+      "lua52-yaml: load config file from YAML"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-dkjson",
+    "version": "2.11-1",
+    "origin": "artix-galaxy",
+    "sha256": "71eea3b396bec83103c9dba57351079971564ddc73c0fee9967fc065319bf714",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-dkjson-2.11-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [
+      "lua52-lpeg: speed up decoding"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-inifile",
+    "version": "1.1-2",
+    "origin": "artix-galaxy",
+    "sha256": "3e2c4a300def2ba44d999784bfdb01bedd81f972d9be08fc9750fee3ef95baf4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-inifile-1.1-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-luassert",
+    "version": "1.9.0-3",
+    "origin": "artix-galaxy",
+    "sha256": "753ec5771f5a729eb4df1ae887ca9854152eead78f466ae86a52ff120ec12a0b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-luassert-1.9.0-3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52",
+      "lua52-say"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-lub",
+    "version": "1.1.0-7",
+    "origin": "artix-galaxy",
+    "sha256": "07ad9e8d8c4f2ece3fd40eb009c232e5e32862995e46ec49cd54040d8fbf11d0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-lub-1.1.0-7-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52",
+      "lua52-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-lut",
+    "version": "1.2.1-3.2",
+    "origin": "artix-galaxy",
+    "sha256": "04274dac8e060a9ff5ccbd8df9667c561fef6b41bfd339fa952206b04664380b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-lut-1.2.1-3.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52",
+      "lua52-filesystem",
+      "lua52-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-mediator",
+    "version": "1.1.2-8.2",
+    "origin": "artix-galaxy",
+    "sha256": "f45833788bd6d69ae3f368da7b995accc026221adf2d942910867f3379fec8b5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-mediator-1.1.2-8.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-penlight",
+    "version": "1.15.0-3.5",
+    "origin": "artix-galaxy",
+    "sha256": "6ddd30384503af016a654f1e54fe7755c78af8b1e3c608a2877019c6e964e0e4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-penlight-1.15.0-3.5-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-say",
+    "version": "1.4.1-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "67859017970faad2482fc5ca4815b1fb3d6ef8ba27f32aa311c2aec2b0337df4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-say-1.4.1-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-semver",
+    "version": "1.2.1-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "d739910f82dc3d573767c42a85032154be4a6217eba06c08a68c026815ea1f57",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-semver-1.2.1-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-system",
+    "version": "0.7.1-1.2",
+    "origin": "artix-galaxy",
+    "sha256": "c28839dca547bb26094a0483d732902ca3164ae378d5dbb90e008e46d44d6297",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-system-0.7.1-1.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-term",
+    "version": "0.8-2",
+    "origin": "artix-galaxy",
+    "sha256": "bef0acf2d2f5d952a67592e5572840a7d7e0b0e1dcd1f2c7386355768b009d61",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-term-0.8-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua52-yaml",
+    "version": "1.1.2-9.2",
+    "origin": "artix-galaxy",
+    "sha256": "9580d41b8fe60a80a09a18a9f7d6334841e9e818a4f88e0bb8c101f9e1910377",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua52-yaml-1.1.2-9.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua52",
+      "lua52-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-busted",
+    "version": "2.3.0-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "a4e4da2d34faa7c1202e71ea22fa5c63a0d5d38917bc8dc4745a120b64a46d8c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-busted-2.3.0-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53",
+      "lua53-cliargs",
+      "lua53-dkjson",
+      "lua53-filesystem",
+      "lua53-luassert",
+      "lua53-mediator",
+      "lua53-penlight",
+      "lua53-say",
+      "lua53-system",
+      "lua53-term"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-cassowary",
+    "version": "2.3.2-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "a651a9d78374979da3ecee9cef915682c87f9925ae8473ef4cd7cf03a730e10a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-cassowary-2.3.2-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53",
+      "lua53-penlight"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-cliargs",
+    "version": "3.0.2-2.6",
+    "origin": "artix-galaxy",
+    "sha256": "2fd402272000c0cd1d5896f5cdb7388c42399c982557960baada4da10e60c006",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-cliargs-3.0.2-2.6-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [
+      "lua53-inifile: load config file from INI",
+      "lua53-yaml: load config file from YAML"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-dkjson",
+    "version": "2.11-1",
+    "origin": "artix-galaxy",
+    "sha256": "8df18b5dcf1522b14382257dd20b1e07bfa65c2d0b571c846018d2c70231ad81",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-dkjson-2.11-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [
+      "lua53-lpeg: speed up decoding"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-inifile",
+    "version": "1.1-2",
+    "origin": "artix-galaxy",
+    "sha256": "1422833f8853e2be05f70101fc68a232fc0d0b1511aa40c05916d9a0628ef83e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-inifile-1.1-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-luassert",
+    "version": "1.9.0-3",
+    "origin": "artix-galaxy",
+    "sha256": "09596483144d7f67645b3e5eaeeb70f4c21266b045c551af29871bae4064966c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-luassert-1.9.0-3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53",
+      "lua53-say"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-lub",
+    "version": "1.1.0-7",
+    "origin": "artix-galaxy",
+    "sha256": "8fe276300e08cb2a7865d5bfb51ccb7ce5cef7fb0f073e098273cef83bfffc23",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-lub-1.1.0-7-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53",
+      "lua53-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-lut",
+    "version": "1.2.1-3.2",
+    "origin": "artix-galaxy",
+    "sha256": "9fef7fa1d7d5a2ba3bfaa407d3e5da0bd85d43df486e4a0089afa09c846983d7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-lut-1.2.1-3.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53",
+      "lua53-filesystem",
+      "lua53-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-mediator",
+    "version": "1.1.2-8.2",
+    "origin": "artix-galaxy",
+    "sha256": "345ab69ffa03efcf9d6ee364a6c4c218a784ae837b9c068c60214fa3f197b73a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-mediator-1.1.2-8.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-penlight",
+    "version": "1.15.0-3.5",
+    "origin": "artix-galaxy",
+    "sha256": "b85972548a635ea1f1bd38ed99e94736bbaa72a16bf741b71dc13c54f54b8b71",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-penlight-1.15.0-3.5-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-say",
+    "version": "1.4.1-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "626ab2ad5cae6dcdd27f78ab6dc8cbdfe26bf195609eb720e1f45baf2659cfb8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-say-1.4.1-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-semver",
+    "version": "1.2.1-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "99aa791c8713e48ed8fd16bacc5a609dba86aadccea6a159dc936662a8491eaa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-semver-1.2.1-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-system",
+    "version": "0.7.1-1.2",
+    "origin": "artix-galaxy",
+    "sha256": "c99caf7822fbb1b7d81a72432ef2195fe4800a6416e7a0fb348060ad3e43d8c8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-system-0.7.1-1.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-term",
+    "version": "0.8-2",
+    "origin": "artix-galaxy",
+    "sha256": "4c4ed315eae00a996d5c9e0103d4dd700363cd977dc6efdc5b670e2078342c70",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-term-0.8-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua53-yaml",
+    "version": "1.1.2-9.2",
+    "origin": "artix-galaxy",
+    "sha256": "80588cf1350085f982b60f90118032d0e163c094dcd3cbf5d1face15f28e06f8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua53-yaml-1.1.2-9.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua53",
+      "lua53-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-busted",
+    "version": "2.3.0-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "ee4ea199ed4b3e19fc8f37ac8ecd22c2cd3f6246c936290ffda6798012af77de",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-busted-2.3.0-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-cliargs",
+      "lua54-dkjson",
+      "lua54-filesystem",
+      "lua54-luassert",
+      "lua54-mediator",
+      "lua54-penlight",
+      "lua54-say",
+      "lua54-system",
+      "lua54-term"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-cassowary",
+    "version": "2.3.2-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "8580527a3f8433d441b153797c62719f5b8dfa967cd33c69db205aaebfc283e5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-cassowary-2.3.2-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-penlight"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-cliargs",
+    "version": "3.0.2-2.6",
+    "origin": "artix-galaxy",
+    "sha256": "8c395e30b6e04bf16495a7f8952ea99be87c25f19dd878d5fe3b08109c5e47d1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-cliargs-3.0.2-2.6-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [
+      "lua54-inifile: load config file from INI",
+      "lua54-yaml: load config file from YAML"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-dkjson",
+    "version": "2.11-1",
+    "origin": "artix-galaxy",
+    "sha256": "44a7db5a1788641e0ba6e38ba0862c9ce21f145d88455e4bac5fb3ed8661b94f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-dkjson-2.11-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [
+      "lua-lpeg: speed up decoding"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-inifile",
+    "version": "1.1-2",
+    "origin": "artix-galaxy",
+    "sha256": "0ef3c428d0e5a5d7dea562d0f90758f6cd46dc88c6c9373e25afc3cce87b5645",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-inifile-1.1-2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-luassert",
+    "version": "1.9.0-3",
+    "origin": "artix-galaxy",
+    "sha256": "4ec2f50637cb8c9036a97743d36b31278cfb6a57657935f84535e3475fe99167",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-luassert-1.9.0-3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-say"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-lub",
+    "version": "1.1.0-7",
+    "origin": "artix-galaxy",
+    "sha256": "8df0d7ce19f839c5ea3247526648f5a4d3f1aefcf9a5d1e059c6e679879f98da",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-lub-1.1.0-7-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-lut",
+    "version": "1.2.1-3.2",
+    "origin": "artix-galaxy",
+    "sha256": "321752fa3e9ced401a52bf0c69e496507b2ce916d0ed97cc1f930c5d2473a63a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-lut-1.2.1-3.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-filesystem",
+      "lua54-lub"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-mediator",
+    "version": "1.1.2-8.2",
+    "origin": "artix-galaxy",
+    "sha256": "4a0a173d27eabc30b89977091295e311298e0f1584e423e28c5e266ec48a5374",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-mediator-1.1.2-8.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-penlight",
+    "version": "1.15.0-3.5",
+    "origin": "artix-galaxy",
+    "sha256": "68bb6af11a7e6d99cef5e2a450b54c4f5e49470c04a78a5217ed8597835a1262",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-penlight-1.15.0-3.5-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54-filesystem"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-say",
+    "version": "1.4.1-3.1",
+    "origin": "artix-galaxy",
+    "sha256": "1093c811a06a0f84af1a3ed11c2b2cbc20d3e742372f287af8e975ad3a68b1f2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-say-1.4.1-3.1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-semver",
+    "version": "1.2.1-3.3",
+    "origin": "artix-galaxy",
+    "sha256": "41176788388e54b30e3c4aeec17243a5a780c313005384fd5b847bce3e571b35",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-semver-1.2.1-3.3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-system",
+    "version": "0.7.1-1.2",
+    "origin": "artix-galaxy",
+    "sha256": "43a6239c56c4e5461b5ed4c6ef6720c17c15fafbbd758f7ed588dc1195e80ed0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-system-0.7.1-1.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-term",
+    "version": "0.8-2",
+    "origin": "artix-galaxy",
+    "sha256": "39de67476971a6af5cae26ccf860d5a88ec010b47bdbd95e0cc52d2fa0b27682",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-term-0.8-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "lua54-yaml",
+    "version": "1.1.2-9.2",
+    "origin": "artix-galaxy",
+    "sha256": "0d8e0290b10556305a1163395dfd00bfd78c68b263497e70bb30b1edd6ea796b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lua54-yaml-1.1.2-9.2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "lua54",
+      "lua54-lub"
     ],
     "optdepends": [],
     "conflicts": []
@@ -25231,10 +26418,10 @@
   },
   {
     "name": "reaper",
-    "version": "7.81-1",
+    "version": "7.82-1",
     "origin": "artix-galaxy",
-    "sha256": "76a0e3d244d097ef94d8661d2f99451b74c0d26776804fd3b29595b3cb22ee8c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/reaper-7.81-1-x86_64.pkg.tar.zst",
+    "sha256": "3306a57470fd769ee9102800d85a963efbeee3e1723c87fdd35133f1fd9b95f7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/reaper-7.82-1-x86_64.pkg.tar.zst",
     "provides": [
       "clap-host",
       "lv2-host",

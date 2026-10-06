@@ -3995,44 +3995,6 @@
     "conflicts": []
   },
   {
-    "name": "awesome",
-    "version": "4.3-6",
-    "origin": "artix-world",
-    "sha256": "e5f3a74b597348d81a83a08750e10dd607bf8e4d6b4a703f94816decab956593",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/awesome-4.3-6-x86_64.pkg.tar.zst",
-    "provides": [
-      "notification-daemon"
-    ],
-    "depends": [
-      "bash",
-      "cairo",
-      "dbus",
-      "gdk-pixbuf2",
-      "glib2",
-      "glibc",
-      "libx11",
-      "libxcb",
-      "libxdg-basedir",
-      "libxkbcommon",
-      "libxkbcommon-x11",
-      "lua53",
-      "lua53-lgi",
-      "pango",
-      "startup-notification",
-      "xcb-util",
-      "xcb-util-cursor",
-      "xcb-util-keysyms",
-      "xcb-util-wm",
-      "xcb-util-xrm"
-    ],
-    "optdepends": [
-      "rlwrap: readline support for awesome-client",
-      "dex: autostart your desktop files",
-      "vicious: widgets for the Awesome window manager"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "awesome-terminal-fonts",
     "version": "1.1.0-5",
     "origin": "artix-world",
@@ -48744,10 +48706,10 @@
   },
   {
     "name": "libqalculate",
-    "version": "5.12.0-1",
+    "version": "5.13.1-1",
     "origin": "artix-world",
-    "sha256": "bc3d8bb458ba4453980104c14feabaf7798dbf7c820bd83ffdaf9b7beb9ba6b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libqalculate-5.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fd5e0f01470b0b214f65c4b595ec8646b7da554bda321beab8a45bccea690278",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libqalculate-5.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -50167,10 +50129,10 @@
   },
   {
     "name": "libutf8proc",
-    "version": "2.11.3-1",
+    "version": "2.12.0-1",
     "origin": "artix-world",
-    "sha256": "1103e8820a464071e4d5f16657bd95534f49a4b29b04d7abe9aa546a0376e0ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libutf8proc-2.11.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c4eaf2f5a17ec20130f431fc41f41da230fa0764fed19de6645257c189fee956",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libutf8proc-2.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -75470,10 +75432,10 @@
   },
   {
     "name": "pyqt-builder",
-    "version": "1.19.1-2",
+    "version": "1.20.0-1",
     "origin": "artix-world",
-    "sha256": "a674bfb5f53f1d37b59773cf3d731504394e617ca8c562c2a21db1ac95d34162",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyqt-builder-1.19.1-2-any.pkg.tar.zst",
+    "sha256": "f90ca29a5a406fd0095422c723210b8f7e179ed56b6dc1f6e6abf4266592f66c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyqt-builder-1.20.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -90212,10 +90174,10 @@
   },
   {
     "name": "python-pyqt5-sip",
-    "version": "12.19.0-1",
+    "version": "12.20.0-1",
     "origin": "artix-world",
-    "sha256": "46c119c181e05eb921accbc493dc16471c8adf2dedf1d1ca09b45d021dca7ffa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt5-sip-12.19.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c8459a3e816ff87eb3be28843b04ac48900282bdb2639576a86dfb5a14acbaac",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt5-sip-12.20.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -90335,10 +90297,10 @@
   },
   {
     "name": "python-pyqt6-sip",
-    "version": "13.12.0-1",
+    "version": "13.13.0-1",
     "origin": "artix-world",
-    "sha256": "420541330ba75490e077cc653506f5adbc26a2f0666df10525751bd980a7c056",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-sip-13.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "dda47eefc791d399f5cefb3e5dc3e05392e93ee3f3fac89ec7cace348167f7a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-sip-13.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -94944,10 +94906,10 @@
   },
   {
     "name": "python-strawberry-graphql",
-    "version": "0.331.1-1",
+    "version": "0.331.6-1",
     "origin": "artix-world",
-    "sha256": "92f640814176df68a6fb4e518b3c819fdd273a2006b312b2f08c5b8d7bf992f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.331.1-1-any.pkg.tar.zst",
+    "sha256": "48d44bfb057e2e7bd5c081c3e0562540ca10520f7ea6758b01bbdc816eeb1795",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.331.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -97822,14 +97784,13 @@
   },
   {
     "name": "qalculate-gtk",
-    "version": "5.12.0-1",
+    "version": "5.13.0-1",
     "origin": "artix-world",
-    "sha256": "ef0d3a1cad91c97def3a0cba26574c895e1275ebbef1a9270cc17474cc53b9eb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qalculate-gtk-5.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7d87608add30e16660739489f03a450234b1334fbd1ef4eca4f8d857b4b5fcef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qalculate-gtk-5.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
-      "gdk-pixbuf2",
       "glib2",
       "glibc",
       "gtk3",
@@ -97843,10 +97804,10 @@
   },
   {
     "name": "qalculate-qt",
-    "version": "5.12.0-1",
+    "version": "5.13.0-1",
     "origin": "artix-world",
-    "sha256": "7c82943ef6d944b2beddf96d7686afe1538d84f8c58ab78880ddc9ea47d03c37",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qalculate-qt-5.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6b5ebec80772d66ff74c9079ea79401ab458895fb9e8e51c13dec2fb2096b635",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qalculate-qt-5.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125605,10 +125566,10 @@
   },
   {
     "name": "unbound",
-    "version": "1.26.0-1",
+    "version": "1.26.1-1",
     "origin": "artix-world",
-    "sha256": "3352cf45be6780877d4f9c860f9f9cb74cee3c6b2d6d3667a75bd673eb2a8151",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unbound-1.26.0-1-x86_64.pkg.tar.zst",
+    "sha256": "19336075327572856cfd9a5cd08517537e2dc40d534b3d90a22f5d4a310b409e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unbound-1.26.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libunbound.so=8-64"
     ],
