@@ -19633,10 +19633,10 @@
   },
   {
     "name": "mkvtoolnix-cli",
-    "version": "101.0-1",
+    "version": "102.0-1",
     "origin": "artix-galaxy",
-    "sha256": "eebeea49c9127cca1ae6df0573927796571f63ddc313c4907b131a78b0defa05",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mkvtoolnix-cli-101.0-1-x86_64.pkg.tar.zst",
+    "sha256": "78d688af8225973d5c1c7d552ee9aa5a7ffe744c4813dcf56feeb9a4601d95fe",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mkvtoolnix-cli-102.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -19660,10 +19660,10 @@
   },
   {
     "name": "mkvtoolnix-gui",
-    "version": "101.0-1",
+    "version": "102.0-1",
     "origin": "artix-galaxy",
-    "sha256": "3bd05a4b32bdba8cb589e609e72d5244fcd0a0447d358d734d317c22ef989b1f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mkvtoolnix-gui-101.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d3fad04e3ab24f266c032cfa8445904a50107ba9b5ba1f1ca39dd21ad3e37114",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mkvtoolnix-gui-102.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -25004,6 +25004,21 @@
       "radicle-node",
       "radicle-cli"
     ]
+  },
+  {
+    "name": "radicle-artifact",
+    "version": "0.20.0-1",
+    "origin": "artix-galaxy",
+    "sha256": "ac7cedf10c9949f138930e4de6187e2721e134be2e8b58fc6e4b5c5d8e495bd4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-artifact-0.20.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libgcc_s.so=1-64"
+    ],
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "radicle-desktop",
