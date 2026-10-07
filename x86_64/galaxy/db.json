@@ -9130,10 +9130,10 @@
   },
   {
     "name": "gdk-pixbuf2-noglycin",
-    "version": "2.44.4-2",
+    "version": "2.44.7-1",
     "origin": "artix-galaxy",
-    "sha256": "c1f28b109f3091ed4972da0ab32d35c4e84de4521ed78a342a6bd4291f002165",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gdk-pixbuf2-noglycin-2.44.4-2-x86_64.pkg.tar.zst",
+    "sha256": "f4f86e80607ad8031c635aae2db2329c80f80bb8fd0fd68b33a3905e9d1e08cf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gdk-pixbuf2-noglycin-2.44.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgdk_pixbuf-2.0.so=0-64",
       "gdk-pixbuf2"
@@ -9320,6 +9320,19 @@
     "depends": [
       "gtk3",
       "popt"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "gnome-themes-extra-gtk2",
+    "version": "3.28+r6+g45b1d457-1",
+    "origin": "artix-galaxy",
+    "sha256": "c39f5a09e423a05e19a89ed25adcdb63c2898f03cb14526a8ad96b30b3c696d4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gnome-themes-extra-gtk2-3.28+r6+g45b1d457-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "gtk-engines"
     ],
     "optdepends": [],
     "conflicts": []
@@ -22003,10 +22016,10 @@
   },
   {
     "name": "monero",
-    "version": "0.18.5.1-2",
+    "version": "0.18.5.3-1",
     "origin": "artix-galaxy",
-    "sha256": "b70b8364fbe43795489326a4c929f19e9a8fe0319ac620dd9e3cedde1c10dcfd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-0.18.5.1-2-x86_64.pkg.tar.zst",
+    "sha256": "df06e71930e91a34b6f3728d76376cea59708f197549c412fcb35aab5cadb659",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-0.18.5.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -22030,10 +22043,10 @@
   },
   {
     "name": "monero-gui",
-    "version": "0.18.5.2-2",
+    "version": "0.18.5.3-1",
     "origin": "artix-galaxy",
-    "sha256": "9ed7b5987169c72db739e2434b87253b8e7d73485b760f580cc25c20f0876b6e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-gui-0.18.5.2-2-x86_64.pkg.tar.zst",
+    "sha256": "5926f3adf93c7ac6c53a21cf6a891642a5c870d31af4369abe9184a128d48688",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/monero-gui-0.18.5.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -22626,10 +22639,10 @@
   },
   {
     "name": "newsraft",
-    "version": "0.37-1",
+    "version": "0.38-1.1",
     "origin": "artix-galaxy",
-    "sha256": "67efc4992c0ec4451f4956a5d8872bb34ab8bfcce16719e6f8260ff711575873",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/newsraft-0.37-1-x86_64.pkg.tar.zst",
+    "sha256": "3e57cfb2d7a8fd85cb36bd8b8894ed13bbd54e3e144666a07ed114f1ce638b99",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/newsraft-0.38-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sqlite",

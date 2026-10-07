@@ -47,10 +47,10 @@
   },
   {
     "name": "7zip",
-    "version": "26.03-1",
+    "version": "26.04-1",
     "origin": "artix-world",
-    "sha256": "88a89c4b3b967c7ec65afedc2b9214edede8bf29ceeb98a68d2317f1374480ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/7zip-26.03-1-x86_64.pkg.tar.zst",
+    "sha256": "70ba3ad7685845b1cef39a3cb59541159062aefc88d189ce44c2254e9622c3af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/7zip-26.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "p7zip"
     ],
@@ -583,10 +583,10 @@
   },
   {
     "name": "adwaita-cursors",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "a0905584982c477e7ad015f2d67532db885efd6a015c77f4ee9811e5ad628708",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/adwaita-cursors-50.0-1-any.pkg.tar.zst",
+    "sha256": "e0525eb30c852d74e40095b7a1955039680ab18cbcc94c3f619e6237ba31de87",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/adwaita-cursors-51.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -605,10 +605,10 @@
   },
   {
     "name": "adwaita-icon-theme",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "c5d9ab45e4f02b072a972b0d9b9580fc518e1163699267d567808bab3196e9fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/adwaita-icon-theme-50.0-1-any.pkg.tar.zst",
+    "sha256": "b72ce15e731ce411540acb722179bf76bb760722c867cfe8d26346e1310cddb6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/adwaita-icon-theme-51.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "adwaita-icon-theme-legacy",
@@ -3182,13 +3182,13 @@
   },
   {
     "name": "at-spi2-core",
-    "version": "2.60.7-1",
+    "version": "2.62.0.1-1",
     "origin": "artix-world",
-    "sha256": "4710ca0b2bd22f3b892e86819fa778af884008870119efc9a57631a76f0019d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/at-spi2-core-2.60.7-1-x86_64.pkg.tar.zst",
+    "sha256": "43f3a4659101e9a1c853201b84cc0ba1b66ad263318e702ffd3de431b5ab4e98",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/at-spi2-core-2.62.0.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "at-spi2-atk=2.60.7-1",
-      "atk=2.60.7-1",
+      "at-spi2-atk=2.62.0.1-1",
+      "atk=2.62.0.1-1",
       "libatk-1.0.so=0-64",
       "libatk-bridge-2.0.so=0-64",
       "libatspi.so=0-64"
@@ -3638,10 +3638,10 @@
   },
   {
     "name": "augeas",
-    "version": "1.14.1-5",
+    "version": "1.15.0-1",
     "origin": "artix-world",
-    "sha256": "f3c1851038b611a92d09d3555b0afec175d9c4511e63073a00dbc84904734a1a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/augeas-1.14.1-5-x86_64.pkg.tar.zst",
+    "sha256": "2b608b510e7ea81ec6d2177383b3b3e09004e1690e47bac4eab8ccfe5dd557ae",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/augeas-1.15.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10693,18 +10693,18 @@
   },
   {
     "name": "dconf",
-    "version": "0.49.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "c2672297d5e983e7ab8525b8a2e0dd63462e5970478db6042a5cb1c6e6addc52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dconf-0.49.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c11405dfa34150ca8f5831ea2cdb82ce65735a478421c28a6d5fb2be4ba4657c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dconf-51.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdconf.so=1-64"
     ],
     "depends": [
       "bash",
-      "gcc-libs",
       "glib2",
-      "glibc"
+      "glibc",
+      "libgcc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -13538,10 +13538,10 @@
   },
   {
     "name": "egl-wayland",
-    "version": "4:1.1.23-1",
+    "version": "4:1.1.24-1",
     "origin": "artix-world",
-    "sha256": "72618fb5d26eda86bf674e8377620690b896a9255d01e27830b1bb9f678a821a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/egl-wayland-4:1.1.23-1-x86_64.pkg.tar.zst",
+    "sha256": "fcc7b08d18514861fb63804f36b2eb4fe66dc47bf7d06d4f70a64164991778af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/egl-wayland-4:1.1.24-1-x86_64.pkg.tar.zst",
     "provides": [
       "libnvidia-egl-wayland.so=1-64"
     ],
@@ -14159,10 +14159,10 @@
   },
   {
     "name": "endeavour",
-    "version": "43.0-9",
+    "version": "43.0-10",
     "origin": "artix-world",
-    "sha256": "d719edbc3b0e6ad9f0f71074c4236fac06e63de9440a83628cbe74c62c29418b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/endeavour-43.0-9-x86_64.pkg.tar.zst",
+    "sha256": "a38e2f437b14fff259863e8c492edf688cb329e0f9b593c07c19ee53d4de7be7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/endeavour-43.0-10-x86_64.pkg.tar.zst",
     "provides": [
       "gnome-todo"
     ],
@@ -14228,10 +14228,10 @@
   },
   {
     "name": "eog",
-    "version": "50.3-1",
+    "version": "50.3-2",
     "origin": "artix-world",
-    "sha256": "5ccd9200d860b5845878fd16924c3a2b37795e7e4b7cd192864cf505d4c56ab1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eog-50.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7d4ee04847b6e42c2bc8ee6b3af4e997771e9919e352c6172350b721e40cf1c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eog-50.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -14260,10 +14260,10 @@
   },
   {
     "name": "epiphany",
-    "version": "50.6-1",
+    "version": "51.1-2",
     "origin": "artix-world",
-    "sha256": "de6b7bd497d45839c5c6dbf58a7f9d2c5a20667219af6cb870e28bda87fb3e1b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/epiphany-50.6-1-x86_64.pkg.tar.zst",
+    "sha256": "b74a9d24c43a111e5a115553d13dd9d90e5e8dcd02eac06a4a97bc1f589ed40f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/epiphany-51.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -14282,6 +14282,7 @@
       "libgcc",
       "libportal",
       "libportal-gtk4",
+      "libpwquality",
       "libsecret",
       "libsoup3",
       "libxml2",
@@ -15172,10 +15173,10 @@
   },
   {
     "name": "evince",
-    "version": "1:48.4-1",
+    "version": "1:48.4-2",
     "origin": "artix-world",
-    "sha256": "c7837802427bf1fb98a54f3727c73842a846fbf7d9f1a87210ce59b9cb7b45ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evince-1:48.4-1-x86_64.pkg.tar.zst",
+    "sha256": "a0a254bbfc875ec868d036a1d16c88ce8478e96fcf0f8d1bacd849bf48b323f6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evince-1:48.4-2-x86_64.pkg.tar.zst",
     "provides": [
       "libevdocument3.so=4-64",
       "libevview3.so=3-64"
@@ -15217,10 +15218,10 @@
   },
   {
     "name": "evolution",
-    "version": "3.60.2-1",
+    "version": "3.62.0-1",
     "origin": "artix-world",
-    "sha256": "a6ba3492aa93a18cfef92543b0a485431a33f12c8c6d5712dea1cb5d255d8794",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-3.60.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c1ec9ca53e9ef8df30892ac69997c9e544d0e6424b5f98bdf176c92c8fab7a17",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-3.62.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -15253,11 +15254,11 @@
       "pango",
       "sqlite",
       "webkit2gtk-4.1",
-      "libcamel-1.2.so=67-64",
+      "libcamel-1.2.so=68-64",
       "libebook-1.2.so=21-64",
       "libebook-contacts-1.2.so=5-64",
       "libecal-2.0.so=3-64",
-      "libedataserver-1.2.so=27-64",
+      "libedataserver-1.2.so=28-64",
       "libedataserverui-1.2.so=4-64"
     ],
     "optdepends": [
@@ -15269,13 +15270,13 @@
   },
   {
     "name": "evolution-bogofilter",
-    "version": "3.60.2-1",
+    "version": "3.62.0-1",
     "origin": "artix-world",
-    "sha256": "f158c7ecfed8df0bcd51f7f5107edf7a158d814a603a7ab89cd72c51ef21db0b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-bogofilter-3.60.2-1-x86_64.pkg.tar.zst",
+    "sha256": "b1b5f1d0df044dcd2d555c1ce11a9be551c28633e498182075e8c763392cd32e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-bogofilter-3.62.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "evolution=3.60.2",
+      "evolution=3.62.0",
       "bogofilter",
       "evolution-data-server",
       "glib2",
@@ -15287,19 +15288,19 @@
   },
   {
     "name": "evolution-data-server",
-    "version": "3.60.2-5",
+    "version": "3.62.0-1",
     "origin": "artix-world",
-    "sha256": "0c827bfa03249529b59eddc04661acc4188bb05d8592c97c8752991ae3d75de5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-data-server-3.60.2-5-x86_64.pkg.tar.zst",
+    "sha256": "96b4dcf2667c00b9c965a7f224078196240a026c32746826a980296cfdc6cab6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-data-server-3.62.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libcamel-1.2.so=67-64",
+      "libcamel-1.2.so=68-64",
       "libebackend-1.2.so=11-64",
       "libebook-1.2.so=21-64",
       "libebook-contacts-1.2.so=5-64",
       "libecal-2.0.so=3-64",
       "libedata-book-1.2.so=27-64",
       "libedata-cal-2.0.so=2-64",
-      "libedataserver-1.2.so=27-64",
+      "libedataserver-1.2.so=28-64",
       "libedataserverui-1.2.so=4-64"
     ],
     "depends": [
@@ -15337,13 +15338,13 @@
   },
   {
     "name": "evolution-spamassassin",
-    "version": "3.60.2-1",
+    "version": "3.62.0-1",
     "origin": "artix-world",
-    "sha256": "57ac59c3f16b4350813c999fb5297125508af53e11c48c934156ddd379a7a3f8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-spamassassin-3.60.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5f531f62a90b82de2d7338a36e21d60503dcc898b5f5382cc998c71983f4224b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evolution-spamassassin-3.62.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "evolution=3.60.2",
+      "evolution=3.62.0",
       "evolution-data-server",
       "glib2",
       "glibc",
@@ -17293,10 +17294,10 @@
   },
   {
     "name": "folks",
-    "version": "0.15.12-1",
+    "version": "0.15.12-2",
     "origin": "artix-world",
-    "sha256": "a8ed073f3f99e07fcc75c8ef43d493d0943fb9623eccb126db5f01a929d949cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/folks-0.15.12-1-x86_64.pkg.tar.zst",
+    "sha256": "ed9b63ee103af1592be485c4faace4a6931a16eacce4f2dbec38bacb91305980",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/folks-0.15.12-2-x86_64.pkg.tar.zst",
     "provides": [
       "libfolks.so=26-64",
       "libfolks-dummy.so=26-64",
@@ -18423,10 +18424,10 @@
   },
   {
     "name": "gala",
-    "version": "8.6.1-1",
+    "version": "8.6.1-2",
     "origin": "artix-world",
-    "sha256": "2b1644a79fc3bcfed706be7c6f37d75160d1fb479caac99374f3050e94acfbef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8352beccf07161197a3e13738cac6cc32b410445f7eb92ae1d372a687d4dd379",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libgala.so=0-64"
     ],
@@ -18450,7 +18451,7 @@
       "libibus",
       "libxext",
       "libxfixes",
-      "mutter",
+      "mutter49",
       "pango",
       "sqlite",
       "wayland"
@@ -18847,10 +18848,10 @@
   },
   {
     "name": "gdk-pixbuf2",
-    "version": "2.44.7-1",
+    "version": "2.44.8-1",
     "origin": "artix-world",
-    "sha256": "3d52baf1d1cc54c74ef37c07988bcb023693bcc4459468253d7710ee97b57d24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdk-pixbuf2-2.44.7-1-x86_64.pkg.tar.zst",
+    "sha256": "88e831d1448c64f127b4b4b2d3253afbe08c824cd92e2987fcb4ce295b89a8e2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdk-pixbuf2-2.44.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgdk_pixbuf-2.0.so=0-64"
     ],
@@ -18887,10 +18888,10 @@
   },
   {
     "name": "gdm",
-    "version": "50.3-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "ec9618664e1ec4a7436765e5fd167e83cb8bcc6d0b2ad2d59c2954eab8ced6fc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdm-50.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9ac7856b6ebae6302ed4e008277c948acef2b49541250d0f43d64b3dbf2e7162",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdm-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -20437,10 +20438,10 @@
   },
   {
     "name": "gjs",
-    "version": "2:1.88.1-1",
+    "version": "2:1.90.0-1",
     "origin": "artix-world",
-    "sha256": "9840037f423bcc8fed4aac5525be887f1517d0a7bd1cc3b1e19eebc93b81bfa8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gjs-2:1.88.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f1e0a68d3fd89dbae8dec8cef8d16d3962ca05155327cbb381a0f2c7a5f72154",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gjs-2:1.90.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgjs.so=0-64"
     ],
@@ -20596,10 +20597,10 @@
   },
   {
     "name": "glib-networking",
-    "version": "1:2.80.1-1",
+    "version": "1:2.90.0-1",
     "origin": "artix-world",
-    "sha256": "00799a23d3b66437253667adbb6b8ea50103c674dc289e1c09abf0c809dd0120",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glib-networking-1:2.80.1-1-x86_64.pkg.tar.zst",
+    "sha256": "38c602717ab582cdece8d93b0c36b9397ee6adac9854fade2bd2733f19eee9b9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glib-networking-1:2.90.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -20635,10 +20636,10 @@
   },
   {
     "name": "glibmm-2.68",
-    "version": "2.88.1-1",
+    "version": "2.90.0-1",
     "origin": "artix-world",
-    "sha256": "4e152a39766e24f57c1e7a373adf256abc1c271a3e0a102768af729b0ee18075",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glibmm-2.68-2.88.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c68bfd0682fb297518500e29356695da74aab656a5250e6b2761b32e4f6a7871",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glibmm-2.68-2.90.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglibmm-2.68.so=1-64",
       "libgiomm-2.68.so=1-64"
@@ -20751,10 +20752,10 @@
   },
   {
     "name": "glycin",
-    "version": "2.1.5-2.1",
+    "version": "2.2.2-1",
     "origin": "artix-world",
-    "sha256": "b46c4b54db6a67e5f150492f03c91dd639aecaca1aef514a9b11fdc4cca09fc8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-2.1.5-2.1-x86_64.pkg.tar.zst",
+    "sha256": "81e7974b08ae46ecd585f1581af313dcb2ccea379af967caf0b9a1c304823363",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-2.2.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglycin-2.so=0-64"
     ],
@@ -20777,10 +20778,10 @@
   },
   {
     "name": "glycin-gtk4",
-    "version": "2.1.5-2.1",
+    "version": "2.2.2-1",
     "origin": "artix-world",
-    "sha256": "8f3e29539e286f0b0d25027379d3d8d3675448e6512d1e99084b7e2f6bf333b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-gtk4-2.1.5-2.1-x86_64.pkg.tar.zst",
+    "sha256": "01f73d8cc14aca607f26052b4723c4d27a28800efd80165a8ad1cb152624ece8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-gtk4-2.2.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglycin-gtk4-2.so=0-64"
     ],
@@ -20975,10 +20976,10 @@
   },
   {
     "name": "gnome-backgrounds",
-    "version": "50.0-1",
+    "version": "51.0.1-1",
     "origin": "artix-world",
-    "sha256": "39e3fe3fa455f3161d83e966095e1ebd74258b2e4e01ff97a4cdbcb51d0aa563",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-backgrounds-50.0-1-any.pkg.tar.zst",
+    "sha256": "f4c8c634a5844faeba784e320bfc4cec7e33e1a6ed913e5e82a190fc1153be8c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-backgrounds-51.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libjxl"
@@ -21048,10 +21049,10 @@
   },
   {
     "name": "gnome-builder",
-    "version": "50.0-2",
+    "version": "50.0-3",
     "origin": "artix-world",
-    "sha256": "cf02ba99d68aab63afdea82e647ea8f4d265b198c6e8b730b11f1e5b1939f808",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-builder-50.0-2-x86_64.pkg.tar.zst",
+    "sha256": "928ed5d82854f6d1410d76c71548da6c9ad836e8bc694a827492e7c5f09cdd2e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-builder-50.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "autoconf-archive",
@@ -21147,10 +21148,10 @@
   },
   {
     "name": "gnome-calculator",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "ef6d23dc58a1563b6dcf49e97f85183645084f88e2af269219986f43891a225f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-calculator-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9f9ba987cba8009f3dbf4f0e39489f015ab8ce1af9a7d90f0a54bbf993c66505",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-calculator-51.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgcalc-2.so=1.0.1-64",
       "libgci-1.so=0.0.0-64"
@@ -21159,6 +21160,7 @@
       "dconf",
       "glib2",
       "glibc",
+      "gmp",
       "gtk4",
       "gtksourceview5",
       "hicolor-icon-theme",
@@ -21174,10 +21176,10 @@
   },
   {
     "name": "gnome-calendar",
-    "version": "50.0-2",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "c1e9de3861d75c1853ed1e7d243bbc3d0979069f3adfa917dc40ccae2e567a3d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-calendar-50.0-2-x86_64.pkg.tar.zst",
+    "sha256": "5f4917fe426ff977823e72eacadbea25bf3f1228d59446ca65ca3b584c7acafd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-calendar-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -21195,7 +21197,8 @@
       "libgcc",
       "libgweather-4",
       "libical",
-      "libsoup3"
+      "libsoup3",
+      "pango"
     ],
     "optdepends": [
       "gnome-control-center: Manage online accounts",
@@ -21205,10 +21208,10 @@
   },
   {
     "name": "gnome-characters",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "cf4e1f17b4cba9fdcc95957b4f78bb2c98d48a7a5a1d6202b62ceaf0dbb0d274",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-characters-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "94fcf7bbaf1a054cf63d00ee0a396bd9056ff7019f537a719b606eef33ffa090",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-characters-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -21249,10 +21252,10 @@
   },
   {
     "name": "gnome-clocks",
-    "version": "50.0-2",
+    "version": "51.0-2",
     "origin": "artix-world",
-    "sha256": "5388be68a21fd81819e0575718a961d6465839f2c6ed27aad8c27a924b1cf2c9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-clocks-50.0-2-x86_64.pkg.tar.zst",
+    "sha256": "aeecde8668eaf50fefe92fd7d07ff325d4fbc86cac4c15323f71f896cb45faee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-clocks-51.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -21314,10 +21317,10 @@
   },
   {
     "name": "gnome-connections",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "06ec1370e4a832f5feb1cecd13744a3975c3b17b17152698a1577d598ac1b9c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-connections-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a424192105399b319373fc3818c421020d67cb1fe7cd6ad74f37c225a4377d5d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-connections-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -21340,10 +21343,10 @@
   },
   {
     "name": "gnome-console",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "ef2ae5a41f7edc53a9b44c9113049499ab5ca5e9c04cb0cb8f2c5257c0b981ac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-console-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "794dcfb3925999616b0a77a2118578ccb91da092082769d524c608983decfbb3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-console-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -21362,10 +21365,10 @@
   },
   {
     "name": "gnome-contacts",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "63e602523095399d1e506057961e17597771add05d6142b154e6646ca3df5e28",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-contacts-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1e71377d5f5f2da666a8791927223e0a75e7dcd9511ff2090f34d8c6155df118",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-contacts-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -21397,10 +21400,10 @@
   },
   {
     "name": "gnome-control-center",
-    "version": "50.4-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "f3ff16bbd8e9f7de097933896ed9d7befccf664473a65048e247f2150d533df2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-control-center-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "790285ee9dd0da5461a1f44bdd5fea076e2c039cbb97e7512682164a9e1466c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-control-center-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -21475,12 +21478,12 @@
   },
   {
     "name": "gnome-desktop",
-    "version": "1:44.5-1",
+    "version": "1:51.0-1",
     "origin": "artix-world",
-    "sha256": "a585adb09803df8d5590f0e08c04b02821ecb86d33c12df30378b5e1dd0c3535",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-desktop-1:44.5-1-x86_64.pkg.tar.zst",
+    "sha256": "fd6f4fd75faeefbe8131f228a5fd76222240759c2b1680c1ebb0ea8bb9be61f8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-desktop-1:51.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libgnome-desktop-3.so=20-64"
+      "libgnome-desktop-3.so=21-64"
     ],
     "depends": [
       "bubblewrap",
@@ -21495,7 +21498,7 @@
       "libxkbcommon",
       "libelogind",
       "xkeyboard-config",
-      "gnome-desktop-common=1:44.5-1",
+      "gnome-desktop-common=1:51.0-1",
       "gtk3"
     ],
     "optdepends": [],
@@ -21503,14 +21506,15 @@
   },
   {
     "name": "gnome-desktop-4",
-    "version": "1:44.5-1",
+    "version": "1:51.0-1",
     "origin": "artix-world",
-    "sha256": "1df7322bd34374a1b321b1e54a283c2c54212ce62014978c7c07dd2dce5098b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-desktop-4-1:44.5-1-x86_64.pkg.tar.zst",
+    "sha256": "9630cd969f8b579547df37f2926de22a1f67e33f7c578e6a19397c2883c9f3e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-desktop-4-1:51.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgnome-bg-4.so=2-64",
       "libgnome-desktop-4.so=2-64",
-      "libgnome-rr-4.so=2-64"
+      "libgnome-qr-4.so=0-64",
+      "libgnome-qr-gtk-4.so=0-64"
     ],
     "depends": [
       "bubblewrap",
@@ -21525,7 +21529,7 @@
       "libxkbcommon",
       "libelogind",
       "xkeyboard-config",
-      "gnome-desktop-common=1:44.5-1",
+      "gnome-desktop-common=1:51.0-1",
       "gtk4"
     ],
     "optdepends": [],
@@ -21533,10 +21537,10 @@
   },
   {
     "name": "gnome-desktop-common",
-    "version": "1:44.5-1",
+    "version": "1:51.0-1",
     "origin": "artix-world",
-    "sha256": "88bdf4eb77a452367c8662daec38cdaaa2c4edd11a3eb822368ef6c6f632d1c1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-desktop-common-1:44.5-1-x86_64.pkg.tar.zst",
+    "sha256": "dc544bf166d00bbf70b2f0a6aba6cecb48d1997ef96ae6c13612530f95daabd3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-desktop-common-1:51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -21658,10 +21662,10 @@
   },
   {
     "name": "gnome-initial-setup",
-    "version": "50.1-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "a253ee4607cb4fcccba0c118c87815e055a8fea2a1c26ebeb45132e0f0a8a44a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-initial-setup-50.1-1-x86_64.pkg.tar.zst",
+    "sha256": "526f6864925f6ebad743f23fb482e28f8295254904cb93574c125c600691c9ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-initial-setup-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -21677,6 +21681,7 @@
       "gsettings-desktop-schemas",
       "gtk4",
       "harfbuzz",
+      "json-glib",
       "krb5",
       "libadwaita",
       "libgcc",
@@ -21698,10 +21703,10 @@
   },
   {
     "name": "gnome-keybindings",
-    "version": "50.4-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "ae206b6c9b8de6e2d2c24872927520aed8bcc93a15c03b67bc6690edd05f6c20",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-keybindings-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "ea1b5575e4176ad807fdd2af513ea3d16fbdba4825c8fb3e0c441d68601e65ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-keybindings-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -21709,10 +21714,10 @@
   },
   {
     "name": "gnome-keyring",
-    "version": "1:50.0-1",
+    "version": "1:51.1-1",
     "origin": "artix-world",
-    "sha256": "5f34c798b399a79f6a7ebf21f61c308d460eda5ba525c5ebc78423db06ced53c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-keyring-1:50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9f72ac85af552a0c9e45cc7b8ecfd68dc6fb1c0d5b7b368eb3f39f92af63fb73",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-keyring-1:51.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "org.freedesktop.secrets"
     ],
@@ -21753,10 +21758,10 @@
   },
   {
     "name": "gnome-mahjongg",
-    "version": "49.1.1-2",
+    "version": "51.1-1",
     "origin": "artix-world",
-    "sha256": "858e64ed7e771f4fa3009f6729ce6f143ddb8541aa3c46b0760e3ee0e48d278d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-mahjongg-49.1.1-2-x86_64.pkg.tar.zst",
+    "sha256": "ac32f88eaacf3c16f9d6b5ca932ec9cb00dcb7774bf5ea44e73c9a5031f40b70",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-mahjongg-51.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -21774,10 +21779,10 @@
   },
   {
     "name": "gnome-maps",
-    "version": "50.5-1",
+    "version": "51.1-1",
     "origin": "artix-world",
-    "sha256": "3275657fffc95a34441e271f9be1ca483387382cffeefdb7f105b76fcc2f2593",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-maps-50.5-1-x86_64.pkg.tar.zst",
+    "sha256": "7114cca1eb5cfcf5f61c1dfc3b7e303bad3d3ac06f3640977fe3f5df4dd4dd27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-maps-51.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -21798,7 +21803,8 @@
       "librsvg",
       "libshumate",
       "libxml2",
-      "pango"
+      "pango",
+      "sqlite"
     ],
     "optdepends": [],
     "conflicts": []
@@ -21927,31 +21933,35 @@
   },
   {
     "name": "gnome-nibbles",
-    "version": "4.5.2-1",
+    "version": "4.6.0-1",
     "origin": "artix-world",
-    "sha256": "6a11dad61146482278bcd8cb5e81dc6cdf14b4b63f6ffb62f73d07d785903ea4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-nibbles-4.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5a4f628c8377b9fee6266a73dfca2bc9d0aae1b8fe0eee398d9e5243c02e57f6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-nibbles-4.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
       "glib2",
       "glibc",
+      "glibmm-2.68",
       "gsound",
       "gtk4",
+      "gtkmm-4.0",
       "hicolor-icon-theme",
-      "libadwaita",
-      "libgee",
-      "pango"
+      "libgcc",
+      "libsigc++-3.0",
+      "libstdc++",
+      "pango",
+      "pangomm-2.48"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "gnome-notes",
-    "version": "40.2-2",
+    "version": "40.2-3",
     "origin": "artix-world",
-    "sha256": "64f09794d5f58964e653af362702571331facbd678ea1e14584ed8c613f42787",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-notes-40.2-2-x86_64.pkg.tar.zst",
+    "sha256": "4104695d1388b9302453cf41fc04314e500595b81028c8bb99cd061fc0884a3a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-notes-40.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "bijiben=40.2"
     ],
@@ -21960,7 +21970,7 @@
       "curl",
       "dconf",
       "evolution-data-server",
-      "gcc-libs",
+      "libgcc",
       "glib2",
       "glibc",
       "gnome-online-accounts",
@@ -22017,10 +22027,10 @@
   },
   {
     "name": "gnome-panel",
-    "version": "3.58.1-4",
+    "version": "3.58.1-5",
     "origin": "artix-world",
-    "sha256": "aa85a69a52417a123dd65beaef9f678d95acd2043c4405bd6865ac7244cd9147",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-panel-3.58.1-4-x86_64.pkg.tar.zst",
+    "sha256": "82fe42d09642f069d7e58a01950a9999b210b7a51409cfbaf1403a1b5c34a87c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-panel-3.58.1-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -22116,10 +22126,10 @@
   },
   {
     "name": "gnome-remote-desktop",
-    "version": "50.2-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "6012cde0fb78f3cc71e2234da24903b3053088d745152f5b2a79f0864f4283c1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-remote-desktop-50.2-1-x86_64.pkg.tar.zst",
+    "sha256": "803292ecd81e23abbad48b994ba117572416a1f0ef968e1850ef24daa2fac3d8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-remote-desktop-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22196,10 +22206,10 @@
   },
   {
     "name": "gnome-session",
-    "version": "50.1-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "53e4319b235f65357c5a3eb5536d408e928595085398d3a6df86fafdbf6134d6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-session-50.1-1-x86_64.pkg.tar.zst",
+    "sha256": "cde1aa6a6d6ab233d4af8aaa773edc459235fd5dd5373fa8cebaba97da252819",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-session-51.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "gnome-mimeapps"
     ],
@@ -22243,10 +22253,10 @@
   },
   {
     "name": "gnome-settings-daemon",
-    "version": "50.1-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "f6dd16bed9aec3a3cbaded7285b9cb3d473beea339ca46e70b2e0b67f28b920f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-settings-daemon-50.1-1-x86_64.pkg.tar.zst",
+    "sha256": "602fa06681464917b14537fd51dc2748daa800d9ef7fa50a581a6164624dd185",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-settings-daemon-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -22286,10 +22296,10 @@
   },
   {
     "name": "gnome-shell",
-    "version": "1:50.5-1",
+    "version": "1:51.0-1",
     "origin": "artix-world",
-    "sha256": "605304820f36a4b599cdba0d9991b25dd4847eacf0adb8ba84b2cd4cef660841",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-1:50.5-1-x86_64.pkg.tar.zst",
+    "sha256": "6bf02c5125b9a3e36765bb56b0de43d451c7ad03fbdfcac5e0818967fb9cad44",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-1:51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -22335,13 +22345,14 @@
       "unzip",
       "upower",
       "webkitgtk-6.0",
-      "libmutter-18.so=0-64"
+      "libmutter-51.so=0-64"
     ],
     "optdepends": [
       "evolution-data-server: Evolution calendar integration",
       "gnome-bluetooth-3.0: Bluetooth support",
       "gnome-control-center: System settings",
       "gnome-disk-utility: Mount with keyfiles",
+      "gnome-extensions-app: Manage gnome-shell extensions",
       "gst-plugin-pipewire: Screen recording",
       "gst-plugins-good: Screen recording",
       "power-profiles-daemon: Power profile switching",
@@ -22353,10 +22364,10 @@
   },
   {
     "name": "gnome-shell-extensions",
-    "version": "50.4-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "00beccb303377a4ce1979780d584c5a95e18b04f1daff1966906963d5bda0e24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-extensions-50.4-1-any.pkg.tar.zst",
+    "sha256": "7cfab0ab312695acab52087e5736326b1389775f498f7f87e7b1e18eada7b410",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-shell-extensions-51.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -22370,10 +22381,10 @@
   },
   {
     "name": "gnome-software",
-    "version": "50.4-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "39e58df422b622bed3a1824a27c2728ea62514af95ff03d65b107b9e07baf40d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-software-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "9bef9061fc44942b35c34060e29a5a7b5ea16757237670e6fff0a2b15426c257",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-software-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -22425,10 +22436,10 @@
   },
   {
     "name": "gnome-sudoku",
-    "version": "50.4-1",
+    "version": "51.0.1-1",
     "origin": "artix-world",
-    "sha256": "3dc85df34a25ea8770001c0f404bc8e1f7233c5b267269e2c746725ad70b84af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-sudoku-50.4-1-x86_64.pkg.tar.zst",
+    "sha256": "ed425082dba495ca0635363f90fb3b2bb421c8fb1da0381e6c593d9a30cdc171",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-sudoku-51.0.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22450,10 +22461,10 @@
   },
   {
     "name": "gnome-system-monitor",
-    "version": "50.0-1",
+    "version": "51.1-1",
     "origin": "artix-world",
-    "sha256": "c7f9a792f6ea13dfff0f6f1f4b531b92a5255892154db7280238dcf56c2b270b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-system-monitor-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "87d61557a9c81cbfd6e1b5dc03c49175f44047c0ed68fcfdaf364523f1da0dc1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-system-monitor-51.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22546,10 +22557,10 @@
   },
   {
     "name": "gnome-text-editor",
-    "version": "50.1-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "ed9fa04182729551dad544440a595e3bae6266f894c82854c3e374f808e15012",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-text-editor-50.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4abd8240470783a86ee3a2e7f47da3b78ecd46cccdb69e4a3da9be1b5336052d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-text-editor-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -23861,13 +23872,13 @@
   },
   {
     "name": "gsettings-desktop-schemas",
-    "version": "50.1-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "9d0289527da118b21328f77451dc2a8d69778f370ddbd085f152f899596e0905",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsettings-desktop-schemas-50.1-1-any.pkg.tar.zst",
+    "sha256": "8b88a600bde7b514651d195f07ffb066ef334979709f641e67eae385382b104a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsettings-desktop-schemas-51.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gsettings-system-schemas=50.1-1",
+      "gsettings-system-schemas=51.0-1",
       "adwaita-fonts",
       "dconf"
     ],
@@ -23876,10 +23887,10 @@
   },
   {
     "name": "gsettings-system-schemas",
-    "version": "50.1-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "6c8d446de8ff27e0653ac362ecd551d9fd4814b30e2519f1f4828043da530da5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsettings-system-schemas-50.1-1-any.pkg.tar.zst",
+    "sha256": "8348790c0cb13628d01ddcce594f45c6cba5388e6e4f6edcb619fbeb358c0d49",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsettings-system-schemas-51.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf"
@@ -24029,17 +24040,17 @@
   },
   {
     "name": "gst-devtools",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "03f1a877042824d10ba90cbd153145c67d61875fc3724a7b0693053b43512b08",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "f819ef2fa9b7f58180d9e8242013a961b639b00483c99a0bbce675bb98563e38",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-devtools-libs=1.28.7-2",
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gst-rtsp-server=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-devtools-libs=1.28.7-3",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gst-rtsp-server=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "cairo",
       "glib2",
       "glibc",
@@ -24058,14 +24069,14 @@
   },
   {
     "name": "gst-devtools-libs",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "282bce4e0b270bb241aa9afe70863a1ed77cece5e48e3ebe8eb7e4e700677b5b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-libs-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "1def98e95eecaea6b5390bd2f55be4068cd224501c4850e59bf900d9a8d169b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-devtools-libs-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "json-glib",
@@ -24077,16 +24088,16 @@
   },
   {
     "name": "gst-editing-services",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "60d8cd5cfeaa0f5c5afa52d63516f1f9a640b333d097dd60874d76f6571d9867",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-editing-services-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "0f57a7663eb2174ab6030288ea351203acd0d916dc2423b26af42532381dfa5a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-editing-services-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-devtools-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gst-python=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-devtools-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gst-python=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "json-glib",
@@ -24103,16 +24114,16 @@
   },
   {
     "name": "gst-libav",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "8cc3101a1f52fee3334fe12a879b432068b3a5bf543f30b48fd40f64c7938bbe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-libav-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "46d2ec9fffaabe188a17d97315cd34a8bd4861f873409b25f532f8504407e9ff",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-libav-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [
-      "gst-ffmpeg=1.28.7-2"
+      "gst-ffmpeg=1.28.7-3"
     ],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "ffmpeg",
       "glib2",
       "glibc"
@@ -24369,15 +24380,15 @@
   },
   {
     "name": "gst-plugin-gtk",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "2d408bf8420279358eddb31b6c501c48414fbeccaaeef7ae8bed7058b91a4070",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-gtk-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "1f9925ae46bbeade320a5aa99ff4372d25cde7126529341bd7c3e340120c8fbd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-gtk-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "cairo",
       "glib2",
       "glibc",
@@ -24408,15 +24419,15 @@
   },
   {
     "name": "gst-plugin-hip",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "b5048337f13a479c22121c7222305a46a574220d52875a8b6b28487c72ace6d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-hip-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "c1289b26d022eb5862ccd628d5195fe140a362d07ec2d3892836f0eef1a3821a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-hip-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libdrm",
@@ -24609,15 +24620,15 @@
   },
   {
     "name": "gst-plugin-msdk",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "85d5439afcfe700d6130f4fc67253c77bef042592d5ba7f32337d61f48a1f961",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-msdk-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "775b4b3d92d6a343ec4f9fbefcd2e639788e871a5560cf2a7358790f1d0860e0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-msdk-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libdrm",
@@ -24630,14 +24641,14 @@
   },
   {
     "name": "gst-plugin-opencv",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "4c449eb162e4d428ae25ab7af221a876b471fdcd4c1d418a2a9d136894193093",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-opencv-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "970569ff9f02a7d11fd92f29cc3d869f907f95da758e6d7c488d68c1a36b1065",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-opencv-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libgcc",
@@ -24690,14 +24701,14 @@
   },
   {
     "name": "gst-plugin-qml6",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "5afc6c4db84fee4246972ba75b8a763f04dd7505cea0643a768f3b8af6975e4a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qml6-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "7223ce37773e18391a47b2b5d30b64535a522748800d682cd363cbaf07b138e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qml6-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libgcc",
@@ -24711,14 +24722,14 @@
   },
   {
     "name": "gst-plugin-qmlgl",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "a7b738a16f4e1a8c5277e79f80d8f0d888ff6d04a77c833e77360fd5f834b1b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qmlgl-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "ad1e519f630239e82c8ed41dc8ce06e839e20f0155c93b917a2b0f4f86406e4d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qmlgl-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libgcc",
@@ -24734,15 +24745,15 @@
   },
   {
     "name": "gst-plugin-qsv",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "c2a19bc9e8200fc1fbe05a2afe84b144038fc5e934661563df1435e05546c5e7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qsv-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "b63162d13884c39641b43bbf15ed69acc6fb688ff92faf66d690a113f4917756",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-qsv-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libgcc",
@@ -25193,15 +25204,15 @@
   },
   {
     "name": "gst-plugin-svthevcenc",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "d80b8bfa876682de7f11bf84b1ba8239d41c72d9222d29544d498294d6ac8476",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-svthevcenc-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "1e295672a419a298a7e670a2a2fb5fdedc2ead18bb70db9f5acad8361440b4e3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-svthevcenc-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "svt-hevc"
@@ -25309,15 +25320,15 @@
   },
   {
     "name": "gst-plugin-va",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "cbcf5e974bb0485c553906be20b85cdccbca0b993a862917820bf308b2a9f7f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-va-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "0fdef8fea6f1ad509628373f4766c5da45713d237b21049e9f31cb3924ccbdb6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-va-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libgudev",
@@ -25389,14 +25400,14 @@
   },
   {
     "name": "gst-plugin-wpe2",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "bad3fc241f91cb54441d4863823630c40ad02e38dbc2448f72e7888dbb8fba39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-wpe2-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "53eb4615b105131d805c65a076b7e79955a6a43ce50ef8c641aa3f7ac0d1201b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-wpe2-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libgcc",
@@ -25410,15 +25421,15 @@
   },
   {
     "name": "gst-plugins-bad",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "ef53f31dab77e36d88b5c1c8149b47b4a58ba3a8b0724fbac7862eaefd5144e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "b66cfcbb380a8d2aff11eb4ce3194c8191c24ece96632c902951b8ad18e69bdb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-bad-libs=1.28.7-2",
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-bad-libs=1.28.7-3",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "aom",
       "bzip2",
       "cairo",
@@ -25493,21 +25504,21 @@
       "gst-plugin-qmlgl: qmlgl plugin",
       "gst-plugin-qsv: qsv plugin",
       "gst-plugin-va: va plugin",
-      "gst-plugin-wpe: wpe plugin",
+      "gst-plugin-wpe2: wpe2 plugin",
       "gst-plugin-svthevcenc: svthevcenc plugin"
     ],
     "conflicts": []
   },
   {
     "name": "gst-plugins-bad-libs",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "209089aa5334fae3874cb48b20146652257d9849430b46934c7b81bbd5bd5138",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-libs-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "6563a03221c22091e992512f011c91716109bf46888e7912fe8886fb8cdd5f7d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-bad-libs-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "libdrm",
@@ -25534,14 +25545,14 @@
   },
   {
     "name": "gst-plugins-base",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "8049ad23cce770613aea3bc578985821bcdffba1f67bad884c0a0a80aa8420b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "7b31394cb46675446d2ee5d1e1b36548c230f8ca929b5d541f6d9b985dbf9e61",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "alsa-lib",
       "cairo",
       "cdparanoia",
@@ -25559,13 +25570,13 @@
   },
   {
     "name": "gst-plugins-base-libs",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "f713519b9d8ec441a0dca10eaa5dcaa1292d338590460d1da6d832e63c2dfd0f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-libs-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "cdfa4f4c02403e16258b147194811f80e416ec236b7d38143ca38ee0b04185cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-base-libs-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gstreamer=1.28.7-2",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "graphene",
@@ -25590,14 +25601,14 @@
   },
   {
     "name": "gst-plugins-good",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "9dc736c947bf789179c99f9ffd9195d8955763bd00d06445d7a8fc9de4d03ee3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-good-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "f7252cba13a0b18daea08e92680d5e15411a0a5c604e10e77d7aded07255ea0a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-good-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "aalib",
       "bzip2",
       "cairo",
@@ -25644,14 +25655,14 @@
   },
   {
     "name": "gst-plugins-ugly",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "82a6add5a01db53c7489663b11ace28ed24b2a513f28965020e7f24d14f8030f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-ugly-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "1c1baa9d4a29a0c48465f84f188e05e11ea190c36c735e9d9f2e4409f80477f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugins-ugly-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "a52dec",
       "glib2",
       "glibc",
@@ -25665,14 +25676,14 @@
   },
   {
     "name": "gst-python",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "e836b04cb0429b290e00a32bceb93fc1eb7d359bdad2ae901c246da9c9833eb8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-python-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "cb7873205cb968aaac2ab09b1b9ca1417a134f729024f7b29d8d1dd65cad385b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-python-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "python",
@@ -25686,14 +25697,14 @@
   },
   {
     "name": "gst-rtsp-server",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "4a9260469c52f5aca8bb03293e9737124e7a4556b054ed6e47a853e7619dfad8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-rtsp-server-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "c1f0e9ab8a5f0e27ecc8204c7ed8d5b8aface0663932b3e780779ec5805ac8fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-rtsp-server-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gst-plugins-base-libs=1.28.7-2",
-      "gstreamer=1.28.7-2",
+      "gst-plugins-base-libs=1.28.7-3",
+      "gstreamer=1.28.7-3",
       "glib2",
       "glibc",
       "orc",
@@ -25718,10 +25729,10 @@
   },
   {
     "name": "gstreamer",
-    "version": "1.28.7-2",
+    "version": "1.28.7-3",
     "origin": "artix-world",
-    "sha256": "c58de683626d49fc936a42490bea6a491999fd4c5761467af7140094f263566c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gstreamer-1.28.7-2-x86_64.pkg.tar.zst",
+    "sha256": "d8189757f5d4fa64c6e182b96802d4e3cd0df1d4abeda836ad101258d7d87647",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gstreamer-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -25842,10 +25853,10 @@
   },
   {
     "name": "gtk-update-icon-cache",
-    "version": "1:4.22.5-1.1",
+    "version": "1:4.24.1-1.1",
     "origin": "artix-world",
-    "sha256": "8d268a91420e0d7f25c32cc1de211985bf0629683c8853e09b02af607e836f2e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk-update-icon-cache-1:4.22.5-1.1-x86_64.pkg.tar.zst",
+    "sha256": "bd2d5d0b8f0b92159f7800940de4539acf9a4dc848f05438b22058db30a665fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk-update-icon-cache-1:4.24.1-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -25902,10 +25913,10 @@
   },
   {
     "name": "gtk3",
-    "version": "1:3.24.52-1.1",
+    "version": "1:3.24.52-2.1",
     "origin": "artix-world",
-    "sha256": "8f9924996c2f2d0f877ecf141dbe272f48b8023f960841ff731d7557a47aec19",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk3-1:3.24.52-1.1-x86_64.pkg.tar.zst",
+    "sha256": "78a37091a7dcfac2c3d1e11e053c8ea90185085523cc90ada0870100d170afad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk3-1:3.24.52-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "gtk3-print-backends",
       "libgailutil-3.so=0-64",
@@ -25951,7 +25962,8 @@
       "gtk-update-icon-cache"
     ],
     "optdepends": [
-      "evince: Default print preview command"
+      "papers: default print previewer",
+      "evince: legacy print previewer"
     ],
     "conflicts": [
       "gtk3-print-backends"
@@ -25959,10 +25971,10 @@
   },
   {
     "name": "gtk3-demos",
-    "version": "1:3.24.52-1.1",
+    "version": "1:3.24.52-2.1",
     "origin": "artix-world",
-    "sha256": "f7e5f16c1d3389d7ed071ba855d3f7e82dfae6eae55974fcabf655ddeb0c93a9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk3-demos-1:3.24.52-1.1-x86_64.pkg.tar.zst",
+    "sha256": "bac91efd1866a24548acbf946b59c554c97b3712cf9d094a3e56f4deba912f20",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk3-demos-1:3.24.52-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -25982,10 +25994,10 @@
   },
   {
     "name": "gtk4",
-    "version": "1:4.22.5-1.1",
+    "version": "1:4.24.1-1.1",
     "origin": "artix-world",
-    "sha256": "86c06d1e0452037a61bc83915824598f3274770ca1958cbe532fb4c1f27bb479",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-1:4.22.5-1.1-x86_64.pkg.tar.zst",
+    "sha256": "439444b080d382cedb4da4fe4bc9bffacdb065db946331a566e7a7bf12b82f4c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-1:4.24.1-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "libgtk-4.so=1-64"
     ],
@@ -26037,16 +26049,16 @@
       "xdg-desktop-portal-gtk"
     ],
     "optdepends": [
-      "evince: Default print preview command"
+      "papers: default print previewer"
     ],
     "conflicts": []
   },
   {
     "name": "gtk4-demos",
-    "version": "1:4.22.5-1.1",
+    "version": "1:4.24.1-1.1",
     "origin": "artix-world",
-    "sha256": "766af48041e283d7fedc90f2fb415c9e231ca69dbf7dd2cf88a0be0219c3ef2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-demos-1:4.22.5-1.1-x86_64.pkg.tar.zst",
+    "sha256": "cc123e051298de0aa69e04ef1f9c766995699270aed02535379a777c3d9fea2c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtk4-demos-1:4.24.1-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -26089,10 +26101,10 @@
   },
   {
     "name": "gtkmm-4.0",
-    "version": "4.22.0-2",
+    "version": "4.24.0-1",
     "origin": "artix-world",
-    "sha256": "8d03a569bc498da00bcd4b02cdb2b5eaae935ec75d8379d62e0f5e486e324cff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtkmm-4.0-4.22.0-2-x86_64.pkg.tar.zst",
+    "sha256": "c81fe3105cc359d47b3261c382f5b8d5a34ba7ce7becccf34e164035c0120e48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtkmm-4.0-4.24.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgtkmm-4.0.so=0-64"
     ],
@@ -26187,10 +26199,10 @@
   },
   {
     "name": "gtksourceview5",
-    "version": "5.20.0-1",
+    "version": "5.22.0-1",
     "origin": "artix-world",
-    "sha256": "7a6599ad3de4ec0eb6b3a2548d8607a2f291a57b037b878c773db8653ede035c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtksourceview5-5.20.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a42173cb1d858807453cf0b97e8c73266aa3dca26fc9fa9781931d66eae23742",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gtksourceview5-5.22.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgtksourceview-5.so=0-64"
     ],
@@ -26204,6 +26216,7 @@
       "graphene",
       "gtk4",
       "hicolor-icon-theme",
+      "libgcc",
       "libxml2",
       "pango",
       "pcre2"
@@ -26503,10 +26516,10 @@
   },
   {
     "name": "gvfs",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "95c95e0d5812d4ce8078dd2e3f71351ac6fd951c65c89df6b8f334db67c467c7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "2362785c51778603988fd6452eb4dcac2f41133b491265e8b39bbe7c8ee26abc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -26545,13 +26558,13 @@
   },
   {
     "name": "gvfs-afc",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "fae08c02869ead3cdbb166d195957ddf71a16700cebc1578b6699100b9cb4755",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-afc-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "4346b3a0da2c8a25ec73a2a19043a4b54144c0b755eabb52582e218a9a86ce71",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-afc-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "glib2",
       "glibc",
       "libimobiledevice",
@@ -26563,13 +26576,13 @@
   },
   {
     "name": "gvfs-dnssd",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "7c3e45ba4b6289d1f89566a69507b2b5f918382e86e2583ac0109f0cd9127d33",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-dnssd-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "9959899292cd9a931049490c47271d8a38186482b34d6a7e235c18e5f492165a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-dnssd-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "avahi",
       "dconf",
       "glib2",
@@ -26582,13 +26595,13 @@
   },
   {
     "name": "gvfs-goa",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "8a81dbd66d11799b6647d394fc5832f097f43e226702d1fad38495c1a3943361",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-goa-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "27b1873675e5e2dbcecd7770988c5ce0d4a0d77a5322c93b6c162b4f2f6941be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-goa-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "glib2",
       "glibc",
       "libgcc",
@@ -26599,13 +26612,13 @@
   },
   {
     "name": "gvfs-gphoto2",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "4ec4b813e31c19ccb120fbe1ae31cbe575af19808985e32ca77efee91e4967b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-gphoto2-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "c4b34da7b45ab415778e21fd6ace9abd185cad43811bf96d24bcb5593ee21cc1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-gphoto2-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "glib2",
       "glibc",
       "libgcc",
@@ -26617,13 +26630,13 @@
   },
   {
     "name": "gvfs-mtp",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "07c080ee9e2890ffc3e36cc348f74b42b544dd6fd655f5337be821c9e21832e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-mtp-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "04452a377450fa9d41fd73723315e8b1b7b15e476d01f94632c12e697989ca33",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-mtp-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "glib2",
       "glibc",
       "libgcc",
@@ -26636,13 +26649,13 @@
   },
   {
     "name": "gvfs-nfs",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "9c1bc9be7bc8931090644d68e7f27a7daa695047839c95efd00b5c26414e4a39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-nfs-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "663751af5f0ec1ec943a28c56dc919a74b74f1a032b7c3d2646024b5feeba404",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-nfs-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "glib2",
       "glibc",
       "libgcc",
@@ -26653,13 +26666,13 @@
   },
   {
     "name": "gvfs-onedrive",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "1d76ead8280e909653c31b4b4c2e62752904ea03edd347bd29f46e4c50211fac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-onedrive-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "8bbf9cfad953f9e5880959c902441f98f567989ad09252f3ba6a7f0d43570bc9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-onedrive-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs-goa=1.60.3",
+      "gvfs-goa=1.62.0",
       "glib2",
       "glibc",
       "libgcc",
@@ -26671,13 +26684,13 @@
   },
   {
     "name": "gvfs-smb",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "22a572a21f33d9b5681e377fb490bc09de1b91505356b0ba5b66be65434e3763",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-smb-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "6ea6e41be148ab8bd463478af50d9f4ac24eb52cfd257fa10899fee3c4e04fb8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-smb-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "smbclient>=4.12.0",
       "dconf",
       "glib2",
@@ -26689,13 +26702,13 @@
   },
   {
     "name": "gvfs-wsdd",
-    "version": "1.60.3-3",
+    "version": "1.62.0-3",
     "origin": "artix-world",
-    "sha256": "d11f8f7d3b3397abd571022f0d7afcb32c01862e9f936cae823e4d117e63470b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-wsdd-1.60.3-3-x86_64.pkg.tar.zst",
+    "sha256": "c3ad59a2b2a68bc2d1fc611775e2830af9fb9650d5657cdebc799d8370d24c7a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gvfs-wsdd-1.62.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gvfs=1.60.3",
+      "gvfs=1.62.0",
       "dconf",
       "glib2",
       "glibc",
@@ -36657,10 +36670,10 @@
   },
   {
     "name": "kicad",
-    "version": "10.0.6-2",
+    "version": "10.0.7-1",
     "origin": "artix-world",
-    "sha256": "ae84afad5f3dc4f853de91452672b0c01f8166173fe9ec76caa5bf207b376a21",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.6-2-x86_64.pkg.tar.zst",
+    "sha256": "bd93616fa1b3e1b21cf4e37843f5e2353d62932d05d23c49b16d0668900cf031",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -36706,10 +36719,10 @@
   },
   {
     "name": "kicad-demos",
-    "version": "10.0.6-2",
+    "version": "10.0.7-1",
     "origin": "artix-world",
-    "sha256": "4ad9e670f2653ed4c42d4d7db09fecab31879ec0566a2e15623934898ce9326c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.6-2-x86_64.pkg.tar.zst",
+    "sha256": "c307393956bf237b64d5882f293cc6bb180bda8d1df7f4f8b12968508105c785",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kicad",
@@ -36720,10 +36733,10 @@
   },
   {
     "name": "kicad-library",
-    "version": "10.0.6-1",
+    "version": "10.0.7-1",
     "origin": "artix-world",
-    "sha256": "922a74fc74fde5ba5cecac20fe5a0f139a906400a6b49f8a8b5a202bfc4c2c2f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-10.0.6-1-any.pkg.tar.zst",
+    "sha256": "ef88b343310a3c93d0954e74518f1838fc721d8a56d7b0d5a8ef32e9fd78f26d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-10.0.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -36731,10 +36744,10 @@
   },
   {
     "name": "kicad-library-3d",
-    "version": "10.0.6-1",
+    "version": "10.0.7-1",
     "origin": "artix-world",
-    "sha256": "87cc9c407d644ce6033cd00cb85eeb36458c02bf3f3d8978773595937380db67",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-3d-10.0.6-1-any.pkg.tar.zst",
+    "sha256": "ade9d2c7bf6c4587c468da5baeae6a2b9867463615b672da3149375c2854dc77",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-3d-10.0.7-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -42300,20 +42313,20 @@
   },
   {
     "name": "libadwaita",
-    "version": "1:1.9.4-1",
+    "version": "1:1.10.0-1",
     "origin": "artix-world",
-    "sha256": "4d1e1e3238fd9095cdaca7c1a0ebe2dd6351ce714695b1ba61be6b5ce9994c41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libadwaita-1:1.9.4-1-x86_64.pkg.tar.zst",
+    "sha256": "8ca752dc5bf96f03c80fa82c7cfd4a1e86ac3d1798899ea82fe454e55d4a1b98",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libadwaita-1:1.10.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libadwaita-1.so=0-64"
     ],
     "depends": [
-      "appstream",
       "fribidi",
       "glib2",
       "glibc",
       "graphene",
       "gtk4",
+      "ministream",
       "pango",
       "libgtk-4.so=1-64"
     ],
@@ -42322,10 +42335,10 @@
   },
   {
     "name": "libadwaita-demos",
-    "version": "1:1.9.4-1",
+    "version": "1:1.10.0-1",
     "origin": "artix-world",
-    "sha256": "265b17293b216e698bf0df988d75fd39b2909b260d666c3e6d45daf2fb694c3c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libadwaita-demos-1:1.9.4-1-x86_64.pkg.tar.zst",
+    "sha256": "758188b1dd5ac413dbe5741806a621a43124574815fefca168e738de16e2e838",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libadwaita-demos-1:1.10.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -43811,10 +43824,10 @@
   },
   {
     "name": "libdex",
-    "version": "1.1.0-1",
+    "version": "1.2.0-1",
     "origin": "artix-world",
-    "sha256": "ca1d87b44eff5cb7c471f041cdd5f31e34e186d124e8d126ae754c77d9af8668",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libdex-1.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5baca21111ac0d094a52a3dee93d08dbcefb1c80a3d034fd91773e6f55315fdb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libdex-1.2.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdex-1.so=1-64"
     ],
@@ -43822,6 +43835,7 @@
       "glib2",
       "glibc",
       "libatomic",
+      "libgcc",
       "liburing",
       "libsysprof-capture",
       "python",
@@ -44100,15 +44114,15 @@
   },
   {
     "name": "libedataserverui4",
-    "version": "3.60.2-5",
+    "version": "3.62.0-1",
     "origin": "artix-world",
-    "sha256": "26f71a2dea9f93954fd3dde9814b5462545173fb1cbf72758194df9777426de4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libedataserverui4-3.60.2-5-x86_64.pkg.tar.zst",
+    "sha256": "e1a1bc9c15533f4a356032e944739fd79a527802936d7b30a799f18a4f2ede00",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libedataserverui4-3.62.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libedataserverui4-1.0.so=0-64"
     ],
     "depends": [
-      "evolution-data-server=3.60.2-5",
+      "evolution-data-server=3.62.0-1",
       "glib2",
       "glibc",
       "gtk4",
@@ -44703,10 +44717,10 @@
   },
   {
     "name": "libgdm",
-    "version": "50.3-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "a679d01f9958ed8f147b52127c660612d56aa424fe64775ffc36cbae0215b61e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgdm-50.3-1-x86_64.pkg.tar.zst",
+    "sha256": "acd2a375217484f5e98d7b5c47edc3ef84e79b1c662224a7c8414fe45ad8bbaa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgdm-51.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgdm.so=1-64"
     ],
@@ -46940,10 +46954,10 @@
   },
   {
     "name": "libmediainfo",
-    "version": "26.05-2",
+    "version": "26.10-1.1",
     "origin": "artix-world",
-    "sha256": "33912df940bb1765697d9f4176bb7615bea7a20dd6705b43f8b2d0a942054e39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmediainfo-26.05-2-x86_64.pkg.tar.zst",
+    "sha256": "e9092ba0aacb3a1acb8d57c92fbe9ea87dd3327b0aa7e2b2987d1ad8c445c542",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmediainfo-26.10-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -47393,10 +47407,10 @@
   },
   {
     "name": "libnautilus-extension",
-    "version": "50.3.1-1",
+    "version": "51.0.1-2",
     "origin": "artix-world",
-    "sha256": "be4187c7342282305d11facd75079f47475efde0084080be1dd02f1c0a957439",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libnautilus-extension-50.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a138b77724040ff59ae65c2ede8e70dd8bf73aa518814ee285363d31093419ac",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libnautilus-extension-51.0.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libnautilus-extension.so=4-64"
     ],
@@ -49047,10 +49061,10 @@
   },
   {
     "name": "librsvg",
-    "version": "2:2.62.4-1",
+    "version": "2:2.63.2-1",
     "origin": "artix-world",
-    "sha256": "31273975f460d733af5db3ffb5c965c8a996ddd2302ba222f69ae26d613d8495",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/librsvg-2:2.62.4-1-x86_64.pkg.tar.zst",
+    "sha256": "f547f9f1ef594ced1e7caa6335e83c15900c3d673c0ebbbbc3ab29800635a726",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/librsvg-2:2.63.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "librsvg-2.so=2-64"
     ],
@@ -49173,10 +49187,10 @@
   },
   {
     "name": "libshumate",
-    "version": "1.6.3-1",
+    "version": "1.7.0-1",
     "origin": "artix-world",
-    "sha256": "46e8d347ce643cee36fff351ef0137eb6fc55e52ab65ab804d68e53a9bec0cd7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libshumate-1.6.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ba338911c3cd561d09931e86fe562fefd61d963a2f47858d6aa146510ddad6b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libshumate-1.7.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libshumate-1.0.so=1-64"
     ],
@@ -49403,10 +49417,10 @@
   },
   {
     "name": "libsoup3",
-    "version": "3.6.6-2",
+    "version": "3.8.0-1",
     "origin": "artix-world",
-    "sha256": "260855a661b34ae8d628d259d4e673831b9e0f3b3e6da21a8cec0db3f4339fa4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsoup3-3.6.6-2-x86_64.pkg.tar.zst",
+    "sha256": "b837b864ff08f99df17dcbd0d2d85cfe107957c61888e4a80eea1c91a6f2e99b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsoup3-3.8.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libsoup-3.0.so=0-64"
     ],
@@ -49421,6 +49435,7 @@
       "libsysprof-capture",
       "sqlite",
       "zlib",
+      "zstd",
       "libbrotlidec.so=1-64",
       "libgssapi_krb5.so=2-64",
       "libglib-2.0.so=0-64",
@@ -49701,10 +49716,10 @@
   },
   {
     "name": "libsysprof-capture",
-    "version": "50.0-6",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "cf4f8f4fa7b91c19dbb9bb904a4850fb74ca244319d97e38e8d7947055b68966",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsysprof-capture-50.0-6-x86_64.pkg.tar.zst",
+    "sha256": "75d87bd40b150b0cd0232850dcb7710c6e1a6fefd16bdff4aadd7871753af17f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsysprof-capture-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -50931,10 +50946,10 @@
   },
   {
     "name": "libx11",
-    "version": "1.8.13-1",
+    "version": "1.8.13-2",
     "origin": "artix-world",
-    "sha256": "49a4deff4044f4ffff65302253929cf281745842bdcce75f50c3dd3b213b4c71",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libx11-1.8.13-1-x86_64.pkg.tar.zst",
+    "sha256": "a22580b57b09de416e220fd10b75413cc8cf8d7b49ddd2a9843a7acf7b21dab6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libx11-1.8.13-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxcb",
@@ -52845,12 +52860,12 @@
   },
   {
     "name": "localsearch",
-    "version": "3.11.2-1",
+    "version": "3.12.0-1",
     "origin": "artix-world",
-    "sha256": "d10bf276d0d8f4720f2e546a5baeb783c141403193e8b6cd7c5403b9b7163a7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-3.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5299bdf2af080b8e9464baaca635e495b31f34a77eaaf43fb9d46989d6bc21ee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-3.12.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "tracker3-miners=3.11.2"
+      "tracker3-miners=3.12.0"
     ],
     "depends": [
       "dconf",
@@ -52872,9 +52887,11 @@
       "libgxps",
       "libiptcdata",
       "libjpeg-turbo",
+      "libmediainfo",
       "libosinfo",
       "libpng",
       "libseccomp",
+      "libstdc++",
       "libtiff",
       "libwebp",
       "libxml2",
@@ -52892,10 +52909,10 @@
   },
   {
     "name": "localsearch-testutils",
-    "version": "3.11.2-1",
+    "version": "3.12.0-1",
     "origin": "artix-world",
-    "sha256": "7ebdcefd4e0147e29e29e36a9d078cda1be41920d4f56699445b58c8819a43a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-testutils-3.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "eeed1dfef2cc175d33997ba5c7866a245760bda5acfa37284453b69cb15adebc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/localsearch-testutils-3.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -52976,10 +52993,10 @@
   },
   {
     "name": "loupe",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "b7d7264dd9d2cbf0f560277bf6841a8fb5bf84b15e672b1e49925e0c49560486",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/loupe-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "356a7098062d24f520b06505f66e1a824e7ce004c265e2a2caa3b4ea4e6c695a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/loupe-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bubblewrap",
@@ -56030,26 +56047,35 @@
   },
   {
     "name": "mediainfo",
-    "version": "26.05-1",
+    "version": "26.10-1",
     "origin": "artix-world",
-    "sha256": "139c5fadf6a1049f2de6b1dc126fc2975eafdd8547d59da75129e55db1c1704e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mediainfo-26.05-1-x86_64.pkg.tar.zst",
+    "sha256": "6d2ec58585d08a2bf4d9a9af0d42bbcafe084895ed8f16b4f909af9961418650",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mediainfo-26.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libmediainfo=26.05"
+      "libmediainfo=26.10",
+      "libzen",
+      "libstdc++",
+      "libgcc",
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "mediainfo-gui",
-    "version": "26.05-1",
+    "version": "26.10-1",
     "origin": "artix-world",
-    "sha256": "9105a1dcd89e0da8c09d5bdb3c12b5934bd980fd9969850955989a96403b0463",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mediainfo-gui-26.05-1-x86_64.pkg.tar.zst",
+    "sha256": "dbe16b79344a748245dde528c9c6227cac71b7b321c38549bfc94fd988f42396",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mediainfo-gui-26.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libmediainfo=26.05",
+      "libmediainfo=26.10",
+      "libzen",
+      "libstdc++",
+      "libgcc",
+      "glibc",
+      "wxwidgets-common",
       "wxwidgets-gtk3",
       "hicolor-icon-theme"
     ],
@@ -56975,6 +57001,20 @@
     "provides": [],
     "depends": [
       "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "ministream",
+    "version": "0.99.1-1",
+    "origin": "artix-world",
+    "sha256": "ad5a21be06e6a2365ceff45ea8b4cccbcee4c0f43e04bb760f715a066b71a443",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ministream-0.99.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "glib2"
     ],
     "optdepends": [],
     "conflicts": []
@@ -58495,12 +58535,12 @@
   },
   {
     "name": "mutter",
-    "version": "50.5-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "1c5b3c5aa4e5a9608c6956b2d8ff3b9e63427c36d75439b305848244a9e39063",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-50.5-1-x86_64.pkg.tar.zst",
+    "sha256": "b8461fa0b493a0004d1898488254148a781c570f1fa26e4c4e4a90b4dc49a238",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-51.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libmutter-18.so=0-64"
+      "libmutter-51.so=0-64"
     ],
     "depends": [
       "at-spi2-core",
@@ -58568,10 +58608,10 @@
   },
   {
     "name": "mutter-devkit",
-    "version": "50.5-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "7fa5c6db11f9dd840426d119bd2eb0c278bc2b9bfe71749dc4f9ffc7141c3dc5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-devkit-50.5-1-x86_64.pkg.tar.zst",
+    "sha256": "4223f9568d862f16ae09e4e37e223915936803b3675c403365cfbe1430842fcf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter-devkit-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -58651,6 +58691,83 @@
       "pixman",
       "python",
       "startup-notification",
+      "wayland",
+      "xorg-xwayland"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "mutter"
+    ]
+  },
+  {
+    "name": "mutter49",
+    "version": "49.8-1",
+    "origin": "artix-world",
+    "sha256": "18a1f71f8577b794ee6bc1c65b1aa411ca69c37a85f29a7282ed7f7901596542",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter49-49.8-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libmutter-17.so=0-64"
+    ],
+    "depends": [
+      "at-spi2-core",
+      "cairo",
+      "colord",
+      "dconf",
+      "egl-wayland",
+      "fontconfig",
+      "fribidi",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "glycin",
+      "gnome-desktop-4",
+      "gnome-settings-daemon",
+      "graphene",
+      "gsettings-desktop-schemas",
+      "gtk4",
+      "harfbuzz",
+      "iio-sensor-proxy",
+      "lcms2",
+      "libcanberra",
+      "libcolord",
+      "libdisplay-info",
+      "libdrm",
+      "libei",
+      "libgcc",
+      "libgirepository",
+      "libglvnd",
+      "libgudev",
+      "libice",
+      "libinput",
+      "libpipewire",
+      "libsm",
+      "libsysprof-capture",
+      "libwacom",
+      "libx11",
+      "libxau",
+      "libxcb",
+      "libxcomposite",
+      "libxcursor",
+      "libxdamage",
+      "libxext",
+      "libxfixes",
+      "libxi",
+      "libxinerama",
+      "libxkbcommon",
+      "libxkbcommon-x11",
+      "libxkbfile",
+      "libxrandr",
+      "libxtst",
+      "mesa",
+      "pango",
+      "pipewire",
+      "pixman",
+      "python",
+      "python-argcomplete",
+      "python-dbus",
+      "python-gobject",
+      "startup-notification",
+      "libelogind",
       "wayland",
       "xorg-xwayland"
     ],
@@ -58813,10 +58930,10 @@
   },
   {
     "name": "nautilus",
-    "version": "50.3.1-1",
+    "version": "51.0.1-2",
     "origin": "artix-world",
-    "sha256": "3812e540572aa156ff0a048970b15167747de2c41d525b3aa4a9d3208278acef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nautilus-50.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "88b89213d5309f2d31bbc491a0c5a20b2d1a91c0d11af8cf88c2cdf109529305",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nautilus-51.0.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -63731,15 +63848,16 @@
   },
   {
     "name": "orca",
-    "version": "50.3-1",
+    "version": "51.0-2",
     "origin": "artix-world",
-    "sha256": "e5967e8e3bd1e0770c92d84121d642bf2c8d605d042ae1af9963415d7a2ce06b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/orca-50.3-1-any.pkg.tar.zst",
+    "sha256": "c30ed2ad9d41caa4a36eeabbbabea68e3bb0aaf8513548ebe6a7b57fcd6d2a57",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/orca-51.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
       "dconf",
       "glib2",
+      "glibc",
       "gobject-introspection-runtime",
       "gsettings-desktop-schemas",
       "gst-plugins-base",
@@ -63747,6 +63865,7 @@
       "gstreamer",
       "gtk3",
       "hicolor-icon-theme",
+      "libgcc",
       "liblouis",
       "libwnck3",
       "pango",
@@ -64322,10 +64441,10 @@
   },
   {
     "name": "papers",
-    "version": "50.3-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "ee0574c7f22fa0d7c6f3159fb58b4dd0812428945a65e469b8f8a0b47b84613e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/papers-50.3-1-x86_64.pkg.tar.zst",
+    "sha256": "f5124993c82579514dca324818a4f98bf39384df715b9356231cf2ff78e128f8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/papers-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -81643,12 +81762,12 @@
   },
   {
     "name": "python-gobject",
-    "version": "3.56.3-1",
+    "version": "3.58.0-1",
     "origin": "artix-world",
-    "sha256": "4fc98a82fbe07466ddc5486d14b098b27c675236f781dd170f4b45a287d20642",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gobject-3.56.3-1-x86_64.pkg.tar.zst",
+    "sha256": "80976979181a1c14077399fadd2e352ee0d36897b9e377ece6ac762c94293866",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gobject-3.58.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "pygobject-devel=3.56.3"
+      "pygobject-devel=3.58.0"
     ],
     "depends": [
       "glib2",
@@ -81875,10 +81994,10 @@
   },
   {
     "name": "python-griffe",
-    "version": "2.3.0-1",
+    "version": "2.3.2-1",
     "origin": "artix-world",
-    "sha256": "859fab2efbec395df259d1a40546017607bf1d1b0a3606ee081c148ec86e031b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffe-2.3.0-1-any.pkg.tar.zst",
+    "sha256": "64ad9cc47dc1a0b08dcc042eb6bf7f67eecb882e9a1f7de922fa298af102ab05",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffe-2.3.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -81890,10 +82009,10 @@
   },
   {
     "name": "python-griffecli",
-    "version": "2.3.0-1",
+    "version": "2.3.2-1",
     "origin": "artix-world",
-    "sha256": "016286e7d056f1ed0e633075a8c94180b36bb71f94a4a747b1af9739adc6f246",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffecli-2.3.0-1-any.pkg.tar.zst",
+    "sha256": "b0a68a1e1310b3ca6233eb3a8315ad3070c5ebe106057a07d3f4a503c980fb42",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffecli-2.3.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -81905,10 +82024,10 @@
   },
   {
     "name": "python-griffelib",
-    "version": "2.3.0-1",
+    "version": "2.3.2-1",
     "origin": "artix-world",
-    "sha256": "ff6c6e09abf19415ce2269fa19108e00d61c4f470a802ccb6de854c00baf642e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffelib-2.3.0-1-any.pkg.tar.zst",
+    "sha256": "49f27980e40081b15693c6fbc2ee5a80bacf83f2c907291e2a544788f898ab02",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffelib-2.3.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -98017,26 +98136,26 @@
   },
   {
     "name": "qemu-audio-alsa",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "8856e4418dfe24ee67679a23a7719759dfc1b4fa1458ce2c786d2bec60cceb6f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-alsa-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "d75d4f4f701375e88f6bf8f67deef8b9ce19ba7d722c019daca80ce28f571e69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-alsa-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
       "libasound.so=2-64",
       "glibc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-dbus",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "8fc0b555ed5d8148a04581a6d76a1718fff8c531df2467aed69d6188e863b88c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-dbus-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "cf41c7cbfd22dcda3263110dd5ed58c7855f9e7b4531bb753d25e5a437020a21",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-dbus-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -98045,84 +98164,84 @@
       "libgobject-2.0.so=0-64",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-jack",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "5b87d38c09fc26b549f5967d579e4eb9f05a51ac3e64523eb53074d3ae6ba45c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-jack-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "0457e11428f4df7928dd1eaed771a284ff2ddbc336e634349ccebf5d2edb67b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-jack-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "jack",
       "libgcc",
       "libjack.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-oss",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "2303a3de4934a785624d22f4662020f95b62145dbf944dc57811934a0aa27c46",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-oss-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "b14714a9e40ac9934df8f33524a1f09cf02dd90baf51c033595b8f5598cf719f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-oss-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-pa",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "78291d10a96fe78ef3d514e1eb822536a61fa33abaf164cabafdfae9e9f1cf0a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pa-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "1ee3c11f352cc249cd81605486567f17eea27923f19487d2b6ef28ccf1f9a8af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pa-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libpulse",
       "libpulse.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-pipewire",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "aba68f76ddb556a384c0f67f581ea408886cdc32a3b7ec328bdfedcb7fd69b45",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pipewire-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "9311e1ed85c0fb6ec4e50cb5cc935d089d9bb739be8c76e86061e6a776b31326",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-pipewire-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libpipewire",
       "libpipewire-0.3.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-audio-sdl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "c8c397370b2fd34e8b9ede0e277acd1f81b677036e63ce8cbe921a1a8622c409",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-sdl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f1874b656f53b056321374032466acae69941348751f3da62d45e657d97c06a2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-sdl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "sdl2"
     ],
     "optdepends": [],
@@ -98130,15 +98249,15 @@
   },
   {
     "name": "qemu-audio-spice",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "7418070be24f89707d8f8c553ee1ee1f6fc648730fa2e20c21ef30e0932d2feb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-spice-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "df9aa32d47efa6cc548948a70aaa311e11da86b47c8cd6fa07826f11b34f95c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-audio-spice-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-4",
-      "qemu-ui-spice-core=11.1.1-4",
+      "qemu-common=11.1.2-1",
+      "qemu-ui-spice-core=11.1.2-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -98147,17 +98266,17 @@
   },
   {
     "name": "qemu-base",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "21b8840e8ea183a4c3525065ffe444aaef7ef913558ef00bc3db2a40854ec211",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-base-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "cfdb7627a12da822c4e72eac9367c03277de9ba758b5700db64ad48c1297c704",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-base-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "qemu=11.1.1"
+      "qemu=11.1.2"
     ],
     "depends": [
-      "qemu-common=11.1.1-4",
-      "qemu-img=11.1.1-4",
-      "qemu-system-x86=11.1.1-4",
+      "qemu-common=11.1.2-1",
+      "qemu-img=11.1.2-1",
+      "qemu-system-x86=11.1.2-1",
       "virtiofsd"
     ],
     "optdepends": [
@@ -98234,114 +98353,114 @@
   },
   {
     "name": "qemu-block-curl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "3366360d933e721ff7c6a1ac8de055ee80b5ae4fce7b86b5bde154dc6027aed6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-curl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f0662a89cfbb0e3120f736995921045fbf47c621060c07c12e5ef7bd034c62fd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-curl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
       "libcurl.so=4-64",
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-dmg",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "da83ff6695a949e6fa0132287d00255aaffcf492feac41d518bb7f534c293564",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-dmg-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f232aabef022304538c5058ae652255a66e6b5d0e64f3568dcda799c885e1c70",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-dmg-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
       "libbz2.so=1.0-64",
       "glibc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-iscsi",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "838b1f3a14e1668e38e62ecf0a914883c9a1a4ba4881bef16e46ce01c64577ac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-iscsi-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "a893a012de005b7f1d9de1acc1f56bdb659b0df47ff5a2bfca897f2140e52585",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-iscsi-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libiscsi",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-nfs",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "a40b52b6cb6d4293cb351a796a77d005830dee453fe7874e040f73b448a6fd5d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-nfs-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "954f03351920c851e19a945f64000f076629bd7866a2d27f4c7d2fa47c9ccbe7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-nfs-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libnfs",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-block-ssh",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "1434c64db4a842cf2f618cdaa8ffd6864c3ab6c779d703412cb703a6b57e73f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-ssh-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "09ad67ddb5915fe4630f7b438f3b7b2763731776d4cec8442d73fe99a4def2b3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-block-ssh-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
       "libssh",
       "libssh.so=4-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-chardev-baum",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "fa8726f24775f608af52eb5a9bbcd48c56a406761bfe0a92b2cf682a5c46a52f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-baum-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "8d8bacb8aab0c132faacbc002ec6e9188d5239a0c75bd70832f3b471ba30a5c8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-baum-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brltty",
       "libbrlapi.so=0.8-64",
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-chardev-spice",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "ee0aa6dd1ade701d2292615754f36ec1ad4a0c6a28f55273bdcfd597cd78328a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-spice-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "7fff64a4a33938403b42c4726b780f18e8938cc1c667ee5b7c0852acecf036cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-chardev-spice-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "qemu-common=11.1.1-4",
-      "qemu-ui-spice-core=11.1.1-4",
+      "qemu-common=11.1.2-1",
+      "qemu-ui-spice-core=11.1.2-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -98350,10 +98469,10 @@
   },
   {
     "name": "qemu-common",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "dd8a447d9cc385daea0af9398acd6081ace0764f44ca484c81537862e46d920f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-common-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "ee14320eac825c5a9e8b29fdbe61d77861cc40216946347773280b2de15a4b07",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-common-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -98374,51 +98493,51 @@
   },
   {
     "name": "qemu-desktop",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "b7fa5917953f4ed22ce7e5ead07a2bc26c976fcda1440ca48fd4b26b39ab2024",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-desktop-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "709efcd791dbc6966c7f24f9eb27b58599a03414c0b3b5fb2e3bba51312c2606",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-desktop-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "qemu=11.1.1"
+      "qemu=11.1.2"
     ],
     "depends": [
-      "qemu-base=11.1.1-4",
-      "qemu-audio-alsa=11.1.1-4",
-      "qemu-audio-dbus=11.1.1-4",
-      "qemu-audio-jack=11.1.1-4",
-      "qemu-audio-oss=11.1.1-4",
-      "qemu-audio-pa=11.1.1-4",
-      "qemu-audio-pipewire=11.1.1-4",
-      "qemu-audio-sdl=11.1.1-4",
-      "qemu-audio-spice=11.1.1-4",
-      "qemu-block-curl=11.1.1-4",
-      "qemu-block-dmg=11.1.1-4",
-      "qemu-block-nfs=11.1.1-4",
-      "qemu-block-ssh=11.1.1-4",
-      "qemu-chardev-spice=11.1.1-4",
-      "qemu-hw-display-qxl=11.1.1-4",
-      "qemu-hw-display-virtio-gpu=11.1.1-4",
-      "qemu-hw-display-virtio-gpu-gl=11.1.1-4",
-      "qemu-hw-display-virtio-gpu-rutabaga=11.1.1-4",
-      "qemu-hw-display-virtio-gpu-pci=11.1.1-4",
-      "qemu-hw-display-virtio-gpu-pci-gl=11.1.1-4",
-      "qemu-hw-display-virtio-gpu-pci-rutabaga=11.1.1-4",
-      "qemu-hw-display-virtio-vga=11.1.1-4",
-      "qemu-hw-display-virtio-vga-gl=11.1.1-4",
-      "qemu-hw-display-virtio-vga-rutabaga=11.1.1-4",
-      "qemu-hw-uefi-vars=11.1.1-4",
-      "qemu-hw-usb-host=11.1.1-4",
-      "qemu-hw-usb-redirect=11.1.1-4",
-      "qemu-hw-usb-smartcard=11.1.1-4",
-      "qemu-ui-curses=11.1.1-4",
-      "qemu-ui-dbus=11.1.1-4",
-      "qemu-ui-egl-headless=11.1.1-4",
-      "qemu-ui-gtk=11.1.1-4",
-      "qemu-ui-opengl=11.1.1-4",
-      "qemu-ui-sdl=11.1.1-4",
-      "qemu-ui-spice-app=11.1.1-4",
-      "qemu-ui-spice-core=11.1.1-4",
-      "qemu-vhost-user-gpu=11.1.1-4"
+      "qemu-base=11.1.2-1",
+      "qemu-audio-alsa=11.1.2-1",
+      "qemu-audio-dbus=11.1.2-1",
+      "qemu-audio-jack=11.1.2-1",
+      "qemu-audio-oss=11.1.2-1",
+      "qemu-audio-pa=11.1.2-1",
+      "qemu-audio-pipewire=11.1.2-1",
+      "qemu-audio-sdl=11.1.2-1",
+      "qemu-audio-spice=11.1.2-1",
+      "qemu-block-curl=11.1.2-1",
+      "qemu-block-dmg=11.1.2-1",
+      "qemu-block-nfs=11.1.2-1",
+      "qemu-block-ssh=11.1.2-1",
+      "qemu-chardev-spice=11.1.2-1",
+      "qemu-hw-display-qxl=11.1.2-1",
+      "qemu-hw-display-virtio-gpu=11.1.2-1",
+      "qemu-hw-display-virtio-gpu-gl=11.1.2-1",
+      "qemu-hw-display-virtio-gpu-rutabaga=11.1.2-1",
+      "qemu-hw-display-virtio-gpu-pci=11.1.2-1",
+      "qemu-hw-display-virtio-gpu-pci-gl=11.1.2-1",
+      "qemu-hw-display-virtio-gpu-pci-rutabaga=11.1.2-1",
+      "qemu-hw-display-virtio-vga=11.1.2-1",
+      "qemu-hw-display-virtio-vga-gl=11.1.2-1",
+      "qemu-hw-display-virtio-vga-rutabaga=11.1.2-1",
+      "qemu-hw-uefi-vars=11.1.2-1",
+      "qemu-hw-usb-host=11.1.2-1",
+      "qemu-hw-usb-redirect=11.1.2-1",
+      "qemu-hw-usb-smartcard=11.1.2-1",
+      "qemu-ui-curses=11.1.2-1",
+      "qemu-ui-dbus=11.1.2-1",
+      "qemu-ui-egl-headless=11.1.2-1",
+      "qemu-ui-gtk=11.1.2-1",
+      "qemu-ui-opengl=11.1.2-1",
+      "qemu-ui-sdl=11.1.2-1",
+      "qemu-ui-spice-app=11.1.2-1",
+      "qemu-ui-spice-core=11.1.2-1",
+      "qemu-vhost-user-gpu=11.1.2-1"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
@@ -98457,65 +98576,65 @@
   },
   {
     "name": "qemu-emulators-full",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "e49544fa165d1c751ad1dd251b3862349091e41c56c815ead986eea2b91667fc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-emulators-full-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "899288a2e80e53625cc883343e3ee4634a22ca1ea3d9b9be46fa018de208ca27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-emulators-full-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-system-aarch64=11.1.1-4",
-      "qemu-system-alpha=11.1.1-4",
-      "qemu-system-arm=11.1.1-4",
-      "qemu-system-avr=11.1.1-4",
-      "qemu-system-hexagon=11.1.1-4",
-      "qemu-system-hppa=11.1.1-4",
-      "qemu-system-loongarch64=11.1.1-4",
-      "qemu-system-m68k=11.1.1-4",
-      "qemu-system-microblaze=11.1.1-4",
-      "qemu-system-mips=11.1.1-4",
-      "qemu-system-or1k=11.1.1-4",
-      "qemu-system-ppc=11.1.1-4",
-      "qemu-system-riscv=11.1.1-4",
-      "qemu-system-rx=11.1.1-4",
-      "qemu-system-s390x=11.1.1-4",
-      "qemu-system-sh4=11.1.1-4",
-      "qemu-system-sparc=11.1.1-4",
-      "qemu-system-tricore=11.1.1-4",
-      "qemu-system-x86=11.1.1-4",
-      "qemu-system-xtensa=11.1.1-4",
-      "qemu-user=11.1.1-4"
+      "qemu-system-aarch64=11.1.2-1",
+      "qemu-system-alpha=11.1.2-1",
+      "qemu-system-arm=11.1.2-1",
+      "qemu-system-avr=11.1.2-1",
+      "qemu-system-hexagon=11.1.2-1",
+      "qemu-system-hppa=11.1.2-1",
+      "qemu-system-loongarch64=11.1.2-1",
+      "qemu-system-m68k=11.1.2-1",
+      "qemu-system-microblaze=11.1.2-1",
+      "qemu-system-mips=11.1.2-1",
+      "qemu-system-or1k=11.1.2-1",
+      "qemu-system-ppc=11.1.2-1",
+      "qemu-system-riscv=11.1.2-1",
+      "qemu-system-rx=11.1.2-1",
+      "qemu-system-s390x=11.1.2-1",
+      "qemu-system-sh4=11.1.2-1",
+      "qemu-system-sparc=11.1.2-1",
+      "qemu-system-tricore=11.1.2-1",
+      "qemu-system-x86=11.1.2-1",
+      "qemu-system-xtensa=11.1.2-1",
+      "qemu-user=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-full",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "0fd36c20766a9ecb7c3e64588da9f5884e8fa0ceb566688d3b30f67b15f16dff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-full-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "0cf846b94e645f0a226d58aedfd921a58ab53387775b5f35252e246fecd478ae",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-full-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "qemu=11.1.1"
+      "qemu=11.1.2"
     ],
     "depends": [
-      "qemu-audio-alsa=11.1.1-4",
-      "qemu-audio-dbus=11.1.1-4",
-      "qemu-audio-jack=11.1.1-4",
-      "qemu-audio-oss=11.1.1-4",
-      "qemu-audio-pa=11.1.1-4",
-      "qemu-audio-sdl=11.1.1-4",
-      "qemu-audio-spice=11.1.1-4",
-      "qemu-block-iscsi=11.1.1-4",
-      "qemu-chardev-baum=11.1.1-4",
-      "qemu-desktop=11.1.1-4",
-      "qemu-docs=11.1.1-4",
-      "qemu-emulators-full=11.1.1-4",
-      "qemu-hw-s390x-virtio-gpu-ccw=11.1.1-4",
-      "qemu-pr-helper=11.1.1-4",
-      "qemu-tests=11.1.1-4",
-      "qemu-tools=11.1.1-4",
-      "qemu-user=11.1.1-4",
-      "qemu-vmsr-helper=11.1.1-4"
+      "qemu-audio-alsa=11.1.2-1",
+      "qemu-audio-dbus=11.1.2-1",
+      "qemu-audio-jack=11.1.2-1",
+      "qemu-audio-oss=11.1.2-1",
+      "qemu-audio-pa=11.1.2-1",
+      "qemu-audio-sdl=11.1.2-1",
+      "qemu-audio-spice=11.1.2-1",
+      "qemu-block-iscsi=11.1.2-1",
+      "qemu-chardev-baum=11.1.2-1",
+      "qemu-desktop=11.1.2-1",
+      "qemu-docs=11.1.2-1",
+      "qemu-emulators-full=11.1.2-1",
+      "qemu-hw-s390x-virtio-gpu-ccw=11.1.2-1",
+      "qemu-pr-helper=11.1.2-1",
+      "qemu-tests=11.1.2-1",
+      "qemu-tools=11.1.2-1",
+      "qemu-user=11.1.2-1",
+      "qemu-vmsr-helper=11.1.2-1"
     ],
     "optdepends": [
       "qemu-user-static: for static user mode emulation of QEMU targets",
@@ -98525,10 +98644,10 @@
   },
   {
     "name": "qemu-guest-agent",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "e57c7b233fbf051b14703f7902ecd1c08adfc06b71579f8ce96d904c72e8c197",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-guest-agent-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "85293bb8ad83bc16e10d50aafa15e31c16c687936448aab2b28f6006df98871b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-guest-agent-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -98621,18 +98740,18 @@
   },
   {
     "name": "qemu-hw-display-qxl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "1ce0de31d3c1566f0f5fdd5279f512706c4e0fab5e6c30b6dda1c805f77a1a12",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-qxl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "758f3f726b3668b88c7f2c3b77cc7ed72e78638c2bc89592449f2198ff45457e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-qxl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
-      "qemu-ui-spice-core=11.1.1-4",
+      "qemu-common=11.1.2-1",
+      "qemu-ui-spice-core=11.1.2-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -98641,31 +98760,31 @@
   },
   {
     "name": "qemu-hw-display-virtio-gpu",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "a5d7ee2b76571737667d6849c11f2571a688f9d9b95d7f3f2f9a43feea8f4ed4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "e978bc9d9300b75ba2e6d47ca6069a9109638e9597a92df8cf3454f6d79ba27a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-gl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "554b43b10643b29c69b4f72599b67c155de68982cb29220d4a2bc675ea925a52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-gl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "085062a26a972a2282916b38c107f91cf18f5f28a2fb981f89c2da25194efd6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-gl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "virglrenderer"
     ],
     "optdepends": [],
@@ -98673,56 +98792,56 @@
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "fb2cfaa30a2fc238eb0e73870ff4aba70876c3231951ec371c791700981f9bab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "32001ee8ea55189a9ee78fbdf833b4bc75d1e80ab5b3925907e07ad7cf339542",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci-gl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "551459b598c959d000f6261020c9be8be638a9808b3f60bacc0945e51e13c40f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-gl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "2071b859192b9e290caf61674b95c3ecbac810b9d36b2fb46489293b8e9120f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-gl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-pci-rutabaga",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "0bf6f7c9011f79f13ad0f984f011d25630e260a5e2bdf11fd334694b92a9e7c7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-rutabaga-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "70143136c3ec6dc6a325c3e4c204e16b17f0a4f6f192ca9d29bf67f437ab2e97",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-pci-rutabaga-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-gpu-rutabaga",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "b0e892ba22f865351d95406428a2bc433f6f9d1b5cd0bdfaf6bb446c33ee6368",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-rutabaga-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "04ab5ea4d43b74dcb04521ae580aa18f6b4ecb10143689879516674e700ac400",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-gpu-rutabaga-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rutabaga-ffi"
     ],
     "optdepends": [],
@@ -98730,99 +98849,99 @@
   },
   {
     "name": "qemu-hw-display-virtio-vga",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "72571988acc92020316d86758c4cc45892bb6c3799ee3b18c8ef3c87cea143b7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "58f37ee974e5ff4e5490a988a368d272f4cba626d5afe1f8c66f9f29ed5a880e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-vga-gl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "578535da446f63c917eb5f61c8bf371bb8b9f3c606ed1c8554074b732dcba924",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-gl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "406972f7de2b45657cac172917272d4ced52784bc7b24ddf1cfa810eb590f402",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-gl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-display-virtio-vga-rutabaga",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "a3f08825dea172f3739ce43ee0637fd3df3d9043c72cdc535779be7dffd6e6da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-rutabaga-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "0d9076fdfc5558c180454287551b1da48ca495c4666c342e134c5977be2d938b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-display-virtio-vga-rutabaga-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-s390x-virtio-gpu-ccw",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "d7210d861783f245d52bc24ea2778cd2d4c2c91fb84c2a64c6ba97012dbf32be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-s390x-virtio-gpu-ccw-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "0a8110a05d0495163f2a33eff6b03a221ad3157e57540d962b5acddb8c9012b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-s390x-virtio-gpu-ccw-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-uefi-vars",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "880a3c91ff0bcbefc4ed110e45553aba3f22753935bbf3ead5e41760611aa940",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-uefi-vars-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "dc879ef59ff9be43b0a6fe04c6a5770eb5c35dcf977c7532fc5ef96c80157ed6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-uefi-vars-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "gnutls",
       "libgcc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-usb-host",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "35782fb78e01b637e1e14df342f4a4155fd0a534e44987a12448968ab9ec07f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-host-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "fdedd845c7605e6277a0c13b37df48763bf6784edf3384d343cb2902168b5abb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-host-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libusb",
       "libusb-1.0.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-hw-usb-redirect",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "85027024a8c2d9bb5f891eda0e302498b4a4eee2ce5dfd288616273e7d114079",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-redirect-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "29bcbde33680f2ed0e320e199e9ee93cee14408e85b2b1ff9f950a4fdd26e6e6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-redirect-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libgcc",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "usbredir"
     ],
     "optdepends": [],
@@ -98830,10 +98949,10 @@
   },
   {
     "name": "qemu-hw-usb-smartcard",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "0c55f4a618a9ea71bef88f4f4075b8a6f1cb5939f98d14a77214fd88110d04ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-smartcard-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "2134529124f5423fb4384fd824574525582fb88d00636ea5372375754f51dd10",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-hw-usb-smartcard-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcacard",
@@ -98841,17 +98960,17 @@
       "libgcc",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-img",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "d214ea0121c317c469ac1888fc36a4d3e9462fb28e82f8c647eb0a098ef05d6a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-img-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "44ccb07f37f9c6cdf7b8ce58797aa22da0cd93d89297c521c526c14a0eef8d99",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-img-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse3",
@@ -98877,10 +98996,10 @@
   },
   {
     "name": "qemu-pr-helper",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "a6b340d7a39920a5ca37a12d930f95284d3be845e5aab609b8bed943b0d820f2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-pr-helper-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "86935a5db60d3f4cc952b39dc41ec83861d2665da7264634c49e322eede7b145",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-pr-helper-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -98898,7 +99017,7 @@
       "libnuma.so=1-64",
       "pam",
       "libpam.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "libudev"
     ],
     "optdepends": [],
@@ -98906,10 +99025,10 @@
   },
   {
     "name": "qemu-system-aarch64",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "15336befc4794d3e845395212f16fb33c57182b2a1beebcff41537704e7db541",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-aarch64-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "2fe4464967e298160de9d64c5bbe753a7c1ebdb44fc654f8d91cc968fc9c71fa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-aarch64-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -98946,7 +99065,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -98962,10 +99081,10 @@
   },
   {
     "name": "qemu-system-alpha",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "aa8dab0c9c7eb1a9ecbd851d2537aae24522fc75443bb9d08609e61323a51d41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "b70492655b19d98373772c82e51bae14aee5889a91eda8e1b1ca8f65ea0d7bcd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99002,14 +99121,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-alpha-firmware=11.1.1-4",
+      "qemu-system-alpha-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99018,10 +99137,10 @@
   },
   {
     "name": "qemu-system-alpha-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "48fea1d2c03ecce709f2401bb75edb038f7d672691b09f810c442c1d38b1be47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "84c4f9d2a1b54a663fbbfa0ba5b7d34683a3e772f4cb5e7591332e7b8cc1d510",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-alpha-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99029,10 +99148,10 @@
   },
   {
     "name": "qemu-system-arm",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "017fca43963d8f988cb7b3f7ce1245461ac14291cd9de3d81257ce494a47bc4a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "a7e286ffbf1a9ded2b7af63722c064b6ac4243e25fe0a5f8fbcfcbe59e6241e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99069,7 +99188,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99077,7 +99196,7 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-arm-firmware=11.1.1-4",
+      "qemu-system-arm-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99086,10 +99205,10 @@
   },
   {
     "name": "qemu-system-arm-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "d36e13abc9781bf375ae80bceb4ed4e5e30ecc601db67b4f8158a1f962e5b519",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "3ae8ccf5d9aba435f100798b71c1f827079b6bfb127484712d51880741699ea8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-arm-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99099,10 +99218,10 @@
   },
   {
     "name": "qemu-system-avr",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "1495a8750f16b80b20cef4e0c527fc967cb90a18a99d16f36de0b183db46b7f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-avr-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "cb48160dd5e9bc088a4f493b8e1712e72a47a7b56b7bd1b69f74cc32e61907c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-avr-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99139,7 +99258,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99152,10 +99271,10 @@
   },
   {
     "name": "qemu-system-hexagon",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "7d7babd2faa7b7fc5c4eb64dd5b672a0412800bb097972e0409b6a0e86b864a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hexagon-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "938c1208892da4d31afcf2f12df5898a7a833cb701e79e46ffc0ef465353d60f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hexagon-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99192,7 +99311,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99206,10 +99325,10 @@
   },
   {
     "name": "qemu-system-hppa",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "8284602663d0cd93af1c7c847dcec7cfdc19ca910da740b9a7c7a922c02ddacd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "06b092e8187d3ddf7dde99f9e1f62461cb30bbdbbaf6de8549640b7dbb9cbb74",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99246,14 +99365,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-hppa-firmware=11.1.1-4",
+      "qemu-system-hppa-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99262,10 +99381,10 @@
   },
   {
     "name": "qemu-system-hppa-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "c8c049b3e39b5f2e6943f60254a8b04a22a5b61fd368ff7e05d82b714a31d0c5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "5902cc3a65ffc30092a5590a666eb47cad4d9456fd66c4b5fb254da91a3c6ed5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-hppa-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99273,10 +99392,10 @@
   },
   {
     "name": "qemu-system-loongarch64",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "da76acf0e80b1ff5dae7e10646c41e4fd6265e25ff21fecafb4ceebe670c22a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-loongarch64-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "c9989d3eb6abf0928af02ddc505bf26773165e6f1412c8aeb101889d892827fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-loongarch64-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99313,7 +99432,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99328,10 +99447,10 @@
   },
   {
     "name": "qemu-system-m68k",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "1ad121d9ceb8a80dc9e7b0cc8f22413fa4dcd82198d0af84d0bfcba96e28f96a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-m68k-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "369920975b724fe80d0f2c105914aafc0455b10ae8145a8c4700331792a84f1e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-m68k-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99368,7 +99487,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99381,10 +99500,10 @@
   },
   {
     "name": "qemu-system-microblaze",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "5f5c7ec57e3b04c1ae6788a5bc321356c60662f0cdae0df77abed269ff1500aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "651a903b0da4206ea4d03da8986d16cbf46fdc10faf964ce094fccbdeec1ab1b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99421,7 +99540,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99429,17 +99548,17 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-microblaze-firmware=11.1.1-4"
+      "qemu-system-microblaze-firmware=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-system-microblaze-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "d1c86898e43037e12ae2a7834f99e5369d310463a1034338b9395587a1b68e6e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "974378ac9de883d48c2c8bef42a8e0c28b14956d01fd483ae86213931e4ad6f6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-microblaze-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99447,10 +99566,10 @@
   },
   {
     "name": "qemu-system-mips",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "ec212a8ddd091c576f35fc897f10105cb1ab11267b6c6447633207fa9f639b3e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-mips-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f93ec8ddefe7806bfb95414ec98dab59b7079b66b34f09b44757d2a225016778",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-mips-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99487,7 +99606,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99503,10 +99622,10 @@
   },
   {
     "name": "qemu-system-or1k",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "3bd597252abf4a82138207d1428a6961266a27a40eadcf6a1e50349fcc1d7b37",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-or1k-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "d22b6e3d13017cbd0f8c68e6700a8e95140abb4daa4eadb8763c178928a7f448",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-or1k-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99543,7 +99662,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99558,10 +99677,10 @@
   },
   {
     "name": "qemu-system-ppc",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "a6219db207246a597e42834817e052430409272a14fa87d316e54d686c97d40f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "7b75c752e17ffe0018e21146a1a635fe76dfcbb550c01ffe25e2447634756034",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99598,7 +99717,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99606,7 +99725,7 @@
       "zstd",
       "libzstd.so=1-64",
       "dtc",
-      "qemu-system-ppc-firmware=11.1.1-4",
+      "qemu-system-ppc-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99615,10 +99734,10 @@
   },
   {
     "name": "qemu-system-ppc-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "32873167c5de4db0423cff3ee79468640e7dac142854a172a3c4039e408e9af5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "836d80c70b291bd43fe444a2070dd4c6480e6d963c4651d64abda953d07e9194",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-ppc-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99626,10 +99745,10 @@
   },
   {
     "name": "qemu-system-riscv",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "c0553373968c2a08a1c5e5e0d95916cce085034c13b126f4d9c3844ee8d3e160",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "55b0cd262f1fc5142a1a8997354ddbdd551adfd4f463268891328bc431abace8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99666,7 +99785,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99675,7 +99794,7 @@
       "libzstd.so=1-64",
       "dtc",
       "edk2-riscv64",
-      "qemu-system-riscv-firmware=11.1.1-4",
+      "qemu-system-riscv-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99684,10 +99803,10 @@
   },
   {
     "name": "qemu-system-riscv-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "96e0d0f13d81fd5b5ef9fa6092f7779b2fc8c274c423bf4e701124d9cb9ba931",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "9d022634488c36c26126a7a1746ee79d94178e39bcf0996bf86170bb7d0e7a9c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-riscv-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99695,10 +99814,10 @@
   },
   {
     "name": "qemu-system-rx",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "f9c14d9e04c4686289b8353dcf7b4933d45bd33e51db24468be4e515d8b7d2ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-rx-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "5c978d105b85c6e84eec045a46ef80fb04e784e50ac0714b3d6d2316f868c614",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-rx-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99735,7 +99854,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99749,10 +99868,10 @@
   },
   {
     "name": "qemu-system-s390x",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "010daa3d3e692b06d5b95f5b7fe78de1db7b6c3f96729af3013269c731933220",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "a2aa42989f9e378dbc4bde4cb384015de6706e77cd4fbcc875ca9b2cd3c94888",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99789,14 +99908,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-s390x-firmware=11.1.1-4",
+      "qemu-system-s390x-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99805,10 +99924,10 @@
   },
   {
     "name": "qemu-system-s390x-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "87a52c3199e4d1cb7d15142a915bfa0fc42c361efb52c4b46c2b5eba0a8e70fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "dd72628e8fb1f9264af99b5c93f90202579672a0e587807a3de34ac578ba4c46",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-s390x-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99816,10 +99935,10 @@
   },
   {
     "name": "qemu-system-sh4",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "d5edfdae9116e2f92f9214397d0bfafce0a42ef16ac056418f24d2fcf157760a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sh4-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f95d37f0db42d6df8fbecde2a730b4cc7891aaab32a757c3787dd172bd839e5b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sh4-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99856,7 +99975,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99871,10 +99990,10 @@
   },
   {
     "name": "qemu-system-sparc",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "8ae8359b37f93274ebde5c1f784e1129d76218208e724d02c42f120f97e7e1bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "df00914e87fac044bfeb81e1be9e81adbe0cdd28d3c084a4e585d4724f6cc2e8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99911,14 +100030,14 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
       "zlib",
       "zstd",
       "libzstd.so=1-64",
-      "qemu-system-sparc-firmware=11.1.1-4",
+      "qemu-system-sparc-firmware=11.1.2-1",
       "libudev",
       "libudev.so=1-64"
     ],
@@ -99927,10 +100046,10 @@
   },
   {
     "name": "qemu-system-sparc-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "ffadef14f0f493b47ac5471ee2106dbbf8cea952418c4a82b30fba9889210086",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "d1eaa303b9d12d67730bf39dc7b6c650398569568291b33960f520c7946c61ba",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-sparc-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -99938,10 +100057,10 @@
   },
   {
     "name": "qemu-system-tricore",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "cb79957bc08f232985da82be7dd614f61ae837a70cc2fb58dc937e36f4b214bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-tricore-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "858bd9a14c8f9ac081baa3e51071f69316ad86cbb9a7a65a9742bd91aa534b78",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-tricore-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -99978,7 +100097,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -99991,10 +100110,10 @@
   },
   {
     "name": "qemu-system-x86",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "1187337b7e1a7d636b59a577df92f2beb15fa383939a91c1216d218588ce7227",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "d7b4f0aa8eda8ae6005ba89fb2f8adb84f971c5b4d4f18221568d46abd77fdf4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -100031,7 +100150,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -100042,7 +100161,7 @@
       "edk2-ovmf",
       "libcbor",
       "libcbor.so=0.14-64",
-      "qemu-system-x86-firmware=11.1.1-4",
+      "qemu-system-x86-firmware=11.1.2-1",
       "seabios",
       "libudev",
       "libudev.so=1-64"
@@ -100052,10 +100171,10 @@
   },
   {
     "name": "qemu-system-x86-firmware",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "bedcc43f7d9ba4f9a25d3fbd180ecd7337c13aa94b31eb1ed7d6da413ff09138",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-firmware-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "dc7ac824a5c6d4112196cc20e13862a369a6b0f8d0717f0fc8a85ed5d49893f1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-x86-firmware-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -100063,10 +100182,10 @@
   },
   {
     "name": "qemu-system-xtensa",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "50a1dd8ac4e976e110bd8f3f411517d870b17785ebd2037c42a97a92c84e2e53",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-xtensa-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "2ba3a227b58b755333bb3188e5390e6b9c40eab91ed33067c23ce33e91c174c8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-system-xtensa-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -100103,7 +100222,7 @@
       "libpam.so=0-64",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "rdma-core",
       "snappy",
       "vde2",
@@ -100119,23 +100238,23 @@
   },
   {
     "name": "qemu-tests",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "70fd6381ae4ce7d945e7b7f0cfc4676436e4c1f1b3d0fa6a20e51845070acae3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tests-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "e565f7c966cffb42997a2f7dacfcc65aa1fc122fab316e5d66cf54687e892c17",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tests-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-tools",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "0c92d7658517ff728d76276f7dde6cfe2e31e8efd1d785d9dde4968ee9df96ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tools-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "05e7573e6d28b0e3bd7397c86f0ebc10b5176f4552e9bf6cb90669510ff87fbb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-tools-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -100148,17 +100267,17 @@
       "libxkbcommon",
       "libxkbcommon.so=0-64",
       "python",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-curses",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "65f988e044d8578182eb1ccf2e38e16a7e29e1737fb0ce2438bd06027796323b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-curses-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f8a59e3b65d077d6e1b1173e88fabb8695fe66e70631daaf994fd0c52b880efb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-curses-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -100167,17 +100286,17 @@
       "glibc",
       "ncurses",
       "libncursesw.so=6-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-dbus",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "ada7e0352daca67e0c2ce3702dccb8c7c38678db7cc794011125e4f6f747da9e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-dbus-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "5555dceee07e920bbaf794a7f5d3d238517d05aae88d0e887c9be03fe222d23a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-dbus-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -100189,34 +100308,34 @@
       "libepoxy",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-egl-headless",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "5c25b2f2abf5d03263dff6f96b93dbfb7d99d4f1efd5c9fff908b11df2ce70f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-egl-headless-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "abb7fa8adbd07f13cf0871b9cf50672b69a050ccec6f173bf4dbf8e6bab3d3d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-egl-headless-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
-      "qemu-ui-opengl=11.1.1-4"
+      "qemu-common=11.1.2-1",
+      "qemu-ui-opengl=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-gtk",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "81a7db357c5543667a0ecaf6b6f0b55fc767e9308748561745eff7ecd426af98",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-gtk-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "0bef46fcae39c4ad97e863d69881139daa27ff10b711e0268ff35f3b5834ff7a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-gtk-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -100234,7 +100353,7 @@
       "libx11",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "qemu-ui-opengl",
       "vte3",
       "libvte-2.91.so=0-64"
@@ -100244,10 +100363,10 @@
   },
   {
     "name": "qemu-ui-opengl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "2846aa34d1bdde48ff0518188199aff98fcfbb1568f1bc059cc5b844b82f8128",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-opengl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "ae3b4550e2fcc8b70ea8307f691130fa5fb628a795004a7c5a15628c0b7d5832",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-opengl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -100256,17 +100375,17 @@
       "mesa",
       "pixman",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-sdl",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "28daa2052c2ba7fae27936b818316c446ffa8694be688cc297cfba71b17e633b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-sdl-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "8904fba113ced281f31c6b006175f387299fb170b6376a199cef64917c359c1a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-sdl-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -100276,7 +100395,7 @@
       "pixman",
       "libepoxy",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "sdl2_image",
       "sdl2"
     ],
@@ -100285,37 +100404,37 @@
   },
   {
     "name": "qemu-ui-spice-app",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "2d2c91be691eb06912d25f033c65ab35da644cf96d709e304d1d5dc449a5717b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-app-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "21655a6dd8c39ae817510fa8735d2918df17dcb2e9ab90468132129b88a057d6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-app-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "libgio-2.0.so=0-64",
       "libglib-2.0.so=0-64",
       "glibc",
-      "qemu-common=11.1.1-4",
-      "qemu-chardev-spice=11.1.1-4",
-      "qemu-ui-spice-core=11.1.1-4"
+      "qemu-common=11.1.2-1",
+      "qemu-chardev-spice=11.1.2-1",
+      "qemu-ui-spice-core=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qemu-ui-spice-core",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "cddb90d00115fa0be5656b61aeed71ba24d24f796ef6269b9cf539b45617ee0a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-core-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "1aa64750250c428d7a8805bf65a376623506f79e20586348ec2f3ef279cae04b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-ui-spice-core-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "pixman",
       "libgcc",
       "libpixman-1.so=0-64",
-      "qemu-common=11.1.1-4",
-      "qemu-ui-opengl=11.1.1-4",
+      "qemu-common=11.1.2-1",
+      "qemu-ui-opengl=11.1.2-1",
       "spice",
       "libspice-server.so=1-64"
     ],
@@ -100324,10 +100443,10 @@
   },
   {
     "name": "qemu-user",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "23bb0241817470a191800a3c7c197de4bf96ac8cf8346a110922f21d4b308d8e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "002e68e76883b37c46a59326872d4f6b78599999468c27129370a443513b1c2f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "capstone",
@@ -100342,7 +100461,7 @@
       "liburing.so=2-64",
       "numactl",
       "libnuma.so=1-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "zlib"
     ],
     "optdepends": [
@@ -100352,15 +100471,15 @@
   },
   {
     "name": "qemu-user-binfmt",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "57ce2e2f151b7bb43b6e742af986229d5a6790dfb5eeb0927cc2cb1fe3b10e41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-binfmt-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "d0bea96149dfd2938b17270a1b8a2aebf7832137e76928114c6667fdd012939b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-binfmt-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "qemu-user-binfmt-provider"
     ],
     "depends": [
-      "qemu-user=11.1.1-4"
+      "qemu-user=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": [
@@ -100369,10 +100488,10 @@
   },
   {
     "name": "qemu-user-static",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "b2c32c9ce0611df5397d6064d10421b5a4dee80f708beb2ef61399eecba14212",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "0c29de01e16fe7043de74fd33974d0ae04050983ee5a40190ef5a4ffaedb75fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -100382,15 +100501,15 @@
   },
   {
     "name": "qemu-user-static-binfmt",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "cb4f39c46f615a16c1d988485ae6598f2ff405dad98f48ab20aa1d299f6e2030",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-binfmt-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "db67315920613db6b4e3ebf3f1370a50afa40b8c1f592cb1e61b1faab7d716e7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-user-static-binfmt-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "qemu-user-binfmt-provider"
     ],
     "depends": [
-      "qemu-user-static=11.1.1-4"
+      "qemu-user-static=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": [
@@ -100399,10 +100518,10 @@
   },
   {
     "name": "qemu-vhost-user-gpu",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "3fe7f714018ccad526667e7c8355a98c94b1add264de0f0ba765c9a4fce675a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vhost-user-gpu-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "9c95aa41940eecadc289636f9561773708fc3cb8b8948c45f0e9729ccb9dce68",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vhost-user-gpu-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -100416,7 +100535,7 @@
       "mesa",
       "numactl",
       "libnuma.so=1-64",
-      "qemu-common=11.1.1-4",
+      "qemu-common=11.1.2-1",
       "virglrenderer"
     ],
     "optdepends": [],
@@ -100424,10 +100543,10 @@
   },
   {
     "name": "qemu-vmsr-helper",
-    "version": "11.1.1-4",
+    "version": "11.1.2-1",
     "origin": "artix-world",
-    "sha256": "b5882aea280418a2bda150f6862848544141c4461ae4abe3e7918ed728311c61",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vmsr-helper-11.1.1-4-x86_64.pkg.tar.zst",
+    "sha256": "65be8277452411979275bd350a387bd8e853e549c7c50b2140e338885a40eb5d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qemu-vmsr-helper-11.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -100444,7 +100563,7 @@
       "libnuma.so=1-64",
       "pam",
       "libpam.so=0-64",
-      "qemu-common=11.1.1-4"
+      "qemu-common=11.1.2-1"
     ],
     "optdepends": [],
     "conflicts": []
@@ -109714,16 +109833,15 @@
   },
   {
     "name": "rygel",
-    "version": "1:45.2-1",
+    "version": "1:46.0-1",
     "origin": "artix-world",
-    "sha256": "8ceb844d9b33977b8411754863c80c899cb1b45723d7960f6bce6bae0de90993",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rygel-1:45.2-1-x86_64.pkg.tar.zst",
+    "sha256": "241ffea94b1e081a96eace1048a80dd5095a86735805a2f7f446bafeb4ab3a26",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rygel-1:46.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "librygel-core-2.8.so=0-64",
       "librygel-db-2.8.so=0-64",
       "librygel-renderer-2.8.so=0-64",
       "librygel-renderer-gst-2.8.so=0-64",
-      "librygel-ruih-2.8.so=0-64",
       "librygel-server-2.8.so=0-64"
     ],
     "depends": [
@@ -111786,10 +111904,10 @@
   },
   {
     "name": "snapshot",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "30c6b52215572c148852cf96561fc1a0b2ce4a417a9d645abefcff4fd6a857d3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/snapshot-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "90e5e3fabfa05cc2c2cf602224e817c8ecd608208568d235d4e7650fc3577a51",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/snapshot-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -113953,33 +114071,31 @@
   },
   {
     "name": "sushi",
-    "version": "50.0-1",
+    "version": "51.1-1",
     "origin": "artix-world",
-    "sha256": "5013dc4e7b645ab345577559d31965ebf4251d0a5c7c8966a092d23db11de53f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sushi-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "00b24c1924bf7f855c354e865aea85751c1dc2739cce5a370feeb2eb78ad9ef9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sushi-51.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
-      "evince",
       "freetype2",
-      "gdk-pixbuf2",
+      "fribidi",
       "gjs",
       "glib2",
       "glibc",
-      "gst-plugin-gtk",
+      "glycin-gtk4",
       "gst-plugins-base-libs",
       "gstreamer",
-      "gtk3",
-      "gtksourceview4",
+      "gtk4",
       "harfbuzz",
-      "libepoxy",
       "libgcc",
-      "libsoup3",
-      "pango"
+      "libx11",
+      "pango",
+      "papers"
     ],
     "optdepends": [
       "libreoffice: OpenDocument formats",
-      "webkit2gtk-4.1: Render HTML files"
+      "webkitgtk-6.0: Render HTML files"
     ],
     "conflicts": []
   },
@@ -114811,10 +114927,10 @@
   },
   {
     "name": "sysprof",
-    "version": "50.0-6",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "1f07218e8b74fa063ce63998f312a8dcbec5ede4723460b459d5b5803216ec2b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sysprof-50.0-6-x86_64.pkg.tar.zst",
+    "sha256": "9687702c3b85783f2264b615a0f7f1ac1c3416173fba2af3be215b52d7563925",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sysprof-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -115226,10 +115342,10 @@
   },
   {
     "name": "tecla",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "6bba7423a3c8b0b59a8d4f40def7cc97f4fe0aefeeee4132f8c2aa79467f4832",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tecla-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6423bc0dbce39f0cab57766c0b0b9232ea8e54851337a4337a9a01d7745145e0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tecla-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -123376,12 +123492,12 @@
   },
   {
     "name": "tinysparql",
-    "version": "3.11.1-1",
+    "version": "3.12.0-1",
     "origin": "artix-world",
-    "sha256": "e9a518b9bf520b0ec3c675a0b9c17f2c17dd05959307911d062c3618fd13f60d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tinysparql-3.11.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d211017aecfaf49eafee8353a94bf50d26540e2e23faa3992ad4afabf4c30f12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tinysparql-3.12.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "tracker3=3.11.1",
+      "tracker3=3.12.0",
       "libtinysparql-3.0.so=0-64"
     ],
     "depends": [
@@ -123905,10 +124021,10 @@
   },
   {
     "name": "totem",
-    "version": "43.2-6",
+    "version": "43.2-7",
     "origin": "artix-world",
-    "sha256": "06db308b228ce3e486e9f5b86ccedc2a2d662fc21f341205fcc69c969f461263",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/totem-43.2-6-x86_64.pkg.tar.zst",
+    "sha256": "1859df8a767a17b755b325665300a9792b7c2c393222b68e1b09300e095f1e56",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/totem-43.2-7-x86_64.pkg.tar.zst",
     "provides": [
       "libtotem.so=0-64"
     ],
@@ -130579,10 +130695,10 @@
   },
   {
     "name": "webkit2gtk-4.1",
-    "version": "2.52.6-1",
+    "version": "2.54.1-1",
     "origin": "artix-world",
-    "sha256": "948400abe1626608703145e0a1ff5d652f9ff910e3cc7726bfad715ac2850382",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/webkit2gtk-4.1-2.52.6-1-x86_64.pkg.tar.zst",
+    "sha256": "b5f4ed4023a3e44e6cbd54740d55e74ea42058419996ab1f12c5cd71549c11ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/webkit2gtk-4.1-2.54.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libjavascriptcoregtk-4.1.so=0-64",
       "libwebkit2gtk-4.1.so=0-64"
@@ -130650,10 +130766,10 @@
   },
   {
     "name": "webkitgtk-6.0",
-    "version": "2.52.6-1",
+    "version": "2.54.1-1",
     "origin": "artix-world",
-    "sha256": "7ac3209f54fdab5514b92422a68c9b05860866b8cc2f1d7c48a33eaa6b965af1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/webkitgtk-6.0-2.52.6-1-x86_64.pkg.tar.zst",
+    "sha256": "7b914e78a74ae7be0da6719c9ebc2e8049f91cbbe74b58ebcd7314a9f4c8372f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/webkitgtk-6.0-2.54.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libjavascriptcoregtk-6.0.so=1-64",
       "libwebkitgtk-6.0.so=4-64"
@@ -131613,10 +131729,10 @@
   },
   {
     "name": "wpewebkit",
-    "version": "2.52.6-1",
+    "version": "2.54.1-2",
     "origin": "artix-world",
-    "sha256": "482737012578c60f2c159ae71d87ed74d7a0b74523c6c198f3e994e0efd3fddd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wpewebkit-2.52.6-1-x86_64.pkg.tar.zst",
+    "sha256": "7ae3abdb5c9ac1b336b1639a63fd9899aad78130488e4d60f2b7f40d7305f13e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wpewebkit-2.54.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libWPEWebKit-2.0.so=1-64"
     ],
@@ -131625,6 +131741,7 @@
       "atk",
       "bubblewrap",
       "cairo",
+      "enchant",
       "expat",
       "fontconfig",
       "freetype2",
@@ -131653,7 +131770,6 @@
       "libstdc++",
       "libtasn1",
       "libwebp",
-      "libwpe",
       "libxkbcommon",
       "libxml2",
       "libxslt",
@@ -131663,11 +131779,8 @@
       "ttf-font",
       "wayland",
       "woff2",
-      "wpebackend-fdo",
       "xdg-dbus-proxy",
-      "zlib",
-      "libWPEBackend-fdo-1.0.so=1-64",
-      "libwpe-1.0.so=1-64"
+      "zlib"
     ],
     "optdepends": [
       "geoclue: Geolocation support",
@@ -132253,10 +132366,10 @@
   },
   {
     "name": "xdg-desktop-portal-gnome",
-    "version": "50.0-1",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "a0886020a484c0d00fb46b2ecb07ecb8313caef2f07dc376418aed740bcbee4e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-gnome-50.0-1-x86_64.pkg.tar.zst",
+    "sha256": "62989499950d251f46bfbe81be9f9e5251f0ae7e22882ff30b2983e50788e7ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-gnome-51.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "xdg-desktop-portal-impl"
     ],
@@ -134479,10 +134592,10 @@
   },
   {
     "name": "xorgproto",
-    "version": "2025.1-1",
+    "version": "2026.1-1",
     "origin": "artix-world",
-    "sha256": "5304ad765648ded2b7b52344803917f2cb55431b55e943a49db9c864d52b7110",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorgproto-2025.1-1-any.pkg.tar.zst",
+    "sha256": "35d56c17cb7970c13b74dd7d18d0c372ea3f1aefb6e43922dedd342310a835a0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorgproto-2026.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
