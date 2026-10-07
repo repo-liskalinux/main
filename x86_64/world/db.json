@@ -338,10 +338,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-392",
+    "version": "1.2.2-393",
     "origin": "artix-world",
-    "sha256": "f4efc878e132df7a133867fc338c4fcccbd9b9ef8a299fc4125d6767ec96a673",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-392-x86_64.pkg.tar.zst",
+    "sha256": "b3f0f212a9710c38c5797311561c88e0cc392afafb729a3d21eee3649104a878",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-393-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4805,10 +4805,10 @@
   },
   {
     "name": "bbswitch",
-    "version": "0.8-854.4",
+    "version": "0.8-855",
     "origin": "artix-world",
-    "sha256": "0cb3f22db6cef48c8be711e984a2cb3f105ff67c5ec503b9ca634274a7757e5a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-854.4-x86_64.pkg.tar.zst",
+    "sha256": "9ca7b0dc6824483caa4a1962d76d273e77f8bb448cef1b257a8fa7401fd2e2fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-855-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -4818,10 +4818,10 @@
   },
   {
     "name": "bbswitch-dkms",
-    "version": "0.8-854.4",
+    "version": "0.8-855",
     "origin": "artix-world",
-    "sha256": "a94e43122feb582cf6a319718a86b6b22682058a3b2da7ae6cf627afcd35096d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-854.4-x86_64.pkg.tar.zst",
+    "sha256": "3c099421f16b095b3381c3b2b7548bae01356228275ca8da64c63e1f0b0bf896",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-855-x86_64.pkg.tar.zst",
     "provides": [
       "bbswitch"
     ],
@@ -6633,10 +6633,10 @@
   },
   {
     "name": "broadcom-wl",
-    "version": "6.30.223.271-722",
+    "version": "6.30.223.271-724.1",
     "origin": "artix-world",
-    "sha256": "6dae60ddd97cc0de3cdbe37347d48ea068535aceedb1ed63d805004ee5a3eef3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/broadcom-wl-6.30.223.271-722-x86_64.pkg.tar.zst",
+    "sha256": "b0b0a8858e3633102d4c75b2485fddf007cf99ea638fccea5266a64155302769",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/broadcom-wl-6.30.223.271-724.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -11626,10 +11626,10 @@
   },
   {
     "name": "dkms",
-    "version": "3.4.3-2",
+    "version": "3.4.4-1",
     "origin": "artix-world",
-    "sha256": "bf8d0a125229f97589a5c35310efaf31aae98ae59ece3ced831fcfa19d84f5b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dkms-3.4.3-2-any.pkg.tar.zst",
+    "sha256": "848ee576cbaa9c009f50071d0daa31ae9c065f74143f1f59c0e0b633c92ebddc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dkms-3.4.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -15892,10 +15892,10 @@
   },
   {
     "name": "fast_float",
-    "version": "8.3.0-1",
+    "version": "8.3.1-1",
     "origin": "artix-world",
-    "sha256": "11ebee96c6ebf2ded7b9685b1a252f81dfac7ac711f62adb877674808822bb06",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fast_float-8.3.0-1-any.pkg.tar.zst",
+    "sha256": "89749959d12bb8891c360de01f84d789b5947a11ec6ec3641b92c33c04f39f08",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fast_float-8.3.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -48538,10 +48538,10 @@
   },
   {
     "name": "libprocps",
-    "version": "3.3.17-4",
+    "version": "3.3.17-5",
     "origin": "artix-world",
-    "sha256": "d70eb1b934f50bcc52e799ada25a1d1e8c43fded8c9e86ad76ca5691077d9268",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libprocps-3.3.17-4-x86_64.pkg.tar.zst",
+    "sha256": "5435c8790d41643d0bbd1a475fbbfe811b4aaab6c09a0ff88e98519b16e880a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libprocps-3.3.17-5-x86_64.pkg.tar.zst",
     "provides": [
       "libprocps.so=8-64"
     ],
@@ -49608,12 +49608,16 @@
   },
   {
     "name": "libsquish",
-    "version": "1.15-8",
+    "version": "1.15-9",
     "origin": "artix-world",
-    "sha256": "29e9b6d4b36af03797346c3d33699bb7287ff9023299ac8c89ba46cce2eb7da7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsquish-1.15-8-x86_64.pkg.tar.zst",
+    "sha256": "6b5e76396666966282fe5d8c0d1b5f39edbad0075e7e20e0f5ab03e77af1969a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsquish-1.15-9-x86_64.pkg.tar.zst",
     "provides": [],
-    "depends": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libstdc++"
+    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -61063,10 +61067,10 @@
   },
   {
     "name": "nvidia-580xx",
-    "version": "580.178.04-8",
+    "version": "580.178.04-9",
     "origin": "artix-world",
-    "sha256": "5044b603c1316dcc2981a379576619fd17ac90b17b87c27f86bbdef556d0f328",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.178.04-8-x86_64.pkg.tar.zst",
+    "sha256": "2d0f900b998f8550f25f8614561f6bbe5e6001d1dd5c2019af9494b1852e04bc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.178.04-9-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE",
       "nvidia",
@@ -61159,10 +61163,10 @@
   },
   {
     "name": "nvidia-open",
-    "version": "615.71.09-6",
+    "version": "615.71.09-7",
     "origin": "artix-world",
-    "sha256": "9d6cb4fa1cca26e57a7c6c23300d3b573058631bae5f7577dcb1f68ec73a220f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.71.09-6-x86_64.pkg.tar.zst",
+    "sha256": "9edca61e8452a5ba2965bcb8441e8bcc746a1304810254f283c7874826f06211",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.71.09-7-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
@@ -63608,10 +63612,10 @@
   },
   {
     "name": "openvpn",
-    "version": "2.7.7-1",
+    "version": "2.7.8-1",
     "origin": "artix-world",
-    "sha256": "75c59b1f2370e1e8395caf416ba67e06b04a7ea4a3861a276c334df98ef35a5e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openvpn-2.7.7-1-x86_64.pkg.tar.zst",
+    "sha256": "cf7d816fbf6534dc964173555976f5684a35ec5a8fc5cbe47257b74d8f08e6bf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openvpn-2.7.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcap-ng",
@@ -65329,10 +65333,10 @@
   },
   {
     "name": "perl-alien-build",
-    "version": "2.84-5",
+    "version": "2.88-1",
     "origin": "artix-world",
-    "sha256": "b166956531f7ecfa0ae5b2e44249697fbff63bab83118a8db70e1f04a610b1f2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-alien-build-2.84-5-any.pkg.tar.zst",
+    "sha256": "c4952b558d9ee259d0373a127e397b257eacbf2cae6bf7f5a215f26ea4d41217",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-alien-build-2.88-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-capture-tiny",
@@ -65722,10 +65726,10 @@
   },
   {
     "name": "perl-clone",
-    "version": "0.50-1",
+    "version": "0.51-1",
     "origin": "artix-world",
-    "sha256": "8ff031a8dee39bc93d97c7fe6dd4e00734bec4c2f8d472505760497c27283b44",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-clone-0.50-1-x86_64.pkg.tar.zst",
+    "sha256": "3099e45b31148d2a75bcbdaba212e72a03fd06ba777994fb655dff3e49d2c26c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-clone-0.51-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -65984,13 +65988,13 @@
   },
   {
     "name": "perl-data-optlist",
-    "version": "0.114-7",
+    "version": "0.115-1",
     "origin": "artix-world",
-    "sha256": "29c76a342967f37af8131d0e5269490486026d0c3f9b4df892156906acdac509",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-data-optlist-0.114-7-any.pkg.tar.zst",
+    "sha256": "05304708d300102e611656ca5c3dfa814247b645925619ae95e8ae8f54915953",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-data-optlist-0.115-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "perl-params-util",
+      "perl-params-someutil",
       "perl-scalar-list-utils",
       "perl-sub-install"
     ],
@@ -66066,10 +66070,10 @@
   },
   {
     "name": "perl-datetime-timezone",
-    "version": "2.69-1",
+    "version": "2.71-1",
     "origin": "artix-world",
-    "sha256": "6523ba304012608cbb81b4f7cdc7c1a23f1e0c74c1f52e40606ec2a50cebbea1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-datetime-timezone-2.69-1-any.pkg.tar.zst",
+    "sha256": "6314d362536b3af10ffe6844d8ab1370df4bf60a7e47da0ed6f1d6a7f04dfced",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-datetime-timezone-2.71-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-class-singleton>=1.03",
@@ -66096,10 +66100,10 @@
   },
   {
     "name": "perl-dbi",
-    "version": "1.653-1",
+    "version": "1.655-1",
     "origin": "artix-world",
-    "sha256": "14ed7143ac3f49e50d98bf8b3675455bc9f73b348ea1aa71d5792faf0d641c35",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-dbi-1.653-1-x86_64.pkg.tar.zst",
+    "sha256": "22d7e81ebcbb8929f8e0079ebedf68cbfd57e41611fa8c5f3290390ea7b2ac60",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-dbi-1.655-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -66815,10 +66819,10 @@
   },
   {
     "name": "perl-html-parser",
-    "version": "3.85-1",
+    "version": "3.86-1",
     "origin": "artix-world",
-    "sha256": "0c1f19367b062ebea2b4f71b3f915c074e1cc59ffbf1fdb967e59db4fdefc50e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-html-parser-3.85-1-x86_64.pkg.tar.zst",
+    "sha256": "59e1dab598d519299979b9e15cb174c22baf1511142930a04b0ac1d89744b755",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-html-parser-3.86-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-html-tagset",
@@ -67841,10 +67845,10 @@
   },
   {
     "name": "perl-moose",
-    "version": "2.4000-1",
+    "version": "2.4001-1",
     "origin": "artix-world",
-    "sha256": "ca914e48bc15b3ecd3b02eaabff413fc36de4021cfd7744591a0f86c91d2f8d3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-moose-2.4000-1-x86_64.pkg.tar.zst",
+    "sha256": "38fbf5a0b3b1139d495df5d8f29b51666366c238333d1fdc2e9853fbd762958d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-moose-2.4001-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -67982,10 +67986,10 @@
   },
   {
     "name": "perl-net-dns-sec",
-    "version": "1.27-1",
+    "version": "1.28-1",
     "origin": "artix-world",
-    "sha256": "d6fc82ed80940c319b7cb74a11349de6937ea3c14525d3e797d0d19bf5594531",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-net-dns-sec-1.27-1-x86_64.pkg.tar.zst",
+    "sha256": "a5abd4609b67d094545d971fdeb2f6b869a66612b4f9998970d42ca03f41ff62",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-net-dns-sec-1.28-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-crypt-openssl-bignum",
@@ -68193,10 +68197,10 @@
   },
   {
     "name": "perl-params-someutil",
-    "version": "1.11-1",
+    "version": "1.12-1",
     "origin": "artix-world",
-    "sha256": "80ccb800292bd836434b748ed6df8cff937e95c88668deb41f5f24c2cd1d15c5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-params-someutil-1.11-1-x86_64.pkg.tar.zst",
+    "sha256": "0ffbb63dd5939100520a799b728699067dfbf295521aea13cc4c81763c724091",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-params-someutil-1.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -69130,10 +69134,10 @@
   },
   {
     "name": "perl-test-fatal",
-    "version": "0.018-2",
+    "version": "0.019-1",
     "origin": "artix-world",
-    "sha256": "32f441384fd02c933d3dda3b7e766f0e0c124d95ed6d35955bd95001b17dccc3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-test-fatal-0.018-2-any.pkg.tar.zst",
+    "sha256": "749126f3b4753a52d2e231146611f299ac5363030de358fb5a19daddbe46c5d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-test-fatal-0.019-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -69482,10 +69486,10 @@
   },
   {
     "name": "perl-text-diff",
-    "version": "1.45-3",
+    "version": "1.46-1",
     "origin": "artix-world",
-    "sha256": "1e35e92682e83372639d0afaaf4ca5fcc7e0ebf8a80406dd28da11d53b8ff1f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-text-diff-1.45-3-any.pkg.tar.zst",
+    "sha256": "e340bf7b1b93e338622d17c6589d79c367cfad7b2d27d16b0daf8c5094811dfe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-text-diff-1.46-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-algorithm-diff>=1.1900"
@@ -102935,10 +102939,10 @@
   },
   {
     "name": "recode",
-    "version": "3.7.16-1",
+    "version": "3.7.17-1",
     "origin": "artix-world",
-    "sha256": "852f3dad34bb0de9a9a5944bc525b9328f1575444c47ddaf6c7ff0914f67721e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/recode-3.7.16-1-x86_64.pkg.tar.zst",
+    "sha256": "c3a2692e1abd00198e8f8cec18662b14a3e5858d9625c1fbf3ec361b3d5b642a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/recode-3.7.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -104274,10 +104278,10 @@
   },
   {
     "name": "rsync",
-    "version": "3.5.1-1",
+    "version": "3.5.1-2",
     "origin": "artix-world",
-    "sha256": "21cbbebecb88b986f876901a02e0778a76d2f2a47502a55ef64574af3bc0241f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rsync-3.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "afe60f6a3abe30fa2351a257540884d9b3bfec6fb3b2b4d6de6751be3dd79c7d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rsync-3.5.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",
