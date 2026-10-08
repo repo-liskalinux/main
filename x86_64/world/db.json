@@ -4771,10 +4771,10 @@
   },
   {
     "name": "bazel",
-    "version": "9.2.0-2",
+    "version": "9.3.0-1",
     "origin": "artix-world",
-    "sha256": "56ceab558a671f4e6418968f70982f8197661f89af069c48258d86a94d48f562",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bazel-9.2.0-2-x86_64.pkg.tar.zst",
+    "sha256": "ac61db583cf00f1b777684e0dbeebcda3f43eb558912dad0fc5507b2b331557c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bazel-9.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-environment=21",
@@ -8352,10 +8352,10 @@
   },
   {
     "name": "cloud-init",
-    "version": "26.1-1",
+    "version": "26.2-1",
     "origin": "artix-world",
-    "sha256": "d45fc3fdf5e837a4c7e0f579cc9f47f0e061a6888dc6bf1a91e3d831bb9ddf6e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cloud-init-26.1-1-any.pkg.tar.zst",
+    "sha256": "e758387bdeeecdb24fbac0abeadf14d3923b3cfe8a82a764e6000b37679320d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cloud-init-26.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -8370,6 +8370,7 @@
       "python-oauthlib",
       "python-pyserial",
       "python-pyyaml",
+      "python-referencing",
       "python-requests",
       "python-typing_extensions",
       "sudo"
@@ -8379,6 +8380,22 @@
       "python-passlib: for Azure and BSD support",
       "python-urllib3: for LXD and Scaleway data sources"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "cloud-init-openrc",
+    "version": "26.2-1",
+    "origin": "artix-world",
+    "sha256": "158718fdf17edbe5e0ef7e0cad6e1b9ba5cfcf64eaad65520318db6501fe3565",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cloud-init-openrc-26.2-1-any.pkg.tar.zst",
+    "provides": [
+      "init-cloud-init"
+    ],
+    "depends": [
+      "cloud-init",
+      "openrc"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -32619,10 +32636,10 @@
   },
   {
     "name": "jujutsu",
-    "version": "0.45.1-1",
+    "version": "0.46.0-1",
     "origin": "artix-world",
-    "sha256": "b2156d404abd4563a8f892b955e3b71053a56200dd16320d5dedc69acd2cef55",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jujutsu-0.45.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e440753f679e957d303c2ffae17e6d35a5c2171a4c25ff19c3108a5646191335",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jujutsu-0.46.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -35627,10 +35644,10 @@
   },
   {
     "name": "kdevelop",
-    "version": "26.08.1-3",
+    "version": "26.08.1-3.1",
     "origin": "artix-world",
-    "sha256": "07eed0eedded5b60e2bc459ec8753c8a3ff782a3a2cbcc3637d2877d37dbb593",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-26.08.1-3-x86_64.pkg.tar.zst",
+    "sha256": "6e08815cf2176d6d3a2711bfee332cc3d980d5fbb859076bb92703fd69a99b46",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-26.08.1-3.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "clang",
@@ -37456,10 +37473,10 @@
   },
   {
     "name": "kirigami-app-components",
-    "version": "1.1.0-1",
+    "version": "1.1.1-1",
     "origin": "artix-world",
-    "sha256": "9392c543cad767ccf8a8040dcf5c1db278a57479aec568a9c1e3d188a24429ef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kirigami-app-components-1.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4ae751525284a336a702cb4504754fcb53d584678abef6bfbd0e0ed1b80e8996",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kirigami-app-components-1.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -38340,10 +38357,10 @@
   },
   {
     "name": "kmymoney",
-    "version": "5.2.2-7",
+    "version": "5.2.2-8",
     "origin": "artix-world",
-    "sha256": "063b3e38cf114e43ff30e92c5e081e7cb92ed528f0b8e8e4543179af3b1cbf3e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmymoney-5.2.2-7-x86_64.pkg.tar.zst",
+    "sha256": "316fba6930d3ff9bddb25b07eae13a4c894885e58d8a2e5bc59fdcf4ab92b458",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kmymoney-5.2.2-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadi",
@@ -40463,10 +40480,10 @@
   },
   {
     "name": "kstars",
-    "version": "1:3.8.2-2",
+    "version": "1:3.8.5-1",
     "origin": "artix-world",
-    "sha256": "eb7fb2194e90344e35addf71da40d03251b9149df90d14e7b3741b6d4bb37289",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kstars-1:3.8.2-2-x86_64.pkg.tar.zst",
+    "sha256": "fdd1d770d786942ec0b1916f0a064b35d2dcd14819b2e6d10160eab1dee1e22c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kstars-1:3.8.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "breeze-icons",
@@ -40477,6 +40494,7 @@
       "kconfig",
       "kconfigwidgets",
       "kcoreaddons",
+      "kdbusaddons",
       "ki18n",
       "kio",
       "knewstuff",
@@ -40492,7 +40510,6 @@
       "libxisf",
       "opencv",
       "qt6-base",
-      "qt6-datavis3d",
       "qt6-declarative",
       "qt6-svg",
       "qt6-websockets",
@@ -41516,10 +41533,10 @@
   },
   {
     "name": "kwin",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "33d13a71b58df048f1a3ee2844b27638313cb61d4b4b1cd3ef4a7fdbbd5c8c21",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "2cbd39260ddc48c8aadfd136b9f0b41dbefd77e060dd4ef2587baa79ba7dd1c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aurorae",
@@ -41592,10 +41609,10 @@
   },
   {
     "name": "kwin-x11",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "41f40cc44bae87112825277436f18c75bcb0f07629d34167263a61a167ad3f62",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-x11-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "58eb29db325cdecdcc3e42edb490e182c7ff92822dafccb1e0c4934ba35cfc5c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-x11-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aurorae",
@@ -41962,10 +41979,10 @@
   },
   {
     "name": "layer-shell-qt",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "a56de881b8b31a994a2080c6642c60f3e31432519a210f7b2500869be24ef559",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/layer-shell-qt-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "b413cd4b372ea7977e685203438379c55ed922c2b70e8cf1cea57c7476624f27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/layer-shell-qt-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54513,10 +54530,10 @@
   },
   {
     "name": "mailman3",
-    "version": "3.3.10-7",
+    "version": "3.3.10-8",
     "origin": "artix-world",
-    "sha256": "5f606602e89d422c47f2d17554ed537ce83e9179c23f202c311c707b90956d60",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mailman3-3.3.10-7-any.pkg.tar.zst",
+    "sha256": "4cb5da366b6e770053b3defba4259cb0094909c1c5685d99fcedd3f7dd303c55",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mailman3-3.3.10-8-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gunicorn",
@@ -56002,10 +56019,10 @@
   },
   {
     "name": "md4c",
-    "version": "0.5.3-1",
+    "version": "0.6.0-2",
     "origin": "artix-world",
-    "sha256": "8a25115afed7df05a8fc7063d7cdfaa88101a7c60807ad3ce8d596224233e2a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/md4c-0.5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ebb1f224936b3a0daf1dc81ebb35c624cccbe89e236761096e5471299a8cc712",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/md4c-0.6.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -60118,10 +60135,10 @@
   },
   {
     "name": "nltk-data",
-    "version": "3.9.2-2",
+    "version": "3.10.0-1",
     "origin": "artix-world",
-    "sha256": "482e3b9ef384973808048bd599006f90d393c60ee073412294489f5af8e1a74f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nltk-data-3.9.2-2-any.pkg.tar.zst",
+    "sha256": "4b5a307fa85cc92067ebbaf3280475f0d6ae6424858e076820352a84e0adc622",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nltk-data-3.10.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -71954,10 +71971,10 @@
   },
   {
     "name": "plasma-integration",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "f3004f2c9e4beeaf2c519578bd8a84356a04c38d20f5b200cfb31ce7db201f82",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-integration-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "bc448d8c42162d8a8f7f15e093c5134b1eea64bc88765c3dee5c15716f27371b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-integration-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72476,10 +72493,10 @@
   },
   {
     "name": "plasma-workspace",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "c597325c9c107f12e1ab67acb8013f9537c0aaddf7cddbb8728dbc5885524471",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-workspace-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "ce8acf1e814eb63d009aaffefe8948d374478327c33c21b53b3b8d2b3c50df58",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-workspace-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -72613,10 +72630,10 @@
   },
   {
     "name": "plasma-x11-session",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "6a9a19769cf96e36b128fdb1640aecb6d4c8c81e01e913b976c4c68e3bff94f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-x11-session-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "651982d6be799b1ace5d3af51b5c740f2a52f41c543fe42fb20fb07f5aaf1c19",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-x11-session-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "plasma-workspace",
@@ -72627,10 +72644,10 @@
   },
   {
     "name": "plasma5-integration",
-    "version": "6.7.5-2",
+    "version": "6.7.5-3",
     "origin": "artix-world",
-    "sha256": "f2495443bc78764a1a81a7a2b2a450dc23e414974d9dca46aec675a2b43e292b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma5-integration-6.7.5-2-x86_64.pkg.tar.zst",
+    "sha256": "56f4eb3c1eec67240cd104e49aa5cad5b6835298b81f75aa3689cc2cc24bb8e1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma5-integration-6.7.5-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -74062,10 +74079,10 @@
   },
   {
     "name": "powerdevil",
-    "version": "6.7.5-1",
+    "version": "6.7.5-2",
     "origin": "artix-world",
-    "sha256": "a24c300daf9f43e9b2b8a32de2015de7578f8302ff11151061d91f894a729d52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdevil-6.7.5-1-x86_64.pkg.tar.zst",
+    "sha256": "814e0cc340a2e99869810bd41ee3e5e9b52cbec4d249a94047b9fc768730f13c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdevil-6.7.5-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ddcutil",
@@ -75578,10 +75595,10 @@
   },
   {
     "name": "pyside6",
-    "version": "6.11.2-2",
+    "version": "6.11.2-3",
     "origin": "artix-world",
-    "sha256": "75bb5652af349de7b4d8fdbddad6b0fc74f9eeb7a0238ee0235603e530cdb0ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "6e1dfa7df849e6c215584c85aa96bcd00e15e9778bfe27b83095608ff3c28d8b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-6.11.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-python-bindings"
     ],
@@ -75624,10 +75641,10 @@
   },
   {
     "name": "pyside6-tools",
-    "version": "6.11.2-2",
+    "version": "6.11.2-3",
     "origin": "artix-world",
-    "sha256": "44f90d2b940bdb0b17435db63f4541e456df3c8c4aa07f7c4c371cc8034dd581",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-tools-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "4b2d002f7562499b75914281dd20359cd68a65ee350c939d4f5e4361336287ec",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-tools-6.11.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pyside6",
@@ -77675,10 +77692,10 @@
   },
   {
     "name": "python-cachetools",
-    "version": "7.2.0-1",
+    "version": "7.2.1-1",
     "origin": "artix-world",
-    "sha256": "7dd41860306cc9e528666280ca54471b0bc7d8d2e7c9bf8884b2fb8f81d4632b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-cachetools-7.2.0-1-any.pkg.tar.zst",
+    "sha256": "00ee3c09dff0c7a9b948ad7dc0ebe3f0deffcf7653d04f35470762ee54659f8f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-cachetools-7.2.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -79974,10 +79991,10 @@
   },
   {
     "name": "python-dropbox",
-    "version": "12.2.2-1",
+    "version": "12.2.3-1",
     "origin": "artix-world",
-    "sha256": "f2234d24da669303af8b5cf526079572a88b901d277118df556b4ece560423da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dropbox-12.2.2-1-any.pkg.tar.zst",
+    "sha256": "6d3aa53e38a788aa5b708c3699388574aa6c62c53cf1022632e0f33dfe89903d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dropbox-12.2.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -81797,10 +81814,10 @@
   },
   {
     "name": "python-google-api-core",
-    "version": "2.40.0-1",
+    "version": "2.41.0-1",
     "origin": "artix-world",
-    "sha256": "af863aba2841e20f06fb2172d8f71d0c46c06e5c036cf3201df229cf09eb9de3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-google-api-core-2.40.0-1-any.pkg.tar.zst",
+    "sha256": "214d478f41609cf46829a651041f4e9111ca803cb57e6f12dbe7a89e3e40404d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-google-api-core-2.41.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pytz",
@@ -81833,10 +81850,10 @@
   },
   {
     "name": "python-google-auth",
-    "version": "2.59.1-1",
+    "version": "2.61.0-1",
     "origin": "artix-world",
-    "sha256": "f2d89d61eb02fa7aa51b9772d92ac2fbedb51ec1d675ebae1e9665bf5f285f3c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-google-auth-2.59.1-1-any.pkg.tar.zst",
+    "sha256": "c655846366e236d8ec375e05af34f8c5a22b90e944b519d601b194aa7be6931a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-google-auth-2.61.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -81888,10 +81905,10 @@
   },
   {
     "name": "python-googleapis-common-protos",
-    "version": "1.75.4-1",
+    "version": "1.75.5-1",
     "origin": "artix-world",
-    "sha256": "b1ac9b3ae9161bdfb0c5501e3e31fbb32428bb6e26e4aa8ab8378601286171a1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-googleapis-common-protos-1.75.4-1-any.pkg.tar.zst",
+    "sha256": "086a03f747227310579357009b475b125baed7ccc88348e11a5f02083f185cfc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-googleapis-common-protos-1.75.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -83721,10 +83738,10 @@
   },
   {
     "name": "python-json5",
-    "version": "0.15.0-1",
+    "version": "0.16.0-1",
     "origin": "artix-world",
-    "sha256": "b942f305af97118e7c84ad5e9f276562caef415a8b550eb32589172abc05dca0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-json5-0.15.0-1-any.pkg.tar.zst",
+    "sha256": "a20835df47badf1ad784b16d7cdde13cea4724698d18ffa052579799a956c4b1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-json5-0.16.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -83816,10 +83833,10 @@
   },
   {
     "name": "python-jsonpointer",
-    "version": "3.1.1-1",
+    "version": "3.2.0-1",
     "origin": "artix-world",
-    "sha256": "565ae8d41b67d060905b3d7ee38fd1b63bdae89d520c71a188cec3acef84b0fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonpointer-3.1.1-1-any.pkg.tar.zst",
+    "sha256": "22d724933f4b7bfc2b8b177578abd4d04c971f23c4299a7082f6893e3f804ba1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonpointer-3.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -84201,10 +84218,10 @@
   },
   {
     "name": "python-keystoneauth1",
-    "version": "5.17.0-1",
+    "version": "5.18.0-1",
     "origin": "artix-world",
-    "sha256": "276a5074acfd059a7fc05ab0d1705e3e72943148c8ecb3f437fe0cd160116fbc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-keystoneauth1-5.17.0-1-any.pkg.tar.zst",
+    "sha256": "6d33304d7ab8a7f2a477de8f367ba1089b908e1eeed7e4a139b78dbb83c10356",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-keystoneauth1-5.18.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-iso8601",
@@ -85825,10 +85842,10 @@
   },
   {
     "name": "python-narwhals",
-    "version": "2.26.0-1",
+    "version": "2.27.0-1",
     "origin": "artix-world",
-    "sha256": "6a2b6820ea45212df1c5a33fc08f235e0dcb2fb3a2b311258894b3893efada84",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-narwhals-2.26.0-1-any.pkg.tar.zst",
+    "sha256": "070ab8e0e48e4f8ccaaeddcb62f2c45dc49b70371a31de94f2889baa6f9964dc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-narwhals-2.27.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -86805,10 +86822,10 @@
   },
   {
     "name": "python-orjson",
-    "version": "3.12.0-1",
+    "version": "3.13.0-1",
     "origin": "artix-world",
-    "sha256": "302408d34b35fedad6393fb865d26126b0fcb3684fabfde0cd61ed9f8a393034",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-orjson-3.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d2433c52d215e3f5ff30fd63bf1f08ba73857bb04aba5ba295e1c89b7b7e68ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-orjson-3.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -88014,10 +88031,10 @@
   },
   {
     "name": "python-platformdirs",
-    "version": "4.12.3-1",
+    "version": "4.12.4-1",
     "origin": "artix-world",
-    "sha256": "f74bda5dab26d179413e09f3ed297551039ce866ef6bebb7674b5182a23bd789",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-platformdirs-4.12.3-1-any.pkg.tar.zst",
+    "sha256": "c4317e61056b85758c4a866c5e2c83e2881213db594b5485a5b42b2d116ef514",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-platformdirs-4.12.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -89483,10 +89500,10 @@
   },
   {
     "name": "python-pyflakes",
-    "version": "4.0.2-1",
+    "version": "4.0.3-1",
     "origin": "artix-world",
-    "sha256": "e1517fcee83022a137fe5f184edc142716a6f488de9585a73b84ec26f7b87641",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyflakes-4.0.2-1-any.pkg.tar.zst",
+    "sha256": "54051081d9dca151625780332a716939fadf83c315c8823e8f664f7f26c1bee4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyflakes-4.0.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -90317,10 +90334,10 @@
   },
   {
     "name": "python-pyqt6",
-    "version": "6.11.0-3",
+    "version": "6.11.0-4",
     "origin": "artix-world",
-    "sha256": "015b4788ca2d3199c48dfc11c3b138f30822289afb8d2021c4a1bc253d2b97b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-6.11.0-3-x86_64.pkg.tar.zst",
+    "sha256": "deb4bb79b578173d25dd5a84aa33675ad330b7d0647c4391e21fa5c90eabdceb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-6.11.0-4-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-python-bindings"
     ],
@@ -96049,10 +96066,10 @@
   },
   {
     "name": "python-typer",
-    "version": "0.27.2-1",
+    "version": "0.27.3-1",
     "origin": "artix-world",
-    "sha256": "60231a3f2d495bf036006b722e9d700502628b8cba2d71fa59002f72d43545d4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-typer-0.27.2-1-any.pkg.tar.zst",
+    "sha256": "27131d077b17b6d43d4b4d339caf9a9b6c77cbd04ee996757336cc3b80d06e2d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-typer-0.27.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-rich",
@@ -96197,10 +96214,10 @@
   },
   {
     "name": "python-ufolib2",
-    "version": "0.18.1-2",
+    "version": "0.19.0-1",
     "origin": "artix-world",
-    "sha256": "0f863b31b5207e2fc3eec7141d26793c7a45f97192a7becef1dad04ebc8ce895",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ufolib2-0.18.1-2-any.pkg.tar.zst",
+    "sha256": "b928c9ece3e105daa41683d525f1a053cbd224d8fc7ca050ba64477b83da3a33",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ufolib2-0.19.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96463,10 +96480,10 @@
   },
   {
     "name": "python-urwid",
-    "version": "4.2.4-1",
+    "version": "4.2.5-1",
     "origin": "artix-world",
-    "sha256": "dc61fb906912d878012440e499878b455c08e0d0327412e81bc460f1779edeee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-urwid-4.2.4-1-any.pkg.tar.zst",
+    "sha256": "715fcfb959d72e110c8bb2b70cfa96e66f903c7025a1886adec82a23228188e9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-urwid-4.2.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -96636,10 +96653,10 @@
   },
   {
     "name": "python-vcs-versioning",
-    "version": "2.5.0-1",
+    "version": "2.6.0-1",
     "origin": "artix-world",
-    "sha256": "e603189d41554f5106868dcf9fd356b2aad39dabe1b826ab1c49582bbb5e3af8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-vcs-versioning-2.5.0-1-any.pkg.tar.zst",
+    "sha256": "d7b7688875ccfdb7a6fcc14b4ac611591cfbe53e09a32f935b93003cf07ee8b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-vcs-versioning-2.6.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -101149,10 +101166,10 @@
   },
   {
     "name": "qt6-3d",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "5c723a486b61638428b177acca252b7da0b3aba791a73c89d3af0d52dd6bec36",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-3d-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c97773345c81574248df238ef435e4c3331e0d017bc06d043c46d5c32669746c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-3d-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101169,10 +101186,10 @@
   },
   {
     "name": "qt6-5compat",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "f506bf02fe7e7bed1d4530eee96e34881a01c077698b9709dda667fd94ddbbb0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-5compat-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "48ccfd7eb98eb0b97dc0c8c41ca5d8c02a48fd24e91e3cfbc2a110ce1f6276ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-5compat-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101188,10 +101205,10 @@
   },
   {
     "name": "qt6-base",
-    "version": "6.11.2-3",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "57904693794838fb2987d82f6fb580048b10a11ca69db83c814bf3283865fd23",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.11.2-3-x86_64.pkg.tar.zst",
+    "sha256": "b560fa38ceae0dcfb7ab914dbf820e6d67c3ea5f504a21766dd516090f0a9b06",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -101256,10 +101273,10 @@
   },
   {
     "name": "qt6-canvaspainter",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "c14c0378b5c377b0660bd6f22a1cc3745bb072992ac1247d5784d0c800dcdac0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-canvaspainter-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "efb58fc0309638f2eee941689b44e914884e543d41336a79deccfa4bd4fbaa4c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-canvaspainter-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101272,10 +101289,10 @@
   },
   {
     "name": "qt6-charts",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "66d8b28110cfb79209ef2a1de28f535349b04edee2aed8858210fe0aaccfa988",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-charts-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "8d613e93e5ce6372e724f064340ac4694e45c4cb19a4ca7a06024b0c2c669c6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-charts-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101288,10 +101305,10 @@
   },
   {
     "name": "qt6-connectivity",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "0bdcea83452e0789b352b9a66305d301963207121b0ab53171427f9dcf3aeec1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-connectivity-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "474b2ffadcf3b99d3b7d32213a555870baa5553ac490bdee1c8e7bf945ef0576",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-connectivity-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bluez-libs",
@@ -101305,10 +101322,10 @@
   },
   {
     "name": "qt6-datavis3d",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "299261cce81094061d8469252242dc61378668d83435758f7e7f1fb65eb94a23",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-datavis3d-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ac9f70fd7b8f424c3f26be8c40b397db1681f6755d44c240eed1b00d03ce2586",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-datavis3d-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101322,10 +101339,10 @@
   },
   {
     "name": "qt6-declarative",
-    "version": "6.11.2-2",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "90819e6cdde4592f64d80a8a1160e6289226564d7c22a078f4c2a7e34c1e67de",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-declarative-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "d11325a4c46869c75c5e13e5e70c05a54b9ea335d4dd1c7dba1f476e87017822",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-declarative-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101340,10 +101357,10 @@
   },
   {
     "name": "qt6-examples",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "7ffc4238fedea8a306e0cc72a4c2adf38b193996598b50edc37a19e15f8443f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-examples-6.11.2-1-any.pkg.tar.zst",
+    "sha256": "f910af64c8808db7bb77ec67db2c7436e600beb5ab25d694f145dcbc18aec3f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-examples-6.12.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-doc"
@@ -101353,10 +101370,10 @@
   },
   {
     "name": "qt6-graphs",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "b4e583fcde1fc566f19e2ea81089bda314682ae448a366f02e7dc3606911d9fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-graphs-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "7321707ca10fb9000a29c1a7904533eab04da02913088b74529388d6b2702355",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-graphs-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101370,10 +101387,10 @@
   },
   {
     "name": "qt6-grpc",
-    "version": "6.11.2-4",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "727033357f83c0f70807262ce86c8cd36adfc41fc9ed0194c43cb142a63127c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-grpc-6.11.2-4-x86_64.pkg.tar.zst",
+    "sha256": "83742b5bc8e57f21c61f569cb2802dbecb6bd9a1b3cf8ab56a840318d00da603",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-grpc-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -101390,10 +101407,10 @@
   },
   {
     "name": "qt6-httpserver",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "4ed2ca31879dfb167d92902a68d0df86bdd90907e56207461e18edc2153eec71",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-httpserver-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "45d343da030d8b6f34b56649734721cd661f8772e4f4f974c037db80a7068acf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-httpserver-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101406,10 +101423,10 @@
   },
   {
     "name": "qt6-imageformats",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "1f726bc84ea938b98af2a26a9028ef7d148b4e5fbafd3540f300f76193ff62c2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-imageformats-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "78a2b7844888f9f57211cf8fc3273b6e10786bc3c48e9d73cfdd11da83fb8939",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-imageformats-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101425,10 +101442,10 @@
   },
   {
     "name": "qt6-languageserver",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "655dd7d41428a4ed3dcdae0ae20b51e6fc4b1fdb9571619afe97bb4a880c01f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-languageserver-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ac658e3e0ead2d8fa561a79567792be3329ae49fd3977640c66b94cd4457f057",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-languageserver-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base"
@@ -101438,10 +101455,10 @@
   },
   {
     "name": "qt6-location",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "b2f266e80b3e3cdd5cef020e6d408bb9bab38a880939384afddc29295e4b2080",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-location-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6dd6f6a307b3a5703756feb56daa670a6899065dfca0aa6ddd671d036bbf0461",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-location-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101455,10 +101472,10 @@
   },
   {
     "name": "qt6-lottie",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "5f7e2ab787ff6680cdaad882f4e9ff7f2f010138e907ee6c7ea7e5adf4763cb5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-lottie-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1f1f22141becd609e04f729f4eadba50ea9f1422e84e127bff0cf4cd81578a51",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-lottie-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101472,10 +101489,10 @@
   },
   {
     "name": "qt6-multimedia",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "32e6b0e95b22989389fc21d2f7f7e3efd4b28895e9fae38296a6669b8e346b33",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-multimedia-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a94e498c9abc9ee08d847064c9a6f2cb317e557892aba905639972aced539cd8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-multimedia-6.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101494,10 +101511,10 @@
   },
   {
     "name": "qt6-multimedia-ffmpeg",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "e9025cb741d9f000b454377ab8822fb5e4c5ef6ecfbcf69afb13fa07e1821f46",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-multimedia-ffmpeg-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "915caa9789041b6bdb16dfbb2a1e2466d25b39dd73983d82386665ea2128b14a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-multimedia-ffmpeg-6.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-multimedia-backend"
     ],
@@ -101520,10 +101537,10 @@
   },
   {
     "name": "qt6-multimedia-gstreamer",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1.1",
     "origin": "artix-world",
-    "sha256": "57e062c49d54d9ec5d8138c24b73f87bd10abe8b29028ef534ef51b5b5ba7802",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-multimedia-gstreamer-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "85dcc80f8f761da989d41fc1201934714000bf7ddc9072aeb0627adf8448b550",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-multimedia-gstreamer-6.12.0-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-multimedia-backend"
     ],
@@ -101549,10 +101566,10 @@
   },
   {
     "name": "qt6-networkauth",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "e7d214816abafaad1b66b30492817103be47950de7d05d2397fdc885b1390172",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-networkauth-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0038b5cbf48b09a583173ecad312b11abb709809bb07177acf70f0b91d47bea9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-networkauth-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101564,10 +101581,10 @@
   },
   {
     "name": "qt6-positioning",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "aa7e3c2fc956121582d36aec8894489ee2e7b65556194e4bb91b15bdfa5e6b82",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-positioning-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "7e77e40504d9ac48e6f7015ba1e41388b92248187c784aa72503e9a6d88e98fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-positioning-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101584,10 +101601,10 @@
   },
   {
     "name": "qt6-quick3d",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "e388add653703f108627e6af6d27c8a96a752ab80a8ae934d9d4996b784d9daf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quick3d-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c7cceded1600496e276ee1491ae09ea3b4811af15ad994f84ee21781cd90ade0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quick3d-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101608,10 +101625,10 @@
   },
   {
     "name": "qt6-quick3dphysics",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "3b3b461add5362d7a488d166ae52e6f4abcaa1ad307a1eec02ac97a3590402af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quick3dphysics-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2a3d1d39c0c6c3737176df52f259b38a350d0a94bfe0ec69943725dee3706682",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quick3dphysics-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101625,10 +101642,10 @@
   },
   {
     "name": "qt6-quickeffectmaker",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "dfa093f4fef65dccca2f2a37cd9d930e2c211d55f8966e92aaece5d54adaa398",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quickeffectmaker-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f669da80c808a3764eea274c4554ef90c72f6760c7d263f92df12ca0acf98bb3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quickeffectmaker-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101643,10 +101660,10 @@
   },
   {
     "name": "qt6-quicktimeline",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "06621fd8808215435c7a7021105afb3c6699d4882761150e85e663fdcb31e479",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quicktimeline-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "e3d87de0a9e88d0d4ac8a8d786f9ba04c447423ebb381fe10320bce42aed6810",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-quicktimeline-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101659,10 +101676,10 @@
   },
   {
     "name": "qt6-remoteobjects",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "f3623623fad099d6c030ccc5d5ef75f90eddee6153158605005f2d4e418ddc2c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-remoteobjects-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "04d7a0d8b3812a928858e3f78211eb9e881b070f8278578c35c23de749c0f4d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-remoteobjects-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101676,10 +101693,10 @@
   },
   {
     "name": "qt6-scxml",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "ce3df40d5638256bb128b7cca7904e5e6e725ab2d03a00c758e37f88723499ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-scxml-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a9fa99f80b22ed0bffd14d4e84b6ce6037b3745cdc473e188fbac3a0e32e4056",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-scxml-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101693,10 +101710,10 @@
   },
   {
     "name": "qt6-sensors",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "f6c0181dc4e7cdebbd4125b12324546f2ff7f177d6672b90a92eee23e0198e1b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-sensors-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "47bc7875fae47cf14f257d306a827fa7c5f856e68e985056b6728fdef0f2514a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-sensors-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101711,10 +101728,10 @@
   },
   {
     "name": "qt6-serialbus",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "45ba9c2742ef22873d7a577a2224f7b9581003c642ac2e783f55bf6770e478f7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-serialbus-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "3b468266eb6af2eb34601667cffefb10eecfcd536f5f504ce98b32dd16287789",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-serialbus-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101727,10 +101744,10 @@
   },
   {
     "name": "qt6-serialport",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "8b5130cd4696dd20b8ad5b4aa4f218d71749350e0b482d99c152fbbad87a0a76",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-serialport-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "88b018dcad31c7a2304bfc1e24b4414ebbaf3848c7ea45b7c1f894f7d31d094a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-serialport-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101743,10 +101760,10 @@
   },
   {
     "name": "qt6-shadertools",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "a2da694d00208ba6d77c38589ba41ba330c34b204551225e65bd51fb5b191a51",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-shadertools-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "3459f72b159159a99153c454a19941520e09de2a83beb8a667284823f7ec3298",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-shadertools-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101759,10 +101776,10 @@
   },
   {
     "name": "qt6-speech",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "44c35a3f9add77c98e80663d004fbb34c5dd815c7002aca192b40c7aee8d3b7e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-speech-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "15d89129ef2eaef99cd62c1d8cffe5627b70aed53341fd7f6d7b0432721bd437",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-speech-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101779,10 +101796,10 @@
   },
   {
     "name": "qt6-svg",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "3f02f90686b2603c4be7273c97797704452869033ad55a153d3f520ab20c8644",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-svg-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ab432df0180a530e1ab11398cb8eb372fc6527e0f940d9c3dac3428e6f37caa1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-svg-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101795,13 +101812,14 @@
   },
   {
     "name": "qt6-tools",
-    "version": "6.11.2-2",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "9a38aea1e5cda1258f1163e7656a8d1e125016a8ac259e3dcc364736a57d9d96",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-tools-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "68f4b29515cca644288a9e3b9a5dd0e860d8a7618601706e1c10b8b2c9c08738",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-tools-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
+      "libgcc",
       "libstdc++",
       "litehtml",
       "qt6-base",
@@ -101815,10 +101833,10 @@
   },
   {
     "name": "qt6-translations",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "2b0a7ea66291d20d68aa7554f5cd1d0425d0d174dddb387d6409c60e2ae6ae76",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-translations-6.11.2-1-any.pkg.tar.zst",
+    "sha256": "79ad4394b953d85f90d99781aab568923ba1f3742a197a61667211df38066c67",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-translations-6.12.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -101826,10 +101844,10 @@
   },
   {
     "name": "qt6-virtualkeyboard",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "4617bcaed8442e298efd3f61010d3b6842480ceec82d1cc35025fb51c0cc64a9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-virtualkeyboard-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6309862aa26d7f79bc4556388d2263f8d0bd9045d2d86457acc8cf36c8daa11e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-virtualkeyboard-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101845,10 +101863,10 @@
   },
   {
     "name": "qt6-wayland",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "4c7208c76439046033b23389fa7f52e03993b2634b25e8a36d6484128de8ffc6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-wayland-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "670269ec80b509ce6bfd586a61fe9ba0f5b67f442170c8312b39ae9628d769ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-wayland-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101865,10 +101883,10 @@
   },
   {
     "name": "qt6-webchannel",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "2a32dadc253fde12c9fbe5b9a361dc047435e92597cacdf5e1e0640fc4f37ee9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-webchannel-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f626217345ffc13f538e938aba6b47c5fa76a1e54cacbcdb916a9192fdc08bcb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-webchannel-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101881,10 +101899,10 @@
   },
   {
     "name": "qt6-webengine",
-    "version": "6.11.2-1",
+    "version": "6.140.0rc-1",
     "origin": "artix-world",
-    "sha256": "c5df950614b6d9546a311d84a528fdd41db8f1379bd16cc2b297b2c9ee839171",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-webengine-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "df7b608820bceec4440cfc30939d5c15f8a50fda5fc53ce66587b1ab1edc5b38",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-webengine-6.140.0rc-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -101941,10 +101959,10 @@
   },
   {
     "name": "qt6-websockets",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "f53a75d4e85b2083e932966d49500153c0467caae964eb162400d16be3f335e3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-websockets-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c2609ff4506d66fb4bf3c82785841162eb7f88589062a9b8d91a9ab3a661aff4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-websockets-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101958,10 +101976,10 @@
   },
   {
     "name": "qt6-webview",
-    "version": "6.11.2-1",
+    "version": "6.12.0-1",
     "origin": "artix-world",
-    "sha256": "a6ffdec6635b456cd5d07cc1f0dbbe5557c1507a6daa2dccd3ef7065c5b46054",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-webview-6.11.2-1-x86_64.pkg.tar.zst",
+    "sha256": "02d987ac165825ef60e568ae8b3418b7dbc4a3190908ddd71125a2b37a5211f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-webview-6.12.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101975,23 +101993,23 @@
   },
   {
     "name": "qt6-xcb-private-headers",
-    "version": "6.11.2-3",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "572a6d115f834b656c43e62131c0a0edd67a834116eb6c1fb19d127ce7166df4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.11.2-3-x86_64.pkg.tar.zst",
+    "sha256": "b4d190679dfe264de42ca511e5bbcb607bc29e0062eec5fc58aa111ec3617e38",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qt6-base=6.11.2"
+      "qt6-base=6.12.0"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "qt6ct",
-    "version": "0.11-8",
+    "version": "0.11-9",
     "origin": "artix-world",
-    "sha256": "6f8031a01d4820afe10867f6807fa9032a61f2d0681bfef16a1bb59c69b42d2e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6ct-0.11-8-x86_64.pkg.tar.zst",
+    "sha256": "f53e27fdd7e81eb1e53e5a9b9de7c51ac619e97f8bd94bdd5642735bbb0ce660",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6ct-0.11-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -102005,10 +102023,10 @@
   },
   {
     "name": "qtcreator",
-    "version": "20.0.2-2",
+    "version": "20.0.2-3",
     "origin": "artix-world",
-    "sha256": "294ab8f84501289e98bbc1eaf4f27b07fdd5445cf1dc3708189629a37a638b6b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-20.0.2-2-x86_64.pkg.tar.zst",
+    "sha256": "578a99ab596ad4d9ac990fd83604ab25b866b41cde5daa217fa12a4ef2a16d3a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-20.0.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "clang",
@@ -102052,10 +102070,10 @@
   },
   {
     "name": "qtcreator-devel",
-    "version": "20.0.2-2",
+    "version": "20.0.2-3",
     "origin": "artix-world",
-    "sha256": "2cfa2b53b3eb627e75f38fc1616dc5d2a0572662692dd72d10b2b58f5520ff5b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-devel-20.0.2-2-x86_64.pkg.tar.zst",
+    "sha256": "c1044c4e9941c894ebdd73af2c037f79c9d483460b94d103cdbee53026e1836c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtcreator-devel-20.0.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qtcreator"
@@ -111332,10 +111350,10 @@
   },
   {
     "name": "shiboken6",
-    "version": "6.11.2-2",
+    "version": "6.11.2-3",
     "origin": "artix-world",
-    "sha256": "309f6cf3a1d2b6a480094629d4fa2391bca6b9ff1f2648aeb9dbcd273a65d4ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "34f451a0c670a5a717f320769f44b5099cc188c2ce918cfd5dcf6e5a184763a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-6.11.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -111348,10 +111366,10 @@
   },
   {
     "name": "shiboken6-generator",
-    "version": "6.11.2-2",
+    "version": "6.11.2-3",
     "origin": "artix-world",
-    "sha256": "c27e6a52fd11a6c4b51193382c26e30da5cb9efa6008d8c73269ec6b1b8af966",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-generator-6.11.2-2-x86_64.pkg.tar.zst",
+    "sha256": "f375a9a336326efdbd82049440df265c6ff4cff92c24281823506277d867d60e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-generator-6.11.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "clang",
@@ -111479,10 +111497,10 @@
   },
   {
     "name": "simdjson",
-    "version": "1:5.0.1-1",
+    "version": "1:5.0.2-1",
     "origin": "artix-world",
-    "sha256": "c5ad14a742a4c44ac17f82b86477934e683b93f79f57cfa0b9eca596a141fb39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdjson-1:5.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d65a51b8308e34f1d2c23b6b5f7a8465daac692b8355dd48310dd3e6d8336ceb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdjson-1:5.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -115100,10 +115118,10 @@
   },
   {
     "name": "tailscale",
-    "version": "1.102.3-1",
+    "version": "1.102.5-1",
     "origin": "artix-world",
-    "sha256": "c4394319da421ab555e9a4a15077e8fe7e41b0fa17c0a08758250a7a18124406",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tailscale-1.102.3-1-x86_64.pkg.tar.zst",
+    "sha256": "240cfe9b4d694715a07aafa7610702bf729cd7084bda1e9684ee2e762eb292b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tailscale-1.102.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -123915,10 +123933,10 @@
   },
   {
     "name": "tor",
-    "version": "0.4.9.13-1",
+    "version": "0.4.9.14-1",
     "origin": "artix-world",
-    "sha256": "37f781227fc31e436cad524c81c6d84d4ce3fc07a8e1e398895c3e6705ffff04",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tor-0.4.9.13-1-x86_64.pkg.tar.zst",
+    "sha256": "bf752d575bc73b9148e0da3f8b4f079af543efd8380326235daabbf18c5fff1d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tor-0.4.9.14-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -126666,10 +126684,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261004053124-1",
+    "version": "20261007072548-1",
     "origin": "artix-world",
-    "sha256": "2edb6b06e2401755f576fbd3e4e4930f62292d9058fbdc46041100eee51f6b34",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261004053124-1-any.pkg.tar.zst",
+    "sha256": "968db4b0664d21971203e3dc659b6e92a3b3f58d517a6116cf676fae8724ea12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261007072548-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -129356,10 +129374,10 @@
   },
   {
     "name": "vokoscreen",
-    "version": "4.9.0-1",
+    "version": "4.11.0-1",
     "origin": "artix-world",
-    "sha256": "ce59096738cd6b34452e3c395ab6103544d4efef60ba522aa709ada4bd3d23fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vokoscreen-4.9.0-1-x86_64.pkg.tar.zst",
+    "sha256": "82b7be5fc019c6412dc22a63e4c890031b45a453ee8dbe28d6a1c42fd665462f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vokoscreen-4.11.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -129376,6 +129394,8 @@
       "libx11",
       "qt6-base",
       "qt6-multimedia",
+      "qt6-webengine",
+      "qt6-websockets",
       "wayland"
     ],
     "optdepends": [
@@ -130449,10 +130469,10 @@
   },
   {
     "name": "wasm-component-ld",
-    "version": "0.5.30-1",
+    "version": "0.5.31-1",
     "origin": "artix-world",
-    "sha256": "d8349d5ff3142542d422246024465299ae5c75d0058166810edc362217c8590e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-component-ld-0.5.30-1-x86_64.pkg.tar.zst",
+    "sha256": "5e1c43f494265082c92aaaddcb94ec2ccde4b005cf0a0a5b62c89f2fab2629c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-component-ld-0.5.31-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",

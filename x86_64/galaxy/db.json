@@ -9339,10 +9339,10 @@
   },
   {
     "name": "gnote",
-    "version": "50.2-1",
+    "version": "51.0-1",
     "origin": "artix-galaxy",
-    "sha256": "87872ba430805b2437875a98c9f580c76249fbbbc86511436d11d8c231936395",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gnote-50.2-1-x86_64.pkg.tar.zst",
+    "sha256": "8be6b3040df4d4dd89225ccf9c7f9f2ce84164d4f25e938b263fc4e69b0fbeef",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gnote-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairomm-1.16",
@@ -11518,10 +11518,10 @@
   },
   {
     "name": "libfm-qt",
-    "version": "2.4.0-3",
+    "version": "2.4.0-4",
     "origin": "artix-galaxy",
-    "sha256": "869182e5aa3b668c6126379be8693a6299b41ce38349cf52c92a15de002104c8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libfm-qt-2.4.0-3-x86_64.pkg.tar.zst",
+    "sha256": "64756440bf85c9acb2f452b788cb3d1b818ebf64cd715316862214130c9fce81",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libfm-qt-2.4.0-4-x86_64.pkg.tar.zst",
     "provides": [
       "libfm-qt6.so=17-64"
     ],
@@ -11899,10 +11899,10 @@
   },
   {
     "name": "libqtxdg",
-    "version": "4.4.0-3",
+    "version": "4.4.0-4",
     "origin": "artix-galaxy",
-    "sha256": "5769beb885f60964a298611d11e68bb5c765abccb95bb27d6134ed7f8bddd958",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libqtxdg-4.4.0-3-x86_64.pkg.tar.zst",
+    "sha256": "1ad817f31a6e485b9a1456d5ba2f9da4d0768bd118af71f27ee0f2c18d08d9b5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libqtxdg-4.4.0-4-x86_64.pkg.tar.zst",
     "provides": [
       "libQt6Xdg.so=4-64",
       "libQt6XdgIconLoader.so=4-64"
@@ -19433,13 +19433,11 @@
   },
   {
     "name": "lxqt-notificationd",
-    "version": "2.4.0-1",
+    "version": "2.4.0-2",
     "origin": "artix-galaxy",
-    "sha256": "e94fa4f3310d7403b80a941fd6cb8befccda7df806eb404845349acc7662d386",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lxqt-notificationd-2.4.0-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "notification-daemon"
-    ],
+    "sha256": "e9d2955c5261e9c2ccec5575f1e7583358df85b46e3b5c2ac59c6cb7fc484e1b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lxqt-notificationd-2.4.0-2-x86_64.pkg.tar.zst",
+    "provides": [],
     "depends": [
       "qt6-base",
       "liblxqt",
@@ -19524,10 +19522,10 @@
   },
   {
     "name": "lxqt-qtplugin",
-    "version": "2.4.0-3",
+    "version": "2.4.0-4",
     "origin": "artix-galaxy",
-    "sha256": "7b1a972e88dde6d774bf4343a75048aa7456a66251e0d06463d16827ea970ea8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lxqt-qtplugin-2.4.0-3-x86_64.pkg.tar.zst",
+    "sha256": "2d87a9a426db02dab7024f5285d67c9717bbacf9cf2f78637d49dc19518ae8a8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lxqt-qtplugin-2.4.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libdbusmenu-lxqt",
@@ -20275,10 +20273,10 @@
   },
   {
     "name": "mate-session-manager",
-    "version": "1.28.0-3",
+    "version": "1.28.0-3.1",
     "origin": "artix-galaxy",
-    "sha256": "7f8b79963c133c3484956bd6440a7a4a9f1b9437deb2de625b7bc7e42ea1a7c8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-session-manager-1.28.0-3-x86_64.pkg.tar.zst",
+    "sha256": "6b968c577fb69173a485078f8fefd3b6a77dac83877692cdb20af9625620e9c1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-session-manager-1.28.0-3.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -27254,10 +27252,10 @@
   },
   {
     "name": "screengrab",
-    "version": "3.2.0-2",
+    "version": "3.2.0-3",
     "origin": "artix-galaxy",
-    "sha256": "0b1b4f3a1a3b3fe01d0e8a27d9cc4e253ed42ecc5e009e19ead35a03c9449e67",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/screengrab-3.2.0-2-x86_64.pkg.tar.zst",
+    "sha256": "5a6bd6049cee98e77a6032803a59fb6b9658f179862b948db65f155d2b43ecc7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/screengrab-3.2.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base",
@@ -28270,10 +28268,10 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "7.2.9-1",
+    "version": "7.2.9-2.1",
     "origin": "artix-galaxy",
-    "sha256": "69ee5b7ee75f075ff028487f4fc062237276bc232f5a3d09f458793a5935ccef",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.2.9-1-x86_64.pkg.tar.zst",
+    "sha256": "a7d36284ba9354d657db248af2abbb37014c636182de86bdaa3e95f69545f820",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.2.9-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
