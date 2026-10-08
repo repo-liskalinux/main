@@ -11486,10 +11486,10 @@
   },
   {
     "name": "distcc",
-    "version": "3.4-15",
+    "version": "3.4-16",
     "origin": "artix-world",
-    "sha256": "8310f0c13074f62923a4f7c8cd32fe89aeba9e312ff3bbc73e08e32f12e0b97c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/distcc-3.4-15-x86_64.pkg.tar.zst",
+    "sha256": "ba416242567d09d888631d27d865b9af851788ca4ae9484971f9110b85bb39d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/distcc-3.4-16-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "avahi",
@@ -18782,17 +18782,18 @@
   },
   {
     "name": "gdb",
-    "version": "17.2-1",
+    "version": "18.1-1",
     "origin": "artix-world",
-    "sha256": "f94e97bcc14940b7a0de2d729b1d9b201825d5bfbed0998941030e5106d2e7ac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-17.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2b30e44aa9b17bd100e6081b1177752cc8f38600b315ec9f90229f8fcb69605c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-18.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
       "boost-libs",
       "expat",
-      "gcc-libs",
-      "gdb-common=17.2",
+      "libgcc",
+      "libstdc++",
+      "gdb-common=18.1",
       "glibc",
       "gmp",
       "guile",
@@ -18817,10 +18818,10 @@
   },
   {
     "name": "gdb-common",
-    "version": "17.2-1",
+    "version": "18.1-1",
     "origin": "artix-world",
-    "sha256": "e973262d06587b2b324f8592531e14d14d2a8774a7ecfb9edf4071623a190472",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-common-17.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c9b059a82d15df9541249f2627d49da002ef33d89a22842c8653da294a5a5f56",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-common-18.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -29575,10 +29576,10 @@
   },
   {
     "name": "ibus",
-    "version": "1.5.34-1",
+    "version": "1.5.34-2",
     "origin": "artix-world",
-    "sha256": "92881fbe62cb39f5eaca1ed24ba0c8221ccc767ef73eb0a3918fa5c06c96fc92",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ibus-1.5.34-1-x86_64.pkg.tar.zst",
+    "sha256": "325c0281dc090c4cd30456586857cd208c1f808a16a5ff5a064b4248e0a0593d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ibus-1.5.34-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -29594,9 +29595,9 @@
       "libdbusmenu-gtk3",
       "libnotify",
       "libx11",
-      "libxkbcommon",
       "libxfixes",
       "libxi",
+      "libxkbcommon",
       "pango",
       "python",
       "python-gobject",
@@ -30780,10 +30781,10 @@
   },
   {
     "name": "iperf3",
-    "version": "3.21-1",
+    "version": "3.22-1",
     "origin": "artix-world",
-    "sha256": "63a159a3832ade78c6bb7e5dd2dc9cf19c0c00c3c0ca444618a684b9782c83ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/iperf3-3.21-1-x86_64.pkg.tar.zst",
+    "sha256": "72e6fb765d288f7ca6ad0f78cc278ccc41244faa52a205f87bac387add813c6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/iperf3-3.22-1-x86_64.pkg.tar.zst",
     "provides": [
       "libiperf.so=0-64"
     ],
@@ -45546,10 +45547,10 @@
   },
   {
     "name": "libibus",
-    "version": "1.5.34-1",
+    "version": "1.5.34-2",
     "origin": "artix-world",
-    "sha256": "c16d08f7b5b61a6a7ae6de558e8d3dfd8353c5f7ceaf2d0ea4a18460bd2b6001",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libibus-1.5.34-1-x86_64.pkg.tar.zst",
+    "sha256": "617325c9023638f6ef4e9a90849fdc1ec1b8ead4abf84ae31f9079a6cd71a6a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libibus-1.5.34-2-x86_64.pkg.tar.zst",
     "provides": [
       "libibus-1.0.so=5-64"
     ],
@@ -64594,14 +64595,21 @@
   },
   {
     "name": "parted",
-    "version": "3.7-1",
+    "version": "3.8-1",
     "origin": "artix-world",
-    "sha256": "a712079ff507558ceb2257e80bf44a53c142d597382371416823fee45bf55a09",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/parted-3.7-1-x86_64.pkg.tar.zst",
+    "sha256": "bd59afc8bf1f2a9c9f456546ce24179c8334b9b6ab0024c51d38ecf4705575f7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/parted-3.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "device-mapper",
-      "util-linux-libs"
+      "libdevmapper.so=1.02-64",
+      "util-linux-libs",
+      "libblkid.so=1-64",
+      "libuuid.so=1-64",
+      "readline",
+      "libncursesw.so=6-64",
+      "ncurses"
     ],
     "optdepends": [],
     "conflicts": []
@@ -72835,10 +72843,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.9.1-1",
+    "version": "12.10.1-1",
     "origin": "artix-world",
-    "sha256": "ce5b01f0ca6764b33426c536353c24f33b53b9c6f23b864a8ca7abbe393306fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.9.1-1-any.pkg.tar.zst",
+    "sha256": "c7b23ca6c869e5b6b01d2e9e3bb150cb1bea5c03190b22d8ff6653a7a4c49053",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.10.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "node-gyp"
@@ -112060,10 +112068,10 @@
   },
   {
     "name": "sof-firmware",
-    "version": "2025.12.2-1",
+    "version": "2026.09.2-1",
     "origin": "artix-world",
-    "sha256": "c1e4bf66991b208216c70b9cfa70b6bced4593eba848c449a90983c92c2d6ebb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sof-firmware-2025.12.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ed43cce35ec057afd22b9aebb79bea114ab8efc4ee2c816ad2c2cb0e64ff5674",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sof-firmware-2026.09.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -112071,10 +112079,10 @@
   },
   {
     "name": "sof-tools",
-    "version": "2025.12.2-1",
+    "version": "2026.09.2-1",
     "origin": "artix-world",
-    "sha256": "76f8a1a1aa021bee01e76717179b4a04617d86b44eef8532a9a95389ab3a0a05",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sof-tools-2025.12.2-1-x86_64.pkg.tar.zst",
+    "sha256": "92b8fffee23dbd36091e5a9e2c9519003e7f371bdd09510f2338d2c128bccd6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sof-tools-2026.09.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -135923,10 +135931,10 @@
   },
   {
     "name": "znc",
-    "version": "1.10.2-2",
+    "version": "1.10.3-1",
     "origin": "artix-world",
-    "sha256": "69985453c2b7ce93cc7d934156d678def05bcd6411e89afc7a7641e4bc41ad99",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/znc-1.10.2-2-x86_64.pkg.tar.zst",
+    "sha256": "f3818d909c329ca32155658959ff7295c2b46f5404d0140bd0ed61d00541171e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/znc-1.10.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libsasl",
