@@ -5040,10 +5040,10 @@
   },
   {
     "name": "fcitx5-qt",
-    "version": "5.1.16-1",
+    "version": "5.1.16-2",
     "origin": "artix-galaxy",
-    "sha256": "248fdecfe4e1d9d12bbbe9a998458d6f0fecc93bc1e247a9f0b5700dc616f3b8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.16-1-x86_64.pkg.tar.zst",
+    "sha256": "5fdc7beda1e43648b45806d91eaaa2bbc8572e9c2bab0624464f71c12f6a6fd0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fcitx5-qt-5.1.16-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11974,10 +11974,10 @@
   },
   {
     "name": "libreoffice-fresh",
-    "version": "26.8.0-2",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b085af9dd0fe6224839dc25364a43e36e3ca354de55ba2fb4b75e160d2bff48c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-26.8.0-2-x86_64.pkg.tar.zst",
+    "sha256": "c5b1d5ad3a150e80d617f1ddfd4590c73625c4d57acaa4c82a1b7602ce1325e2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-26.8.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice",
       "libreoffice-en-US"
@@ -12085,14 +12085,32 @@
     ]
   },
   {
-    "name": "libreoffice-fresh-af",
-    "version": "26.8.0-1",
+    "name": "libreoffice-fresh-ab",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3059c719314473f5f1175c550d9a42998b79d4e2e5b09f2e7c67eebe8a68b16e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-af-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "a91244db2df0e647149f1392ef3fc5cd54173845a4013dfa1be328ca80ac00b9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ab-26.8.1-1-any.pkg.tar.zst",
+    "provides": [
+      "libreoffice-ab",
+      "libreoffice-fresh-i18n=26.8.1-1"
+    ],
+    "depends": [
+      "libreoffice-fresh"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "libreoffice-ab"
+    ]
+  },
+  {
+    "name": "libreoffice-fresh-af",
+    "version": "26.8.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "064551bc36a9993710c3a59895942bdc3cc57173a3c2e7ff08361b100461a53b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-af-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-af",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12104,13 +12122,13 @@
   },
   {
     "name": "libreoffice-fresh-am",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a10456095571311ca1df018d5a6f30580d817a114cc95aad0f444b5a1f04a5f1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-am-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "688690d449b29b0ecc91bf269aa254f49094a456e46531f72a24107078e5bac1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-am-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-am",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12122,13 +12140,13 @@
   },
   {
     "name": "libreoffice-fresh-ar",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "824c9762940b2b96a1795f7649dd9951424c6b4fcc4600436983de2f414b3c40",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ar-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "dfa361b576f16880d6057d50acde086c0f93559355cd830f475593d47e07fd04",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ar-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ar",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12140,13 +12158,13 @@
   },
   {
     "name": "libreoffice-fresh-as",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "7152cd3dc6c18a42b1edc6736451bf55b835506c7e8bca7331b9924e1beaa3c3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-as-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "1d9b156b5bc2ecddf215ee470955479f19abf924dad46d29be688abb49c854f4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-as-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-as",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12158,13 +12176,13 @@
   },
   {
     "name": "libreoffice-fresh-ast",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ff2eb0c4ea43e8ede165f651e78d4e863fd1042f4ab4cfd0cfa85cbc2f609cac",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ast-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "02c970eaa42d6a6baa8392c09be2a79fb0249393791bd65a7fd56c7deb011d8b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ast-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ast",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12176,13 +12194,13 @@
   },
   {
     "name": "libreoffice-fresh-be",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "96535c9ec5ed0a16567b22ab9eacc2c76ff6928adc79a5855f4cbad35d55c358",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-be-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "8d86937d2a49583b62665b45f022659e5a40a8d342c04ed29c167559bd898591",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-be-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-be",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12194,13 +12212,13 @@
   },
   {
     "name": "libreoffice-fresh-bg",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "94d55c20a7e2f6c2fce319f8305f5e402ee7dcd1a4336e6c32d3500bdb9be12c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bg-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "9473e542e8de6e3e35e7aa4c3c39a9bdb017e76ad37367104ddc4887745b1168",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bg-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-bg",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12212,13 +12230,13 @@
   },
   {
     "name": "libreoffice-fresh-bn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fdaa391becf99232e4fad6c41a4230cac13ddee2d8535fc647f132ac850ef515",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "e7dc39e2822ea8fc3b91afd9038d42fbdf94cd62b67461be7bc6474705f1f22e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-bn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12230,13 +12248,13 @@
   },
   {
     "name": "libreoffice-fresh-bn-in",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e047c33c9f79bd14e3d16c1ae9919e305a80953f22729bc4c3d8fc7df7746243",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bn-in-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "ae6b15ac30f707fe25a773cdc9d425c57da352cb6109f1d7ecaf0937fb540334",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bn-in-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-bn-IN",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12248,13 +12266,13 @@
   },
   {
     "name": "libreoffice-fresh-bo",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c617b68675b4250e80137d366c0a1b874eb36c984847efb92af25e1bcf575bc9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bo-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "86631c6bb742005505a42dbc12bad1c31280592dcb0516a6089ecddf591b585a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bo-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-bo",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12266,13 +12284,13 @@
   },
   {
     "name": "libreoffice-fresh-br",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6d77af56943d93a613065c33ed360f6df0b9bdcf25e8387da92e38e09363e7a9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-br-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "38f9d2ad5c559c38bb956460e7b65da9afbbdab5097e0090a66f2114253fed8f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-br-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-br",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12284,13 +12302,13 @@
   },
   {
     "name": "libreoffice-fresh-brx",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "24806c88e59877446a61fbc5250a682f8f012b8d7b0f60bfb9791277040636ed",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-brx-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "16f36f188136f8a7f557701bdbba836f9bc651ce715b6c50b8c2ad2046d7375e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-brx-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-brx",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12302,13 +12320,13 @@
   },
   {
     "name": "libreoffice-fresh-bs",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "46e51393d8014bcaa30d5241454cc67501763cc606e96f33db2ed29ab5cb0b76",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bs-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "851084691d0ca190f059ba6b4cb49df3af87bf219bcddf3e676c4efa6ba9fd53",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-bs-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-bs",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12320,13 +12338,13 @@
   },
   {
     "name": "libreoffice-fresh-ca",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b491fc19aaf2975a964eda6905b6c36982629a2735930cd9c31727b591ef44ac",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ca-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "9dbce7e876d8f3f17beb6d516862af18bdaa74a9b9493d962018ab591f46b7ed",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ca-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ca",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12338,13 +12356,13 @@
   },
   {
     "name": "libreoffice-fresh-ca-valencia",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fac73546bfeb998e98931069efc879427deb1093aa8d620036443beb3eeb0a6c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ca-valencia-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "cf24d7b6c1bbdce450ad9802e8f32b5c47d162981c28a7183b696d8e937b60d1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ca-valencia-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ca-valencia",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12356,13 +12374,13 @@
   },
   {
     "name": "libreoffice-fresh-ckb",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ac753d899b04caa0e270c5d3d82d7264ccc81c9ffc2064ca859c5a71a0ecdace",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ckb-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "79a8f3df49dc47239957739d7651699d710661a4ba7ec1b473c9c7b67c844274",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ckb-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ckb",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12374,13 +12392,13 @@
   },
   {
     "name": "libreoffice-fresh-cs",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "d2c8a91c862fab641d227149cc0cfa913cb0dfa7faba68738447c1bde1acbdf8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-cs-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "6bbc215a5955b048b349ac4d3009e1cea012f599214da4d34983f78f036371ce",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-cs-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-cs",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12392,13 +12410,13 @@
   },
   {
     "name": "libreoffice-fresh-cy",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "109798be8b2caaf2e4f396046d8380b9ecc5939a09c62ced9963bf5a788bfbed",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-cy-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "10b09fe42b9189b687534839069ff89232c4206ebd9f9546c65945f8712e0932",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-cy-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-cy",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12410,13 +12428,13 @@
   },
   {
     "name": "libreoffice-fresh-da",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3b19beca164915eb71fba7d11f7bd81dcddaae3a506d9b5a287f06174668ef2d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-da-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "ead170a29740a24f92e554b657399974f34386169c0b9bb0d89e233696dac28f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-da-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-da",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12428,13 +12446,13 @@
   },
   {
     "name": "libreoffice-fresh-de",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c5f26210a1988330792ac72b1e4390f90afeb178e64ef00b81d3b83f62d85175",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-de-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "a5236f7a473393b9c410e108bafb67a7e19d54a45f398f8e32f0450b2dfe4905",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-de-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-de",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12446,13 +12464,13 @@
   },
   {
     "name": "libreoffice-fresh-dgo",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f15e8fdb8fbd5ee5758fe69ba36ecbd9874cc4972e1162e18319b50876a9a068",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-dgo-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "c5bccf1f70c32046380cb986fd59453d5d375c85b66b2bd38ef2d19b155a9a9e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-dgo-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-dgo",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12464,13 +12482,13 @@
   },
   {
     "name": "libreoffice-fresh-dsb",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b43e28d9718321dbdc227ff377282cd7e3b1a53f5f06bd85a43b7f454a6f7ddb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-dsb-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "0a62d4819b3b0eee404ceeb3ba3a6727d3343b92f821e7c2b2af790ead833502",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-dsb-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-dsb",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12482,13 +12500,13 @@
   },
   {
     "name": "libreoffice-fresh-dz",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "20b4dcd4b7305da9777298d8b652f7fc6a946ab9472474c56a89550874ac5eb5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-dz-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "f07b8edae4c19d4508ca30c317ddcf03a8f2c49948e01cbf725001ccb917f29f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-dz-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-dz",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12500,13 +12518,13 @@
   },
   {
     "name": "libreoffice-fresh-el",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "eff70a6283803ac798f24258428414f1c76b60e8c78fc4512e6d5269dfb1bc3f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-el-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "3ee0c4bf67f9f40e1c564053185c10a49e8f0d145295f669be5a6eb703aa7c87",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-el-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-el",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12518,13 +12536,13 @@
   },
   {
     "name": "libreoffice-fresh-en-gb",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "5c6848fda8a9f5adf423acc8e7d70243a210a43be1e957e76fa9d169ddabd477",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-en-gb-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "c279c89f588d57ef157c2f54927774a18239436f8eb5c663bd473463a259ff74",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-en-gb-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-en-GB",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12536,13 +12554,13 @@
   },
   {
     "name": "libreoffice-fresh-en-za",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f7733d8bd9422b503791fc3a030f7589536b23df841416821cacfd9046874a8b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-en-za-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "4dfe332c52be24c209e533e0aa95520242c75e2aa10a41faa34857f45a6b00f7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-en-za-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-en-ZA",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12554,13 +12572,13 @@
   },
   {
     "name": "libreoffice-fresh-eo",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3e43f39ca7442013ad22d9f44d30b454dc72b5c6ef523986ba17b036dd28ac3f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-eo-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "661a2c00fd430cef673251a5d76368b7cad2be776aaeff92b80fd73bb9072fff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-eo-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-eo",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12572,13 +12590,13 @@
   },
   {
     "name": "libreoffice-fresh-es",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "63a63f238ae1fb7e16a2bd0d09b5f28a13c145ab4900816fb1f04e7f077a8545",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-es-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "14c740143273e042a00f47f988f5e0aeb2884a9858bfd95c9dd72ccf907d5476",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-es-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-es",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12590,13 +12608,13 @@
   },
   {
     "name": "libreoffice-fresh-et",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e25afea55992c418b7894eba7da80afb7d73938b7d40e44177b6fb1729d908b3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-et-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "4564902e617d04781c30dfd54b420dbd8772d1fc1d68cf7b045ed6b36b04f965",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-et-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-et",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12608,13 +12626,13 @@
   },
   {
     "name": "libreoffice-fresh-eu",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "9d2915b81e51e192e248a0b2cb68a2e12db8bd634560fcbcb7d8d154672d49a4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-eu-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "01575ddbb4d709a8fac4b82a1244a37979613284d492e8ce902047498feb70a3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-eu-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-eu",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12626,13 +12644,13 @@
   },
   {
     "name": "libreoffice-fresh-fa",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b1c16e9777a5331966f30ae9205efdc54eabeb87116e008342c54516403c984f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fa-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d186435bf9834f3f9f5516e47d73564ba5fba74ec8cc85500d9348a21110192b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fa-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-fa",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12644,13 +12662,13 @@
   },
   {
     "name": "libreoffice-fresh-fi",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b4f40f59df7c8335863d7b6a2921c9f413eb4ee31f6a50bbfba4ddd39f321a2f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fi-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "65d0965a41e10531875ed071908b8b43e7db24b6ef801b0d956dac889f663d49",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fi-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-fi",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12662,13 +12680,13 @@
   },
   {
     "name": "libreoffice-fresh-fr",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "08aced1730c12d2a0f8f71aedfe683291ba5105d210704965bc47278804bf3a8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fr-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "8333d8b24cfadcadacbf5ab76891279151ba36a308db60426a176f4c3e56396b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fr-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-fr",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12680,13 +12698,13 @@
   },
   {
     "name": "libreoffice-fresh-fur",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "87f8f92ce0d251d850ddb2a753108183e2c4c9b6c67474c20e48618a8e7aeef2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fur-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d876df0f158cea51a3703920e5eed46e411acc26c8171e373172e17917eb8cdc",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fur-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-fur",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12698,13 +12716,13 @@
   },
   {
     "name": "libreoffice-fresh-fy",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "424354361560291cc84d83c8dc8321a0f4dbce82d266d1c20bb2ccc5040568d6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fy-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "9115d4723d4d928927ce485546fd07cf0ca18cfda42de7d96c8f438a80ab9928",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-fy-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-fy",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12716,13 +12734,13 @@
   },
   {
     "name": "libreoffice-fresh-ga",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f4aca812c089894d9b9d9afe47d08232d419d0ec4590ec7dbe96e8bdaa7f6f29",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ga-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "1efe2145e1f26f012f4e7084c379c2a73ab2e7ab0f96cf59d7ec50e77e7fc901",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ga-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ga",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12734,13 +12752,13 @@
   },
   {
     "name": "libreoffice-fresh-gd",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "20fc9140ac8a60421400f6105012614d1490c4fdc7a80251abcb73f437431e3b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gd-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "cf032346cd9d8b51ce72bd3d0e2c5a94c5fd7537482f4bcd0be746c5fbf1a9f0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gd-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-gd",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12752,13 +12770,13 @@
   },
   {
     "name": "libreoffice-fresh-gl",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "91b7b06e67f80fd216d648bbdc0dc1f647acce41fb6944f18248457afe9e7b6d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gl-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "e22a9040f8eb9d4da41317ab8006d9f0fb108c7b0129c46d73abac4132bf343d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gl-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-gl",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12770,13 +12788,13 @@
   },
   {
     "name": "libreoffice-fresh-gu",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "d422af7075092786d1be5d28568890bab72a21af373f6d792e5e6a3797031f2f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gu-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "3fc732f919a9be2760a275a475e21b589029afd85effd19b38c8218e40da33ad",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gu-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-gu",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12788,13 +12806,13 @@
   },
   {
     "name": "libreoffice-fresh-gug",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "003948734ef43995c06b32d0a910d836e4bc9c0568f53f184d6eafe108f02b49",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gug-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "0472446d7e34721da14daf3fe4686beb528464e6a6a09a97774d38a5add11d44",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-gug-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-gug",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12806,13 +12824,13 @@
   },
   {
     "name": "libreoffice-fresh-he",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c32b3485e1871535bd04f77701a0d85e2e938692f8cc50e1adaa10e8ed1e5238",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-he-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "39acd40a86790268ff3bddc979fc3dcc80e446411da81d66168a5c8b7f63fab2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-he-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-he",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12824,13 +12842,13 @@
   },
   {
     "name": "libreoffice-fresh-hi",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e18b1b1e3a20cd922b6955a0b9500f06796c0f79b6f00575e0d19f52d70626c9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hi-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "30a4a0afd17561cbb3a5b22c722bc94adde0e90f4ed2aa0df17ff24d2a247d83",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hi-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-hi",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12842,13 +12860,13 @@
   },
   {
     "name": "libreoffice-fresh-hr",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "078a5a828795306d8b1e97ac62330fb7eaf18c1b87d35ad30b26780f016ae6a0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hr-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d79ba6b7b2fd260712f9c8bb117d7d8ea40e5ae546b3f73e5be4e9d6b6ebde6f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hr-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-hr",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12860,13 +12878,13 @@
   },
   {
     "name": "libreoffice-fresh-hsb",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c8ae67c97c6425d428fc6fe242d402e3914f9d0b46fbdac9fae063a1aa6b6694",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hsb-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "6e4fe18a5c284ba91aee95bd7ddb63e7d953f70b7962feed046dce36e50fcba9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hsb-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-hsb",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12878,13 +12896,13 @@
   },
   {
     "name": "libreoffice-fresh-hu",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "29fbbf470ce9a78959b48fb11b18f324988548eae263dc77ed4fc176d751f754",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hu-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d42d13cb54a57df0d5f2cdc152ad20bed2d2fa94008745a91530a1859c966c5a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hu-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-hu",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12895,14 +12913,32 @@
     ]
   },
   {
-    "name": "libreoffice-fresh-id",
-    "version": "26.8.0-1",
+    "name": "libreoffice-fresh-hy",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "90fdcc003d97c785cc65d8c3de667b71eb2ad7526c292a7c5e3813a0aa53b498",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-id-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "83641f79e82f7262d9d67fe413872fb7fcff7dee24ad51d19841c191b8f21556",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-hy-26.8.1-1-any.pkg.tar.zst",
+    "provides": [
+      "libreoffice-hy",
+      "libreoffice-fresh-i18n=26.8.1-1"
+    ],
+    "depends": [
+      "libreoffice-fresh"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "libreoffice-hy"
+    ]
+  },
+  {
+    "name": "libreoffice-fresh-id",
+    "version": "26.8.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "b466c9f2b3c00b43c53186f7773b98c7b667168a187cdb12fb89c97d27fe3dca",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-id-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-id",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12914,13 +12950,13 @@
   },
   {
     "name": "libreoffice-fresh-is",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "41e46d820c729e59e688a17082f45f62b497cdbcc92454768cb8b9474557a7b2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-is-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "1e3352b7b825b991eb22a967e00ce7169375e01c6f879df7ba240f6868380bbd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-is-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-is",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12932,13 +12968,13 @@
   },
   {
     "name": "libreoffice-fresh-it",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8373e0a364e43e849c91fd38d20decac20f2f2bf3a50e813835d688459c60388",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-it-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "966eaeda70182d7beef4a0addca548223d62f7702346153316b045b36a8129f8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-it-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-it",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12950,13 +12986,13 @@
   },
   {
     "name": "libreoffice-fresh-ja",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "64de39b0ba76ccd4a2d1fb7184aea4fabe52e660f365b3336d0112ae93c99f64",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ja-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "f4b2dee674730ec781f79b99360dbd82138202d0b2d193ee3773ac03ced5bf63",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ja-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ja",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12968,13 +13004,13 @@
   },
   {
     "name": "libreoffice-fresh-ka",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c4d83da656e87e9fb409232a7d717718e7fb6845af57064c4d82ba821f279f58",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ka-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "595ac02d61b89b6656852332669a771714d0862ba31a4f8c4de02e9fcf5adab2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ka-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ka",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -12986,13 +13022,13 @@
   },
   {
     "name": "libreoffice-fresh-kab",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "60275286a7c94de34a256702ffa7bbcee7f3d476898c833b040d63288f75ba82",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kab-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "3836997a55d103dc903179ae991e3ce30a5e70db35de3eaee584cf4b121ade41",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kab-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-kab",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13004,13 +13040,13 @@
   },
   {
     "name": "libreoffice-fresh-kk",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "256e262072d02ba91bc2e58e94ec0359964c506447a0ac59dcabb778a53fc5aa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kk-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "2830ea436c955549182a5b3fca3bdb3f9d9d903d56698ead665cb6b66d4265d7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kk-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-kk",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13022,13 +13058,13 @@
   },
   {
     "name": "libreoffice-fresh-km",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1c7c68ca44ea4dc81180ceeabe958d888bad6a0f51685a693b684335f3da5c01",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-km-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "dc4264b7ab31329cbd4730c0b6a09aee92f3b865aba20aa9cd38e6a4dbec6846",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-km-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-km",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13040,13 +13076,13 @@
   },
   {
     "name": "libreoffice-fresh-kmr-latn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "51ba73d78b2829dbe64d31d1ee711308889f19cab842a822d316a39e8ddc750c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kmr-latn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "e4c7c928d279167ef5c32611c45034972d4af68d631a290d11ff164c7748a196",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kmr-latn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-kmr-Latn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13058,13 +13094,13 @@
   },
   {
     "name": "libreoffice-fresh-kn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "54c1099a933514768d593aed036d01c5dd2df4a5c48d36839120acc8c0c40a95",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "fd2cd8740afc0573afd20609e784848953f3f0efba86be232640418cbfbc6541",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-kn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13076,13 +13112,13 @@
   },
   {
     "name": "libreoffice-fresh-ko",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "11ddeed20a1d5dfc81d365e28b9cb26f07d5f0efec3d4f018d3c172044134fe2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ko-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "30071b94d476fef4f3c2c735508e90a32aeda1e88bc811361a327be12d52d4e6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ko-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ko",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13094,13 +13130,13 @@
   },
   {
     "name": "libreoffice-fresh-kok",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fdad59f46348efc50bac32e35237baa65011248be793d4134e9e14d6d2155f5c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kok-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "45945d4482e8c2fee1eca050836d4b539bc9635fad09ac08e5ea5673696dbe63",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-kok-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-kok",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13112,13 +13148,13 @@
   },
   {
     "name": "libreoffice-fresh-ks",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f846552c31dc46dafaa159119c379ae8e685ef3b6f1be2ad80408628261ca670",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ks-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "c61d3b394a0cbd70a302e3136e83ef6d621adfa582e288c49d295cbbe6c64e7e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ks-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ks",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13130,13 +13166,13 @@
   },
   {
     "name": "libreoffice-fresh-lb",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "76383539d7fb67181f4e8df5c5361a329bd9bf105841b9163d4171f7c6df2d24",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lb-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "c73c5dc822043ba3fe69afdf1030de1c4fcce8b70ac11cfec5ffb20be0036310",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lb-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-lb",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13148,13 +13184,13 @@
   },
   {
     "name": "libreoffice-fresh-lo",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "209ec1176c1d9a20fa26096022b1745e6acd3aa4e8082e940fcc01ee66b2fc99",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lo-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "37c6633491ff2ebeaa72786d2fc70ea9a1649d1b7d9210cb7d67a8bd1bca896c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lo-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-lo",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13166,13 +13202,13 @@
   },
   {
     "name": "libreoffice-fresh-lt",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "0a8febab9e850aa851dcda34d20ef96c0a40d90a15311483ea3898446c8ae075",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lt-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "04d846655829f15e10bfb9128f3ee95b1f191da38c1d99cad34549d3fd12ab56",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lt-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-lt",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13184,13 +13220,13 @@
   },
   {
     "name": "libreoffice-fresh-lv",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ea3135d14bec48a265f666e00fc8d0830bd2e7602fb6449de5949f351672d066",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lv-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "b2393bc95e442c8f37710283099d757ba2a84fd0355e3fa8076364c54f3702e7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-lv-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-lv",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13202,13 +13238,13 @@
   },
   {
     "name": "libreoffice-fresh-mai",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "2348fe021b3f05e899e6fd35af55b3b3655d7630284322ce8f2156c383cc6346",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mai-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d8913d1277abb5226496ada88e9d98ffbe50ee51a658672373b1302fecc0ea05",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mai-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-mai",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13220,13 +13256,13 @@
   },
   {
     "name": "libreoffice-fresh-mk",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3701d2580330eb011ddf9b1ef6803a087eb9363384b5878551c1f73c5858e341",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mk-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "f6cf2418d7d5b3900aea4958c18bca285f9f50a34644f925ba5ae057a1aa25e8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mk-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-mk",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13238,13 +13274,13 @@
   },
   {
     "name": "libreoffice-fresh-ml",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6b18dc187f79f9b3e41641fc21e8aebcba1c2535daf62c28ce4dc8dc9bd713bb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ml-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "0c3c1e483927d29133516873f6d97465592f0b955c69ccc5831cd75a6b61f252",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ml-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ml",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13256,13 +13292,13 @@
   },
   {
     "name": "libreoffice-fresh-mn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "92837754cbe03a872a311f78c2da6398e64b296ec26192e1602ffb93101ff5bd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "9d0f4f209515efae45d04667563521a9721f77b844ce6d804e601226e87927d3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-mn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13274,13 +13310,13 @@
   },
   {
     "name": "libreoffice-fresh-mni",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c804887e40dd48e397e88c5a51443088e09b1f47bd3f2f26181430caa39c2af8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mni-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "39687a8b64993341c7232a192637a4e55e78009cb4667e909145d2e14e70562b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mni-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-mni",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13292,13 +13328,13 @@
   },
   {
     "name": "libreoffice-fresh-mr",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c3e8b23fc670ca79fca0f958a088435bb18e79cc1a81bf1c1818594e648bc172",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mr-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "7ccc79bd51ab8d2db26d51b512e440f383acf106849c0ea82f56992b32694568",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-mr-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-mr",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13310,13 +13346,13 @@
   },
   {
     "name": "libreoffice-fresh-my",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "95e85c8cd0a474a1442b6e1235d498cc4f56fd4f5c1e1e7732fba5318319e385",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-my-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "2b848d33308a3bf070d08da0d11bce3c628bf2ac8fa8b9073366e1da011addbf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-my-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-my",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13328,13 +13364,13 @@
   },
   {
     "name": "libreoffice-fresh-nb",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a925300fc2db1ab7a783601f0f321424d5dddcb2af5b108f0ee7906b9ee1ac04",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nb-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "b7f6d88d7679cefb8a8d2df00737a12e8fe9dd42ac42dee31838f12acecaf07e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nb-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-nb",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13346,13 +13382,13 @@
   },
   {
     "name": "libreoffice-fresh-ne",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cb9d8766a1a02987e647a8d84e17e541c90f8850e72f552e87e3ca363cc04330",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ne-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "ae7c58f87c457ec854fc8a9366ac0f264e4eb12144269268afafb9797ac8b84a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ne-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ne",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13364,13 +13400,13 @@
   },
   {
     "name": "libreoffice-fresh-nl",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e35954bbd9a7e058713f22a898d3478b1f6a98d43748d19fc75e48e456519a7a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nl-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "765a54428c3c9e9de2d318ab6f91f9c7701949d57ed537060f5486d167fdb541",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nl-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-nl",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13382,13 +13418,13 @@
   },
   {
     "name": "libreoffice-fresh-nn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "61d8e5296ca978611f8540463f430292e11408ea6517c189975d0cf29af4eeaa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "ef95bcc0c9dcde3dc43750c5c7eb8522b50b2e5b451ada0507a438d2f8f83c24",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-nn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13400,13 +13436,13 @@
   },
   {
     "name": "libreoffice-fresh-nr",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "0717b27ffc218f69f73184c27197e3815710fc6b9ed9093fb71cd401cda9faa4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nr-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "2563e6d2e283e4d1776212ef1ecf0c2b411017b8fb16edadddb63e1ccdde50b0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nr-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-nr",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13418,13 +13454,13 @@
   },
   {
     "name": "libreoffice-fresh-nso",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "57ccd39382e46d5c7a6c2d6cb4dca8eef08d5b213c5ee317b7bb3c37fe0cc961",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nso-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "68cedae6460f382928a42e5aa520f38eca560c60bcc58f792ab2fbe97f6f8237",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-nso-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-nso",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13436,13 +13472,13 @@
   },
   {
     "name": "libreoffice-fresh-oc",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "acb592ed680ea24ea83949982d09a6526dcba5beb3db43f6e5307e0d89a77112",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-oc-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "a2e47cf9c9242a8ca81dc6b0eb899ee3f882e047d1b24fac288da6fe07865905",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-oc-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-oc",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13454,13 +13490,13 @@
   },
   {
     "name": "libreoffice-fresh-om",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6aa2afcb1c7db64d32ae928a0da04a2665b1324604c62145e6bc8edfb57d745a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-om-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "abb8c07aa4f13349154b88c087b3cb3c9e5b0edf119753c795bcaae3d21d3ef9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-om-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-om",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13472,13 +13508,13 @@
   },
   {
     "name": "libreoffice-fresh-or",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "77f62fd8765f643cd56a2c6254542eff2606b11762f70a07f94ada56e2396075",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-or-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "166ba6f8f02d24ac6da3e115ea87c1fe4efbe42584bf3916b4540fecf08b7a96",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-or-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-or",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13490,13 +13526,13 @@
   },
   {
     "name": "libreoffice-fresh-pa-in",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e260bba5b994638d571ee371402c4f5c8597aa33b8a274bc9c58474bcc421d15",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pa-in-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "6e6c2c89fdb5386d47421ef75304a6df2c1af8b8b8afaaa704dc934efd375e1c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pa-in-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-pa-IN",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13508,13 +13544,13 @@
   },
   {
     "name": "libreoffice-fresh-pl",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ae7aef6928f8d211be0784ba8f6ecfc3563c20a47c2fd38b3066ac414abf2edc",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pl-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "18ae058358c8b8c096cbb92c4d508ad41d697ce7da2c5e751ebf6816fc30c108",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pl-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-pl",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13526,13 +13562,13 @@
   },
   {
     "name": "libreoffice-fresh-pt",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1711afa88e399e9a54e23cc6c612467c97d4c3b499f59e023c1537ff01cca0df",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pt-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "af08956e2d4a68f8354bae1d2162885a33102c460570306d24aca0b7d156d61c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pt-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-pt",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13544,13 +13580,13 @@
   },
   {
     "name": "libreoffice-fresh-pt-br",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1c76b2f5c5c09276ebe659a1ac8a8ef8f4e0983a80ac1ea36f93c16ee278fecc",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pt-br-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "5660df4a710bb906592db8c278ec4792834cdc896c6d4bd615fa88e20ad396fb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-pt-br-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-pt-BR",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13561,14 +13597,32 @@
     ]
   },
   {
-    "name": "libreoffice-fresh-ro",
-    "version": "26.8.0-1",
+    "name": "libreoffice-fresh-qtz",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "572966e6192ad055ca12c8f132c48f8622fa69f671e5a10e21f724efc4f6f942",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ro-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "c05bff59a9bf4706f7644a40256053c7baa73ea1c47339d541f05c8231214943",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-qtz-26.8.1-1-any.pkg.tar.zst",
+    "provides": [
+      "libreoffice-qtz",
+      "libreoffice-fresh-i18n=26.8.1-1"
+    ],
+    "depends": [
+      "libreoffice-fresh"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "libreoffice-qtz"
+    ]
+  },
+  {
+    "name": "libreoffice-fresh-ro",
+    "version": "26.8.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "26bd64b8a90906dfa7084e15745d44814d849b543223b7adeb74f5d5b177d138",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ro-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ro",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13580,13 +13634,13 @@
   },
   {
     "name": "libreoffice-fresh-ru",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "5ae21011c89502b647335191aff69e5d37ab9ca1079ff5631275166f7a077e9a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ru-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "4a3df9881599ea0206c3dcc32d52e946a36514e67c4efc6902e2eda597ede536",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ru-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ru",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13598,13 +13652,13 @@
   },
   {
     "name": "libreoffice-fresh-rw",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "83e8b47b4aa72bb07e8ded49061493c1bc1cebc7b046af5c5304cc9bf8a1e318",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-rw-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "f6e53d5da4cbfb123f30002eab0f7b500948069dee140f4f13319a5a1463611f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-rw-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-rw",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13616,13 +13670,13 @@
   },
   {
     "name": "libreoffice-fresh-sa-in",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a6b10bbb6ecf6e76334d86387ddd63fe7169b7d638e5fc7340fe656322ee1f8e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sa-in-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "6547b8c1132c5b2cf4f4d444d03b31ec6e363adff959bb4f67404b166ebcaa3f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sa-in-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sa-IN",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13634,13 +13688,13 @@
   },
   {
     "name": "libreoffice-fresh-sat",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3e318579bff590eb7274a948619453a8389f473ccaff888488482ccc073309de",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sat-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "7cc4cbd25c741e8ece0f46b3374a13b5832c60bea013e9af81c410db74a94444",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sat-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sat",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13651,14 +13705,32 @@
     ]
   },
   {
-    "name": "libreoffice-fresh-sd",
-    "version": "26.8.0-1",
+    "name": "libreoffice-fresh-sat-olck",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "9b797a842eaf0fdb0beb67296e286fbafbfcabf41cc8e5b523fd3daf7b6f5bbe",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sd-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "4a58b9df16adba78c2b20461b720cbc8801b8f9c0bb60b6b5484cfb8d2807b85",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sat-olck-26.8.1-1-any.pkg.tar.zst",
+    "provides": [
+      "libreoffice-sat-Olck",
+      "libreoffice-fresh-i18n=26.8.1-1"
+    ],
+    "depends": [
+      "libreoffice-fresh"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "libreoffice-sat-Olck"
+    ]
+  },
+  {
+    "name": "libreoffice-fresh-sd",
+    "version": "26.8.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "f5f69c79bb3fc6a214fe51cbe38c82aec37b0ac36780197d347c2ad3a1ec74e4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sd-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sd",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13670,10 +13742,10 @@
   },
   {
     "name": "libreoffice-fresh-sdk",
-    "version": "26.8.0-2",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e9d51aef9e58d01e7594801c6abe6b77a2dd463db7659dd7c1b960ea9fc170a6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sdk-26.8.0-2-x86_64.pkg.tar.zst",
+    "sha256": "a61bae5465c381a440e98b78e502c4f426adfba3f4ee23dfa8a128c72f130c91",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sdk-26.8.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice-sdk"
     ],
@@ -13695,13 +13767,13 @@
   },
   {
     "name": "libreoffice-fresh-si",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8ff0db00cc4b8038ce67f67660f733145cb6b671b68647b0873fe5cad606b2b9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-si-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "55025b2215b5f1add72bea52bbfd43873a90c13116a5f125bbb7c79cf1d88383",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-si-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-si",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13713,13 +13785,13 @@
   },
   {
     "name": "libreoffice-fresh-sid",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cc5c52daac0e0508b3889b144395ec0f3113a21cdf855ebba6a55d2aa6383e7e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sid-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "1889ac8bfa30e08f954240bb11d0929d2cf87a136ef1f67728b6f81e78cc21be",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sid-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sid",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13731,13 +13803,13 @@
   },
   {
     "name": "libreoffice-fresh-sk",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "5996125b4833d0a0c468fece35af5e5031b96eacbca86fb45ac7a8ae86344ab5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sk-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "0c48c60857fc7b8f13de20dae2861cee628fda3c9940f75f291ff6bd9d07a55b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sk-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sk",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13749,13 +13821,13 @@
   },
   {
     "name": "libreoffice-fresh-sl",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "38805e77e9d41ae35ee07232b54468f4ee97f7eaa94d29746754380cc0b03557",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sl-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "eefaa1471b81335bfe001fc9566b1d7d50d581f95e8751bdd6e5dd6ca72e3054",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sl-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sl",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13767,13 +13839,13 @@
   },
   {
     "name": "libreoffice-fresh-sq",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "88d1ae5f1de1621635a6b97f0109cc378b51d015aa0ee670ac19d26bbdf282d7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sq-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "163a25d552564ac3b1655e05e905e9ead0fd39db60d3f378d6e7cc4e5bb001ed",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sq-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sq",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13785,13 +13857,13 @@
   },
   {
     "name": "libreoffice-fresh-sr",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ce3ddabe239f2bb3b325877b599220db64e90bd2a3cebe7fcd4c149a18d9361f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sr-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d17dbafe0847f09324d3139329e28cc6e1c7f110663e1ea16d126315e7b371f6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sr-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sr",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13803,13 +13875,13 @@
   },
   {
     "name": "libreoffice-fresh-sr-latn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c55d1352a617816064361a5e776d7304980e35be4cc0ca4bd5e4c5d9f95c737f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sr-latn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "59d5e670763fd0c8880ae0d4d41fa781f0abc50ef5ff48a842c6e8acd2e3c6bf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sr-latn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sr-Latn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13821,13 +13893,13 @@
   },
   {
     "name": "libreoffice-fresh-ss",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "7a180fbcd92fd352cd26647919c9ee91419cfddd5e51af64479f9215c33ae598",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ss-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "9a0baba046965bb6cf9528bef630ee9ade3613a4b17fcff06a11015e179b2d72",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ss-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ss",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13839,13 +13911,13 @@
   },
   {
     "name": "libreoffice-fresh-st",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a3a902834f3d2ca3e6ae4f588c43424989804e41d09881cb0f275cad922b5cc6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-st-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "548de8c5f39431549b14c80f48e3e35e7d7dfab314d1d15369154385a88a83c9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-st-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-st",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13857,13 +13929,13 @@
   },
   {
     "name": "libreoffice-fresh-sv",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "71bcb845098455295499d91e1def40bbbb0d8e1812b5a350da78fccc4612d681",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sv-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "e5bf95cfe2a9ac54b672936c35298e7dbd8b5e1779f4e2ded6b1a27dcadb8c4c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sv-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sv",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13875,13 +13947,13 @@
   },
   {
     "name": "libreoffice-fresh-sw-tz",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "09054ce983127abacca74f8fd0cd4a7c60d0d4478196d872be13d168c033ba48",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sw-tz-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "c9ecb2d3f5b2d53ae018a25c1f8e0a5d79e78198f4ef03cb5708cc52a254489a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sw-tz-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-sw-TZ",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13893,13 +13965,13 @@
   },
   {
     "name": "libreoffice-fresh-szl",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "760970ed23b0efeb1229beb791576094dc0e5d5cd39732c47339bfb8d062b538",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-szl-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "2a064e6480265b0a2bbed450bccb1ef8198ebd749718daccfeafdcd230a2338a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-szl-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-szl",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13911,13 +13983,13 @@
   },
   {
     "name": "libreoffice-fresh-ta",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6bc28ead7fe8c9b467698eb85978a7ddcb95c319c46482f6d736af3495c23dd2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ta-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "7e0bf0ccf981b17171414b5fc01fcbcd2b773a6231658e0765d42fbe110c4109",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ta-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ta",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13929,13 +14001,13 @@
   },
   {
     "name": "libreoffice-fresh-te",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "24ebf9cc469a078f32e5feb6a94899153b6bcdaab3caedefe6877bd0bea545ba",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-te-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "d23382155f34c1d78ab78614d314246b298cce37470721530df3df61c74fd471",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-te-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-te",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13947,13 +14019,13 @@
   },
   {
     "name": "libreoffice-fresh-tg",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "5cbe516eb0dc5a30aefe77a5ddffd209417f1b091cdbde573f3aa33e883988cc",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tg-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "214e1b3a211a0f1af82f33d2a95dbd88c3f2e31da4405b4f1cd04c45ff031f47",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tg-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-tg",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13965,13 +14037,13 @@
   },
   {
     "name": "libreoffice-fresh-th",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "5f05a424d8a66eed3e2a6e06a60465613f34d202c68aa8384802f76cee0f928e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-th-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "592a04cc5f053a8315c8cad49bd0b4cc807b0132a2bccbdf07aff546953ee956",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-th-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-th",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -13982,14 +14054,32 @@
     ]
   },
   {
-    "name": "libreoffice-fresh-tn",
-    "version": "26.8.0-1",
+    "name": "libreoffice-fresh-tl",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8d31f98aa89a340a1cc1463ffba8bbdab494731072e38aa231624b69158b1a72",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "9afd769f0a16130482c84c1d1f8b3f63bb17a449ed4a0b66a8e67e58f9cbd3a4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tl-26.8.1-1-any.pkg.tar.zst",
+    "provides": [
+      "libreoffice-tl",
+      "libreoffice-fresh-i18n=26.8.1-1"
+    ],
+    "depends": [
+      "libreoffice-fresh"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "libreoffice-tl"
+    ]
+  },
+  {
+    "name": "libreoffice-fresh-tn",
+    "version": "26.8.1-1",
+    "origin": "artix-galaxy",
+    "sha256": "347bc8d51d9d8f806a2e50d2a35a245442664a4fb1f410c7e18a2ad60f772cd0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-tn",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14001,13 +14091,13 @@
   },
   {
     "name": "libreoffice-fresh-tr",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "22f01d35700e771ecc137cc27e2f6f4c9b55eddc5f30ccd027e26bc8d733c850",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tr-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "17f3bb27e63889201e0d0116f5f26e33837c7206c17c0eadb3ca0a05458de134",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tr-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-tr",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14019,13 +14109,13 @@
   },
   {
     "name": "libreoffice-fresh-ts",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "84c89e2aac4e44ab69ef8f6d3ff67215cdbab5cd325dff165ed41f49114d073a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ts-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "a5a401521abeed0461bce8cfc756afb0b19478667ef431d0e3e99ba10203398b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ts-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ts",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14037,13 +14127,13 @@
   },
   {
     "name": "libreoffice-fresh-tt",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "66e632c4d6c40efed984e284fdbd775d21616489d0d059973c0815d511736fa3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tt-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "4f96dfa41c5807374a5c69c58c7ecb5a1620116b2f4f97403eb2d1a72b50d094",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-tt-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-tt",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14055,13 +14145,13 @@
   },
   {
     "name": "libreoffice-fresh-ug",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "09822d29b189556374595e865da4c1dcd8883e89aac585ce62e85ff0860f3224",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ug-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "7dcb1da809cd32c053a37c384414b5a61b80e9ecf9a50c2bf963dd9e58e3ee5f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ug-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ug",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14073,13 +14163,13 @@
   },
   {
     "name": "libreoffice-fresh-uk",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cac8de5672cc4c898228b5c0ede936958c2e06817d713e5c6a86ded04abc0c2f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-uk-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "2292d5bb7dfdcdb237130aeee2202d1c847d3cf13e64f6e1690a8fbdda38bf8f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-uk-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-uk",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14091,13 +14181,13 @@
   },
   {
     "name": "libreoffice-fresh-uz",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a0e268b4a1d038362a1405daf4039996ec0b2dedccc1c5ce2da3e3115dccb436",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-uz-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "954834571adcf846cd5b84417591bcba5253d0049aa0de19af5ce74f7e61ee05",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-uz-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-uz",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14109,13 +14199,13 @@
   },
   {
     "name": "libreoffice-fresh-ve",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "02a4aec04d6c53490d4a22462e37959fb2cde8acf467be7e40d126e5b4faed79",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ve-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "ac89ee8b4d4dd352a80e0fad6def29875fd13f59a7648ea643f96b9baccb2394",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-ve-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-ve",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14127,13 +14217,13 @@
   },
   {
     "name": "libreoffice-fresh-vec",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "17b2bdcbe9f63d3c462676d15f21e69d551acf4d0aa6f172b9d04d6156cddaba",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-vec-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "139c87c6ea1d78a6403dc84aa5e9c7dbb855ee4f114d05ba39200ddd2e4678a4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-vec-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-vec",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14145,13 +14235,13 @@
   },
   {
     "name": "libreoffice-fresh-vi",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "dca4b2722ab996e7b6e53059b222aef22f1f2b04a8171b55d3c8509e2966d0a2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-vi-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "da9880bfdebddf5e5a8b59aa92eb8dc84cbe244136af6a7ea4ff4717cfd49f82",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-vi-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-vi",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14163,13 +14253,13 @@
   },
   {
     "name": "libreoffice-fresh-xh",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ef6f06bab0c5707af6a78f23007ec2ff6a0a6b40f8a884ad1b51f69d596151d6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-xh-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "ffedd3e4544d870798c0a1c4a6b6fca4f74d0145bb942bb994c1714cbae6b395",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-xh-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-xh",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14181,13 +14271,13 @@
   },
   {
     "name": "libreoffice-fresh-zh-cn",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "14d2d834e4b93c179e432ad803d73cc6df9cfe7d870244a4e1abaf088c1124b3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-zh-cn-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "739d201f20a4fd284ed126f78e9827188efe441fb1c7cbc7b6bee1f0787520f0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-zh-cn-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-zh-CN",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14199,13 +14289,13 @@
   },
   {
     "name": "libreoffice-fresh-zh-tw",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cabe0379ff6db04baee378e4fac1d1bc086f38c0d346e3a337a7b39db04dd8c0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-zh-tw-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "32012437b64779c87015195d329b09e164818f151df53e1c0c1bf75090893980",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-zh-tw-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-zh-TW",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -14217,13 +14307,13 @@
   },
   {
     "name": "libreoffice-fresh-zu",
-    "version": "26.8.0-1",
+    "version": "26.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6ac1bbde66d03d2a4ab420f3c7634ef910860fbcfc018b4118fa6b38142b0183",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-zu-26.8.0-1-any.pkg.tar.zst",
+    "sha256": "feb23ffe463d6cff4057e72cab321bdcfea5c1c7fb4a2702032b2f9c1ae48907",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-zu-26.8.1-1-any.pkg.tar.zst",
     "provides": [
       "libreoffice-zu",
-      "libreoffice-fresh-i18n=26.8.0-1"
+      "libreoffice-fresh-i18n=26.8.1-1"
     ],
     "depends": [
       "libreoffice-fresh"
@@ -31948,23 +32038,6 @@
     "conflicts": []
   },
   {
-    "name": "xf86-input-elographics",
-    "version": "1.4.4-2",
-    "origin": "artix-galaxy",
-    "sha256": "4521e98eb91a43f6cf0fabff899648df970ce2b6b8085761ffe7c5eda95e539f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xf86-input-elographics-1.4.4-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "xorg-server<21.1.1",
-      "X-ABI-XINPUT_VERSION<24",
-      "X-ABI-XINPUT_VERSION>=25"
-    ]
-  },
-  {
     "name": "xfburn",
     "version": "0.8.0-1",
     "origin": "artix-galaxy",
@@ -32800,171 +32873,6 @@
     "depends": [
       "bash",
       "perl"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "xorg-server",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "c0a9007b8ed4f3cb14cf606a6f76127bbf9dcb46f20a0050f3ef30ca5f33f958",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [
-      "X-ABI-VIDEODRV_VERSION=25.2",
-      "X-ABI-XINPUT_VERSION=24.4",
-      "X-ABI-EXTENSION_VERSION=10.0",
-      "x-server",
-      "x11win-server"
-    ],
-    "depends": [
-      "libepoxy",
-      "libxfont2",
-      "pixman",
-      "xorg-server-common",
-      "libunwind",
-      "dbus",
-      "libgl",
-      "xf86-input-libinput",
-      "nettle",
-      "libxdmcp",
-      "sh",
-      "glibc",
-      "libxau",
-      "libelogind",
-      "libtirpc",
-      "libpciaccess",
-      "libdrm",
-      "libxshmfence",
-      "libxcvt"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "nvidia-utils<=331.20",
-      "glamor-egl",
-      "xf86-video-modesetting",
-      "xlibre-xserver"
-    ]
-  },
-  {
-    "name": "xorg-server-common",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "fcf3411dbcad43d74abd2f319ef6ad7f8f2d968a7e6b5fa44288e693cf42f948",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-common-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "xkeyboard-config",
-      "xorg-xkbcomp",
-      "xorg-setxkbmap"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "xorg-server-devel",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "464cfbc50c20ccac3e49985116c6e8e0aece261d639899278843bd3f455241fe",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-devel-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "xorgproto",
-      "mesa",
-      "libpciaccess",
-      "pixman",
-      "xorg-util-macros"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "xorg-server-src",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "658c8e38f3c271c7ee8f078cc9fb19920298a8fa66993a0be338e2ae1ab190f1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-src-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "xorg-server-xephyr",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "cf1ae83366554fc581346a98c52d1be22537f5d6ca09d77cb30bcdab0ed24ab4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-xephyr-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "libxfont2",
-      "libgl",
-      "libepoxy",
-      "libunwind",
-      "libelogind",
-      "pixman",
-      "xorg-server-common",
-      "xcb-util-image",
-      "xcb-util-renderutil",
-      "xcb-util-wm",
-      "xcb-util-keysyms",
-      "nettle",
-      "libtirpc",
-      "xcb-util",
-      "libxdmcp",
-      "libx11",
-      "libxau",
-      "libxshmfence",
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "xorg-server-xnest",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "2a4639586447559d3f2e818d3266647b9efcfea44cfceb77254fe8695ff2179d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-xnest-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "libxfont2",
-      "libunwind",
-      "libxext",
-      "pixman",
-      "xorg-server-common",
-      "nettle",
-      "libtirpc",
-      "libelogind",
-      "libxdmcp",
-      "glibc",
-      "libx11",
-      "libxau"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "xorg-server-xvfb",
-    "version": "21.1.24-1.3",
-    "origin": "artix-galaxy",
-    "sha256": "c8b2f357f1b1d73c43678c8080f44934f0af70216469b077b4bab521caa5801c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xorg-server-xvfb-21.1.24-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "libxfont2",
-      "libunwind",
-      "pixman",
-      "xorg-server-common",
-      "xorg-xauth",
-      "libgl",
-      "nettle",
-      "libtirpc",
-      "libelogind",
-      "libxdmcp",
-      "sh",
-      "glibc",
-      "libxau"
     ],
     "optdepends": [],
     "conflicts": []
