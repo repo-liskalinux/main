@@ -133703,10 +133703,10 @@
   },
   {
     "name": "xorg-server",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "965a10aa333fe080b04e4311b678f7acf47bc677e529670cf33899e253e483f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "5a85201c3177100b2d598b3002508e9d409d7c958c8567a0766dce3146a86dfa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "X-ABI-VIDEODRV_VERSION=25.2",
       "X-ABI-XINPUT_VERSION=24.4",
@@ -133745,10 +133745,10 @@
   },
   {
     "name": "xorg-server-common",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "f8e42fc94cca27efd226b1dbccee03636d86e0831ea4c7849cdde11629cd5f47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-common-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "1e06c1d98bc3ba0286a04ccff9bbab53b5673817f4c32c2862902b60853f0393",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-common-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "xkeyboard-config",
@@ -133760,10 +133760,10 @@
   },
   {
     "name": "xorg-server-devel",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "bcfca27b03f4dafe0932f17fe12dcaa17586d8cab2331977f2dcfc1aeefc83f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-devel-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "b2268f33342c030146de89e0da75773079c16fd6a8386b99ffef467d97218927",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-devel-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "xorgproto",
@@ -133777,10 +133777,10 @@
   },
   {
     "name": "xorg-server-src",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "2608a074bfdcd8d079c66696d2e5ef4243d04484853bb3bce0f81f228f55fde0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-src-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "e707d7f911b9a864df2700fec302fa2e8019079d97dcdf59d9ebe9dbca26d92c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-src-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -133831,10 +133831,10 @@
   },
   {
     "name": "xorg-server-xephyr",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "d0001c12f8ef0cdde4c27bafe418d23e955f2da25aeb89245f81430b061792bb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xephyr-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "b0cbd0a14e9a1674c4f9ee6fd3ed27d9b1979168dd5763c7326c89e13ae92f1a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xephyr-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
@@ -133862,10 +133862,10 @@
   },
   {
     "name": "xorg-server-xnest",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "698edc7ce5cac7e3b840746d3a579ecb888e6cf79e9216abd5ee5925ae41fa7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xnest-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "065cddef305d99bca99438ea2323a28807940fcd12aca0ff43074fac37d3cbbb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xnest-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
@@ -133886,10 +133886,10 @@
   },
   {
     "name": "xorg-server-xvfb",
-    "version": "21.1.25-1",
+    "version": "21.1.25-1.1",
     "origin": "artix-world",
-    "sha256": "7042a111688fc8edc93febba82962ea71daa4a013e8abca62b579a2ae6290c37",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xvfb-21.1.25-1-x86_64.pkg.tar.zst",
+    "sha256": "72a9cec54ed12b964588243b7566c8338064f07dd6bfad1d1d307255c730d33e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xvfb-21.1.25-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
