@@ -12206,10 +12206,10 @@
   },
   {
     "name": "docker-buildx",
-    "version": "0.37.2-1",
+    "version": "0.38.0-1",
     "origin": "artix-world",
-    "sha256": "f0247de60e531d8fb45a7bc53670f02acdd05937b0bb63bf5a4f0b26a8b05819",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.37.2-1-x86_64.pkg.tar.zst",
+    "sha256": "514bf3d940d8195c93074d95db7a7a7ae6b199cf1b620450cd6790f43ceeb70e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.38.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -56167,10 +56167,10 @@
   },
   {
     "name": "memtest86+",
-    "version": "7.20-2",
+    "version": "8.10-1",
     "origin": "artix-world",
-    "sha256": "bdea0809a80e74847a387201905ae951a7fc52d5aa6a08a822ed090b3745d22f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/memtest86+-7.20-2-any.pkg.tar.zst",
+    "sha256": "8394ccd1e6c3bb68400e169b71d26e860528dad4f2a515f26e0ba92821f471b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/memtest86+-8.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -56178,10 +56178,10 @@
   },
   {
     "name": "memtest86+-efi",
-    "version": "7.20-2",
+    "version": "8.10-1",
     "origin": "artix-world",
-    "sha256": "6fb150f96b95ce8293bdb78b06b6c46c46886972eb0792a01bba025994c178aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/memtest86+-efi-7.20-2-any.pkg.tar.zst",
+    "sha256": "9beb709b953b722a5ceff3d48874b00660fd8a0bff34364b184016dba9f89ddc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/memtest86+-efi-8.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -56189,10 +56189,10 @@
   },
   {
     "name": "memtest86+-iso",
-    "version": "7.20-2",
+    "version": "8.10-1",
     "origin": "artix-world",
-    "sha256": "0a9081253247dbf21f7e15807ffe82c602a40c0c0da71482a23f049a567c5d77",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/memtest86+-iso-7.20-2-any.pkg.tar.zst",
+    "sha256": "324a3fac5860a44122462e1e281f51aad209df7e10946e53620305ab386293b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/memtest86+-iso-8.10-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -96531,24 +96531,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.12.23-1",
+    "version": "0.12.24-1",
     "origin": "artix-world",
-    "sha256": "c8ecf696d07f228f6ecd202c3589a32be11efaa9b92125007231483b077c63c0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.23-1-x86_64.pkg.tar.zst",
+    "sha256": "fb875d36aabd8501a412043cd537bd09a609611671a7608ed3de5500e67d1817",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.12.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.12.23"
+      "uv=0.12.24"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.12.23-1",
+    "version": "0.12.24-1",
     "origin": "artix-world",
-    "sha256": "0a46f2d8bb6dd2c84d3da23c177d1fbfdcbec2fe07db02bcd51ea012d9dde186",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.23-1-x86_64.pkg.tar.zst",
+    "sha256": "ad048102853214dd8c0f96093d1c8b3b9faec6f6c923adb7609ebea31b372478",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.12.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126404,10 +126404,10 @@
   },
   {
     "name": "uv",
-    "version": "0.12.23-1",
+    "version": "0.12.24-1",
     "origin": "artix-world",
-    "sha256": "ed49a9d3b4c5804d91c17990156a410f93ab0a05e58d035c1571051138f29c93",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.23-1-x86_64.pkg.tar.zst",
+    "sha256": "105a11da5b74d44f38561f17ec8f5bf709bdac04ccf59962e81018802e7f296f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.12.24-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
