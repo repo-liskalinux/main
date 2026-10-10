@@ -36707,10 +36707,10 @@
   },
   {
     "name": "kicad",
-    "version": "10.0.7-1",
+    "version": "10.0.7-2",
     "origin": "artix-world",
-    "sha256": "bd93616fa1b3e1b21cf4e37843f5e2353d62932d05d23c49b16d0668900cf031",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.7-1-x86_64.pkg.tar.zst",
+    "sha256": "a2733f2e31020b40e287eed36e4ae8ff544e8c7c7e608e1bcb8e087a18672597",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -36756,10 +36756,10 @@
   },
   {
     "name": "kicad-demos",
-    "version": "10.0.7-1",
+    "version": "10.0.7-2",
     "origin": "artix-world",
-    "sha256": "c307393956bf237b64d5882f293cc6bb180bda8d1df7f4f8b12968508105c785",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.7-1-x86_64.pkg.tar.zst",
+    "sha256": "55fb2e6de0a3851e4c250301b2e81f67a0080ea0b82e9b129834ae2074e8b13c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kicad",
@@ -60284,10 +60284,10 @@
   },
   {
     "name": "nodejs",
-    "version": "26.10.0-2",
+    "version": "26.11.1-1",
     "origin": "artix-world",
-    "sha256": "d91885782a3d52c91ced997e54536a2591658a016f076b61e108f7cb2cc0d535",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "87a92338347ac013b81550c823f187c487373f9acb04b67125db8568f6a0c356",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-26.11.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -75728,10 +75728,10 @@
   },
   {
     "name": "python-absl",
-    "version": "2.5.0-1",
+    "version": "2.5.1-1",
     "origin": "artix-world",
-    "sha256": "e0a2407a0044c514acdbc3343c8e58f442edfefdc67f2adca0b94f7d3e32decc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-absl-2.5.0-1-any.pkg.tar.zst",
+    "sha256": "5616748d5a6c52fd2ecd7114c26a86cdacde48eaa606334a3fcb3c23e1f289d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-absl-2.5.1-1-any.pkg.tar.zst",
     "provides": [
       "absl-py"
     ],
@@ -77359,10 +77359,10 @@
   },
   {
     "name": "python-black",
-    "version": "26.10.0-1",
+    "version": "26.10.1-1",
     "origin": "artix-world",
-    "sha256": "4d099e712b0b35e9c7d78cccc5e25f731e49cb010efa1947c7286b0bcef1471c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-black-26.10.0-1-any.pkg.tar.zst",
+    "sha256": "ae93c5a4d38e682df5aba33fa03ef9f737f0b270dae835eae71bb9ff37b7fcbf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-black-26.10.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -78877,10 +78877,10 @@
   },
   {
     "name": "python-cssselect",
-    "version": "1.5.0-1",
+    "version": "1.6.0-1",
     "origin": "artix-world",
-    "sha256": "b143f15c3932e25bd7f6382ca4e022665e0bc63ab10b331fe994aa22db616b3f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-cssselect-1.5.0-1-any.pkg.tar.zst",
+    "sha256": "5e572dd7d1498f3f1b0c6763654ca476f6ab4b6b1ba7248d34da43f43041b874",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-cssselect-1.6.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -83757,10 +83757,10 @@
   },
   {
     "name": "python-json5",
-    "version": "0.16.0-1",
+    "version": "0.17.3-1",
     "origin": "artix-world",
-    "sha256": "a20835df47badf1ad784b16d7cdde13cea4724698d18ffa052579799a956c4b1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-json5-0.16.0-1-any.pkg.tar.zst",
+    "sha256": "505103a92480dc4e7b86d2785d7032729e508085da95d5e7187535aad6f041b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-json5-0.17.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -83810,10 +83810,10 @@
   },
   {
     "name": "python-jsonpatch",
-    "version": "1.33-6",
+    "version": "1.34-1",
     "origin": "artix-world",
-    "sha256": "c6ee43933c066065a45dd65bb9818958429c02cc2afdbcaa7133b28fa8c447a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonpatch-1.33-6-any.pkg.tar.zst",
+    "sha256": "4e266559e98e0e6f60c059fface31f8fa94b011aba5648538f77fc29576816ce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonpatch-1.34-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-jsonpointer"
@@ -89165,10 +89165,10 @@
   },
   {
     "name": "python-pycparser",
-    "version": "3.01-1",
+    "version": "3.11-1",
     "origin": "artix-world",
-    "sha256": "a21a7b609fdd81caa18e14880c450f6e1cc1a094420054ce4e6cf0804866e8ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycparser-3.01-1-any.pkg.tar.zst",
+    "sha256": "eace6ccffb371df289a4caaf19b73cc4499327e653be76fbbc49a409ea551edb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pycparser-3.11-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -90195,10 +90195,10 @@
   },
   {
     "name": "python-pypdf",
-    "version": "6.19.0-1",
+    "version": "6.20.0-1",
     "origin": "artix-world",
-    "sha256": "c36ab54d39e9a46af3d44bab7a2efb819cb59dbfa563baa028bbf98339993bbd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pypdf-6.19.0-1-any.pkg.tar.zst",
+    "sha256": "291c767d39dc568d65ff96d1a784f55c3582538491f96a6ff994734fc0d154c9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pypdf-6.20.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -91793,10 +91793,10 @@
   },
   {
     "name": "python-python-discovery",
-    "version": "1.6.1-1",
+    "version": "1.6.2-1",
     "origin": "artix-world",
-    "sha256": "9af55b42164c6918252eea186684fd983eed1030441926e79cd0ff8568ac9863",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-python-discovery-1.6.1-1-any.pkg.tar.zst",
+    "sha256": "1ee156d42de2f5ff598e0a5077caf2dd21555c50872662c65815d2722e61150c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-python-discovery-1.6.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96754,10 +96754,10 @@
   },
   {
     "name": "python-virtualenv",
-    "version": "21.14.5-1",
+    "version": "21.14.6-1",
     "origin": "artix-world",
-    "sha256": "b9e3d65702961f4a49a71b96c6f02c96561fbea3ac0a4bece641b3876f009634",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-virtualenv-21.14.5-1-any.pkg.tar.zst",
+    "sha256": "a9575bcf3c5d5784a358ff64d13b1bb7b058a3ed7b02c41118ae4f71cafd2a80",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-virtualenv-21.14.6-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
