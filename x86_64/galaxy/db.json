@@ -801,10 +801,10 @@
   },
   {
     "name": "autotiling-rs",
-    "version": "0.1.8-2",
+    "version": "0.2.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a86196dc9af72ede1beaf3624c33069f5f111b90bb8d0da37adeb16df9793114",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/autotiling-rs-0.1.8-2-x86_64.pkg.tar.zst",
+    "sha256": "1710be2a203586c5553598ca9e139a2ab5e4e960a8a5a2e4b43fb706ab43a0c7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/autotiling-rs-0.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -10426,26 +10426,23 @@
   },
   {
     "name": "jellyfin-mpv-shim",
-    "version": "3.0.0-1",
+    "version": "3.1.0-1",
     "origin": "artix-galaxy",
-    "sha256": "4a33eb833788c0a0d48aca29367a3b892f6b0b6e310db37ecaefeb34da5b5128",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-mpv-shim-3.0.0-1-any.pkg.tar.zst",
+    "sha256": "1aca87e5c8bfdbcb130aaf5a1ba85f04dac4a8a1aedb3c61a6dd84b8e51b2262",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-mpv-shim-3.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mpv",
-      "python>=3.6",
+      "python",
       "hicolor-icon-theme",
       "python-mpv",
       "python-requests",
-      "python-mpv-jsonipc>=1.1.9",
-      "python-jellyfin-apiclient>=1.8.1",
-      "tk"
+      "python-mpv-jsonipc",
+      "python-jellyfin-apiclient",
+      "python-pillow"
     ],
     "optdepends": [
       "python-pystray: systray support",
-      "python-pillow: TrickPlay thumbnail previews",
-      "python-jinja: display mirroring support",
-      "python-pywebview>=3.3.1: display mirroring support",
       "mpv-shim-default-shaders: default shader pack",
       "python-pypresence: Discord Rich Presence integration"
     ],
@@ -24652,10 +24649,10 @@
   },
   {
     "name": "prismlauncher",
-    "version": "11.0.3-2",
+    "version": "11.1.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bad46386ca95781c609a065fc24d196d23a6ebe452b700ee3052469a58537555",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/prismlauncher-11.0.3-2-x86_64.pkg.tar.zst",
+    "sha256": "63f4b4f97559a053373255cde36c3579f4207b2d28b053671d3b0b84de24aea5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/prismlauncher-11.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -24748,6 +24745,25 @@
     "conflicts": [
       "profanity"
     ]
+  },
+  {
+    "name": "profile-sync-daemon",
+    "version": "1:7.04-1",
+    "origin": "artix-galaxy",
+    "sha256": "4113cff9ff1e59fc3d429e21ac9f3f4e42b994d281648afa1ab4f461e95281b7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/profile-sync-daemon-1:7.04-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "bash",
+      "findutils",
+      "fuse-overlayfs",
+      "procps-ng",
+      "rsync"
+    ],
+    "optdepends": [
+      "zsh-completions: for completion when using zsh"
+    ],
+    "conflicts": []
   },
   {
     "name": "protontricks",
@@ -25040,10 +25056,10 @@
   },
   {
     "name": "python-jellyfin-apiclient",
-    "version": "1.19.0-1",
+    "version": "1.20.1-1",
     "origin": "artix-galaxy",
-    "sha256": "129ff915c825ab81e184284ced6d0815235c5b23f1564fb2c538928f68028963",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/python-jellyfin-apiclient-1.19.0-1-any.pkg.tar.zst",
+    "sha256": "ee6015f6ce8f7ecd876a38cc98b093fdea03ae1ce478ff73ad9a08886f667da3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/python-jellyfin-apiclient-1.20.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -26313,10 +26329,10 @@
   },
   {
     "name": "radicle-artifact",
-    "version": "0.22.0-1",
+    "version": "0.23.0-1",
     "origin": "artix-galaxy",
-    "sha256": "a2d8191675aa74701a9eb6e7a2c35fba24b1b95db7decd04927288004d986411",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-artifact-0.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "aad20cafeaa5eaee850071bc957d49bc405630ecc0543ac89a270c4374ffc37d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-artifact-0.23.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -26365,10 +26381,10 @@
   },
   {
     "name": "radicle-explorer",
-    "version": "0.25.0-1",
+    "version": "0.28.0-1",
     "origin": "artix-galaxy",
-    "sha256": "15c2508c4e87f2cbcd59a4f330b70dc223b86e50ac03fddcdb773ac15f19f64b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-explorer-0.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d952546e71684bdb142e76d905ec546c2dada1aa1b11ffdbe7e3cebe3a75f7f4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-explorer-0.28.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -26378,10 +26394,10 @@
   },
   {
     "name": "radicle-httpd",
-    "version": "0.25.0-1",
+    "version": "0.28.0-1",
     "origin": "artix-galaxy",
-    "sha256": "ceb24d37a88dc9abba8aca038c77e3fd058ee74f2f76edc7d76cf5633a2df499",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-httpd-0.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cc2614a230f83aa99fc96a19d10d4e6ebe74d50f6b2bb9cb04174d39568174a2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-httpd-0.28.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -27325,10 +27341,10 @@
   },
   {
     "name": "scrcpy",
-    "version": "5.0-1",
+    "version": "5.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "0a4287f970d392d796986f160e77736e7b7beb4bc6dfe85fc7d263bc17ed5d57",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/scrcpy-5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8301c41729871d0e834dd808bb541e9f04ffe65da3ea1d39fa5a28c9c97828c6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/scrcpy-5.0.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "android-tools",
@@ -31034,10 +31050,10 @@
   },
   {
     "name": "vhba-module",
-    "version": "20260313-46",
+    "version": "20260313-54",
     "origin": "artix-galaxy",
-    "sha256": "00de33985409b988481871d34ce90340ede1a00528ce3289df33681354fc8c13",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/vhba-module-20260313-46-x86_64.pkg.tar.zst",
+    "sha256": "48e16e4a81fc21e1a70a472d115372a2770966dab78e33e2892b4d973e3d0f00",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/vhba-module-20260313-54-x86_64.pkg.tar.zst",
     "provides": [
       "VHBA-MODULE"
     ],
