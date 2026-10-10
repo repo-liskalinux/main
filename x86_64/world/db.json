@@ -6994,15 +6994,16 @@
   },
   {
     "name": "calamares",
-    "version": "3.4.2-4",
+    "version": "3.4.2-5",
     "origin": "artix-world",
-    "sha256": "4e8e70ebd9a4f6834b7c592ac698c14d6709aef6b0391f3d8673a4b0ab06130f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calamares-3.4.2-4-x86_64.pkg.tar.zst",
+    "sha256": "661eb20e119d330aafa0d0e4ca89aaa90995bff6c818143946557d569746db40",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calamares-3.4.2-5-x86_64.pkg.tar.zst",
     "provides": [
       "libcalamares.so=3.4-64",
       "libcalamaresui.so=3.4-64"
     ],
     "depends": [
+      "appstream-qt",
       "bash",
       "glibc",
       "libgcc",
