@@ -61931,11 +61931,13 @@
   },
   {
     "name": "oniguruma",
-    "version": "6.9.10-1",
+    "version": "6.9.10-3",
     "origin": "artix-world",
-    "sha256": "51d989791d77a97fd7f7c0e1d41061934ba4a9eabc53db5c8eb72fe10655402d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/oniguruma-6.9.10-1-x86_64.pkg.tar.zst",
-    "provides": [],
+    "sha256": "ce3a3c7e9009a895fe7b3b3e050c49ad92b7d788cd8396a309a7c78745b4452c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/oniguruma-6.9.10-3-x86_64.pkg.tar.zst",
+    "provides": [
+      "libonig.so=5-64"
+    ],
     "depends": [],
     "optdepends": [],
     "conflicts": []
@@ -94624,10 +94626,10 @@
   },
   {
     "name": "python-sqlmodel",
-    "version": "0.0.47-1",
+    "version": "0.0.48-1",
     "origin": "artix-world",
-    "sha256": "46164d553be5318d7ea0d87677463f745b2745aa144dee147cbb011fe9a4e6cc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sqlmodel-0.0.47-1-any.pkg.tar.zst",
+    "sha256": "b036330af71deb76fa8bd909bbdb318bf6cb22880e06a0a1d4bb99443d99d969",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sqlmodel-0.0.48-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95072,10 +95074,10 @@
   },
   {
     "name": "python-strawberry-graphql",
-    "version": "0.331.6-1",
+    "version": "0.332.1-1",
     "origin": "artix-world",
-    "sha256": "48d44bfb057e2e7bd5c081c3e0562540ca10520f7ea6758b01bbdc816eeb1795",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.331.6-1-any.pkg.tar.zst",
+    "sha256": "6d58e743bd6f1e3083c7f200f9d7863231741c25a3e52fca613e0cd932d09a35",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.332.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
