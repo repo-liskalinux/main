@@ -6110,10 +6110,10 @@
   },
   {
     "name": "python",
-    "version": "3.14.7-1",
+    "version": "3.14.8-1",
     "origin": "artix-system",
-    "sha256": "fa6d583d21db62ebec0c506ed72f42f2bbf50cab28865de6ea487c09f20aeb94",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-3.14.7-1-x86_64.pkg.tar.zst",
+    "sha256": "c31e0e693d5232edbe397a6f5be79474546e395afc3061e75c8e7f43a0e50938",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-3.14.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "python3",
       "python-externally-managed"
@@ -6134,7 +6134,7 @@
     "optdepends": [
       "python-setuptools: for building Python packages using tooling that is usually bundled with Python",
       "python-pip: for installing Python packages using tooling that is usually bundled with Python",
-      "python-pipx: for installing Python software not packaged on Artix Linux",
+      "python-pipx: for installing Python software not packaged on Arch Linux",
       "sqlite: for a default database integration",
       "xz: for lzma",
       "tk: for tkinter"
@@ -6205,10 +6205,10 @@
   },
   {
     "name": "python-tests",
-    "version": "3.14.7-1",
+    "version": "3.14.8-1",
     "origin": "artix-system",
-    "sha256": "b4c85710488b310d596232679646ec240c57a4341d8af85c1d5125e399b9899f",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-tests-3.14.7-1-x86_64.pkg.tar.zst",
+    "sha256": "b2c7f63b6ac12d2f90821175f67e7121530c83489693e2c21e58fdca7eb99f5c",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-tests-3.14.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
