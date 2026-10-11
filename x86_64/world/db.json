@@ -215,10 +215,10 @@
   },
   {
     "name": "accerciser",
-    "version": "3.48.0-2",
+    "version": "3.48.0-3",
     "origin": "artix-world",
-    "sha256": "b23da4d73f31279f09cb842b7cd2f72d08813a7fcda220fb03896875c8737c08",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/accerciser-3.48.0-2-any.pkg.tar.zst",
+    "sha256": "355b4d6ba3a81c16d4c54a92e14941defb8fa8c986023cb40121ad79de6975f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/accerciser-3.48.0-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -236,7 +236,7 @@
       "python-cairo",
       "python-dbus",
       "python-gobject",
-      "python-setuptools",
+      "python-packaging",
       "python-traitlets",
       "python-xdg"
     ],
@@ -3182,13 +3182,13 @@
   },
   {
     "name": "at-spi2-core",
-    "version": "2.62.0.1-1",
+    "version": "2.62.1-1",
     "origin": "artix-world",
-    "sha256": "43f3a4659101e9a1c853201b84cc0ba1b66ad263318e702ffd3de431b5ab4e98",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/at-spi2-core-2.62.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "99c6828fcdaf7c3ade14115af6f7cfed7f29570cf06931de45047eed51f07c9e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/at-spi2-core-2.62.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "at-spi2-atk=2.62.0.1-1",
-      "atk=2.62.0.1-1",
+      "at-spi2-atk=2.62.1-1",
+      "atk=2.62.1-1",
       "libatk-1.0.so=0-64",
       "libatk-bridge-2.0.so=0-64",
       "libatspi.so=0-64"
@@ -16107,16 +16107,17 @@
   },
   {
     "name": "fcitx5-mozc",
-    "version": "3.34.6239.2-1",
+    "version": "3.34.6345.2-1",
     "origin": "artix-world",
-    "sha256": "171285fc7c3876aa1b4f6324fb01743eaff2888f64f87eeea70c356acd3f2d8c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fcitx5-mozc-3.34.6239.2-1-x86_64.pkg.tar.zst",
+    "sha256": "d0c1310df792a3c76320c9bbb0f3643a6da709fb5dc135cb3a449291a0c7cd27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fcitx5-mozc-3.34.6345.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base",
       "fcitx5",
       "hicolor-icon-theme",
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "glibc"
     ],
     "optdepends": [],
@@ -21167,10 +21168,10 @@
   },
   {
     "name": "gnome-calculator",
-    "version": "51.0-1",
+    "version": "51.1-1",
     "origin": "artix-world",
-    "sha256": "9f9ba987cba8009f3dbf4f0e39489f015ab8ce1af9a7d90f0a54bbf993c66505",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-calculator-51.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bafd0696c2612c4d22ce51f2009b1731320702cdd3fcc6af9398f07d551c434c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-calculator-51.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgcalc-2.so=1.0.1-64",
       "libgci-1.so=0.0.0-64"
@@ -29755,10 +29756,10 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.32-1",
+    "version": "7.1.2.33-1",
     "origin": "artix-world",
-    "sha256": "d4c609ddd228b9adfc367a17da671a7cf04a0fa1d8961a892b10acf96084a6a1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.32-1-x86_64.pkg.tar.zst",
+    "sha256": "5c89994ccad05ba63feedc7bb179b4aaae2ac8b659f593266099b09078a289e1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.33-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmagick"
     ],
@@ -109885,10 +109886,10 @@
   },
   {
     "name": "rygel",
-    "version": "1:46.0-1",
+    "version": "1:46.1-1",
     "origin": "artix-world",
-    "sha256": "241ffea94b1e081a96eace1048a80dd5095a86735805a2f7f446bafeb4ab3a26",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rygel-1:46.0-1-x86_64.pkg.tar.zst",
+    "sha256": "18fdad9532cbc8735a2617e8d4d438b0192f992a1b54791068f1ec0accd8ae87",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rygel-1:46.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "librygel-core-2.8.so=0-64",
       "librygel-db-2.8.so=0-64",
@@ -131887,10 +131888,10 @@
   },
   {
     "name": "wxwidgets-common",
-    "version": "3.2.11-2",
+    "version": "3.2.12-1",
     "origin": "artix-world",
-    "sha256": "0576292e64c1f8266259e339a3ae451d353ad5ba3ef7324d7c8a8a515c40553b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wxwidgets-common-3.2.11-2-x86_64.pkg.tar.zst",
+    "sha256": "319db8364274df49356adcad054836989c674e04e54ba58024f0805dfa8d46f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wxwidgets-common-3.2.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -131911,10 +131912,10 @@
   },
   {
     "name": "wxwidgets-gtk3",
-    "version": "3.2.11-2",
+    "version": "3.2.12-1",
     "origin": "artix-world",
-    "sha256": "6394892be29f248dca71730ee0d2fc624b84fb3a2ee70dcb471134e5fb04e456",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wxwidgets-gtk3-3.2.11-2-x86_64.pkg.tar.zst",
+    "sha256": "fda3ac25a695e3d466761efdd063c3c560b57a7939303aadce890cccc723f144",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wxwidgets-gtk3-3.2.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -131950,10 +131951,10 @@
   },
   {
     "name": "wxwidgets-qt5",
-    "version": "3.2.11-2",
+    "version": "3.2.12-1",
     "origin": "artix-world",
-    "sha256": "668d2f67ba5d1d22677cf93c2b4e2f884bcd90885c9e47680720757c677e6dde",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wxwidgets-qt5-3.2.11-2-x86_64.pkg.tar.zst",
+    "sha256": "3840c74a91467da2ce1ab10c7249b0800d05a6662e9b794e80f8765a2f3dcc52",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wxwidgets-qt5-3.2.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "wxwidgets"
     ],
