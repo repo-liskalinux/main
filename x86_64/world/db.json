@@ -7336,10 +7336,10 @@
   },
   {
     "name": "cargo-c",
-    "version": "0.10.25-1",
+    "version": "0.10.26-1",
     "origin": "artix-world",
-    "sha256": "33d310e65b8012ed68556f4eb7f850daf2f45ea9631aeb90c6edfd406d68cc6c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cargo-c-0.10.25-1-x86_64.pkg.tar.zst",
+    "sha256": "fc7e789017529c6f4879fc5c12654fcd89c3063360da84f36d85a47199520981",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cargo-c-0.10.26-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cargo",
@@ -18443,10 +18443,10 @@
   },
   {
     "name": "gala",
-    "version": "8.6.1-2",
+    "version": "8.6.2-1",
     "origin": "artix-world",
-    "sha256": "8352beccf07161197a3e13738cac6cc32b410445f7eb92ae1d372a687d4dd379",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.1-2-x86_64.pkg.tar.zst",
+    "sha256": "1fc19fca82ede643950f8ed7e1e3524e423696d2073058968e8a86ad16d0ada1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libgala.so=0-64"
     ],
@@ -21799,10 +21799,10 @@
   },
   {
     "name": "gnome-maps",
-    "version": "51.1-1",
+    "version": "51.2-1",
     "origin": "artix-world",
-    "sha256": "7114cca1eb5cfcf5f61c1dfc3b7e303bad3d3ac06f3640977fe3f5df4dd4dd27",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-maps-51.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6d1ee1fc947ec942258d19211670a1eedbbf96b86b470dfdf28d4a98b4310f39",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-maps-51.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22928,10 +22928,10 @@
   },
   {
     "name": "go-tools",
-    "version": "4:0.51.0-1",
+    "version": "4:0.52.0-1",
     "origin": "artix-world",
-    "sha256": "de67c849c1fb1122c252425486501b260e7a0b77274a9a0f33a15cd72dbaf2d3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/go-tools-4:0.51.0-1-x86_64.pkg.tar.zst",
+    "sha256": "77a4cf5762470a498ad4f7d5b24dff1687ab205e3065609ee686a0fba05c43fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/go-tools-4:0.52.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -71006,10 +71006,10 @@
   },
   {
     "name": "picard",
-    "version": "3.0.1-1",
+    "version": "3.0.2-1",
     "origin": "artix-world",
-    "sha256": "5919b6f568fb27c0b24502b8e9fe94bc6a6dabf42d9f6708d0cf65934549fbfa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/picard-3.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "4d4a650ff5a6f48b43eadcd71cdcc99a13ab246066bacf829cbd49c4f6c4a458",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/picard-3.0.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -71022,6 +71022,7 @@
       "python-mutagen",
       "python-pyjwt",
       "python-pyqt6",
+      "python-pygit2",
       "python-yaml"
     ],
     "optdepends": [
