@@ -367,10 +367,10 @@
   },
   {
     "name": "artixforge",
-    "version": "9.1.1.4-1",
+    "version": "9.5.1.0-1",
     "origin": "artix-galaxy",
-    "sha256": "ed89c27ab35f6bacb6d6c5cf64c1238966ad774263b3cdf9814f440b8855b8f7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/artixforge-9.1.1.4-1-any.pkg.tar.zst",
+    "sha256": "5790bd5488a10647ae43761a7a730bae44916ed2e0ba3cbe8efabcbda62f47ee",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/artixforge-9.5.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -379,16 +379,16 @@
       "curl",
       "openssl",
       "rsync",
-      "coreutils"
+      "coreutils",
+      "jq",
+      "iso-profiles",
+      "whois"
     ],
     "optdepends": [
       "pacman-contrib: mirror ranking support",
       "artools: ISO build support",
-      "gtk4: GUI installer",
-      "libadwaita: GUI installer",
-      "python-gobject: GUI installer",
-      "python-virtualenv: GUI installer",
-      "python-jsonschema: GUI installer"
+      "gpg: encrypted state presets",
+      "eukify: Unified Kernel Image (UKI) generation"
     ],
     "conflicts": []
   },
@@ -8669,10 +8669,10 @@
   },
   {
     "name": "firefox-noscript",
-    "version": "13.6.34-1",
+    "version": "13.6.36-1",
     "origin": "artix-galaxy",
-    "sha256": "0e9a60109e1070c34db9fdde764930ab586e51721906a823e368263b1da20f42",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-noscript-13.6.34-1-any.pkg.tar.zst",
+    "sha256": "4198757be0db0f5a6f9749e5b9034b5051ee5099059817b0fc28b36c08c08da3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-noscript-13.6.36-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
