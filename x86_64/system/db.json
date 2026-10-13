@@ -2979,10 +2979,10 @@
   },
   {
     "name": "lemon",
-    "version": "3.53.4-1",
+    "version": "3.54.0-1",
     "origin": "artix-system",
-    "sha256": "262d8b34bbf9bfd928b07c5abcafcd8dee2b736af08b151eb5ce9b54da6b98a5",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lemon-3.53.4-1-x86_64.pkg.tar.zst",
+    "sha256": "09b1a2b31acdb313488bbfd1fd758248fe62410acfb14e6ca698192a8504a4e4",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lemon-3.54.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -6584,12 +6584,12 @@
   },
   {
     "name": "sqlite",
-    "version": "3.53.4-1",
+    "version": "3.54.0-1",
     "origin": "artix-system",
-    "sha256": "98948b4e6d53e6dd132a32e31ab12731adb47a926b22ec1643bd70afa3d73383",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sqlite-3.53.4-1-x86_64.pkg.tar.zst",
+    "sha256": "6454d508781d9ae621d000bce2a1461ae0b5df4c2aa0a476c69a294c022ea0eb",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sqlite-3.54.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "sqlite3=3.53.4",
+      "sqlite3=3.54.0",
       "libsqlite3.so=0-64"
     ],
     "depends": [
@@ -6602,10 +6602,10 @@
   },
   {
     "name": "sqlite-analyzer",
-    "version": "3.53.4-1",
+    "version": "3.54.0-1",
     "origin": "artix-system",
-    "sha256": "ce014b9dc95a8196ac6356baf27fc7b387faffc2edb7909cbdf6c11154bfa75e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sqlite-analyzer-3.53.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d9c71b038577e1ca61ce4f890afc45f9d95e02ccd19ca9879306a8154d62c630",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sqlite-analyzer-3.54.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sqlite",
@@ -6617,12 +6617,12 @@
   },
   {
     "name": "sqlite-tcl",
-    "version": "3.53.4-1",
+    "version": "3.54.0-1",
     "origin": "artix-system",
-    "sha256": "d698c2b4c76fac77fb96f80c67f1571acfffc5eeae141a3b39c1d08b2bad9393",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sqlite-tcl-3.53.4-1-x86_64.pkg.tar.zst",
+    "sha256": "8d915d23bc0f9512047e492c83c1d94f0900628a818c3b67745bf335fd8b64fc",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sqlite-tcl-3.54.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "sqlite3-tcl=3.53.4"
+      "sqlite3-tcl=3.54.0"
     ],
     "depends": [
       "sqlite",
