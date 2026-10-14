@@ -36209,15 +36209,16 @@
   },
   {
     "name": "keystone",
-    "version": "0.9.2-8",
+    "version": "0.9.2-9",
     "origin": "artix-world",
-    "sha256": "5e6234000dfadef4dbac5566b4fb30f014c444ba7b98927ba2b470b2e336b13b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keystone-0.9.2-8-x86_64.pkg.tar.zst",
+    "sha256": "55c64c6e38bd2a50511f3e4fac3b5b4e97e41393fb688c30fcbe5b466521c2f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keystone-0.9.2-9-x86_64.pkg.tar.zst",
     "provides": [
       "libkeystone.so=0-64"
     ],
     "depends": [
-      "gcc-libs"
+      "libgcc",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
@@ -84248,10 +84249,10 @@
   },
   {
     "name": "python-keystone",
-    "version": "0.9.2-8",
+    "version": "0.9.2-9",
     "origin": "artix-world",
-    "sha256": "f5763b4336231dcf41674789243aa5cc6382bb566a9a74fb6b253672bf01e696",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-keystone-0.9.2-8-x86_64.pkg.tar.zst",
+    "sha256": "24f8d34e96fa8362970b8dfae142b9d9a3848f3d1b89deea3ff2202502efe621",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-keystone-0.9.2-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
