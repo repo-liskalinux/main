@@ -31865,10 +31865,10 @@
   },
   {
     "name": "jenkins",
-    "version": "2.585-2",
+    "version": "2.586-1",
     "origin": "artix-world",
-    "sha256": "8a2d9560dcb09396a8f7a5023b846e39b1991deb30f5c00560d11d2a2817d87c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.585-2-any.pkg.tar.zst",
+    "sha256": "0fc9ba50e84f50067110c64b46681445314e4ad6f2cf211ac67d5bcc64ab7771",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.586-1-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
@@ -72903,15 +72903,16 @@
   },
   {
     "name": "pnpm",
-    "version": "12.12.1-2",
+    "version": "12.13.0-1",
     "origin": "artix-world",
-    "sha256": "ca61368f16e7e4bbfbf38b1058992c8579a06a10b473d6e0903ff22fe70784c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.12.1-2-x86_64.pkg.tar.zst",
+    "sha256": "811835f641128efe6cbf22786fd526e1a3c9bcef88ebf795071df92086071df8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.13.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
       "glibc",
-      "libgcc"
+      "libgcc",
+      "sqlite"
     ],
     "optdepends": [],
     "conflicts": []
