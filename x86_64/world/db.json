@@ -7825,10 +7825,10 @@
   },
   {
     "name": "chromaprint",
-    "version": "1.6.1-2",
+    "version": "1.6.2-1",
     "origin": "artix-world",
-    "sha256": "e5c5047d05d36b8a743013f219545d5f7de26173e74276856e555b1eabcdff93",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/chromaprint-1.6.1-2-x86_64.pkg.tar.zst",
+    "sha256": "1569fb843ffbaca2169e60bff7e8f025190870627997c3e3712479bb2578f2aa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/chromaprint-1.6.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libchromaprint.so=1-64"
     ],
@@ -9335,10 +9335,10 @@
   },
   {
     "name": "containerd",
-    "version": "2.4.1-1",
+    "version": "2.4.2-1",
     "origin": "artix-world",
-    "sha256": "229637d7726eb33fe2bc65d74685da35df4289b523c0eacb8a0930706d6caa6f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containerd-2.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d3f8f69124d5e642e88cadde1d55bc49b2b2220c2db611849eb162e9180b37a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containerd-2.4.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "container-runtime"
     ],
@@ -19105,10 +19105,10 @@
   },
   {
     "name": "gedit",
-    "version": "50.0-3",
+    "version": "51.0-1",
     "origin": "artix-world",
-    "sha256": "99661a9ae8e850614f1f4f16cd4b472a8e7a28c76b3d165a2769e5aa42b58ca6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gedit-50.0-3-x86_64.pkg.tar.zst",
+    "sha256": "c89f7358fbcfc408a8d9b298ee8b22d68b57512e89a09e468963ed6aa2e70435",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gedit-51.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -19128,10 +19128,10 @@
       "libpeas",
       "pango"
     ],
-    "optdepends": [
-      "gedit-plugins: Additional features"
-    ],
-    "conflicts": []
+    "optdepends": [],
+    "conflicts": [
+      "gedit-plugins"
+    ]
   },
   {
     "name": "gedit-plugins",
@@ -31555,10 +31555,10 @@
   },
   {
     "name": "jbigkit",
-    "version": "2.1-8",
+    "version": "2.2-1",
     "origin": "artix-world",
-    "sha256": "cacd4c01119ecb9b1fe1a7fefc0b4af17404d4865124813c65aa88f8108551f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jbigkit-2.1-8-x86_64.pkg.tar.zst",
+    "sha256": "bf0462e3e345fec1210c20e0ee28df7ed06c65bb0e830ed57a9a435d8ef98857",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jbigkit-2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -44840,12 +44840,12 @@
   },
   {
     "name": "libgedit-tepl",
-    "version": "6.14.0-2",
+    "version": "6.15.0-1",
     "origin": "artix-world",
-    "sha256": "174121de6c8d590a56c91ce9ed657c3a9c2a8fcf941921695dd946f1c56b46e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgedit-tepl-6.14.0-2-x86_64.pkg.tar.zst",
+    "sha256": "1983bfa8e7d939cb51982c997d7badae059c3f8037f61ec83b484bee774301b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgedit-tepl-6.15.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libgedit-tepl-6.so=4-64"
+      "libgedit-tepl-6.so=5-64"
     ],
     "depends": [
       "cairo",
@@ -45052,6 +45052,21 @@
       "libglib-2.0.so=0-64",
       "libgobject-2.0.so=0-64",
       "libgio-2.0.so=0-64"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "libglibutil",
+    "version": "1.0.83-1",
+    "origin": "artix-world",
+    "sha256": "f315e23e399ab5fe7ce23f7fd2d4eef9943796f0bdaee4596517e8b3ce98c98e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libglibutil-1.0.83-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libglibutil.so=1-64"
+    ],
+    "depends": [
+      "glib2"
     ],
     "optdepends": [],
     "conflicts": []
@@ -61392,10 +61407,10 @@
   },
   {
     "name": "oath-toolkit",
-    "version": "2.6.14-4",
+    "version": "2.6.15-1",
     "origin": "artix-world",
-    "sha256": "6dd0695c8f81d205276babc51ca5b5e19a03011949dc99af8a1dba48bf029b73",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/oath-toolkit-2.6.14-4-x86_64.pkg.tar.zst",
+    "sha256": "e7ee24146d89e283844781ea06cb0d03f02c8001e41d5a30b5acd180f589a3ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/oath-toolkit-2.6.15-1-x86_64.pkg.tar.zst",
     "provides": [
       "liboath.so=0-64",
       "libpskc.so=0-64"
@@ -62169,12 +62184,12 @@
   },
   {
     "name": "opencc",
-    "version": "1.3.2-1",
+    "version": "1.4.0-1",
     "origin": "artix-world",
-    "sha256": "42bb309242ed5855dff3fe040aa8dc2cfe72391aded06665d24e3d981c8470bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencc-1.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2a41866ca47744295da5ec4ce64fe47abf76449c07260734bb1c07c6da3a3016",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencc-1.4.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libopencc.so=1.3-64"
+      "libopencc.so=1.4-64"
     ],
     "depends": [
       "marisa"
@@ -101251,10 +101266,10 @@
   },
   {
     "name": "qt6-base",
-    "version": "6.12.0-2",
+    "version": "6.12.0-3",
     "origin": "artix-world",
-    "sha256": "b560fa38ceae0dcfb7ab914dbf820e6d67c3ea5f504a21766dd516090f0a9b06",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "37bf5735ea2ee61956210bb98001bb1d13ff20e5f4b3eb41fddce5e51e295753",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.12.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -102039,10 +102054,10 @@
   },
   {
     "name": "qt6-xcb-private-headers",
-    "version": "6.12.0-2",
+    "version": "6.12.0-3",
     "origin": "artix-world",
-    "sha256": "b4d190679dfe264de42ca511e5bbcb607bc29e0062eec5fc58aa111ec3617e38",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "669e0bd28a1f932658a9619585a2f8a1a1f12d174df860f3d54bf53246c8d121",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.12.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base=6.12.0"
