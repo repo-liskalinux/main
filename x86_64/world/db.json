@@ -8846,33 +8846,6 @@
     "conflicts": []
   },
   {
-    "name": "colord-kde",
-    "version": "26.08.2-1",
-    "origin": "artix-world",
-    "sha256": "6812ebd6b5caf5f3353d6dc476108448db80e0c988cccabcc12e102316e740b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/colord-kde-26.08.2-1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "colord",
-      "glibc",
-      "kcmutils",
-      "kcoreaddons",
-      "kdbusaddons",
-      "ki18n",
-      "kirigami",
-      "kitemmodels",
-      "kwidgetsaddons",
-      "lcms2",
-      "libstdc++",
-      "libx11",
-      "libxrandr",
-      "qt6-base",
-      "qt6-declarative"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "colord-openrc",
     "version": "20210505-1",
     "origin": "artix-world",
@@ -12181,10 +12154,10 @@
   },
   {
     "name": "docker",
-    "version": "1:29.9.0-1",
+    "version": "1:29.9.1-1",
     "origin": "artix-world",
-    "sha256": "972d4a970715b8252b6decc750e4e0495d4ddcb850d2036056c42b3f61a0d928",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.9.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f1063bd0479789716c5a07da10e5f96c125e8aa3d90d49c505cbcfe8f8e9f865",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.9.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -20389,10 +20362,10 @@
   },
   {
     "name": "gitea-runner",
-    "version": "5.0.0-1",
+    "version": "5.1.0-1",
     "origin": "artix-world",
-    "sha256": "07c2bc5a5fb1c167061abe7c408b5ffaae48f287e7c24812bf3031fa06734eab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-5.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a4598bdc072ce61f6ae2be463ed906ae842b7ec0e143e8cab571a31d3fe56e05",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-5.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "act_runner"
     ],
@@ -23512,10 +23485,10 @@
   },
   {
     "name": "graphicsmagick",
-    "version": "1.3.49-2",
+    "version": "1.3.49-2.1",
     "origin": "artix-world",
-    "sha256": "cf99fcedf6b09e684f49e0d45cd954c3a5b2e1fc04167f9cca0bf98f52fa2a9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/graphicsmagick-1.3.49-2-x86_64.pkg.tar.zst",
+    "sha256": "89ce6ecd40438a9e5da293c92502e6251c82189f1ebf98b638b1d88fe4cf3c50",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/graphicsmagick-1.3.49-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "libGraphicsMagickWand.so=2-64",
       "libGraphicsMagick.so=3-64",
@@ -29757,10 +29730,10 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.34-1",
+    "version": "7.1.2.34-1.1",
     "origin": "artix-world",
-    "sha256": "a4d4f723a35ad7e66d8b1c8f5f23d7324868b31b88c397772d12b7146799de70",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.34-1-x86_64.pkg.tar.zst",
+    "sha256": "379d9c21d8d21fc451d3d1e7bb171c0ce26fcf2ee739ad526cef051ad3fa7321",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/imagemagick-7.1.2.34-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "libmagick"
     ],
@@ -32693,10 +32666,10 @@
   },
   {
     "name": "julia",
-    "version": "2:1.13.1-1",
+    "version": "2:1.13.2-1",
     "origin": "artix-world",
-    "sha256": "f418c09ae240029dad684cdeb43312665fba64868d965581a0e04d41c1bfb098",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.1-1-x86_64.pkg.tar.zst",
+    "sha256": "223ed87317828769f27cfba0fe63b4372407c679906fb6a5d761f75a340326fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas64-openblas",
@@ -34564,10 +34537,10 @@
   },
   {
     "name": "kde-accessibility-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "ba3a042e1e0cc54bdeecca1af560dcd69b6c4a6e9e3ea8893be4e17d3ef25bb7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-accessibility-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "e0c231e612038e721aae6952d4af701d7e2e1fd3a634be3b91ba1cc77f1fc2b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-accessibility-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accessibility-inspector",
@@ -34581,10 +34554,10 @@
   },
   {
     "name": "kde-applications-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "505817d9b5b460faf60e584d6f7284923f936e00b3a30eb2cfd1ae51af2a54ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-applications-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "a15f53417ba9cfb5710bf51bcbca70b56d54d52482f8b64f8f5b53b0094f983f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-applications-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kde-accessibility-meta",
@@ -34779,10 +34752,10 @@
   },
   {
     "name": "kde-education-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "24d6f9517d492a57057613e8e45b3d46dd97249f49dfb14761ddca034e03831f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-education-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "c1edc3c945a9f6f58d8966c60391d5481633e078202902a87543992f897d8295",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-education-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "artikulate",
@@ -34812,10 +34785,10 @@
   },
   {
     "name": "kde-games-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "2f090f0e9b052893956a54614462c8c15a2b230426d0b21bb9c9589d72555af8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-games-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "8bdba1967b48aa7893afa466bb3b974a9bcb35a789223b0bbb68c36610d5e2bc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-games-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bomber",
@@ -34866,14 +34839,13 @@
   },
   {
     "name": "kde-graphics-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "b6eb118497236378116f0ee0a177f7bf157490048ff1c8dcdc1bbf67216ba0bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-graphics-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "d82df0e79f9edd9c809ed5af5ecb19b5d2cbd7146ec8f488d3219672837c5f79",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-graphics-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "arianna",
-      "colord-kde",
       "gwenview",
       "kamera",
       "kcolorchooser",
@@ -34941,10 +34913,10 @@
   },
   {
     "name": "kde-multimedia-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "32d2903e8086b76a6ad7fe5a7c546063d527b0b5bd313a2054809ddcc4bc9fe6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-multimedia-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "59bbba529ceb0f60e073b70468e9cb9f684bcac6b8c39c6af86f560502750d69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-multimedia-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "audex",
@@ -34967,10 +34939,10 @@
   },
   {
     "name": "kde-network-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "567de83d513356e09d961e17dc45ddad105a4560085ae3592d6aa495d60b8135",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-network-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "e5044684c2317166dc38817b6766d18a960f7b39bb5b38aa9cd9c90af3a36cd5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-network-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alligator",
@@ -34995,10 +34967,10 @@
   },
   {
     "name": "kde-office-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "a798532ab36cf144cf06e93a713dd80bd3ce2aae83b1d2e58c7e00c8b0be9b8b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-office-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "62e5f524f24b05c394735309f27b002e07a0b2fa239876654faf092c6148a14f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-office-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "calligra",
@@ -35009,10 +34981,10 @@
   },
   {
     "name": "kde-pim-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "91782cf60409e4d87bcc632eb6dcafcf87574a1438701e6f441a79659e2442ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-pim-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "532863e6fdde838dfe974031b375adc8fcd674e1efe23ab90a2568592cb8bab9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-pim-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "akonadiconsole",
@@ -35035,10 +35007,10 @@
   },
   {
     "name": "kde-sdk-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "c943ab673b347e7da407c2e65681784224cc40bc35714e369d27038ebeb7730a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-sdk-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "90521287714a0d8ca2596e0cbfb419ee7bffc31fd33451c9d5a163d739b94cdd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-sdk-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dolphin-plugins",
@@ -35060,10 +35032,10 @@
   },
   {
     "name": "kde-system-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "e32902935f77489a2cf7d52e16855ce51e49ca468373b4bcd9f949139555b4e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-system-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "f3b88b1c10b622f7f1a4144bfcc9c42719ee589d423ee41e5df8412c6be15f54",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-system-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dolphin",
@@ -35079,10 +35051,10 @@
   },
   {
     "name": "kde-utilities-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "84b452afbaea43f45ffbb697e12630f28b68ef40575339a630ac93547c54ad54",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-utilities-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "0c64e7538ed43033b34cd4c696d7662b703ece80b4eabed86791b6971a203909",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-utilities-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ark",
@@ -35745,10 +35717,10 @@
   },
   {
     "name": "kdevelop-meta",
-    "version": "26.08-1",
+    "version": "26.08-2",
     "origin": "artix-world",
-    "sha256": "903ea9b9f2a7427d1a7710be2e3fb2e967000fe62103e9003cf89d911b5a37af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-meta-26.08-1-any.pkg.tar.zst",
+    "sha256": "eba269934af3a2612b597c82f7e4f44d12b0e771cf624b3557ac5b6bf9a1b6da",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kdevelop-meta-26.08-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kdevelop",
@@ -49899,10 +49871,10 @@
   },
   {
     "name": "libtiff",
-    "version": "4.7.2-2",
+    "version": "4.7.2-2.1",
     "origin": "artix-world",
-    "sha256": "9e29d4b81a47722f920452d65055bad5eb39405d81695099e8822aac55fc151e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtiff-4.7.2-2-x86_64.pkg.tar.zst",
+    "sha256": "ed424bf92411bb6507cf08474e37cb93012405ddb92fc68b9c98ecda2574e6d3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtiff-4.7.2-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "libtiff.so=6-64",
       "libtiffxx.so=6-64"
@@ -59515,16 +59487,15 @@
   },
   {
     "name": "netpbm",
-    "version": "10.86.50-1",
+    "version": "10.86.51-2",
     "origin": "artix-world",
-    "sha256": "780257cdbe96285ffe7d68dc069f4ffa9d2314a8bdbb57a0819403cd64a958e0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/netpbm-10.86.50-1-x86_64.pkg.tar.zst",
+    "sha256": "55729552faf6a8e49ab02b193b0bb58676584f586aacf67ba48a4b8e81a3bfe7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/netpbm-10.86.51-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
       "glibc",
       "jbigkit",
-      "libgcc",
       "libjpeg-turbo",
       "libpng",
       "libtiff",
@@ -72918,10 +72889,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.13.0-1",
+    "version": "12.14.0-1",
     "origin": "artix-world",
-    "sha256": "811835f641128efe6cbf22786fd526e1a3c9bcef88ebf795071df92086071df8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0095dc6d143d812616a6cd8e912fa96aff23e5fdda46fce97dac4e2600ed879a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.14.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -96593,24 +96564,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.13.0-1",
+    "version": "0.13.1-1",
     "origin": "artix-world",
-    "sha256": "759afe803801d44e1691fe1e9f699674ea1cb5b6f182113f56ccd79651c6ebec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ed9b6961ff51df84aabdb5fb39e8ac77230db53cdc61f8166a29a1e8b2f4b6d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.13.0"
+      "uv=0.13.1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.13.0-1",
+    "version": "0.13.1-1",
     "origin": "artix-world",
-    "sha256": "d706b6d5edc14db04e0d9de501ae7f132dda6ed78256614de299887297c30714",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9663d5d3354dc27b643c7e66a5b75f5d172296e3cfb5b6c2c9085f1b5bf1cee2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -107476,10 +107447,10 @@
   },
   {
     "name": "ruby-parallel",
-    "version": "2.2.0-1",
+    "version": "2.3.0-1",
     "origin": "artix-world",
-    "sha256": "1ebeb9660b41483c4d6b19c0dd00cd250defd416e3bafb4a2568115c1735a288",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-parallel-2.2.0-1-any.pkg.tar.zst",
+    "sha256": "edc10bf1527f017817b34a5477ad36aabee8aa5e0ecbead9c1677202925a4dc8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-parallel-2.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -111654,10 +111625,10 @@
   },
   {
     "name": "skanpage",
-    "version": "26.08.2-2",
+    "version": "26.08.2-2.1",
     "origin": "artix-world",
-    "sha256": "997b5cbb796f2143075c8e2f13e0c7cd23ce10b5c0421a2ef0edc965e839da76",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/skanpage-26.08.2-2-x86_64.pkg.tar.zst",
+    "sha256": "40da04a50364c7b2b0ba52d4872b946f2c396af0450d4ce592b05cb41e480b62",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/skanpage-26.08.2-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126465,10 +126436,10 @@
   },
   {
     "name": "uv",
-    "version": "0.13.0-1",
+    "version": "0.13.1-1",
     "origin": "artix-world",
-    "sha256": "325e4229c885d3fd8b556268b65946d8f4979390d87413123ad2ec8f1db214a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "161012d4173b74c7795222d4fb672fbfdd8b0ec62cac6d9d81488f022d3cbac8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",

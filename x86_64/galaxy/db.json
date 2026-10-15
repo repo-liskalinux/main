@@ -23090,10 +23090,10 @@
   },
   {
     "name": "nwg-look",
-    "version": "1.2.0-1",
+    "version": "1.2.1-1",
     "origin": "artix-galaxy",
-    "sha256": "031ee5dfb7aa7ce3d5fe19d3e5548fc08a70b846a03115f560dfcc103fa42119",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nwg-look-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3fa397ba9fd78f0d3e6193e6d122ebda4fa4ce33344858bdbf190a1a4636790b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nwg-look-1.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23109,7 +23109,9 @@
       "zlib",
       "xcur2png"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "libcanberra: for GTK sound themes support"
+    ],
     "conflicts": []
   },
   {
@@ -26379,10 +26381,10 @@
   },
   {
     "name": "radicle-artifact",
-    "version": "0.23.0-1",
+    "version": "0.23.1-1",
     "origin": "artix-galaxy",
-    "sha256": "aad20cafeaa5eaee850071bc957d49bc405630ecc0543ac89a270c4374ffc37d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-artifact-0.23.0-1-x86_64.pkg.tar.zst",
+    "sha256": "93b85435a88538f494b889b8259a8eb697320704123be3a1d59c636f07e325a6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/radicle-artifact-0.23.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -27729,10 +27731,10 @@
   },
   {
     "name": "signal-desktop",
-    "version": "8.30.0-1",
+    "version": "8.31.0-1",
     "origin": "artix-galaxy",
-    "sha256": "cd136eb4b606c968f3f7c6f54dee9aae910ef0b6907e9e59ebbc06fec86451f6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/signal-desktop-8.30.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b995d33e73b8ecbfbfddaaaccad4775490acf5ec7f16a3f7384145a0723059e3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/signal-desktop-8.31.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -33248,10 +33250,10 @@
   },
   {
     "name": "zed",
-    "version": "1.22.0-1",
+    "version": "1.24.2-1",
     "origin": "artix-galaxy",
-    "sha256": "c64613a10ebe9eec42ea4f04d92166ce68d2c17899a95168d885e416517a1b13",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zed-1.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "00b7a1c359c80339cbe4fd866761716c75eb0b2c46f86c7f1a8b28efec4aad45",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zed-1.24.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
