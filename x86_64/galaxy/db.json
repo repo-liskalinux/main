@@ -563,30 +563,41 @@
   },
   {
     "name": "atril",
-    "version": "1.28.7-1",
+    "version": "1.28.7-3",
     "origin": "artix-galaxy",
-    "sha256": "8a598fd2955f77fc145cee9fe36ab1de7b4065ef76d40b48abecb4b5eadd7a4a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/atril-1.28.7-1-x86_64.pkg.tar.zst",
+    "sha256": "90c9144f6c6b554c64ab8d6692751745158295bc35ad71bc43a1105896111821",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/atril-1.28.7-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "djvulibre",
-      "libspectre",
-      "libgxps",
-      "mathjax2",
-      "gettext",
-      "poppler-glib",
-      "cairo>=1.14.0",
-      "webkit2gtk-4.1>=2.6.0",
+      "at-spi2-core",
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
+      "libarchive",
+      "libgepub",
+      "libice",
+      "libsecret",
+      "libsm",
       "libsynctex",
-      "mate-desktop"
+      "libtiff",
+      "libxml2",
+      "mate-desktop",
+      "pango",
+      "poppler-glib",
+      "webkit2gtk-4.1"
     ],
     "optdepends": [
       "caja: Document Properties extension",
+      "djvulibre: Djvu support",
+      "libgxps: XPS support",
+      "libspectre: DVI and PS support",
       "texlive-bin: DVI support"
     ],
-    "conflicts": [
-      "atril-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "audacious",
@@ -1446,26 +1457,37 @@
   },
   {
     "name": "caja",
-    "version": "1.28.0-4",
+    "version": "1.28.0-5",
     "origin": "artix-galaxy",
-    "sha256": "e215ba86d2e3404c72777a9f2fa94f618fbdfe1b0e2647e8ec854dedac52e9d2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-1.28.0-4-x86_64.pkg.tar.zst",
+    "sha256": "bc96743a3884890c2de518ede92634d6e2761f8e79148b61339c6f50ebaabdb6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-1.28.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
+      "dconf",
       "exempi",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk-layer-shell",
+      "gtk3",
       "gvfs",
+      "hicolor-icon-theme",
       "libexif",
-      "libsm",
-      "mate-desktop",
+      "libgcc",
+      "libice",
       "libnotify",
-      "gtk-layer-shell"
+      "libsm",
+      "libx11",
+      "libxml2",
+      "mate-desktop",
+      "pango"
     ],
     "optdepends": [
       "gstreamer: automatic media playback when mouseover"
     ],
-    "conflicts": [
-      "caja-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "caja-admin",
@@ -4497,32 +4519,38 @@
   },
   {
     "name": "engrampa",
-    "version": "1.28.5-1",
+    "version": "1.28.5-2",
     "origin": "artix-galaxy",
-    "sha256": "2b6c4dc8a1e10f76f29d171b202ec231d6519e65c1d436681ebfa3de4fb4c1d6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/engrampa-1.28.5-1-x86_64.pkg.tar.zst",
+    "sha256": "5d8d0cb1bf59bac2588b0b41b9fbaff0571e0fd6b55c55aece30f8e65d256fab",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/engrampa-1.28.5-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
       "gtk3",
       "gzip",
-      "gettext",
-      "libarchive",
+      "hicolor-icon-theme",
+      "json-glib",
+      "libice",
+      "libsm",
+      "pango",
       "tar",
       "unzip",
       "zip"
     ],
     "optdepends": [
-      "caja: Caja support",
-      "p7zip: 7Z and ARJ archive support",
-      "unace: ACE archive support",
-      "unrar: RAR archive support",
+      "7zip: 7Z and ARJ archive support",
       "brotli: Brotli compression support",
+      "caja: File archiver extension",
+      "cpio: RPM support",
       "rpm-tools: RPM support",
-      "cpio: RPM support"
+      "unace: ACE archive support",
+      "unrar: RAR archive support"
     ],
-    "conflicts": [
-      "engrampa-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "entice",
@@ -20342,20 +20370,29 @@
   },
   {
     "name": "mate-sensors-applet",
-    "version": "1.28.0-4",
+    "version": "1.28.0-5",
     "origin": "artix-galaxy",
-    "sha256": "b3b26baf9333632423f671fce823916c971a55c45396e7b1f2f8b30e5f8df536",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-sensors-applet-1.28.0-4-x86_64.pkg.tar.zst",
+    "sha256": "51a4779d75cc4155accf715d6afa2271491b69d5a7b008426a48872552be608e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-sensors-applet-1.28.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "udisks2",
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
       "libnotify",
+      "libx11",
       "libxnvctrl",
       "lm_sensors",
-      "mate-panel",
-      "gettext"
+      "mate-panel"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "hddtemp: get HDD temperatures",
+      "udisks2: get HDD temperatures"
+    ],
     "conflicts": []
   },
   {
@@ -20505,22 +20542,24 @@
   },
   {
     "name": "mate-user-share",
-    "version": "1.28.0-2",
+    "version": "1.28.0-3",
     "origin": "artix-galaxy",
-    "sha256": "f5ea5aa41aca9809dc96788c67960dbebdf49d6aa544f10c0d1eb49a3fc04c27",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-user-share-1.28.0-2-x86_64.pkg.tar.zst",
+    "sha256": "b969792c9bd661c29a18eb04a3ce82d957036348c1d88e6f82d3be5bbc2be350",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-user-share-1.28.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "dconf",
+      "glib2",
+      "glibc",
       "gtk3",
-      "mod_dnssd",
-      "gettext"
+      "hicolor-icon-theme",
+      "libx11",
+      "mod_dnssd"
     ],
     "optdepends": [
       "caja: File sharing extension"
     ],
-    "conflicts": [
-      "mate-user-share-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "mate-utils",
@@ -24537,28 +24576,34 @@
   },
   {
     "name": "pluma",
-    "version": "1.28.1-1",
+    "version": "1.28.1-2",
     "origin": "artix-galaxy",
-    "sha256": "9758433bd81a2b74b43d6953ea75b8da9b477699839d6eeeceddeb18969d035b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pluma-1.28.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6bcafa436ff08d0de1a6b3ca716e1be59849100e2e3a7cb12944225f2f296aff",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pluma-1.28.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "iso-codes",
-      "mate-desktop",
-      "zenity",
-      "gtksourceview4",
-      "libpeas",
-      "python",
-      "gettext",
+      "at-spi2-core",
+      "cairo",
+      "dconf",
       "enchant",
-      "libsm"
+      "gdk-pixbuf2",
+      "glibc",
+      "gtk3",
+      "gtksourceview4",
+      "iso-codes",
+      "libice",
+      "libpeas",
+      "libsm",
+      "libx11",
+      "libxml2",
+      "mate-desktop",
+      "pango",
+      "zenity"
     ],
     "optdepends": [
-      "python-gobject: to use the python plugins"
+      "python-gobject: for External Tools, Python Console, Quick Open, Snippets plugins"
     ],
-    "conflicts": [
-      "pluma-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "pod2man",
@@ -28374,15 +28419,17 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "7.2.9-2.1",
+    "version": "7.3.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a7d36284ba9354d657db248af2abbb37014c636182de86bdaa3e95f69545f820",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.2.9-2.1-x86_64.pkg.tar.zst",
+    "sha256": "7809252d09deb9f509d940fec59e83068cdf2faa9c668dde1d944cd18f03f05c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
       "ada",
+      "cairo",
       "ffmpeg",
+      "fontconfig",
       "glib2",
       "glibc",
       "hicolor-icon-theme",
@@ -28398,6 +28445,7 @@
       "libsrtp",
       "libstdc++",
       "libvpx",
+      "libx11",
       "libxcb",
       "libxcomposite",
       "libxdamage",
@@ -28412,6 +28460,7 @@
       "openh264",
       "openssl",
       "opus",
+      "pango",
       "pipewire",
       "qt6-base",
       "qt6-declarative",
