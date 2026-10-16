@@ -394,10 +394,10 @@
   },
   {
     "name": "aspnet-runtime",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "cf73625061728a43750d3cd1d05ca5a3c6aaf38448adac16716df0853e502c8b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "bd0410d9efb147f3d08361f438da939fe6a8834654fd3c136254ba046a554ddb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-runtime=10.0",
       "aspnet-runtime-10.0"
@@ -465,10 +465,10 @@
   },
   {
     "name": "aspnet-targeting-pack",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "4b37280285229e5e4f5fc0a54a7de979fbb4a23cb2c3a8f94f666a7f670c760f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "757ed40453696d19e4bc2fedfef3e7bb90e20e0ef6b214d77bd4da024457fd00",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-targeting-pack=10.0",
       "aspnet-targeting-pack-10.0"
@@ -1322,13 +1322,12 @@
   },
   {
     "name": "btrfs-assistant",
-    "version": "2.3.2-1",
+    "version": "3.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "13dbe49d403a8444694bfb63fa59f0ba5504358ac5eb08978faa91f752c4bf56",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/btrfs-assistant-2.3.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a9df057774991314539db457a0a8566fd1551270a73ca8a1474bc2372e2c83eb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/btrfs-assistant-3.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "bash",
       "btrfs-progs",
       "diffutils",
       "glibc",
@@ -3633,10 +3632,10 @@
   },
   {
     "name": "dotnet-host",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "9f46ddb81cde9e5330922114a8e585095efa086b81c2ce33ebe2196ad20c7e01",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-host-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "aead498d3bc7067646532d81a2c916d9a04b35e50889645e7a1d8b7b46eadef0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-host-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3650,10 +3649,10 @@
   },
   {
     "name": "dotnet-runtime",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "3eb7d55bad8dab56647c03733843a586d40d9f57348f19be0d852711b0ce4b81",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "3d3b92ce63159939ff023a91848539716f6875f0fda7171ee0dea85dc841910e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-runtime=10.0",
       "dotnet-runtime-10.0"
@@ -3753,10 +3752,10 @@
   },
   {
     "name": "dotnet-sdk",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "8dc0d54ba0a1d7c0a7f212744099117fe4589717d0bb2766195446286a5639d5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "430592b6170ddf88e3147d9404be4ef31df8f488ecee2f0088ef0d82423e94b4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-sdk=10.0",
       "dotnet-sdk-10.0"
@@ -3842,10 +3841,10 @@
   },
   {
     "name": "dotnet-source-built-artifacts",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "9b4a3eae8eb1156ef2eb1a1735716435a352b5caa25e3f4d0efcdd93a79ba7de",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "40859fc85368a87df41a03651ff3b9ccf742e881f2ea749805fece5799941229",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-source-built-artifacts=10.0",
       "dotnet-source-built-artifacts-10.0"
@@ -3905,10 +3904,10 @@
   },
   {
     "name": "dotnet-targeting-pack",
-    "version": "10.0.12.sdk112-1",
+    "version": "10.0.13.sdk113-1",
     "origin": "artix-galaxy",
-    "sha256": "adb8e72f4146219e3d643f6b546741f10fbc88e80c26d5e66457e6d49657bee3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-10.0.12.sdk112-1-x86_64.pkg.tar.zst",
+    "sha256": "d2965282df81091f0787b8cd80157cdd53087548fd03de2958d1492d7a17b38e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-10.0.13.sdk113-1-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=10.0",
       "dotnet-targeting-pack-10.0"
@@ -33213,10 +33212,10 @@
   },
   {
     "name": "zathura",
-    "version": "2026.07.18-1",
+    "version": "2026.10.4-1",
     "origin": "artix-galaxy",
-    "sha256": "f2f9ffc0d5bb1a9ad413b01398bb966abbe8677ed81c2678af81ad516e16a46b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-2026.07.18-1-x86_64.pkg.tar.zst",
+    "sha256": "5578eba1b3e4baef85e2f0264bbb9eff68f3845fcf418d7fb30697f2fb7ddf8d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-2026.10.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "girara",
@@ -33240,10 +33239,10 @@
   },
   {
     "name": "zathura-cb",
-    "version": "2026.07.18-1",
+    "version": "2026.07.18-2",
     "origin": "artix-galaxy",
-    "sha256": "f7a41a3a94b98131c930a87bb63f36852238bf8ca68f536da0e9cea6c6302456",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-cb-2026.07.18-1-x86_64.pkg.tar.zst",
+    "sha256": "60eebd9bfd8088482aaa14187f8fa9fd6e0cdf006fc5f1e8d06a946f9524fdb4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-cb-2026.07.18-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zathura",
@@ -33254,10 +33253,10 @@
   },
   {
     "name": "zathura-djvu",
-    "version": "2026.07.18-1",
+    "version": "2026.07.18-2",
     "origin": "artix-galaxy",
-    "sha256": "9258a42c50c813c75edbae1a36715746405a11c1c3cf410f85f78bb31db49e5b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-djvu-2026.07.18-1-x86_64.pkg.tar.zst",
+    "sha256": "eb5e4511d0a015f93c02a11f460c502278ea90ffd59f672e68aca6939d6102b0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-djvu-2026.07.18-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "djvulibre",
@@ -33268,10 +33267,10 @@
   },
   {
     "name": "zathura-pdf-mupdf",
-    "version": "2026.07.18-4.1",
+    "version": "2026.07.18-5",
     "origin": "artix-galaxy",
-    "sha256": "e1d03c6ae538b86dca4b79a1eb87e9a824c7a05a1b9e6a8d3a9c22d92a0f175b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-4.1-x86_64.pkg.tar.zst",
+    "sha256": "ddbcc1cc2437f3fb007b437832e96f77f75e6c5d46a05c86d6c2a63609acff9d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -33290,10 +33289,10 @@
   },
   {
     "name": "zathura-pdf-poppler",
-    "version": "2026.07.18-1",
+    "version": "2026.07.18-2",
     "origin": "artix-galaxy",
-    "sha256": "3629fa23f5b0eda3e30ee50560050f3d857bb6a208cc46ce90c5a877392ad56b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-poppler-2026.07.18-1-x86_64.pkg.tar.zst",
+    "sha256": "eb2a95fa9ffe8c171bea501967a2fa8b4c99e9b30d31e8811519472d251c2935",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-poppler-2026.07.18-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "poppler-glib",
@@ -33304,10 +33303,10 @@
   },
   {
     "name": "zathura-ps",
-    "version": "2026.07.18-1",
+    "version": "2026.07.18-2",
     "origin": "artix-galaxy",
-    "sha256": "1ebecfeee1e980f7cc1cfe5894fb0d15f9fe31baa458a418f1885b2ce6af295a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-ps-2026.07.18-1-x86_64.pkg.tar.zst",
+    "sha256": "79efb1d4bc66b2c722523e704324bbefa5bf1035517a4e92b8a4a006af2d8fe0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-ps-2026.07.18-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libspectre",
