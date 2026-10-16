@@ -1509,25 +1509,30 @@
   },
   {
     "name": "caja-audio-video-properties",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "f65216b7b4490bb74f96ce629caa6765887559a3f4ab12b0138987bf7f29e2c9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-audio-video-properties-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "6de788eafc9241a3b80268e78e2989bf31eeecc6f9d35041617d78aeb531b425",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-audio-video-properties-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
       "caja-extensions-common",
-      "gst-plugins-base"
+      "glib2",
+      "glibc",
+      "gst-plugins-base",
+      "gst-plugins-base-libs",
+      "gstreamer",
+      "gtk3"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "caja-extensions-common",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "16b34bcaae0dc246b3f9fc3d92cf3b9b74ef6d601bf254df891f090d89878dae",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-extensions-common-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "ab074c216b2fff4a7d1765e5e4fcc931038e490cf74f949d03339142390af258",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-extensions-common-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -1563,36 +1568,40 @@
   },
   {
     "name": "caja-image-converter",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "0f1fcb63a1394fe9412956af3fd92a5f9d880e37ca65a949c590da0775e42a2f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-image-converter-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "73937244bc0f813bc8880139962fcda3b55fddc1fce0b43e8e7886113e02ff87",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-image-converter-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
       "caja-extensions-common",
+      "glib2",
+      "glibc",
+      "gtk3",
       "imagemagick"
     ],
     "optdepends": [],
-    "conflicts": [
-      "caja-image-converter-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "caja-open-terminal",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "4174f0f9cf7231562b582975f559b3fd153eced4483580397b5ea81d731c9611",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-open-terminal-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "993a43774f68bb7b62cd728dc50aacd0d3e46abd934e7114851004b7226dce59",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-open-terminal-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
-      "caja-extensions-common"
+      "caja-extensions-common",
+      "dconf",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "mate-desktop"
     ],
     "optdepends": [],
-    "conflicts": [
-      "caja-open-terminal-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "caja-seahorse",
@@ -1620,67 +1629,73 @@
   },
   {
     "name": "caja-sendto",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "bddf062d3ec237aaa30e6c89e235597f34e49dc8fe3ac8ee2fa90f6a6d87ad5d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-sendto-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "13371d71e2ddfe3ed0982304ff3864af1d61c768888fd6c4f6e4e6cd68b03d81",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-sendto-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
       "caja-extensions-common",
-      "dbus-glib"
+      "dbus-glib",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gssdp",
+      "gtk3",
+      "gupnp",
+      "libgcc"
     ],
-    "optdepends": [
-      "pidgin: Support for sending to instant messaging networks.",
-      "gajim: Support for sending to XMPP."
-    ],
-    "conflicts": [
-      "caja-sendto-gtk3"
-    ]
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "caja-share",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "a94fb96ec726a581c473f480313d4c3652898fbdb4eada05bccfd1d6ec8db625",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-share-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "dd02d784dcb390a2e02f61f01c2ba19b58bce63f8a8e96fab3769084bc48e687",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-share-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
       "caja-extensions-common",
+      "glib2",
+      "glibc",
+      "gtk3",
       "samba"
     ],
     "optdepends": [],
-    "conflicts": [
-      "caja-share-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "caja-wallpaper",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "5e17a09b06e7616260a0d077c7a619cbaa0a49fb2243f2199d704ee6f180cae1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-wallpaper-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "5cc18a61f17e8df9852825eec22acdca4a6a8ec9ec669e7eeb8ac0cb414d35c2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-wallpaper-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
-      "caja-extensions-common"
+      "caja-extensions-common",
+      "glib2",
+      "glibc"
     ],
     "optdepends": [],
-    "conflicts": [
-      "caja-wallpaper-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "caja-xattr-tags",
-    "version": "1.28.0-2.1",
+    "version": "1.28.0-4",
     "origin": "artix-galaxy",
-    "sha256": "be6b05d227e49f3e792dd11fa7399c6084a4204aeafcc119435e138b396f279a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-xattr-tags-1.28.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "4bce49a8a43c786920203c51125b14a7258017e0dd76607a98d6410fbc34274b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/caja-xattr-tags-1.28.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "caja",
-      "caja-extensions-common"
+      "caja-extensions-common",
+      "glib2",
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -20206,29 +20221,36 @@
   },
   {
     "name": "mate-media",
-    "version": "1.28.1-3",
+    "version": "1.28.1-4",
     "origin": "artix-galaxy",
-    "sha256": "f3da649a52a1f58c4be63fc725f35e317ee15b588249778ac98e071b6ded045f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-media-1.28.1-3-x86_64.pkg.tar.zst",
+    "sha256": "d8c91bffdc09cc518c937b590520a4da2c725fc6008793d68ad2d7a108ba9cf7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-media-1.28.1-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
       "libcanberra",
+      "libgcc",
       "libmatemixer",
+      "libxml2",
       "mate-desktop",
-      "mate-panel",
-      "gettext"
+      "pango"
     ],
-    "optdepends": [],
-    "conflicts": [
-      "mate-media-gtk3"
-    ]
+    "optdepends": [
+      "mate-panel: Control volume from the panel"
+    ],
+    "conflicts": []
   },
   {
     "name": "mate-menus",
-    "version": "1.28.1-2",
+    "version": "1.28.1-3",
     "origin": "artix-galaxy",
-    "sha256": "797eb3f89e019678fc3946b67330e5f431af50bfcb9b9f60b278d9254a0e8fac",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-menus-1.28.1-2-x86_64.pkg.tar.zst",
+    "sha256": "923b4d5c07a631a649c440414d4b069c42d11bf34d26340ef13bf2f62d0df8c0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-menus-1.28.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -20327,19 +20349,30 @@
   },
   {
     "name": "mate-power-manager",
-    "version": "1.28.1-2",
+    "version": "1.28.1-3",
     "origin": "artix-galaxy",
-    "sha256": "6d24b51fcf36bb0b79fb41e370eb5926af2cb8f4f2e974a92ea1d8a2629ef0b9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-power-manager-1.28.1-2-x86_64.pkg.tar.zst",
+    "sha256": "05d73407d0678c464a1e8ee598dced465e16685f5980f1f0adddc576666d3bec",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-power-manager-1.28.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "cairo",
+      "dbus",
       "dbus-glib",
-      "gettext",
+      "dconf",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
       "libcanberra",
       "libnotify",
-      "upower",
+      "libsecret",
+      "libx11",
+      "libxext",
+      "libxrandr",
+      "mate-desktop",
+      "pango",
       "polkit",
-      "libsecret"
+      "upower"
     ],
     "optdepends": [
       "mate-panel: Set brightness and inhibit power management from the panel"
@@ -20348,25 +20381,40 @@
   },
   {
     "name": "mate-screensaver",
-    "version": "1.28.0-3",
+    "version": "1.28.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6c5e2b13873d6d6320c6d5f69cd3cfebe1e97d0c3bdb6cdbe9a85a1d66abda42",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-screensaver-1.28.0-3-x86_64.pkg.tar.zst",
+    "sha256": "2ea42cfb640dbb81b1f198c0eaf2a8f195b4abe8b1ab774e45a1f21c11e8a7aa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-screensaver-1.28.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "mate-panel",
+      "cairo",
+      "dbus",
+      "dbus-glib",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "libglvnd",
       "libmatekbd",
-      "gettext",
       "libnotify",
+      "libx11",
+      "libxext",
+      "libxklavier",
       "libxss",
+      "libxxf86vm",
       "mate-desktop",
       "mate-menus",
-      "mate-session-manager"
+      "mate-panel",
+      "mate-session-manager",
+      "pam",
+      "pango",
+      "libelogind"
     ],
-    "optdepends": [],
-    "conflicts": [
-      "mate-screensaver-gtk3"
-    ]
+    "optdepends": [
+      "python-gobject: for mate-screensaver-configure command"
+    ],
+    "conflicts": []
   },
   {
     "name": "mate-sensors-applet",
@@ -22238,23 +22286,23 @@
   },
   {
     "name": "mozo",
-    "version": "1.28.0-5",
+    "version": "1.28.0-6",
     "origin": "artix-galaxy",
-    "sha256": "0b4aa47e71449c9f4ebba87ea4d2ec3515d533a7630d75d931c033010cc32c30",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mozo-1.28.0-5-any.pkg.tar.zst",
+    "sha256": "333a34da6daa4285184a92e8050fe05d2e000f088dab3ed08b42ca64dfd735b8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mozo-1.28.0-6-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "gdk-pixbuf2",
+      "glib2",
       "gtk3",
-      "python>=3.5",
+      "hicolor-icon-theme",
       "mate-menus",
-      "python-gobject",
-      "gettext",
-      "mate-panel"
+      "mate-panel",
+      "python",
+      "python-gobject"
     ],
     "optdepends": [],
-    "conflicts": [
-      "mozo-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "mpc",
