@@ -59247,10 +59247,10 @@
   },
   {
     "name": "neatvnc",
-    "version": "1.0.2-1",
+    "version": "1.0.3-1",
     "origin": "artix-world",
-    "sha256": "1e48fae7b79c847dd762217e2679ab5c3d5c1d08ce7fcff59c9e77d72a13d43b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/neatvnc-1.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5c28f3044d6a757b281d72a25d911e688c30abf091b09a542f813f93eea7b9f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/neatvnc-1.0.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libneatvnc.so=1-64"
     ],
@@ -62221,10 +62221,10 @@
   },
   {
     "name": "opencc",
-    "version": "1.4.0-1",
+    "version": "1.4.1-1",
     "origin": "artix-world",
-    "sha256": "2a41866ca47744295da5ec4ce64fe47abf76449c07260734bb1c07c6da3a3016",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencc-1.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0d845fca9fcb0fdbd1e87cf0fd0a234f2166cf7c5f3566b2bba91dc8d7b7d2a0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencc-1.4.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libopencc.so=1.4-64"
     ],
@@ -76039,6 +76039,21 @@
     "conflicts": []
   },
   {
+    "name": "python-aiohttp-retry",
+    "version": "2.9.1-4",
+    "origin": "artix-world",
+    "sha256": "714a5d6a2449c6f39fa9e09eb44ff57a234dfbcc8c1939855d6c02bd91c213e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-aiohttp-retry-2.9.1-4-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "python",
+      "python-aiohttp",
+      "python-yarl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "python-aiohttp-socks",
     "version": "0.12.0-1",
     "origin": "artix-world",
@@ -83233,10 +83248,10 @@
   },
   {
     "name": "python-installer",
-    "version": "1.0.1-1",
+    "version": "1.1.0-1",
     "origin": "artix-world",
-    "sha256": "47e8d77dcca20c608a4ec88a7e5a5d3c83b9826a864836e134068cc289806d62",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-installer-1.0.1-1-any.pkg.tar.zst",
+    "sha256": "8d98ba952943b4d4ff9cc7e7b539d7e21b596ff8c5f9cd7731dbaf721107fa39",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-installer-1.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -83454,14 +83469,15 @@
   },
   {
     "name": "python-isort",
-    "version": "9.0.2-1",
+    "version": "9.0.2-2",
     "origin": "artix-world",
-    "sha256": "d1b4e02373065988e169649093f2fe607889b118a7adbb7269eff57c85040a5f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-isort-9.0.2-1-any.pkg.tar.zst",
+    "sha256": "9e813299c4a3f7194f79ad71069221ec0383d785f61cb75079933876cb351bd7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-isort-9.0.2-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
       "python-colorama",
+      "python-mypy_extensions",
       "python-setuptools"
     ],
     "optdepends": [],
@@ -84405,15 +84421,16 @@
   },
   {
     "name": "python-kubernetes",
-    "version": "36.0.3-1",
+    "version": "37.0.1-1",
     "origin": "artix-world",
-    "sha256": "b823cda4acd2316d3a59cfc656a088fa97494fa99284026efc9fed4060e93936",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-kubernetes-36.0.3-1-any.pkg.tar.zst",
+    "sha256": "3b1fed60480d4656a703f39df0371eaae800a3e62599e2937c5f4f82ca9fb482",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-kubernetes-37.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
       "python-adal",
       "python-aiohttp",
+      "python-aiohttp-retry",
       "python-certifi",
       "python-dateutil",
       "python-durationpy",
@@ -84423,7 +84440,9 @@
       "python-six",
       "python-urllib3",
       "python-websocket-client",
-      "python-yaml"
+      "python-yaml",
+      "python-pydantic",
+      "python-typing_extensions"
     ],
     "optdepends": [],
     "conflicts": []
@@ -90301,10 +90320,10 @@
   },
   {
     "name": "python-pypdf",
-    "version": "6.20.1-1",
+    "version": "6.21.0-1",
     "origin": "artix-world",
-    "sha256": "5a4e77b4075f61508614f224b70d8a1ac7604b68edff620983ab7b9a5c127287",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pypdf-6.20.1-1-any.pkg.tar.zst",
+    "sha256": "85f2b2cf06543e65d8294d63fee5fa8fd0bd4895bc4cdb3768ec71309b225686",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pypdf-6.21.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -90741,10 +90760,10 @@
   },
   {
     "name": "python-pysmbc",
-    "version": "1.0.25.1-5",
+    "version": "1.0.25.1-6",
     "origin": "artix-world",
-    "sha256": "dc3b991672ea2b340e6013d46d188f0a889d481eeef4ed4dd17f3a4c8d56efb3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pysmbc-1.0.25.1-5-x86_64.pkg.tar.zst",
+    "sha256": "2ed1ab0f098a0846729919e2483cf7bf443dc914d6970686dcdc0e5f6c3dcb22",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pysmbc-1.0.25.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -94640,10 +94659,10 @@
   },
   {
     "name": "python-spur",
-    "version": "0.3.23-6",
+    "version": "0.3.23-7",
     "origin": "artix-world",
-    "sha256": "1a86f425cfc047bb08c5bd363d5b0646908143587db2c3ffd5abb9487e99d655",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-spur-0.3.23-6-any.pkg.tar.zst",
+    "sha256": "8b979feed06d0779f5aec2adf9f4169d56bacbb85b7e0a6b414b6941bbf835a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-spur-0.3.23-7-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -97886,10 +97905,10 @@
   },
   {
     "name": "python-zope-hookable",
-    "version": "8.3-1",
+    "version": "8.4-1",
     "origin": "artix-world",
-    "sha256": "61ad943dd79dd29776543f166bef39b07d2d40345450ca3e988f1b7f7eb81c32",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zope-hookable-8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "822048a7bee3f3024dd8f010798d65c15206eb5fd136486c28dc99dcb1fa9546",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zope-hookable-8.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -97900,14 +97919,15 @@
   },
   {
     "name": "python-zope-i18nmessageid",
-    "version": "8.3-1",
+    "version": "8.4-1",
     "origin": "artix-world",
-    "sha256": "f9f2802b57a2f765ace481c5b6d129133efb659f480e9e0abe4f39c0b5214ef6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zope-i18nmessageid-8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9c3120c20659198eabd6dcc32ce06a9b56812c2921726591df32d93103c97769",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-zope-i18nmessageid-8.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
-      "python"
+      "python",
+      "python-zope-interface"
     ],
     "optdepends": [],
     "conflicts": []
