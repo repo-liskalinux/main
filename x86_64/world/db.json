@@ -6772,16 +6772,17 @@
   },
   {
     "name": "bumblebee",
-    "version": "3.2.1-21",
+    "version": "3.2.1-22",
     "origin": "artix-world",
-    "sha256": "dc408a27138b5f6d443abb046a9e5f4de5cccd87d428f0f11c2d979b3901582e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bumblebee-3.2.1-21-x86_64.pkg.tar.zst",
+    "sha256": "d17e4eea34e01d182fe179d6263d5acdca6ecf67d8425ffb79ab812224ec7c42",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bumblebee-3.2.1-22-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
+      "libx11",
       "virtualgl",
       "glib2",
-      "mesa-libgl",
-      "libbsd"
+      "mesa-libgl"
     ],
     "optdepends": [
       "bbswitch: switch on/off discrete card",
@@ -11566,10 +11567,10 @@
   },
   {
     "name": "distro-info",
-    "version": "1.19-1",
+    "version": "1.20-1",
     "origin": "artix-world",
-    "sha256": "f6ddde9691265538916c83e6fc0584d9ffa0f7f5fe880124f541e94e1f457e26",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/distro-info-1.19-1-x86_64.pkg.tar.zst",
+    "sha256": "f1434d1841a0ab64bb02514885d779a5293b6879b5f33c310b76ddb1852df034",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/distro-info-1.20-1-x86_64.pkg.tar.zst",
     "provides": [
       "python-distro-info",
       "perl-distro-info"
