@@ -74994,10 +74994,10 @@
   },
   {
     "name": "prosody",
-    "version": "1:13.0.7-1",
+    "version": "1:13.0.7-2",
     "origin": "artix-world",
-    "sha256": "ec16b041fc98a143a3be96fe049bf03644b3ff633624405d33ec26cfde237888",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/prosody-1:13.0.7-1-x86_64.pkg.tar.zst",
+    "sha256": "16893ccb177b802b7134567e88da43efbf153f288ba15516197ce9dca29150c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/prosody-1:13.0.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "lua54",
@@ -75005,7 +75005,7 @@
       "lua54-socket",
       "lua54-expat",
       "lua54-filesystem",
-      "libidn",
+      "icu",
       "openssl"
     ],
     "optdepends": [
