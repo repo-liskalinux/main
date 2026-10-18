@@ -3304,10 +3304,10 @@
   },
   {
     "name": "libeinfo",
-    "version": "0.64.1-1",
+    "version": "0.64.1-2",
     "origin": "artix-system",
-    "sha256": "805f2681d82d7e10d742c9676c16f672aabc18d14c22663e534dc778e31d693b",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libeinfo-0.64.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ae9e12cc4693aec719900773120be9362a99ef80678c21c458144d8bf080aa3a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libeinfo-0.64.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libeinfo.so=1-64"
     ],
@@ -5528,14 +5528,15 @@
   },
   {
     "name": "openrc",
-    "version": "0.64.1-1",
+    "version": "0.64.1-2",
     "origin": "artix-system",
-    "sha256": "948639b8e56a159b4b76c897178050c0387961f320d199fdf4792a532329595e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openrc-0.64.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ed83b40c594a2c3090c4fd8fe7236c2f1c9e0872937056120cd8222d50db8b1d",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openrc-0.64.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "init-rc",
       "svc-manager",
-      "librc.so=1-64"
+      "librc.so=1-64",
+      "backlight-openrc"
     ],
     "depends": [
       "artix-cgroups",
@@ -5559,7 +5560,8 @@
     ],
     "conflicts": [
       "init-rc",
-      "svc-manager"
+      "svc-manager",
+      "backlight-openrc"
     ]
   },
   {

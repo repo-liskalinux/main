@@ -4445,23 +4445,6 @@
     ]
   },
   {
-    "name": "backlight-openrc",
-    "version": "20210506-1",
-    "origin": "artix-world",
-    "sha256": "5a59f1a8fca4c55f8449d89423e9b4ab8fc6c233ac40aa5d6130a8638dfa9322",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/backlight-openrc-20210506-1-any.pkg.tar.zst",
-    "provides": [
-      "init-backlight"
-    ],
-    "depends": [
-      "openrc"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "init-backlight"
-    ]
-  },
-  {
     "name": "backlight-runit",
     "version": "20200420-4",
     "origin": "artix-world",
