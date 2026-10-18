@@ -338,10 +338,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-394",
+    "version": "1.2.2-395",
     "origin": "artix-world",
-    "sha256": "aa47b28de223ce648b9fd6e1d3477a8d73f1c39836c1767e011c4053128ec0fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-394-x86_64.pkg.tar.zst",
+    "sha256": "eeeaba8e7b3e9cfe22ad9661f29d8ba27d8b27573191e2b8bfc1c1c46ff59615",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-395-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -8129,10 +8129,10 @@
   },
   {
     "name": "clang",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "835f795bd9b5f0e57d1301bfb67481bf075988d7283354717394530533acf20c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/clang-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "06e74ca9af93d5c2b08105e411eb40b50ed35fea6fa5b6dd066dd5beee1dda48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/clang-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [
       "clang-analyzer=23.1.3",
       "clang-tools-extra=23.1.3"
@@ -8972,10 +8972,10 @@
   },
   {
     "name": "compiler-rt",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "3bfb1877061f9f28f00635176514b78dbb4da600ee8c08d1559c0bff81596d5a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/compiler-rt-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "313443b2297ae881ef18d7a857d8342822d19e824a7f90a9aa95566bea1586a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/compiler-rt-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11139,12 +11139,16 @@
   },
   {
     "name": "devil",
-    "version": "1.8.0-9",
+    "version": "1.8.0-10",
     "origin": "artix-world",
-    "sha256": "fec85e5d82cb2993159b8d745d07506f2e74460ccd4f60795d994f7d77514e30",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/devil-1.8.0-9-x86_64.pkg.tar.zst",
+    "sha256": "e0e31920b77190b4ee6a9b574db3ee99d89b5405361bf7fd740c0adab262db24",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/devil-1.8.0-10-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
+      "libgcc",
+      "libstdc++",
+      "libtiff",
       "libpng",
       "jasper",
       "lcms2",
@@ -36827,13 +36831,13 @@
   },
   {
     "name": "kid3",
-    "version": "3.10.1-2",
+    "version": "3.10.2-1",
     "origin": "artix-world",
-    "sha256": "838f015b4789cc6639687ab1503bc9342e306c9c0d590dce2e46271af2950078",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kid3-3.10.1-2-x86_64.pkg.tar.zst",
+    "sha256": "2b5f72d3585c02e08cbcca035f7cd6fe9ccde684a98517ee10ea5a98ed419fb8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kid3-3.10.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "kid3-common=3.10.1",
+      "kid3-common=3.10.2",
       "kxmlgui",
       "qt6-declarative",
       "qt6-multimedia",
@@ -36844,15 +36848,14 @@
   },
   {
     "name": "kid3-common",
-    "version": "3.10.1-2",
+    "version": "3.10.2-1",
     "origin": "artix-world",
-    "sha256": "2956cc04a48aae26cc97cb6218489e5c6c5c6a5ac14a2c2af3cf0922682d50ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kid3-common-3.10.1-2-x86_64.pkg.tar.zst",
+    "sha256": "e8aea1dcdc2e82df8f9dda5fd28cde90b2652933044d0a37e212236c685a8aaa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kid3-common-3.10.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "chromaprint",
       "flac",
-      "id3lib",
       "libmp4v2",
       "libvorbis",
       "qt6-base",
@@ -36866,13 +36869,13 @@
   },
   {
     "name": "kid3-qt",
-    "version": "3.10.1-2",
+    "version": "3.10.2-1",
     "origin": "artix-world",
-    "sha256": "fdc092e15c56e964b44c608299e0aa44c0b41b935cc10128aa87a525270be0d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kid3-qt-3.10.1-2-x86_64.pkg.tar.zst",
+    "sha256": "b3d98b3c33de36943cccdfa5798aa1602421d7e9aca207ae196aabe5b88771a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kid3-qt-3.10.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "kid3-common=3.10.1",
+      "kid3-common=3.10.2",
       "qt6-declarative",
       "qt6-multimedia"
     ],
@@ -42260,10 +42263,10 @@
   },
   {
     "name": "lib32-rust-libs",
-    "version": "1:1.99.0-3",
+    "version": "1:1.99.1-1",
     "origin": "artix-world",
-    "sha256": "6e59236b74986bfddc4c4e63eef30f677b88fcdadf56198977668116b3b7aa4f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lib32-rust-libs-1:1.99.0-3-x86_64.pkg.tar.zst",
+    "sha256": "e036b230f68777eb5ced30f59937fa07f6ef9d97d57571e7f74dd588fcf8e456",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lib32-rust-libs-1:1.99.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-rust"
     ],
@@ -43196,13 +43199,13 @@
   },
   {
     "name": "libc++",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "d12a2b0304e54c7c5ecd4955292ce9f8f0ea679660bf602c951fab4fb8bb17c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "83cfaab0d20ed7ff048a59aa27b24c05eb3833492f5ee55ac8addda3da71be65",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libc++abi=23.1.3-2.1",
+      "libc++abi=23.1.3-3",
       "libgcc",
       "glibc"
     ],
@@ -43211,10 +43214,10 @@
   },
   {
     "name": "libc++abi",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "c350be96ac15db8e4841ba9eb966458ceace7c1b5040d3f1f04af36674369d16",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++abi-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "8cc72e44caee2b54e9d3529b336a692f516a89e2929642fcf93bfb5564b1b740",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++abi-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -43507,10 +43510,10 @@
   },
   {
     "name": "libclc",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "2605df5aa34c40a6c82927bd1b255965fecd2c3a3571796a57b124ca508c6cf9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libclc-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "e0490ade3751f04aea81d2ff7054deefb1f0651b32e2200f0e8ef53ed25a44a4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libclc-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -52513,10 +52516,10 @@
   },
   {
     "name": "lld",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "f868ac50b459316e28b227321ebd63754d88b5f3b30878f2f48d8332703f46ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lld-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "0c8edb7a00929f26ce7362face27448038773658ca8cf362b4a437f9aee17789",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lld-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -52594,10 +52597,10 @@
   },
   {
     "name": "lldb",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "52e5f7f1bb625c5d9f49ca79a85d4f59091a709460e64d22e841a5fe8eac98ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lldb-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "ac230b3555eb4ee7a4399c6dc497a291de72c46877f81b30d8e4169c3e86edbb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lldb-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -52629,10 +52632,10 @@
   },
   {
     "name": "llvm",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "e808485a1a0ac9e429654cfbdbe3e9653032fc0fb2149fe69429837cb2ae55df",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "e6f85957cead476fea8409e6feaf4e3220548007095be9e5ff4a040b4aa94939",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -52642,6 +52645,23 @@
       "libstdc++",
       "glibc",
       "libgcc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "llvm-bolt",
+    "version": "23.1.3-3",
+    "origin": "artix-world",
+    "sha256": "056146712b6ee922d89faedd22e47cf39fa6782f151c9f4e0aa64d4eeba4d9f6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-bolt-23.1.3-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "libstdc++",
+      "zlib",
+      "zstd"
     ],
     "optdepends": [],
     "conflicts": []
@@ -52686,10 +52706,10 @@
   },
   {
     "name": "llvm-libs",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "73aedf6df84ea1fd3ccc05106106477bafacafc5b5f9cd2a6891868e7a48e6d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-libs-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "7393ba25850c59e06e0889fea65c33eee8698b86a5a29ffff55cb69994ee282e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-libs-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [
       "libLLVM.so=23.1-64",
       "libLTO.so=23.1-64",
@@ -52710,10 +52730,10 @@
   },
   {
     "name": "llvm-lit",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "28c1d9aabf840daec2d38c3ae583e584b6b3b69dbc13c0f5e107bdc189f5c2d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-lit-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "373d1ce151da97105325c71c4fd699c4d8c25043dc27fae11a97b489dc9a1f3e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-lit-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -56453,13 +56473,13 @@
   },
   {
     "name": "mesa",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "c0d026b3e3137e7665c0ea0e5456c81b912d34d764da6ed660aaae9d439b0482",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mesa-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "9c4d11823622182a9faecf67c0da3509616c25427f2c64d558adba952cd1d01e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mesa-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libva-mesa-driver=1:26.2.4-1",
-      "mesa-libgl=1:26.2.4-1",
+      "libva-mesa-driver=1:26.2.5-1",
+      "mesa-libgl=1:26.2.5-1",
       "libva-driver",
       "opengl-driver"
     ],
@@ -61275,10 +61295,10 @@
   },
   {
     "name": "nvidia-open",
-    "version": "615.78.08-2.1",
+    "version": "615.78.08-3",
     "origin": "artix-world",
-    "sha256": "3aa637737e124c6f814c4ec754023a9454e6ae173e0a7f132477c59c4b8cc80c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.78.08-2.1-x86_64.pkg.tar.zst",
+    "sha256": "41d1c0eca75d9794ff3e58855feebbb67559285f719064e40cc2ab1fdc5896f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.78.08-3-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
@@ -61790,10 +61810,10 @@
   },
   {
     "name": "offload",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "e79202337d3fdd11c171240d688e78d6b925b6a9bcd9ab69da2c66d43bc67bd5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/offload-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "4fc6591d1a8d4f96cba3f8fc058f528c05c4a5547edb7891c02e8d6601d84854",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/offload-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -62314,10 +62334,10 @@
   },
   {
     "name": "opencl-mesa",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "8402154d53d55642b49dc0853dec25828dcf97dd6503998df81fad97b68273db",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-mesa-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "ce66e6f874947e4b5d02d1ded12116654042ef8d5a61917949023bad1549b44d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-mesa-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],
@@ -63039,10 +63059,10 @@
   },
   {
     "name": "openmp",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "85a4f2fefee9021f3622fdf979a1a4c180d25e5e5049cc36241bc35e6629f437",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmp-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "cc3c2c64070c000aa8846259eaeb93a859a7f1ed20fe56290300d388f014478c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmp-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -73293,10 +73313,10 @@
   },
   {
     "name": "polly",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "0f243109b2f1ce22d4bc17363ca84a1c2676335175f83a3e6342ec0af6e31c98",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/polly-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "f8092d8c9be1c391de1145c98d6726b10d5f52cbd6f390f8feae0bd4bc4f75e2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/polly-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -109863,10 +109883,10 @@
   },
   {
     "name": "rust-aarch64-gnu",
-    "version": "1:1.99.0-3",
+    "version": "1:1.99.1-1",
     "origin": "artix-world",
-    "sha256": "dcb6bed33957c510e274d37ef5903790a83bb217fdc2877a26010b68adbc1b65",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-gnu-1:1.99.0-3-x86_64.pkg.tar.zst",
+    "sha256": "80b25918a9f930a9db1218705d9671e7c373be57cf469cfee86ae986b611bf8d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-gnu-1:1.99.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aarch64-linux-gnu-gcc",
@@ -109878,10 +109898,10 @@
   },
   {
     "name": "rust-aarch64-musl",
-    "version": "1:1.99.0-3",
+    "version": "1:1.99.1-1",
     "origin": "artix-world",
-    "sha256": "7ef28693fa0704b79f1930ec56d91b3f24d1535a6ff22eac3daf03e7cf3c62ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-musl-1:1.99.0-3-x86_64.pkg.tar.zst",
+    "sha256": "3c0bb96ab2ef4e6376ccb2fafabf83f519a4b013fa8296be9b425351d2e6c77e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-musl-1:1.99.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aarch64-linux-gnu-gcc",
@@ -109907,10 +109927,10 @@
   },
   {
     "name": "rust-musl",
-    "version": "1:1.99.0-3",
+    "version": "1:1.99.1-1",
     "origin": "artix-world",
-    "sha256": "0a3769bba703157bfc7a3f01b8d68e7a7aa4aca9d9cecf00d8463819d10de62c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-musl-1:1.99.0-3-x86_64.pkg.tar.zst",
+    "sha256": "761316d1aa407c8dce8888765a0bb9fd5c919481e5436482b4129b07186ed74c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-musl-1:1.99.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rust"
@@ -109920,10 +109940,10 @@
   },
   {
     "name": "rust-src",
-    "version": "1:1.99.0-3",
+    "version": "1:1.99.1-1",
     "origin": "artix-world",
-    "sha256": "8553746939a82a60cfa28e43b7b8ad05fdd3408542c42c524068978464933d5f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-src-1:1.99.0-3-x86_64.pkg.tar.zst",
+    "sha256": "d04c9ba2804f5e6110a57c625cbca3fb7a7d0e40c297dd6e9a10bca8aad4f99d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-src-1:1.99.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rust"
@@ -109933,10 +109953,10 @@
   },
   {
     "name": "rust-wasm",
-    "version": "1:1.99.0-3",
+    "version": "1:1.99.1-1",
     "origin": "artix-world",
-    "sha256": "902dfc7189a5419e0055ba09b48ce8ce72d13b560a546316f2e7130216acfe60",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-wasm-1:1.99.0-3-x86_64.pkg.tar.zst",
+    "sha256": "4adbd92409de9581f8a989ceb6b47a615b71c690b29ad79308f0ca029b25fd6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-wasm-1:1.99.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rust",
@@ -130020,10 +130040,10 @@
   },
   {
     "name": "vulkan-asahi",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "083152d66ce223ab346e78c489b440b1a4c70f4ad0388da07b189e3a579cc788",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-asahi-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "c9a8152d1f02b07aa23490d0239ed9203db9e1cfec6813d50420fb12a208d786",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-asahi-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130052,10 +130072,10 @@
   },
   {
     "name": "vulkan-broadcom",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "e9a22efacedf258a71390d60056f8af964b30314d3e83e8e83d73218f8260a80",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-broadcom-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "8b7e74179051c43d0ec419ca5187e497a61145ded8becde63431b842c239315e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-broadcom-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130084,10 +130104,10 @@
   },
   {
     "name": "vulkan-dzn",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "d03d86584fa8dc4145de89dbcdfd5fc4535ba14f9909613660eadc7c9068802e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-dzn-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "b504825230db4caf6b48c00cdaaf418327fe2691f32c24f669d42d5919ac1544",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-dzn-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130116,10 +130136,10 @@
   },
   {
     "name": "vulkan-freedreno",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "f0adc92af1e1568a329624e9dad4a0c61a2c66cc1023633047fb99794c85e0d5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-freedreno-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "46af7dd1237f3a4b284ee0be862bc4beb1bfa9f40d125ae3f1c4c4f1de23ca31",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-freedreno-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130148,10 +130168,10 @@
   },
   {
     "name": "vulkan-gfxstream",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "c684df19a8c88011a9755b9477d2dbaea6c1e5f1ca7ded3f6b08f99ab0170a74",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-gfxstream-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "2e13d56f387ccbf0cbcfda891b3a3347c5cf16752940fa590af8217efc00d708",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-gfxstream-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130209,10 +130229,10 @@
   },
   {
     "name": "vulkan-intel",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "9ef3e69368e15608ef8e47c88ab1e643dceb1c04874db17b0e8e51fe57c5c020",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-intel-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "2724a6aee639c7e5a786cfadf511fca4734d3beec64badab63cda07d455a1f19",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-intel-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130273,10 +130293,10 @@
   },
   {
     "name": "vulkan-mesa-implicit-layers",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "62f26fe51f231d0c73562bbd83349034e002cf41d3949e30842d1aa7b1522b48",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-implicit-layers-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "02767e03c8dbf1b266cd077804e0cbfc82d2d306942823d2a7f4dc59e9cb1a4f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-implicit-layers-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130291,10 +130311,10 @@
   },
   {
     "name": "vulkan-mesa-layers",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "93886b0e1a52f3d4f3e142acd13169a50ad2716ace9ccdd3aad0ca2025c4e29e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-layers-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "80244c6ce1c6ff74ce1bacb7640e1d3929c30138b6c5d708ac1933ba7b5293ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-layers-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130310,10 +130330,10 @@
   },
   {
     "name": "vulkan-nouveau",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "2209cc859266901b48615d3c808d511aea6195b6d0260d1d37f34c145ba439d5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-nouveau-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "b4244a7a67edfd5c7b0b5509462692f11509d69ab9640d7b678d715e80384645",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-nouveau-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130343,10 +130363,10 @@
   },
   {
     "name": "vulkan-panfrost",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "2ff80a43ac89c60dd3970bfd79389c6ed146f3c30aa05915a8b991e030d17e68",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-panfrost-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "7e1f948530d59d5240cd1516ae83e908c7f6ad60393f6e663bcfcaaa9d025251",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-panfrost-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130375,10 +130395,10 @@
   },
   {
     "name": "vulkan-powervr",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "953c97d26931406e87c77551cb4bbec22cd99149a581dea1bf2737b401cb65ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-powervr-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "2e89ac4b36e12e6c9b1682cc026ce0140c9c3af6b86b7c806ccbff56ecf4793d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-powervr-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130407,10 +130427,10 @@
   },
   {
     "name": "vulkan-radeon",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "44e30fe2db6f7186b19384c539004d14836828d440443eee9b8ac2bc42bf3d7a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-radeon-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "5ffd0042450a40472d25333f31f90ca6f7cc0310022fa65a8cd291c1524e1a81",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-radeon-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130441,10 +130461,10 @@
   },
   {
     "name": "vulkan-swrast",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "8c12ec15f4451bb542b6b28e364d3c0712e594bd59bb73980922595252283fc9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-swrast-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "45652ab79cc6e258c2d044b5f51e9974f6606975605ba0837d2eaaaea00ad49c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-swrast-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130525,10 +130545,10 @@
   },
   {
     "name": "vulkan-virtio",
-    "version": "1:26.2.4-1",
+    "version": "1:26.2.5-1",
     "origin": "artix-world",
-    "sha256": "cc537a56ebb44ecca4b336096ec9f8e6ef3fa9e748a0fb36a5c50a8deeb943ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-virtio-1:26.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "a72e8b6d8e6e96cb1135887a6302c1adf63cce2666b32cfd31ad193887eef5ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-virtio-1:26.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130630,10 +130650,10 @@
   },
   {
     "name": "wasi-compiler-rt",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "5a4a2ca4475392403a99714a7eefe562517094c779a4d6df02463505cd67b4d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-compiler-rt-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "8fcc980613610e27e515bb008b01ec3908e0f90e8676e5e127eda3e449440d69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-compiler-rt-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wasi-libc"
@@ -130654,25 +130674,25 @@
   },
   {
     "name": "wasi-libc++",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "b992524d214de6cb6fc27bf353bf3327cb34bb3528b59ced828c3b200df9958f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "647b7daaddab2084067953054b4b91b65ae7f2b5b2b8c5748118e30fab54a598",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wasi-libc",
       "wasi-compiler-rt",
-      "wasi-libc++abi=23.1.3-2.1"
+      "wasi-libc++abi=23.1.3-3"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "wasi-libc++abi",
-    "version": "23.1.3-2.1",
+    "version": "23.1.3-3",
     "origin": "artix-world",
-    "sha256": "addc49b40a0a7d7c1eab20abdce11edff0027182915da13cdca7bc36824702df",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++abi-23.1.3-2.1-x86_64.pkg.tar.zst",
+    "sha256": "eb141d59931fd9a81f51e9ced90a3731c0d79f73b5e552d151df1831169c2592",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++abi-23.1.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wasi-libc",
