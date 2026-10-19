@@ -8731,27 +8731,27 @@
   },
   {
     "name": "colord",
-    "version": "1.4.8-1.1",
+    "version": "1.4.8-2",
     "origin": "artix-world",
-    "sha256": "6f0a665b90d63a3e04002a7cf9396fc54dd8884d0cfacbec671b2d78f6295c32",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/colord-1.4.8-1.1-x86_64.pkg.tar.zst",
+    "sha256": "57e4ea30f5fe9038b502515c511a7e4e077648f679e296d66a9c93940b01ea09",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/colord-1.4.8-2-x86_64.pkg.tar.zst",
     "provides": [
       "libcolorhug.so=2-64"
     ],
     "depends": [
       "dbus",
       "dconf",
-      "gcc-libs",
       "glib2",
       "glibc",
       "lcms2",
+      "libgcc",
       "libgudev",
       "libgusb",
       "polkit",
       "shared-mime-info",
       "sqlite",
       "libudev",
-      "libcolord=1.4.8-1.1"
+      "libcolord=1.4.8-2"
     ],
     "optdepends": [
       "argyllcms: color profiling",
@@ -8887,18 +8887,18 @@
   },
   {
     "name": "colord-sane",
-    "version": "1.4.8-1.1",
+    "version": "1.4.8-2",
     "origin": "artix-world",
-    "sha256": "8b43ecad17e1f937808ae728dce1576f8d5dd668501e5f7547d964b61098ea9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/colord-sane-1.4.8-1.1-x86_64.pkg.tar.zst",
+    "sha256": "13389dce941aa47081bb4259ce54df940f31697439e9d651aa8245eef60abce2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/colord-sane-1.4.8-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "colord=1.4.8-1.1",
-      "libcolord=1.4.8-1.1",
+      "colord=1.4.8-2",
+      "libcolord=1.4.8-2",
       "dbus",
-      "gcc-libs",
       "glib2",
       "glibc",
+      "libgcc",
       "libgudev",
       "sane"
     ],
@@ -43521,18 +43521,18 @@
   },
   {
     "name": "libcolord",
-    "version": "1.4.8-1.1",
+    "version": "1.4.8-2",
     "origin": "artix-world",
-    "sha256": "817cb7dabcc4375bcb97c44aaa92cb7949f842ea8b5b5bdea3c482079be07cfe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcolord-1.4.8-1.1-x86_64.pkg.tar.zst",
+    "sha256": "54e22fa420e9445d29d47a6d49e243f311fb93b641088bb20dcae554804552a9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcolord-1.4.8-2-x86_64.pkg.tar.zst",
     "provides": [
       "libcolord.so=2-64"
     ],
     "depends": [
-      "gcc-libs",
       "glib2",
       "glibc",
       "lcms2",
+      "libgcc",
       "libudev"
     ],
     "optdepends": [],
@@ -47709,18 +47709,18 @@
   },
   {
     "name": "libnotify",
-    "version": "0.8.8-1",
+    "version": "0.8.9-1",
     "origin": "artix-world",
-    "sha256": "cef18928385d267c0305169a62b49707ac8df7c20043a9fe7a4faf8f9c3fde86",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libnotify-0.8.8-1-x86_64.pkg.tar.zst",
+    "sha256": "12c56d16d87512413acd0549b298a36113b35e75d2b36e4bedeaa9d2dcf60c3b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libnotify-0.8.9-1-x86_64.pkg.tar.zst",
     "provides": [
       "libnotify.so=4-64"
     ],
     "depends": [
-      "gcc-libs",
       "gdk-pixbuf2",
       "glib2",
-      "glibc"
+      "glibc",
+      "libgcc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -48692,10 +48692,10 @@
   },
   {
     "name": "libpulse",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "b5672b0ff59e526bf7bf177c8103e0718d228df139cd6c3f47a4ecdc68b212ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpulse-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "834785a20cdf06049bcbb0aad62975f1bf00fcd1f67819ed89d496b395a1b5cc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpulse-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpulse-mainloop-glib.so=0-64",
       "libpulse-simple.so=0-64",
@@ -75255,23 +75255,23 @@
   },
   {
     "name": "pulseaudio",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "eae3a1026d51e865d9388c1b13e8ddfcc0908a36c470d3a11bc9446d9a6028cb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "7134df77e618aa9da117d97757ca164d3b0c1730cce8f24efb5e14eb23e7ed95",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [
       "pulse-native-provider"
     ],
     "depends": [
-      "libpulse=17.0+r98+gb096704c0-1",
+      "libpulse=17.0+r134+g77d25a1e6-1",
       "alsa-lib",
       "bash",
       "dbus",
       "fftw",
-      "gcc-libs",
       "glib2",
       "glibc",
       "libcap",
+      "libgcc",
       "libice",
       "libltdl",
       "libsm",
@@ -75316,14 +75316,14 @@
   },
   {
     "name": "pulseaudio-bluetooth",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "1694c881b713d119f6013daa92e4524cec03e1dd13188e517aaf0a467cf91e8a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-bluetooth-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "465a614f8fa014d01f5e224d4b1af88f6a8a93e5373f9de9f13235cf500a8007",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-bluetooth-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpulse=17.0+r98+gb096704c0-1",
-      "pulseaudio=17.0+r98+gb096704c0-1",
+      "libpulse=17.0+r134+g77d25a1e6-1",
+      "pulseaudio=17.0+r134+g77d25a1e6-1",
       "bluez",
       "bluez-libs",
       "dbus",
@@ -75340,13 +75340,13 @@
   },
   {
     "name": "pulseaudio-equalizer",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "5d5aaa4d9cc9ae7648686d2d56a9621471c161e1f17a5dc39962e247731a2d3c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-equalizer-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "f5739aaf6d73b03976e8052c03ddc28039bf1c808c2c89f593c2ed5cb4bd4e76",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-equalizer-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "pulseaudio=17.0+r98+gb096704c0-1",
+      "pulseaudio=17.0+r134+g77d25a1e6-1",
       "dbus",
       "fftw",
       "glibc",
@@ -75359,13 +75359,13 @@
   },
   {
     "name": "pulseaudio-jack",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "feaeed641325a87002fe270d5807e967487d7e85a5711fb95544f70e509e3f34",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-jack-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "da5e79b38309731f1fa059bd433075004900e79c419c11385ff75e4173774606",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-jack-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "pulseaudio=17.0+r98+gb096704c0-1",
+      "pulseaudio=17.0+r134+g77d25a1e6-1",
       "dbus",
       "glibc",
       "jack"
@@ -75375,13 +75375,13 @@
   },
   {
     "name": "pulseaudio-lirc",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "41e1ab59e7507965677dfe4483b3d5d9f29694d842e87d44f1398402b7e65c13",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-lirc-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "dcaf595385e8068441533c165b2ccfe5c922a62c00a50fdd4080e7a64445e1c2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-lirc-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "pulseaudio=17.0+r98+gb096704c0-1",
+      "pulseaudio=17.0+r134+g77d25a1e6-1",
       "glibc",
       "lirc"
     ],
@@ -75406,14 +75406,14 @@
   },
   {
     "name": "pulseaudio-rtp",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "7bdc6adce3e4d6f1f5deeebc5fd502a1805803c05655f72159eb6eba8fd145cb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-rtp-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "4d095cee51ac39ab7013563965f6718b3724405894bff89e078d5bc3bd384989",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-rtp-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpulse=17.0+r98+gb096704c0-1",
-      "pulseaudio=17.0+r98+gb096704c0-1",
+      "libpulse=17.0+r134+g77d25a1e6-1",
+      "pulseaudio=17.0+r134+g77d25a1e6-1",
       "glib2",
       "glibc",
       "gst-plugins-base",
@@ -75427,14 +75427,14 @@
   },
   {
     "name": "pulseaudio-zeroconf",
-    "version": "17.0+r98+gb096704c0-1",
+    "version": "17.0+r134+g77d25a1e6-1",
     "origin": "artix-world",
-    "sha256": "ef4ddaa6f8fe976e84a3b73672d1ac5ded3b6bb7bf033c101a5eab6fadbffb6c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-zeroconf-17.0+r98+gb096704c0-1-x86_64.pkg.tar.zst",
+    "sha256": "139ec351c6f475d3bfc2e1c2acb78343b2acfe41f339bd66f6d7168cc86b96a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulseaudio-zeroconf-17.0+r134+g77d25a1e6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpulse=17.0+r98+gb096704c0-1",
-      "pulseaudio=17.0+r98+gb096704c0-1",
+      "libpulse=17.0+r134+g77d25a1e6-1",
+      "pulseaudio=17.0+r134+g77d25a1e6-1",
       "avahi",
       "dbus",
       "glibc"
@@ -131125,16 +131125,17 @@
   },
   {
     "name": "webrtc-audio-processing-0.3",
-    "version": "0.3.1-6",
+    "version": "0.3.1-7",
     "origin": "artix-world",
-    "sha256": "28d24f0da3ae23fafbdedfd0a10e717f11cdf5dfe62c8843ad007c7e7fdd444b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/webrtc-audio-processing-0.3-0.3.1-6-x86_64.pkg.tar.zst",
+    "sha256": "e9d94dd274ee2aae309d040dcc7ff3d7a851ab871feccbe7a1e4cda5d67781d1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/webrtc-audio-processing-0.3-0.3.1-7-x86_64.pkg.tar.zst",
     "provides": [
       "libwebrtc_audio_processing.so=1-64"
     ],
     "depends": [
-      "gcc-libs",
-      "glibc"
+      "glibc",
+      "libgcc",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
