@@ -1442,10 +1442,10 @@
   },
   {
     "name": "cairo-perl",
-    "version": "1.109-6.1",
+    "version": "1.109-7",
     "origin": "artix-galaxy",
-    "sha256": "d5a2c83a6e300e24bb12945cc0381cd1a268095aa0bf45b5117b6a61aa4a0556",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cairo-perl-1.109-6.1-x86_64.pkg.tar.zst",
+    "sha256": "0ba0a053a1fc50be22dc7edada13c488fd12d65a2b59d7c88020dc269ac650a9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cairo-perl-1.109-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -9338,10 +9338,10 @@
   },
   {
     "name": "glib-perl",
-    "version": "1.329.4-3.1",
+    "version": "1.329.4-4",
     "origin": "artix-galaxy",
-    "sha256": "bca4249a285dfcdf2360433311fda3a581e0d6819fa9675bb31e0fa01887c3f4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/glib-perl-1.329.4-3.1-x86_64.pkg.tar.zst",
+    "sha256": "2d7803d09ff593e1fc2eca73dbc3b4427559f62d976009c46daec65c6e121b1f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/glib-perl-1.329.4-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2"
@@ -10327,10 +10327,10 @@
   },
   {
     "name": "intel-gpu-tools",
-    "version": "2.5-1.1",
+    "version": "2.6-1",
     "origin": "artix-galaxy",
-    "sha256": "856301db8a0db6346669c755a1dcaa5df17ac5744e525b8563f411f24c412c5b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/intel-gpu-tools-2.5-1.1-x86_64.pkg.tar.zst",
+    "sha256": "b365a123b0637af79fa2c99ad9cc118dca587f855cfe03d8ac5d7cccd7da8b9a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/intel-gpu-tools-2.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libdrm",
@@ -10343,7 +10343,8 @@
       "kmod",
       "libxv",
       "libunwind",
-      "peg"
+      "peg",
+      "libudev"
     ],
     "optdepends": [
       "python-dissect.cstruct: for intel-gfx-fw-info"
@@ -20044,31 +20045,37 @@
   },
   {
     "name": "mate-applets",
-    "version": "1.28.1-2",
+    "version": "1.28.1-3.1",
     "origin": "artix-galaxy",
-    "sha256": "7c2e64f476f6add21852fd1a7cb63c4248f05ca027e306159d82b0a01b9a99ba",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-applets-1.28.1-2-x86_64.pkg.tar.zst",
+    "sha256": "a500fdf83cfc3e67ef4034fc675207c88126ddc5457357200e09d3ce058fe311",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-applets-1.28.1-3.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
       "cpupower",
-      "gtksourceview4",
+      "dbus-glib",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "hicolor-icon-theme",
       "libgtop",
+      "libmateweather",
+      "libnl",
       "libnotify",
+      "libwnck3",
+      "libx11",
+      "libxml2",
+      "mate-desktop",
       "mate-panel",
+      "pango",
       "polkit",
-      "upower",
-      "wireless_tools",
-      "libnl"
+      "upower"
     ],
-    "optdepends": [
-      "fortune-mod: for displaying fortune cookies in the Wanda the Fish applet",
-      "gucharmap: character picker applet"
-    ],
-    "conflicts": [
-      "mate-applets-gtk3",
-      "mate-netspeed",
-      "mate-netspeed-gtk3"
-    ]
+    "optdepends": [],
+    "conflicts": []
   },
   {
     "name": "mate-backgrounds",
@@ -20257,20 +20264,27 @@
   },
   {
     "name": "mate-netbook",
-    "version": "1.27.0-3",
+    "version": "1.27.0-4",
     "origin": "artix-galaxy",
-    "sha256": "9889077f6c2a4892336f1e22867fcf43ac1e2ce76afc29b6a547a0e800ef8daa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-netbook-1.27.0-3-x86_64.pkg.tar.zst",
+    "sha256": "859058bdcecfbe559ee0a087bd81022a368a61e793623e9f47971825deb19af1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-netbook-1.27.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
       "libfakekey",
+      "libwnck3",
+      "libx11",
       "mate-panel",
-      "gettext"
+      "pango"
     ],
     "optdepends": [],
-    "conflicts": [
-      "mate-netbook-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "mate-notification-daemon",
@@ -22337,10 +22351,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.15-4",
+    "version": "0.24.16-1",
     "origin": "artix-galaxy",
-    "sha256": "319a3abd11e8b2d98ec8a89bfb8ad379719f791fe7be65abe0f08e681ce11b02",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.15-4-x86_64.pkg.tar.zst",
+    "sha256": "f9bd50bc182f2eb447e24e5468b7045e14256141f628c7ba7e1c537c4a0ab30b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -24395,10 +24409,10 @@
   },
   {
     "name": "perl-glib-object-introspection",
-    "version": "0.052-1",
+    "version": "0.052-2",
     "origin": "artix-galaxy",
-    "sha256": "a20d50ab0159a0b30e3051beb1c38cf2a4b4805fb5ff9903c8f68adea6dca60c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-glib-object-introspection-0.052-1-x86_64.pkg.tar.zst",
+    "sha256": "9069c15826db21019679f6ea24ac567424f1bc631fe7ec2a20e4cd7110917944",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-glib-object-introspection-0.052-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib-perl",
@@ -25873,10 +25887,10 @@
   },
   {
     "name": "qmmp",
-    "version": "2.4.1-1",
+    "version": "2.4.2-1",
     "origin": "artix-galaxy",
-    "sha256": "57ff20a04b3afa44284ec26d42dbdae6319189be8e1684474ccb4deb932b5f79",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qmmp-2.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "addefeebf971dcfdec6edc887fe37ecc5d67081079a13d946ccbfc7acd779a02",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/qmmp-2.4.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
