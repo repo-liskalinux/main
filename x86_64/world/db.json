@@ -2619,10 +2619,10 @@
   },
   {
     "name": "arrow",
-    "version": "25.0.1-6",
+    "version": "26.0.0-1",
     "origin": "artix-world",
-    "sha256": "1e72def456bae06bf2060ba414d5f08dee93ebfb55f1cf7b0ce29041fda1ff31",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-25.0.1-6-x86_64.pkg.tar.zst",
+    "sha256": "562900773ba815af0ad93a85a8c13e0eff2a3cdcdb4429f663f854645cb01e3f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-26.0.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "parquet-cpp"
     ],
@@ -2645,8 +2645,10 @@
       "openssl",
       "protobuf",
       "re2",
+      "simdjson",
       "snappy",
       "thrift",
+      "uriparser",
       "zlib",
       "zstd"
     ],
@@ -18722,10 +18724,10 @@
   },
   {
     "name": "gdal",
-    "version": "3.13.3-3",
+    "version": "3.13.3-4",
     "origin": "artix-world",
-    "sha256": "1751c5e6d985de5b079ec91f9d7da922e762869daee6b811c3465c821e9006da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdal-3.13.3-3-x86_64.pkg.tar.zst",
+    "sha256": "c24c962ad146b909becf65f91b412fe5be4259a2b28e80c9e111c650e8bebb18",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdal-3.13.3-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc",
@@ -64948,22 +64950,24 @@
   },
   {
     "name": "pavucontrol",
-    "version": "1:6.2-1",
+    "version": "1:6.2-2",
     "origin": "artix-world",
-    "sha256": "3c6dd67ab264984a5bfb5729d86f2106019dba809f8dc31316a732528ff393f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pavucontrol-1:6.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f9a0e39784a5292f26582d9ae9ab9f09cb8f6e00a74872c2b9e8d765fd4c4724",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pavucontrol-1:6.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
       "glib2",
       "glibc",
       "glibmm-2.68",
       "gtk4",
       "gtkmm-4.0",
+      "hicolor-icon-theme",
       "json-glib",
       "libcanberra",
+      "libgcc",
       "libpulse",
-      "libsigc++-3.0"
+      "libsigc++-3.0",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
@@ -65016,10 +65020,10 @@
   },
   {
     "name": "pcsclite",
-    "version": "2.5.2-1",
+    "version": "2.5.3-1",
     "origin": "artix-world",
-    "sha256": "55e4bf1e6a89d1e4768cbd1a7a670bd1b0783e33d6170cbc9060374077951fee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "29ded0b0a508abfac10b726e881ac45ed890e4b3611e12e99a2d028a55530307",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpcsclite.so=1-64",
       "libpcsclite_real.so=1-64",
@@ -72159,10 +72163,10 @@
   },
   {
     "name": "plasma-meta",
-    "version": "6.7-2",
+    "version": "6.8-1",
     "origin": "artix-world",
-    "sha256": "47f4c36ef7fb1893a0df2c463dfb894df4c1126ff50caf662983c6c19c73f382",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-meta-6.7-2-any.pkg.tar.zst",
+    "sha256": "c3e5d90dbad468b3e8a72f238eaa4685b6e98d4f69d07eba5b9eaff5cf350b72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-meta-6.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aurorae",
@@ -72180,16 +72184,17 @@
       "kinfocenter",
       "kmenuedit",
       "knighttime",
-      "konsole",
       "kpipewire",
       "krdp",
       "kscreen",
       "kscreenlocker",
       "ksshaskpass",
       "ksystemstats",
+      "kup",
       "kwallet-pam",
       "kwayland",
       "kwin",
+      "kwin-x11",
       "kwrited",
       "layer-shell-qt",
       "libkscreen",
@@ -72219,20 +72224,16 @@
       "print-manager",
       "spectacle",
       "systemsettings",
+      "union",
       "xdg-desktop-portal-kde"
     ],
     "optdepends": [
       "breeze-grub: Breeze theme for GRUB",
       "breeze-plymouth: Breeze theme for Plymouth",
-      "kgamma: Adjust gamma settings on X",
-      "kwin-x11: X11 window manager",
-      "plasma-x11-session: Plasma X11 session",
+      "plasma-workspace-wallpapers: Additional wallpapers",
       "plymouth-kcm: Configure Plymouth from systemsettings",
       "plasma-sdk: Development tools",
-      "plasma-workspace-wallpapers: Additional wallpapers",
-      "sddm-kcm: SDDM configuration module",
-      "union: Next generation QtQuick/QtWidgets style engine",
-      "wacomtablet: Drawing tablet settings on X"
+      "sddm-kcm: SDDM configuration module"
     ],
     "conflicts": []
   },
@@ -81624,10 +81625,10 @@
   },
   {
     "name": "python-gdal",
-    "version": "3.13.3-3",
+    "version": "3.13.3-4",
     "origin": "artix-world",
-    "sha256": "bfa58e8f4bf5d9e3c8ea618dfc882d094641e98a1bcc6d98b399964f7820105c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gdal-3.13.3-3-x86_64.pkg.tar.zst",
+    "sha256": "6f681d10f5d7c2564365e5f7e36b7af4f9327b6ba94fc2701977cc8109b7a7fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gdal-3.13.3-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdal=3.13.3",
