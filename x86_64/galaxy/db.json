@@ -1294,10 +1294,10 @@
   },
   {
     "name": "box2d",
-    "version": "3.1.1-2",
+    "version": "3.2.0-1",
     "origin": "artix-galaxy",
-    "sha256": "6c1d0f8853f56c5d709c0cf1172497c44291f5fa67aa0c3eac3ebec76c9322c5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/box2d-3.1.1-2-x86_64.pkg.tar.zst",
+    "sha256": "688db2a224058cf132c03fefc5ba873b31c90755f085b2312f630fad75b398a4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/box2d-3.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -12011,10 +12011,10 @@
   },
   {
     "name": "libreoffice-fresh",
-    "version": "26.8.1-1",
+    "version": "26.8.1-2",
     "origin": "artix-galaxy",
-    "sha256": "c5b1d5ad3a150e80d617f1ddfd4590c73625c4d57acaa4c82a1b7602ce1325e2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-26.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "75d3a7c67ebcd43d1b397634f0c48420e27073cb024a92f57ba28d366c97e826",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-26.8.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice",
       "libreoffice-en-US"
@@ -13779,10 +13779,10 @@
   },
   {
     "name": "libreoffice-fresh-sdk",
-    "version": "26.8.1-1",
+    "version": "26.8.1-2",
     "origin": "artix-galaxy",
-    "sha256": "a61bae5465c381a440e98b78e502c4f426adfba3f4ee23dfa8a128c72f130c91",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sdk-26.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "f29d72f4ad70ea8e7e1c8df60f48d88fecda2cbcd4ffe511f8da412b65ce7864",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-fresh-sdk-26.8.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice-sdk"
     ],
@@ -14362,10 +14362,10 @@
   },
   {
     "name": "libreoffice-still",
-    "version": "26.2.6-2",
+    "version": "26.2.6-3",
     "origin": "artix-galaxy",
-    "sha256": "d12bb0fb4104fc826385c635ddda17c70f7e1cbe447f64fbc0f14c465263c34c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-26.2.6-2-x86_64.pkg.tar.zst",
+    "sha256": "37cfa3190fb68acaefd7bcd6c5d6b85a1b87091d7b607e8d5210a4d8c825491b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-26.2.6-3-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice",
       "libreoffice-en-US"
@@ -16058,10 +16058,10 @@
   },
   {
     "name": "libreoffice-still-sdk",
-    "version": "26.2.6-2",
+    "version": "26.2.6-3",
     "origin": "artix-galaxy",
-    "sha256": "2cec06f5c0211179ca4ba7aaa3305a66c4e2d293d5eda4ed614391ef4e7f5de7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-sdk-26.2.6-2-x86_64.pkg.tar.zst",
+    "sha256": "ea06147601802853f2f9108dabc0db8747238532906845bd7abbbb7f79b61883",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libreoffice-still-sdk-26.2.6-3-x86_64.pkg.tar.zst",
     "provides": [
       "libreoffice-sdk"
     ],
@@ -27507,10 +27507,10 @@
   },
   {
     "name": "scribus",
-    "version": "1.6.6-7",
+    "version": "1.6.6-8",
     "origin": "artix-galaxy",
-    "sha256": "3d152ec5f98b6a536ce8c87b7ea229c8a31ca2ecce1b3a8a55519bbaef08608c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/scribus-1.6.6-7-x86_64.pkg.tar.zst",
+    "sha256": "ad3889373cfbbe0365ff4f877ecacb9e219f0242a151ef4a4e1117ac68fd541c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/scribus-1.6.6-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -27556,7 +27556,7 @@
       "podofo",
       "libpodofo.so=2-64",
       "poppler",
-      "libpoppler.so=163-64",
+      "libpoppler.so=165-64",
       "python",
       "qt5-base",
       "zlib",
