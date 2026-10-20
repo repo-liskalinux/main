@@ -1442,10 +1442,10 @@
   },
   {
     "name": "cairo-perl",
-    "version": "1.109-7",
+    "version": "1.109-7.1",
     "origin": "artix-galaxy",
-    "sha256": "0ba0a053a1fc50be22dc7edada13c488fd12d65a2b59d7c88020dc269ac650a9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cairo-perl-1.109-7-x86_64.pkg.tar.zst",
+    "sha256": "2c9acee72c52a6f5f021b94c878b50b4e4ae93579cc63c4e911ecababf684dbc",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cairo-perl-1.109-7.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -2554,10 +2554,10 @@
   },
   {
     "name": "claws-mail",
-    "version": "4.4.0-6",
+    "version": "4.4.0-7",
     "origin": "artix-galaxy",
-    "sha256": "1291a5ea26d4f841318a860c60e6fb0ef999b200b82099e0f777c0c8f1fc87d2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/claws-mail-4.4.0-6-x86_64.pkg.tar.zst",
+    "sha256": "159a63ec4af215028c3940ae4d57a872ee51e40f4894da801a4b33059b010150",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/claws-mail-4.4.0-7-x86_64.pkg.tar.zst",
     "provides": [
       "claws"
     ],
@@ -5280,10 +5280,10 @@
   },
   {
     "name": "firefox-esr",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "714b4d0dd184b8aca0530c800207eb84d158c47c0a931c2f0aa0580c82066898",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5c544a713960a50461737e287b45dcd1b5f049f55045eb6d9f2a70d9328732b6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -5328,13 +5328,13 @@
   },
   {
     "name": "firefox-esr-i18n-ach",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "080b129d63384781e5f6ac1e53438dfbfe3fc839c21300b30e3fbd90777f3d27",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ach-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c6333895d2a6f58318cab26c0e873a7c2d93c925c4a141dc292003f8df9d2c43",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ach-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5347,13 +5347,13 @@
   },
   {
     "name": "firefox-esr-i18n-af",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bf3dedff6b52487d4f1358bb9e206eb9aabf485d40bf5a5e4d045fc1f2fee98c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-af-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c2e2ff08ff7fa6459ee3bc127f34f3b07937c7b398893d912de011ebaa5a1743",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-af-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5366,13 +5366,13 @@
   },
   {
     "name": "firefox-esr-i18n-an",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "4686d0f5669b9245726b82431f983044917c628e792d70e2d1326d28af8a8bbf",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-an-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1201315104031e054d992a80780f9c748f02270b48a14baacf66e6051261d438",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-an-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5385,13 +5385,13 @@
   },
   {
     "name": "firefox-esr-i18n-ar",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ee06f3a1e895b1942b0fa41fa1cf17abf01cdb6be7e2383703112fcc5fafdef1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ar-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e29d09efd71936d5eadb14c37ffef6f0aa3012c0933996fe89f7ad39b2bb49bb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ar-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5404,13 +5404,13 @@
   },
   {
     "name": "firefox-esr-i18n-ast",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "aa6484eea024bef5ea97ecb84c2bcfd573d8ee91c7ffb88ccb338677a1013a94",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ast-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f6f6e4c592e33b95579473ac90a341c770ed6fb1564562dc2011496fec0b6329",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ast-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5423,13 +5423,13 @@
   },
   {
     "name": "firefox-esr-i18n-az",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8f41368458834cc11235dab24ef0eb757f603a35791530e7a9158900ddd8f372",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-az-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "89b9dc729a181340f4371b327121daa460b0c7e6cb8300c3ad7cd8c05507a7e5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-az-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5442,13 +5442,13 @@
   },
   {
     "name": "firefox-esr-i18n-be",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c3462d67bece12e3a832736adbd338feadc95bd4627ec9e15834bc07d7f8a949",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-be-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c3ce1d759278f2419edcb9e3c21f48687a7ba9099d4461ac80a20d5ddb8be022",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-be-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5461,13 +5461,13 @@
   },
   {
     "name": "firefox-esr-i18n-bg",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fd159f1c57b1ab8c36578283742054add42673953d498fa844f8cd17b92398f4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-bg-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "252155c603a3fff7eda9f9ea2e3a788de0cfa63f0e08081f2203f2a190bb8b89",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-bg-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5480,13 +5480,13 @@
   },
   {
     "name": "firefox-esr-i18n-bn",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "72c81997bf9ab965a11c6f2df4187dff91b8707e5744302a5cbcf52d79e62ca3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-bn-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ce1afb609c97afff7c58ab26bfc62d73c18013aa33f6280de50cacdbfd3223eb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-bn-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5499,13 +5499,13 @@
   },
   {
     "name": "firefox-esr-i18n-br",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6724a29efdc1b5786c4bbda53216afaa77ea620494885b8781bcf65bf6adde48",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-br-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "388a34e2fe7261bf8946e4fe15e5b8bf70107e1a43937423e1c2360d16a691a8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-br-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5518,13 +5518,13 @@
   },
   {
     "name": "firefox-esr-i18n-bs",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "14a95843b9d5d763253ac04269fa4029581a0d19bad1543b88cc2ea748e9b6f9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-bs-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9bb4ce18f2bade7a52869a48aced6ed1e515d423186c86d5aab708be121e22dd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-bs-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5537,13 +5537,13 @@
   },
   {
     "name": "firefox-esr-i18n-ca",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fe0d9df6936c95672afe081ae6bf45fa9f1b29dedcd65535d125056fe1abad43",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ca-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e7ea4def1850eb1d76d9f0098184e31087b0933bd4858b2b53b3e6156fbb3f91",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ca-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5556,13 +5556,13 @@
   },
   {
     "name": "firefox-esr-i18n-ca-valencia",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "75dae3d5f3253183274265f45c901284d9ea73dc1b2c047b1aa9bc7ca609ba38",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ca-valencia-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "212dbc65f47a4a58a072498a4d2a77c281b5fe344bb0dd836fc683996c03d6ae",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ca-valencia-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5575,13 +5575,13 @@
   },
   {
     "name": "firefox-esr-i18n-cak",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3859521560251e481729f106794ffc06409ca334f812b55ff62365786d84c641",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-cak-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f454f074ed04d0ae8af43446f8962dddaa0f6674255d4611571bbabe7af6830d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-cak-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5594,13 +5594,13 @@
   },
   {
     "name": "firefox-esr-i18n-cs",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f53d6459a9dc3cb730e517c49cc98245e92790fe48d3ea0d6695c0d8cb33ad81",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-cs-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e2205bdd21fa71706a0f9d48787b3b02a0395c42b75ad81a9fc2cfb970279049",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-cs-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5613,13 +5613,13 @@
   },
   {
     "name": "firefox-esr-i18n-cy",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "7fac6548b9506f2c9751c71f87cfbab9bfadc7c3350b4c31b8c2c5e64e415061",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-cy-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d0fd4f99afcc277322bb65e011f2526374c80168f479ca3ea8561521908570ba",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-cy-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5632,13 +5632,13 @@
   },
   {
     "name": "firefox-esr-i18n-da",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c9b3cfda7e99510f1bce447f8805dedf553bc1c841c6e09076c738d0c6d6749b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-da-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b964e63dcca7345332bf70dce2d0c7ad4100d948f514d77dafba5022309f2a60",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-da-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5651,13 +5651,13 @@
   },
   {
     "name": "firefox-esr-i18n-de",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e0bdd7763c19845ceb522c5539e4a4a25224fcd48dcca09aee1e21ffabd3f174",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-de-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "12c6459317a8c79408552fb4a3aa9eee8be6ac116fb87eba0ba8fd24833f6cfd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-de-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5670,13 +5670,13 @@
   },
   {
     "name": "firefox-esr-i18n-dsb",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "438f604d27c0746fdfb259b05faebc04b24804991b43421d93322e5a2bc80117",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-dsb-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3ca929002c22f67af464e8a32c9e26b4f48ce4f64228e22d8d156c53356f4c99",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-dsb-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5689,13 +5689,13 @@
   },
   {
     "name": "firefox-esr-i18n-el",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "334998b3d17b9bd1cd3b289d13f9814dc2eeed35dfa4a7fb2c62f8628c980687",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-el-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3f85bc0ea5ca5c24f1c2f6b1502f2c49a36c05e4019b25e4862788efdf2e77cd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-el-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5708,13 +5708,13 @@
   },
   {
     "name": "firefox-esr-i18n-en-ca",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "967ebcb3f8a468962624fc01703271721d2317a0200175a45209672915576151",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-en-ca-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f70bdf772092d9b728b7bb86f9bb39bb0460a2049d8e07b2589c80e113a0d0f5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-en-ca-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5727,13 +5727,13 @@
   },
   {
     "name": "firefox-esr-i18n-en-gb",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1f823588f276dd182cfb7b6835989108d4ac09e06c32e4070b709c6620bcc2ed",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-en-gb-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fb46a9e72100e92f861bb9a9a317a03aaea45dc4913251c31e464c9080520999",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-en-gb-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5746,13 +5746,13 @@
   },
   {
     "name": "firefox-esr-i18n-en-us",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "2fa4288798e7abbb2a20b22537d217fcddcfe2e3a5c3be6e2af49cd9ef9b0982",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-en-us-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "eb19b73d1052154e1671e5dd656c06db143205b69db6fed131fdd6fe97610b52",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-en-us-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5765,13 +5765,13 @@
   },
   {
     "name": "firefox-esr-i18n-eo",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "502aee383530d365aa32ef522faec5e1047a116cbdb03071f81be87660d52f60",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-eo-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "620c0da5a337ca321bc33e3163a12bfb4a6ade5bdeb2d305c26897f59dccecb6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-eo-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5784,13 +5784,13 @@
   },
   {
     "name": "firefox-esr-i18n-es-ar",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "760593c2a05ac1b02f720ddec1db503c53acc37c2b648f029dca596a3cc37413",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-ar-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9cf944b5ea07e9082c478b77e47db75ecce18f45576a5c12f47878935786b2e2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-ar-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5803,13 +5803,13 @@
   },
   {
     "name": "firefox-esr-i18n-es-cl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bb3709de1b282b8a867c7625499d7d88d36eeef351aa02af10a26e549257ad4b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-cl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1e72505268da048b0b96afd2ec1de8cf0fc63ba26c2dae423790bb51ef495f84",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-cl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5822,13 +5822,13 @@
   },
   {
     "name": "firefox-esr-i18n-es-es",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "4160e85ee1128185c4c54ed2d3f366f8e4cdc40df8a52fbad3759e2266e7d48d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-es-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "599fe76433d86921b24d8d7f521c0226e45c7b94c9d99f648c00c60599915de2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-es-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5841,13 +5841,13 @@
   },
   {
     "name": "firefox-esr-i18n-es-mx",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "218d01a05365ef67e86a4b9d5c1943373235910bbc7b4568fc70cadd994eac0e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-mx-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e60d1472a79a88902e3f906194fe0cd9f3331c309ef4ed682b24432720ebbb3c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-es-mx-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5860,13 +5860,13 @@
   },
   {
     "name": "firefox-esr-i18n-et",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3d32635acefe02cc1d0ca938e372b598b6894e80d72524a7ad9de68dfcb5750e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-et-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "12127672e17951825da89dd48b68038d53a3bbd8315c0936beab0238281fe117",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-et-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5879,13 +5879,13 @@
   },
   {
     "name": "firefox-esr-i18n-eu",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6da0d0afd666326dd777a718869e896256b832c7f2b810ceecf5ed21fcc90c7c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-eu-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d951c87491d932472a5d5cbd604d7ffc69ce11bb62fbafc733a8d937e6b8e459",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-eu-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5898,13 +5898,13 @@
   },
   {
     "name": "firefox-esr-i18n-fa",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "256cbf19004386d477c318b06515da21924c9f2e15dcb8840cfb465691ea2ac2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fa-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9cf7ef759db4e98725424ff7fa24b565bcab5bb3090312f9304ac3f8c42576d8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fa-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5917,13 +5917,13 @@
   },
   {
     "name": "firefox-esr-i18n-ff",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "2e5279005c6d365be5829907165f7b935d46e207d0400b37c487aaf4758e426f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ff-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "af3c360aaa1e831fed9b843d8a978b137a98957f0896d227e4b82487467364e8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ff-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5936,13 +5936,13 @@
   },
   {
     "name": "firefox-esr-i18n-fi",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "18fa2fbb43a53582b430a3c56f75891cd44443ee5f083ea29c3842df6869ce1e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fi-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0b6bcf1aa31931b5ed3c769c9940b617f9cacc6bd092c282a7cdf9f19e498d9b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fi-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5955,13 +5955,13 @@
   },
   {
     "name": "firefox-esr-i18n-fr",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ee40ac1eb8bb13c48f99b391350174846fd5a88737c3e75499017f95656643be",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fr-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1f3ab3b92924fb10652e377575c2b21262c4b28db7fefd885e54b60618de3ea1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fr-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5974,13 +5974,13 @@
   },
   {
     "name": "firefox-esr-i18n-fy-nl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bfd3806b37b29b76d7ea7f771713f68839e76507ba4efd36c0bedb9abc029b61",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fy-nl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "58dd5647120fd731cc94b82247ade1f9c105be88eed5a73bf24b72b197dd144e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-fy-nl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -5993,13 +5993,13 @@
   },
   {
     "name": "firefox-esr-i18n-ga-ie",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "9777f9d65991269a563e432821c0a158df7a95fb2a62535422ea3dd2c8e5db97",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ga-ie-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2a58436dab7ec3fe36e75762bc8d0a78be31dcde6c9a13a254e78f9eca60d8aa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ga-ie-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6012,13 +6012,13 @@
   },
   {
     "name": "firefox-esr-i18n-gd",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "817fe931b840b87e79e86841c6445c21bb504017290f03d7f1c53e51f8c87c4b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gd-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bc315bbaf4079adfee80f1f8ea08b603aad015477bd5e61ea94a7a586107de1b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gd-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6031,13 +6031,13 @@
   },
   {
     "name": "firefox-esr-i18n-gl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "eaa7625b882a3e461bd0afeeaf2c5038ec347d24d4165a23c6d9e928bc075f69",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f54fa2fb1de07c10c6c8d1da9e0969fdde5bc5a1b27926c4dd7953d769b30293",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6050,13 +6050,13 @@
   },
   {
     "name": "firefox-esr-i18n-gn",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "2f42d937d919e17135530eff1efccad0022ad141a34fe7f6b91a20a025a42ad2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gn-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "02bd04a5d558386f2cd5a4f7a6a34ddb1a5037312ffdbb871aa0eb9dc4120763",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gn-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6069,13 +6069,13 @@
   },
   {
     "name": "firefox-esr-i18n-gu-in",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bc5fd0cf60d11052474a2c2188605c5accb3cbaeba6105f0aafdac91fc536da1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gu-in-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "97f18c59b83ddf48808a45cbd2e99593c6cfad933bf1b10e228522e235bedf9d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-gu-in-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6088,13 +6088,13 @@
   },
   {
     "name": "firefox-esr-i18n-he",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "7ab02b6d0e896c028372e1cccc738e999d3a720ba6ed2042d6c87487236372ec",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-he-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8d16f91d9a7c90dab5dd4303998a9ae4426287b0450faf8a5dd2829de37512ac",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-he-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6107,13 +6107,13 @@
   },
   {
     "name": "firefox-esr-i18n-hi-in",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8835858be5fe300cb1bd7f0801c3a9770c7e7976d9da5e3e617f0bf346d5c06d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hi-in-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1a6d769bcc11a685126bb442a33f9bc9abc1476fa4625e6744dbb7ace2a8aa25",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hi-in-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6126,13 +6126,13 @@
   },
   {
     "name": "firefox-esr-i18n-hr",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "39ea2f38946fe663f48787183879a4a32836b187c747a1561b56d8815937117a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hr-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4559dff1ba5b36dc3dc87337955e201b403dfafae4ade80bedbe1cb52bb48c2b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hr-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6145,13 +6145,13 @@
   },
   {
     "name": "firefox-esr-i18n-hsb",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "4fc3804cbba7ff9dff7b7807c24d3047d662d72b79eb1acd465183e543145bdd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hsb-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e0b9a60562d50db3cabd713b24784d125b972d6552dae970634a7cb035e9d8ca",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hsb-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6164,13 +6164,13 @@
   },
   {
     "name": "firefox-esr-i18n-hu",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "426f2694dd2a6b1fbb261eedb9ed15693e49538c9082a213129170364872d0df",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hu-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "69cc96e53b6501565a5afb5bb1c98215181a561f06609d46db45ed7afd26ac57",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hu-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6183,13 +6183,13 @@
   },
   {
     "name": "firefox-esr-i18n-hy-am",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "aebcda1040c592719dfe202e4313716b37be386e382f72ca782185c55d3f4532",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hy-am-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "400913ca549348ece5491d97236aae0f8d1a81f44240d94c944e73c30e71b111",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-hy-am-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6202,13 +6202,13 @@
   },
   {
     "name": "firefox-esr-i18n-ia",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f2dbae16f0184a0fc22a43ff6053db55f1393795a9dee9def356fdc8248c3439",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ia-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "82a85a092fd132bb002e1a445afa3b47f703c8eb03c3d4c1ae46cd0670486459",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ia-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6221,13 +6221,13 @@
   },
   {
     "name": "firefox-esr-i18n-id",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "06497e16d1a8e7c0652cd4d65bec6b955568da0bf88f71dad6bb1967f29ca42f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-id-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a3b74d652c1246a508f8a9fc550757dd32a99098a72128102f6d56e21d7a0366",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-id-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6240,13 +6240,13 @@
   },
   {
     "name": "firefox-esr-i18n-is",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "03dd6c85d00f754d56216e0b489a9b8c2ff48d3bd6e2728135a878ad756f085d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-is-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "081071173751154d2a732377a162f8b5f9f257f418980d29e7cec5d96d16af92",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-is-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6259,13 +6259,13 @@
   },
   {
     "name": "firefox-esr-i18n-it",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "f360e1b65fa089ec8fe9369574b3b57f2f77360c55901f976133d3bef34a4cb9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-it-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c9ffe97e3984cd558b1869337b49a45e5775def6783d9fcc4d4c80be17fed0a2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-it-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6278,13 +6278,13 @@
   },
   {
     "name": "firefox-esr-i18n-ja",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "24967ad2e9ee6720cfa480b7e96806b89d0894ed54563ee01564a9111c5d108e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ja-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9dadf9da987c9479e9925c9113e3cb65531525ffd7999daf4f48124ac8657dcb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ja-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6297,13 +6297,13 @@
   },
   {
     "name": "firefox-esr-i18n-ka",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "709d014bbc73366f23e067a4eeb9f1bc83e9fb0dc91c5dbac3114167cb7c2ccb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ka-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d0e46cb708c1f7c6f56491cb97d2d934ce8372740d8cfd9a2f9a9f5ec4ea1ab2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ka-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6316,13 +6316,13 @@
   },
   {
     "name": "firefox-esr-i18n-kab",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c8a0d7f2fa91991302b7bb6372eaac883a63b168ee917c29dafaf5ddbd7f3f06",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-kab-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f6426b97a9beb76bf6c91b05be00656d046b2ca63930d32b46e3de8a6e5c449c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-kab-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6335,13 +6335,13 @@
   },
   {
     "name": "firefox-esr-i18n-kk",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1e84c59f9c329c5a511c419fbbf1913fc96025f36d0d8e8b8b45a48561bff2ee",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-kk-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e8ee05b840e5b0df38d6b8e9e1a069b68a3f55f9c25c304d147819fff1886420",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-kk-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6354,13 +6354,13 @@
   },
   {
     "name": "firefox-esr-i18n-km",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "40ba4a13fafd8f656ef1a17a9bcc509cc10a93796a1b43e7b48390b444b01afd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-km-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e6163548c7839fef6737f8af58a66a3e6c15f71f292f5ce87e8941f96bce7929",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-km-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6373,13 +6373,13 @@
   },
   {
     "name": "firefox-esr-i18n-kn",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a2573c0eaabc84f41ae4c6a13995e491f13825576cf6db9555a314b8f4cae5fa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-kn-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "731001493cbbb7935407a6eef1f468d09edeae9139d31f28164a1e3473d2b6a4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-kn-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6392,13 +6392,13 @@
   },
   {
     "name": "firefox-esr-i18n-ko",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3c34c2c14192684516eac22f6369c8025f3c95d100ae9669595a419b6214e6c7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ko-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1aa83969aa26bc2275722388736306e5a4f512606595e087778bf02504b54edf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ko-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6411,13 +6411,13 @@
   },
   {
     "name": "firefox-esr-i18n-lij",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b452edd218d2ad25d0097905c8c7eddde839fbee4d4426be841ce08edf06fdca",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-lij-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a2400f6ab521b0fef8dc60be44dd44672003f9748d3025d84d61f7884fcb1a60",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-lij-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6430,13 +6430,13 @@
   },
   {
     "name": "firefox-esr-i18n-lt",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3b8b9891f5b354fd692f3c180727214f1a6b77f6d1ded930b0dbd750b8db3d7c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-lt-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d1f4aad4bf173b786c938c2d43f9a7748ce35c9b21ada3949b3708f99b86af52",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-lt-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6449,13 +6449,13 @@
   },
   {
     "name": "firefox-esr-i18n-lv",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "2c333f84857904d960ea581c6b7d25777cea2f543a1ccd32d5f40430d968189c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-lv-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ef38c89050cce8791b7ca04fd7f0e7c277240f2f60651c5994e9222ea8caca86",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-lv-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6468,13 +6468,13 @@
   },
   {
     "name": "firefox-esr-i18n-mk",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "81f0b651ff0648e818b580873d13e999b98a3e84fbb9da555c8d906c98b4f78e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-mk-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3383a2b6a8cbded401ee17f9aa995c1a29b8acc3db87246d58b7a819ee317d4b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-mk-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6487,13 +6487,13 @@
   },
   {
     "name": "firefox-esr-i18n-mr",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "d6f046c4404130fa18f9853945f344c6b1aaf2e93aa34fd1a107b5a82bf96f0d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-mr-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fb940bb7ec3cc7ed372116b3452c07afebed0beb5dcdf99effa85b26e5126c04",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-mr-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6506,13 +6506,13 @@
   },
   {
     "name": "firefox-esr-i18n-ms",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "0a91f2a1f416b277899c3ca30a03eeb31d9aff5d321109fa76d836d1ff696df9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ms-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c5de5f75f661972c96f6da5917c251f9c41f506dd0935e689ee91702a77e1fa5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ms-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6525,13 +6525,13 @@
   },
   {
     "name": "firefox-esr-i18n-my",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1850403457ddfd0c9e592d34e50fef3febd10aaeec46e6fcf08db42529a8427c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-my-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a74237b5de7738503314882e0416094bdc050e288b755f7041464b5670a39be4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-my-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6544,13 +6544,13 @@
   },
   {
     "name": "firefox-esr-i18n-nb-no",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "11843d83f57d4e54a5af91017086aeb1e456d2f2cd8979a5748efb99489d21e9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-nb-no-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4440695facefeb7589de9e6fa4a2cb7211626f10e75a74ba14e48a5f417702f1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-nb-no-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6563,13 +6563,13 @@
   },
   {
     "name": "firefox-esr-i18n-ne-np",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b7f42fc4906f0728f1f0b66294c2d7c075c7e6428431f95d238a08c90340db22",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ne-np-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e046d996464af60925a93a97ec44b430277cd90b23485b61e1e6edc9a0183fd5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ne-np-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6582,13 +6582,13 @@
   },
   {
     "name": "firefox-esr-i18n-nl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b001ed213cf060d215d2f61f77d355fe448b6d32ce5f3cf0e4924205908f1ae6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-nl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3bfd97f4ae94033ea2230e1997e7fb3e8caf10c2697893043ac439b91023b900",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-nl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6601,13 +6601,13 @@
   },
   {
     "name": "firefox-esr-i18n-nn-no",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a8dd3294ca2f83aaadadc832205fec4ba8d1d41cfda90a9dae5c839f5c3bed13",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-nn-no-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6af9b4132c96eadcd135b85cea9589f9308e694596bfb2b1c8632f694e6749ed",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-nn-no-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6620,13 +6620,13 @@
   },
   {
     "name": "firefox-esr-i18n-oc",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "98f0ece9b6d7f3af4008db5006cc3ec8a15b03f7549e13017de30b43b2c26ddb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-oc-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5ac2fc38ecc9d373147564304f296128bfe5f1136d96e66779d1427aa74abd3f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-oc-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6639,13 +6639,13 @@
   },
   {
     "name": "firefox-esr-i18n-pa-in",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1c8efd7d076204688b98de1f8fc40a569bf107ea0bc292c82b52503ebeb802a2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pa-in-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b23ba2cab0bdc9abaf9467a271a4f01f2d1a056abe2ef39686b2eed045d3490e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pa-in-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6658,13 +6658,13 @@
   },
   {
     "name": "firefox-esr-i18n-pl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "2e6bab1d7e4ebee26abc41be034e616070e36057da321218bf433d3f22837684",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5652679559deba091c9d694232b44dbb6cc776b9cce93b19546924fe06dfde64",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6677,13 +6677,13 @@
   },
   {
     "name": "firefox-esr-i18n-pt-br",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ba783b2eab83acc03f025d4059fdc0aa73d1f7990538cff23ec2f40f87496a03",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pt-br-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cfe6e3be5cf6374dcc4b15a5b1a0054249bd87694a67d0f3a02e78c6f75bb714",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pt-br-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6696,13 +6696,13 @@
   },
   {
     "name": "firefox-esr-i18n-pt-pt",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b2761cd2b9d37924c469f0f08c6e9d668d667dd47569520cdfbe2a10ba4e64cb",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pt-pt-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "25548c939e2ef0557e73e067600a2acbb8f8d57e8ddac63f18540421b337feb3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-pt-pt-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6715,13 +6715,13 @@
   },
   {
     "name": "firefox-esr-i18n-rm",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "1cf932885db24e4f7b27c77b2e0d95cb8a3f25ec328e616e09ac8999d4f3dfe4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-rm-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2f14bc0456df24519dbb6b9bc05e7076a8261b48d63cbfc2265128b637c5392e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-rm-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6734,13 +6734,13 @@
   },
   {
     "name": "firefox-esr-i18n-ro",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a0ea469e0d157813114013c8c14c1af8cc96a66f7a00c21aed1f17e9710c8ece",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ro-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0c5a8fea2e3c4b4a7b82a872b9c7f01023f8e47a5f87a7912542f4be63ffd5cb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ro-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6753,13 +6753,13 @@
   },
   {
     "name": "firefox-esr-i18n-ru",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8318bfe475a586178ec2ea6a3883a9fef27a058df1115a71af8ddbce2bb2b332",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ru-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "74f78d5af06c356e34b3d311b25e73a3d2b767d9b608fe9f60db0c5560b4c79e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ru-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6772,13 +6772,13 @@
   },
   {
     "name": "firefox-esr-i18n-si",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "6c4541e3b5030de1dbf774dd5e64f2503fb97d77960d549355187b49a7664069",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-si-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "941dae7afa3df7c17e4e7db43a48eb6772e1749c5094f06efec1c5d92f5b5923",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-si-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6791,13 +6791,13 @@
   },
   {
     "name": "firefox-esr-i18n-sk",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "7644df5b1a543658bf44c083154f63cff5fef146aee0bc341c75952b39b3c4e2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sk-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1e2d84ef4652f772ce48ce342bd90afc7328e37d99297f529d899226d7718a86",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sk-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6810,13 +6810,13 @@
   },
   {
     "name": "firefox-esr-i18n-sl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cbe778eab8fbedaceb8d5ed327f40d1a6824288236a47e9d17e0f23a153eadc1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "93bf1dcd9f5c3eafc2c64d82f6fc39eb4d653b9db63c1be9162e8ca602b476ad",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6829,13 +6829,13 @@
   },
   {
     "name": "firefox-esr-i18n-son",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "c2e66dee9b495c60d8d7b67aa6e2287b95e3f23d1df4f89a662e7f79fbf12f78",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-son-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d0b526e74471005d4d9d4f624eb7aa987c730ce023655ec558aa4e038f884d10",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-son-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6848,13 +6848,13 @@
   },
   {
     "name": "firefox-esr-i18n-sq",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a3d62368a3a92a3b964571ad4d60ffc023d2d3e084a8be8d88a067d59db78aca",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sq-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e3813f29d8ffed997af248a88c3627edfb4aa04311a0f03d44d593d757fd79a3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sq-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6867,13 +6867,13 @@
   },
   {
     "name": "firefox-esr-i18n-sr",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "0d1e8877679b8f0cd6f56368c67fa2d7d33f8893e636077a2d083265e3dfa0ae",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sr-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "15d42de4c3c0c9edbdbec6760fe6c72373a508fe8ee09583019c65605b557490",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sr-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6886,13 +6886,13 @@
   },
   {
     "name": "firefox-esr-i18n-sv-se",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "cacbb7b00d9b99e0e5da65bf7d514954b0602df4bff88ffabee7a0549dbe5a69",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sv-se-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bae16110c6125fba6a59bab38572428444eb73a55c940a1c2dfb5826a30b89e2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-sv-se-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6905,13 +6905,13 @@
   },
   {
     "name": "firefox-esr-i18n-ta",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "bda86337370450bb4aafbe4d22cba4cbf80d8bdac8a6bbe63026b6951aa57789",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ta-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "52a5716ad9df3fb7a5dcc35cb2689e46e3521b0ec10887b0dff07e985f490fa0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ta-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6924,13 +6924,13 @@
   },
   {
     "name": "firefox-esr-i18n-te",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b570a8e72a3dc2493a3425fdef7e44c6363fcccb6090627cd867d656c753b043",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-te-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "05fd3eb1c5069fe3c2fa09e739cd8ebe56d16f0ac14eacfd7406d0401e4253dd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-te-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6943,13 +6943,13 @@
   },
   {
     "name": "firefox-esr-i18n-th",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "94cea18d6a9c312550ad080e8edbb0f350f54405c78aa7c2d7df4bacd5c52590",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-th-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "14301cb3e3eaa275da0a605573af2003354d00abfc960bb4c517a7a948f840c3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-th-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6962,13 +6962,13 @@
   },
   {
     "name": "firefox-esr-i18n-tl",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e0ed2cceb34dfb4315a02fec3b40850db15ba03d5ffc180140d4d8036e3ed29b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-tl-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4dfdb948ae1c058914277105c90fba54989ec3c618598339bf900825c1805681",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-tl-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -6981,13 +6981,13 @@
   },
   {
     "name": "firefox-esr-i18n-tr",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fb17e6fd1472699730d0ce196df93f83778efd6abe2000599fd6894fbab20f29",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-tr-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "e1294c85edbecfcc8724e1b713f1b13afe8afc8b59f7c4fd34176e2a328ba781",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-tr-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7000,13 +7000,13 @@
   },
   {
     "name": "firefox-esr-i18n-trs",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "ab3fb1cbf39983183919863a21602f804973550886bad74d5757fda9c3d10f2d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-trs-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "89ce17a36819a6f67d2ec8c6f03f5858db90063062d08d1e79903b441cc0e42f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-trs-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7019,13 +7019,13 @@
   },
   {
     "name": "firefox-esr-i18n-uk",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "fefa3a57847d226b56ddcb9136111cd71c10894f82985d8dc717add64529685b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-uk-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1627895d2358e86f22f37aa20ef8a5cf6cd1a022d209aff23b2e4269ad295f09",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-uk-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7038,13 +7038,13 @@
   },
   {
     "name": "firefox-esr-i18n-ur",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8068ea5a615d4ed1e2359616cb00bc7685a88677a9539e7749aebc6a3ca9c38e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ur-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a21eba4e2d791a06640291e3675559f2f1b07c16913cc80eb674823b2277427a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-ur-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7057,13 +7057,13 @@
   },
   {
     "name": "firefox-esr-i18n-uz",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8192e0d0360bacade5523727ce1b0a670af74aa7ab4d86e62b427b238dadaedd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-uz-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f6b2b7321d56cf5e66c60982ff33b2613a8f13e5b700e9bcdbdcb4ae75eb6717",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-uz-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7076,13 +7076,13 @@
   },
   {
     "name": "firefox-esr-i18n-vi",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "4ba72ce926d0e30b87c9c78e31b520888fa0c410870f9e573a54d8bf2ee1cbe9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-vi-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bfb17711bc5820f615e529055d8eceaebcfb90aaac69432f70820e0a83f96060",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-vi-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7095,13 +7095,13 @@
   },
   {
     "name": "firefox-esr-i18n-xh",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "966adcb7044c72430511c9e0a8548d5a79e6bfb6d261da42240029eddad76448",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-xh-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bec7d0c790450000a5eb53c34967db9c7f7f2ea27d06d881a545ec97c8132e39",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-xh-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7114,13 +7114,13 @@
   },
   {
     "name": "firefox-esr-i18n-zh-cn",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "000219e1ee43a98f5b5ed476fba858b998b78feb71ce9257674c57138e3e7c10",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-zh-cn-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b4b39bee605780da554065cffc7281c6e849f6a480eeca3899b4d28e0c4836b9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-zh-cn-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -7133,13 +7133,13 @@
   },
   {
     "name": "firefox-esr-i18n-zh-tw",
-    "version": "153.5.0-1",
+    "version": "153.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "95fc18cbec5ab98f3bce4f7a15616dd353e632524e3bcb373b74a69db6b58d28",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-zh-tw-153.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "52ff9a054e39363a0c63c1493396575f04401145fa299ba3a58b69f02e82b4db",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-esr-i18n-zh-tw-153.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "firefox-esr>=153.5.0"
+      "firefox-esr>=153.5.1"
     ],
     "optdepends": [
       "hunspell-en_US: Spell checking, American English",
@@ -9338,10 +9338,10 @@
   },
   {
     "name": "glib-perl",
-    "version": "1.329.4-4",
+    "version": "1.329.4-4.1",
     "origin": "artix-galaxy",
-    "sha256": "2d7803d09ff593e1fc2eca73dbc3b4427559f62d976009c46daec65c6e121b1f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/glib-perl-1.329.4-4-x86_64.pkg.tar.zst",
+    "sha256": "d30cdde06d6b090a016d231a7c8b95aefbd881a6b2bfe4826f38d8cc9d681479",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/glib-perl-1.329.4-4.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2"
@@ -24273,10 +24273,10 @@
   },
   {
     "name": "perl-cairo-gobject",
-    "version": "1.005-6",
+    "version": "1.005-6.1",
     "origin": "artix-galaxy",
-    "sha256": "372b7a20be3f1ce4039bb77244fd7ab30c711d9e25f33a69849748e1f72786c6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-cairo-gobject-1.005-6-x86_64.pkg.tar.zst",
+    "sha256": "145d86b2c952917bbc8603a796dd69c051ce5d883157710c84c8c254eca6a4f6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-cairo-gobject-1.005-6.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib-perl",
@@ -24326,10 +24326,10 @@
   },
   {
     "name": "perl-crypt-des",
-    "version": "2.09-2",
+    "version": "2.09-2.1",
     "origin": "artix-galaxy",
-    "sha256": "6f3330c364af818ecc3228d2696dea2c6dbbf30ce77eac22c51fff11be3a5e80",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-crypt-des-2.09-2-x86_64.pkg.tar.zst",
+    "sha256": "b5f1a17ded760b22c840ab3a5502b5532c587e395b7e47359fe90ecb1fac8de4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-crypt-des-2.09-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -24339,10 +24339,10 @@
   },
   {
     "name": "perl-curses",
-    "version": "1.46-1",
+    "version": "1.46-2.1",
     "origin": "artix-galaxy",
-    "sha256": "acfcb8c2711197eceb1d03de1506437bc783eec73883a99529f93db70b6375c4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-curses-1.46-1-x86_64.pkg.tar.zst",
+    "sha256": "b911571a22b868421b78f71f47e9b389e1eca7fe2059ad44a18968f2a0c195bb",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-curses-1.46-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -24409,10 +24409,10 @@
   },
   {
     "name": "perl-glib-object-introspection",
-    "version": "0.052-2",
+    "version": "0.052-2.1",
     "origin": "artix-galaxy",
-    "sha256": "9069c15826db21019679f6ea24ac567424f1bc631fe7ec2a20e4cd7110917944",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-glib-object-introspection-0.052-2-x86_64.pkg.tar.zst",
+    "sha256": "77ed4aea4bf4fcb1389befdfe923a81b6c8f1854a5fda40be6b360d7e6976ee2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-glib-object-introspection-0.052-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib-perl",
@@ -24533,10 +24533,10 @@
   },
   {
     "name": "perl-text-iconv",
-    "version": "1.7-26",
+    "version": "1.7-27",
     "origin": "artix-galaxy",
-    "sha256": "e86b8eb45a7195c3364d8c3e61a7b317a0ac247c8956871f3e5f9f845ad99cbd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-text-iconv-1.7-26-x86_64.pkg.tar.zst",
+    "sha256": "af0173f55981751cc7f2ba6d3fc77f9c2879814a301fdbef35bd1ae5ca2049f9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-text-iconv-1.7-27-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -24546,10 +24546,10 @@
   },
   {
     "name": "perl-text-soundex",
-    "version": "3.05-14",
+    "version": "3.05-15",
     "origin": "artix-galaxy",
-    "sha256": "b3d752945f72ce37ffe2173461a65ce76f33a9492162fcb87bfae2c296d03582",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-text-soundex-3.05-14-x86_64.pkg.tar.zst",
+    "sha256": "da44200bc4752296e4d1b31cfe929c166edb212f9263bc623127115aaf64104c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-text-soundex-3.05-15-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
