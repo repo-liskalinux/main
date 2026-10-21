@@ -1915,6 +1915,46 @@
     "conflicts": []
   },
   {
+    "name": "cef",
+    "version": "152.0.6-1",
+    "origin": "artix-galaxy",
+    "sha256": "3a11adceafa8c42f8cd8b54c7f9483deffb569b4c20e69271d0c93d2c51657e2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cef-152.0.6-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "alsa-lib",
+      "at-spi2-core",
+      "dbus",
+      "libdrm",
+      "libffi",
+      "libpulse",
+      "libxcomposite",
+      "libxdamage",
+      "libxkbcommon",
+      "libxrandr",
+      "mesa",
+      "nss",
+      "pango",
+      "libudev",
+      "fontconfig",
+      "brotli",
+      "libjpeg-turbo",
+      "openh264",
+      "dav1d",
+      "flac",
+      "libxml2",
+      "zstd",
+      "libwebp",
+      "minizip",
+      "opus",
+      "libxslt",
+      "harfbuzz",
+      "freetype2"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "ceres-solver",
     "version": "2.2.0-5",
     "origin": "artix-galaxy",
@@ -4262,10 +4302,10 @@
   },
   {
     "name": "electron39",
-    "version": "39.8.10-2",
+    "version": "39.8.10-3",
     "origin": "artix-galaxy",
-    "sha256": "cb1abe5e6d5dd12e435f4e5ea586675a9a47ae5409735c5aab69260ebd3b762d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/electron39-39.8.10-2-x86_64.pkg.tar.zst",
+    "sha256": "0f37b4abd2e4328cd6c5e4bb98cf92bd7fa3829c1ea779b8ffaa78e9d4ba65bd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/electron39-39.8.10-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "c-ares",
@@ -4315,10 +4355,10 @@
   },
   {
     "name": "electron40",
-    "version": "40.10.6-1",
+    "version": "40.10.6-2",
     "origin": "artix-galaxy",
-    "sha256": "4a9b89a75e0e434107105cc02ff46b204da1bede6a88c4265e74c1da04b08685",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/electron40-40.10.6-1-x86_64.pkg.tar.zst",
+    "sha256": "547525d78ccf8a03b2a137b18226bcaf0ccc58b3250764b26e06b2bba003b149",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/electron40-40.10.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "c-ares",
@@ -4366,10 +4406,10 @@
   },
   {
     "name": "electron41",
-    "version": "41.10.7-1",
+    "version": "41.10.7-2",
     "origin": "artix-galaxy",
-    "sha256": "16de4145ff74e0a5d72aa0016b796a56c255deea1059209d0ea5e6011c75fca5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/electron41-41.10.7-1-x86_64.pkg.tar.zst",
+    "sha256": "3d2d01fadc8a38c662330c2dd30760ce404d9527f668033e5c60f0b9d3a4c68c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/electron41-41.10.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "c-ares",
@@ -10928,10 +10968,10 @@
   },
   {
     "name": "konform-browser",
-    "version": "1:140.17.0.101-1",
+    "version": "1:140.17.0.102-1",
     "origin": "artix-galaxy",
-    "sha256": "fcf250a481ca68b4666f66d8dd6db5110e6bedefa933ac6caa22f26a09065575",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:140.17.0.101-1-x86_64.pkg.tar.zst",
+    "sha256": "5d508ca48514d2769982e0aceb28f9f60632d7da69874474338d26a347e6b222",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:140.17.0.102-1-x86_64.pkg.tar.zst",
     "provides": [
       "konform-browser"
     ],
@@ -22795,10 +22835,10 @@
   },
   {
     "name": "neovide",
-    "version": "0.16.2-2",
+    "version": "0.16.2-3",
     "origin": "artix-galaxy",
-    "sha256": "4acf0605baaf1a418fc187947b0877eedf80d51783676ff43e64f7d7fceb7ad3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/neovide-0.16.2-2-x86_64.pkg.tar.zst",
+    "sha256": "a99cd89a87572f76249291415db0b7f4a3e1c37e3c99d3052c5224ec95d94ed3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/neovide-0.16.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -23242,6 +23282,65 @@
       "hicolor-icon-theme",
       "libadwaita",
       "libgcc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "obs-studio",
+    "version": "32.2.2-1",
+    "origin": "artix-galaxy",
+    "sha256": "9f7770019084e785b7602ca012e5f7813bcfb385275eea95c244780784b4b505",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/obs-studio-32.2.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ffmpeg",
+      "jansson",
+      "libxinerama",
+      "libxkbcommon-x11",
+      "mbedtls3",
+      "rnnoise",
+      "pciutils",
+      "qt6-svg",
+      "curl",
+      "jack",
+      "gtk-update-icon-cache",
+      "pipewire",
+      "libxcomposite",
+      "libdatachannel",
+      "uthash",
+      "simde",
+      "qrcodegencpp-cmake",
+      "python",
+      "luajit"
+    ],
+    "optdepends": [
+      "libfdk-aac: FDK AAC codec support",
+      "libva-intel-driver: hardware encoding for older Intel GPUs",
+      "intel-media-driver: hardware encoding for recent Intel GPUs",
+      "libva-mesa-driver: hardware encoding",
+      "sndio: Sndio input client",
+      "v4l2loopback-dkms: virtual camera support",
+      "xdg-desktop-portal-impl: Wayland window/screen capture",
+      "obs-studio-plugin-browser: CEF-based browser plugin"
+    ],
+    "conflicts": []
+  },
+  {
+    "name": "obs-studio-plugin-browser",
+    "version": "32.2.2-1",
+    "origin": "artix-galaxy",
+    "sha256": "4ec4df3ab936839b82f9120461e95d02db392657c73bfe34992cef4c80fbd377",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/obs-studio-plugin-browser-32.2.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "cef",
+      "glibc",
+      "libgcc",
+      "libstdc++",
+      "libx11",
+      "obs-studio",
+      "qt6-base"
     ],
     "optdepends": [],
     "conflicts": []
