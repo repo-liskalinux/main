@@ -6436,10 +6436,10 @@
   },
   {
     "name": "breezy",
-    "version": "3.3.21-2",
+    "version": "3.3.22-1",
     "origin": "artix-world",
-    "sha256": "9e7c9b35e22e5c9fe38e3a523eec70d7fd0ee3f43e65b1e5d617713e80c08834",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breezy-3.3.21-2-x86_64.pkg.tar.zst",
+    "sha256": "8e61865ac2cbda92de4a2a80a2e9bd2fae038678e45ec7a114b6c0ccf132af0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breezy-3.3.22-1-x86_64.pkg.tar.zst",
     "provides": [
       "bzr"
     ],
@@ -6447,11 +6447,13 @@
       "glibc",
       "libgcc",
       "python",
+      "python-catalogus",
       "python-configobj",
       "python-dulwich",
       "python-fastbencode",
       "python-merge3",
       "python-patiencediff",
+      "python-vcsgraph",
       "python-yaml"
     ],
     "optdepends": [
@@ -31636,20 +31638,20 @@
   },
   {
     "name": "jdk17-openjdk",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.21.u9-1",
     "origin": "artix-world",
-    "sha256": "921491e5963ce05264e759b043ca03dad86219d8e773113cf496e928a3f4eed5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk17-openjdk-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "0c83f745de8c3a15802beac823edf8bed52402f9a71d6d1b38b48c367b34c32d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk17-openjdk-17.0.21.u9-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=17",
       "java-environment-openjdk=17",
-      "jdk17-openjdk=17.0.20.1.u1-1",
+      "jdk17-openjdk=17.0.21.u9-1",
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.20.1.u1-1",
+      "jre17-openjdk=17.0.21.u9-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.20.1.u1-1"
+      "jre17-openjdk-headless=17.0.21.u9-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31684,20 +31686,20 @@
   },
   {
     "name": "jdk21-openjdk",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.13.u9-1",
     "origin": "artix-world",
-    "sha256": "d5aba72f3b961359b75f977f8e5be31e53aed95b3279efef5503b5a6cc6cc3bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk21-openjdk-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "3a9e08b8c8603439889bce17d871bb33796b6e5aad51100d1f7f8b57d33c5a48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk21-openjdk-21.0.13.u9-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=21",
       "java-environment-openjdk=21",
-      "jdk21-openjdk=21.0.12.1.u1-1",
+      "jdk21-openjdk=21.0.13.u9-1",
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.12.1.u1-1",
+      "jre21-openjdk=21.0.13.u9-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.12.1.u1-1"
+      "jre21-openjdk-headless=21.0.13.u9-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32177,17 +32179,17 @@
   },
   {
     "name": "jre17-openjdk",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.21.u9-1",
     "origin": "artix-world",
-    "sha256": "5c9b300df7b966c1e6a3224906a14d713468d37e71a9047c7429b897ed2cc906",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "72e2023f6cebd81c55f71adbf0551cdbf65fc81afbd09ab854dea318844c0558",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-17.0.21.u9-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.20.1.u1-1",
+      "jre17-openjdk=17.0.21.u9-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.20.1.u1-1"
+      "jre17-openjdk-headless=17.0.21.u9-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32219,14 +32221,14 @@
   },
   {
     "name": "jre17-openjdk-headless",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.21.u9-1",
     "origin": "artix-world",
-    "sha256": "81bdf27c57dff518fe4987fe5209ed56b1501a912494eff2be8fcd096cec17a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-headless-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "474fa041e444f97fe2b9142e777f7943edfecda033a650182424ebe31b2d9773",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-headless-17.0.21.u9-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.20.1.u1-1"
+      "jre17-openjdk-headless=17.0.21.u9-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32254,17 +32256,17 @@
   },
   {
     "name": "jre21-openjdk",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.13.u9-1",
     "origin": "artix-world",
-    "sha256": "909cc30675d5966b6c5089f240e7aee866957c47126855d7453e792aaf59c0e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "541232ab707a80772efa195f82d4295a386a394f88a9c900b7f613bbd0f80c9d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-21.0.13.u9-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.12.1.u1-1",
+      "jre21-openjdk=21.0.13.u9-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.12.1.u1-1"
+      "jre21-openjdk-headless=21.0.13.u9-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32297,14 +32299,14 @@
   },
   {
     "name": "jre21-openjdk-headless",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.13.u9-1",
     "origin": "artix-world",
-    "sha256": "65943c7d206c6b21ca89d1aca361b32df02911426911b63e488e696d510e23ba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-headless-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "30af7e9f4a5b21c798bf3c530276ce7bf76ec15b68660d4c059db5e53e1ab97b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-headless-21.0.13.u9-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.12.1.u1-1"
+      "jre21-openjdk-headless=21.0.13.u9-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -60441,17 +60443,16 @@
   },
   {
     "name": "nodejs-lts-krypton",
-    "version": "24.22.0-1",
+    "version": "24.22.1-1",
     "origin": "artix-world",
-    "sha256": "941a5f851faa784573a072d5a93ce063c17b1dc4db44644cdd693f8e30b5a6ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-krypton-24.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2919d4187e3768fec6f56c19bfcc1a78f2ac96d2e641ebac8cf12239e12937d8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-krypton-24.22.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "nodejs=24.22.0",
+      "nodejs=24.22.1",
       "nodejs-lts"
     ],
     "depends": [
       "ada",
-      "brotli",
       "c-ares",
       "icu",
       "libnghttp2",
@@ -62877,15 +62878,15 @@
   },
   {
     "name": "openjdk17-src",
-    "version": "17.0.20.1.u1-1",
+    "version": "17.0.21.u9-1",
     "origin": "artix-world",
-    "sha256": "adf9594bc74bc7f6666205f37768d730e4287b20b660b2b1efba5ea54da378e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk17-src-17.0.20.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "a2541348be4bb24cde4c1d9477ede90cad69174901e4410834ae783a7e920041",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk17-src-17.0.21.u9-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk17-src=17.0.20.1.u1-1"
+      "openjdk17-src=17.0.21.u9-1"
     ],
     "depends": [
-      "jdk17-openjdk=17.0.20.1.u1-1"
+      "jdk17-openjdk=17.0.21.u9-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -62894,15 +62895,15 @@
   },
   {
     "name": "openjdk21-src",
-    "version": "21.0.12.1.u1-1",
+    "version": "21.0.13.u9-1",
     "origin": "artix-world",
-    "sha256": "c549bdd8e0b8a506774bb669f36bfe9689da6df2140d9013c52ba072c7543e06",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk21-src-21.0.12.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "58a8b3f4427c7870d2e867ca7270e7c5e7fb67bb7b300b9d0c45c48d8f527d23",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk21-src-21.0.13.u9-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk21-src=21.0.12.1.u1-1"
+      "openjdk21-src=21.0.13.u9-1"
     ],
     "depends": [
-      "jdk21-openjdk=21.0.12.1.u1-1"
+      "jdk21-openjdk=21.0.13.u9-1"
     ],
     "optdepends": [],
     "conflicts": []
@@ -72689,20 +72690,6 @@
     "conflicts": []
   },
   {
-    "name": "plasma-x11-session",
-    "version": "6.7.5-3",
-    "origin": "artix-world",
-    "sha256": "651982d6be799b1ace5d3af51b5c740f2a52f41c543fe42fb20fb07f5aaf1c19",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma-x11-session-6.7.5-3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "plasma-workspace",
-      "kwin-x11"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "plasma5-integration",
     "version": "6.8.0-1",
     "origin": "artix-world",
@@ -77945,6 +77932,19 @@
     "provides": [],
     "depends": [
       "glibc",
+      "python"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "python-catalogus",
+    "version": "0.1.2-1",
+    "origin": "artix-world",
+    "sha256": "3b9ad4a8c038f87adfa351ad08b5d5ac4245b3913060472e223f11a0896054cd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-catalogus-0.1.2-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
       "python"
     ],
     "optdepends": [],
@@ -84888,10 +84888,10 @@
   },
   {
     "name": "python-loguru",
-    "version": "0.7.3-2",
+    "version": "0.7.3-3",
     "origin": "artix-world",
-    "sha256": "5e705062244ac4eecf6b85fecd24628f3a36b9c2e029d5d09fd97f866bb686be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-loguru-0.7.3-2-any.pkg.tar.zst",
+    "sha256": "7758107829f3778c1e06b4e68b6f3f35aa47cfe278c7a076c8e2c79575e9a472",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-loguru-0.7.3-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -96782,6 +96782,21 @@
     "optdepends": [
       "python-rich: formatting of log messages"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "python-vcsgraph",
+    "version": "0.3.2-1",
+    "origin": "artix-world",
+    "sha256": "0133e00f07a657614ea9c3e63f227464edac6b1ef124a6db944adba9fd3d5ff6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-vcsgraph-0.3.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "python"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -135570,10 +135585,10 @@
   },
   {
     "name": "zabbix-agent",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "f576ca39c20c96301953f48cdd5004ddb97a09b1335dbaa42019792710557333",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "e130cfd22e4e2f67ceff5c62b30aef9baad3a4738b4be0e1f7d7e8195b73ed22",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135585,10 +135600,10 @@
   },
   {
     "name": "zabbix-agent2",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "9cc9b6c6a25089df27e02f425370509c351350c6566f941e55765efa651f2696",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent2-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "1cade7e96b1ba23002bae4116c899cc813c3f09036c319533af4dcc3af9cfaa1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent2-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135600,10 +135615,10 @@
   },
   {
     "name": "zabbix-common",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "b4cd7876bcecc42f4853c849df5c38f1551a87660df73a027efa5bb6ef2913a2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-common-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "540e95a6844e110a56b48cd533d2d4cf715e157523c95bd2739268a1387a3ba1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-common-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -135611,10 +135626,10 @@
   },
   {
     "name": "zabbix-frontend-php",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "a9b0f6c95c05f1e5869d55d3f4e73f994a7ddace4852d527aa437a23fc33e680",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-frontend-php-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "b4a60b93778af5059465bfb8bc810ff9990c626301e12d9fd423d1766e8e12f4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-frontend-php-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-server",
@@ -135626,10 +135641,10 @@
   },
   {
     "name": "zabbix-proxy",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "ca20242ae4f1786c53ef8a1d7f285105ec498d31c00481387cfc2aa4cffb0bc1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-proxy-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "06725cfc984078fea4f45a3612857d1140c8f9f369b5cacdae8e0db42edc970d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-proxy-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135651,10 +135666,10 @@
   },
   {
     "name": "zabbix-server",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "06fb365afcc94c066ce3d37e2c339def62f116c7bbd380008dbb2198293f1e3b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-server-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "37f6b1d8e86e589b7969611000c73db50a27236266ee8ffe224e1c6a5d805882",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-server-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135676,10 +135691,10 @@
   },
   {
     "name": "zabbix-web-service",
-    "version": "7.4.15-1",
+    "version": "7.4.16-1",
     "origin": "artix-world",
-    "sha256": "b9b085e44be620f39194871a74d11847449e403274556416d994d19ecda2ca0d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-web-service-7.4.15-1-x86_64.pkg.tar.zst",
+    "sha256": "e37fc4e0d1e448da7f03ee2d41a14a3651552fdf6a2d524f29696c484f7b7c19",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-web-service-7.4.16-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
