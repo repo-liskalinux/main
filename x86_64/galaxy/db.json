@@ -1113,6 +1113,48 @@
     ]
   },
   {
+    "name": "biber",
+    "version": "1:2.22-1.2",
+    "origin": "artix-galaxy",
+    "sha256": "9b71554056e190b5d0a68d71ea69d4767025ef06fd56e3a260bf3d9ff6e93bdc",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/biber-1:2.22-1.2-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "perl-autovivification",
+      "perl-business-isbn",
+      "perl-business-ismn",
+      "perl-business-issn",
+      "perl-class-accessor",
+      "perl-data-compare",
+      "perl-data-dump",
+      "perl-data-uniqid",
+      "perl-datetime-calendar-julian",
+      "perl-datetime-format-builder",
+      "perl-file-slurper",
+      "perl-io-string",
+      "perl-ipc-run3",
+      "perl-lingua-translit",
+      "perl-list-allutils",
+      "perl-log-log4perl",
+      "perl-lwp-protocol-https",
+      "perl-mozilla-ca",
+      "perl-parse-recdescent",
+      "perl-perlio-utf8-strict",
+      "perl-regexp-common",
+      "perl-sort-key",
+      "perl-text-balanced",
+      "perl-text-bibtex",
+      "perl-text-csv",
+      "perl-text-roman",
+      "perl-unicode-linebreak",
+      "perl-xml-libxml-simple",
+      "perl-xml-libxslt",
+      "perl-xml-writer"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "birdtray",
     "version": "1.9.0-2",
     "origin": "artix-galaxy",
@@ -2228,10 +2270,10 @@
   },
   {
     "name": "chawan",
-    "version": "0.4.4-1",
+    "version": "0.5.0-1",
     "origin": "artix-galaxy",
-    "sha256": "c713b4aeae8e94d4d565d8ecb31c31dcc5ddcd16244c4f7c5120fa20e08e71a1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chawan-0.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "1534ac2777b8eea3b4fc77a88893aeb7f44b364b64c6d8833d078c7dc3964d0d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chawan-0.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -10601,10 +10643,10 @@
   },
   {
     "name": "just",
-    "version": "1.58.0-1",
+    "version": "1.59.0-1",
     "origin": "artix-galaxy",
-    "sha256": "10dc4bc01781bb30ccb7b3e3aa7179034549dc90f76580efac9d5e233d6704ce",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/just-1.58.0-1-x86_64.pkg.tar.zst",
+    "sha256": "72a4b8ef50a248fca41d7f9fd5045267d4b0d65be197918f2704c27da14333a3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/just-1.59.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -24846,11 +24888,37 @@
     "conflicts": []
   },
   {
+    "name": "perl-test-differences",
+    "version": "0.73-1",
+    "origin": "artix-galaxy",
+    "sha256": "571c52a21340245f667a21b750e5bb57e38ba7c7ab949a08d88b5bd0f084067a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-test-differences-0.73-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "perl-text-diff"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "perl-text-iconv",
     "version": "1.7-27",
     "origin": "artix-galaxy",
     "sha256": "af0173f55981751cc7f2ba6d3fc77f9c2879814a301fdbef35bd1ae5ca2049f9",
     "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-text-iconv-1.7-27-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "perl"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "perl-text-roman",
+    "version": "3.5-14",
+    "origin": "artix-galaxy",
+    "sha256": "b9c6bf782d91a2fb235b02def83ae5146863515309c295bc2a2fb4842e3def53",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-text-roman-3.5-14-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -24894,6 +24962,35 @@
     "depends": [
       "perl>=5.10.0",
       "perl-xml-sax"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "perl-xml-libxml-simple",
+    "version": "1.01-6",
+    "origin": "artix-galaxy",
+    "sha256": "e91b539ee888ac1f84c212f9b2ea113a20f7988a4d2a5633d0c1c15cfbb24975",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-xml-libxml-simple-1.01-6-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "perl",
+      "perl-xml-libxml",
+      "perl-file-slurp-tiny"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "perl-xml-libxslt",
+    "version": "2.003000-4",
+    "origin": "artix-galaxy",
+    "sha256": "7faf53a5ca6af776f75c5cb54448c3570f8a8090f512d7ce6a44af0440ec58d5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-xml-libxslt-2.003000-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "perl-xml-libxml",
+      "libxslt"
     ],
     "optdepends": [],
     "conflicts": []
