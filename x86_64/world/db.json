@@ -31755,20 +31755,20 @@
   },
   {
     "name": "jdk25-openjdk",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.5.u8-1",
     "origin": "artix-world",
-    "sha256": "94925b7cfdd053f6f5cd5c9135851b4daea9fddba7cc259aff891f587f2ce78a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "cb16d95073e67ba59fad3bfb1a0676a8a49738ae863e1a175c130da54033bac8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=25",
       "java-environment-openjdk=25",
-      "jdk25-openjdk=25.0.4.1.u1-1",
+      "jdk25-openjdk=25.0.5.u8-1",
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.4.1.u1-1",
+      "jre25-openjdk=25.0.5.u8-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.4.1.u1-1"
+      "jre25-openjdk-headless=25.0.5.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32355,17 +32355,17 @@
   },
   {
     "name": "jre25-openjdk",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.5.u8-1",
     "origin": "artix-world",
-    "sha256": "4d6d42da65142fb0cf5d6af6a468200ba1e9eb70c919c9f9726dda3860eb0ec6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "19c5805f26caa258e65f93ff0e9bbd4e2573c7adb1f52aba2aa475d77531e077",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.4.1.u1-1",
+      "jre25-openjdk=25.0.5.u8-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.4.1.u1-1"
+      "jre25-openjdk-headless=25.0.5.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32398,14 +32398,14 @@
   },
   {
     "name": "jre25-openjdk-headless",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.5.u8-1",
     "origin": "artix-world",
-    "sha256": "e6e33160fa4b7cc6eba05e22eba391f603e464cd394532b0400c8a59b16db1a5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "531a9335d75cb5db61220a95378eb8af0302ba0a1587ed37dc870437857f98d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.u8-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.4.1.u1-1"
+      "jre25-openjdk-headless=25.0.5.u8-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -62990,15 +62990,15 @@
   },
   {
     "name": "openjdk25-src",
-    "version": "25.0.4.1.u1-1",
+    "version": "25.0.5.u8-1",
     "origin": "artix-world",
-    "sha256": "d7ed41fbb4c752c6cacea3fe59571595adf59c746d52eed716a3cbf337bcea4a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.4.1.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "c77d360d39da753419495050bca3b1d32bbc55c64e0efb604ad47e70cfe223b9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.u8-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk25-src=25.0.4.1.u1-1"
+      "openjdk25-src=25.0.5.u8-1"
     ],
     "depends": [
-      "jdk25-openjdk=25.0.4.1.u1-1"
+      "jdk25-openjdk=25.0.5.u8-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -106067,10 +106067,10 @@
   },
   {
     "name": "ruby-faraday-http-cache",
-    "version": "2.8.0-1",
+    "version": "3.0.0-1",
     "origin": "artix-world",
-    "sha256": "c2331a6006a5be6c894f7b8ec12298a5bd22ee8e798f2626e57c1d83f0c1b0e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-faraday-http-cache-2.8.0-1-any.pkg.tar.zst",
+    "sha256": "2c00f40d03c2a48165ed2e23020226dbde8447c7dfdf5ea6f6b91d669a104035",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-faraday-http-cache-3.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
