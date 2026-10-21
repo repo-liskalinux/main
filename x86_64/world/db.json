@@ -4756,10 +4756,10 @@
   },
   {
     "name": "bazel",
-    "version": "9.3.0-1",
+    "version": "9.3.1-1",
     "origin": "artix-world",
-    "sha256": "ac61db583cf00f1b777684e0dbeebcda3f43eb558912dad0fc5507b2b331557c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bazel-9.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6ed81e9405955932c241316644c48470769e16d0b9d9e7815161bd73f66794f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bazel-9.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "java-environment=21",
@@ -20919,10 +20919,10 @@
   },
   {
     "name": "gnome-applets",
-    "version": "3.58.0-1",
+    "version": "3.58.0-2",
     "origin": "artix-world",
-    "sha256": "d0b85c610870ca223fa4ee6558b781bd80d28d9b4da4be2b2132ad8e9647348e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-applets-3.58.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f3613d1a9d33a3c654057397fbb9a7c5a5537ff28269e7684f340f00be267d2a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-applets-3.58.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -60416,12 +60416,12 @@
   },
   {
     "name": "nodejs-lts-jod",
-    "version": "22.23.3-2",
+    "version": "22.23.4-1",
     "origin": "artix-world",
-    "sha256": "ade50e98fd786a5de20186033e7c09572676b29a24541afc2b56ee2be61bbfa9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-jod-22.23.3-2-x86_64.pkg.tar.zst",
+    "sha256": "e87281c1e5b96706718a9fbfc61d04d1cda61d2996a9791ec39ea8942aa7919e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-jod-22.23.4-1-x86_64.pkg.tar.zst",
     "provides": [
-      "nodejs=22.23.3"
+      "nodejs=22.23.4"
     ],
     "depends": [
       "openssl",
@@ -60429,7 +60429,6 @@
       "icu",
       "libuv",
       "c-ares",
-      "brotli",
       "libnghttp2",
       "zstd"
     ],
@@ -70105,13 +70104,13 @@
   },
   {
     "name": "php",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "8e6265cf0292a93512f2c2671e0540db7e9b2f9a6a2d97184e53d31014770ea8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "eb72a4171c4b1ea1a65b92892e06c274072901ef16a0008e25c42d793d6575dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-interpreter=8.5",
-      "php-intl=8.5.11"
+      "php-intl=8.5.12"
     ],
     "depends": [
       "libxml2",
@@ -70128,10 +70127,10 @@
   },
   {
     "name": "php-apache",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "fe133dbf7572848a45eb77f133f327d5839c1f6507f606dc7cafc77060a16128",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-apache-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "b133b564340a9efede3abac99a303f4466ca5d821fcab15023e8bb4483f580ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-apache-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-apache-interpreter=8.5"
     ],
@@ -70157,10 +70156,10 @@
   },
   {
     "name": "php-cgi",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "063f5b3b0698be331bad48e7786327f9c65bcea1e0d355b69c86ba663e95186d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-cgi-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "938c5431d327c8798515dbf6b59f77c41cee46629ab32059092870cf5089895f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-cgi-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-cgi-interpreter=8.5"
     ],
@@ -70172,10 +70171,10 @@
   },
   {
     "name": "php-dblib",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "c15bf26f529878315e57a74b71ade9a46617a83fd10e952840028a10aaa509bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-dblib-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "c25826c8252607a2d7c1623cb0df899fa7aca9777180aac32f16dbd468105a28",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-dblib-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-dblib-interpreter=8.5"
     ],
@@ -70188,10 +70187,10 @@
   },
   {
     "name": "php-embed",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "c4eaecfede762a03c2ef508a4161fba1ab1427c45364bc4002d6a144540d5463",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-embed-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "27c002b33e901202d9f4a08c70a73316546642597f7b9a7e25a5a5ae81c01233",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-embed-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-embed-interpreter=8.5"
     ],
@@ -70203,10 +70202,10 @@
   },
   {
     "name": "php-enchant",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "cfa4cbc4ad89f31200db2dbd8400df1f3eabeea7e4c373a49b04fe0e61d023e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-enchant-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "db08af31f0d898d47982c3acfec754038e709ae06398b3d442aa32fffaf4cbdf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-enchant-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-enchant-interpreter=8.5"
     ],
@@ -70219,10 +70218,10 @@
   },
   {
     "name": "php-fpm",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "546d316c0e9a4316155d61589fe30a8b3e5b88ff5795f5742398cd7102285da9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-fpm-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "a2db6974f16cf94b7a43318b547b4b7de29bfe0ac47800211254c6515cac765e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-fpm-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-fpm-interpreter=8.5"
     ],
@@ -70306,10 +70305,10 @@
   },
   {
     "name": "php-gd",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "c4ed94c52334a8570e3ccd9948bfbd8b972aae8da0bcd1c0abd2ed6ed2885495",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-gd-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "78f875e0f561c30aed0cdc5dee0f7cb8bc9eb4fa2759798e3ce18cde6e396038",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-gd-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-gd-interpreter=8.5"
     ],
@@ -70385,13 +70384,13 @@
   },
   {
     "name": "php-legacy",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "6ba27492bfa4990779ac5b2695b77901e85abed257b933a73102e5492504c9d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "c8b9ce7db908e29353f126928222ed2677ffc4a8467e9f2e77aa527043c7e733",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-interpreter=8.3",
-      "php-legacy-intl=8.3.35"
+      "php-legacy-intl=8.3.36"
     ],
     "depends": [
       "libxml2",
@@ -70408,10 +70407,10 @@
   },
   {
     "name": "php-legacy-apache",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "132e67bfbce656baf98d8e8907f7412e15e48d4d292eb94abad394cc19f26658",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-apache-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "9099abcb789ac63c1000e8ab9bc0770ddb0c58a10e4fb6200209a18544bd3ecd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-apache-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-apache-interpreter=8.3"
     ],
@@ -70437,10 +70436,10 @@
   },
   {
     "name": "php-legacy-cgi",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "34ac198b54c9f3489b815e4bf9fa78d72d37ca9963026996a1adabc4ee5ad2e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-cgi-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "5737aab9ac93e5aceda8a15b817158fcb5306d817d74b65b00e83045d85d298d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-cgi-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-cgi-interpreter=8.3"
     ],
@@ -70452,10 +70451,10 @@
   },
   {
     "name": "php-legacy-dblib",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "2d99a965302d0cceceeec8625cf641c383b219ffbbed2bc8b041e9d2ef82e139",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-dblib-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "bb3d74ef97df4d489e204b3be795a6d8fbd3fd5de2f064d59ff5fd2717b51dbd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-dblib-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-dblib-interpreter=8.3"
     ],
@@ -70468,10 +70467,10 @@
   },
   {
     "name": "php-legacy-embed",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "1686ccbd267734805c13e2279e937da592553bbe7d5aa3e7e719afd7593b009f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-embed-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "dc68f8b7383f7563fd3a48764c636bfe2d94aef60cfd552184ef99465e380477",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-embed-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-embed-interpreter=8.3"
     ],
@@ -70483,10 +70482,10 @@
   },
   {
     "name": "php-legacy-enchant",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "2784a6405eda9faf67acc13d9982e173ab4f5dc03b810b91eb8aefb4d0444d6c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-enchant-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "96e0711dc44dae5fe0774f5050c57cb848df9a7e86beb44e510a468bcfe13c54",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-enchant-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-enchant-interpreter=8.3"
     ],
@@ -70499,10 +70498,10 @@
   },
   {
     "name": "php-legacy-fpm",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "ee3c742faefd82414c750673655bd483eef4e5f9a774d3a7d63c2a73dff87b52",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-fpm-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "3a30c970d0cf7d05722107df13ad115fe56a9a3504c9b6d826ebf399242613fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-fpm-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-fpm-interpreter=8.3"
     ],
@@ -70514,10 +70513,10 @@
   },
   {
     "name": "php-legacy-gd",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "0bd0a25da3e52a497a1bc1e45a027112c461224b2bc70528f593a6190d69d3ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-gd-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "74db5dea5ce7b93579057d6c894d050670a67462a4c926c919a8776d99d39ee2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-gd-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-gd-interpreter=8.3"
     ],
@@ -70635,10 +70634,10 @@
   },
   {
     "name": "php-legacy-odbc",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "35aa495788a4e6f04cd4de215d769db032f7f266399159b53bf7706afb30fd51",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-odbc-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "57baacaddd9c87718ef2f514a0641f0cc80cb5485584917292dd0e4ba6753e8b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-odbc-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-odbc-interpreter=8.3"
     ],
@@ -70651,10 +70650,10 @@
   },
   {
     "name": "php-legacy-pgsql",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "36b15b9db323a219f96a349942b42afdf3ce982d0338237b1eea6ab430db77ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-pgsql-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "1cc0ab153913dc46ed003f362b07da244420749bfde27d336b8c0476303def72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-pgsql-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-pgsql-interpreter=8.3"
     ],
@@ -70667,10 +70666,10 @@
   },
   {
     "name": "php-legacy-phpdbg",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "daf861c5af99321a0a7565bcfb3a2110e4af9b14f5e80c7e6e76be237f9ebcf7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-phpdbg-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "8fc7cbf35dda83bd5746cbc34c7c8130941caf745596b184a991b8e379360ea0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-phpdbg-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-phpdbg-interpreter=8.3"
     ],
@@ -70682,10 +70681,10 @@
   },
   {
     "name": "php-legacy-pspell",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "8a625689b408d5a5ea336bd1974dd366dd7ca2b16ccd5e5b8933611e161ce156",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-pspell-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "31135d13e5a862d7b069bd853be7be86d85dcfdd1cd97c7e52d29644e3c99c95",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-pspell-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-pspell-interpreter=8.3"
     ],
@@ -70716,10 +70715,10 @@
   },
   {
     "name": "php-legacy-snmp",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "087cb3c8200c0acc12a60b19490df687f8c9c688c8e00b44b27bb25ee40ed0bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-snmp-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "51e963a148d472e604751f2b811c610caa4b7b90d8ddc0a88b4391f191471523",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-snmp-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-snmp-interpreter=8.3"
     ],
@@ -70732,10 +70731,10 @@
   },
   {
     "name": "php-legacy-sodium",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "b26178f7fa62bf56d0ae9426b61258848b357032fa2ce629471c38521f92e0cf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-sodium-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "302a125d1de571279bd7cf5209745d98dede9aa637dcdea04a9105ae4bc2b8cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-sodium-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-sodium-interpreter=8.3"
     ],
@@ -70748,10 +70747,10 @@
   },
   {
     "name": "php-legacy-sqlite",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "f2f3d5220b68afadf0c7e0f15a23cd8b65a714d3f0ca41106aad584832d52aaa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-sqlite-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "a0d91b71c237ba6798cb2d392b0d12f4b91924aebd428eaceb54676cf0b27e03",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-sqlite-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-sqlite-interpreter=8.3"
     ],
@@ -70764,10 +70763,10 @@
   },
   {
     "name": "php-legacy-tidy",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "e4146b1aa1544a1820a37f09af48dc0b9d568d9d3275e4ec7b656c2d899aec64",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-tidy-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "0533eaa8371d30353c24c6059528ca97b9249110c52739fdfa2748da7ee15146",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-tidy-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-tidy-interpreter=8.3"
     ],
@@ -70780,10 +70779,10 @@
   },
   {
     "name": "php-legacy-xsl",
-    "version": "8.3.35-1",
+    "version": "8.3.36-1",
     "origin": "artix-world",
-    "sha256": "1555e68123340730c4f1f302aff2a152bbf0f6ff20e8b895ee3813725fc20580",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-xsl-8.3.35-1-x86_64.pkg.tar.zst",
+    "sha256": "b96b54e4ac037a0386f1698f8a1f8f868ab171d8209eceadd7184ff8ae936335",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-xsl-8.3.36-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-xsl-interpreter=8.3"
     ],
@@ -70854,10 +70853,10 @@
   },
   {
     "name": "php-odbc",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "2963d43f13a2fd0d9481921ec2ee25c590891d8f98b8f780577d9d378e19fff7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-odbc-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "71839a270d81c94d2c4d912650e5e416dda389a9ca1df363055fb382edd1969f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-odbc-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-odbc-interpreter=8.5"
     ],
@@ -70870,10 +70869,10 @@
   },
   {
     "name": "php-pgsql",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "f6562eb74137afa63682af38e1d2f45465a516db46b4bfda6ce44dc75e93f3e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-pgsql-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "09c9d669c7e6a6af0127fa4b62a04ad74c80b4198b275a2e25bef352ed985e2f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-pgsql-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-pgsql-interpreter=8.5"
     ],
@@ -70886,10 +70885,10 @@
   },
   {
     "name": "php-phpdbg",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "7233926863fda86b69e9051cee6b2bb394fe4541a2a3a8425c11aa476cb496f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-phpdbg-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "ff786e9de65b469339486b428a1cee0c9e1e255bc97f1611bf9500d9a7a3aca7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-phpdbg-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-phpdbg-interpreter=8.5"
     ],
@@ -70935,10 +70934,10 @@
   },
   {
     "name": "php-snmp",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "01396894a4d756dc3e5d9efc516b189d34a7f85b69802cfca47e43e2156015fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-snmp-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "8c4816df24395504f2f39128787bb947cc61e8a5e103d706ea15f8c3c7c9798c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-snmp-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-snmp-interpreter=8.5"
     ],
@@ -70967,10 +70966,10 @@
   },
   {
     "name": "php-sodium",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "a64e0ada98f3520b11346cc104fda9d59c0a2b6e89ccfaf2e7b623844850edb5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-sodium-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "47d74ab6a88834c8c00f58d81a2c70d6a229f2615fb6d1ce41539d3e54dc7a6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-sodium-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-sodium-interpreter=8.5"
     ],
@@ -70983,10 +70982,10 @@
   },
   {
     "name": "php-sqlite",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "7d74d4615c44e3fd864138d6ea2cc227b0adf24062241af651abeb1c51757a0d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-sqlite-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "d9b95f8783d0fc3964618bbccc869cd52e5be745cdef746c1ed3d670a9ecf28c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-sqlite-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-sqlite-interpreter=8.5"
     ],
@@ -70999,10 +70998,10 @@
   },
   {
     "name": "php-tidy",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "3894a3995aa27ea5fb8aa80cc5b26342b41171a47281d36c0e75ca32212e4108",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-tidy-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "07b7476415d8de9c14fdb867211b381a54ca9b6b68ac3f9d2539bdffbe2cfa05",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-tidy-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-tidy-interpreter=8.5"
     ],
@@ -71015,10 +71014,10 @@
   },
   {
     "name": "php-xsl",
-    "version": "8.5.11-1",
+    "version": "8.5.12-1",
     "origin": "artix-world",
-    "sha256": "8d218cc89c987fd9b4b1204e9c1f521cda5b04f0a1bc039d75f56c15f81675de",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-xsl-8.5.11-1-x86_64.pkg.tar.zst",
+    "sha256": "42d5adffffdc747ea8c553634b03b42e074c31cd25470088f0d2409f17b49cf8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-xsl-8.5.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "php-xsl-interpreter=8.5"
     ],
@@ -101456,10 +101455,10 @@
   },
   {
     "name": "qt6-declarative",
-    "version": "6.12.0-1.1",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "df30837dae2986a447850c1693d45c09a7156fe59a01023e4ec81ba5cb42bc6a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-declarative-6.12.0-1.1-x86_64.pkg.tar.zst",
+    "sha256": "d1e2e8bf0f1481e4752203d69282c9648581619c99fb97f544b106a6f5824e89",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-declarative-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
