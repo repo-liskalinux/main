@@ -103342,15 +103342,16 @@
   },
   {
     "name": "remmina",
-    "version": "1:1.4.43-3",
+    "version": "1:1.4.43-4",
     "origin": "artix-world",
-    "sha256": "3d50862218db07d8dce25ca26a4d00c3d18540fd00dda4db688d80995863d7f9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/remmina-1:1.4.43-3-x86_64.pkg.tar.zst",
+    "sha256": "f3fc787f2f866f87f3ee8a411fe67ad2eebb28802fb5e2124cdeb994a03cc5be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/remmina-1:1.4.43-4-x86_64.pkg.tar.zst",
     "provides": [
       "remmina-plugins"
     ],
     "depends": [
       "avahi",
+      "avahi-gtk",
       "bash",
       "cairo",
       "curl",
@@ -107665,10 +107666,10 @@
   },
   {
     "name": "ruby-pkg-config",
-    "version": "1.6.5-1",
+    "version": "1.6.6-1",
     "origin": "artix-world",
-    "sha256": "a1becf38d323063136b1fd229bd1c81fb1ab309cb38c16ba87716f4ac7f95b40",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-pkg-config-1.6.5-1-any.pkg.tar.zst",
+    "sha256": "1634ad698594e0b5da0f62da3e43e2b74e690a9b4a4cfa42c3ad563873732da9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-pkg-config-1.6.6-1-any.pkg.tar.zst",
     "provides": [
       "ruby-pkgconfig"
     ],
