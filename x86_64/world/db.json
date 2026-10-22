@@ -75659,10 +75659,10 @@
   },
   {
     "name": "pyside6",
-    "version": "6.12.0-1",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "5e66254516f7bf6d18c5e59e790757f91a65f5c39f5d77800c71433a9c1e6209",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-6.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b99d9c21900baa15984d5f8f5f0cd88fbd546060e7c199e3a2ae4bfc414de38e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-python-bindings"
     ],
@@ -75705,10 +75705,10 @@
   },
   {
     "name": "pyside6-tools",
-    "version": "6.12.0-1",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "7fa326094f063f0356503e221f58426da14864f518fb6d28488f45387bf8ac91",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-tools-6.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b1007b89be1b27a691eff1ada1da8f05efb001ce677289f0a6cb49a49a7791b1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-tools-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pyside6",
@@ -109963,10 +109963,10 @@
   },
   {
     "name": "rxvt-unicode",
-    "version": "9.31-9",
+    "version": "9.31-10",
     "origin": "artix-world",
-    "sha256": "31de1c751667082931d16a312204bf9537ef807ac3a069b4e2567e0635b249f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-9.31-9-x86_64.pkg.tar.zst",
+    "sha256": "381572c7c71fa8cff87f1238b07a80d9c4a605f07b7e72db527c16bd6663f786",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-9.31-10-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rxvt-unicode-terminfo",
@@ -109983,10 +109983,10 @@
   },
   {
     "name": "rxvt-unicode-terminfo",
-    "version": "9.31-9",
+    "version": "9.31-10",
     "origin": "artix-world",
-    "sha256": "b49f5551a05d9ad78e76122cbc3b121f82d4c9b66599b96faaaec01729cf6f42",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-terminfo-9.31-9-x86_64.pkg.tar.zst",
+    "sha256": "8cc71ea80f6828f284a206435f35f0d5419b72c354b403ceb5aeb02d59bd4e04",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-terminfo-9.31-10-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -111481,10 +111481,10 @@
   },
   {
     "name": "shiboken6",
-    "version": "6.12.0-1",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "46854d98e4b2f02cc141b10fbc5ca6af69e93180e710af7f3d7aae135c60a51c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-6.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "aacd882711d919649efbf3e3496f1ae0577a471e9c79c5e876e4434bf010b3a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -111497,14 +111497,14 @@
   },
   {
     "name": "shiboken6-generator",
-    "version": "6.12.0-1",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "acd54464921d2505beb7eabb31bda5bc0f69ec5395e7294bbe88c7d9ea4315ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-generator-6.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f4800af1267ac9d465f1ff1dedbadc5faa064e0088397bb567fff15c49155fb5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-generator-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "clang",
       "glibc",
+      "clang-libs",
       "libgcc",
       "libstdc++",
       "libxml2",
