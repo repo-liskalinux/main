@@ -12232,10 +12232,10 @@
   },
   {
     "name": "docker-compose",
-    "version": "5.6.0-1",
+    "version": "5.6.1-1",
     "origin": "artix-world",
-    "sha256": "4f586c15bc6b0f431b90be804097e3f9164c604163bc9eda2a80fc76f5c10ddd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-compose-5.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c43ee3a8720e08151ed920572fb8389ada717b9e675f164838ce102f685f56a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-compose-5.6.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -17578,10 +17578,10 @@
   },
   {
     "name": "fractal",
-    "version": "14.1-1",
+    "version": "14.2-1",
     "origin": "artix-world",
-    "sha256": "367d8f88bc2f35f634ea7d8b267d1ff3293e56cc9c254b1b232974399330d3be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fractal-14.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5c9c057bcf24e4b7f8f422692256b21f7d83d61f3a646e1bee54e771cf325c79",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fractal-14.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -20788,10 +20788,10 @@
   },
   {
     "name": "glycin",
-    "version": "2.2.3-1",
+    "version": "2.2.4-1",
     "origin": "artix-world",
-    "sha256": "6664be906c788e961ef9d445a598addc844dd2a0a196bfc639dda8dd701c0113",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-2.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c2c4b22d1df3989dbdd28d8bad12bd4310a044f0630537d0af8135239283e5a6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-2.2.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglycin-2.so=0-64"
     ],
@@ -20814,10 +20814,10 @@
   },
   {
     "name": "glycin-gtk4",
-    "version": "2.2.3-1",
+    "version": "2.2.4-1",
     "origin": "artix-world",
-    "sha256": "836cdc1a5fcecee8f4549e69c8c7893905d909443bb53bca99464f99fb04144b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-gtk4-2.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b4fdea40ddee5c52f348e04d7647e422a252dc946fe552214776a22f93392d72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-gtk4-2.2.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglycin-gtk4-2.so=0-64"
     ],
@@ -23253,10 +23253,10 @@
   },
   {
     "name": "gradle",
-    "version": "9.8.1-1",
+    "version": "9.8.2-1",
     "origin": "artix-world",
-    "sha256": "95e2dce94772be525fefac1436c27f1c70369d8b025ce2c690af21f6605cd8fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-9.8.1-1-any.pkg.tar.zst",
+    "sha256": "1d0b9e5418b4c69c127bdf0790ea69f61d21916e81b39c77ee78234c14f35ea3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-9.8.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -23274,10 +23274,10 @@
   },
   {
     "name": "gradle-src",
-    "version": "9.8.1-1",
+    "version": "9.8.2-1",
     "origin": "artix-world",
-    "sha256": "e0ed91bd32c1f7b81886f7755eb36258eacfa9ac7771f4ff712fbbbb2659cf8d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-src-9.8.1-1-any.pkg.tar.zst",
+    "sha256": "c846ada81f95a0237dda91798b78f1ba01e4f2ae6d93939a34300416e671781e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-src-9.8.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -27182,10 +27182,10 @@
   },
   {
     "name": "haveged",
-    "version": "1.9.26-1",
+    "version": "1.9.27-1",
     "origin": "artix-world",
-    "sha256": "055144132d0c3062dd47289ac7cadcab7c1fc93d28af1a361b6d539e2226d7fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haveged-1.9.26-1-x86_64.pkg.tar.zst",
+    "sha256": "2789ea027fd45dd21609920fb349739f5c4593df2f68fa6f16f702fdd28ecdbf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haveged-1.9.27-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -44481,20 +44481,21 @@
   },
   {
     "name": "libffado",
-    "version": "2.5.0-1",
+    "version": "2.5.0-2",
     "origin": "artix-world",
-    "sha256": "b34923256a011ea3d98538f8aae0a78cde6b6cc8c5cf457b899fb3e3e56dd10d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libffado-2.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "02889c1b74e44ae2ad141993bbb63e540fa603cfb001b846ab27c484208a0bd2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libffado-2.5.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libffado.so=2-64"
     ],
     "depends": [
-      "gcc-libs",
       "glibc",
       "glibmm",
       "hicolor-icon-theme",
       "libiec61883",
+      "libgcc",
       "libraw1394",
+      "libstdc++",
       "libxml++",
       "python-dbus",
       "alsa-lib",
@@ -49831,10 +49832,10 @@
   },
   {
     "name": "libsynctex",
-    "version": "2026.0-2.1",
+    "version": "2026.0-4",
     "origin": "artix-world",
-    "sha256": "1fd4c931da579a940dba373ce182e77a08b5a2b5f1df58eae468b86dfe3061e7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsynctex-2026.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "a4f16c15be298114ca0a774d3ad53bfb72d1f1d9a1ae721710b1c1baaf4b646f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsynctex-2026.0-4-x86_64.pkg.tar.zst",
     "provides": [
       "libsynctex.so=2-64"
     ],
@@ -50035,10 +50036,10 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.25-1",
+    "version": "0.16.26-1",
     "origin": "artix-world",
-    "sha256": "a1e9650e5ec19e1eb5756aac1df7dc4be66cdd83a2e71e8af4b0cadeebd54e4d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.25-1-x86_64.pkg.tar.zst",
+    "sha256": "ccdcb046aa4293e3bc73b03bc1979a1a573e007eef9f331653bea75caedd9e62",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.26-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl"
@@ -62397,10 +62398,10 @@
   },
   {
     "name": "opencolorio",
-    "version": "2.5.1-2",
+    "version": "2.5.2-1",
     "origin": "artix-world",
-    "sha256": "81e0eb3737da03c74e224308db325c270fd03645efd2793256cc5809bccae90d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencolorio-2.5.1-2-x86_64.pkg.tar.zst",
+    "sha256": "8c0465c635b79f699f4e3ac652473ba68a5b46be699805a4b0955b4e7191f5b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencolorio-2.5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "freeglut",
@@ -72945,10 +72946,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.14.0-1",
+    "version": "12.15.0-1",
     "origin": "artix-world",
-    "sha256": "0095dc6d143d812616a6cd8e912fa96aff23e5fdda46fce97dac4e2600ed879a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.14.0-1-x86_64.pkg.tar.zst",
+    "sha256": "56064efca39d3227e31b438a9423e5660b44490524fb39f99238ee92aca2fcb9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.15.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -74226,10 +74227,10 @@
   },
   {
     "name": "powerdns",
-    "version": "5.1.4-4",
+    "version": "5.1.5-1",
     "origin": "artix-world",
-    "sha256": "c30c4cf5e095a4f7ffca40dc6648249eb83e08d6aaeb140c3e66c51dfdae5b08",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdns-5.1.4-4-x86_64.pkg.tar.zst",
+    "sha256": "9806fd8412f97122b5cf26cb80e16bccda08d4d755711ce0981012c6327ef271",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdns-5.1.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "pdns"
     ],
@@ -74260,10 +74261,10 @@
   },
   {
     "name": "powerdns-recursor",
-    "version": "5.4.7-1",
+    "version": "5.4.8-1",
     "origin": "artix-world",
-    "sha256": "f38e2a0900db98f82926e822dff28e64154cf85cc7ee2275e5b58d86b6fb04fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdns-recursor-5.4.7-1-x86_64.pkg.tar.zst",
+    "sha256": "8257d4b80414e388529fa9f5988f17ff4a00ea2be81b3a2d64637475c287851d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/powerdns-recursor-5.4.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "pdns-recursor"
     ],
@@ -82166,10 +82167,10 @@
   },
   {
     "name": "python-griffe",
-    "version": "2.3.2-1",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "64ad9cc47dc1a0b08dcc042eb6bf7f67eecb882e9a1f7de922fa298af102ab05",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffe-2.3.2-1-any.pkg.tar.zst",
+    "sha256": "63e42481488c85f012e5af40a612b37852975f441a15ed98855b32449524906e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffe-2.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -82181,10 +82182,10 @@
   },
   {
     "name": "python-griffecli",
-    "version": "2.3.2-1",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "b0a68a1e1310b3ca6233eb3a8315ad3070c5ebe106057a07d3f4a503c980fb42",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffecli-2.3.2-1-any.pkg.tar.zst",
+    "sha256": "7e2beb122fa54f4b943b0a31cd2049098ba70cb0bf3991c2620441dfd8bccc88",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffecli-2.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -82196,10 +82197,10 @@
   },
   {
     "name": "python-griffelib",
-    "version": "2.3.2-1",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "49f27980e40081b15693c6fbc2ee5a80bacf83f2c907291e2a544788f898ab02",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffelib-2.3.2-1-any.pkg.tar.zst",
+    "sha256": "323397c5179088b1efea88baa1f28c85768d11d09e5fafe371ce68e6bab72c9a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffelib-2.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96685,24 +96686,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.13.1-1",
+    "version": "0.13.5-1",
     "origin": "artix-world",
-    "sha256": "ed9b6961ff51df84aabdb5fb39e8ac77230db53cdc61f8166a29a1e8b2f4b6d0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1f33c3b00ec61e861b5ac4e0ae61f69fa26f614709397bc08ed68491b404f82c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.13.1"
+      "uv=0.13.5"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.13.1-1",
+    "version": "0.13.5-1",
     "origin": "artix-world",
-    "sha256": "9663d5d3354dc27b643c7e66a5b75f5d172296e3cfb5b6c2c9085f1b5bf1cee2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.1-1-x86_64.pkg.tar.zst",
+    "sha256": "690fd8475fca3bcd0b01aed130fdca2471f77ee84eb1192cb959a5592f01474a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -104639,13 +104640,13 @@
   },
   {
     "name": "rtorrent",
-    "version": "0.16.25-1",
+    "version": "0.16.26-1",
     "origin": "artix-world",
-    "sha256": "f9a4ad20d9796052c9ab7391cfd7a9e9a968a37c1362db443b1f76a6921372c2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.25-1-x86_64.pkg.tar.zst",
+    "sha256": "e47c7eaf6fbb6e263e9e8cc3d6ca78a76b3ae9f935dbfc68a54c60272412040f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.26-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libtorrent=0.16.25",
+      "libtorrent=0.16.26",
       "curl",
       "tinyxml2"
     ],
@@ -110033,10 +110034,10 @@
   },
   {
     "name": "rygel",
-    "version": "1:46.1-1",
+    "version": "1:46.1-2",
     "origin": "artix-world",
-    "sha256": "18fdad9532cbc8735a2617e8d4d438b0192f992a1b54791068f1ec0accd8ae87",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rygel-1:46.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0a2f3f15701f420a4615614fe4b6fdcd273eda6949ce078dd966dd40e682c9c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rygel-1:46.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "librygel-core-2.8.so=0-64",
       "librygel-db-2.8.so=0-64",
@@ -118182,10 +118183,10 @@
   },
   {
     "name": "texlive-bin",
-    "version": "2026.0-2.1",
+    "version": "2026.0-4",
     "origin": "artix-world",
-    "sha256": "078e571dc1b48c73b909d3fbac22169023fe3bbb8926b144fa63269fe552d5f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/texlive-bin-2026.0-2.1-x86_64.pkg.tar.zst",
+    "sha256": "844c10f47a09b2342d0cc7e7adf9b9e645afe2ce8ea7b75f9cc81a758f2255fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/texlive-bin-2026.0-4-x86_64.pkg.tar.zst",
     "provides": [
       "lcdf-typetools",
       "libptexenc.so=1-64",
@@ -118214,10 +118215,6 @@
       "libsynctex",
       "libunistring",
       "libx11",
-      "libxaw",
-      "libxmu",
-      "libxpm",
-      "libxt",
       "mpfr",
       "ncurses",
       "perl",
@@ -118228,6 +118225,10 @@
       "zziplib"
     ],
     "optdepends": [
+      "libxaw: for XDvi",
+      "libxmu: fir XDvi",
+      "libxpm: fir XDvi",
+      "libxt: for XDvi",
       "psutils: to manipulate the output of dvips"
     ],
     "conflicts": []
@@ -126600,10 +126601,10 @@
   },
   {
     "name": "uv",
-    "version": "0.13.1-1",
+    "version": "0.13.5-1",
     "origin": "artix-world",
-    "sha256": "161012d4173b74c7795222d4fb672fbfdd8b0ec62cac6d9d81488f022d3cbac8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.1-1-x86_64.pkg.tar.zst",
+    "sha256": "554ffed17d1018cb4b320291d2d9f7b2679c3022a70169217e321ed399fe7d86",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126880,10 +126881,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261015074526-1",
+    "version": "20261022042620-1",
     "origin": "artix-world",
-    "sha256": "b86811939d45227631c97f94f91dfed4de17744799302356db69eb54aec99362",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261015074526-1-any.pkg.tar.zst",
+    "sha256": "9dd6a315be6c2870a5baa883f7f505701fee25429bfcf9f71ed473afc86964dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261022042620-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -127594,10 +127595,10 @@
   },
   {
     "name": "virtualbox",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "59272333cc7af4ebccce35b814a3ea7b91e5c466f49d595df8738ba252441f26",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-7.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "55df8f230f37bddafb8282a9bd0d51e2b9867ba62d8b33c056e8571ec5315165",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-7.2.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -127654,10 +127655,10 @@
   },
   {
     "name": "virtualbox-ext-vnc",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "0d3ea7eb45d822dc8a46f4749927d6820f502db19b555e97c125f5911a47935f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-ext-vnc-7.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "f43ca8b7af4d456362270ae8f9e4802c7cd0b529b7e0be9769f2d35daad5cbb4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-ext-vnc-7.2.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "virtualbox",
@@ -127670,10 +127671,10 @@
   },
   {
     "name": "virtualbox-guest-iso",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "d011409fee00dd6bf150e20eea5815094be06cefbbca16027ad1c3196bc0caa0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-iso-7.2.20-1-any.pkg.tar.zst",
+    "sha256": "9571becc28b1640c9fab240aa3c61095b09c572f10f875c317fb875f3483fdef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-iso-7.2.22-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash"
@@ -127686,10 +127687,10 @@
   },
   {
     "name": "virtualbox-guest-utils",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "afb3233f2ac70323c88ee35ae238c0eb05a7e4b022aeffb0a3e086582caadbf2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-7.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "8b1a441ec20f835876b82ce18c072ec81776d1ab62c16d199dd4dc17444334a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-7.2.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127717,10 +127718,10 @@
   },
   {
     "name": "virtualbox-guest-utils-nox",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "88a41924648a0d4b6d61e776797f3b17e57d403ff56d711ff50860372152243d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-nox-7.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "db7ea59704c4d82613cd28e11be1472e6bfe50d7e73e0e38d2514f57de2a5d7c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-guest-utils-nox-7.2.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127738,10 +127739,10 @@
   },
   {
     "name": "virtualbox-host-dkms",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "1932b4b15f9bf1a48829d996c9f91308667275c630da9f4ec187e413970f5b85",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-host-dkms-7.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "f972050b26bd0ac7ac394d905dab969a4cb8d3c169af8f750f107d7b05ec3f04",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-host-dkms-7.2.22-1-x86_64.pkg.tar.zst",
     "provides": [
       "VIRTUALBOX-HOST-MODULES"
     ],
@@ -127778,10 +127779,10 @@
   },
   {
     "name": "virtualbox-sdk",
-    "version": "7.2.20-1",
+    "version": "7.2.22-1",
     "origin": "artix-world",
-    "sha256": "83b46d410ec1d2f6ab444ac2f094eaef1717e37c3e02e7f939a1312b6ad09949",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-sdk-7.2.20-1-x86_64.pkg.tar.zst",
+    "sha256": "e25d207a3696c562068d26f8cb4839fee41aeaffc8e168d84259730687537119",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/virtualbox-sdk-7.2.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -136086,16 +136087,17 @@
   },
   {
     "name": "zita-alsa-pcmi",
-    "version": "0.6.1-3",
+    "version": "0.6.1-4",
     "origin": "artix-world",
-    "sha256": "68b4d8e2f5ba971dad158db0aa307c1ba9f3a87b605f7b7818c84b53ded0d8c8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zita-alsa-pcmi-0.6.1-3-x86_64.pkg.tar.zst",
+    "sha256": "7af05dee7f80c4c4880af9546fbd953d391c39529c23b0717dbb79969d9290a6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zita-alsa-pcmi-0.6.1-4-x86_64.pkg.tar.zst",
     "provides": [
       "libzita-alsa-pcmi.so=0-64"
     ],
     "depends": [
-      "gcc-libs",
       "glibc",
+      "libgcc",
+      "libstdc++",
       "libasound.so=2-64"
     ],
     "optdepends": [],

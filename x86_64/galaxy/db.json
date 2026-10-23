@@ -2300,10 +2300,10 @@
   },
   {
     "name": "chess-tui",
-    "version": "2.7.1-1",
+    "version": "2.8.0-1",
     "origin": "artix-galaxy",
-    "sha256": "336f775ba8d36749162619cca0b532ef154373acff799509826c04f5f76bb473",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chess-tui-2.7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9a28f245ddde633521e8e1c40d953f9499c7b8f41f21ce4683eed574ce4d4a77",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chess-tui-2.8.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -10468,10 +10468,10 @@
   },
   {
     "name": "jaq",
-    "version": "3.1.1-1",
+    "version": "3.1.2-1",
     "origin": "artix-galaxy",
-    "sha256": "ba21502d6e2edb616c9ff16a6177d839775519a26407d65323faf1b07cd939fe",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jaq-3.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a2583501ccd4a84c72601deac0a99a17e0d0412f4f691581cacad3ee7e433e7a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jaq-3.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -20105,25 +20105,42 @@
   },
   {
     "name": "marco",
-    "version": "1.29.0-1",
+    "version": "1.29.0-2",
     "origin": "artix-galaxy",
-    "sha256": "5bc46f2ae35b6de6c970bbffbe734725f20cd6889e42b64e52483feee8128dbd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/marco-1.29.0-1-x86_64.pkg.tar.zst",
+    "sha256": "32726be8e91a97ba66c50a7d4e235f8a6d4868a8f1dd6994bd5c2537aae303cf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/marco-1.29.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "at-spi2-core",
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
       "libcanberra",
       "libgtop",
-      "mate-desktop",
-      "zenity",
+      "libice",
+      "libsm",
+      "libx11",
+      "libxcomposite",
+      "libxcursor",
+      "libxdamage",
+      "libxext",
+      "libxfixes",
+      "libxinerama",
       "libxpresent",
-      "gettext",
+      "libxrandr",
+      "libxrender",
       "libxres",
-      "libsm"
+      "mate-desktop",
+      "mate-settings-daemon",
+      "pango",
+      "startup-notification",
+      "zenity"
     ],
     "optdepends": [],
-    "conflicts": [
-      "marco-gtk3"
-    ]
+    "conflicts": []
   },
   {
     "name": "mate-applets",
@@ -22433,10 +22450,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.16-1",
+    "version": "0.24.17-1",
     "origin": "artix-galaxy",
-    "sha256": "f9bd50bc182f2eb447e24e5468b7045e14256141f628c7ba7e1c537c4a0ab30b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.16-1-x86_64.pkg.tar.zst",
+    "sha256": "c8bb90f96d79d580666568178fb997c771f735dbb28b68b083d872d7ed83d43c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28928,10 +28945,10 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "7.3.1-1",
+    "version": "7.3.3-1",
     "origin": "artix-galaxy",
-    "sha256": "7809252d09deb9f509d940fec59e83068cdf2faa9c668dde1d944cd18f03f05c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1681146a7473acbde0433c89c9d3239ed58df7e79e920dc7b55f27e7457c5844",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
