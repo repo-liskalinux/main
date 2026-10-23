@@ -505,15 +505,16 @@
   },
   {
     "name": "adios2",
-    "version": "2.12.1-6",
+    "version": "2.12.1-7",
     "origin": "artix-world",
-    "sha256": "514385ce3f5ec4c29b67e42ef61b19a6e6e75f993c026f4b16b458a311c90a2e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/adios2-2.12.1-6-x86_64.pkg.tar.zst",
+    "sha256": "9010e691864b65a65699d6f2c73f05a7b7f53b5ffc5d68d86c4ef0591c96ba9e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/adios2-2.12.1-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc2",
       "bzip2",
       "libbz2.so=1.0-64",
+      "conduit-llnl",
       "curl",
       "libcurl.so=4-64",
       "glibc",
@@ -4902,10 +4903,10 @@
   },
   {
     "name": "bear",
-    "version": "4.2.2-1",
+    "version": "4.2.3-1",
     "origin": "artix-world",
-    "sha256": "93985c11a431feb75d64151de1c20b7f1676904cc1f9f01d96905c45fa0bcf89",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bear-4.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "67a597eab736de95e63202a598a73a08e98c09dd608b1d88787ba90dd909898d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bear-4.2.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -6739,10 +6740,10 @@
   },
   {
     "name": "buf",
-    "version": "1.73.0-1",
+    "version": "1.75.0-1",
     "origin": "artix-world",
-    "sha256": "573447bf69488728f8eb5f3318fed3cdffa5a65197b63e6de1a9dc4b88bae54f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/buf-1.73.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6f8d3eaf9cfe495aa3c4d552c2ee677a675068644a5e86739cbca5190fd4775d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/buf-1.75.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -7167,10 +7168,10 @@
   },
   {
     "name": "calligra",
-    "version": "26.08.2-1",
+    "version": "26.08.2-2",
     "origin": "artix-world",
-    "sha256": "6028aae54a9972df1078bde7e1a190f667b9fedd6fc5245649c91f66fe5fa91a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calligra-26.08.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5c98d519d83e11c59d02764067b996db5a00b00e5bd7dd64c013c07c93367472",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calligra-26.08.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cauchy",
@@ -10556,10 +10557,10 @@
   },
   {
     "name": "dart-sass",
-    "version": "1.105.1-1",
+    "version": "1.106.1-1",
     "origin": "artix-world",
-    "sha256": "8489d3e16368973eef48383e1cc3144cb33a59f2d1fb7f2b28d41c2970c61025",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.105.1-1-x86_64.pkg.tar.zst",
+    "sha256": "deb200a938818097287689110e4d0cf2b637b3553a72f81daeab8cd450a67977",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.106.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "sass"
     ],
@@ -12218,10 +12219,10 @@
   },
   {
     "name": "docker-buildx",
-    "version": "0.38.0-1",
+    "version": "0.38.1-1",
     "origin": "artix-world",
-    "sha256": "514bf3d940d8195c93074d95db7a7a7ae6b199cf1b620450cd6790f43ceeb70e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.38.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b26be8431449925d0b6a1086bedc1ca3704d68db4763cdb23bcd448157e2e253",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.38.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -20456,10 +20457,10 @@
   },
   {
     "name": "github-cli",
-    "version": "2.102.0-1",
+    "version": "2.102.1-1",
     "origin": "artix-world",
-    "sha256": "4ee378aaf801ad73ab4f38a8e3f7b69255827f80f23d930edd7e64c4ae060c23",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/github-cli-2.102.0-1-x86_64.pkg.tar.zst",
+    "sha256": "37ca446788f3de9f69989a29f9465d66f243e50970eb9b308fdaeb8dfe0e94b4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/github-cli-2.102.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -31772,20 +31773,20 @@
   },
   {
     "name": "jdk25-openjdk",
-    "version": "25.0.5.u8-1",
+    "version": "25.0.5.0.2.u1-1",
     "origin": "artix-world",
-    "sha256": "cb16d95073e67ba59fad3bfb1a0676a8a49738ae863e1a175c130da54033bac8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.u8-1-x86_64.pkg.tar.zst",
+    "sha256": "33eefe5c8bb8e8ed579fef1a875b9a5fc06452e52a19e88bdbf0fdcbce987e45",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=25",
       "java-environment-openjdk=25",
-      "jdk25-openjdk=25.0.5.u8-1",
+      "jdk25-openjdk=25.0.5.0.2.u1-1",
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.5.u8-1",
+      "jre25-openjdk=25.0.5.0.2.u1-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.u8-1"
+      "jre25-openjdk-headless=25.0.5.0.2.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32372,17 +32373,17 @@
   },
   {
     "name": "jre25-openjdk",
-    "version": "25.0.5.u8-1",
+    "version": "25.0.5.0.2.u1-1",
     "origin": "artix-world",
-    "sha256": "19c5805f26caa258e65f93ff0e9bbd4e2573c7adb1f52aba2aa475d77531e077",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.u8-1-x86_64.pkg.tar.zst",
+    "sha256": "f600ef1d5d3416120d8b8fac0bab86872c97eac079d62a3f8207fb46d5c27e51",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.5.u8-1",
+      "jre25-openjdk=25.0.5.0.2.u1-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.u8-1"
+      "jre25-openjdk-headless=25.0.5.0.2.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32415,14 +32416,14 @@
   },
   {
     "name": "jre25-openjdk-headless",
-    "version": "25.0.5.u8-1",
+    "version": "25.0.5.0.2.u1-1",
     "origin": "artix-world",
-    "sha256": "531a9335d75cb5db61220a95378eb8af0302ba0a1587ed37dc870437857f98d4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.u8-1-x86_64.pkg.tar.zst",
+    "sha256": "8fafb35d3b4798f105ccb7d993282ad2d2d6fa9cb423acd4265bdd94d3641cbd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.u8-1"
+      "jre25-openjdk-headless=25.0.5.0.2.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -37707,10 +37708,10 @@
   },
   {
     "name": "kitinerary",
-    "version": "26.08.2-1",
+    "version": "26.08.2-2",
     "origin": "artix-world",
-    "sha256": "9fdfda0cd80ef87183cda35637594c8db8bebb9d8b37ccb2cf989f4cc9ba93f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.2-1-x86_64.pkg.tar.zst",
+    "sha256": "d490384f5934c37ebc26425219fde2870495ba66080544fa28e874ddd6682d11",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kitinerary-26.08.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -62947,15 +62948,15 @@
   },
   {
     "name": "openjdk25-src",
-    "version": "25.0.5.u8-1",
+    "version": "25.0.5.0.2.u1-1",
     "origin": "artix-world",
-    "sha256": "c77d360d39da753419495050bca3b1d32bbc55c64e0efb604ad47e70cfe223b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.u8-1-x86_64.pkg.tar.zst",
+    "sha256": "44d123444eef467a9141e877785d8c964b52dcddc9b747bf98415fcbf5ee150f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk25-src=25.0.5.u8-1"
+      "openjdk25-src=25.0.5.0.2.u1-1"
     ],
     "depends": [
-      "jdk25-openjdk=25.0.5.u8-1"
+      "jdk25-openjdk=25.0.5.0.2.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -107196,10 +107197,10 @@
   },
   {
     "name": "ruby-mize",
-    "version": "0.6.1-1",
+    "version": "0.7.0-1",
     "origin": "artix-world",
-    "sha256": "bd3c16b41275eecc3517cf56da82b6c457b0a187a31e580df53f5b3b03d5eaa7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mize-0.6.1-1-any.pkg.tar.zst",
+    "sha256": "872cb6279fec70f7fba283e2fb4eb5aae2b42a73c6e761f7edbe0506835891e6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mize-0.7.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -113176,10 +113177,10 @@
   },
   {
     "name": "squashfuse",
-    "version": "0.6.3-1",
+    "version": "0.6.5-1",
     "origin": "artix-world",
-    "sha256": "fa85e342fe1098df15005ef7b5ece8215bba0ed1d11c1e8fae17d430d51729ee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/squashfuse-0.6.3-1-x86_64.pkg.tar.zst",
+    "sha256": "b8e2a0c4636a60ca94dd4249f4324820e23c750760adea677597bf0869553fdd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/squashfuse-0.6.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse",
