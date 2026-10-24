@@ -1958,10 +1958,10 @@
   },
   {
     "name": "cef",
-    "version": "152.0.6-1",
+    "version": "154.0.34-2",
     "origin": "artix-galaxy",
-    "sha256": "3a11adceafa8c42f8cd8b54c7f9483deffb569b4c20e69271d0c93d2c51657e2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cef-152.0.6-1-x86_64.pkg.tar.zst",
+    "sha256": "e61135cea6a19e68b10f91cbf25097f2b1a2f89360ce6061cb5844cb640eda9b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cef-154.0.34-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -1982,6 +1982,7 @@
       "brotli",
       "libjpeg-turbo",
       "openh264",
+      "highway",
       "dav1d",
       "flac",
       "libxml2",
