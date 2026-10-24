@@ -129,10 +129,10 @@
   },
   {
     "name": "aarch64-linux-gnu-gcc",
-    "version": "16.1.0-1",
+    "version": "16.2.0-1",
     "origin": "artix-world",
-    "sha256": "519748280f3e3128db2383d6fbebbbae91808a48afde1e8b93150df8087f6e28",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aarch64-linux-gnu-gcc-16.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1d2dbe0329bd88f9fdd02203c80c246ed7c34a848f3c09bd8f57bcee65772d5c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aarch64-linux-gnu-gcc-16.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aarch64-linux-gnu-binutils",
@@ -4811,10 +4811,10 @@
   },
   {
     "name": "bazelisk",
-    "version": "1.29.0-1",
+    "version": "1.30.0-1",
     "origin": "artix-world",
-    "sha256": "3bbd9f2c1d9a5212119be6df807e93eb9bd756f00a42283ff456c99db6619867",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bazelisk-1.29.0-1-x86_64.pkg.tar.zst",
+    "sha256": "37b7be15fd57c26154c0de60e55f784ffeb6b88afa257b6629d2cb2b439a4041",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bazelisk-1.30.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "bazel"
     ],
@@ -11626,10 +11626,10 @@
   },
   {
     "name": "distro-info-data",
-    "version": "2026.08.20-1",
+    "version": "2026.10.12-1",
     "origin": "artix-world",
-    "sha256": "681f65d11071bf6154227b01c974ca87cb196ee4a6abdccb6e22aa1e0578f64b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/distro-info-data-2026.08.20-1-any.pkg.tar.zst",
+    "sha256": "c0b6997565ee4bd2f26c2a48435abab46d6cc679c677d4774eba8f2450bd1608",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/distro-info-data-2026.10.12-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -23992,10 +23992,10 @@
   },
   {
     "name": "gsoap",
-    "version": "2.8.144-1",
+    "version": "2.8.145-1",
     "origin": "artix-world",
-    "sha256": "85f42fab98ce0eee49551dadaaedaecfdbbbf31bab9922deae1a5e33d62c942c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsoap-2.8.144-1-x86_64.pkg.tar.zst",
+    "sha256": "1492c82a431e3e945e16600fa11e4085a1e13fa80a2b7033bf306e2c0444ad40",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsoap-2.8.145-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -50951,10 +50951,10 @@
   },
   {
     "name": "libwmf",
-    "version": "0.2.16-1",
+    "version": "0.2.17-1",
     "origin": "artix-world",
-    "sha256": "29eb2f1b0786ec5d04b5b2e246f4f4444ff041cc02eec7d1e416426155d49cd9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwmf-0.2.16-1-x86_64.pkg.tar.zst",
+    "sha256": "e15732ccbaaa9969b4bfa3abdebfdc531a88cae7ecb7eb122cb792457f036a63",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwmf-0.2.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "expat",
@@ -55573,13 +55573,14 @@
   },
   {
     "name": "marisa",
-    "version": "0.3.1-1",
+    "version": "0.3.1-2",
     "origin": "artix-world",
-    "sha256": "e0df677cc27a523d35a3756f4ceaf2001316ab07c1f44a4de6252816083995f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marisa-0.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "70f4301dd906b564f0c7d53946a08c11b22f1e7f1321123006f7447dcefbccdc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marisa-0.3.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs"
+      "libgcc",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
@@ -55628,10 +55629,10 @@
   },
   {
     "name": "marked",
-    "version": "16.4.0-1",
+    "version": "17.0.0-1",
     "origin": "artix-world",
-    "sha256": "df89739ab5effc82daebdcc424668da06a959593746361669af49e6021eca37a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marked-16.4.0-1-any.pkg.tar.zst",
+    "sha256": "f6e19396418e615e79bd0ebd5a62a8811a73f1d5ee3c42ca293715d945d8fac4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marked-17.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs"
@@ -59290,10 +59291,10 @@
   },
   {
     "name": "ndiff",
-    "version": "7.991-1",
+    "version": "7.992-1",
     "origin": "artix-world",
-    "sha256": "74afaa62ce3be941db4533b716a1d3d056499c58f1379542a2c08a8a1b94cf7f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ndiff-7.991-1-x86_64.pkg.tar.zst",
+    "sha256": "510b47e51b71174dfef0a2b43c61dae8146749efc6a28a66106ccddda303a1d2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ndiff-7.992-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -60323,10 +60324,10 @@
   },
   {
     "name": "nmap",
-    "version": "7.991-1",
+    "version": "7.992-1",
     "origin": "artix-world",
-    "sha256": "6626f578eaabda8c1e43906e1ee99ecb18b63b26f816d4e06fb7dcc65113ce41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nmap-7.991-1-x86_64.pkg.tar.zst",
+    "sha256": "c2a1060b66032c94b7316073fbcbd3e05b4438af1ee9d7d3df5b91106b7815e1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nmap-7.992-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -64052,10 +64053,10 @@
   },
   {
     "name": "osm-gps-map",
-    "version": "1.2.0-3",
+    "version": "1.2.2-1",
     "origin": "artix-world",
-    "sha256": "bd1c406d48cf44fa859b12a1bb74ab0ab7e5b62688e19b7f917119d251cbea8c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/osm-gps-map-1.2.0-3-x86_64.pkg.tar.zst",
+    "sha256": "3ca124450113cd347127e27a64c74aba3afe3d35daa50c880bda38ea68137f9d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/osm-gps-map-1.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gtk3",
@@ -67747,10 +67748,10 @@
   },
   {
     "name": "perl-marisa",
-    "version": "0.3.1-1",
+    "version": "0.3.1-2",
     "origin": "artix-world",
-    "sha256": "b59c0fbe0686439f3b30b66ca589e748d66e764c49704bd3fb960fc625b49917",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-marisa-0.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "efe03d771457fde85e4cf30022e01fa835ba09a3db60967970b5d5566665fb02",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-marisa-0.3.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -85208,10 +85209,10 @@
   },
   {
     "name": "python-marisa",
-    "version": "0.3.1-1",
+    "version": "0.3.1-2",
     "origin": "artix-world",
-    "sha256": "6f272f86607cf2543cc293ba0f618f8b7358d0976b66ec9b439bde18a03f28f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-marisa-0.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2df3dba17e9c101147382de5f8210a9db6d8e768d63df6e8078f8275c1696ba7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-marisa-0.3.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -102612,10 +102613,10 @@
   },
   {
     "name": "radicale",
-    "version": "3.8.1-1",
+    "version": "3.8.3-1",
     "origin": "artix-world",
-    "sha256": "43763a7dc3fa5ab83443a5618bf6a75b79bb96557a185328ca1e86adcdb03250",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/radicale-3.8.1-1-any.pkg.tar.zst",
+    "sha256": "61377283902c4cbca841f9b1e89bd030a491618e8959bc1b7b854ff302637492",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/radicale-3.8.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -103635,10 +103636,10 @@
   },
   {
     "name": "riscv64-linux-gnu-linux-api-headers",
-    "version": "7.2-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "a2797211aaf4cd086058dfd9514055d84dc6b82054d047bc328788b4b3e08115",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-linux-api-headers-7.2-1-any.pkg.tar.zst",
+    "sha256": "814408c4c8a6ad294c2b64c144ffc61ae24ec5020724674493756aee1576537d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/riscv64-linux-gnu-linux-api-headers-7.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -106762,10 +106763,10 @@
   },
   {
     "name": "ruby-marisa",
-    "version": "0.3.1-1",
+    "version": "0.3.1-2",
     "origin": "artix-world",
-    "sha256": "c08fbfbf8bdc23f9399047509bb85c7251ead2ea677369a6b700c939b0ff175b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-marisa-0.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1f168223899b071798cf46d363f0451453f5d7e88d557b6cf8c2025d57db374b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-marisa-0.3.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -110003,10 +110004,10 @@
   },
   {
     "name": "rxvt-unicode",
-    "version": "9.31-10",
+    "version": "9.31-11",
     "origin": "artix-world",
-    "sha256": "381572c7c71fa8cff87f1238b07a80d9c4a605f07b7e72db527c16bd6663f786",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-9.31-10-x86_64.pkg.tar.zst",
+    "sha256": "ad96e4f354888e07d66ba018e9c27ef268f5b1eef381b6940d47730891828f03",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-9.31-11-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rxvt-unicode-terminfo",
@@ -110023,10 +110024,10 @@
   },
   {
     "name": "rxvt-unicode-terminfo",
-    "version": "9.31-10",
+    "version": "9.31-11",
     "origin": "artix-world",
-    "sha256": "8cc71ea80f6828f284a206435f35f0d5419b72c354b403ceb5aeb02d59bd4e04",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-terminfo-9.31-10-x86_64.pkg.tar.zst",
+    "sha256": "bdf4cf1e1f9f5aa30a1a2b740359f71da8a026b34e60265977e2959f3b8a2af9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rxvt-unicode-terminfo-9.31-11-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -131982,10 +131983,10 @@
   },
   {
     "name": "wpewebkit",
-    "version": "2.54.1-2",
+    "version": "2.54.2-1",
     "origin": "artix-world",
-    "sha256": "7ae3abdb5c9ac1b336b1639a63fd9899aad78130488e4d60f2b7f40d7305f13e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wpewebkit-2.54.1-2-x86_64.pkg.tar.zst",
+    "sha256": "f11315ed526d650c5983c2681b03900c11738e9d944a2481a86c3e616da24cb7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wpewebkit-2.54.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libWPEWebKit-2.0.so=1-64"
     ],
@@ -135846,10 +135847,10 @@
   },
   {
     "name": "zenmap",
-    "version": "7.991-1",
+    "version": "7.992-1",
     "origin": "artix-world",
-    "sha256": "873e267e1959963a149fbcca75b294d4af6554745d84dbdac5884cecf09b96ff",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zenmap-7.991-1-x86_64.pkg.tar.zst",
+    "sha256": "1b0b494db018b415f1cb06aa162a4a473a6738da5ead1e016957cdffd5fae166",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zenmap-7.992-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdk-pixbuf2",
