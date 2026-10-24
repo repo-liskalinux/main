@@ -370,10 +370,10 @@
   },
   {
     "name": "brotli",
-    "version": "1.2.0-1",
+    "version": "1.2.1-1",
     "origin": "artix-system",
-    "sha256": "19344fe42b9cd368d89056e98502e292ced730e4faa08a7144cc9e56aa47c6df",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/brotli-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "42ee8af53850bef884423466b00f489db59281e52f0fac53f339c3862a4fadf4",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/brotli-1.2.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libbrotlicommon.so=1-64",
       "libbrotlidec.so=1-64",
@@ -387,10 +387,10 @@
   },
   {
     "name": "brotli-testdata",
-    "version": "1.2.0-1",
+    "version": "1.2.1-1",
     "origin": "artix-system",
-    "sha256": "8da0d2b59b1e5897596d812c6ed2c0814ccbdc7dfed154b73c48369c2bf4249d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/brotli-testdata-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2a16a9bd4b244861b12885fb96dab6e941b0919d3bf462b39b6da5065c8aee53",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/brotli-testdata-1.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -466,10 +466,10 @@
   },
   {
     "name": "ca-certificates-mozilla",
-    "version": "3.131.1-1",
+    "version": "3.132-1",
     "origin": "artix-system",
-    "sha256": "0abd3ed5bb5ed701a4f90512d528417148b44efbec01e6810bc1532303b8ac5e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.131.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9914b4e7230221e7ae145b4d1d822149fbebd2c19b0e60082f8e5163eb698fd4",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.132-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates-utils>=20181109-3"
@@ -951,17 +951,17 @@
   },
   {
     "name": "debuginfod",
-    "version": "0.196-1",
+    "version": "0.197-1",
     "origin": "artix-system",
-    "sha256": "2327c38fc5e5499d0479b7068c5e43a481d72c382d465867bae40f09799e07ba",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/debuginfod-0.196-1-x86_64.pkg.tar.zst",
+    "sha256": "6692ba50d0bcd4ead29c36506233bfe7ba02a8233727357ada226b014d66c438",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/debuginfod-0.197-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "json-c",
       "libarchive",
       "libarchive.so=13-64",
-      "libelf=0.196",
+      "libelf=0.197",
       "libgcc",
       "libmicrohttpd",
       "libmicrohttpd.so=12-64",
@@ -972,7 +972,7 @@
       "liblzma.so=5-64"
     ],
     "optdepends": [
-      "elfutils=0.196: for translations"
+      "elfutils=0.197: for translations"
     ],
     "conflicts": []
   },
@@ -1351,10 +1351,10 @@
   },
   {
     "name": "elfutils",
-    "version": "0.196-1",
+    "version": "0.197-1",
     "origin": "artix-system",
-    "sha256": "ee3aae41f31e5c62e8b0e2134ddaff87c123b33195343559fee1172e754af1e3",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/elfutils-0.196-1-x86_64.pkg.tar.zst",
+    "sha256": "38936d8fcdb3baed8c73e7580a32b6b22ad8de7d72824dff5a13a2b433a5a428",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/elfutils-0.197-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1362,7 +1362,7 @@
       "libjson-c.so=5-64",
       "libarchive",
       "libarchive.so=13-64",
-      "libelf=0.196",
+      "libelf=0.197",
       "libgcc",
       "libstdc++",
       "sh"
@@ -3319,10 +3319,10 @@
   },
   {
     "name": "libelf",
-    "version": "0.196-1",
+    "version": "0.197-1",
     "origin": "artix-system",
-    "sha256": "c250de4af8eb28b26895ed626e57bf37d7383f4ab248ee1b3217f87eff728b1b",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libelf-0.196-1-x86_64.pkg.tar.zst",
+    "sha256": "5147396f617a66be3aab38fa6df130df68bb16093976e18876b4ab1461243119",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libelf-0.197-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -3668,13 +3668,17 @@
   },
   {
     "name": "libldap",
-    "version": "2.7.1-1",
+    "version": "2.7.2-2",
     "origin": "artix-system",
-    "sha256": "2767fadd3d78768dde67dc610f43ca9a408f27035dfed83e803b77831d027a60",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libldap-2.7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9676b726adb7f0bcb159b59ac74560fd2c652ba4ce3bc2b5d4772da26d1603fa",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libldap-2.7.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libsasl"
+      "glibc",
+      "libsasl",
+      "libsasl2.so=3-64",
+      "openssl",
+      "libcrypto.so=3-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -4160,10 +4164,10 @@
   },
   {
     "name": "libudev",
-    "version": "262-1",
+    "version": "262.1-1",
     "origin": "artix-system",
-    "sha256": "ea7c3e384362b4ee0d8b315db0a2b14f72354c38381b61e6782519bf7a061650",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-262-1-x86_64.pkg.tar.zst",
+    "sha256": "47942deef03b938ebd4c6688295e56f7f71d7b1a07a830021fa5adb94ff46275",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-262.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libudev.so=1-64"
     ],
@@ -5421,10 +5425,10 @@
   },
   {
     "name": "nss",
-    "version": "3.131.1-1",
+    "version": "3.132-1",
     "origin": "artix-system",
-    "sha256": "5d6c671f6e3fabaf7e123b34e6f3e2aee0398fb8ff3a26a60ec445aab917ff78",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.131.1-1-x86_64.pkg.tar.zst",
+    "sha256": "dfa71faded4a30716b13116427a23d310cccf3fa439167586d5c8191f17c1122",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.132-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5439,17 +5443,26 @@
   },
   {
     "name": "openldap",
-    "version": "2.7.1-1",
+    "version": "2.7.2-2",
     "origin": "artix-system",
-    "sha256": "c642de14e6757f87fe49adcae219d745266977f6f54723fba5e66d613707ae32",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openldap-2.7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "14f3118b15125ca0f640faa2beaa4c11cd0e63713f1f92f290dd95cb2c24b360",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openldap-2.7.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libldap>=2.7.1",
+      "glibc",
+      "libldap>=2.7.2",
+      "libxcrypt",
+      "libcrypt.so=2-64",
+      "libsasl",
+      "libsasl2.so=3-64",
+      "libsodium",
       "libtool",
-      "unixodbc",
+      "openssl",
+      "libcrypto.so=3-64",
       "perl",
-      "libsodium"
+      "unixodbc",
+      "util-linux-libs",
+      "libuuid.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -6162,10 +6175,10 @@
   },
   {
     "name": "python-brotli",
-    "version": "1.2.0-1",
+    "version": "1.2.1-1",
     "origin": "artix-system",
-    "sha256": "da3c9ce833866e6d42152b07c1ce60fce8450dc4cd49bf899434407b3a7fc05d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-brotli-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a88ef96655f9ac38cdb91283fe5fe3f5ece0b80264daab322337eca3ac08c3bb",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-brotli-1.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -6790,10 +6803,10 @@
   },
   {
     "name": "udev",
-    "version": "262-1",
+    "version": "262.1-1",
     "origin": "artix-system",
-    "sha256": "398c021544ae96f47dad4cb58dab955b008b5d2a0c47326dff50ce81e6821ff2",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-262-1-x86_64.pkg.tar.zst",
+    "sha256": "28e6984cd2384688903d13052f021ce5c130f6615922a0adc987d72bd2b78d71",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-262.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6803,7 +6816,7 @@
       "hwdata",
       "kbd",
       "kmod",
-      "libudev=262",
+      "libudev=262.1",
       "util-linux"
     ],
     "optdepends": [
