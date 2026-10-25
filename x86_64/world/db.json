@@ -79983,17 +79983,18 @@
   },
   {
     "name": "python-dnspython",
-    "version": "1:2.8.0-3",
+    "version": "1:2.9.0-1",
     "origin": "artix-world",
-    "sha256": "453f71b602ec7dd2fc58017d0a7e5ed21303d50fc701abebaef94073874030df",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dnspython-1:2.8.0-3-any.pkg.tar.zst",
+    "sha256": "ff73498cb6c5a360e729fb131cd03c61b79a139aa90d749d333b7474d7acd266",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dnspython-1:2.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
     ],
     "optdepends": [
       "python-cryptography: DNSSEC support",
-      "python-requests-toolbelt: DoH support",
+      "python-httpx2: DoH support",
+      "python-aioquic: DNS-over-QUIC support",
       "python-idna: support for updated IDNA 2008",
       "python-curio: async support",
       "python-trio: async support",
