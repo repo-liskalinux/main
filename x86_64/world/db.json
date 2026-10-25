@@ -12813,10 +12813,10 @@
   },
   {
     "name": "draco",
-    "version": "1.5.8-1",
+    "version": "1.5.9-1",
     "origin": "artix-world",
-    "sha256": "b27539e22413ee24c0b2df14193a4017ca2f0af8cde53d7f94e4a5d4a29efb3c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/draco-1.5.8-1-x86_64.pkg.tar.zst",
+    "sha256": "ff9210d0993040c32d6b755c5e055424b720b5b4f91956c3f989eacce0c0db9f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/draco-1.5.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -15152,10 +15152,10 @@
   },
   {
     "name": "ethtool",
-    "version": "1:7.1-1",
+    "version": "1:7.2-1",
     "origin": "artix-world",
-    "sha256": "fd5a59257819067d4c3d753706b1fa3ef7cb14ce4ede2a8bf9d5cf76ce75bee2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ethtool-1:7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6abcd25a4f3f394107f8bef2ac6d43f8de758b4145cd131fa6ac3959a6fa572d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ethtool-1:7.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -31579,20 +31579,20 @@
   },
   {
     "name": "jdk-openjdk",
-    "version": "27.0.1.0.2.u1-1",
+    "version": "27.0.1.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "d4a24c3ced693692c4f3dc3d4170dc783a2b5858bca490efd6b2e635e4e5d1a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-27.0.1.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "321611444058c7eb34a0d13f0b67203e1f0b8801a6019fc6c98ceaa99556dc48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=27",
       "java-environment-openjdk=27",
-      "jdk27-openjdk=27.0.1.0.2.u1-1",
+      "jdk27-openjdk=27.0.1.0.3.u1-1",
       "java-runtime=27",
       "java-runtime-openjdk=27",
-      "jre27-openjdk=27.0.1.0.2.u1-1",
+      "jre27-openjdk=27.0.1.0.3.u1-1",
       "java-runtime-headless=27",
       "java-runtime-headless-openjdk=27",
-      "jre27-openjdk-headless=27.0.1.0.2.u1-1"
+      "jre27-openjdk-headless=27.0.1.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32062,17 +32062,17 @@
   },
   {
     "name": "jre-openjdk",
-    "version": "27.0.1.0.2.u1-1",
+    "version": "27.0.1.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "6d7a45ce0d75352e157ebb1cf622cbcdf5352f97964f7b986aab5d11a85a55b7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-27.0.1.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "80737609c99637e34a54d600923b3cede2479281339a993741b78ea20a6e2664",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=27",
       "java-runtime-openjdk=27",
-      "jre27-openjdk=27.0.1.0.2.u1-1",
+      "jre27-openjdk=27.0.1.0.3.u1-1",
       "java-runtime-headless=27",
       "java-runtime-headless-openjdk=27",
-      "jre27-openjdk-headless=27.0.1.0.2.u1-1"
+      "jre27-openjdk-headless=27.0.1.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32105,14 +32105,14 @@
   },
   {
     "name": "jre-openjdk-headless",
-    "version": "27.0.1.0.2.u1-1",
+    "version": "27.0.1.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "a1a89cf8d517266c2ed275e058cb3ae4ab043f994c42a22481ead4709b1fc3e1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-27.0.1.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "9cf592cbd62b2ae0448c004d999441cf7dd1d86ce4093fe1b142c425bf0d807d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=27",
       "java-runtime-headless-openjdk=27",
-      "jre27-openjdk-headless=27.0.1.0.2.u1-1"
+      "jre27-openjdk-headless=27.0.1.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -54420,10 +54420,10 @@
   },
   {
     "name": "m17n-lib",
-    "version": "1.8.6-1",
+    "version": "1.8.7-1",
     "origin": "artix-world",
-    "sha256": "4a2a9ca14abf36edb6efba82354a6dcff09a5cf04018f71ae60a50f8189b6181",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-lib-1.8.6-1-x86_64.pkg.tar.zst",
+    "sha256": "b7e7a7622dc08d5a325f7fdcb0a7dd264dd65d5b620fc5f5d036dafc94d9ef6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-lib-1.8.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxft",
@@ -62865,15 +62865,15 @@
   },
   {
     "name": "openjdk-src",
-    "version": "27.0.1.0.2.u1-1",
+    "version": "27.0.1.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "d236208456e6600b5a2b4f33386082d3c539708f11c34b2f881945036e088549",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-27.0.1.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "d35e1c420280193dfca4fa615c51defe5e023c70ffe18ef018b2fa12a3975ba6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk27-src=27.0.1.0.2.u1-1"
+      "openjdk27-src=27.0.1.0.3.u1-1"
     ],
     "depends": [
-      "jdk27-openjdk=27.0.1.0.2.u1-1"
+      "jdk27-openjdk=27.0.1.0.3.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -114401,10 +114401,10 @@
   },
   {
     "name": "swayidle",
-    "version": "1.9.0-1",
+    "version": "1.9.1-1",
     "origin": "artix-world",
-    "sha256": "66b720f55786ef6d6d981def177489d02a06e6c154b692d42eae7913c112fd38",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/swayidle-1.9.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f7aa270deb63bee57914474c030041192bac1d301c5f9ce013c87714648536fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/swayidle-1.9.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wayland",
@@ -126497,10 +126497,10 @@
   },
   {
     "name": "usd",
-    "version": "26.08-3",
+    "version": "26.08-4",
     "origin": "artix-world",
-    "sha256": "9cf02e15ab00b6354803bcb15df44225d3285cc0880648e0f44802ffec5a01c5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usd-26.08-3-x86_64.pkg.tar.zst",
+    "sha256": "6bdc7eb41fa23c1dbc3793f1f1843f826768a8b5229f743ea1da7f780178229f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usd-26.08-4-x86_64.pkg.tar.zst",
     "provides": [
       "usd-extras"
     ],
