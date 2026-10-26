@@ -38569,10 +38569,10 @@
   },
   {
     "name": "knighttime",
-    "version": "6.8.0-1",
+    "version": "6.8.1-1",
     "origin": "artix-world",
-    "sha256": "065acb97738a6dc876d10fa18ececdb15db128da5c2c53e43c7becf51d2537e0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knighttime-6.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4a055ddff65b6e5bd43d04adae8d1b0a86b0388e73a88aeac4502421b6e8b7a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knighttime-6.8.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -41559,10 +41559,10 @@
   },
   {
     "name": "kwin",
-    "version": "6.8.1-1",
+    "version": "6.8.1-2",
     "origin": "artix-world",
-    "sha256": "48304a20350e5446db63f2450d1363b2cc655e7df7cf90db07a2a0d95ce41ee3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7be83c0efed7d96e203e751d14538fcf49ce375c66753f712dd393602b87197b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-6.8.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aurorae",
@@ -51570,10 +51570,10 @@
   },
   {
     "name": "libxnvctrl-580xx",
-    "version": "580.178.04-1",
+    "version": "580.196.07-1",
     "origin": "artix-world",
-    "sha256": "a19de489855af72403e5b915db1e9ddefb7b47258267e603d2d63413a65b900b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-580xx-580.178.04-1-x86_64.pkg.tar.zst",
+    "sha256": "442e232273e36ef00a350851703b10ff2ff8e6e56520af02061717a17dcd076a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-580xx-580.196.07-1-x86_64.pkg.tar.zst",
     "provides": [
       "libXNVCtrl.so=0-64",
       "libxnvctrl"
@@ -61205,10 +61205,10 @@
   },
   {
     "name": "nvidia-580xx",
-    "version": "580.178.04-9",
+    "version": "580.196.07-1",
     "origin": "artix-world",
-    "sha256": "2d0f900b998f8550f25f8614561f6bbe5e6001d1dd5c2019af9494b1852e04bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.178.04-9-x86_64.pkg.tar.zst",
+    "sha256": "d9ccdae13d94cbdd85fa25af82391db4693c6b427f176536a3c3a9dc74878da4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.196.07-1-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE",
       "nvidia",
@@ -61216,7 +61216,7 @@
     ],
     "depends": [
       "linux",
-      "nvidia-utils=580.178.04",
+      "nvidia-utils=580.196.07",
       "libglvnd"
     ],
     "optdepends": [],
@@ -61227,17 +61227,17 @@
   },
   {
     "name": "nvidia-580xx-dkms",
-    "version": "580.178.04-4",
+    "version": "580.196.07-1",
     "origin": "artix-world",
-    "sha256": "db68bf7562d86c47aaa72bfb4712b3a6fe46348896406ab3bcd72322fb6da7b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-dkms-580.178.04-4-x86_64.pkg.tar.zst",
+    "sha256": "5b1bdbe5153325891ea2df420132529cf2d2f0670af8e807aa33e1295959e89b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-dkms-580.196.07-1-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE",
       "nvidia"
     ],
     "depends": [
       "dkms",
-      "nvidia-580xx-utils=580.178.04",
+      "nvidia-580xx-utils=580.196.07",
       "libglvnd"
     ],
     "optdepends": [],
@@ -61249,10 +61249,10 @@
   },
   {
     "name": "nvidia-580xx-settings",
-    "version": "580.178.04-1",
+    "version": "580.196.07-1",
     "origin": "artix-world",
-    "sha256": "b45509226358a5eb66e26bb21884bf09f3162f3d98a91a1b0920d580e498514c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-settings-580.178.04-1-x86_64.pkg.tar.zst",
+    "sha256": "2759f20d10adebea9d72d22cc6addbcc9bc3da34cc8244b9c486322ab38b4b47",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-settings-580.196.07-1-x86_64.pkg.tar.zst",
     "provides": [
       "nvidia-settings"
     ],
@@ -61271,14 +61271,14 @@
   },
   {
     "name": "nvidia-580xx-utils",
-    "version": "580.178.04-4",
+    "version": "580.196.07-1",
     "origin": "artix-world",
-    "sha256": "705e5e3c2dd705d1e5c76219f36d470e8ff81de5e8f78fa76061e98fdeae1f47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-utils-580.178.04-4-x86_64.pkg.tar.zst",
+    "sha256": "fa34c48ed18593e66a93c45c1b7120b02d621cb9a4e914b5edfd3025f7edb48c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-utils-580.196.07-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver",
       "nvidia-utils",
-      "nvidia-utils=580.178.04",
+      "nvidia-utils=580.196.07",
       "opengl-driver",
       "nvidia-libgl"
     ],
@@ -62330,10 +62330,10 @@
   },
   {
     "name": "opencl-nvidia-580xx",
-    "version": "580.178.04-4",
+    "version": "580.196.07-1",
     "origin": "artix-world",
-    "sha256": "f873f40aedceae0ea1a0c2ec1cc86339e7e84787d1b066d9ee0b0b76e28c2fb3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-580xx-580.178.04-4-x86_64.pkg.tar.zst",
+    "sha256": "a2b88f6cba43ab63f6bc3661fd8e3ce633fd9d07bd805c80cec96ab9c9916401",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-580xx-580.196.07-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver",
       "opencl-nvidia"
@@ -67193,10 +67193,10 @@
   },
   {
     "name": "perl-io-compress-brotli",
-    "version": "1:0.022-2",
+    "version": "1:0.023-1",
     "origin": "artix-world",
-    "sha256": "e2a7f774f8a511e7af7bbaa7a46bd043a95897a7fa03ff548b193c929c251d0f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-io-compress-brotli-1:0.022-2-x86_64.pkg.tar.zst",
+    "sha256": "e8ec5f30174bd213f6650baa3403f6602fec0baa8f596ca94c0957a8de55e30e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-io-compress-brotli-1:0.023-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -67999,10 +67999,10 @@
   },
   {
     "name": "perl-mozilla-ca",
-    "version": "20260813-1",
+    "version": "20261020-1",
     "origin": "artix-world",
-    "sha256": "2dabd5491b342e77806813c0c3c00aac211ba662f65987cf52df7eb1819829ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mozilla-ca-20260813-1-any.pkg.tar.zst",
+    "sha256": "c5e557b50cba2ac18de2e8c90c544d00cf7a5c59f246f9ba7b9ac13f2436a7a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mozilla-ca-20261020-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -68255,10 +68255,10 @@
   },
   {
     "name": "perl-package-stash-xs",
-    "version": "0.30-6",
+    "version": "0.32-1",
     "origin": "artix-world",
-    "sha256": "192afe28cf58d0a291aef4c3ccd0ce8eada4903a8ff3bbf7482fa481259e0684",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-package-stash-xs-0.30-6-x86_64.pkg.tar.zst",
+    "sha256": "ee76fea42acb798a82f08431cd2555dfffdb4346af3b350e9cf015df60676b73",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-package-stash-xs-0.32-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -69772,10 +69772,10 @@
   },
   {
     "name": "perl-uri",
-    "version": "5.37-1",
+    "version": "5.40-1",
     "origin": "artix-world",
-    "sha256": "099c23b6d6adb0e4767e975e39177f2efaa686c95e16b8ef6661e8686ea3e4ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-uri-5.37-1-any.pkg.tar.zst",
+    "sha256": "14e67f161766320c7c1014605e276f7e6f88c91d07cdbbfd76110b7bbc657dfd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-uri-5.40-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -75678,10 +75678,10 @@
   },
   {
     "name": "pyside6",
-    "version": "6.12.0-2",
+    "version": "6.12.0-3.1",
     "origin": "artix-world",
-    "sha256": "b99d9c21900baa15984d5f8f5f0cd88fbd546060e7c199e3a2ae4bfc414de38e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "614cbce0373ff1199d1e47046aa6f32303a73f38da1ce3886756476310c42981",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-6.12.0-3.1-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-python-bindings"
     ],
@@ -75724,10 +75724,10 @@
   },
   {
     "name": "pyside6-tools",
-    "version": "6.12.0-2",
+    "version": "6.12.0-3.1",
     "origin": "artix-world",
-    "sha256": "b1007b89be1b27a691eff1ada1da8f05efb001ce677289f0a6cb49a49a7791b1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-tools-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "6dccd1569390408ed226ec88d5a380dac46fc4e70129b92f82226ad9322433ea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyside6-tools-6.12.0-3.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pyside6",
@@ -111502,10 +111502,10 @@
   },
   {
     "name": "shiboken6",
-    "version": "6.12.0-2",
+    "version": "6.12.0-3.1",
     "origin": "artix-world",
-    "sha256": "aacd882711d919649efbf3e3496f1ae0577a471e9c79c5e876e4434bf010b3a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "4bd0d9b5ae32390af396c259ba750f456610da31735f47ce97a25d208aa6994b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-6.12.0-3.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -111518,10 +111518,10 @@
   },
   {
     "name": "shiboken6-generator",
-    "version": "6.12.0-2",
+    "version": "6.12.0-3.1",
     "origin": "artix-world",
-    "sha256": "f4800af1267ac9d465f1ff1dedbadc5faa064e0088397bb567fff15c49155fb5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-generator-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "df94ef09964aaec20195b4037f1e9ae4b10f9d45b5176522848f413b787cd323",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shiboken6-generator-6.12.0-3.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -135970,15 +135970,15 @@
   },
   {
     "name": "zig",
-    "version": "0.16.0-1",
+    "version": "0.17.0-1",
     "origin": "artix-world",
-    "sha256": "f7eae275b6f76b8e4ce9d0dd3025fe88dd908d4c34f5c94fbc80ff0f19493747",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zig-0.16.0-1-x86_64.pkg.tar.zst",
+    "sha256": "12c0a7ffa89e8620833a2acf8aea16485b55565140719748dddebeba13188cbd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zig-0.17.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "clang21",
-      "lld21",
-      "llvm21-libs"
+      "clang22",
+      "lld22",
+      "llvm22-libs"
     ],
     "optdepends": [],
     "conflicts": []
