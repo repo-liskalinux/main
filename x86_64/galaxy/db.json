@@ -33667,10 +33667,10 @@
   },
   {
     "name": "zathura",
-    "version": "2026.10.4-1",
+    "version": "2026.10.23-2",
     "origin": "artix-galaxy",
-    "sha256": "5578eba1b3e4baef85e2f0264bbb9eff68f3845fcf418d7fb30697f2fb7ddf8d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-2026.10.4-1-x86_64.pkg.tar.zst",
+    "sha256": "c5cbefc39ed365cb2678c9c184b6da86f8d30b095cdd0f236458efc881ae236b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-2026.10.23-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "girara",
@@ -33681,7 +33681,8 @@
       "libseccomp",
       "gtk4",
       "glib2",
-      "json-glib"
+      "json-glib",
+      "xxhash"
     ],
     "optdepends": [
       "zathura-djvu: DjVu support",
@@ -33694,10 +33695,10 @@
   },
   {
     "name": "zathura-cb",
-    "version": "2026.07.18-2",
+    "version": "2026.07.18-3",
     "origin": "artix-galaxy",
-    "sha256": "60eebd9bfd8088482aaa14187f8fa9fd6e0cdf006fc5f1e8d06a946f9524fdb4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-cb-2026.07.18-2-x86_64.pkg.tar.zst",
+    "sha256": "2501d230aaa3afcf21b855e65ff86c4f2ca58c1693140081904d2e0e30bb14aa",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-cb-2026.07.18-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zathura",
@@ -33708,10 +33709,10 @@
   },
   {
     "name": "zathura-djvu",
-    "version": "2026.07.18-2",
+    "version": "2026.07.18-3",
     "origin": "artix-galaxy",
-    "sha256": "eb5e4511d0a015f93c02a11f460c502278ea90ffd59f672e68aca6939d6102b0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-djvu-2026.07.18-2-x86_64.pkg.tar.zst",
+    "sha256": "77ddec48afc7bec3238f52db4cc297912845a7ea57547974461d2b4449d9c671",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-djvu-2026.07.18-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "djvulibre",
@@ -33722,10 +33723,10 @@
   },
   {
     "name": "zathura-pdf-mupdf",
-    "version": "2026.07.18-5",
+    "version": "2026.07.18-6",
     "origin": "artix-galaxy",
-    "sha256": "ddbcc1cc2437f3fb007b437832e96f77f75e6c5d46a05c86d6c2a63609acff9d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-5-x86_64.pkg.tar.zst",
+    "sha256": "1174bf382d13bc5e9875cde18a9755f6783864c3a05751e0896f54b0415a43db",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -33744,10 +33745,10 @@
   },
   {
     "name": "zathura-pdf-poppler",
-    "version": "2026.07.18-2",
+    "version": "2026.07.18-3",
     "origin": "artix-galaxy",
-    "sha256": "eb2a95fa9ffe8c171bea501967a2fa8b4c99e9b30d31e8811519472d251c2935",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-poppler-2026.07.18-2-x86_64.pkg.tar.zst",
+    "sha256": "2a1aec57570b31a2cf36ef377767e4a42c02cb4132dc0623d7a2d8dd2e64b7a1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-poppler-2026.07.18-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "poppler-glib",
@@ -33758,10 +33759,10 @@
   },
   {
     "name": "zathura-ps",
-    "version": "2026.07.18-2",
+    "version": "2026.07.18-3",
     "origin": "artix-galaxy",
-    "sha256": "79efb1d4bc66b2c722523e704324bbefa5bf1035517a4e92b8a4a006af2d8fe0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-ps-2026.07.18-2-x86_64.pkg.tar.zst",
+    "sha256": "aa6ff84eebd3935b13d2ac18a164ff5d301c44e471d6bb3c96d7517e12a35820",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-ps-2026.07.18-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libspectre",
