@@ -16736,10 +16736,10 @@
   },
   {
     "name": "filezilla",
-    "version": "3.71.1-1",
+    "version": "3.71.1-2",
     "origin": "artix-world",
-    "sha256": "59551d30e72393ab2475267c67ae9e5a69394132cbc413948c75d87e3a799947",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filezilla-3.71.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3d6c2cb084c8350039cd17cb9d1ee9340f236377b5076d29b403196f9f3c591c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filezilla-3.71.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -16750,7 +16750,7 @@
       "libgdk-3.so=0-64",
       "hicolor-icon-theme",
       "libfilezilla",
-      "libfilezilla.so=59-64",
+      "libfilezilla.so=60-64",
       "sqlite",
       "libsqlite3.so=0-64",
       "wxwidgets-gtk3",
@@ -18382,10 +18382,10 @@
   },
   {
     "name": "fzssh",
-    "version": "1.4.0-1",
+    "version": "1.5.0-1",
     "origin": "artix-world",
-    "sha256": "ab9419922a96e4391b4c33d0ede288d99b8bee301020246cc966f1fb2453e4a0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fzssh-1.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "44c45d93246af008e355cd32717ab75df7e1d04762bff45276bc12294e11851a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fzssh-1.5.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nettle",
@@ -22808,10 +22808,10 @@
   },
   {
     "name": "gnuplot",
-    "version": "6.0.5-1",
+    "version": "6.0.6-1",
     "origin": "artix-world",
-    "sha256": "54c90cc82eb2baa5ecb3b80a2d5159b477f0adbd5a6ef87b80092a4041c4da9f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnuplot-6.0.5-1-x86_64.pkg.tar.zst",
+    "sha256": "76cab391b745ec684ebf00016efd4052a46bde5c13fe0ced16e5a598f4f0d881",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnuplot-6.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22839,10 +22839,10 @@
   },
   {
     "name": "gnuplot-demos",
-    "version": "6.0.5-1",
+    "version": "6.0.6-1",
     "origin": "artix-world",
-    "sha256": "9ada2cbae5d672f6143d56eb83f5d071adcdc73e4e848ee10400e399502a2ba6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnuplot-demos-6.0.5-1-x86_64.pkg.tar.zst",
+    "sha256": "16b69ce19aba65f9c37047382f992df3bd56d5d280982af9221094185c881542",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnuplot-demos-6.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gnuplot"
@@ -44519,12 +44519,12 @@
   },
   {
     "name": "libfilezilla",
-    "version": "1:0.57.0-1",
+    "version": "1:0.58.0-1",
     "origin": "artix-world",
-    "sha256": "7dbe21b72c4e0f5c84b2ef27f8ca9ba74fa3ccd72c5d7d598f934c0479e5f443",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libfilezilla-1:0.57.0-1-x86_64.pkg.tar.zst",
+    "sha256": "17752d4e0e99c5297cc47b2d7b4bdda3e950b941af9beaff7f0d8c92db285562",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libfilezilla-1:0.58.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libfilezilla.so=59-64"
+      "libfilezilla.so=60-64"
     ],
     "depends": [
       "glibc",
@@ -57228,10 +57228,10 @@
   },
   {
     "name": "mitmproxy",
-    "version": "12.2.3-1",
+    "version": "12.3.1-1",
     "origin": "artix-world",
-    "sha256": "752ee7f53b6efdf939ff2178e6f149bcc643ac56621e65f116b42a6dc945d94a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mitmproxy-12.2.3-1-any.pkg.tar.zst",
+    "sha256": "9c20e4680b611287a2545460a18fc098e0dd858beff7c4035d5ec5a5e5387c55",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mitmproxy-12.3.1-1-any.pkg.tar.zst",
     "provides": [
       "pathod"
     ],
@@ -103433,10 +103433,10 @@
   },
   {
     "name": "resvg",
-    "version": "0.48.1-1",
+    "version": "0.49.0-1",
     "origin": "artix-world",
-    "sha256": "af4730bc1486904fd43c563deaca2ef57d45cd0683479713a5f8b2aeb935e242",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/resvg-0.48.1-1-x86_64.pkg.tar.zst",
+    "sha256": "dea8908cfe4597a233eba6cb9fb49dfab98f146eb6e3a8f897f4a9f29463754a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/resvg-0.49.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdk-pixbuf2"
