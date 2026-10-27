@@ -6938,10 +6938,10 @@
   },
   {
     "name": "cabextract",
-    "version": "1.11-2",
+    "version": "1.11-3",
     "origin": "artix-world",
-    "sha256": "57f9e938ec6c3be4a1f0ec62e5c840bf5ab7cb25745eb9c481f3d26f207d846f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cabextract-1.11-2-x86_64.pkg.tar.zst",
+    "sha256": "c31eb00ba59ff25217720b55b23156093862afcedd1097605eb958df7de35e69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cabextract-1.11-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -15679,16 +15679,21 @@
   },
   {
     "name": "f2fs-tools",
-    "version": "1.16.0-3",
+    "version": "1.17.0-1",
     "origin": "artix-world",
-    "sha256": "2f4e45b1b893faf259385af13c2422a1006a681f17e2b3c34839f36e10c6dc1a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/f2fs-tools-1.16.0-3-x86_64.pkg.tar.zst",
+    "sha256": "1fa08f0c2473f41136047a3713ddd7778d5c29daac921d3211a78cc62697acc5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/f2fs-tools-1.17.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libf2fs.so=10-64",
-      "libf2fs_format.so=9-64"
+      "libf2fs.so=11-64",
+      "libf2fs_format.so=10-64"
     ],
     "depends": [
-      "util-linux"
+      "glibc",
+      "lz4",
+      "liblz4.so=1-64",
+      "util-linux-libs",
+      "libblkid.so=1-64",
+      "libuuid.so=1-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -17921,10 +17926,10 @@
   },
   {
     "name": "freetds",
-    "version": "1.5.19-1",
+    "version": "1.5.20-1",
     "origin": "artix-world",
-    "sha256": "58fbc296f23f4540e80ab7979dda67a922e0e3dd5aff12291714ef9555ccef95",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freetds-1.5.19-1-x86_64.pkg.tar.zst",
+    "sha256": "20dbcae5401cabc572ca3755c73aaf3bd64822522a1fa259b19d8e70d33d34bf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freetds-1.5.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -20400,10 +20405,10 @@
   },
   {
     "name": "gitea-runner",
-    "version": "5.1.1-1",
+    "version": "5.2.3-1",
     "origin": "artix-world",
-    "sha256": "9c60117ad255c9e3019b05c0881194fb2605aaae038894e83a5293cdb2318ac0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-5.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "51519df09e2b5d9c37ff5b8058e445e4b2cb10634391551952994ea399877747",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-5.2.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "act_runner"
     ],
@@ -20787,10 +20792,10 @@
   },
   {
     "name": "glycin",
-    "version": "2.2.4-1",
+    "version": "2.2.5-1",
     "origin": "artix-world",
-    "sha256": "c2c4b22d1df3989dbdd28d8bad12bd4310a044f0630537d0af8135239283e5a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-2.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "e54ad3a1d2081fe4305df26615eb0a51a03354fecfcf5597cb856cb74b961b68",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-2.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglycin-2.so=0-64"
     ],
@@ -20813,10 +20818,10 @@
   },
   {
     "name": "glycin-gtk4",
-    "version": "2.2.4-1",
+    "version": "2.2.5-1",
     "origin": "artix-world",
-    "sha256": "b4fdea40ddee5c52f348e04d7647e422a252dc946fe552214776a22f93392d72",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-gtk4-2.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "2aaa72ea63d8d6d8110b48e358c7c687e37d9b2222b3456ee1912e64559920b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glycin-gtk4-2.2.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libglycin-gtk4-2.so=0-64"
     ],
@@ -49049,10 +49054,10 @@
   },
   {
     "name": "libreplaygain",
-    "version": "475-5",
+    "version": "475-6",
     "origin": "artix-world",
-    "sha256": "8a79c5e771791a2090b021c27b74588a85477b6d15fe09f61e890ef789302114",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libreplaygain-475-5-x86_64.pkg.tar.zst",
+    "sha256": "f62dbdd732184055bd3e1ddec5f09abf42fc0e2cf16a0b67972db16aa9025429",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libreplaygain-475-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -50138,10 +50143,10 @@
   },
   {
     "name": "libunrar",
-    "version": "1:7.3.1-1",
+    "version": "1:7.3.2-1",
     "origin": "artix-world",
-    "sha256": "d519f8d1a1499e6d5119a153d048a403a27cbac1186bdf1f91e8e0e80c837132",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libunrar-1:7.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "49c37705ee80df201913087bd663a7efecd0fb0f4a8e4c31bcea5c2f53ae2312",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libunrar-1:7.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54408,10 +54413,10 @@
   },
   {
     "name": "m17n-db",
-    "version": "1.8.15-1",
+    "version": "1.8.16-1",
     "origin": "artix-world",
-    "sha256": "2a1c86f1d78300597bc3b8f8a06fe0349495dba84e1d0bf528b6f0ee665235e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-db-1.8.15-1-any.pkg.tar.zst",
+    "sha256": "fa4ae301c5cc537c4c8e19a065ab7b05b037d2e1b142117407a04b854bddaec7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-db-1.8.16-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -66413,10 +66418,10 @@
   },
   {
     "name": "perl-error",
-    "version": "0.17030-3",
+    "version": "0.17031-1",
     "origin": "artix-world",
-    "sha256": "b680a0b9c7f2673d58d6b63245fb18bcf3c91b2859abec75e57ae74f7179fd46",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-error-0.17030-3-any.pkg.tar.zst",
+    "sha256": "ae2b1a7bfab7945d709bbfbeeeadd7760575cef27ab5da6921db760960c95f5a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-error-0.17031-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -71783,10 +71788,10 @@
   },
   {
     "name": "pkgfile",
-    "version": "26-1",
+    "version": "27-1",
     "origin": "artix-world",
-    "sha256": "6acee618670d481cf9fb3a252476dfb3b7ab1328d422469838da13b291b6c1c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pkgfile-26-1-x86_64.pkg.tar.zst",
+    "sha256": "38bfc0b7c137822ebaeadbde949df3297913ff00f6667564ff0e671f871e5e44",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pkgfile-27-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -75664,10 +75669,10 @@
   },
   {
     "name": "pyqt-builder",
-    "version": "1.20.1-1",
+    "version": "1.20.3-1",
     "origin": "artix-world",
-    "sha256": "06e8ce133c87df29e9a21f195b98436afbab2fbfe08a8d9c3c43ae64641e444b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyqt-builder-1.20.1-1-any.pkg.tar.zst",
+    "sha256": "012dcb8a18ea29a08c48df3d98f195aac430521814fd03a8e16aea0851990305",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyqt-builder-1.20.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -123641,10 +123646,10 @@
   },
   {
     "name": "tinyprog",
-    "version": "1.0.23-7",
+    "version": "1.0.23-8",
     "origin": "artix-world",
-    "sha256": "4c32d92d44875ad08a865a5c9600e561473fb127b3b5057dfb597497cf174c4c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tinyprog-1.0.23-7-any.pkg.tar.zst",
+    "sha256": "0f4b688945af13e7b6efa6e8fa44c4e08a907004c2d78ec359927a3adcb94bed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tinyprog-1.0.23-8-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-pyserial",
@@ -126110,10 +126115,10 @@
   },
   {
     "name": "unrar",
-    "version": "1:7.3.1-1",
+    "version": "1:7.3.2-1",
     "origin": "artix-world",
-    "sha256": "cf5cafa7765d805be1eee406783ee0bf8ef752cbac35c43482e7ff0751b05336",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unrar-1:7.3.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2c16547047706c67305f8f517ed4e34d2a593c7716784350eeb051d37193d873",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unrar-1:7.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
