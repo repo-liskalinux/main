@@ -20241,10 +20241,10 @@
   },
   {
     "name": "git-lfs",
-    "version": "3.8.0-1",
+    "version": "3.8.1-1",
     "origin": "artix-world",
-    "sha256": "ea992820423df76c3d8199e77c344fe23e00926b11a18e12403dce9260ed0951",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/git-lfs-3.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d820567448f3280c596978578eeafc72d4161b7af58f84719afdfc334d731bb5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/git-lfs-3.8.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git"
@@ -27150,18 +27150,19 @@
   },
   {
     "name": "hashcat",
-    "version": "1:7.1.2-2",
+    "version": "1:8.0.0-1",
     "origin": "artix-world",
-    "sha256": "085e976e59ea718b62a0d6960276cd3f678c60d828cade17ab19668f5bdcf36e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hashcat-1:7.1.2-2-x86_64.pkg.tar.zst",
+    "sha256": "18fccbcf7fa54a6a95698fca9d90561f92f0655a237de266c05215a89a85a915",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hashcat-1:8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libhashcat.so=7.1.2-64"
+      "libhashcat.so=8-64"
     ],
     "depends": [
+      "clang-libs",
+      "minizip",
       "ocl-icd",
       "xxhash",
-      "zlib",
-      "minizip"
+      "zlib"
     ],
     "optdepends": [],
     "conflicts": []
@@ -36099,29 +36100,29 @@
   },
   {
     "name": "keepassxc",
-    "version": "2.7.12-5",
+    "version": "2.8.0-3",
     "origin": "artix-world",
-    "sha256": "f5ebc89bee495dbda04397ae0171468e7835b788a79696a04c95c157aa8e57f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keepassxc-2.7.12-5-x86_64.pkg.tar.zst",
+    "sha256": "f55e4b6529373cefa1592351e9bb4b8dec0923ca4d36ba6d79c5d3a55ab0038c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/keepassxc-2.8.0-3-x86_64.pkg.tar.zst",
     "provides": [
       "org.freedesktop.secrets"
     ],
     "depends": [
-      "argon2",
       "botan",
       "glibc",
       "hicolor-icon-theme",
+      "keyutils",
       "libgcc",
       "libstdc++",
       "libusb",
+      "libxi",
       "libxtst",
       "libx11",
       "minizip",
       "pcsclite",
       "qrencode",
-      "qt5-base",
-      "qt5-svg",
-      "qt5-x11extras",
+      "qt6-base",
+      "qt6-svg",
       "readline",
       "zlib"
     ],
@@ -50030,10 +50031,10 @@
   },
   {
     "name": "libtorrent-rasterbar",
-    "version": "1:2.1.2-1",
+    "version": "1:2.1.2-2",
     "origin": "artix-world",
-    "sha256": "5857caf65b78b7e46ba94b2f1fc1527d94cf747d68a1253f5ccfaf50188d62aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-rasterbar-1:2.1.2-1-x86_64.pkg.tar.zst",
+    "sha256": "830cb1f453f51cfc43628a9bfe5305c6e29deac9d134421ae6188d248caae9c9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-rasterbar-1:2.1.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -50838,10 +50839,10 @@
   },
   {
     "name": "libwebsockets",
-    "version": "4.5.8-3",
+    "version": "4.5.8-4",
     "origin": "artix-world",
-    "sha256": "e72c5c0323a6c57b9a9b4f4bf6077301f89d75532e5f3b1222d84925dfc65f5a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwebsockets-4.5.8-3-x86_64.pkg.tar.zst",
+    "sha256": "baa5f11e219f49806a21f8ecef95be6bc5bd904a182f489ccf45c160f92989f1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwebsockets-4.5.8-4-x86_64.pkg.tar.zst",
     "provides": [
       "libwebsockets.so=21-64"
     ],
