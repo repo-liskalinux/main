@@ -8419,10 +8419,10 @@
   },
   {
     "name": "cmake",
-    "version": "4.4.4-1",
+    "version": "4.4.5-1",
     "origin": "artix-world",
-    "sha256": "b7391acc69ef92b7fd08d8f9286d849e6c16af7930531d6066836fbb581ef73b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cmake-4.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "c260fc396c8f8fe3167e41a0b4d581cbe4187f8f82086f41520500b7fc15bbd0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cmake-4.4.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cppdap",
@@ -31937,10 +31937,10 @@
   },
   {
     "name": "jenkins-runit",
-    "version": "20200613-4",
+    "version": "20261026-4",
     "origin": "artix-world",
-    "sha256": "e2f1bedd87e7392fe894cc037cf4171f5b8c9262c52f5d37cb840f4ab29a1a74",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-runit-20200613-4-any.pkg.tar.zst",
+    "sha256": "eed3e609a16e2cf1c65a76203bb1ea0e83376780a49c8afedbecfb369b77579f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-runit-20261026-4-any.pkg.tar.zst",
     "provides": [
       "init-jenkins"
     ],
@@ -46463,10 +46463,10 @@
   },
   {
     "name": "libkrun",
-    "version": "1.19.6-1",
+    "version": "1.19.7-1",
     "origin": "artix-world",
-    "sha256": "568f52b03a69c885051daf0aae5662864978257bbc8cfc4ab5dd083018bc2136",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrun-1.19.6-1-x86_64.pkg.tar.zst",
+    "sha256": "013a80e7bbdb3c44104344b78ea7d4bffc6ed28d7e1268df4b3bc442f75fed27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrun-1.19.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -93178,10 +93178,10 @@
   },
   {
     "name": "python-ruff",
-    "version": "0.17.2-1",
+    "version": "0.17.3-1",
     "origin": "artix-world",
-    "sha256": "bef50c15e2504bb6035a3d9c7db8978f5862799c709e9e97a785138e0dcd9143",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.17.2-1-x86_64.pkg.tar.zst",
+    "sha256": "67185dbe00e0b62d8be7b18fcf378cde2e943b5ac45d6ab2e8aa218f51a7146d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.17.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96673,24 +96673,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.13.5-1",
+    "version": "0.13.6-1",
     "origin": "artix-world",
-    "sha256": "1f33c3b00ec61e861b5ac4e0ae61f69fa26f614709397bc08ed68491b404f82c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.5-1-x86_64.pkg.tar.zst",
+    "sha256": "a598a055b868e0d90753d4d269ba300b7a895e1a8c3462defa5dde49942b6902",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.13.5"
+      "uv=0.13.6"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.13.5-1",
+    "version": "0.13.6-1",
     "origin": "artix-world",
-    "sha256": "690fd8475fca3bcd0b01aed130fdca2471f77ee84eb1192cb959a5592f01474a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.5-1-x86_64.pkg.tar.zst",
+    "sha256": "ca012df111736b9c3843090b66879c60ff51d7d9614d122384cfdba3ced7e4d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -109795,10 +109795,10 @@
   },
   {
     "name": "ruff",
-    "version": "0.17.2-1",
+    "version": "0.17.3-1",
     "origin": "artix-world",
-    "sha256": "342ce1aa8f4cd7f8aa5aecf9c40fb477d76e5cd46cf85ec9703864cc042a2602",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.17.2-1-x86_64.pkg.tar.zst",
+    "sha256": "48379cf434abbb26e325be9f5c1fe3e2e52e4963c5dca72b1e6eca74f9af6c18",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.17.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126587,10 +126587,10 @@
   },
   {
     "name": "uv",
-    "version": "0.13.5-1",
+    "version": "0.13.6-1",
     "origin": "artix-world",
-    "sha256": "554ffed17d1018cb4b320291d2d9f7b2679c3022a70169217e321ed399fe7d86",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.5-1-x86_64.pkg.tar.zst",
+    "sha256": "6188b6d12caf2ef4165a57014914a51608e6bc1b827da3d725c686c510660035",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -126867,10 +126867,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261025014458-1",
+    "version": "20261027070632-1",
     "origin": "artix-world",
-    "sha256": "f56d43d1d293bf5c55dd34bb8f709a5044290f8ff6ac0660becd29e2acf480a2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261025014458-1-any.pkg.tar.zst",
+    "sha256": "0c47ec7e4f08f7fae4888984d74ebe39f13c3e927fdd05c46a80c894a20c9ce9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261027070632-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
