@@ -11888,10 +11888,10 @@
   },
   {
     "name": "dnscrypt-proxy",
-    "version": "2.1.19-1",
+    "version": "2.1.20-1",
     "origin": "artix-world",
-    "sha256": "9d5a24806f8695545b3e5b968b815b105f50ee3e247922025c7f05796064c2b1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dnscrypt-proxy-2.1.19-1-x86_64.pkg.tar.zst",
+    "sha256": "0aac75d89623b9aa104a003e14d3ef3fbb105fe2527853c20815c4dafcba6fa5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dnscrypt-proxy-2.1.20-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -31696,20 +31696,20 @@
   },
   {
     "name": "jdk17-openjdk",
-    "version": "17.0.21.0.2.u1-1",
+    "version": "17.0.21.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "d79dc4944671ee7ca26a6e038bc3a30f8d8102afddc2b16aa0651ba79512979b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk17-openjdk-17.0.21.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "84a4448c2d1479706297ac444db97c5bc3d9e6cc63a5e0f55e5715809bdd4bbf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk17-openjdk-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=17",
       "java-environment-openjdk=17",
-      "jdk17-openjdk=17.0.21.0.2.u1-1",
+      "jdk17-openjdk=17.0.21.0.3.u1-1",
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.21.0.2.u1-1",
+      "jre17-openjdk=17.0.21.0.3.u1-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.21.0.2.u1-1"
+      "jre17-openjdk-headless=17.0.21.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31744,20 +31744,20 @@
   },
   {
     "name": "jdk21-openjdk",
-    "version": "21.0.13.0.2.u1-1",
+    "version": "21.0.13.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "5c4886a04c87b8571e3fb8aa39b1893f83d7e02c02fe38a28a1b769979ecdd41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk21-openjdk-21.0.13.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "d5875deeee58c65ccfd55ab97aea7e76b56f012614315206406a83091c272ce6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk21-openjdk-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=21",
       "java-environment-openjdk=21",
-      "jdk21-openjdk=21.0.13.0.2.u1-1",
+      "jdk21-openjdk=21.0.13.0.3.u1-1",
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.13.0.2.u1-1",
+      "jre21-openjdk=21.0.13.0.3.u1-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.13.0.2.u1-1"
+      "jre21-openjdk-headless=21.0.13.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32237,17 +32237,17 @@
   },
   {
     "name": "jre17-openjdk",
-    "version": "17.0.21.0.2.u1-1",
+    "version": "17.0.21.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "d585d3d715d1c5d76b7563b9ece2dab79c628a6f31708a3f84376242e89c7d7f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-17.0.21.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "3dfa6f61d1b210c7be764f9179d77e6206834c8604ce26d1921dbcd827c82674",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.21.0.2.u1-1",
+      "jre17-openjdk=17.0.21.0.3.u1-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.21.0.2.u1-1"
+      "jre17-openjdk-headless=17.0.21.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32279,14 +32279,14 @@
   },
   {
     "name": "jre17-openjdk-headless",
-    "version": "17.0.21.0.2.u1-1",
+    "version": "17.0.21.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "980c017839782acea5fad015db0d88b1fd84ab176395f34ad9375d14f6622470",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-headless-17.0.21.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "c791014404d006fe760a21e54d9db5f338ef571e576ebd5edce8d44f5cbf512a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-headless-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.21.0.2.u1-1"
+      "jre17-openjdk-headless=17.0.21.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32314,17 +32314,17 @@
   },
   {
     "name": "jre21-openjdk",
-    "version": "21.0.13.0.2.u1-1",
+    "version": "21.0.13.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "c7b648bff89ecfccbfb432c0db7f01dbd249de1d0b98b8d2fe46360007285f75",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-21.0.13.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "81bccae3a1b98fdc3825c4e5faca14c1a248c654a12ed8c4c0e5544f55727cbd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.13.0.2.u1-1",
+      "jre21-openjdk=21.0.13.0.3.u1-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.13.0.2.u1-1"
+      "jre21-openjdk-headless=21.0.13.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32357,14 +32357,14 @@
   },
   {
     "name": "jre21-openjdk-headless",
-    "version": "21.0.13.0.2.u1-1",
+    "version": "21.0.13.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "6dbbeed80fe7c0684c0bcc5f0b74a03a51e6baaaa630f2d57bba9fd9835cfb36",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-headless-21.0.13.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "e9e7ae7d64af61d32b0537793075bfb629eb572563e77e7fe2892b8ed4e0679a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-headless-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.13.0.2.u1-1"
+      "jre21-openjdk-headless=21.0.13.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -62920,15 +62920,15 @@
   },
   {
     "name": "openjdk17-src",
-    "version": "17.0.21.0.2.u1-1",
+    "version": "17.0.21.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "b18311ce22c44b51b4828f33bac82af3f6acb73a760f8da918ac2b7272112ccf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk17-src-17.0.21.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "1a7bdec26476aa34bd7d3d315fe28ce2c962a916536fc86d06954a4d2d31fa7f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk17-src-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk17-src=17.0.21.0.2.u1-1"
+      "openjdk17-src=17.0.21.0.3.u1-1"
     ],
     "depends": [
-      "jdk17-openjdk=17.0.21.0.2.u1-1"
+      "jdk17-openjdk=17.0.21.0.3.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -62937,15 +62937,15 @@
   },
   {
     "name": "openjdk21-src",
-    "version": "21.0.13.0.2.u1-1",
+    "version": "21.0.13.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "398d57d656b0f4b35ecf6ccaee9631690333e38ae5c2713c76075395de893de8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk21-src-21.0.13.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "ad0f7bf82734c6ae62e2116ba204f5dfaea842b680be8489feb88b9ad278903b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk21-src-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk21-src=21.0.13.0.2.u1-1"
+      "openjdk21-src=21.0.13.0.3.u1-1"
     ],
     "depends": [
-      "jdk21-openjdk=21.0.13.0.2.u1-1"
+      "jdk21-openjdk=21.0.13.0.3.u1-1"
     ],
     "optdepends": [],
     "conflicts": []
@@ -75601,10 +75601,10 @@
   },
   {
     "name": "pyenv",
-    "version": "1:2.8.10-1",
+    "version": "1:2.8.13-1",
     "origin": "artix-world",
-    "sha256": "457b96f52e75b261b5a910e0777f1a0715cac01881d36d107bc28bfcb7823339",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyenv-1:2.8.10-1-any.pkg.tar.zst",
+    "sha256": "31c3fceb4af94851f6d9f76d5623bc527fe03a2e88ff165fe6e9691a8670ac17",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pyenv-1:2.8.13-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash"
@@ -78038,10 +78038,10 @@
   },
   {
     "name": "python-certifi",
-    "version": "2026.10.19-1",
+    "version": "2026.10.23-1",
     "origin": "artix-world",
-    "sha256": "8cde94433731d5a17146f9832920e578ee1adaa944508c07587a1d40b1e4aaee",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-certifi-2026.10.19-1-any.pkg.tar.zst",
+    "sha256": "4522434278eb53dddd7b6548f4f51337a04baf61b6cee5100bfd3ccfc073ff53",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-certifi-2026.10.23-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates",
@@ -79641,10 +79641,10 @@
   },
   {
     "name": "python-django-allauth",
-    "version": "65.19.4-1",
+    "version": "65.20.1-1",
     "origin": "artix-world",
-    "sha256": "81bb8a10a62bddaff91b4353d6a44feeded7b118c866da6125c87f45e057be18",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-allauth-65.19.4-1-any.pkg.tar.zst",
+    "sha256": "2322b2be38298ee3a932d181457fed0c42a451227b122736b7387be250b689c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-django-allauth-65.20.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -80923,10 +80923,10 @@
   },
   {
     "name": "python-findpython",
-    "version": "0.8.0-1",
+    "version": "0.9.0-1",
     "origin": "artix-world",
-    "sha256": "f73955ad05efa9df975464765570636fea677692ee2d79f54b5dac79054fc859",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-findpython-0.8.0-1-any.pkg.tar.zst",
+    "sha256": "0431607aecb183e9e713e4a9458c6022cf92171b8516c7e86ba5ce1ce54be60e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-findpython-0.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -82933,10 +82933,10 @@
   },
   {
     "name": "python-hypothesis",
-    "version": "6.170.5-1",
+    "version": "6.170.8-1",
     "origin": "artix-world",
-    "sha256": "f6c1588da7e72993afeb5c03a15d211d9ece0281aa84218eb7e108c6f91feb11",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-hypothesis-6.170.5-1-x86_64.pkg.tar.zst",
+    "sha256": "409a44e42711c1f6b474704b3eb6bdd738651d96deb68d69dafcab898de3bfcd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-hypothesis-6.170.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -87685,10 +87685,10 @@
   },
   {
     "name": "python-pbs-installer",
-    "version": "2026.10.13-1",
+    "version": "2026.10.21-1",
     "origin": "artix-world",
-    "sha256": "64f09cd90025e01f17fd7ec9b8a6833434fe12cbbaa8acff8d48006adf7c3031",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbs-installer-2026.10.13-1-any.pkg.tar.zst",
+    "sha256": "9478ebddf2abb8acda79df3f1acd5646b796fb6b7301b4480ffe3dbb42d8d8a0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pbs-installer-2026.10.21-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -89084,10 +89084,10 @@
   },
   {
     "name": "python-pyarrow",
-    "version": "25.0.1-1",
+    "version": "26.0.0-1",
     "origin": "artix-world",
-    "sha256": "8ff0a703bccd5a150f2f858dbdb6e7f3b48f4ccaf8fed700579f6716d2b2e3b9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyarrow-25.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "d217d77ffab6d73ebbc453ce4ec80449379a3b78c7bd4de783d6762c993dab56",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyarrow-26.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "arrow",
@@ -95209,10 +95209,10 @@
   },
   {
     "name": "python-strawberry-graphql",
-    "version": "0.337.2-1",
+    "version": "0.338.0-1",
     "origin": "artix-world",
-    "sha256": "568f5106396a6185b3e7c4b92ad940f2f3f765ea85adf988967ee8e5c7f542d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.337.2-1-any.pkg.tar.zst",
+    "sha256": "3de698b173e703984823a65b154086f6297ca11651142edbf5c33b457fddb645",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-strawberry-graphql-0.338.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -95316,10 +95316,10 @@
   },
   {
     "name": "python-svglib",
-    "version": "2.3.0-1",
+    "version": "2.3.2-1",
     "origin": "artix-world",
-    "sha256": "50948f9bfe30c69b8e220e06147dc8ef3fa25139457c37c6a76868a54ed6fb6e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-svglib-2.3.0-1-any.pkg.tar.zst",
+    "sha256": "a7932be4b5914bee79cdc53a21f32e2be130ac26109138dea9fc9412e7861517",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-svglib-2.3.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96319,10 +96319,10 @@
   },
   {
     "name": "python-tzlocal",
-    "version": "1:5.4.4-1",
+    "version": "1:5.4.5-1",
     "origin": "artix-world",
-    "sha256": "50031e3f1adddc96786e1bf7e089ee8314f0bc1ff34d6914b29068a3a79e6025",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tzlocal-1:5.4.4-1-any.pkg.tar.zst",
+    "sha256": "3450d09edc8b824185c10d0330ebdc42c01419e05ed1cc932cabc9be98cd0200",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tzlocal-1:5.4.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
