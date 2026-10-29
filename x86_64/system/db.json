@@ -398,10 +398,10 @@
   },
   {
     "name": "btrfs-progs",
-    "version": "7.1-1",
+    "version": "7.3-1",
     "origin": "artix-system",
-    "sha256": "ad6a6a91f684b5c31458e0fa8e0baab8cbd31249a63a29500a6abea0675e8f88",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/btrfs-progs-7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "96b02be4a1876f5b51a4330015e43fea8a66ef3caac8218fafc257fd06263d6a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/btrfs-progs-7.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "btrfs-progs-unstable"
     ],
@@ -1332,10 +1332,10 @@
   },
   {
     "name": "egummiboot",
-    "version": "261.2-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "abf708cf533756c5f58dfb914a9d10e04e20f83b8f82e04ba668797a2d662429",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/egummiboot-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "864bd3ff2b241708f180423db8175b5aa7fa4d0c811b88704a7b474e8645b1ff",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/egummiboot-262.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "gummiboot"
     ],
@@ -1457,10 +1457,10 @@
   },
   {
     "name": "eshutdown",
-    "version": "261.2-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "600eff0768f429173ea4c93d53fb1405ebaf70ac101f871b2898f4ff2cb96470",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eshutdown-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "db80e01063093b79349297dec553c4afa9235d23adb955d6cbd2a3638fffc5af",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eshutdown-262.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1471,10 +1471,10 @@
   },
   {
     "name": "esysusers",
-    "version": "261.2-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "de195f63ec0d0bc4121eee70208914b147be4d062c7e76c9d80e4a40d9d18dd5",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/esysusers-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "fcb05c31b5424c9d329712064dd02f8cf46b904d5b69685dcccfaf3f9d221aed",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/esysusers-262.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1485,10 +1485,10 @@
   },
   {
     "name": "etmpfiles",
-    "version": "261.2-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "f4f7022c6a23a8bf310f53a0a50c1427fefcbdade3e1ce35c7ae8da5233ed76a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/etmpfiles-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "5220e708a262615ea1570d33eec30af0182d65bcb77fcd2e8bc4d6e5105a9962",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/etmpfiles-262.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1521,15 +1521,15 @@
   },
   {
     "name": "eukify",
-    "version": "261.2-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "9c7d43ad1b75a5b18972e64c38b5766239e23ff76a2c2aa6771074d9a3bd5a07",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eukify-261.2-1-x86_64.pkg.tar.zst",
+    "sha256": "82ad7da3f20f0e0a6b0a2ee6769010bb11bbee1ce7e9c7cbb62023dc42d686c8",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eukify-262.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "ukify"
     ],
     "depends": [
-      "egummiboot=261.2",
+      "egummiboot=262.1",
       "binutils",
       "python",
       "python-cryptography",
@@ -4164,10 +4164,10 @@
   },
   {
     "name": "libudev",
-    "version": "262.1-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "47942deef03b938ebd4c6688295e56f7f71d7b1a07a830021fa5adb94ff46275",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-262.1-1-x86_64.pkg.tar.zst",
+    "sha256": "bde21154e6d860ce8ff35d3f5c99c1cd0194ffa778d45405f508c4e34f0379a5",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-262.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libudev.so=1-64"
     ],
@@ -6803,10 +6803,10 @@
   },
   {
     "name": "udev",
-    "version": "262.1-1",
+    "version": "262.1-2",
     "origin": "artix-system",
-    "sha256": "28e6984cd2384688903d13052f021ce5c130f6615922a0adc987d72bd2b78d71",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-262.1-1-x86_64.pkg.tar.zst",
+    "sha256": "2e053dd8fe0a4bce4482591f07311141fffc56aaa83ec66cad6d527f0d8a905d",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-262.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6845,10 +6845,10 @@
   },
   {
     "name": "usbutils",
-    "version": "019-1",
+    "version": "020-1",
     "origin": "artix-system",
-    "sha256": "5d4e116e931ccc4bab99c048aee30fed452981a065bc4357b3fc3a2ad2d47fa0",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/usbutils-019-1-x86_64.pkg.tar.zst",
+    "sha256": "9afc075e512ed11c37a451fd17a7ba17a3bf9c0ec824ffa703dbf0a8fd40691a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/usbutils-020-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",

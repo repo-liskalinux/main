@@ -1657,10 +1657,10 @@
   },
   {
     "name": "ant",
-    "version": "1.10.15-1",
+    "version": "1.10.18-1",
     "origin": "artix-world",
-    "sha256": "28801b8bdd9b8a4eec68ce5ae1bbe5165c35096a7354dcdd40679bfdf3145021",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ant-1.10.15-1-any.pkg.tar.zst",
+    "sha256": "561cef9ef610d356c8cf6860dad2b95e1290b2ef1436329dec6258cfc2dea9a2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ant-1.10.18-1-any.pkg.tar.zst",
     "provides": [
       "apache-ant"
     ],
@@ -6185,10 +6185,10 @@
   },
   {
     "name": "bootconfig",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "f39bea5b0c5b51b6943e406443b8ac6904d75b17e87b553f511eaa254403a42a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "38da0d61e31aacb4bc27adc3fd917554578245b9c850ebc6ca3bf8dc964a627a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -6262,10 +6262,10 @@
   },
   {
     "name": "bpf",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "9005c2eb8ba8be9e649673678f37c48955203b17e1cff046991df764692c192b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "d8b5e2570620bedd423615ecf7f275b76eb6c22a8ff897db4be6a40168871aa6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -8122,16 +8122,16 @@
   },
   {
     "name": "clang",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "e15aba14fcd095154a300be3937de55a0dcff89d250182273710ee82908e192b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/clang-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "3feaa9486a5fd094c649192187ec988f48f5ff621542608e1ad35718462ebf1c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/clang-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [
-      "clang-analyzer=23.1.3",
-      "clang-tools-extra=23.1.3"
+      "clang-analyzer=23.1.4",
+      "clang-tools-extra=23.1.4"
     ],
     "depends": [
-      "clang-libs=23.1.3-4",
+      "clang-libs=23.1.4-1",
       "llvm-libs",
       "llvm",
       "gcc",
@@ -8150,10 +8150,10 @@
   },
   {
     "name": "clang-libs",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "3a9f1276ce056380657b504339ccea03174706b5e6bc47365eab54401910469f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/clang-libs-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "bdbe758b52f02f731c80473959a4272f813b5decd96830ca290aa804df54ed8f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/clang-libs-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs"
@@ -8981,10 +8981,10 @@
   },
   {
     "name": "compiler-rt",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "d0a1ac0ecc685ad87c7473b7a606cb9c40d71f6d69714ca99eac2534cef3d76a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/compiler-rt-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "25ad65aee1c924945a68410c5a6099cb24bdbca5452ff8ac5ca4eba6c3fe83a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/compiler-rt-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9700,10 +9700,10 @@
   },
   {
     "name": "cpupower",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "492fffcc698d0b76e1047897ed13c7e87a8859f508395b55536d351cea5acddb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "4ae5bfb7e9a8c695d64c8cd057747b5dd5c91e43e83d5ce78d84275af44a08ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28743,10 +28743,10 @@
   },
   {
     "name": "hyperv",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "8d4ed7e399e38ac440fd288a5266ac793d4afa1f3acbe423b41ac62613942ab0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "e4516d8fa58ed18fae71599d33c98d63b9a3baccd7320bedae46e39814b90256",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -30590,10 +30590,10 @@
   },
   {
     "name": "intel-speed-select",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "f59eebd32a93eee18947690b83d85864de1901c567f1b58a8f9ab3c689eef500",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "827c5eb862d84d295b9425d937edf458025295e2267168ae11183163007699e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnl"
@@ -31793,20 +31793,20 @@
   },
   {
     "name": "jdk25-openjdk",
-    "version": "25.0.5.0.2.u1-1",
+    "version": "25.0.5.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "33eefe5c8bb8e8ed579fef1a875b9a5fc06452e52a19e88bdbf0fdcbce987e45",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "16f473f0747e5ba7d4c82c30ddd4de00e0b941a7438654e59075709efcdba76b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=25",
       "java-environment-openjdk=25",
-      "jdk25-openjdk=25.0.5.0.2.u1-1",
+      "jdk25-openjdk=25.0.5.0.3.u1-1",
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.5.0.2.u1-1",
+      "jre25-openjdk=25.0.5.0.3.u1-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.0.2.u1-1"
+      "jre25-openjdk-headless=25.0.5.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31897,10 +31897,10 @@
   },
   {
     "name": "jenkins",
-    "version": "2.586-1",
+    "version": "2.588-1",
     "origin": "artix-world",
-    "sha256": "0fc9ba50e84f50067110c64b46681445314e4ad6f2cf211ac67d5bcc64ab7771",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.586-1-any.pkg.tar.zst",
+    "sha256": "7dbd8c1a5c6bcb9c2ad60aac5804061da7a073beb9c7114e0ad5b3a7e1dc9eb1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.588-1-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
@@ -32393,17 +32393,17 @@
   },
   {
     "name": "jre25-openjdk",
-    "version": "25.0.5.0.2.u1-1",
+    "version": "25.0.5.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "f600ef1d5d3416120d8b8fac0bab86872c97eac079d62a3f8207fb46d5c27e51",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "291a10c989566462edd3dcd8831d512f12ebed5184d38659d4273e1443c93ff1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.5.0.2.u1-1",
+      "jre25-openjdk=25.0.5.0.3.u1-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.0.2.u1-1"
+      "jre25-openjdk-headless=25.0.5.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32436,14 +32436,14 @@
   },
   {
     "name": "jre25-openjdk-headless",
-    "version": "25.0.5.0.2.u1-1",
+    "version": "25.0.5.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "8fafb35d3b4798f105ccb7d993282ad2d2d6fa9cb423acd4265bdd94d3641cbd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "8e2e3e2fb18a9e8b0834e4f6d3b37da3690f0e9479c1b373f2163326941f3291",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.0.2.u1-1"
+      "jre25-openjdk-headless=25.0.5.0.3.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -34454,10 +34454,10 @@
   },
   {
     "name": "kcpuid",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "520f9a2e24e891ac84a19bd440ca822392bb87e2460fde67679d64118208b403",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "fc02d87ae162fc9dcf1b3d6c021bc4c942fbef3f69824ec9f16d6cb9e541c173",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -43224,13 +43224,13 @@
   },
   {
     "name": "libc++",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "7badceb48eae2e8b3e2b2c7c1e49f85d451d07ea11772798c9cd215fae33a597",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "f8dd0650a0347283dadc1ff8f62f865cb12521fddbf4188a64b65efdc9d28bea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libc++abi=23.1.3-4",
+      "libc++abi=23.1.4-1",
       "libgcc",
       "glibc"
     ],
@@ -43239,10 +43239,10 @@
   },
   {
     "name": "libc++abi",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "8b7a52307688c4b3dded4f80ffd4ab9976157cbe988f8f1d6280fe070adce27b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++abi-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "26af60381b4e50225e31f6439e8b52649b9418949771e9830b4682912051c0e6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libc++abi-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -43535,10 +43535,10 @@
   },
   {
     "name": "libclc",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "50a7e8f3a623a953c74e3593b09adc58eec70d3e4f16b1b62e41c1fb3bae0291",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libclc-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "9b162bae1ea32a75f19e7c4570a5d0cbde566a9465a1cbb44483aff9a8497f5f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libclc-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -50082,10 +50082,10 @@
   },
   {
     "name": "libtraceevent",
-    "version": "1:1.9.0-1",
+    "version": "1:1.9.1-1",
     "origin": "artix-world",
-    "sha256": "2c81b253023e570ce1c59c8a9eb8c8f78bd3d2bd40a7f33489bed8d295380352",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtraceevent-1:1.9.0-1-x86_64.pkg.tar.zst",
+    "sha256": "33c2e9f10bca32273985a1469ce7d36989e5eb8770b84b7db8d01c9291a39acf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtraceevent-1:1.9.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libtraceevent.so=1-64"
     ],
@@ -50099,10 +50099,10 @@
   },
   {
     "name": "libtracefs",
-    "version": "1.8.3-1",
+    "version": "1.8.4-1",
     "origin": "artix-world",
-    "sha256": "104fe8ae5a950db8b57795f84a1f1f2521ae691363ced4c505a1e83d2e9345f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtracefs-1.8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6e1f5d6427ff6b7fa2b95e5507fecb0354da9ae10acf17ffc4516bf2a66513b9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtracefs-1.8.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libtracefs.so=1-64"
     ],
@@ -50293,10 +50293,10 @@
   },
   {
     "name": "libuv",
-    "version": "1.52.1-2",
+    "version": "1.53.0-1",
     "origin": "artix-world",
-    "sha256": "62122d8d8c85f72747f4b9fbc46ae196e655c36a2ac8efcc8bc7ccbe6e7e60ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libuv-1.52.1-2-x86_64.pkg.tar.zst",
+    "sha256": "8bd15003ac3e15f6111f26d2a7e05dc4e1b0e0612af66892cd18939248ac3b19",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libuv-1.53.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -52343,10 +52343,10 @@
   },
   {
     "name": "linux-tools-meta",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "f1ea15cb1431138fc6da73cf47e6c3dd4ee40e4efdd147350354954eea5bb906",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "926e398590be359f0405e669970b5c8220cca0f718cce23c90e19b6ae27f3cb8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bootconfig",
@@ -52544,10 +52544,10 @@
   },
   {
     "name": "lld",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "52752ee3ae23e0aa5c11742a65a2cf04d790a7c4c1446202f1e885477a0b9a2c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lld-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "35c681fd60569dd9504038f289b2dd480a0d268ef7834cf54548300f0c638e76",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lld-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -52625,10 +52625,10 @@
   },
   {
     "name": "lldb",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "18e38af207d79d3e34d20612cc6004f588413404b394208fb3a07edc0b4e4bcd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lldb-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "928a334d386ace9e69fd7d82f5374ce4bed14a3e311283ce45e09ea4539d60af",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lldb-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -52660,10 +52660,10 @@
   },
   {
     "name": "llvm",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "ada97a3d764969a7936bc2f8e60dcca6c6425e089c569e94f8afccfa79c925bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "ea97d38d05d0f0d06cb054dd5363401d1da22cac771d969a4a819444d3f03302",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -52679,10 +52679,10 @@
   },
   {
     "name": "llvm-bolt",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "1c0aa53a5d90f5c20dabdf8f77111abc3ee967f11dab800b72a8cfbbbccab00d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-bolt-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "566107cebaaba763aa718428fd3e98e4cafc67bf3c603404065e35cfd57f2cc0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-bolt-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -52734,10 +52734,10 @@
   },
   {
     "name": "llvm-libs",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "f4c5762dfa7caab3d0219fda3841e8fe58bfb6288c814b15da801062e722faa9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-libs-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "9978934f7493532cb265ba8f7b8723dcdb28baf88e8685743943a37dbc8f156d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-libs-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libLLVM.so=23.1-64",
       "libLTO.so=23.1-64",
@@ -52758,10 +52758,10 @@
   },
   {
     "name": "llvm-lit",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "5969167cbc32cecff7b62793bfaa8325a3e899ff087a88f0bee1257d9b9eae33",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-lit-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "284107041540bd66acac60cdb4a28183e3bcbfd4183fe3d3ff28c98755e7ed15",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/llvm-lit-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -61778,10 +61778,10 @@
   },
   {
     "name": "offload",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "d84b118185fa5fd1a50b63411ef2b5ea7a3b76fe6630d4a6b74b75404d94b226",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/offload-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "6c1bb21482e602a9ca2650f30877c9d928478db7f82aea10e89e03107fe63fa4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/offload-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -61790,7 +61790,7 @@
       "glibc",
       "libstdc++",
       "libgcc",
-      "openmp>=23.1.3"
+      "openmp>=23.1.4"
     ],
     "optdepends": [
       "cuda: offloading to NVIDIA GPUs",
@@ -62952,15 +62952,15 @@
   },
   {
     "name": "openjdk25-src",
-    "version": "25.0.5.0.2.u1-1",
+    "version": "25.0.5.0.3.u1-1",
     "origin": "artix-world",
-    "sha256": "44d123444eef467a9141e877785d8c964b52dcddc9b747bf98415fcbf5ee150f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.0.2.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "a2c9d0c82ca1b256ea228e77ce1e57fd934b0e2077ee7c03b75d89a76e0192ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk25-src=25.0.5.0.2.u1-1"
+      "openjdk25-src=25.0.5.0.3.u1-1"
     ],
     "depends": [
-      "jdk25-openjdk=25.0.5.0.2.u1-1"
+      "jdk25-openjdk=25.0.5.0.3.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -63027,10 +63027,10 @@
   },
   {
     "name": "openmp",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "9cfa4551226185419eea88e5496bdef9945b7a8ca88c4355de0cc6123fff61c3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmp-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "619e92140ad0e1539fa0b59f56f16837ac4eca64e61e117dd59dc2c3dc702105",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmp-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -65381,10 +65381,10 @@
   },
   {
     "name": "perf",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "5e57661402b60ac2562afc86ea89f01882799ba6d9aea89e532296b249b8f1b1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "ac0d6b897f7737d4cd13d94dc2c86726b774564c0e5bf5b7bb1f22dc7361b190",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -66202,10 +66202,10 @@
   },
   {
     "name": "perl-datetime-timezone",
-    "version": "2.71-1",
+    "version": "2.72-1",
     "origin": "artix-world",
-    "sha256": "6314d362536b3af10ffe6844d8ab1370df4bf60a7e47da0ed6f1d6a7f04dfced",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-datetime-timezone-2.71-1-any.pkg.tar.zst",
+    "sha256": "0bd6c9027dcfe29693a7b19b00238c7d3d909eb90348170cfc7cbe4fc3964856",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-datetime-timezone-2.72-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-class-singleton>=1.03",
@@ -73265,10 +73265,10 @@
   },
   {
     "name": "polly",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "ccbc27b9d856824c43caa19c4d3bbba2d059060e73d271eb3e5cae04e40aaeb3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/polly-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "2da35eb57e1f2ce490d7e3b7e1d1235bd2b5b880644938a643102340671630d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/polly-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "llvm-libs",
@@ -102479,41 +102479,41 @@
   },
   {
     "name": "r",
-    "version": "4.6.1-1",
+    "version": "4.6.2-1",
     "origin": "artix-world",
-    "sha256": "cec235489aa4a6703145feae19a8bde7abe762690278acc99a8b1d31bc4fca68",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/r-4.6.1-1-x86_64.pkg.tar.zst",
+    "sha256": "0793cf52af53ddbbd90fdfebf781cb44dc6cf7706e25fa8cad749a1a1de44d17",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/r-4.6.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "r-base=4.6.1",
+      "r-kernsmooth=2.23.27",
+      "r-mass=7.3.66",
+      "r-matrix=1.7.6",
+      "r-base=4.6.2",
       "r-boot=1.3.32",
-      "r-class=7.3.23",
-      "r-cluster=2.1.8.2",
+      "r-class=7.3.24",
+      "r-cluster=2.1.8.3",
       "r-codetools=0.2.20",
-      "r-compiler=4.6.1",
-      "r-datasets=4.6.1",
-      "r-foreign=0.8.91",
-      "r-graphics=4.6.1",
-      "r-grdevices=4.6.1",
-      "r-grid=4.6.1",
-      "r-kernsmooth=2.23.26",
-      "r-lattice=0.22.9",
-      "r-mass=7.3.65",
-      "r-matrix=1.7.5",
-      "r-methods=4.6.1",
+      "r-compiler=4.6.2",
+      "r-datasets=4.6.2",
+      "r-foreign=0.8.92",
+      "r-grdevices=4.6.2",
+      "r-graphics=4.6.2",
+      "r-grid=4.6.2",
+      "r-lattice=0.23.1",
+      "r-methods=4.6.2",
       "r-mgcv=1.9.4",
-      "r-nlme=3.1.169",
-      "r-nnet=7.3.20",
-      "r-parallel=4.6.1",
+      "r-nlme=3.1.171",
+      "r-nnet=7.3.21",
+      "r-parallel=4.6.2",
       "r-rpart=4.1.27",
-      "r-spatial=7.3.18",
-      "r-splines=4.6.1",
-      "r-stats4=4.6.1",
-      "r-stats=4.6.1",
-      "r-survival=3.8.6",
-      "r-tcltk=4.6.1",
-      "r-tools=4.6.1",
-      "r-translations=4.6.1",
-      "r-utils=4.6.1"
+      "r-spatial=7.3.19",
+      "r-splines=4.6.2",
+      "r-stats=4.6.2",
+      "r-stats4=4.6.2",
+      "r-survival=3.8.12",
+      "r-tcltk=4.6.2",
+      "r-tools=4.6.2",
+      "r-translations=4.6.2",
+      "r-utils=4.6.2"
     ],
     "depends": [
       "bash",
@@ -123983,10 +123983,10 @@
   },
   {
     "name": "tmon",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "1bdb263f1453f2da3839a8ed21ad7084972caab291dde847bf662e733a66afcc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "0ce22635879447f8e9ba4eecc33472fc4c0ac80b52b84f5d204bd223a14f14b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125212,10 +125212,10 @@
   },
   {
     "name": "turbostat",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "0d9d3233884beb2c4e2f1eec72f9750899d6663580720d2f5fd98709116917d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "cc78d6c3306982d269cb033039221c5c725d17205540d58a68b353da1f4277e7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126470,10 +126470,10 @@
   },
   {
     "name": "usbip",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "5066b4c4bd4cd1ac63f12d7e8a84dee6395c4c6b756825600b590d23cbbdc0c7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "7d439981bdddb1ae0db25534fec060a0a4e9cdc6dab2b1a4379bbfd33482923e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130635,10 +130635,10 @@
   },
   {
     "name": "wasi-compiler-rt",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "43ccbd026c668091693df108f78b4bb948e4d4516ca8628f1329ce6373be48ba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-compiler-rt-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "ebf3b251ff5dc735a9ab038b7e182fb5a1d66099436b8f1d78b74f0b28546abf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-compiler-rt-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wasi-libc"
@@ -130659,25 +130659,25 @@
   },
   {
     "name": "wasi-libc++",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "c4ac17fcd95a7e225698d260cb7aba2a06b8b304d5a5c131bc092bd38ef87e41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "07ece397d24402e28b4dd6108182d506ead42af60a3ee9aff3d79cbae4fb075d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wasi-libc",
       "wasi-compiler-rt",
-      "wasi-libc++abi=23.1.3-4"
+      "wasi-libc++abi=23.1.4-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "wasi-libc++abi",
-    "version": "23.1.3-4",
+    "version": "23.1.4-1",
     "origin": "artix-world",
-    "sha256": "d59420c54eafcbc131a8ee388018e9947c4d71341d1bcf138a000687f4774728",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++abi-23.1.3-4-x86_64.pkg.tar.zst",
+    "sha256": "733ae233141ab09d07e59f3969a678f070c172f1abce8ea89d6f7f11f9277647",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasi-libc++abi-23.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wasi-libc",
@@ -132259,10 +132259,10 @@
   },
   {
     "name": "x86_energy_perf_policy",
-    "version": "7.2.11-1",
+    "version": "7.3-1",
     "origin": "artix-world",
-    "sha256": "a60a958ebb2d2cf8b3ce1608cad4ec79aff795fb2033e768322b52f999ada187",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.2.11-1-x86_64.pkg.tar.zst",
+    "sha256": "f5727ca5a08ffbea8bb0c2f778572f8cd646167850729d0b003049cfe0ec9ad3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
