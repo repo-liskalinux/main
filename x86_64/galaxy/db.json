@@ -10026,23 +10026,19 @@
   },
   {
     "name": "gtklock",
-    "version": "4.0.0-1",
+    "version": "5.0.0-1",
     "origin": "artix-galaxy",
-    "sha256": "29672734ca481c776e91a0f6f7922ed37275e5d5ca4b5f02c7e68ef566cddc26",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gtklock-4.0.0-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "gtklock"
-    ],
+    "sha256": "ab1dffe15ebc967d0b0de66ebcd62c735e836b7f2d176dc8615d7e0a9d298a0e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gtklock-5.0.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
     "depends": [
-      "gtk3",
-      "gtk-session-lock",
+      "pam",
       "wayland",
-      "pam"
+      "gtk3",
+      "gtk-session-lock"
     ],
     "optdepends": [],
-    "conflicts": [
-      "gtklock"
-    ]
+    "conflicts": []
   },
   {
     "name": "guvcview",
@@ -17027,10 +17023,10 @@
   },
   {
     "name": "librewolf",
-    "version": "158.0.1_2-1",
+    "version": "159.0.0_1-1",
     "origin": "artix-galaxy",
-    "sha256": "fd2ac9d96cd9bca69093bb59d29295179fbcd8304bc5e1a60fa4b9dd5a4d401d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-158.0.1_2-1-x86_64.pkg.tar.zst",
+    "sha256": "8e8916584a8503e953e835fd3d33f62046b6f78acef8e96678d4676dc4ca63ab",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-159.0.0_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
