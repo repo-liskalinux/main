@@ -5843,10 +5843,10 @@
   },
   {
     "name": "boinc",
-    "version": "8.2.15-2",
+    "version": "8.2.15-4",
     "origin": "artix-world",
-    "sha256": "e5ed87963c4d4305e9bdf4b5ac0aba990bc3e3f0c712986dc7b0fa6945ba8a53",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/boinc-8.2.15-2-x86_64.pkg.tar.zst",
+    "sha256": "5e516a820fb6ebc0be823e97b22a7e87c650ce81c6b571655a8b1558b9466d0e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/boinc-8.2.15-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -5865,7 +5865,11 @@
       "wxwidgets-gtk3",
       "zlib"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "opencl-icd-loader: OpenCL library loader",
+      "opencl-driver: OpenCL support for GPU computing",
+      "nvidia-utils: CUDA support for NVIDIA GPUs"
+    ],
     "conflicts": []
   },
   {
@@ -5888,10 +5892,10 @@
   },
   {
     "name": "boinc-nox",
-    "version": "8.2.15-2",
+    "version": "8.2.15-4",
     "origin": "artix-world",
-    "sha256": "d9dbf8f271cd8cf24d4d7d81a6eebeb5034da5e16e105a32510a1535f63f623e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/boinc-nox-8.2.15-2-x86_64.pkg.tar.zst",
+    "sha256": "9b8524eccb6d61cf84c97cc2d0aa2e1bf414835535a8685756a5882d75fde0f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/boinc-nox-8.2.15-4-x86_64.pkg.tar.zst",
     "provides": [
       "boinc"
     ],
@@ -5904,7 +5908,11 @@
       "openssl",
       "zlib"
     ],
-    "optdepends": [],
+    "optdepends": [
+      "opencl-icd-loader: OpenCL library loader",
+      "opencl-driver: OpenCL support for GPU computing",
+      "nvidia-utils: CUDA support for NVIDIA GPUs"
+    ],
     "conflicts": [
       "boinc"
     ]
@@ -12192,10 +12200,10 @@
   },
   {
     "name": "docker",
-    "version": "1:29.9.1-1",
+    "version": "1:29.9.2-1",
     "origin": "artix-world",
-    "sha256": "f1063bd0479789716c5a07da10e5f96c125e8aa3d90d49c505cbcfe8f8e9f865",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.9.1-1-x86_64.pkg.tar.zst",
+    "sha256": "fc5af6c4794a5d672a123a480617f9b4bb88adbfc7e1a1aee31928c3e4f6b16a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.9.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -28871,41 +28879,32 @@
   },
   {
     "name": "hyprland",
-    "version": "0.56.2-4",
+    "version": "0.57.0-1",
     "origin": "artix-world",
-    "sha256": "49049404a698e82b62e711176465d2bbb8bfbcf667909258374384f5678a1134",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.56.2-4-x86_64.pkg.tar.zst",
+    "sha256": "2dc0a4d11374416b40199b7a8e17e4dd77599480216bf3511dad42d8ac561df1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.57.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
     "depends": [
       "cairo",
       "aquamarine",
-      "libaquamarine.so=14-64",
       "libgcc",
       "libstdc++",
       "glibc",
       "glib2",
-      "libgio-2.0.so=0-64",
-      "libgobject-2.0.so=0-64",
       "glslang",
       "hyprcursor",
-      "libhyprcursor.so=0-64",
       "hyprgraphics",
-      "libhyprgraphics.so=4-64",
       "hyprland-guiutils",
       "hyprlang",
-      "libhyprlang.so=2-64",
       "hyprutils",
-      "libhyprutils.so=13-64",
       "hyprwire",
-      "libhyprwire.so=3-64",
       "lcms2",
-      "liblcms2.so=2-64",
+      "libcanberra",
       "libdrm",
+      "libei",
       "libglvnd",
-      "libEGL.so=1-64",
-      "libGLESv2.so=2-64",
       "libinput",
       "libx11",
       "libxcb",
@@ -28913,25 +28912,18 @@
       "libxcursor",
       "libxfixes",
       "libxkbcommon",
-      "libxkbcommon.so=0-64",
       "libxrender",
       "lua",
       "mesa",
       "muparser",
       "opengl-driver",
       "pango",
-      "libpango-1.0.so=0-64",
-      "libpangocairo-1.0.so=0-64",
       "pixman",
-      "libpixman-1.so=0-64",
       "re2",
-      "libre2.so=11-64",
+      "sdbus-cpp",
       "tomlplusplus",
-      "libtomlplusplus.so",
       "util-linux-libs",
-      "libuuid.so=1-64",
       "wayland",
-      "libwayland-server.so=0-64",
       "wayland-protocols",
       "xcb-proto",
       "xcb-util",
@@ -28940,7 +28932,30 @@
       "xcb-util-keysyms",
       "xcb-util-renderutil",
       "xcb-util-wm",
-      "xorg-xwayland"
+      "xorg-xwayland",
+      "libEGL.so=1-64",
+      "libGLESv2.so=2-64",
+      "libaquamarine.so=14-64",
+      "libcanberra.so=0-64",
+      "libeis.so=1-64",
+      "libgio-2.0.so=0-64",
+      "libgobject-2.0.so=0-64",
+      "libhyprcursor.so=0-64",
+      "libhyprgraphics.so=4-64",
+      "libhyprlang.so",
+      "libhyprutils.so=13-64",
+      "libhyprwire.so=3-64",
+      "liblcms2.so=2-64",
+      "libpango-1.0.so=0-64",
+      "libpangocairo-1.0.so=0-64",
+      "libpixman-1.so=0-64",
+      "libre2.so=11-64",
+      "libreadline.so=8-64",
+      "libsdbus-c++.so=2-64",
+      "libtomlplusplus.so",
+      "libuuid.so=1-64",
+      "libwayland-server.so=0-64",
+      "libxkbcommon.so=0-64"
     ],
     "optdepends": [
       "hyprpm: build and install plugins",
@@ -29146,10 +29161,10 @@
   },
   {
     "name": "hyprpm",
-    "version": "0.56.2-4",
+    "version": "0.57.0-1",
     "origin": "artix-world",
-    "sha256": "97f5d59cc1190c5cf683e32f255ed3e8c2c3b0ee548238ef06853a2bb168152e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.56.2-4-x86_64.pkg.tar.zst",
+    "sha256": "1dbe9be258b3da7251bc76c4bb1893336a8cb4a4b1dfc61e31ed965080bd23eb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.57.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -58229,10 +58244,10 @@
   },
   {
     "name": "mpvqt",
-    "version": "1.2.0-1",
+    "version": "1.2.1-1",
     "origin": "artix-world",
-    "sha256": "edd1119aeb7e0630645d26e3f13258aa7df8969dbe520664c61f08fa6bdc1b32",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mpvqt-1.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "424585ca0b0730bde2fa208f080fc513e318298d5ac5f161c8f2d1c7947bba0d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mpvqt-1.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -63032,10 +63047,10 @@
   },
   {
     "name": "openmpi",
-    "version": "5.0.10-2",
+    "version": "5.0.11-1",
     "origin": "artix-world",
-    "sha256": "3c4b692f03c49390bd95fd77a51165c80f02b288fcf53d71f29592c474365658",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmpi-5.0.10-2-x86_64.pkg.tar.zst",
+    "sha256": "a9d3d1cbfc9416451f38a0b062d434d1194665ce3acd3a31174187bf57e0334f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmpi-5.0.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmpi.so=40-64",
       "libmpi_mpifh.so=40-64",
@@ -72787,10 +72802,10 @@
   },
   {
     "name": "plasmatube",
-    "version": "26.08.2-1",
+    "version": "26.08.2-2",
     "origin": "artix-world",
-    "sha256": "8f86f944c02a3e13ceaee0a4d3bbce4c1005a15e648e0e8b56367c3259f0f8b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasmatube-26.08.2-1-x86_64.pkg.tar.zst",
+    "sha256": "f48659520616111bf5d877c3e393ea54d3898c8e070ce4879725d191c75f3204",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasmatube-26.08.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -107059,10 +107074,10 @@
   },
   {
     "name": "ruby-minitest-proveit",
-    "version": "1.0.0-6",
+    "version": "1.0.1-1",
     "origin": "artix-world",
-    "sha256": "d1f94debed9d459b9458a4300af8ed62b6d2af747b395b36f75bc7c449aa51cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-minitest-proveit-1.0.0-6-any.pkg.tar.zst",
+    "sha256": "b1b50e44404853c64bf1f0d20051275936075151254cd78522a6fcff8e6b7b88",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-minitest-proveit-1.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
