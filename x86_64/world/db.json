@@ -2065,10 +2065,10 @@
   },
   {
     "name": "appstream",
-    "version": "1.2.1-1",
+    "version": "1.2.2-1",
     "origin": "artix-world",
-    "sha256": "765b00f9f22d4a0cb416e60ed3254613e2ea9c6944011f43198c595605fc9bc2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/appstream-1.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "ddcfc6b13895d4b6cdf3b573389a664a0ebab0f72f8f312a6a19f018149bbb0a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/appstream-1.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -2124,10 +2124,10 @@
   },
   {
     "name": "appstream-qt",
-    "version": "1.2.1-1",
+    "version": "1.2.2-1",
     "origin": "artix-world",
-    "sha256": "752e35b675a7783f862435bd1311b2968a44658398a58168f651f5fa3fb5a5f6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/appstream-qt-1.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3f8871d13bf7a8f8a50343d64f9bd66cca4a1a2e3c1bbc4de45503a372233a07",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/appstream-qt-1.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -14297,10 +14297,10 @@
   },
   {
     "name": "epiphany",
-    "version": "51.1-2",
+    "version": "51.2-1",
     "origin": "artix-world",
-    "sha256": "b74a9d24c43a111e5a115553d13dd9d90e5e8dcd02eac06a4a97bc1f589ed40f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/epiphany-51.1-2-x86_64.pkg.tar.zst",
+    "sha256": "e54e0f05db9ea65bc880b0f8c9de221d37039d253943939decbad067fb5ddfcc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/epiphany-51.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -20174,10 +20174,10 @@
   },
   {
     "name": "gimp-plugin-gmic",
-    "version": "4.0.6-1",
+    "version": "4.0.7-1",
     "origin": "artix-world",
-    "sha256": "7dbdcdbab8f34815c6dc2493688d35d8733b8963a0c209ad5a17f09c8ace72c4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-plugin-gmic-4.0.6-1-x86_64.pkg.tar.zst",
+    "sha256": "1bd1d283ca79acd04fb9b70bfc566d382ac1e25c8929517c1ef7497e731e7be8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-plugin-gmic-4.0.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fftw",
@@ -20897,10 +20897,10 @@
   },
   {
     "name": "gmic",
-    "version": "4.0.6-1",
+    "version": "4.0.7-1",
     "origin": "artix-world",
-    "sha256": "863f6f58037d229af8a53fb9f504309d7c2b88c27ec8851bcdf3c2574b77b276",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gmic-4.0.6-1-x86_64.pkg.tar.zst",
+    "sha256": "6c2d3b0068b0ab9b9899aa8592935653bb664fd47515abf907b02fe42dabba91",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gmic-4.0.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fftw",
@@ -73306,10 +73306,10 @@
   },
   {
     "name": "poppler",
-    "version": "26.10.0-1",
+    "version": "26.10.0-2",
     "origin": "artix-world",
-    "sha256": "92b98d1de4ef1958076104b20f7982f75ac0a98175bf2a111af81c4758c658bb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-26.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d7670f5931f65245669202582a76a74c76cc395a41ff0effba8d7eb8c9bced41",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-26.10.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler.so=165-64",
       "libpoppler-cpp.so=3-64"
@@ -73330,7 +73330,8 @@
       "freetype2",
       "zlib",
       "libtiff",
-      "glibc"
+      "glibc",
+      "harfbuzz"
     ],
     "optdepends": [
       "poppler-data: highly recommended encoding data to display PDF documents with certain encodings and characters"
@@ -73355,10 +73356,10 @@
   },
   {
     "name": "poppler-glib",
-    "version": "26.10.0-1",
+    "version": "26.10.0-2",
     "origin": "artix-world",
-    "sha256": "39506d447cce365668e549fd35e94a18c77a8f984ac905d509fe0afa36b9312f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-glib-26.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a97f86c6edfc6abb67e9833580bbf31ed0eb459a6733a641ccd8e7781ac57bd3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-glib-26.10.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-glib.so=8-64"
     ],
@@ -73376,10 +73377,10 @@
   },
   {
     "name": "poppler-qt5",
-    "version": "26.10.0-1",
+    "version": "26.10.0-2",
     "origin": "artix-world",
-    "sha256": "7e63cad2dedbdbbf2962574c6fd6789b283d82630df503f5c1d7c601ac132d58",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt5-26.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "85f01c024af4224c32887dc300c136d7067ebf0aaa5094cf5a75a912b1e51416",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt5-26.10.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-qt5.so=1-64"
     ],
@@ -73397,10 +73398,10 @@
   },
   {
     "name": "poppler-qt6",
-    "version": "26.10.0-1",
+    "version": "26.10.0-2",
     "origin": "artix-world",
-    "sha256": "eac594d13b06a610d6a41a8d4f39599043dfa7b0a3df3ad2d4b559a9b2d9fe7d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt6-26.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "29fd0be95218203f99f6060fddbd9ec0061d56dcbc2df4d7175a729b3932161b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt6-26.10.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-qt6.so=3-64"
     ],
