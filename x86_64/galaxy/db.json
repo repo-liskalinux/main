@@ -3605,10 +3605,10 @@
   },
   {
     "name": "deltachat-desktop",
-    "version": "2.62.0-1.1",
+    "version": "2.65.0-1",
     "origin": "artix-galaxy",
-    "sha256": "8ccb8f2b92aa37d30bab65eb21557145571240d2f97f29ecec61131424a0d12a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.62.0-1.1-any.pkg.tar.zst",
+    "sha256": "24686166662d66019ec3b2cb3ca61a37a928fa70072a7f5304602fc9e131e10a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.65.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "electron42",
@@ -3621,10 +3621,10 @@
   },
   {
     "name": "deltachat-rpc-server",
-    "version": "2.62.0-1",
+    "version": "2.65.0-1",
     "origin": "artix-galaxy",
-    "sha256": "2195a359401e303a99a3385145d3ddc181a56ce36349f513242bb81a267c1912",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.62.0-1-x86_64.pkg.tar.zst",
+    "sha256": "71cb9154f60981b72d5f8135226e11e95bee17fed4c5964556109e8e261ec64c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.65.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -20440,10 +20440,10 @@
   },
   {
     "name": "mate-panel",
-    "version": "1.28.7-3",
+    "version": "1.28.7-4",
     "origin": "artix-galaxy",
-    "sha256": "9ae8b1afe9e8870e8a9a01b761556ec507bb7b4059ad7ff86d218b0cc7953108",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-panel-1.28.7-3-x86_64.pkg.tar.zst",
+    "sha256": "2856a0a98d38f42edf23db1dff2775213019c431114d20916b0a5b1839faafd7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-panel-1.28.7-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -23380,12 +23380,12 @@
   },
   {
     "name": "obs-studio",
-    "version": "33.0.0-1",
+    "version": "33.0.1-1",
     "origin": "artix-galaxy",
-    "sha256": "b11994427853d4109f86b8bc0a1ecabf24bb4af4370ba150ea2dfa4945cfc21d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/obs-studio-33.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f734cf9aa4757de670319c997e05ac7d1151a894e657ec763b024ba89277bd17",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/obs-studio-33.0.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "obs-studio-plugin-browser=33.0.0"
+      "obs-studio-plugin-browser=33.0.1"
     ],
     "depends": [
       "alsa-lib",
@@ -31506,13 +31506,13 @@
   },
   {
     "name": "ungoogled-chromium",
-    "version": "156.0.8078.47-1",
+    "version": "156.0.8078.73-1",
     "origin": "artix-galaxy",
-    "sha256": "732d8825e224448aa2c0b0cde3e2e0285de7cd304170888484f9c0f6b892ba37",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ungoogled-chromium-156.0.8078.47-1-x86_64.pkg.tar.zst",
+    "sha256": "b43010f143d7e4a176a43ba78a60e83e1feb19ae69204c04ca41ad8eca345d88",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ungoogled-chromium-156.0.8078.73-1-x86_64.pkg.tar.zst",
     "provides": [
-      "chromium=156.0.8078.47",
-      "chromedriver=156.0.8078.47"
+      "chromium=156.0.8078.73",
+      "chromedriver=156.0.8078.73"
     ],
     "depends": [
       "alsa-lib",

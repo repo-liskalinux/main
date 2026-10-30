@@ -1086,10 +1086,10 @@
   },
   {
     "name": "alsa-card-profiles",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "b7cb5dac3bcf872f3c2b1b46f17c89f5274ea9227cdd0f48cc2ec24889fcfca6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/alsa-card-profiles-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "93cca1c6f0e9645485c290af63404135f17c0d794c5798780aaeba739e357c09",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/alsa-card-profiles-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -17590,10 +17590,10 @@
   },
   {
     "name": "fractal",
-    "version": "14.2-1",
+    "version": "14.3-1",
     "origin": "artix-world",
-    "sha256": "5c9c057bcf24e4b7f8f422692256b21f7d83d61f3a646e1bee54e771cf325c79",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fractal-14.2-1-x86_64.pkg.tar.zst",
+    "sha256": "3781f8c2a78a072689f170ca43677ec7d015a875e1e35bb0cdb2a7d1f0cf07c3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fractal-14.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -18013,10 +18013,10 @@
   },
   {
     "name": "fribidi",
-    "version": "1.0.17-1.1",
+    "version": "1.0.18-1",
     "origin": "artix-world",
-    "sha256": "26f100d74f735a43b18a35bc1bd4582ed4d2e651151361247b32c155c4a751af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fribidi-1.0.17-1.1-x86_64.pkg.tar.zst",
+    "sha256": "13b1093cc90149cf759a742b9c669a38a921ef221c20c7949900d04a81cf375b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fribidi-1.0.18-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfribidi.so=0-64"
     ],
@@ -24723,16 +24723,16 @@
   },
   {
     "name": "gst-plugin-pipewire",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "dc1dcd33ec08f614e44b747e99daef35850f83d6e68a558085d1384f62439f86",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-pipewire-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "40afe4acb8180aa9876e08b28409907ce68d71cb2d621368ce2c9e56342cd53e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gst-plugin-pipewire-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "glib2",
       "libglib-2.0.so=0-64",
       "libgobject-2.0.so=0-64",
@@ -29685,10 +29685,10 @@
   },
   {
     "name": "icmake",
-    "version": "13.00.03-1",
+    "version": "13.07.00-1",
     "origin": "artix-world",
-    "sha256": "a9fdea914e5e82ac9a4b2c8bd51d9fad0c714543bda2cf3e0f0a55a5d3c51d34",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/icmake-13.00.03-1-x86_64.pkg.tar.zst",
+    "sha256": "17f324dd83b5b69b86cde2a2da579914c42e5c74590c1f44d000b16df987d547",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/icmake-13.07.00-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libunwind"
@@ -48404,10 +48404,10 @@
   },
   {
     "name": "libpipewire",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "1e245c74cfccd78bb054bda4d29cee34fbb098743f4a08da34acd6cc9d6e9049",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpipewire-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "5d168d2ba6f66d5c4cb45a9222efc2d2c98c5e515ad133b0a15bcb53e0e7d462",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpipewire-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpipewire-0.3.so=0-64"
     ],
@@ -49412,10 +49412,10 @@
   },
   {
     "name": "libslirp",
-    "version": "4.9.5-1",
+    "version": "4.9.7-1",
     "origin": "artix-world",
-    "sha256": "828dc278562418bbe6327f1ef68b11649922bdddec19db28f32cf074b5d63a71",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libslirp-4.9.5-1-x86_64.pkg.tar.zst",
+    "sha256": "dc2f3bc9bc8a947abfee2dd7187847432d9549e5b136e63aa7eab6d1b14d66cb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libslirp-4.9.7-1-x86_64.pkg.tar.zst",
     "provides": [
       "libslirp.so=0-64"
     ],
@@ -71320,13 +71320,13 @@
   },
   {
     "name": "pipewire",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "314967e575a99de4232b28f71df2ea79f5ab333b2a99cc6c86499c0d0b354f06",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "73df1b6cd305b25c771c73300920b98bc3a54b44b31d1f8125fcb46a042ca43c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
       "dbus",
       "libdbus-1.so=3-64",
@@ -71361,14 +71361,14 @@
   },
   {
     "name": "pipewire-alsa",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "fb850463beb8a836c006634a5c2652cf690e554ceba273c38040c4353c7e5a6e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-alsa-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "7b5bfd5b81924d975b49d8181c29d160eaec031e9c23ff6474b3d85e1a45adde",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-alsa-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "pipewire-session-manager"
     ],
     "optdepends": [],
@@ -71376,18 +71376,18 @@
   },
   {
     "name": "pipewire-audio",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "dc6022844cbd14296478e85bc14d5caf212f4a052c3ac964d0a60c4e2bb956c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-audio-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "ab53b93c9e970a565f41ece3d3c73fc866e371a85579b618d34e42f95251cfc3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-audio-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "ladspa-host",
       "lv2-host"
     ],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire=1:1.6.9-1",
+      "pipewire=1:1.6.11-1",
       "alsa-card-profiles",
       "alsa-lib",
       "libasound.so=2-64",
@@ -71449,16 +71449,16 @@
   },
   {
     "name": "pipewire-ffado",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "3cf9ac6364f73f225ad05e1d45f8cba5852a6fc3b0503ca0a0fc68e130a03329",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-ffado-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "2a60acf6da10c6a983218b29947c9954de68c7448a5eec99463a7bca3ff908a2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-ffado-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "libffado",
       "libffado.so=2-64"
@@ -71468,10 +71468,10 @@
   },
   {
     "name": "pipewire-jack",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "6ff2d9952d6da6e787ad4d80b53cd8f28cf8f507c43443e940e528b9ec812f78",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-jack-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "073b22022b9227f535ea59a0042010f8bfa93358cc538abab5e80da4ebbda49a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-jack-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "jack",
       "libjack.so=0-64",
@@ -71479,10 +71479,10 @@
       "libjackserver.so=0-64"
     ],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "pipewire-session-manager",
       "sh"
@@ -71498,16 +71498,16 @@
   },
   {
     "name": "pipewire-jack-client",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "f689df4edfa029c947cd026b77b0f8470c62cf9318c1b3741240959defcd0c5f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-jack-client-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "6be66c370a290c457b324f20479a30832403221c1af9bd969f8f0c7658fdfff7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-jack-client-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "dbus",
       "libdbus-1.so=3-64",
       "glibc",
@@ -71522,13 +71522,13 @@
   },
   {
     "name": "pipewire-libcamera",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "13caf0473ff4146cb9d8bdd207da2646015b4ec0b97bd95d85d6745f6a342145",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-libcamera-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "dddb38f4661c7900f29c877602cffde404a7d815e2cbcfe9f05f0ddb415f0db1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-libcamera-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "pipewire=1:1.6.9-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "libcamera",
       "libcamera-base.so=0.7-64",
@@ -71563,16 +71563,16 @@
   },
   {
     "name": "pipewire-netjack2",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "75b6ab30dff3b5e9454508bec84a9de3b26634a85d0214414467017b1090f8a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-netjack2-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "ecfc742f7bd54ce1f005f0eed87f85c671ba06b528b2438f39db251858f1cc99",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-netjack2-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "opus",
       "libopus.so=0-64"
@@ -71596,18 +71596,18 @@
   },
   {
     "name": "pipewire-pulse",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "f3d7d1d52bbbb1e61494dd9558be140e86d59f71b527f5c3246e94d976bf4717",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-pulse-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "bcd28d3d8ea410d087f2b5fbddd9f0023e5266175ad260e4836e9c55f4cb07d2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-pulse-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "pulse-native-provider"
     ],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "avahi",
       "libavahi-client.so=3-64",
       "libavahi-common.so=3-64",
@@ -71660,16 +71660,16 @@
   },
   {
     "name": "pipewire-roc",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "2071adba50f03dae876e7894caf6f3a3a75b1671f70cfa1da554773329649f8d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-roc-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "49710e9b09b01c57103dc187e49a88f7da98026a16caff030a99899c0fd8caac",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-roc-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "libgcc",
       "roc-toolkit",
@@ -71680,10 +71680,10 @@
   },
   {
     "name": "pipewire-session-manager",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "40b5d01618104c630d481387d363d4448966ed6e387b8c2150f3f48888012648",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-session-manager-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "b57306f69ae087eaab987076d0e7166e7a59f5cc3d1fd4bdc25e2ef68afc7131",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-session-manager-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "wireplumber"
@@ -71693,29 +71693,29 @@
   },
   {
     "name": "pipewire-system-services",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "702e4b42139e7a7d2dc9e4eaf1f3b759cbfbbdacc157d992851d6ba45d58449a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-system-services-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "38085fdb0a681a772a6ba8dcfabb1c221a8f49a386f642936c35a725d938f7dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-system-services-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "pipewire-pulse=1:1.6.9-1",
-      "pipewire=1:1.6.9-1"
+      "pipewire-pulse=1:1.6.11-1",
+      "pipewire=1:1.6.11-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "pipewire-v4l2",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "e9f5e5fee999e61db80f3f959cdb07ae7df5390b5994692734a997e9fe3cd932",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-v4l2-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "612f65ef40928084fbd4ea76c14463faf5ca6be290469c2f66137986586bed91",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-v4l2-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire=1:1.6.9-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "pipewire-session-manager",
       "sh"
@@ -71725,16 +71725,16 @@
   },
   {
     "name": "pipewire-x11-bell",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "1a323d492f959685eb30985a3353e97798d6bc3beeb6a7088431f9e8dd03f219",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-x11-bell-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "f957bf0b389a1c936ca3be3ede75bc05e907f4c3d2875516714164ebd18e3b56",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-x11-bell-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "glibc",
       "libcanberra",
       "libcanberra.so=0-64",
@@ -71746,16 +71746,16 @@
   },
   {
     "name": "pipewire-zeroconf",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "9a4c1dd4022bc2b726ffe43d3c54abd88cf3e53fcbc1a5070fdaacf73bfc792b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-zeroconf-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "ef1bc52a3017bb379feb8b5e684e73ec56d5ebf123296dd2edf55dd47353e4bc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pipewire-zeroconf-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpipewire=1:1.6.9-1",
+      "libpipewire=1:1.6.11-1",
       "libpipewire-0.3.so=0-64",
-      "pipewire-audio=1:1.6.9-1",
-      "pipewire=1:1.6.9-1",
+      "pipewire-audio=1:1.6.11-1",
+      "pipewire=1:1.6.11-1",
       "avahi",
       "libavahi-client.so=3-64",
       "libavahi-common.so=3-64",
@@ -75207,10 +75207,10 @@
   },
   {
     "name": "pulse-native-provider",
-    "version": "1:1.6.9-1",
+    "version": "1:1.6.11-1",
     "origin": "artix-world",
-    "sha256": "75b80e55aabc9a3ec1688e288b91c7d0148651197fc9027550eb4b3ad68c3a78",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulse-native-provider-1:1.6.9-1-x86_64.pkg.tar.zst",
+    "sha256": "7a7ae464758958512f090fb3d947eef320ee08a287c4f5b4ca385489969e6b06",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pulse-native-provider-1:1.6.11-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pipewire-pulse"
@@ -81016,10 +81016,10 @@
   },
   {
     "name": "python-flake8",
-    "version": "1:7.4.1-1",
+    "version": "1:7.5.0-1",
     "origin": "artix-world",
-    "sha256": "eefce02a19b7333ab8bfb44be4341e242486ce0c534c68c10e9060d9c9787c43",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-flake8-1:7.4.1-1-any.pkg.tar.zst",
+    "sha256": "157ca7f66df6c64f38be993da6ee4447853798c92e2b9b2d7b23758ffd482189",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-flake8-1:7.5.0-1-any.pkg.tar.zst",
     "provides": [
       "flake8"
     ],
@@ -126885,10 +126885,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261027070632-1",
+    "version": "20261028111806-1",
     "origin": "artix-world",
-    "sha256": "0c47ec7e4f08f7fae4888984d74ebe39f13c3e927fdd05c46a80c894a20c9ce9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261027070632-1-any.pkg.tar.zst",
+    "sha256": "2daf727a5d850e53b2b991048d89a9aed75df5667748d29684a8752cff0de93e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261028111806-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -133909,10 +133909,10 @@
   },
   {
     "name": "xorg-server",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "5a85201c3177100b2d598b3002508e9d409d7c958c8567a0766dce3146a86dfa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "b7d061b06a06fcfc3d52a55a1b9175058cfecc06f34d5f3632607676a5267f96",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [
       "X-ABI-VIDEODRV_VERSION=25.2",
       "X-ABI-XINPUT_VERSION=24.4",
@@ -133951,10 +133951,10 @@
   },
   {
     "name": "xorg-server-common",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "1e06c1d98bc3ba0286a04ccff9bbab53b5673817f4c32c2862902b60853f0393",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-common-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "a65c9395e695ec6b4f9cc3c449d0ce5a53c5ac91dff6f482dbb55ceaefd425de",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-common-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "xkeyboard-config",
@@ -133966,10 +133966,10 @@
   },
   {
     "name": "xorg-server-devel",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "b2268f33342c030146de89e0da75773079c16fd6a8386b99ffef467d97218927",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-devel-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "82e1614724ab7aaf424d4815076e563374b24872aabc14d1bc251cc0c28a9c3d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-devel-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "xorgproto",
@@ -133983,10 +133983,10 @@
   },
   {
     "name": "xorg-server-src",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "e707d7f911b9a864df2700fec302fa2e8019079d97dcdf59d9ebe9dbca26d92c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-src-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "e0aa288b7da158fddfe72ab61bd5b096a4f84e132e202b2a7b249e1945e03ff4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-src-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -134037,10 +134037,10 @@
   },
   {
     "name": "xorg-server-xephyr",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "b0cbd0a14e9a1674c4f9ee6fd3ed27d9b1979168dd5763c7326c89e13ae92f1a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xephyr-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "888f10e21fbfac6f81ca0136cc9f33a048ae407fcd694cae67ac624717f710f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xephyr-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
@@ -134068,10 +134068,10 @@
   },
   {
     "name": "xorg-server-xnest",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "065cddef305d99bca99438ea2323a28807940fcd12aca0ff43074fac37d3cbbb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xnest-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "d6da79a336d875656a76bbe5d7e8ea44f77717c864be9e8d856bfd0c29ed9839",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xnest-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
@@ -134092,10 +134092,10 @@
   },
   {
     "name": "xorg-server-xvfb",
-    "version": "21.1.25-1.1",
+    "version": "21.1.25-2",
     "origin": "artix-world",
-    "sha256": "72a9cec54ed12b964588243b7566c8338064f07dd6bfad1d1d307255c730d33e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xvfb-21.1.25-1.1-x86_64.pkg.tar.zst",
+    "sha256": "361d51ae573c1e64c01f450bf4aed4fa44b10d28f1c650ce05a1f4827e5bccea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-xvfb-21.1.25-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxfont2",
