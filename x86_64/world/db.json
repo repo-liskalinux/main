@@ -3657,10 +3657,10 @@
   },
   {
     "name": "aurorae",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "c115c57415aa3b7f2c92d4e2e4969d9e675470ca8fe31d4326faab9fca2bd73a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aurorae-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6c767ea9ad38c4b4b83dd17b95b8f26231cd4a577d2da93a1acf2f1341dd8c3c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aurorae-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -58359,10 +58359,10 @@
   },
   {
     "name": "mtools",
-    "version": "1:4.0.49-1",
+    "version": "1:4.0.50-1",
     "origin": "artix-world",
-    "sha256": "a5938fd01be7ab8ff84cb6e654eeb3462f3a005b1a1abf3ada2d90ef3139737e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mtools-1:4.0.49-1-x86_64.pkg.tar.zst",
+    "sha256": "6cb622682f75262c5f49946ec776144e9796810fe6ee41c6d4c09e4ee85e789b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mtools-1:4.0.50-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -62400,10 +62400,10 @@
   },
   {
     "name": "opencolorio",
-    "version": "2.5.2-1",
+    "version": "2.6.0-1",
     "origin": "artix-world",
-    "sha256": "8c0465c635b79f699f4e3ac652473ba68a5b46be699805a4b0955b4e7191f5b7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencolorio-2.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "626fef38068143457e2d808ccaefa8dab55a33caab4b415c408ec471afcd9910",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencolorio-2.6.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "freeglut",
@@ -62658,10 +62658,10 @@
   },
   {
     "name": "openexr",
-    "version": "3.5.2-1",
+    "version": "3.5.3-1",
     "origin": "artix-world",
-    "sha256": "ba3451204a344c673201c20d8f418f7c8d4936e55df4958566f30a3c9ad78571",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openexr-3.5.2-1-x86_64.pkg.tar.zst",
+    "sha256": "92a487e0bb80e5642ffa4fdee1b45951da0be51502d02fe56d42a0a6d0428622",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openexr-3.5.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -62812,10 +62812,10 @@
   },
   {
     "name": "openimageio",
-    "version": "3.1.12.1-7",
+    "version": "3.2.1.2-1",
     "origin": "artix-world",
-    "sha256": "7aed57cccfd34950994240b398bf0bb2357e6521598740a015ff52f9edbd505a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openimageio-3.1.12.1-7-x86_64.pkg.tar.zst",
+    "sha256": "3c375f979fc26d7fbe7767f4e3c863d2804976c48218985851fac61dd2ab1e4e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openimageio-3.2.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openexr",
@@ -62829,6 +62829,7 @@
       "libraw",
       "libwebp",
       "pugixml",
+      "libjxl",
       "libheif",
       "freetype2",
       "libstdc++",
@@ -62837,7 +62838,7 @@
       "libgcc"
     ],
     "optdepends": [
-      "qt5-base: iv image viewer",
+      "qt6-base: iv image viewer",
       "python: bindings support"
     ],
     "conflicts": []
@@ -63298,10 +63299,10 @@
   },
   {
     "name": "openshadinglanguage",
-    "version": "1.15.7.0-1",
+    "version": "1.15.7.0-2",
     "origin": "artix-world",
-    "sha256": "5d2a1ded775de847225c2a618851ac962b7e8cd024fc9b70c3e6dec22af05bdd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openshadinglanguage-1.15.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "011d79f28bebe61270df91208190489b8047321f29df64fa20f74e75b2e260ea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openshadinglanguage-1.15.7.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openimageio",
@@ -63601,10 +63602,10 @@
   },
   {
     "name": "opensubdiv",
-    "version": "3.8.0-1",
+    "version": "3.8.0-2",
     "origin": "artix-world",
-    "sha256": "6519b61cb95e72f48cde4e3b77c52ad22c57a394db8c035e24fc16124203d837",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensubdiv-3.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2ddc39a94371a2718d6531d0d89571b107be07f48bc2a4caf9df2a9c1a914cce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensubdiv-3.8.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ptex",
@@ -126621,10 +126622,10 @@
   },
   {
     "name": "usd",
-    "version": "26.08-4",
+    "version": "26.11.1-3",
     "origin": "artix-world",
-    "sha256": "6bdc7eb41fa23c1dbc3793f1f1843f826768a8b5229f743ea1da7f780178229f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usd-26.08-4-x86_64.pkg.tar.zst",
+    "sha256": "a3bd380cf4a73efe593e0e8fe771d5845e4dc76ce37bc05679d677efa769c11e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usd-26.11.1-3-x86_64.pkg.tar.zst",
     "provides": [
       "usd-extras"
     ],
