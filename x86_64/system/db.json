@@ -978,10 +978,10 @@
   },
   {
     "name": "device-mapper",
-    "version": "2.03.43-2",
+    "version": "2.03.44-1",
     "origin": "artix-system",
-    "sha256": "dfa5047bcd08450a88435bb2d95f64cc7f23098a6af356ab8de07a8311a4862e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/device-mapper-2.03.43-2-x86_64.pkg.tar.zst",
+    "sha256": "53b8bf61a61a32bd12145a47a9a2cbacc0a56bcc4a4127de18f5ba1b43f0e26e",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/device-mapper-2.03.44-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdevmapper.so=1.02-64",
       "libdevmapper-event.so=1.02-64"
@@ -992,7 +992,7 @@
       "libgcc",
       "libgcc_s.so=1-64",
       "libudev",
-      "libudev.so=1-64"
+      "libudev.so"
     ],
     "optdepends": [],
     "conflicts": []
@@ -1332,10 +1332,10 @@
   },
   {
     "name": "egummiboot",
-    "version": "262.1-2",
+    "version": "262.1-3",
     "origin": "artix-system",
-    "sha256": "864bd3ff2b241708f180423db8175b5aa7fa4d0c811b88704a7b474e8645b1ff",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/egummiboot-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "52f9f0c6018f3e282ca37cd8a847912ed538a478441125302af1f9790bb367de",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/egummiboot-262.1-3-x86_64.pkg.tar.zst",
     "provides": [
       "gummiboot"
     ],
@@ -1457,10 +1457,10 @@
   },
   {
     "name": "eshutdown",
-    "version": "262.1-2",
+    "version": "262.1-3",
     "origin": "artix-system",
-    "sha256": "db80e01063093b79349297dec553c4afa9235d23adb955d6cbd2a3638fffc5af",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eshutdown-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "0ed6cd78db6053d4e45012c676eea015decd56798deda10466bfb557f785042a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eshutdown-262.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1471,10 +1471,10 @@
   },
   {
     "name": "esysusers",
-    "version": "262.1-2",
+    "version": "262.1-3",
     "origin": "artix-system",
-    "sha256": "fcb05c31b5424c9d329712064dd02f8cf46b904d5b69685dcccfaf3f9d221aed",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/esysusers-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "469a410cbc13d10ae0dfa27729c47664a0eda5beaff54ff88d9a0d35671f19de",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/esysusers-262.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1485,10 +1485,10 @@
   },
   {
     "name": "etmpfiles",
-    "version": "262.1-2",
+    "version": "262.1-3",
     "origin": "artix-system",
-    "sha256": "5220e708a262615ea1570d33eec30af0182d65bcb77fcd2e8bc4d6e5105a9962",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/etmpfiles-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "7c36147c181ef65ae5e7b3eb30aa7bba6a6e18b15151d7a20113a0cddd4a9115",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/etmpfiles-262.1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1521,10 +1521,10 @@
   },
   {
     "name": "eukify",
-    "version": "262.1-2",
+    "version": "262.1-3",
     "origin": "artix-system",
-    "sha256": "82ad7da3f20f0e0a6b0a2ee6769010bb11bbee1ce7e9c7cbb62023dc42d686c8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eukify-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "2fa374cebed957b83fe96a1dce8745bf323768ea3fdfaad8e1d0bd053767d128",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eukify-262.1-3-x86_64.pkg.tar.zst",
     "provides": [
       "ukify"
     ],
@@ -2093,10 +2093,10 @@
   },
   {
     "name": "gnupg",
-    "version": "2.4.9-3",
+    "version": "2.4.9-4",
     "origin": "artix-system",
-    "sha256": "464fd6ced3d6cf481138bbb381590f4058c918e33b9134743f961f40ece5996d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/gnupg-2.4.9-3-x86_64.pkg.tar.zst",
+    "sha256": "6ea67d3f0bf8c38bd3a80eb0e976a9422011fd082a16cb3ecbc009db87934e5b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/gnupg-2.4.9-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -4820,14 +4820,14 @@
   },
   {
     "name": "lvm2",
-    "version": "2.03.43-2",
+    "version": "2.03.44-1",
     "origin": "artix-system",
-    "sha256": "48d48cbbab26dee0f96bd893afb4e7640761e26d4d5552c113e65e9a266b62ea",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lvm2-2.03.43-2-x86_64.pkg.tar.zst",
+    "sha256": "74c6212660503b1006292fed80a5939cb70655150856b8ea7711e54e01c37b71",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lvm2-2.03.44-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
-      "device-mapper>=2.03.43",
+      "device-mapper>=2.03.44",
       "glibc",
       "libaio",
       "libaio.so=1-64",
@@ -6058,10 +6058,10 @@
   },
   {
     "name": "ppp",
-    "version": "2.5.4-1",
+    "version": "2.5.4-2",
     "origin": "artix-system",
-    "sha256": "8d20122272644859bb88dcfea206bb82cba9fe72b6122e28ee4a5cc9bd8abba7",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ppp-2.5.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d51a96e69f9ffe50f24036bcd6a9522e5d4d6371da791b90e53444afdbe0d790",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ppp-2.5.4-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",

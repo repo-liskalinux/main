@@ -4528,14 +4528,14 @@
   },
   {
     "name": "element-desktop",
-    "version": "1.12.18-3",
+    "version": "1.12.25-1.3",
     "origin": "artix-galaxy",
-    "sha256": "9b446b2b2ba1099cf0f5c09c462b2da6957f5eb289b7e5a56268b583d78e3a78",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/element-desktop-1.12.18-3-x86_64.pkg.tar.zst",
+    "sha256": "abfa36d882e101de1a5d53e9abb508fc584f19648331994bd7695a92a84dd9e4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/element-desktop-1.12.25-1.3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "element-web=1.12.18",
-      "electron41",
+      "element-web=1.12.25",
+      "electron42",
       "libsecret"
     ],
     "optdepends": [],
@@ -4543,10 +4543,10 @@
   },
   {
     "name": "element-web",
-    "version": "1.12.18-3",
+    "version": "1.12.25-1.3",
     "origin": "artix-galaxy",
-    "sha256": "0cc1e8a21d9a9dfe6873953bb010f58092f50d41f7c5de63911bf511cd9b8fa6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/element-web-1.12.18-3-x86_64.pkg.tar.zst",
+    "sha256": "ea5430e7d8bd4385911055d77c7e97bb04aafeb22fa1c6a35f796c5ecf962714",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/element-web-1.12.25-1.3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -22483,10 +22483,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.17-1",
+    "version": "0.24.18-1",
     "origin": "artix-galaxy",
-    "sha256": "c8bb90f96d79d580666568178fb997c771f735dbb28b68b083d872d7ed83d43c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.17-1-x86_64.pkg.tar.zst",
+    "sha256": "8f5027e013145e255d49ed9ff04fa94f3efddc421b077bbfa77de65c56c8f9ad",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
