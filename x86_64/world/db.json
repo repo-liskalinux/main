@@ -5443,10 +5443,10 @@
   },
   {
     "name": "bluedevil",
-    "version": "1:6.8.1-1",
+    "version": "1:6.8.2-1",
     "origin": "artix-world",
-    "sha256": "f63c095e3e09b528058b6ca0576424764b2f0d050a11ee2cbe251a2bb9b9f6a4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bluedevil-1:6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e52d75a71458411e13b7ac2eb4220be1a228e10f63a1d625fa5c06993b63542a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bluedevil-1:6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bluez-qt",
@@ -6404,10 +6404,10 @@
   },
   {
     "name": "breeze-grub",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "76f3fdf5485444f397655628467f5402b13b45824c526ee812ed420e91dd9575",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breeze-grub-6.8.1-1-any.pkg.tar.zst",
+    "sha256": "4fd549940533c117a6c2e2678e5110897d15813be3a58f7a3b20aeb6507bd4fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breeze-grub-6.8.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "grub"
@@ -6417,10 +6417,10 @@
   },
   {
     "name": "breeze-gtk",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "975e3245c98c40c47780f62257859477eaa6a157a7519f76e19764cf93c6df4b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breeze-gtk-6.8.1-1-any.pkg.tar.zst",
+    "sha256": "c7d8076ee258aef143ee41c6c104ae67d03a15cdc1a877904fc27fb1ac55eb1c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breeze-gtk-6.8.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -6442,10 +6442,10 @@
   },
   {
     "name": "breeze-plymouth",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "9805ad8ba86af696b2a1001f80ca1fcb004aa8cf32f6c8d9384ffac49050dd25",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breeze-plymouth-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "cd826f578d12cea266d716efc54b423275c0024dc1902ede9116d9e4f1910ab2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/breeze-plymouth-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -8572,12 +8572,12 @@
   },
   {
     "name": "coffeescript",
-    "version": "2.7.0-2",
+    "version": "2.7.1-1",
     "origin": "artix-world",
-    "sha256": "9ae295c48e46a5847aca715271f2d023615f5e8e439ac12787ba3027f72384fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/coffeescript-2.7.0-2-any.pkg.tar.zst",
+    "sha256": "93bf8cbb456536c8ff1fc89db301b8bea9abb5e534eb2ea2fecfab7f01def998",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/coffeescript-2.7.1-1-any.pkg.tar.zst",
     "provides": [
-      "coffee-script=2.7.0"
+      "coffee-script=2.7.1"
     ],
     "depends": [
       "nodejs"
@@ -11475,10 +11475,10 @@
   },
   {
     "name": "discover",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "4930d9c6613b9add1abf37809157429271975bcef5275bc1d98e60001b009041",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/discover-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e2536379d4088f9b5995112e09ae818aae308062a6434decac23179038b6f694",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/discover-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream-qt",
@@ -13429,12 +13429,13 @@
   },
   {
     "name": "eclipse-ecj",
-    "version": "4.40-1",
+    "version": "4.41-1",
     "origin": "artix-world",
-    "sha256": "4235785f03ff2d5825bd6757fc10fb61b95fab2d2aefea28d84d50b295f3f238",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eclipse-ecj-4.40-1-any.pkg.tar.zst",
+    "sha256": "27acc948e29575926aaeacac1a1727cfd36eb002ccd14a374a75d3302a8dc2d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eclipse-ecj-4.41-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "bash",
       "java-runtime"
     ],
     "optdepends": [],
@@ -17136,10 +17137,10 @@
   },
   {
     "name": "flatpak-kcm",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "01c46234a52196484272c28a6a50918e1c33758b71c91cdca4e4fdf4a6621ab2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-kcm-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "034c94b8a1fa271e3659aed97b2b8be8a810d74f28c0a131fb66a264f3700252",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/flatpak-kcm-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "flatpak",
@@ -19438,10 +19439,10 @@
   },
   {
     "name": "getdns",
-    "version": "1.7.3-2",
+    "version": "1.7.3-3",
     "origin": "artix-world",
-    "sha256": "532ed3a548dcf0ea6e3c0bf7b6b654b3e4f6e5bea0370bca83453a1e24467813",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/getdns-1.7.3-2-x86_64.pkg.tar.zst",
+    "sha256": "91a14be0baee6846c4e9aa4922a1c2d3a40d7874242f5a53321f382bb7461b4e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/getdns-1.7.3-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libbsd",
