@@ -64972,14 +64972,16 @@
   },
   {
     "name": "pbzip2",
-    "version": "1.1.13-5",
+    "version": "1.1.13-6",
     "origin": "artix-world",
-    "sha256": "16a24cb9ab5a2a31dde5adc618c7b2893b591572ed9e8b2f3054cee5ac13c5f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pbzip2-1.1.13-5-x86_64.pkg.tar.zst",
+    "sha256": "d59eb8f2ad681740b4df66bda0209e45a6dc23152fffc46e896440942d96711d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pbzip2-1.1.13-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "bzip2",
-      "gcc-libs"
+      "libgcc",
+      "libstdc++"
     ],
     "optdepends": [],
     "conflicts": []
