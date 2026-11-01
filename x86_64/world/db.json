@@ -6185,10 +6185,10 @@
   },
   {
     "name": "bootconfig",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "38da0d61e31aacb4bc27adc3fd917554578245b9c850ebc6ca3bf8dc964a627a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3e1974d4571e7c18596ea442eb27fcf2e7e8cdcf6a901ce4da27ac2d3bfad71c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -6262,10 +6262,10 @@
   },
   {
     "name": "bpf",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "d8b5e2570620bedd423615ecf7f275b76eb6c22a8ff897db4be6a40168871aa6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "54fc0f0817819a3f7c069c6df5ba1daa75ad954cd28efa8da0f1874caac41c12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9700,10 +9700,10 @@
   },
   {
     "name": "cpupower",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "4ae5bfb7e9a8c695d64c8cd057747b5dd5c91e43e83d5ce78d84275af44a08ef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "214d5666f9752f7feacf29348dd209b18c896ba0acf9cd328fe6dec3896b53fa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11774,10 +11774,10 @@
   },
   {
     "name": "dns-lexicon",
-    "version": "3.25.2-2",
+    "version": "3.26.0-1",
     "origin": "artix-world",
-    "sha256": "e7d728f25b6e1c10a904e8336cb7b23576d0d1f20bc520b8b5b0209dc48f67d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dns-lexicon-3.25.2-2-any.pkg.tar.zst",
+    "sha256": "f8249dc60c95fe7094cb723ba862accd1725966e7b454e732f7968e8950cc082",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dns-lexicon-3.26.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python-beautifulsoup4",
@@ -11786,7 +11786,6 @@
       "python-requests",
       "python-requests-unixsocket",
       "python-tldextract",
-      "python-importlib-metadata",
       "python-pyotp",
       "python-dnspython"
     ],
@@ -11794,7 +11793,7 @@
       "python-boto3: for Route53 support",
       "python-localzone: for localzone support",
       "python-softlayer: for SoftLayer support",
-      "python-zeep: for Gransy support"
+      "python-zeep: for Gransy SOAP support"
     ],
     "conflicts": [
       "python-lexicon"
@@ -15480,10 +15479,10 @@
   },
   {
     "name": "exim",
-    "version": "4.100-1",
+    "version": "4.100.1-1",
     "origin": "artix-world",
-    "sha256": "c5a7815f5d17f2d9b11da5484e6fbe2fab0f6c27ad64a2e765dc20e38c6668a1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/exim-4.100-1-x86_64.pkg.tar.zst",
+    "sha256": "6aa302c8ab303a6e5a69b84a60802bc5eb410b7669defc37a92e35a0ff834784",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/exim-4.100.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "smtp-server",
       "smtp-forwarder"
@@ -20335,10 +20334,10 @@
   },
   {
     "name": "gitea",
-    "version": "28.2.0-1",
+    "version": "28.3.0-1",
     "origin": "artix-world",
-    "sha256": "8ebe1016e28fe40c9dfa77f5e215d3f4e27fec9a08b319a0c314e15fc24c5316",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-28.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3e48740f2378116ca99095e84c693d6a1136b5b18afc0fa808ec475fde96efaa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-28.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git",
@@ -20413,10 +20412,10 @@
   },
   {
     "name": "gitea-runner",
-    "version": "5.2.3-1",
+    "version": "5.2.4-1",
     "origin": "artix-world",
-    "sha256": "51519df09e2b5d9c37ff5b8058e445e4b2cb10634391551952994ea399877747",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-5.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "09e6d60070776e539dedc15c4af68a7365e58bcf5d6dd7d041769e9dac9b1d35",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-runner-5.2.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "act_runner"
     ],
@@ -28743,10 +28742,10 @@
   },
   {
     "name": "hyperv",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "e4516d8fa58ed18fae71599d33c98d63b9a3baccd7320bedae46e39814b90256",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "7661e78bbbe3d45959d5ad83bea577148d7bb930389344bbbf599604c0e8f162",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -30590,10 +30589,10 @@
   },
   {
     "name": "intel-speed-select",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "827c5eb862d84d295b9425d937edf458025295e2267168ae11183163007699e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "fe3c992e951f9d01b6ab50663c6f9c238955724186f0efb0c88423d34b6f2785",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnl"
@@ -34454,10 +34453,10 @@
   },
   {
     "name": "kcpuid",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "fc02d87ae162fc9dcf1b3d6c021bc4c942fbef3f69824ec9f16d6cb9e541c173",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a5beb076c5b64f8f1544a3357bab69510dea798f5bbed0aaac3a07243cf1c943",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -41170,10 +41169,10 @@
   },
   {
     "name": "kup",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "62872060f020652c5c105e6d42ce5724ae1de82411f4219f1632c259d81aa17b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kup-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "85a536bf11fa8caa372bdbb3afa08a57f86692c32d8d84152a40e37b566b3e76",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kup-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -43676,10 +43675,10 @@
   },
   {
     "name": "libcupsfilters",
-    "version": "2.2.1.r32.gd49e9284-1",
+    "version": "2.2.1.r57.g9fcc4bf4-1",
     "origin": "artix-world",
-    "sha256": "1e28089d6762ae2a340735ab43d7ee71976612e31edd4cc5f8299cd18b2cd284",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcupsfilters-2.2.1.r32.gd49e9284-1-x86_64.pkg.tar.zst",
+    "sha256": "910506fe757b51ad302a1cad0462c505aa0274d0eb90711ec4d498f7f965e86e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcupsfilters-2.2.1.r57.g9fcc4bf4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libcups",
@@ -52343,10 +52342,10 @@
   },
   {
     "name": "linux-tools-meta",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "926e398590be359f0405e669970b5c8220cca0f718cce23c90e19b6ae27f3cb8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3061fc149092a2b3aea4b51c9836eae8b2490f570f24016f256d019f9b7fabe3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bootconfig",
@@ -65384,10 +65383,10 @@
   },
   {
     "name": "perf",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "ac0d6b897f7737d4cd13d94dc2c86726b774564c0e5bf5b7bb1f22dc7361b190",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "da7b26fcb5fbe515d1c4387f17db547448dcbda9038b0dd65855667188a88575",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72950,10 +72949,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.15.0-1",
+    "version": "12.16.1-1",
     "origin": "artix-world",
-    "sha256": "56064efca39d3227e31b438a9423e5660b44490524fb39f99238ee92aca2fcb9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ce50c5cb6520a2bf4469c573d7c2d6bdcb9caae5c5ec2a665430a16a891fc48c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.16.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -105159,10 +105158,10 @@
   },
   {
     "name": "ruby-async-http",
-    "version": "0.98.0-1",
+    "version": "0.99.0-1",
     "origin": "artix-world",
-    "sha256": "3d662c8261f03750b0b0c66caf31c44b6a0a400947b28f57bcacc6b867665b3d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-async-http-0.98.0-1-any.pkg.tar.zst",
+    "sha256": "543b8e16f187cf8d16ac2b683b52582985666a0242c02e7c22b51c2df30c45b0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-async-http-0.99.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -105598,10 +105597,10 @@
   },
   {
     "name": "ruby-character_set",
-    "version": "1.8.0-3",
+    "version": "1.9.0-1",
     "origin": "artix-world",
-    "sha256": "8ffc26964987bed2fad1729d6dced5a31e76b539143d607bb70ca5b11b551041",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-character_set-1.8.0-3-x86_64.pkg.tar.zst",
+    "sha256": "db08a7387f474a8918fbcae58345fcd4aa6a964304c7f119b94c5175c770510d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-character_set-1.9.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -105679,10 +105678,10 @@
   },
   {
     "name": "ruby-connection_pool",
-    "version": "2.5.0-1",
+    "version": "2.5.3-1",
     "origin": "artix-world",
-    "sha256": "defc26748e7a7791ed50697d83c18a605e34f2ef01337f572b50da57ac54bc47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-connection_pool-2.5.0-1-any.pkg.tar.zst",
+    "sha256": "e6d79a31852bf8d710256ea3d553f2c1e1084ea7007ef94cacef5087decc886c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-connection_pool-2.5.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -105764,10 +105763,10 @@
   },
   {
     "name": "ruby-cucumber",
-    "version": "11.1.1-1",
+    "version": "12.0.1-1",
     "origin": "artix-world",
-    "sha256": "fac8e724cd821138ec24d1d3e29098b48f6f3f92a16b965cdfcdf3ae5f10f450",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-11.1.1-1-any.pkg.tar.zst",
+    "sha256": "6d8dfd58b4650afdbdaa3181465591aba8e363e794ca06c16ee1f163b13e0a06",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-12.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -105779,6 +105778,7 @@
       "ruby-cucumber-gherkin",
       "ruby-cucumber-html-formatter",
       "ruby-cucumber-messages",
+      "ruby-cucumber-query",
       "ruby-diff-lcs",
       "ruby-logger",
       "ruby-mime-types",
@@ -105870,6 +105870,20 @@
     "provides": [],
     "depends": [
       "ruby"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "ruby-cucumber-query",
+    "version": "16.1.1-1",
+    "origin": "artix-world",
+    "sha256": "c29110798fa56d8d8bb44dafe02dba1e89a439b126e5199f45d83bc76a806e41",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-query-16.1.1-1-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "ruby",
+      "ruby-cucumber-messages"
     ],
     "optdepends": [],
     "conflicts": []
@@ -106291,10 +106305,10 @@
   },
   {
     "name": "ruby-ffi-compiler",
-    "version": "1:1.4.2-1",
+    "version": "1:1.4.3-1",
     "origin": "artix-world",
-    "sha256": "e0519418e3dc07b0078ff728cb21d1ee7521b307b999345702a61fb3b9d23f35",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-ffi-compiler-1:1.4.2-1-any.pkg.tar.zst",
+    "sha256": "7316d31ca2e2542d0667a2ea32d952e4137496a8c30c0970c9afdcf4fc0239a9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-ffi-compiler-1:1.4.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby-ffi",
@@ -106539,10 +106553,10 @@
   },
   {
     "name": "ruby-io-stream",
-    "version": "0.13.2-1",
+    "version": "0.14.0-1",
     "origin": "artix-world",
-    "sha256": "505ebb43f8c51777c938886f7dff99179bbcd87c5f162e1ac6fd82c99d358301",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-io-stream-0.13.2-1-any.pkg.tar.zst",
+    "sha256": "eb01aa6a3228ba3406806d353207dc68124e81c9b9983c62964e646c6180dc41",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-io-stream-0.14.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -106682,10 +106696,10 @@
   },
   {
     "name": "ruby-leto",
-    "version": "2.1.0-2",
+    "version": "2.2.0-1",
     "origin": "artix-world",
-    "sha256": "75dcea092d223c647e345f3d104a3b5fcf18c6b670f5caa51568bf60f321a94b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-leto-2.1.0-2-any.pkg.tar.zst",
+    "sha256": "7981b4e852200786b43f75f5da075b75e5fd248c029a8bb5e0e48270d5000e66",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-leto-2.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -107045,10 +107059,10 @@
   },
   {
     "name": "ruby-mime-types-data",
-    "version": "3.2026.1020-1",
+    "version": "3.2026.1027-1",
     "origin": "artix-world",
-    "sha256": "7fa2fed025db18ebbd2e20ba8a04ff4b481153b3915329e975ed7d12df3eb4ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mime-types-data-3.2026.1020-1-any.pkg.tar.zst",
+    "sha256": "a69c2763dcd623eb55c380e3434d05b6a319f516212ab38b2027cc79290bf1f8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mime-types-data-3.2026.1027-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -107372,10 +107386,10 @@
   },
   {
     "name": "ruby-multi_test",
-    "version": "1.1.0-6",
+    "version": "2.0.0-1",
     "origin": "artix-world",
-    "sha256": "1a6af96760516bdc740a48e37994b9b18a598697228d8df37076b7e174013c57",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-multi_test-1.1.0-6-any.pkg.tar.zst",
+    "sha256": "d9599a42ad98814efae77baad5ac89d6fb52ee2571821baabb5dea69e68c72f9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-multi_test-2.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -108048,10 +108062,10 @@
   },
   {
     "name": "ruby-rack",
-    "version": "3.2.7-1",
+    "version": "3.2.8-1",
     "origin": "artix-world",
-    "sha256": "b6cea24fe532d1f9e2e5b3a6172340eb9314dbd3c7b82cded8c1b1b2ff72133a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-rack-3.2.7-1-any.pkg.tar.zst",
+    "sha256": "c1a826fe2b816fe9c726df35e2a03926827cf90893ac4149317d4a553a01d0ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-rack-3.2.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -109736,10 +109750,10 @@
   },
   {
     "name": "ruby-vcr",
-    "version": "6.4.0-1",
+    "version": "6.4.1-1",
     "origin": "artix-world",
-    "sha256": "361991b6b3c4fb17151785e6845ddefb0133ce5a68f47944cec4aa38ae5a06ef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-vcr-6.4.0-1-any.pkg.tar.zst",
+    "sha256": "811893dd87310ad2323f326040e31cadcc936b41f9721eb24b654b354ad406d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-vcr-6.4.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -124089,10 +124103,10 @@
   },
   {
     "name": "tmon",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "0ce22635879447f8e9ba4eecc33472fc4c0ac80b52b84f5d204bd223a14f14b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "4eabecd835dc7a2257a1d8975f0bdc4e99106e6b1e1a781e124042237a2abf13",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125318,10 +125332,10 @@
   },
   {
     "name": "turbostat",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "cc78d6c3306982d269cb033039221c5c725d17205540d58a68b353da1f4277e7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9b202722e93fa83e4c26f33908ef3acc2353ebd085851be304583714b47dfc32",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126576,10 +126590,10 @@
   },
   {
     "name": "usbip",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "7d439981bdddb1ae0db25534fec060a0a4e9cdc6dab2b1a4379bbfd33482923e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "8d2eb82fcdcfe7ca7062fb9364da7f7d3a0c5deb16dcc08d36ace620adb8b31d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126988,10 +127002,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261030132534-1",
+    "version": "20261101063057-1",
     "origin": "artix-world",
-    "sha256": "4cf3cc5b665be5d3827259a7c49a28ef7f00b98b6de51f187b97761ab9677b6b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261030132534-1-any.pkg.tar.zst",
+    "sha256": "7d3bf4569ae827aac054ebb323fd48811480e33d0d01003bdcf16d1a2c1281db",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261101063057-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -132365,10 +132379,10 @@
   },
   {
     "name": "x86_energy_perf_policy",
-    "version": "7.3-1",
+    "version": "7.3.1-1",
     "origin": "artix-world",
-    "sha256": "f5727ca5a08ffbea8bb0c2f778572f8cd646167850729d0b003049cfe0ec9ad3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c9ab891c4c4cfc1b1e6393755ba2b35ae0b39383ab42a0cfb4efaa139970f80c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -133370,10 +133384,10 @@
   },
   {
     "name": "xf86-video-qxl",
-    "version": "0.1.6-2.3",
+    "version": "0.1.6-3",
     "origin": "artix-world",
-    "sha256": "bb858b45afe74d3d6558985c78e65b11d8d6d67a4844f0f9628d2df901d46efd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xf86-video-qxl-0.1.6-2.3-x86_64.pkg.tar.zst",
+    "sha256": "a05da53ffdf303876f878b7070d68cb8a80691086138c335482bf6a9f8b6ae93",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xf86-video-qxl-0.1.6-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "spice",
@@ -133551,10 +133565,10 @@
   },
   {
     "name": "xkeyboard-config",
-    "version": "2.48-1",
+    "version": "2.49-1",
     "origin": "artix-world",
-    "sha256": "3b0563ff5e34b23ad7df834541992c52bf5fdf1c2709715169ece8b3b48d3812",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xkeyboard-config-2.48-1-any.pkg.tar.zst",
+    "sha256": "da8cf15df243b52efb8a0c347df4233c86944337ec2d6c70942f28cee2ef706b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xkeyboard-config-2.49-1-any.pkg.tar.zst",
     "provides": [
       "xkbdata"
     ],

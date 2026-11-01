@@ -4184,10 +4184,10 @@
   },
   {
     "name": "easyeffects",
-    "version": "8.3.0-1",
+    "version": "8.3.2-1",
     "origin": "artix-galaxy",
-    "sha256": "e20fd1b4be7de3438042c0a18af7dbaf7081166e5f519b29eb426552ce3704ca",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/easyeffects-8.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "024fb1ec3134df5112d0452913f30aeabeb6af1cfa2ce357eab036867a0f4305",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/easyeffects-8.3.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kirigami",
@@ -4257,10 +4257,10 @@
   },
   {
     "name": "efl",
-    "version": "1.28.1-4.1",
+    "version": "1.29.0-1",
     "origin": "artix-galaxy",
-    "sha256": "21b8af31a762dfc1cfa53450718d4a5bdc10e8d82622ce6e4bd88385009be72c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/efl-1.28.1-4.1-x86_64.pkg.tar.zst",
+    "sha256": "79c011d4d486bbee14aced1abdc18a7de84e422bacb9c31e94af162457467271",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/efl-1.29.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -4279,6 +4279,7 @@
       "libjpeg-turbo",
       "libpng",
       "libpulse",
+      "libpipewire",
       "libsndfile",
       "libtiff",
       "libunwind",
@@ -4298,6 +4299,7 @@
       "libxrender",
       "libxss",
       "libxtst",
+      "libxpresent",
       "lua52",
       "mailcap",
       "mesa",
@@ -4308,7 +4310,10 @@
       "ttf-font",
       "util-linux-libs",
       "wayland",
-      "zlib"
+      "zlib",
+      "libjxl",
+      "libheif",
+      "libavif"
     ],
     "optdepends": [
       "gst-plugins-base: Video and thumbnail codecs",
@@ -10651,10 +10656,10 @@
   },
   {
     "name": "json-schema-validator",
-    "version": "2.4.0-2",
+    "version": "2.4.1-1",
     "origin": "artix-galaxy",
-    "sha256": "039a5de9ff6a2d75f87dcdf97a6e8f013861bd831ecec2b901d5074e9d69bbc8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/json-schema-validator-2.4.0-2-x86_64.pkg.tar.zst",
+    "sha256": "9ac0ae3e1b5937a954ddd784944b0657c9f4cd564b8fe29a23b634a40b2d9760",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/json-schema-validator-2.4.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libnlohmann_json_schema_validator.so=2-64"
     ],
@@ -22927,10 +22932,10 @@
   },
   {
     "name": "neovide",
-    "version": "0.16.2-3",
+    "version": "0.17.1-1",
     "origin": "artix-galaxy",
-    "sha256": "a99cd89a87572f76249291415db0b7f4a3e1c37e3c99d3052c5224ec95d94ed3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/neovide-0.16.2-3-x86_64.pkg.tar.zst",
+    "sha256": "ada7d26e5b6657e558a601c9fd20bbe4d4a4630224f717f247c18391a65b7c65",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/neovide-0.17.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -22938,7 +22943,7 @@
       "fontconfig",
       "libfontconfig.so=1-64",
       "freetype2",
-      "libfreetype.so=6-64",
+      "libfreetype.so",
       "glibc",
       "hicolor-icon-theme",
       "libglvnd",
