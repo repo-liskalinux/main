@@ -49013,10 +49013,10 @@
   },
   {
     "name": "libraw",
-    "version": "0.22.2-1",
+    "version": "0.22.3-1",
     "origin": "artix-world",
-    "sha256": "035be9bdcf74ca6fec7d4981aab98b92a67c89e25e32dc47e12a3f5532097418",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libraw-0.22.2-1-x86_64.pkg.tar.zst",
+    "sha256": "cb6f14d467d7eb9817fe0c5729c8c0a7194efb0ef2bad65a02b61c51225f9d86",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libraw-0.22.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -56502,13 +56502,13 @@
   },
   {
     "name": "mesa",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "9c4d11823622182a9faecf67c0da3509616c25427f2c64d558adba952cd1d01e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mesa-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "bfcd024bca03686e90236e597be1707c148282069dc279404e086f076906c29e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mesa-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libva-mesa-driver=1:26.2.5-1",
-      "mesa-libgl=1:26.2.5-1",
+      "libva-mesa-driver=1:26.2.6-1",
+      "mesa-libgl=1:26.2.6-1",
       "libva-driver",
       "opengl-driver"
     ],
@@ -62301,10 +62301,10 @@
   },
   {
     "name": "opencl-mesa",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "ce66e6f874947e4b5d02d1ded12116654042ef8d5a61917949023bad1549b44d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-mesa-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "90153d7720d95b08761496961f304e3d0629f9f880e781ecbdf472aaacddee2a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-mesa-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],
@@ -101616,10 +101616,10 @@
   },
   {
     "name": "qt6-declarative",
-    "version": "6.12.0-2",
+    "version": "6.12.0-4",
     "origin": "artix-world",
-    "sha256": "d1e2e8bf0f1481e4752203d69282c9648581619c99fb97f544b106a6f5824e89",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-declarative-6.12.0-2-x86_64.pkg.tar.zst",
+    "sha256": "a5616a118ec0a3bc1d03913d78f5a4c0bf46f1812a1e0c260ee5b52835a05676",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-declarative-6.12.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130145,10 +130145,10 @@
   },
   {
     "name": "vulkan-asahi",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "c9a8152d1f02b07aa23490d0239ed9203db9e1cfec6813d50420fb12a208d786",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-asahi-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "ddd7f28c383d8e72bfab53682bfade588de66024043f7eaabea1514ebd11971e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-asahi-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130177,10 +130177,10 @@
   },
   {
     "name": "vulkan-broadcom",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "8b7e74179051c43d0ec419ca5187e497a61145ded8becde63431b842c239315e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-broadcom-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "7f137604dd8a859472f2da34f7acf092959bc94cc675e3b32da1832bdd4fc922",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-broadcom-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130209,10 +130209,10 @@
   },
   {
     "name": "vulkan-dzn",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "b504825230db4caf6b48c00cdaaf418327fe2691f32c24f669d42d5919ac1544",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-dzn-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "0f53c2a6eb689ceba6eb9d84431216af91e68134fabfa0c90167884d34b74b6e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-dzn-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130241,10 +130241,10 @@
   },
   {
     "name": "vulkan-freedreno",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "46af7dd1237f3a4b284ee0be862bc4beb1bfa9f40d125ae3f1c4c4f1de23ca31",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-freedreno-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "ee8fbaac6aa30f05326d37dfa0f354865fe4601dc10e0e3a70911839461de453",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-freedreno-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130273,10 +130273,10 @@
   },
   {
     "name": "vulkan-gfxstream",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "2e13d56f387ccbf0cbcfda891b3a3347c5cf16752940fa590af8217efc00d708",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-gfxstream-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "611df135073613f992bedff543269091e46b57b77d816d71d5cc2c891c72614a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-gfxstream-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130334,10 +130334,10 @@
   },
   {
     "name": "vulkan-intel",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "2724a6aee639c7e5a786cfadf511fca4734d3beec64badab63cda07d455a1f19",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-intel-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "f8864f1e4c29f52a31bacb9fb1406821a792195442eff4c0d79311b46c877356",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-intel-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130398,10 +130398,10 @@
   },
   {
     "name": "vulkan-mesa-implicit-layers",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "02767e03c8dbf1b266cd077804e0cbfc82d2d306942823d2a7f4dc59e9cb1a4f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-implicit-layers-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "5afb4337e01aa25c0d9318831fdeed959492c5cf79d080824f876a35ddc53d2e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-implicit-layers-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130416,10 +130416,10 @@
   },
   {
     "name": "vulkan-mesa-layers",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "80244c6ce1c6ff74ce1bacb7640e1d3929c30138b6c5d708ac1933ba7b5293ed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-layers-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "e5bdb4099c31667abef0ec1db11812704f6333df7ccd741e024aa9c1025ff462",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-layers-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130435,10 +130435,10 @@
   },
   {
     "name": "vulkan-nouveau",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "b4244a7a67edfd5c7b0b5509462692f11509d69ab9640d7b678d715e80384645",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-nouveau-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "86d271fb16f0d0528e6e71f88d7e62e081090279576e9cdb7523b8197cdc80e7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-nouveau-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130468,10 +130468,10 @@
   },
   {
     "name": "vulkan-panfrost",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "7e1f948530d59d5240cd1516ae83e908c7f6ad60393f6e663bcfcaaa9d025251",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-panfrost-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "e5be4c3380b2b6700bc8178e027662eb41d2ac414a00b3248ceb29bfd34c1bab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-panfrost-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130500,10 +130500,10 @@
   },
   {
     "name": "vulkan-powervr",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "2e89ac4b36e12e6c9b1682cc026ce0140c9c3af6b86b7c806ccbff56ecf4793d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-powervr-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "9a644f290caecf52c4457e8940123a1c4db54262e6019e8d4f55d2dd7d074a8d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-powervr-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130532,10 +130532,10 @@
   },
   {
     "name": "vulkan-radeon",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "5ffd0042450a40472d25333f31f90ca6f7cc0310022fa65a8cd291c1524e1a81",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-radeon-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "a2f08d0ee1a8acd439746fa97935f3e4d300cc808741b4634a003c8820af1139",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-radeon-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130566,10 +130566,10 @@
   },
   {
     "name": "vulkan-swrast",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "45652ab79cc6e258c2d044b5f51e9974f6606975605ba0837d2eaaaea00ad49c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-swrast-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "4b61d29b45630c0a1864f05c3440237019d47cbcee86b99e2ae64ecb6724dd6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-swrast-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -130650,10 +130650,10 @@
   },
   {
     "name": "vulkan-virtio",
-    "version": "1:26.2.5-1",
+    "version": "1:26.2.6-1",
     "origin": "artix-world",
-    "sha256": "a72e8b6d8e6e96cb1135887a6302c1adf63cce2666b32cfd31ad193887eef5ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-virtio-1:26.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "8d239b6257557f0079c3d237f63798416e008e5ec76330ea5c98f2197f691472",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-virtio-1:26.2.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
