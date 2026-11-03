@@ -11714,11 +11714,13 @@
   },
   {
     "name": "libhx",
-    "version": "5.4-1",
+    "version": "5.5-1",
     "origin": "artix-galaxy",
-    "sha256": "eb93e7c7ffc00b40f30a22c15e36e64f3d09902af56cdaf7ec5e183c9318222f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libhx-5.4-1-x86_64.pkg.tar.zst",
-    "provides": [],
+    "sha256": "ce20739a40395ab2b5140b79a3a3d14b57b9c9105c879ddfbe56b76c5d4cb617",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libhx-5.5-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libHX.so=43-64"
+    ],
     "depends": [
       "glibc"
     ],
@@ -11769,10 +11771,10 @@
   },
   {
     "name": "liblsp-audio-jack-lib",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "83199fd51f6f802cc6ba7bffe1fd6a074e9a7962d614f67b3b3a31f3674be46d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-audio-jack-lib-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "6065e35f2b542c85df6e736dddf92f37ad25be672575a03fe8abe83d9f64fff0",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-audio-jack-lib-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11784,10 +11786,10 @@
   },
   {
     "name": "liblsp-audio-pipewire-lib",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "88839cabe7004930c35b149b79f29cdc737030aebdf90daa43d832117a7ba412",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-audio-pipewire-lib-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "01f040c16c9698391833734db1cdbc1e84d82ffc4c7b4e61b2cce93bd8df6137",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-audio-pipewire-lib-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11799,10 +11801,10 @@
   },
   {
     "name": "liblsp-r3d-glx-lib",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "8cea59abcc2462d2486781dee0774e2cf4b56ce1479cadd2e9c95cee990f4954",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-r3d-glx-lib-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "8ed9b22ca5d889ddc42386548fcf323231d8fa177312c25815157c0f4b2524e6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/liblsp-r3d-glx-lib-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -17718,10 +17720,10 @@
   },
   {
     "name": "lsp-plugins",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "f1d173c89cb0c6d032497fb303d57da582550c630012440a73fda4c1b1eacc5e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "a3159f5b1622d820ae34b6e5f767486b309201a63cd3ee70422f99575dca63c5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "lsp-plugins-clap",
@@ -17739,10 +17741,10 @@
   },
   {
     "name": "lsp-plugins-clap",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "c2e8463bd78a32c9ee1a1fa0ca4b8aac391b50bdc78537354922333b463de9ed",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-clap-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "efea6d991422253dd7c762159a2e208dcfed84df718c4981788ec30e65ac84c6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-clap-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -17763,10 +17765,10 @@
   },
   {
     "name": "lsp-plugins-gst",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "30e86763ecd8d8bf1ae233106db53ac2478af367c0236b4d84b3ef2aa2967766",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-gst-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "37e7dede3e2b9cf111916d7b321712aed86c09b1f16cbdaa4612adf8fb12e913",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-gst-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -17784,10 +17786,10 @@
   },
   {
     "name": "lsp-plugins-ladspa",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "43e0a71a12c3598dd2d972e46a71e94f0b60ded55ae0bd2454726ead7a55a3b1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-ladspa-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "0a5f6697940351c9606862fb74fa104ace2da0bacb54fb355041990269c3865d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-ladspa-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -17801,10 +17803,10 @@
   },
   {
     "name": "lsp-plugins-lv2",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "3d832ffab010118fc6f95207ae18a5081c1048e12ea1b821490ad2f4e73abea7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-lv2-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "6fd3fc8ab3b41af7acde779a5d9f08a1523c076e1fe08591735ab31f0c182363",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-lv2-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -17825,10 +17827,10 @@
   },
   {
     "name": "lsp-plugins-standalone",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "e0a11cf97eb4acfd7e851c5971a6e255d98128850d9cc917cf9e7d1195f9799f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-standalone-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "f41339eab43eb8f38b112bec51307c46feec2e639827939e9cd8bf942b3a09d7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-standalone-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -17852,10 +17854,10 @@
   },
   {
     "name": "lsp-plugins-vst",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "181de393cf970af833ddebb0688acd9d860e1996b1effdddebf686f6bcf61273",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-vst-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "57aa9771e16f23017de721f45c8de7c5da75eff7cba64b3075e8ce4c0916f479",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-vst-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -17876,10 +17878,10 @@
   },
   {
     "name": "lsp-plugins-vst3",
-    "version": "1.2.35-1",
+    "version": "1.2.37-1",
     "origin": "artix-galaxy",
-    "sha256": "5d06c0951af43cbe03bc633671c067c3a6668ac3dba3b670a24a765c5b03648f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-vst3-1.2.35-1-x86_64.pkg.tar.zst",
+    "sha256": "586829187f8b10110953160aea2883e812f45a2302af422e21a506bab2784243",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lsp-plugins-vst3-1.2.37-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -22825,10 +22827,10 @@
   },
   {
     "name": "musescore",
-    "version": "4.7.5-1",
+    "version": "4.7.6-1",
     "origin": "artix-galaxy",
-    "sha256": "b4ed83ac1a2858ea23462539ff65193a9234fe83cdf7d62a312bf145167bb77d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/musescore-4.7.5-1-x86_64.pkg.tar.zst",
+    "sha256": "7ba708741228ed2ac6434ee19aecaead685a7416080bb8693f672db918f3915b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/musescore-4.7.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -24233,10 +24235,10 @@
   },
   {
     "name": "pam_mount",
-    "version": "2.22-1",
+    "version": "2.23-1",
     "origin": "artix-galaxy",
-    "sha256": "c457852e82abb8951dbadccb8934a95d625e5a31fd489a41cb8b8363e68a8b89",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pam_mount-2.22-1-x86_64.pkg.tar.zst",
+    "sha256": "c41b7c68c4e264f793eb16f9f782e4f86819e732879c97d672b56d7048286872",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pam_mount-2.23-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cryptsetup",
