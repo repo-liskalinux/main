@@ -1543,17 +1543,17 @@
   },
   {
     "name": "execline",
-    "version": "2.9.9.2-1",
+    "version": "2.10.0.0-1",
     "origin": "artix-system",
-    "sha256": "38828d130bdd9f7928f1288937162b479d8d5176a39c03ed39c859a0d7ca1a0d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/execline-2.9.9.2-1-x86_64.pkg.tar.zst",
+    "sha256": "7ae9c5eb8fd2e1436867282969273818ac10a430300f1d9383152451be95074b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/execline-2.10.0.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libexecline.so=2.9-64"
+      "libexecline.so=2.10-64"
     ],
     "depends": [
       "glibc",
       "skalibs",
-      "libskarnet.so=2.15-64"
+      "libskarnet.so=2.16-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -5116,10 +5116,10 @@
   },
   {
     "name": "mdevd",
-    "version": "0.1.8.2-1",
+    "version": "0.1.8.2-2",
     "origin": "artix-system",
-    "sha256": "fcef8b6a375db14bc629b93995dcad1d71c48e9dd3d457023c61938d81f54636",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/mdevd-0.1.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "911b65ae9cddd0bb693deb420699e1bccb6242b346d4054fa1aa049e13886b95",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/mdevd-0.1.8.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "skalibs",
@@ -6409,10 +6409,10 @@
   },
   {
     "name": "s6",
-    "version": "2.15.1.0-1",
+    "version": "2.15.1.1-1",
     "origin": "artix-system",
-    "sha256": "ce52b9c75e641014ceb985bf707efb0233b7024f1b6f49900298e1605e2fb22e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-2.15.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "ebfe90a8b8ffa9630eb1668cecd125b99aaa734fad25566789acd948a8e627aa",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-2.15.1.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libs6.so=2.15-64"
     ],
@@ -6420,8 +6420,8 @@
       "glibc",
       "skalibs",
       "execline",
-      "libskarnet.so=2.15-64",
-      "libexecline.so=2.9-64"
+      "libskarnet.so=2.16-64",
+      "libexecline.so=2.10-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -6463,17 +6463,17 @@
   },
   {
     "name": "s6-frontend",
-    "version": "0.1.0.0-6",
+    "version": "0.2.0.0-2",
     "origin": "artix-system",
-    "sha256": "a0b4cf9e7238d08462259bcd610f8fb694ebb4bcaed1b6b57a18c7721a315dbc",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-frontend-0.1.0.0-6-x86_64.pkg.tar.zst",
+    "sha256": "e823082a987f8e956a0215317405d274bf259bf274813316538999a6018e15bd",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-frontend-0.2.0.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "s6",
       "s6-rc",
       "s6-linux-init",
       "libs6.so=2.15-64",
-      "libs6rc.so=0.7-64",
+      "libs6rc.so=0.8-64",
       "libs6_linux_init.so"
     ],
     "optdepends": [],
@@ -6481,10 +6481,10 @@
   },
   {
     "name": "s6-linux-init",
-    "version": "1.2.0.2-1",
+    "version": "1.2.0.2-2",
     "origin": "artix-system",
-    "sha256": "c878c0ba1de1e2f09dd07f12df1db876d482ea48dcd14691de45ac7bacc365db",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-linux-init-1.2.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "81e120887ebfb3a6e89365a092a38ab23ecc906d859d9c8e973b642f52b3667c",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-linux-init-1.2.0.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "libs6_linux_init.so=1.2-64"
     ],
@@ -6497,12 +6497,12 @@
   },
   {
     "name": "s6-rc",
-    "version": "0.7.0.0-3",
+    "version": "0.8.0.2-2",
     "origin": "artix-system",
-    "sha256": "061adc31916bc91bcc2558b6b25fc43ceaab2de7ab49433341c4cce8a581dd35",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-rc-0.7.0.0-3-x86_64.pkg.tar.zst",
+    "sha256": "e2c70d7430e6102a995840ab38cd77a884c67aa7e43c72d7748c9c2516bd0d71",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s6-rc-0.8.0.2-2-x86_64.pkg.tar.zst",
     "provides": [
-      "libs6rc.so=0.7-64"
+      "libs6rc.so=0.8-64"
     ],
     "depends": [
       "glibc",
@@ -6586,12 +6586,12 @@
   },
   {
     "name": "skalibs",
-    "version": "2.15.1.0-1",
+    "version": "2.16.0.0-1",
     "origin": "artix-system",
-    "sha256": "71cd199a7e39fe950511dda9aabb462067ca1ad77bdb09ca227fd32d4f114328",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/skalibs-2.15.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2746e201b227a9dd42ed3509de8277b9ba7ff428930f663003e4e999d99a1772",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/skalibs-2.16.0.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libskarnet.so=2.15-64"
+      "libskarnet.so=2.16-64"
     ],
     "depends": [
       "glibc"
