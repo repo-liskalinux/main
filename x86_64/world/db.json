@@ -1691,10 +1691,10 @@
   },
   {
     "name": "aom",
-    "version": "3.15.2-1",
+    "version": "3.15.3-1",
     "origin": "artix-world",
-    "sha256": "4fb0278b29bcb88d0bc418c3c54e7a7d1e188b72ab1cdb240aa069b3c458e87d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aom-3.15.2-1-x86_64.pkg.tar.zst",
+    "sha256": "3c40e856b2df6bed283c673cd0ed95306489d7f25cb1eb5539162074260f04c2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aom-3.15.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libaom.so=3-64"
     ],
@@ -36741,10 +36741,10 @@
   },
   {
     "name": "kicad",
-    "version": "10.0.7-2",
+    "version": "10.0.8-1",
     "origin": "artix-world",
-    "sha256": "a2733f2e31020b40e287eed36e4ae8ff544e8c7c7e608e1bcb8e087a18672597",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.7-2-x86_64.pkg.tar.zst",
+    "sha256": "eea006e645e7e25b9d3b84075e4c6aaeeb85842dadc66030a01da8b24a7753d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-10.0.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "boost-libs",
@@ -36790,10 +36790,10 @@
   },
   {
     "name": "kicad-demos",
-    "version": "10.0.7-2",
+    "version": "10.0.8-1",
     "origin": "artix-world",
-    "sha256": "55fb2e6de0a3851e4c250301b2e81f67a0080ea0b82e9b129834ae2074e8b13c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.7-2-x86_64.pkg.tar.zst",
+    "sha256": "38f0ad9f3df3260516ca229b9a4fcd901d4937040a38c63ff50ac357d5563295",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-demos-10.0.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "kicad",
@@ -36804,10 +36804,10 @@
   },
   {
     "name": "kicad-library",
-    "version": "10.0.7-1",
+    "version": "10.0.8-1",
     "origin": "artix-world",
-    "sha256": "ef88b343310a3c93d0954e74518f1838fc721d8a56d7b0d5a8ef32e9fd78f26d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-10.0.7-1-any.pkg.tar.zst",
+    "sha256": "b220256ab80824c1e486c3af7390ef8198d60dcc5abeceacae8d08b4fc81222f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-10.0.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -36815,10 +36815,10 @@
   },
   {
     "name": "kicad-library-3d",
-    "version": "10.0.7-1",
+    "version": "10.0.8-1",
     "origin": "artix-world",
-    "sha256": "ade9d2c7bf6c4587c468da5baeae6a2b9867463615b672da3149375c2854dc77",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-3d-10.0.7-1-any.pkg.tar.zst",
+    "sha256": "64d4be27895bda06fe2fc3aaaed9979f9db615989502f0ab429434f4644dafab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kicad-library-3d-10.0.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -38595,10 +38595,10 @@
   },
   {
     "name": "knighttime",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "4a055ddff65b6e5bd43d04adae8d1b0a86b0388e73a88aeac4502421b6e8b7a5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knighttime-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7b0d88893346b5afb3f5bba031ad2eef71eb5fac9d8dab00697258e3a70c1508",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knighttime-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -41585,10 +41585,10 @@
   },
   {
     "name": "kwin",
-    "version": "6.8.2-1",
+    "version": "6.8.2-2",
     "origin": "artix-world",
-    "sha256": "af2599c8994d978cc6111162e25f86c72e12368a1f12fadb379fd4d05d2da5c2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-6.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "26e9379d0aa97178c9a46e043e5f0c58d7cd4022149edf56504143e2810da30b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-6.8.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aurorae",
@@ -57348,10 +57348,10 @@
   },
   {
     "name": "mkdocs-autorefs",
-    "version": "1.4.4-2.2",
+    "version": "1.4.5-1",
     "origin": "artix-world",
-    "sha256": "60fcdda50af8ad011b7a8f43cdb4379fcba86b09fe2835263b5960bf4860397c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-autorefs-1.4.4-2.2-any.pkg.tar.zst",
+    "sha256": "8c00e2621387de7aa53ff06616e502bebe9832e8bcb4dc7e3d92dcdaf529c6ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-autorefs-1.4.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mkdocs",
@@ -57381,10 +57381,10 @@
   },
   {
     "name": "mkdocs-material",
-    "version": "9.7.7-1",
+    "version": "9.8.0-1",
     "origin": "artix-world",
-    "sha256": "1b68f13de1013facce64a118216d4a9e64a8b23d6488ba6ceb8c99266dc95fa4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-material-9.7.7-1-any.pkg.tar.zst",
+    "sha256": "b9842827b06eb050c4fbfb891c3eca046afb1636db7c022f3f2a3545fba95237",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-material-9.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mkdocs",
@@ -57562,10 +57562,10 @@
   },
   {
     "name": "modem-manager-gui",
-    "version": "0.0.20-4",
+    "version": "0.0.20-5",
     "origin": "artix-world",
-    "sha256": "1d38561189cabbda6802301d07d817ccdddd2e4960a1dc7256a2769d46cef06b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/modem-manager-gui-0.0.20-4-x86_64.pkg.tar.zst",
+    "sha256": "536aca0144ea9b6da86d9380b5f8573a49650ab25cf786acbc3482b5f87e64eb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/modem-manager-gui-0.0.20-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -65176,10 +65176,10 @@
   },
   {
     "name": "pdfio",
-    "version": "1.6.5-1",
+    "version": "1.6.6-1",
     "origin": "artix-world",
-    "sha256": "0b9a8737432526de7e2d695f0f848dd455baa1f45f936a8af7a26bcfcc4bdf1c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pdfio-1.6.5-1-x86_64.pkg.tar.zst",
+    "sha256": "fbc37443fc3907c519865ad403849eb4a4788f808334830f01e7f1e0fbb9eac1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pdfio-1.6.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libpng",
@@ -110680,10 +110680,10 @@
   },
   {
     "name": "scite",
-    "version": "5.6.7-1",
+    "version": "5.6.9-1",
     "origin": "artix-world",
-    "sha256": "d50a4a8f31fa10c21f569fc699a5cdd9645b851dc370b5c7655689daf2050091",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/scite-5.6.7-1-x86_64.pkg.tar.zst",
+    "sha256": "03dbf026078312bad7b36c9a90315ce5e735458da82eaa8dbbbb7ae27ff6da7c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/scite-5.6.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -126232,10 +126232,10 @@
   },
   {
     "name": "union",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-world",
-    "sha256": "5c08803973976d8ead17128e0982ae16c3d901b641aa4bbb4ddf94a07b6187b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/union-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "3b1070c3219e328f3261258dc414fdaa7627893e2c34399cd8f6bca2eb4e422b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/union-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cxx-rust-cssparser",
@@ -126480,10 +126480,10 @@
   },
   {
     "name": "uriparser",
-    "version": "1.0.2-1",
+    "version": "1.0.3-1",
     "origin": "artix-world",
-    "sha256": "d499b849e092c95ad80f23aa1696d9ccb382e1a26d2c5e487aeef5f1b244d696",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uriparser-1.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "0180d389067a5e030d70e2eefc3c8a613e4cf36af394df4c24046e38ae6e2a24",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uriparser-1.0.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
