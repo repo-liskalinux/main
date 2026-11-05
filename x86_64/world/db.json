@@ -12553,10 +12553,10 @@
   },
   {
     "name": "dotconf",
-    "version": "1.4.1-1",
+    "version": "1.4.1-2",
     "origin": "artix-world",
-    "sha256": "20592fdea5bf14f2f8960183ea31c71add6f10b12074133e47aefc9b911b66c2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dotconf-1.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "fd7c5e090c7785f3ae795b9ee8435eb913f526c6d7dc21f82624e6e1495414c2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dotconf-1.4.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -18146,13 +18146,15 @@
   },
   {
     "name": "fuse-overlayfs",
-    "version": "1.16-1",
+    "version": "1.18-1",
     "origin": "artix-world",
-    "sha256": "3c033e5f411ee1c2e8add4d281baa8f9d8de40b7d5aa2eb2c7a185e2ce338d99",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse-overlayfs-1.16-1-x86_64.pkg.tar.zst",
+    "sha256": "12337cbd68e06126eb21d4a546fe8b9a1c794cc705ae61ab9cb83268dfa5f2fc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse-overlayfs-1.18-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "fuse3"
+      "fuse3",
+      "glibc",
+      "libgcc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -18177,10 +18179,10 @@
   },
   {
     "name": "fuse2",
-    "version": "2.9.9-5",
+    "version": "2.9.9-6",
     "origin": "artix-world",
-    "sha256": "04ca664e73c484d45bd91c360ac5d19c284c9fc8109fd7876ca23194001d4c47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse2-2.9.9-5-x86_64.pkg.tar.zst",
+    "sha256": "f877632a9d77b0d69656efbd3b461abfcb5dd9bd8cdd790a5c2d9cb1b64ea983",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fuse2-2.9.9-6-x86_64.pkg.tar.zst",
     "provides": [
       "fuse=2.9.9"
     ],
@@ -30002,10 +30004,10 @@
   },
   {
     "name": "iniparser",
-    "version": "4.2.6-2",
+    "version": "4.3.2-1",
     "origin": "artix-world",
-    "sha256": "c9b49ad28765d81188bc28c3e7204ce4f58d371772336b80ea9705b358114e88",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/iniparser-4.2.6-2-x86_64.pkg.tar.zst",
+    "sha256": "00b862a00217be04c33a12762a1caa70b0c9ecafd1bafcec33f8a76a5176b604",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/iniparser-4.3.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libiniparser.so=4-64"
     ],
@@ -43482,14 +43484,14 @@
   },
   {
     "name": "libcerf",
-    "version": "1:3.3-1",
+    "version": "1:3.9-1",
     "origin": "artix-world",
-    "sha256": "d0c28ee73a395e497aa9287d363c0f80284237c26b644ea01217a217e4046879",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcerf-1:3.3-1-x86_64.pkg.tar.zst",
+    "sha256": "055dc3e169602263f01533f53207de936f8b1e747bbc54d04d272dd6faa6149a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcerf-1:3.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
-      "glibc"
+      "glibc",
+      "libgcc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -51385,14 +51387,15 @@
   },
   {
     "name": "libxisf",
-    "version": "0.2.13-1",
+    "version": "0.2.17-1",
     "origin": "artix-world",
-    "sha256": "6fb2dd4d11c3e9d1c387f343c6c995dec1304953aa5940264876e0f527a6d315",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxisf-0.2.13-1-x86_64.pkg.tar.zst",
+    "sha256": "8b828f1faa09b3ba9bfb4d962ec32b39b83141c58c36aeb2a6f8cb17bbc3b179",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxisf-0.2.17-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "gcc-libs",
       "glibc",
+      "libgcc",
+      "libstdc++",
       "lz4",
       "pugixml",
       "zlib",
@@ -90610,10 +90613,10 @@
   },
   {
     "name": "python-pyqt6",
-    "version": "6.12.0-1",
+    "version": "6.12.0-2",
     "origin": "artix-world",
-    "sha256": "b543404bc9aed663d35f6d3ba31dcddf2bef61b2210248a7963089f155ab53fb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-6.12.0-1-x86_64.pkg.tar.zst",
+    "sha256": "5336dd9a57687fdc64d4ce7f29708311663ec1ce5b0bf4b3d9cd2aa6373d01f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-6.12.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "qt6-python-bindings"
     ],
@@ -110293,10 +110296,10 @@
   },
   {
     "name": "s6-linux-utils",
-    "version": "2.6.4.1-1",
+    "version": "2.6.4.1-2",
     "origin": "artix-world",
-    "sha256": "20059238bd87ffafb9c87e28447f4c78fe5c90c4c6223690c44471ae18a12ae5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/s6-linux-utils-2.6.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "c794e0f8ae6caff63332ae3bebf80788de9c3ac79ea38d6bbe0717f9815aa5c9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/s6-linux-utils-2.6.4.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "skalibs"
