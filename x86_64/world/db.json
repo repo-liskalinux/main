@@ -9430,10 +9430,10 @@
   },
   {
     "name": "copr-cli",
-    "version": "2.6-1",
+    "version": "2.8-1",
     "origin": "artix-world",
-    "sha256": "ee1493be090fa0583c10020cd67906a76ad93d748ed2721a2c490e3e96899a67",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/copr-cli-2.6-1-any.pkg.tar.zst",
+    "sha256": "76639bf7b7692eb04e8bd592db39d973c2a2c1ff0c8b3f7e16929970acb2c407",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/copr-cli-2.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -27062,10 +27062,10 @@
   },
   {
     "name": "harfbuzz",
-    "version": "15.0.0-1",
+    "version": "15.1.0-1",
     "origin": "artix-world",
-    "sha256": "65f8e8b96f90e507bdd6fa2d6e2b34bd0f0bc1f08bdc69f267c93d8b11dd20d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-15.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9cfbff9370a3438427836b968ea025025e84ae1b7d8031b440da02eaf54d7fe1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-15.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz.so=0-64",
       "libharfbuzz-subset.so=0-64",
@@ -27094,10 +27094,10 @@
   },
   {
     "name": "harfbuzz-cairo",
-    "version": "15.0.0-1",
+    "version": "15.1.0-1",
     "origin": "artix-world",
-    "sha256": "0990fbfc43e678709bd008a42280b8f30a3368d49bd8230bbd2dc9187bec9ec3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-15.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "8569111f051b6daf2325fea540c732007f2bb11a453ecc8209fc32cf7d0877b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-cairo-15.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-cairo.so=0-64"
     ],
@@ -27116,10 +27116,10 @@
   },
   {
     "name": "harfbuzz-icu",
-    "version": "15.0.0-1",
+    "version": "15.1.0-1",
     "origin": "artix-world",
-    "sha256": "aa8f7829184941610c1ce5283ab85ad9955f048832f87a599ec59f4e12dbd526",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-15.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9eb07fc7f41d5a22391ed817e2016a4f2da87e6d898bef7d176895fc55397dc8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-icu-15.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libharfbuzz-icu.so=0-64"
     ],
@@ -27135,10 +27135,10 @@
   },
   {
     "name": "harfbuzz-utils",
-    "version": "15.0.0-1",
+    "version": "15.1.0-1",
     "origin": "artix-world",
-    "sha256": "96580b9ef9dd80df9c7d5272b2f27bb60f48f7ce22ce899e03e81e71c9aaf425",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-15.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f9112a0aa15380a6b16eb9257a7bea6a09147544ce7b98f970fa6ee9a07cf63a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/harfbuzz-utils-15.1.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -43751,20 +43751,20 @@
   },
   {
     "name": "libdazzle",
-    "version": "3.44.0-2",
+    "version": "3.44.0-3",
     "origin": "artix-world",
-    "sha256": "90a584ef4916d865f933345bf5f5944f2393aeae1df161e0c97694581af08b87",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libdazzle-3.44.0-2-x86_64.pkg.tar.zst",
+    "sha256": "ea2ded4622d8181b212e3e628e332113bfd89f000d099c3e5635611377421153",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libdazzle-3.44.0-3-x86_64.pkg.tar.zst",
     "provides": [
       "libdazzle-1.0.so=0-64"
     ],
     "depends": [
       "cairo",
-      "gcc-libs",
       "gdk-pixbuf2",
       "glib2",
       "glibc",
       "gtk3",
+      "libgcc",
       "pango"
     ],
     "optdepends": [],
@@ -54105,10 +54105,10 @@
   },
   {
     "name": "luit",
-    "version": "20250912-1",
+    "version": "20260907-1",
     "origin": "artix-world",
-    "sha256": "3b967e00d390f1c104ec87ad0e399c7cf624a55af6121381c2bbc70539d4298d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luit-20250912-1-x86_64.pkg.tar.zst",
+    "sha256": "6694485ac159dd40a2846d837caae2ee145e4a22db893f5c17482e2d72a4d031",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/luit-20260907-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libfontenc"
@@ -59861,10 +59861,10 @@
   },
   {
     "name": "newsboat",
-    "version": "2.45-1",
+    "version": "2.45.1-1",
     "origin": "artix-world",
-    "sha256": "9637fd5727e43ed21cb3c4601f817c75014da4d9211717bb8784efb166756500",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/newsboat-2.45-1-x86_64.pkg.tar.zst",
+    "sha256": "58263af6624dd91e019508d755e3ce353483e80f97d7d18562f5751eb6a767d5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/newsboat-2.45.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -64635,20 +64635,21 @@
   },
   {
     "name": "paprefs",
-    "version": "1.2-3",
+    "version": "1.2-4",
     "origin": "artix-world",
-    "sha256": "3439a4b88a5cf0ec2704ec77256d3bb7b21e3897f9c77239f0c8dd8971ece5df",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/paprefs-1.2-3-x86_64.pkg.tar.zst",
+    "sha256": "dcb75ff74226b4552d4dbff5f067bcdb556e5e3ae5032920201013eeeede0088",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/paprefs-1.2-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "atkmm",
-      "gcc-libs",
       "glib2",
       "glibc",
       "glibmm",
       "gtk3",
       "gtkmm3",
+      "libgcc",
       "libsigc++",
+      "libstdc++",
       "pulse-native-provider"
     ],
     "optdepends": [],
@@ -65025,10 +65026,10 @@
   },
   {
     "name": "pcsclite",
-    "version": "2.5.3-1",
+    "version": "2.5.3-1.1",
     "origin": "artix-world",
-    "sha256": "29ded0b0a508abfac10b726e881ac45ed890e4b3611e12e99a2d028a55530307",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.3-1-x86_64.pkg.tar.zst",
+    "sha256": "ad16b682da6f22faa48fdbe51ccf56e6921dc6990077e75451d0f22d24ce3d1d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.3-1.1-x86_64.pkg.tar.zst",
     "provides": [
       "libpcsclite.so=1-64",
       "libpcsclite_real.so=1-64",
@@ -67744,10 +67745,10 @@
   },
   {
     "name": "perl-mail-spf",
-    "version": "3.20260331-1",
+    "version": "3.20261105-1",
     "origin": "artix-world",
-    "sha256": "a42346deaae9ea283943b85022e8afabc61fdbfac552924cdf3304ba63decb77",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mail-spf-3.20260331-1-any.pkg.tar.zst",
+    "sha256": "0a0b29711fa8a2a23727b14cb91aa9d62fade3e938d3b836867d8d4b03c4f827",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mail-spf-3.20261105-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-error",
@@ -93319,10 +93320,10 @@
   },
   {
     "name": "python-ruff",
-    "version": "0.17.3-1",
+    "version": "0.17.4-1",
     "origin": "artix-world",
-    "sha256": "67185dbe00e0b62d8be7b18fcf378cde2e943b5ac45d6ab2e8aa218f51a7146d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.17.3-1-x86_64.pkg.tar.zst",
+    "sha256": "08501bf3e8db9f3de0dd5f5d8059dbd4af78ab6482937687012e2c0234b67929",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-ruff-0.17.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -109953,10 +109954,10 @@
   },
   {
     "name": "ruff",
-    "version": "0.17.3-1",
+    "version": "0.17.4-1",
     "origin": "artix-world",
-    "sha256": "48379cf434abbb26e325be9f5c1fe3e2e52e4963c5dca72b1e6eca74f9af6c18",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.17.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0d52c26b34e4bd410b823108e85fd5fbb7f25fd5ac92d1f5bed9ba460c380861",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruff-0.17.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -126000,12 +126001,13 @@
   },
   {
     "name": "unace",
-    "version": "2.5-11",
+    "version": "2.5-12",
     "origin": "artix-world",
-    "sha256": "4584494699999a02ffe9953f19edf7d6a1ac8ed698b1c7eaf3a737a6501bb44c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unace-2.5-11-x86_64.pkg.tar.zst",
+    "sha256": "69efc61ad9fae0d17518fb76175656aeb5add9774a64298ebfeccdd9c2aa8777",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/unace-2.5-12-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "ncurses"
     ],
     "optdepends": [],
@@ -127031,10 +127033,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261104112839-1",
+    "version": "20261106004946-1",
     "origin": "artix-world",
-    "sha256": "87b3052598757159909d959d47338b14d3eb4dab1b0f8d831a3712525eea4a89",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261104112839-1-any.pkg.tar.zst",
+    "sha256": "e4e759c8ec22bfa8d8faab311d59b83676cd5a1e9e8b415aa7dc79699a0fa213",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261106004946-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -127042,10 +127044,10 @@
   },
   {
     "name": "v2ray-geoip",
-    "version": "202610050438-1",
+    "version": "202611050539-1",
     "origin": "artix-world",
-    "sha256": "cd20fc9559d069ef3ebeedbd9bbd3bcca16e790c29f96cdd8bce002c99474a10",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-geoip-202610050438-1-any.pkg.tar.zst",
+    "sha256": "33ade4078254457709b554469552c11a5ce88298b4f65a02388456b3a502adcd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-geoip-202611050539-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -135607,10 +135609,10 @@
   },
   {
     "name": "yoga",
-    "version": "3.2.1-1",
+    "version": "3.2.2-1",
     "origin": "artix-world",
-    "sha256": "6ef721c10c128dbf01dc082bd942d650161bce31217134bfd0a4e66554be1650",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yoga-3.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1d151c9899b800c7f853fc5834ae7e1fda9fb3a6eb90a85e94c4f6afad035173",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/yoga-3.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
