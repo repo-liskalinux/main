@@ -2829,10 +2829,10 @@
   },
   {
     "name": "aspell",
-    "version": "0.60.8.2-2",
+    "version": "0.60.8.3-1",
     "origin": "artix-world",
-    "sha256": "e1549c3e361972c48569ced96248c64d6565ccf20695bb7c45bf1a0f3ca4a661",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aspell-0.60.8.2-2-x86_64.pkg.tar.zst",
+    "sha256": "d2ef9281c515a16c6b52dc357f3b63aadd01bcfeb68977f961eaa29c3ad1b57b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aspell-0.60.8.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libaspell.so=15-64",
       "libpspell.so=15-64"
@@ -17933,10 +17933,10 @@
   },
   {
     "name": "freetds",
-    "version": "1.5.20-1",
+    "version": "1.5.21-1",
     "origin": "artix-world",
-    "sha256": "20dbcae5401cabc572ca3755c73aaf3bd64822522a1fa259b19d8e70d33d34bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freetds-1.5.20-1-x86_64.pkg.tar.zst",
+    "sha256": "91462fb7ff48ca1d4f0dfe83e2fb70e33c7d6883fe3b1ab2a4d08534c93ae542",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freetds-1.5.21-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -65744,14 +65744,15 @@
   },
   {
     "name": "perl-cgi",
-    "version": "5.02-1",
+    "version": "5.02-2",
     "origin": "artix-world",
-    "sha256": "64fac580822e6d8b037e9e2589baa4ace581fa7c55617885eff76afe73e9da01",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-cgi-5.02-1-any.pkg.tar.zst",
+    "sha256": "88175ac71caa45b52c5872ec43003c149e325beff5f504401946aaf9467f3512",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-cgi-5.02-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl>=5.8.1",
-      "perl-html-parser"
+      "perl-html-parser>=3.69",
+      "perl-uri>=1.76"
     ],
     "optdepends": [],
     "conflicts": []
