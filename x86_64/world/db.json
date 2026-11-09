@@ -1502,10 +1502,10 @@
   },
   {
     "name": "ansible",
-    "version": "14.5.0-1",
+    "version": "14.6.0-1",
     "origin": "artix-world",
-    "sha256": "ccfb3a16c5df57a2b3699af5792ca4daf8839bb253e1e3b1e0c3c89597664376",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-14.5.0-1-any.pkg.tar.zst",
+    "sha256": "e20d5f7aa8ba958b81b8f28235f099c2e9e7b98e99dc0d685359726f8735aa90",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-14.6.0-1-any.pkg.tar.zst",
     "provides": [
       "python-ansible_collections"
     ],
@@ -1566,10 +1566,10 @@
   },
   {
     "name": "ansible-creator",
-    "version": "26.10.0-1",
+    "version": "26.11.0-1",
     "origin": "artix-world",
-    "sha256": "1b82c0c34bd2703df4ddf1ce8f6979cb3c86648db6f976793a9b154a30159190",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-creator-26.10.0-1-any.pkg.tar.zst",
+    "sha256": "d887d183f77eb64b49c7e966990bdb9c01b78d2cb882a9ede1c3bb6835929907",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-creator-26.11.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -1587,10 +1587,10 @@
   },
   {
     "name": "ansible-lint",
-    "version": "26.10.1-1",
+    "version": "26.11.0-1",
     "origin": "artix-world",
-    "sha256": "644213c56a3d6a02b213f21a5f2f423f8d3bfcc34ee67bef5c1b6d89a8363884",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-lint-26.10.1-1-any.pkg.tar.zst",
+    "sha256": "9d6d704138955442f72edb79a85795db56626f4ece1ca86bb3dd7ee1a8cc7e79",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-lint-26.11.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -10009,10 +10009,10 @@
   },
   {
     "name": "cudnn",
-    "version": "9.27.0.42-1",
+    "version": "9.28.1.4-1",
     "origin": "artix-world",
-    "sha256": "859bb24025c6ae9c50aca90a2bf279ac0c16f447cba4d0654f50da2f4614fb2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cudnn-9.27.0.42-1-x86_64.pkg.tar.zst",
+    "sha256": "d9fa2f3672b17535b34ca8f7e681feb31b68560c2a5c854d0439615b761e1fff",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cudnn-9.28.1.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cuda>=13",
@@ -29758,12 +29758,12 @@
   },
   {
     "name": "igsc",
-    "version": "0.9.5-14",
+    "version": "1.3.0-1",
     "origin": "artix-world",
-    "sha256": "765c21335e1a8efc2874c5f765e7c5d5b85124ac36bb2b8969a62c7ba6def087",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/igsc-0.9.5-14-x86_64.pkg.tar.zst",
+    "sha256": "888db10607c25566c4b08b8ae01384c4338cb973b966e6366ab22d9fb157be32",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/igsc-1.3.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libigsc.so=0-64"
+      "libigsc.so=1-64"
     ],
     "depends": [
       "glibc",
@@ -30176,10 +30176,10 @@
   },
   {
     "name": "intel-compute-runtime",
-    "version": "26.35.39758.10-1",
+    "version": "26.40.40196.8-1",
     "origin": "artix-world",
-    "sha256": "37af6743353faa4ebe09f26b286bb9e7fe226f1a271bc4787cf0cf3f230d0114",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-compute-runtime-26.35.39758.10-1-x86_64.pkg.tar.zst",
+    "sha256": "30b94661142bdd5fbc68a40c03b853b9fbe31e37391a1260519e6c3826e42d12",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-compute-runtime-26.40.40196.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "level-zero-driver",
       "opencl-driver"
@@ -30192,7 +30192,7 @@
       "libstdc++"
     ],
     "optdepends": [
-      "igsc<1.0.0: for discrete GPU firmware enumeration through Level Zero",
+      "igsc<2.0.0: for discrete GPU firmware enumeration through Level Zero",
       "libdrm: for cl_intel_va_api_media_sharing OpenCL extension",
       "libnl>=3.0.0: for using Fabric related APIs in Level Zero",
       "libnl<4.0.0: for using Fabric related APIs in Level Zero",
@@ -30202,10 +30202,10 @@
   },
   {
     "name": "intel-gmmlib",
-    "version": "22.10.0-1",
+    "version": "22.10.2-1",
     "origin": "artix-world",
-    "sha256": "d999c9323cd88990e5ee96aa24d94d89b74e719a1cca088cc782740207081abf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-gmmlib-22.10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "291dbd0519951c5f69c2d7373aac43ed1482a4ce9ecbfd7378e57dd3f8f717bf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-gmmlib-22.10.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "gmmlib"
     ],
@@ -30221,10 +30221,10 @@
   },
   {
     "name": "intel-graphics-compiler",
-    "version": "1:2.41.5-1",
+    "version": "1:2.42.6-1",
     "origin": "artix-world",
-    "sha256": "728933a1b6bcbcb0352ab646f4d324b52b1d5eb07e279b570bc9f92657362be2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-graphics-compiler-1:2.41.5-1-x86_64.pkg.tar.zst",
+    "sha256": "6ed2b574220477152e3129dc5707eb568639b0f651f1ac8a11b5d4040fc15c71",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-graphics-compiler-1:2.42.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "intel-opencl-clang=22.1"
     ],
@@ -42207,10 +42207,10 @@
   },
   {
     "name": "level-zero-headers",
-    "version": "1.32.0-1",
+    "version": "1.34.0-1",
     "origin": "artix-world",
-    "sha256": "0492c0098ccae3ba37904e3e8dfc640bc00e1fd587869561aafce86213386edc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/level-zero-headers-1.32.0-1-x86_64.pkg.tar.zst",
+    "sha256": "838128bd4d349ae2560d3058d149633050d6e374134b0bfa55ecfbe36c40eab3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/level-zero-headers-1.34.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -42218,10 +42218,10 @@
   },
   {
     "name": "level-zero-loader",
-    "version": "1.32.0-1",
+    "version": "1.34.0-1",
     "origin": "artix-world",
-    "sha256": "6eeaa2b04bb60b4b1562d21618b6e79d976b54f947c3116c9dbef4b419801566",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/level-zero-loader-1.32.0-1-x86_64.pkg.tar.zst",
+    "sha256": "251447de0ff5f91644765efe9e91da711b6b1fb7e0aadf996804fc0112720c69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/level-zero-loader-1.34.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -130941,10 +130941,10 @@
   },
   {
     "name": "waybar",
-    "version": "0.15.0-3",
+    "version": "0.16.0-1",
     "origin": "artix-world",
-    "sha256": "54b7345ac491cc5c949f4ad2be738eed63b3cccccb5cbb8d93cbb689ea598e9d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/waybar-0.15.0-3-x86_64.pkg.tar.zst",
+    "sha256": "a87c11a052206384b52d525d0d6c83fdebbd80ebce0cd851c94522134a3c1648",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/waybar-0.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "atkmm",
@@ -130963,6 +130963,7 @@
       "libevdev",
       "libgcc",
       "libinput",
+      "libmm-glib",
       "libmpdclient",
       "libnl",
       "libpipewire",
