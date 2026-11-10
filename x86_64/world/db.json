@@ -53231,13 +53231,18 @@
   },
   {
     "name": "lrzip",
-    "version": "0.660-1",
+    "version": "1:0.7.3-1",
     "origin": "artix-world",
-    "sha256": "bf8efa6ae12bf55d948120d18de5abc9ff6bb319ef16156216c4b27255a5b4a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lrzip-0.660-1-x86_64.pkg.tar.zst",
+    "sha256": "a663b1624d59ce1abc44483bb0e95d41991ecff1fad1891a6316afeeec8dbccb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lrzip-1:0.7.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "lzo"
+      "bash",
+      "bzip2",
+      "glibc",
+      "lz4",
+      "lzo",
+      "zlib"
     ],
     "optdepends": [],
     "conflicts": []
