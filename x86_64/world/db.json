@@ -18483,10 +18483,10 @@
   },
   {
     "name": "gala",
-    "version": "8.6.2-1",
+    "version": "8.6.2-2",
     "origin": "artix-world",
-    "sha256": "1fc19fca82ede643950f8ed7e1e3524e423696d2073058968e8a86ad16d0ada1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.2-1-x86_64.pkg.tar.zst",
+    "sha256": "a19e7e36fa7df354407b195b03c7d568a6f01af57b3e72f7591831f3ac56d504",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gala-8.6.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "libgala.so=0-64"
     ],
@@ -18497,20 +18497,17 @@
       "gdk-pixbuf2",
       "glib2",
       "glibc",
+      "glycin",
       "gnome-desktop-4",
-      "granite",
       "granite7",
       "graphene",
-      "gtk3",
       "gtk4",
       "json-glib",
       "libgee",
-      "libgl",
-      "libhandy",
       "libibus",
       "libxext",
       "libxfixes",
-      "mutter49",
+      "mutter",
       "pango",
       "sqlite",
       "wayland"
@@ -28814,10 +28811,10 @@
   },
   {
     "name": "hyprcursor",
-    "version": "0.1.13-7",
+    "version": "0.1.14-1",
     "origin": "artix-world",
-    "sha256": "cb83a461fe6306ae82a0cd14130e55051c9ac651a15af1984e53ff1950e9bad1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprcursor-0.1.13-7-x86_64.pkg.tar.zst",
+    "sha256": "9d1fc23df65a86f0ddcc5b5e778536fd7ced55f69e3791d0289d35c4afc75c76",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprcursor-0.1.14-1-x86_64.pkg.tar.zst",
     "provides": [
       "libhyprcursor.so=0-64"
     ],
@@ -53178,10 +53175,10 @@
   },
   {
     "name": "loupe",
-    "version": "51.1-1",
+    "version": "51.2-1",
     "origin": "artix-world",
-    "sha256": "21d106485dc34281701cc2a9b02b8358697ccc63dfc59298e90473f89aa16ec3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/loupe-51.1-1-x86_64.pkg.tar.zst",
+    "sha256": "961eb3f899a17d3af61619177891ddcaba7cfa64a8d4d71780c0a981839287db",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/loupe-51.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bubblewrap",
