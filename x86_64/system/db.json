@@ -466,10 +466,10 @@
   },
   {
     "name": "ca-certificates-mozilla",
-    "version": "3.132-1",
+    "version": "3.133-1",
     "origin": "artix-system",
-    "sha256": "9914b4e7230221e7ae145b4d1d822149fbebd2c19b0e60082f8e5163eb698fd4",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.132-1-x86_64.pkg.tar.zst",
+    "sha256": "e545b62127a68d84258617cf6b97110db2f3da70d49f9e8687cfaa591a0599e4",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.133-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates-utils>=20181109-3"
@@ -500,10 +500,10 @@
   },
   {
     "name": "coreutils",
-    "version": "9.12-2",
+    "version": "9.12-3",
     "origin": "artix-system",
-    "sha256": "950e3d92c1a81e75a2a56b9f4b9a9b182354459b8ee065583b7fdb0485525296",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/coreutils-9.12-2-x86_64.pkg.tar.zst",
+    "sha256": "124d5d2063eef76e779fac38b01fa6c37b567587795bdc84f538551c1ad0b19c",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/coreutils-9.12-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "acl",
@@ -636,10 +636,10 @@
   },
   {
     "name": "cryptsetup",
-    "version": "2.8.8-1",
+    "version": "2.8.8-2",
     "origin": "artix-system",
-    "sha256": "ff4c2c39c24b9a29b644b4d518dd8032bb4d1040fff766efd2e652050d479aec",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/cryptsetup-2.8.8-1-x86_64.pkg.tar.zst",
+    "sha256": "43714b1fe48be6928b6a5c41f3a4bc2673f175abad3d539b4b8a57b78db26757",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/cryptsetup-2.8.8-2-x86_64.pkg.tar.zst",
     "provides": [
       "libcryptsetup.so=12-64"
     ],
@@ -648,7 +648,7 @@
       "libdevmapper.so=1.02-64",
       "glibc",
       "openssl",
-      "libcrypto.so=3-64",
+      "libcrypto.so=4-64",
       "popt",
       "util-linux-libs",
       "libblkid.so=1-64",
@@ -754,10 +754,10 @@
   },
   {
     "name": "curl",
-    "version": "8.23.0-1",
+    "version": "8.23.0-2",
     "origin": "artix-system",
-    "sha256": "f4142367966b9f7211f78245766953e7f1ec6a6be80243abae666ec40556e8d8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/curl-8.23.0-1-x86_64.pkg.tar.zst",
+    "sha256": "fabef4598efb2d821e68a624fcba2f6984cd46ef73da1a2ef9a22c494978d703",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/curl-8.23.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libcurl.so=4-64"
     ],
@@ -780,8 +780,8 @@
       "libssh2",
       "libssh2.so=1-64",
       "openssl",
-      "libcrypto.so=3-64",
-      "libssl.so=3-64",
+      "libcrypto.so=4-64",
+      "libssl.so=4-64",
       "zlib",
       "libz.so=1-64",
       "zstd",
@@ -1332,10 +1332,10 @@
   },
   {
     "name": "egummiboot",
-    "version": "262.1-3",
+    "version": "262.2-3",
     "origin": "artix-system",
-    "sha256": "52f9f0c6018f3e282ca37cd8a847912ed538a478441125302af1f9790bb367de",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/egummiboot-262.1-3-x86_64.pkg.tar.zst",
+    "sha256": "cff77555bdc6942f389e50bd0c8711e8240c9fca6b0ccc4b497d6714d5afbbc9",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/egummiboot-262.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "gummiboot"
     ],
@@ -1457,10 +1457,10 @@
   },
   {
     "name": "eshutdown",
-    "version": "262.1-3",
+    "version": "262.2-3",
     "origin": "artix-system",
-    "sha256": "0ed6cd78db6053d4e45012c676eea015decd56798deda10466bfb557f785042a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eshutdown-262.1-3-x86_64.pkg.tar.zst",
+    "sha256": "645ec82715fa9a06301030c29414859c397deb8d0c8c9f92dc5f4ec2541b3951",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eshutdown-262.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1471,10 +1471,10 @@
   },
   {
     "name": "esysusers",
-    "version": "262.1-3",
+    "version": "262.2-3",
     "origin": "artix-system",
-    "sha256": "469a410cbc13d10ae0dfa27729c47664a0eda5beaff54ff88d9a0d35671f19de",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/esysusers-262.1-3-x86_64.pkg.tar.zst",
+    "sha256": "d35e241060570af322b6b9cbad07219e3dcd310d78579959309e311c354aded7",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/esysusers-262.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1485,10 +1485,10 @@
   },
   {
     "name": "etmpfiles",
-    "version": "262.1-3",
+    "version": "262.2-3",
     "origin": "artix-system",
-    "sha256": "7c36147c181ef65ae5e7b3eb30aa7bba6a6e18b15151d7a20113a0cddd4a9115",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/etmpfiles-262.1-3-x86_64.pkg.tar.zst",
+    "sha256": "d45c6cca6a439ec4b03f22f40ec3bf55c34abf2bc975e4d11f34ef887f8ddb64",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/etmpfiles-262.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -1521,15 +1521,15 @@
   },
   {
     "name": "eukify",
-    "version": "262.1-3",
+    "version": "262.2-3",
     "origin": "artix-system",
-    "sha256": "2fa374cebed957b83fe96a1dce8745bf323768ea3fdfaad8e1d0bd053767d128",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eukify-262.1-3-x86_64.pkg.tar.zst",
+    "sha256": "387728e478a4cea3e248b3695c7cef8ee8cc583cc19c7a2ff0afb0b082baccaf",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/eukify-262.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "ukify"
     ],
     "depends": [
-      "egummiboot=262.1",
+      "egummiboot=262.2",
       "binutils",
       "python",
       "python-cryptography",
@@ -1575,10 +1575,10 @@
   },
   {
     "name": "fakeroot",
-    "version": "1:2.1.4-1",
+    "version": "2:1.37.2-1",
     "origin": "artix-system",
-    "sha256": "77172033d11fe17a0c3a5f1a92af13a9a7b79dfba98aac3e8d5ab9706a4e49e8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/fakeroot-1:2.1.4-1-x86_64.pkg.tar.zst",
+    "sha256": "13efb2e0397d5fbde4dd3bb27d0a3ad62afc60c502d4a54268dd1c640404323b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/fakeroot-2:1.37.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -2821,10 +2821,10 @@
   },
   {
     "name": "kmod",
-    "version": "34.3-1",
+    "version": "34.3-2",
     "origin": "artix-system",
-    "sha256": "519bd86de6cbe9348c78e9cdc721dafbcff8ede095d642d415736acdad0050e8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/kmod-34.3-1-x86_64.pkg.tar.zst",
+    "sha256": "cbd3e76c094d7ba58bead1292418502c93e18a9af026f2a54472748304f57429",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/kmod-34.3-2-x86_64.pkg.tar.zst",
     "provides": [
       "libkmod.so=2-64"
     ],
@@ -2840,10 +2840,10 @@
   },
   {
     "name": "krb5",
-    "version": "1.22.2-1",
+    "version": "1.22.2-2",
     "origin": "artix-system",
-    "sha256": "87f43b17fd9ff24eef134a52123c62285fa5f25224038bc85c4482aa5c1877d6",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/krb5-1.22.2-1-x86_64.pkg.tar.zst",
+    "sha256": "c8e578b56ee60816d9fb61f989c6d5e3acf228bf7735f6be09eadddffe9978a4",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/krb5-1.22.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "libgssapi_krb5.so=2-64",
       "libgssrpc.so=4-64",
@@ -2947,10 +2947,10 @@
   },
   {
     "name": "ldns",
-    "version": "1.9.2-1",
+    "version": "1.9.2-2",
     "origin": "artix-system",
-    "sha256": "ae070128ed446905924afec139292d61fb8a43fd0198453e2daa29949a26763b",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ldns-1.9.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2656ed19ab5c6ecb5fd385b8effd89e33a35fad9d68266f9897d7a39a1a1a3d9",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ldns-1.9.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "drill",
       "libldns.so=3-64"
@@ -3080,10 +3080,10 @@
   },
   {
     "name": "libarchive",
-    "version": "3.8.11-1",
+    "version": "3.8.11-2",
     "origin": "artix-system",
-    "sha256": "540d5d5d77f226f2f8f0a8cf6501fe28eea562761ca29c31b2a50d33a8fee40e",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libarchive-3.8.11-1-x86_64.pkg.tar.zst",
+    "sha256": "c376289b714fdea8f463c218a649bb67215d78641d6e2115a9cb9cbc8baa3d28",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libarchive-3.8.11-2-x86_64.pkg.tar.zst",
     "provides": [
       "libarchive.so=13-64"
     ],
@@ -3100,7 +3100,7 @@
       "libacl.so=1-64",
       "libbz2.so=1.0-64",
       "libxml2.so=16-64",
-      "libcrypto.so=3-64",
+      "libcrypto.so=4-64",
       "liblzma.so=5-64",
       "libz.so=1-64",
       "libzstd.so=1-64"
@@ -3210,10 +3210,10 @@
   },
   {
     "name": "libcurl-compat",
-    "version": "8.23.0-1",
+    "version": "8.23.0-2",
     "origin": "artix-system",
-    "sha256": "dca8b78383eeb9cfd81bf1fcff79f4167f13f2ab65ccc8cb0c22133a706bc000",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libcurl-compat-8.23.0-1-x86_64.pkg.tar.zst",
+    "sha256": "33af6677056b5809153b37ff1eb69a7e17c5609ca7b4e761b231f1b54a1ddb67",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libcurl-compat-8.23.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libcurl-compat.so=4-64"
     ],
@@ -3236,8 +3236,8 @@
       "libssh2",
       "libssh2.so=1-64",
       "openssl",
-      "libcrypto.so=3-64",
-      "libssl.so=3-64",
+      "libcrypto.so=4-64",
+      "libssl.so=4-64",
       "zlib",
       "libz.so=1-64",
       "zstd",
@@ -3248,10 +3248,10 @@
   },
   {
     "name": "libcurl-gnutls",
-    "version": "8.23.0-1",
+    "version": "8.23.0-2",
     "origin": "artix-system",
-    "sha256": "ff5a0600f40b1b222e03f887946c5b129218e03fc446bcb9be63f917a25e233c",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libcurl-gnutls-8.23.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d6c7c16fd2a8b9a2d3b41a85502517c8f761484fe61a0474d00327eb48dabfcb",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libcurl-gnutls-8.23.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libcurl-gnutls.so=4-64"
     ],
@@ -3362,10 +3362,10 @@
   },
   {
     "name": "libevent",
-    "version": "2.1.13-2",
+    "version": "2.1.13-3",
     "origin": "artix-system",
-    "sha256": "b409ecaef09d1fe96e7d061dced83453d89bee8ea5e0750aee0eb788ca254736",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libevent-2.1.13-2-x86_64.pkg.tar.zst",
+    "sha256": "e8ec44eb9f865e3c4f5b9841a7fdc6d1b954400a5aab5da5fe1d4a434c4caff2",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libevent-2.1.13-3-x86_64.pkg.tar.zst",
     "provides": [
       "libevent-2.1.so=7-64",
       "libevent_core-2.1.so=7-64",
@@ -3668,17 +3668,17 @@
   },
   {
     "name": "libldap",
-    "version": "2.7.2-2",
+    "version": "2.7.2-3",
     "origin": "artix-system",
-    "sha256": "9676b726adb7f0bcb159b59ac74560fd2c652ba4ce3bc2b5d4772da26d1603fa",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libldap-2.7.2-2-x86_64.pkg.tar.zst",
+    "sha256": "a653eea4a2664aecc0e97b233f0dc032744786bddf316a974fc7b95fc6b595c3",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libldap-2.7.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "libsasl",
       "libsasl2.so=3-64",
       "openssl",
-      "libcrypto.so=3-64"
+      "libcrypto.so=4-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -3839,10 +3839,10 @@
   },
   {
     "name": "libngtcp2",
-    "version": "1.26.0-1",
+    "version": "1.26.0-2",
     "origin": "artix-system",
-    "sha256": "88254db8ba020a7c5c121c7c57e0136781a43bfb747c71fcd741f174e369e2af",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libngtcp2-1.26.0-1-x86_64.pkg.tar.zst",
+    "sha256": "025d1a5daeca5a71801164cc7bbe0491deb78a3f6c357f3767facb00523e97d9",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libngtcp2-1.26.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libngtcp2.so=16-64",
       "libngtcp2_crypto_gnutls.so=8-64",
@@ -3851,7 +3851,7 @@
     "depends": [
       "glibc",
       "openssl",
-      "libssl.so=3-64",
+      "libssl.so=4-64",
       "gnutls"
     ],
     "optdepends": [],
@@ -3995,10 +3995,10 @@
   },
   {
     "name": "libsasl",
-    "version": "2.1.28-5",
+    "version": "2.1.28-6",
     "origin": "artix-system",
-    "sha256": "acc1571dd6c40f1379c54e1ce7aac025df49804b73c7fd3ae61c13789be36370",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libsasl-2.1.28-5-x86_64.pkg.tar.zst",
+    "sha256": "12447d7679b456e7accd31ce8448a597f728cb461fbda2cc44cc1095bd46b213",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libsasl-2.1.28-6-x86_64.pkg.tar.zst",
     "provides": [
       "libsasl2.so=3-64"
     ],
@@ -4007,7 +4007,7 @@
       "gdbm",
       "libgdbm.so=6-64",
       "openssl",
-      "libcrypto.so=3-64"
+      "libcrypto.so=4-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -4049,10 +4049,10 @@
   },
   {
     "name": "libssh2",
-    "version": "1.11.1-7",
+    "version": "1.11.1-8",
     "origin": "artix-system",
-    "sha256": "c71b0168c7d357de2f2d74262e6d30b903ec188baba4f2d9f9b7eb849b7624f3",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libssh2-1.11.1-7-x86_64.pkg.tar.zst",
+    "sha256": "173564741ade3fa97a858530db4021d71e389fdbe9f219d5fbfd6d865632463a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libssh2-1.11.1-8-x86_64.pkg.tar.zst",
     "provides": [
       "libssh2.so=1-64"
     ],
@@ -4164,10 +4164,10 @@
   },
   {
     "name": "libudev",
-    "version": "262.1-2",
+    "version": "262.2-1",
     "origin": "artix-system",
-    "sha256": "bde21154e6d860ce8ff35d3f5c99c1cd0194ffa778d45405f508c4e34f0379a5",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "afea7c184e9f8baf39593de1247c6cfa5f1908d67a14de15a0bd06f0ff07bcb2",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libudev-262.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libudev.so=1-64"
     ],
@@ -4296,10 +4296,10 @@
   },
   {
     "name": "links",
-    "version": "2.30-2",
+    "version": "2.30-3",
     "origin": "artix-system",
-    "sha256": "abd1e46db187f099f7ced9c3396481a8656773cf8c04031796b11ff99c848934",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/links-2.30-2-x86_64.pkg.tar.zst",
+    "sha256": "f791dfece23397df96943c629f50a21f1e50d3cb9e48382e3ecbc632c50130e1",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/links-2.30-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -4312,8 +4312,8 @@
       "libevent",
       "libevent-2.1.so=7-64",
       "openssl",
-      "libcrypto.so=3-64",
-      "libssl.so=3-64",
+      "libcrypto.so=4-64",
+      "libssl.so=4-64",
       "xz",
       "liblzma.so=5-64",
       "zstd",
@@ -5427,10 +5427,10 @@
   },
   {
     "name": "nss",
-    "version": "3.132-1",
+    "version": "3.133-1",
     "origin": "artix-system",
-    "sha256": "dfa71faded4a30716b13116427a23d310cccf3fa439167586d5c8191f17c1122",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.132-1-x86_64.pkg.tar.zst",
+    "sha256": "97b8023acb5c2d6e603eeb1bb2d7acc49ec50b4662aeb8c5e0ea390323ed57da",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.133-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5445,10 +5445,10 @@
   },
   {
     "name": "openldap",
-    "version": "2.7.2-2",
+    "version": "2.7.2-3",
     "origin": "artix-system",
-    "sha256": "14f3118b15125ca0f640faa2beaa4c11cd0e63713f1f92f290dd95cb2c24b360",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openldap-2.7.2-2-x86_64.pkg.tar.zst",
+    "sha256": "b2ae54b10dfeaab1a493df6d5e5baac684bd8075f511cd69398b6c22d061ffa7",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openldap-2.7.2-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5460,7 +5460,7 @@
       "libsodium",
       "libtool",
       "openssl",
-      "libcrypto.so=3-64",
+      "libcrypto.so=4-64",
       "perl",
       "unixodbc",
       "util-linux-libs",
@@ -5581,10 +5581,10 @@
   },
   {
     "name": "openssh",
-    "version": "10.6p1-2",
+    "version": "10.6p1-3",
     "origin": "artix-system",
-    "sha256": "3c154b9edddc0da135b0c2c0fd78f16310c1633e487e4e4ac4f0d817a44415ee",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openssh-10.6p1-2-x86_64.pkg.tar.zst",
+    "sha256": "41c6ed078198f14f56b6e6bc041753c14695861b4d668f3f9fb0da09464078a6",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openssh-10.6p1-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -5596,7 +5596,7 @@
       "libxcrypt",
       "libcrypt.so=2-64",
       "openssl",
-      "libcrypto.so=3-64",
+      "libcrypto.so=4-64",
       "pam",
       "libpam.so=0-64",
       "zlib",
@@ -5684,13 +5684,13 @@
   },
   {
     "name": "openssl",
-    "version": "3.6.5-1",
+    "version": "4.1.0-1",
     "origin": "artix-system",
-    "sha256": "b50c8b04f0d03e0e4f0cc199f92e540b88633d40362f14460e717170dbf54054",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openssl-3.6.5-1-x86_64.pkg.tar.zst",
+    "sha256": "816c61059b717bbd591d777ab0b29ed16710d0d947b09bea0dce961be2179084",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openssl-4.1.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libcrypto.so=3-64",
-      "libssl.so=3-64"
+      "libcrypto.so=4-64",
+      "libssl.so=4-64"
     ],
     "depends": [
       "brotli",
@@ -5702,6 +5702,25 @@
       "ca-certificates",
       "perl"
     ],
+    "conflicts": []
+  },
+  {
+    "name": "openssl-3",
+    "version": "3.5.9-2",
+    "origin": "artix-system",
+    "sha256": "17099a00b8c2531c23df0d65b4c25270cbc280f8cbcbd86c9c45d337ed4d95f2",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/openssl-3-3.5.9-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcrypto.so=3-64",
+      "libssl.so=3-64"
+    ],
+    "depends": [
+      "brotli",
+      "glibc",
+      "zlib",
+      "zstd"
+    ],
+    "optdepends": [],
     "conflicts": []
   },
   {
@@ -5723,10 +5742,10 @@
   },
   {
     "name": "pacman",
-    "version": "7.1.0.r9.g54d9411-3",
+    "version": "7.1.0.r9.g54d9411-4",
     "origin": "artix-system",
-    "sha256": "46681137945cc6e328c07b2bea4703f3b4fb7ff5b0111cb609b16b48867a0726",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pacman-7.1.0.r9.g54d9411-3-x86_64.pkg.tar.zst",
+    "sha256": "74aa8b4c2ae385f675fc2ff641d3662d6448744279e2b3edd5d71317e50e7723",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pacman-7.1.0.r9.g54d9411-4-x86_64.pkg.tar.zst",
     "provides": [
       "libalpm.so=16-64"
     ],
@@ -5745,7 +5764,7 @@
       "libarchive",
       "libarchive.so=13-64",
       "openssl",
-      "libcrypto.so=3-64",
+      "libcrypto.so=4-64",
       "artix-mirrorlist",
       "libmakepkg-dropins"
     ],
@@ -6060,10 +6079,10 @@
   },
   {
     "name": "ppp",
-    "version": "2.5.5-1",
+    "version": "2.5.5-2",
     "origin": "artix-system",
-    "sha256": "457cc7cbe5865bb19fcc0288c3d75dd31d4fd3bb51200ec1b7168c7b813166e7",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ppp-2.5.5-1-x86_64.pkg.tar.zst",
+    "sha256": "29b901337e8d16e2138e2849a4a8f5ba3b8dc9088ff372233cea3563a2937d55",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ppp-2.5.5-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6127,10 +6146,10 @@
   },
   {
     "name": "python",
-    "version": "3.14.9-1",
+    "version": "3.14.10-1",
     "origin": "artix-system",
-    "sha256": "20466f6a8285c272c2ecbf63eeaad7d9c5d0e13aaa6d4e7c2ded387448e2626a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-3.14.9-1-x86_64.pkg.tar.zst",
+    "sha256": "a6378746fbfdc5c8570a4b7be547f9244bbc2d23f82d562250a4cc96504b4769",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-3.14.10-1-x86_64.pkg.tar.zst",
     "provides": [
       "python3",
       "python-externally-managed"
@@ -6142,7 +6161,7 @@
       "libffi",
       "libnsl",
       "libxcrypt",
-      "openssl",
+      "openssl-3",
       "zlib",
       "tzdata",
       "mpdecimal",
@@ -6222,10 +6241,10 @@
   },
   {
     "name": "python-tests",
-    "version": "3.14.9-1",
+    "version": "3.14.10-1",
     "origin": "artix-system",
-    "sha256": "62b73cbb7d5df6cf234e377ede2a1944cef0021d4ad344f733c9fb40e75b769a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-tests-3.14.9-1-x86_64.pkg.tar.zst",
+    "sha256": "60f8ebf7c0280e17385f8c10e31e2a835d0180795131bb9788515aee1e81967f",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-tests-3.14.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -6384,10 +6403,10 @@
   },
   {
     "name": "s-nail",
-    "version": "14.9.25-1",
+    "version": "14.9.25-2",
     "origin": "artix-system",
-    "sha256": "af3cc89765933312e4eeee6180fca915ad87815ed77bc0eb5dd0a14525f1a5c5",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s-nail-14.9.25-1-x86_64.pkg.tar.zst",
+    "sha256": "61e3e5b86f1a00632f11217b9c5369d9e86dc35e2b4a788667555889d3bf6169",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/s-nail-14.9.25-2-x86_64.pkg.tar.zst",
     "provides": [
       "mailx",
       "mailx-heirloom",
@@ -6652,10 +6671,10 @@
   },
   {
     "name": "sudo",
-    "version": "1.9.17.p2-6",
+    "version": "1.9.17.p2-7",
     "origin": "artix-system",
-    "sha256": "4104777d14517deda10978812a1df6513cb72c86e099d22e0de81e2cdd2d96fe",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sudo-1.9.17.p2-6-x86_64.pkg.tar.zst",
+    "sha256": "874367600f10fde25baf963e2f3cda2db679806121be2d128f4a70f759cdf09a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/sudo-1.9.17.p2-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6663,8 +6682,8 @@
       "pam",
       "libldap",
       "zlib",
-      "libcrypto.so=3-64",
-      "libssl.so=3-64"
+      "libcrypto.so=4-64",
+      "libssl.so=4-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -6752,10 +6771,10 @@
   },
   {
     "name": "tpm2-tss",
-    "version": "4.2.0-2",
+    "version": "4.2.1-2",
     "origin": "artix-system",
-    "sha256": "ee5f6072042cba6031124f1493047808187b8d876de1a113ba193a5335b4caef",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.0-2-x86_64.pkg.tar.zst",
+    "sha256": "54169981493b6b8a75664ef479163390b466126baafa08d7e9071111edd60147",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.1-2-x86_64.pkg.tar.zst",
     "provides": [
       "libtss2-esys.so=0-64",
       "libtss2-fapi.so=1-64",
@@ -6805,10 +6824,10 @@
   },
   {
     "name": "udev",
-    "version": "262.1-2",
+    "version": "262.2-1",
     "origin": "artix-system",
-    "sha256": "2e053dd8fe0a4bce4482591f07311141fffc56aaa83ec66cad6d527f0d8a905d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-262.1-2-x86_64.pkg.tar.zst",
+    "sha256": "2358d83fff139d1ee03f4f4035e0c890c537a268d4ceb2a289cb0d692024d442",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/udev-262.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6818,7 +6837,7 @@
       "hwdata",
       "kbd",
       "kmod",
-      "libudev=262.1",
+      "libudev=262.2",
       "util-linux"
     ],
     "optdepends": [
@@ -7013,10 +7032,10 @@
   },
   {
     "name": "wpa_supplicant",
-    "version": "2:2.12-1",
+    "version": "2:2.12-2",
     "origin": "artix-system",
-    "sha256": "b672c8ac3ff37d20049f21b38016c039f09fe492900b347e69340f4766d77569",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/wpa_supplicant-2:2.12-1-x86_64.pkg.tar.zst",
+    "sha256": "676b4ec933d065271e1f1d49a0c9f395f78afe9d647f5a3e32fea101b68b054e",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/wpa_supplicant-2:2.12-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -7126,10 +7145,10 @@
   },
   {
     "name": "xlinks",
-    "version": "2.30-2",
+    "version": "2.30-3",
     "origin": "artix-system",
-    "sha256": "75cb0bf9dc897c10b139768da4da4cf7e56d6523bc8e02fe94676e67810432eb",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/xlinks-2.30-2-x86_64.pkg.tar.zst",
+    "sha256": "f239b568e15645ee521129bfd2682f5f5e70fd8c4229b6f499d0f8807c147026",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/xlinks-2.30-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -7142,8 +7161,8 @@
       "libevent",
       "libevent-2.1.so=7-64",
       "openssl",
-      "libcrypto.so=3-64",
-      "libssl.so=3-64",
+      "libcrypto.so=4-64",
+      "libssl.so=4-64",
       "xz",
       "liblzma.so=5-64",
       "zstd",
