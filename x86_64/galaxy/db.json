@@ -255,10 +255,10 @@
   },
   {
     "name": "anubis",
-    "version": "1.25.0-1",
+    "version": "1.28.2-1",
     "origin": "artix-galaxy",
-    "sha256": "14bd6b846b0fd0c882578392d591440da2ee8fb68ea143761d2bd98482b5bb7d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/anubis-1.25.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9a9818942cc091aa7f4614c9b58c49fadd9afc8a834f597478aecf3580584f84",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/anubis-1.28.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -1150,6 +1150,21 @@
       "perl-xml-libxml-simple",
       "perl-xml-libxslt",
       "perl-xml-writer"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "binaryen",
+    "version": "1:130-1",
+    "origin": "artix-galaxy",
+    "sha256": "523e9750e39b3ef54e1d454f3072833c58a00195b3c28101ee676959155cf45e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/binaryen-1:130-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libstdc++",
+      "libgcc",
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": []
@@ -4806,10 +4821,10 @@
   },
   {
     "name": "esbuild",
-    "version": "0.28.0-1",
+    "version": "0.28.2-1",
     "origin": "artix-galaxy",
-    "sha256": "904d844b8b1f5ea745db4c77424e7419b355f7f8f61049e5fd3074cb43793c58",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/esbuild-0.28.0-1-x86_64.pkg.tar.zst",
+    "sha256": "eefd92555d81a62c0d90f9297e91da52a85b8f48aec643518c79249b76e47803",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/esbuild-0.28.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -23766,10 +23781,10 @@
   },
   {
     "name": "openrct2",
-    "version": "0.5.6-1",
+    "version": "0.5.7-1",
     "origin": "artix-galaxy",
-    "sha256": "8a72dcb3adaed9e8bbd030f95f19c1d99c73684dd665e32129da3cc08dce0b3a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openrct2-0.5.6-1-x86_64.pkg.tar.zst",
+    "sha256": "81dffbfc642e0dcf7b9e604b60c04e790c8dc7a3ef9c581bd729dc490fac9587",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openrct2-0.5.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",

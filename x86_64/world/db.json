@@ -11138,14 +11138,15 @@
   },
   {
     "name": "desktop-file-utils",
-    "version": "0.28-1",
+    "version": "0.29-1",
     "origin": "artix-world",
-    "sha256": "a4fe1631d50eddd9539f0a7a7dca7931efa696afa387ee8b87ca1ab8a3a5596d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/desktop-file-utils-0.28-1-x86_64.pkg.tar.zst",
+    "sha256": "1e268accab8552c1a1180e856292eedf8412f3e1f4ae549f420a2cf3fe4ea542",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/desktop-file-utils-0.29-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
       "glibc",
+      "libgcc",
       "libglib-2.0.so=0-64"
     ],
     "optdepends": [],
@@ -20575,10 +20576,10 @@
   },
   {
     "name": "glances",
-    "version": "4.5.8-1",
+    "version": "4.5.9-1",
     "origin": "artix-world",
-    "sha256": "c096de4934589cd8743956e7d3222d8cca9e653deaedc358bb530da9a128fdfb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glances-4.5.8-1-any.pkg.tar.zst",
+    "sha256": "d88ec16a04e8008dc4d3a1229d566d2051eab7748c8f95c504795decef6957bc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glances-4.5.9-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -28896,10 +28897,10 @@
   },
   {
     "name": "hyprland",
-    "version": "0.57.1-1",
+    "version": "0.57.2-1",
     "origin": "artix-world",
-    "sha256": "6d74ba4c825fcd1155458c4abda91c50ce2f8ee3259aabb163a97a87e557f199",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.57.1-1-x86_64.pkg.tar.zst",
+    "sha256": "8c7e0f19e121cf1021080dee762fc48c14bbfd4d0baddef77238de7fc852b959",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.57.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -28968,7 +28969,7 @@
       "libpixman-1.so=0-64",
       "libre2.so=11-64",
       "libreadline.so=8-64",
-      "libsdbus-c++.so=2-64",
+      "libsdbus-c++.so",
       "libtomlplusplus.so",
       "libuuid.so=1-64",
       "libwayland-server.so=0-64",
@@ -29178,10 +29179,10 @@
   },
   {
     "name": "hyprpm",
-    "version": "0.57.1-1",
+    "version": "0.57.2-1",
     "origin": "artix-world",
-    "sha256": "eaab0eb5af687c50cd002c142ee27122026425fa5740b9a86bc24bb0c390a6b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.57.1-1-x86_64.pkg.tar.zst",
+    "sha256": "7bac9004a82293badba3d75b2f7519b6d681d44502df65958523e402b67fb8bf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.57.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -38627,13 +38628,13 @@
   },
   {
     "name": "knockd",
-    "version": "0.8-1.1",
+    "version": "0.8-2",
     "origin": "artix-world",
-    "sha256": "3b0cac1fec9820542879e3147f45a8a7da62c5208e2604cd6d5cfecc9789aa49",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knockd-0.8-1.1-x86_64.pkg.tar.zst",
+    "sha256": "5293001523c601ea3eb69a41f96a6b5d611e6da1d7d6391ca95ee787b62b2c96",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/knockd-0.8-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libpcap>=1.0.0"
+      "libpcap"
     ],
     "optdepends": [],
     "conflicts": []
@@ -41247,10 +41248,10 @@
   },
   {
     "name": "kvantum",
-    "version": "1.1.8-1",
+    "version": "1.1.9-1",
     "origin": "artix-world",
-    "sha256": "cbda93059252a15108205935f58b252f057a5b61b58d7cb1750015d5c73b152d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kvantum-1.1.8-1-x86_64.pkg.tar.zst",
+    "sha256": "8c058f5d82798ab49778870d00ed1dbefcdec5b05afbfdf04501cd884fdd5aeb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kvantum-1.1.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -41268,10 +41269,10 @@
   },
   {
     "name": "kvantum-qt5",
-    "version": "1.1.8-1",
+    "version": "1.1.9-1",
     "origin": "artix-world",
-    "sha256": "ca7e6532640e1858302cc0b4d2cb16d8234f5fe0f60af89cee2745686fec9aef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kvantum-qt5-1.1.8-1-x86_64.pkg.tar.zst",
+    "sha256": "955737fe7e5ada5a2148b40c1f5dcad70dea1ece6a688effd4254e376e87e736",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kvantum-qt5-1.1.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -127078,10 +127079,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261106004946-1",
+    "version": "20261108011013-1",
     "origin": "artix-world",
-    "sha256": "e4e759c8ec22bfa8d8faab311d59b83676cd5a1e9e8b415aa7dc79699a0fa213",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261106004946-1-any.pkg.tar.zst",
+    "sha256": "37f25c3df10cd5adc6f76b735f5c156b5e4fc5b4efa49c0ff3ee33ebb8bda285",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261108011013-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -127089,10 +127090,10 @@
   },
   {
     "name": "v2ray-geoip",
-    "version": "202611050539-1",
+    "version": "202611080027-1",
     "origin": "artix-world",
-    "sha256": "33ade4078254457709b554469552c11a5ce88298b4f65a02388456b3a502adcd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-geoip-202611050539-1-any.pkg.tar.zst",
+    "sha256": "e8c16f770b8153ce5c4c9f4a94be2312455103e69e78ffb9ad8d88e847873bb4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-geoip-202611080027-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -131368,10 +131369,10 @@
   },
   {
     "name": "weechat",
-    "version": "4.10.3-1",
+    "version": "4.10.4-1",
     "origin": "artix-world",
-    "sha256": "49eec7d4b866b7d66c5c1221d2abfe8f2b7d15154a8580b99dfa8b5f5e0cc9a1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/weechat-4.10.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c59ffc0169eb4901e5e807b97cfd2e92b45bba66069da2586ef0de071f239f40",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/weechat-4.10.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
