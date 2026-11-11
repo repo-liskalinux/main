@@ -394,10 +394,10 @@
   },
   {
     "name": "aspnet-runtime",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "cb022a4e9900c28cef1470cb240830fe5ec3b8f2ff2ab1e279b09e0cfb0e0fe1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "4d077665eb0003aae4e797fdf7b516017e1b43ae6c16c6a837149c24d7213671",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-runtime=10.0",
       "aspnet-runtime-10.0"
@@ -414,10 +414,10 @@
   },
   {
     "name": "aspnet-runtime-10.0",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "76914d6b68b658feb29ce938b31307042af685f6bdb0b2cef501fa34a32f47ac",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-10.0-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "7e8776c90420988a528f89463580359195fcae53112d036191bfcc50d6bd7d22",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-10.0-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-runtime=10.0"
     ],
@@ -465,10 +465,10 @@
   },
   {
     "name": "aspnet-targeting-pack",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "0d03207aceb28d934fd4687ff61dc84890c8b04de49f609460da6bf3a819aded",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "041c4d9da9229b1f4b4361904754d0b3d9208dabe342f65e0175b1ba890b4c28",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-targeting-pack=10.0",
       "aspnet-targeting-pack-10.0"
@@ -485,10 +485,10 @@
   },
   {
     "name": "aspnet-targeting-pack-10.0",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "52aeab645ea7f0314f7da7c58a31010be5ff8b3a5f3cd40748b4bcdbe2f59ddd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-10.0-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "01e63ba1c112cc30b07c307fadea6ea6a2dd04884bbe04d9ec9596c4788c7dad",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-10.0-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-targeting-pack=10.0"
     ],
@@ -3758,10 +3758,10 @@
   },
   {
     "name": "dotnet-host",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "99313bd6607f36cf061e653aa4698a40803ad7696726bdf012ff732e65b4949f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-host-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "60d87c20a844db3c188ca51ef3cb1a400c103dbfcb04e40016461736a8851a43",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-host-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3775,10 +3775,10 @@
   },
   {
     "name": "dotnet-runtime",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "d90f5a426fea3e9681029a11cc955a5a18557de58608918de4c559c8d6bc3560",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "4014780a461cdc70fa5ad6921d561a6e1c75ced48c87ade71e7a4b3cdf3d2d81",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-runtime=10.0",
       "dotnet-runtime-10.0"
@@ -3792,7 +3792,7 @@
       "libstdc++",
       "libunwind",
       "zlib",
-      "openssl"
+      "openssl-3"
     ],
     "optdepends": [
       "lttng-ust2.12: CoreCLR tracing"
@@ -3803,10 +3803,10 @@
   },
   {
     "name": "dotnet-runtime-10.0",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "73126b30230078c194e3d0db381da35b6430bd0ea65a26275b3216bbf4a77b99",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-10.0-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "67e560933589a5492348fb7115e23ab78b164e11c178a250c0aafe60e5048db9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-10.0-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-runtime=10.0"
     ],
@@ -3819,7 +3819,7 @@
       "krb5",
       "libunwind",
       "zlib",
-      "openssl"
+      "openssl-3"
     ],
     "optdepends": [
       "lttng-ust2.12: CoreCLR tracing"
@@ -3878,10 +3878,10 @@
   },
   {
     "name": "dotnet-sdk",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "26ebf186db31f5b1de8bc96125dcb2e719dcff5c97f7b3f5336ee48a407183ad",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "4fea92406f67e476c554fb8b868f50fe3dc6ba8914dfb20ae8e437ce603b63ba",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-sdk=10.0",
       "dotnet-sdk-10.0"
@@ -3902,10 +3902,10 @@
   },
   {
     "name": "dotnet-sdk-10.0",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "1a3397007f89bc50c172eb4fdb648923bd52c7042c9baae007f14d546f407ad4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-10.0-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "d3c2639f978de61b4e7147d0c75fe45defcb92df1ed0452899c2585e3858f478",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-10.0-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-sdk=10.0"
     ],
@@ -3967,10 +3967,10 @@
   },
   {
     "name": "dotnet-source-built-artifacts",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "53273c97129227231a1e16add17cf1d54ba78b06f0b5ea31187a7d53ee7b5338",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "cc284d7c8b0131f68afcd9a4babfe76b75002262158a4c05f2902be04b6670de",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-source-built-artifacts=10.0",
       "dotnet-source-built-artifacts-10.0"
@@ -3985,10 +3985,10 @@
   },
   {
     "name": "dotnet-source-built-artifacts-10.0",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "b370b3f515ee238137d46c9b49fbdd978ff14bec0fc0739df8e2c3e6fea6e1e3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-10.0-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "b417e55e0c6163b25aa62f2db13d11c63e7dd34c281e8a618ece205925756f24",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-10.0-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-source-built-artifacts=10.0"
     ],
@@ -4030,10 +4030,10 @@
   },
   {
     "name": "dotnet-targeting-pack",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "a8de50f74e9797cae1bb51a07b42fb526e4097421e50e03c597afd52bd7562a4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "13b05584081d472f1674d5f4d76ccd344189ca9cb1d9e0110e6f7a4fc5eecfcf",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=10.0",
       "dotnet-targeting-pack-10.0"
@@ -4048,10 +4048,10 @@
   },
   {
     "name": "dotnet-targeting-pack-10.0",
-    "version": "10.0.14.sdk114-1",
+    "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
-    "sha256": "659efba2f9c8771545325bb7642171e8fa97aa8e4b7d6d723444afdc98c51ddd",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-10.0-10.0.14.sdk114-1-x86_64.pkg.tar.zst",
+    "sha256": "d55158e999a92a3cf2468c80086dcdc7674e883dd0b1fd432c66ab3eea023050",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-10.0-10.0.14.sdk114-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=10.0"
     ],
@@ -28786,10 +28786,10 @@
   },
   {
     "name": "spotify-launcher",
-    "version": "0.6.6-2",
+    "version": "0.6.7-1",
     "origin": "artix-galaxy",
-    "sha256": "47442dd5bf467bc302e2768164150327c8f249611c75aa4ceb50211d9cb77d4c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/spotify-launcher-0.6.6-2-x86_64.pkg.tar.zst",
+    "sha256": "805c200777d2b2f9f61a403703521e9dd7d6ed8b9ccab5798b23ceb4742c9707",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/spotify-launcher-0.6.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib>=1.0.14",
