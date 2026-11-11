@@ -431,10 +431,10 @@
   },
   {
     "name": "aspnet-runtime-8.0",
-    "version": "8.0.33.sdk133-1",
+    "version": "8.0.33.sdk133-2",
     "origin": "artix-galaxy",
-    "sha256": "afe0d44e7202773838ff30a09c5a14cff6abde38733ca6426d25edde5b4fe64f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-8.0-8.0.33.sdk133-1-x86_64.pkg.tar.zst",
+    "sha256": "061ab3323627b5335fbc5ed7e9f6b79afb9d6d438ae6d89a4c52d16d80adea6d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-runtime=8.0"
     ],
@@ -448,10 +448,10 @@
   },
   {
     "name": "aspnet-runtime-9.0",
-    "version": "9.0.22.sdk123-1",
+    "version": "9.0.22.sdk123-2",
     "origin": "artix-galaxy",
-    "sha256": "dc55a9d065f785a9a78f06cb8d4889d5a7928ee8b7d1fb55e648ca3f5541df3f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-9.0-9.0.22.sdk123-1-x86_64.pkg.tar.zst",
+    "sha256": "6eb13d57d7a1d988d7cee74bccd0e73758ac3f54611550e5bd50cf27e5b415e1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-runtime=9.0"
     ],
@@ -502,10 +502,10 @@
   },
   {
     "name": "aspnet-targeting-pack-8.0",
-    "version": "8.0.33.sdk133-1",
+    "version": "8.0.33.sdk133-2",
     "origin": "artix-galaxy",
-    "sha256": "a96640a4c332683fd6ebb915f4dbf2b1a3315ad91cc6dd50aab7f2cf456800e4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-8.0-8.0.33.sdk133-1-x86_64.pkg.tar.zst",
+    "sha256": "44c1655b2768c827c8e9d84a41a1b47946488a5c818733793ff2e2cab15ab095",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-targeting-pack=8.0"
     ],
@@ -519,10 +519,10 @@
   },
   {
     "name": "aspnet-targeting-pack-9.0",
-    "version": "9.0.22.sdk123-1",
+    "version": "9.0.22.sdk123-2",
     "origin": "artix-galaxy",
-    "sha256": "5275379676f68edabf970dc42db90b6accfb87828dceb60c8c46d56ddaca09d6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-9.0-9.0.22.sdk123-1-x86_64.pkg.tar.zst",
+    "sha256": "5881ba40b744341c62dc174b62366229287de1dc93dc2dfcdbb1022dd198d558",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
     "provides": [
       "aspnet-targeting-pack=9.0"
     ],
@@ -3828,10 +3828,10 @@
   },
   {
     "name": "dotnet-runtime-8.0",
-    "version": "8.0.33.sdk133-1",
+    "version": "8.0.33.sdk133-2",
     "origin": "artix-galaxy",
-    "sha256": "912e56e3f1dcb5b432a82872402494dd0ded98ec406e9f2ea9e3ecfdc23ea204",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-8.0-8.0.33.sdk133-1-x86_64.pkg.tar.zst",
+    "sha256": "b28d7232626402c6669e0892ffb78ef920f3aed681c10b12488e26e0b17a7b25",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-runtime=8.0"
     ],
@@ -3844,7 +3844,7 @@
       "libstdc++",
       "libunwind",
       "zlib",
-      "openssl"
+      "openssl-3"
     ],
     "optdepends": [
       "lttng-ust2.12: CoreCLR tracing"
@@ -3853,10 +3853,10 @@
   },
   {
     "name": "dotnet-runtime-9.0",
-    "version": "9.0.22.sdk123-1",
+    "version": "9.0.22.sdk123-2",
     "origin": "artix-galaxy",
-    "sha256": "db275cb5d2c212411d38c7e68036beb82b3731afcabf84bd4f5f7db7bb49fd45",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-9.0-9.0.22.sdk123-1-x86_64.pkg.tar.zst",
+    "sha256": "c704bc1843f48b8953ad6e7632ff9b3e7bea1e60228aba0031fd3ea5d90a9ee7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-runtime=9.0"
     ],
@@ -3869,7 +3869,7 @@
       "krb5",
       "libunwind",
       "zlib",
-      "openssl"
+      "openssl-3"
     ],
     "optdepends": [
       "lttng-ust2.12: CoreCLR tracing"
@@ -3923,10 +3923,10 @@
   },
   {
     "name": "dotnet-sdk-8.0",
-    "version": "8.0.33.sdk133-1",
+    "version": "8.0.33.sdk133-2",
     "origin": "artix-galaxy",
-    "sha256": "cf01debb4c12ec60e1ad412457d921192807fb6eb7c90b1b277972122b6a43c1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-8.0-8.0.33.sdk133-1-x86_64.pkg.tar.zst",
+    "sha256": "69eb5207b45434fb1fe78a227333b20938e58069e95baeca848d7d29aabdc8b4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-sdk=8.0"
     ],
@@ -3945,10 +3945,10 @@
   },
   {
     "name": "dotnet-sdk-9.0",
-    "version": "9.0.22.sdk123-1",
+    "version": "9.0.22.sdk123-2",
     "origin": "artix-galaxy",
-    "sha256": "535bbaf35d74941e164f33fc2c9d5a3bf3320ccc3aaa76c51535ff6d8c5875b7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-9.0-9.0.22.sdk123-1-x86_64.pkg.tar.zst",
+    "sha256": "dc8d684516f7bb94b87fac4cad3eeab02eb07b4e32b435f7c5aeabe502948e88",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-sdk=9.0"
     ],
@@ -4000,10 +4000,10 @@
   },
   {
     "name": "dotnet-source-built-artifacts-8.0",
-    "version": "8.0.33.sdk133-1",
+    "version": "8.0.33.sdk133-2",
     "origin": "artix-galaxy",
-    "sha256": "7d5a4a5eb3909ad13767c7da2ad7c51dd54745e3d42e8c37a0704c6dc2314450",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-8.0-8.0.33.sdk133-1-x86_64.pkg.tar.zst",
+    "sha256": "b966cfb2f5c20f8f85e77ee33e168d7d2237312bc51b939998ec9feaa1763597",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-source-built-artifacts=8.0"
     ],
@@ -4015,10 +4015,10 @@
   },
   {
     "name": "dotnet-source-built-artifacts-9.0",
-    "version": "9.0.22.sdk123-1",
+    "version": "9.0.22.sdk123-2",
     "origin": "artix-galaxy",
-    "sha256": "331958be48e0ed137d0de5ed9856528eb3727d78fbec134295ebe11e15317bb6",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-9.0-9.0.22.sdk123-1-x86_64.pkg.tar.zst",
+    "sha256": "6109d84e1dfc3422de486be1334fe053f212c1f87dd9db19449701f710e879a9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-source-built-artifacts=9.0"
     ],
@@ -4063,10 +4063,10 @@
   },
   {
     "name": "dotnet-targeting-pack-8.0",
-    "version": "8.0.33.sdk133-1",
+    "version": "8.0.33.sdk133-2",
     "origin": "artix-galaxy",
-    "sha256": "ce6b82ae1d8d08c881ff03a29b120b5cb39ccdb1ba438540c8c8df44cf79dbaa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-8.0-8.0.33.sdk133-1-x86_64.pkg.tar.zst",
+    "sha256": "198b5b4759a41562cddf53e81b33c044fb29a2ff3a5c8f785989e16396ca6cef",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=8.0"
     ],
@@ -4080,10 +4080,10 @@
   },
   {
     "name": "dotnet-targeting-pack-9.0",
-    "version": "9.0.22.sdk123-1",
+    "version": "9.0.22.sdk123-2",
     "origin": "artix-galaxy",
-    "sha256": "5687b7e3aac4139a7abded8441a4fee50aa20f4cf1975b8256b69c6db84f89fa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-9.0-9.0.22.sdk123-1-x86_64.pkg.tar.zst",
+    "sha256": "ad8bc4a53ce362a07c5d37a5f66b649de6a126b8f37ced30b8876dc7a8d42b05",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=9.0"
     ],
@@ -11138,10 +11138,10 @@
   },
   {
     "name": "konform-browser",
-    "version": "1:153.6.0.102-1",
+    "version": "1:153.7.0.100-2",
     "origin": "artix-galaxy",
-    "sha256": "c0cff1cc62cc92b28f5795fe2233e2bcab3d590cc1264c8831480ed666b7635d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:153.6.0.102-1-x86_64.pkg.tar.zst",
+    "sha256": "4db7e96d2c84c63a1cdde09d910e9bc987f56770507d7e4d8ffce4e76f63f7d5",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:153.7.0.100-2-x86_64.pkg.tar.zst",
     "provides": [
       "konform-browser"
     ],
@@ -33797,21 +33797,28 @@
   },
   {
     "name": "xviewer-plugins",
-    "version": "1.4.1-3",
+    "version": "3.4.4-1",
     "origin": "artix-galaxy",
-    "sha256": "dc722c55c6118785e401b599d77516c7c9f9c8fceea47f63f1b98dcf1837192e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xviewer-plugins-1.4.1-3-x86_64.pkg.tar.zst",
-    "provides": [
-      "xviewer-plugins"
-    ],
+    "sha256": "0416bc4f988a50f63ed797ee455f233eb79c1e4e07e43ef88a4482e9dfc2a4d2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xviewer-plugins-3.4.4-1-x86_64.pkg.tar.zst",
+    "provides": [],
     "depends": [
-      "xviewer",
-      "libpeas"
+      "cairo",
+      "dconf",
+      "gdk-pixbuf2",
+      "glib2",
+      "glibc",
+      "gtk3",
+      "libexif",
+      "libpeas",
+      "osm-gps-map",
+      "pango",
+      "python",
+      "python-gobject",
+      "xviewer"
     ],
     "optdepends": [],
-    "conflicts": [
-      "xviewer-plugins-git"
-    ]
+    "conflicts": []
   },
   {
     "name": "xwayland-satellite",
