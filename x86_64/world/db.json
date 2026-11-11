@@ -13674,10 +13674,10 @@
   },
   {
     "name": "ejabberd",
-    "version": "26.09-1",
+    "version": "26.09.1-2",
     "origin": "artix-world",
-    "sha256": "9360f3d609d78d5ee9fbd87dc97667509b471be122eca800508b3b4895bc9920",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ejabberd-26.09-1-x86_64.pkg.tar.zst",
+    "sha256": "1291c2a0a48477cb7600d186916c084c2eacb0030456b9e833d0d2889b846f27",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ejabberd-26.09.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "expat",
@@ -19658,10 +19658,10 @@
   },
   {
     "name": "gimp",
-    "version": "3.2.6-2",
+    "version": "3.2.8-1",
     "origin": "artix-world",
-    "sha256": "1e09a22495af3d4701ccda4c8ba9e9df3c6145adb94ae6a0adb5ad73735f7b23",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-3.2.6-2-x86_64.pkg.tar.zst",
+    "sha256": "9386565b19ae461684c3df7418d869232997bd067d92b7dca39d2cf43e55e4b9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-3.2.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "appstream",
@@ -19761,6 +19761,7 @@
       "bash-completion: for bash completion support",
       "cfitsio: for FITS support",
       "ghostscript: for PostScript support",
+      "gimp-help: for offline help support",
       "gjs: for JavaScript scripting support",
       "gutenprint: for sophisticated printing only as gimp has built-in cups print support",
       "gvfs: for HTTP/S support (and many other schemes)"
@@ -64807,10 +64808,10 @@
   },
   {
     "name": "passim",
-    "version": "0.1.12-1",
+    "version": "0.1.13-1",
     "origin": "artix-world",
-    "sha256": "0479e8cc85cef0ba8398eaa4effcf50e00309bb8fca3195950f26ae8cf2703b2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/passim-0.1.12-1-x86_64.pkg.tar.zst",
+    "sha256": "6508df84089ffd218b94b69e7bfa5a8708546b7d80646b8d71d1918c17d47800",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/passim-0.1.13-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpassim.so=1-64"
     ],
@@ -67659,10 +67660,10 @@
   },
   {
     "name": "perl-mail-dkim",
-    "version": "1.20240923-3",
+    "version": "1.20261105-1",
     "origin": "artix-world",
-    "sha256": "18d49d1675ec74f85bf8dd23152ca6d01af6b3194ef98f11f6d8bc8b940b1f48",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mail-dkim-1.20240923-3-any.pkg.tar.zst",
+    "sha256": "10b5f533563aa62c2b2ea8ed5aaf4a86ac218b1ca88b8eeeaece79a1234ab626",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mail-dkim-1.20261105-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-crypt-openssl-rsa",
@@ -67999,10 +68000,10 @@
   },
   {
     "name": "perl-mozilla-ca",
-    "version": "20261020-1",
+    "version": "20261105-1",
     "origin": "artix-world",
-    "sha256": "c5e557b50cba2ac18de2e8c90c544d00cf7a5c59f246f9ba7b9ac13f2436a7a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mozilla-ca-20261020-1-any.pkg.tar.zst",
+    "sha256": "91d92190e827767d97578a357b8ed3401c79bdd09ffb0afe407e27d62ef17019",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mozilla-ca-20261105-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -68097,19 +68098,15 @@
   },
   {
     "name": "perl-net-dns-sec",
-    "version": "1.28-3",
+    "version": "1.28-4",
     "origin": "artix-world",
-    "sha256": "7e934720a11090570416c6afbcc7ad44ca849c08b61482c42a04fa026c08f20a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-net-dns-sec-1.28-3-x86_64.pkg.tar.zst",
+    "sha256": "0b7fc30cca85ac26d22ca61e89df47a500d2cf4be1a9bb6eee00cb12043631a1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-net-dns-sec-1.28-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "perl-crypt-openssl-bignum",
-      "perl-crypt-openssl-dsa",
-      "perl-crypt-openssl-rsa",
-      "perl-digest-bubblebabble",
-      "perl-mime-base32",
       "perl-net-dns",
-      "perl"
+      "perl",
+      "openssl"
     ],
     "optdepends": [],
     "conflicts": []
@@ -74760,16 +74757,17 @@
   },
   {
     "name": "procinfo-ng",
-    "version": "2.0.304-9",
+    "version": "2.0.304-10",
     "origin": "artix-world",
-    "sha256": "497a7debd0680c12167d23dc032220e066cf25f851f85a09b67c08b72193cba2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/procinfo-ng-2.0.304-9-x86_64.pkg.tar.zst",
+    "sha256": "f07dec5d26315072f2d2f07c288d6df06c555f307cbac9bdde63fcbde9ffba6c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/procinfo-ng-2.0.304-10-x86_64.pkg.tar.zst",
     "provides": [
       "procinfo"
     ],
     "depends": [
       "glibc",
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "ncurses",
       "perl"
     ],
