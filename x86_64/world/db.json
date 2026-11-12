@@ -2201,10 +2201,10 @@
   },
   {
     "name": "aqbanking",
-    "version": "6.9.2-1",
+    "version": "6.9.2-3",
     "origin": "artix-world",
-    "sha256": "35af9e84376a7169c66eefcae4216ef805a859837ffba103bf77bfda43d07b9e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aqbanking-6.9.2-1-x86_64.pkg.tar.zst",
+    "sha256": "2812eea2230ff466e3a6105aa36a5eff6d409fe88ba1f9cea6c07ff10c0218d0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/aqbanking-6.9.2-3-x86_64.pkg.tar.zst",
     "provides": [
       "libaqbanking.so=44-64"
     ],
@@ -12239,10 +12239,10 @@
   },
   {
     "name": "docker-compose",
-    "version": "5.7.0-1",
+    "version": "5.7.1-1",
     "origin": "artix-world",
-    "sha256": "58627492ee09aa3172321b9ab67e3bb8151da59689c6223e12eace2808acefba",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-compose-5.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "213dbdb171bebbeb90b272c355a7612fd5b55648412c1881f9ee6062628081c1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-compose-5.7.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -41875,13 +41875,13 @@
   },
   {
     "name": "languagetool",
-    "version": "6.6-2",
+    "version": "6.8-1",
     "origin": "artix-world",
-    "sha256": "2e2d4c01a6ff524512d24239d6452ecec8beef56737a7d0edd0998015bdcc432",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/languagetool-6.6-2-any.pkg.tar.zst",
+    "sha256": "7aba45e5c95d4d46b0dd77fbce1be162326a132e5e214a0ad1fb6445018e55c5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/languagetool-6.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "java-runtime-headless"
+      "java-runtime-headless>=17"
     ],
     "optdepends": [
       "java-runtime: needed for the GUI version",
@@ -47283,10 +47283,10 @@
   },
   {
     "name": "libmspack",
-    "version": "1:1.11-2",
+    "version": "1:1.12-1",
     "origin": "artix-world",
-    "sha256": "abe24f1719084619ed7fea2587cac49b853753d125d1274821f76afed8662821",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmspack-1:1.11-2-x86_64.pkg.tar.zst",
+    "sha256": "05ef1303fcf51a54265fd588351baa3cc7ef9ab230100247150847e14d25bdb1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmspack-1:1.12-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmspack.so=0-64"
     ],
@@ -47487,10 +47487,10 @@
   },
   {
     "name": "libnbd",
-    "version": "1.24.3-1",
+    "version": "1.24.4-1",
     "origin": "artix-world",
-    "sha256": "f5fa68b8b77b6edafd9ae12eb87cebe473522c98625497bb3c09f52e37f691aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libnbd-1.24.3-1-x86_64.pkg.tar.zst",
+    "sha256": "e1674a3baad53119eff2ac9537c76d2af3f0f54aadee7d0e322e0366aba72170",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libnbd-1.24.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54389,10 +54389,10 @@
   },
   {
     "name": "m17n-db",
-    "version": "1.8.16-1",
+    "version": "1.8.17-1",
     "origin": "artix-world",
-    "sha256": "fa4ae301c5cc537c4c8e19a065ab7b05b037d2e1b142117407a04b854bddaec7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-db-1.8.16-1-any.pkg.tar.zst",
+    "sha256": "5dc3d1d89572af82456f25aa6c476c9f91dd4ea1b7cbefd1ea59ad1c9f029a51",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-db-1.8.17-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -61467,10 +61467,10 @@
   },
   {
     "name": "oath-toolkit",
-    "version": "2.6.15-1",
+    "version": "2.6.15-2",
     "origin": "artix-world",
-    "sha256": "e7ee24146d89e283844781ea06cb0d03f02c8001e41d5a30b5acd180f589a3ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/oath-toolkit-2.6.15-1-x86_64.pkg.tar.zst",
+    "sha256": "d86b65a5fcdbf257f9a6c4cd813703ade664137a3b5e63865d1ec04a85269656",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/oath-toolkit-2.6.15-2-x86_64.pkg.tar.zst",
     "provides": [
       "liboath.so=0-64",
       "libpskc.so=0-64"
@@ -97658,10 +97658,10 @@
   },
   {
     "name": "python-xmlsec",
-    "version": "1.3.18-1",
+    "version": "1.3.18-3",
     "origin": "artix-world",
-    "sha256": "1f19a26db3400c493d0b25f1cc667cd8e52774807a101ffd3bc3ed94e6c337da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-xmlsec-1.3.18-1-x86_64.pkg.tar.zst",
+    "sha256": "2524006651b8b587189e95ba7573fe4e2a81a8a6d1115cb0c282f4d4906098a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-xmlsec-1.3.18-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -105815,10 +105815,10 @@
   },
   {
     "name": "ruby-cucumber-cucumber-expressions",
-    "version": "20.1.0-1",
+    "version": "20.2.0-1",
     "origin": "artix-world",
-    "sha256": "34f6650040fb1090012c0c2a91e5940f4745cf18a8ee6f8a92f846179e23d1e7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-cucumber-expressions-20.1.0-1-any.pkg.tar.zst",
+    "sha256": "29602b19dfdbf4ed26d9a2531806249db0980b8fd9f3838e8e9b8a394a0542dc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-cucumber-expressions-20.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -107067,10 +107067,10 @@
   },
   {
     "name": "ruby-mime-types-data",
-    "version": "3.2026.1027-1",
+    "version": "3.2026.1103-1",
     "origin": "artix-world",
-    "sha256": "a69c2763dcd623eb55c380e3434d05b6a319f516212ab38b2027cc79290bf1f8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mime-types-data-3.2026.1027-1-any.pkg.tar.zst",
+    "sha256": "89faa5d16d0ae9a8be90cbbdfe18b5858e201dee65fdf5b4464c64e83fad115e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mime-types-data-3.2026.1103-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -107288,10 +107288,10 @@
   },
   {
     "name": "ruby-mixlib-cli",
-    "version": "2.2.4-1",
+    "version": "2.2.5-1",
     "origin": "artix-world",
-    "sha256": "b8b5bc5c6367cd208f41626b9cc41c363c5f5875043732679f8193e9cc11a51c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mixlib-cli-2.2.4-1-any.pkg.tar.zst",
+    "sha256": "a5f9a21f40fe033a2d1d27e98769a73c5ceecbb88843efc7fdad7fd024a2aec3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mixlib-cli-2.2.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -108891,10 +108891,10 @@
   },
   {
     "name": "ruby-sass-embedded",
-    "version": "1.106.1-1",
+    "version": "1.107.1-1",
     "origin": "artix-world",
-    "sha256": "b43c7b6afee47016d6274a41a766dd047f4295f72a83f9efa7b733dbd7631c70",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sass-embedded-1.106.1-1-any.pkg.tar.zst",
+    "sha256": "f9745ce46620ac57e4469170703889ddc6f93cb204f44494d988636baab3350c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sass-embedded-1.107.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dart-sass",
@@ -135765,10 +135765,10 @@
   },
   {
     "name": "zabbix-agent",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "9da5d2bed35299119dc9b7a1d9ebb19036df4bd45eec1ca1e50dc6cc314cef16",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "6013950e3a13e102a13d64c41994482e463b6b7c10b50dd0bb785ad57baa19be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135780,10 +135780,10 @@
   },
   {
     "name": "zabbix-agent2",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "929a90335890d7ce5274a80f099278d90fd5cba1d63e4c0a97850dae5b21ada0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent2-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "20f69673e23cf728f144320388ec8c4d72c569ef86db64b53b6e5a8ce37495ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-agent2-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135795,10 +135795,10 @@
   },
   {
     "name": "zabbix-common",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "a0df80146e2abb4ea2d59e18f1c61f80e91ac8fb903a9cb0fe0c25615d0e9041",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-common-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "c5a54b77b9e6ae233328e4aa5cc8d1dce934e4115859ff043308754533412e35",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-common-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -135806,10 +135806,10 @@
   },
   {
     "name": "zabbix-frontend-php",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "2d21464a04bd513dabab80e6023d4ef4fda0f1cbd551b1fcf2859c686cfdae84",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-frontend-php-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "cf60d0cbf6a32dd7b89a76abdf2d6f3845e5b64c3a617656776c8af527380f6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-frontend-php-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-server",
@@ -135821,10 +135821,10 @@
   },
   {
     "name": "zabbix-proxy",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "0c7c7d20b5b5bca10a4ee1e5c9437671cada7ffb5358f2c00017f7dc42c14178",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-proxy-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "3a8e045ee09040c9e58ed188a924b308ed79be1608229eb68f1c3597478afbf0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-proxy-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135846,10 +135846,10 @@
   },
   {
     "name": "zabbix-server",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "4c39a28e899c1524e1bc1d0e730a4e83bd038a5b14a1740e33013652dcbdb484",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-server-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "44f3962d66b31d30648c2d649223dd878dc2a1f7d5c9ea32cd9aa2e81c4360e4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-server-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
@@ -135871,10 +135871,10 @@
   },
   {
     "name": "zabbix-web-service",
-    "version": "7.4.16-2",
+    "version": "8.0.0-1",
     "origin": "artix-world",
-    "sha256": "262e093b164025129dc76792eeb2028c1e2f3a204cb2021e0e7bd830245bce28",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-web-service-7.4.16-2-x86_64.pkg.tar.zst",
+    "sha256": "387224e8a844d08a59ca964033ae84c29bf6656e2a301bc3cfd012a76dfad793",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/zabbix-web-service-8.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zabbix-common",
