@@ -266,25 +266,6 @@
     "conflicts": []
   },
   {
-    "name": "accounts-qml-module",
-    "version": "0.7-7",
-    "origin": "artix-world",
-    "sha256": "450559a16d697f2c2149ca49d86c5f7b10c1dbd0e3db5b1c312f7fa863bc7670",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/accounts-qml-module-0.7-7-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "libaccounts-qt",
-      "libgcc",
-      "libstdc++",
-      "qt6-base",
-      "qt6-declarative",
-      "signond"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "accountsservice",
     "version": "26.27.3-1",
     "origin": "artix-world",
@@ -1708,10 +1689,10 @@
   },
   {
     "name": "apache",
-    "version": "2.4.70-1",
+    "version": "2.4.71-1",
     "origin": "artix-world",
-    "sha256": "18001d3b35b96f73ca499c04f14301f7cf0abe86d41b9f7bbd0b1b19473362f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/apache-2.4.70-1-x86_64.pkg.tar.zst",
+    "sha256": "9518a12b88463cca244ae630b03af96714ca9fa6176c207d2dff033f7871c388",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/apache-2.4.71-1-x86_64.pkg.tar.zst",
     "provides": [
       "mod_proxy_uwsgi"
     ],
@@ -3743,12 +3724,13 @@
   },
   {
     "name": "autossh",
-    "version": "1.4g-4",
+    "version": "1.4g-5",
     "origin": "artix-world",
-    "sha256": "2ec040970cc0f876f16366c0eef6a659395f9f54fd88e699c0f970956c4d43eb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/autossh-1.4g-4-x86_64.pkg.tar.zst",
+    "sha256": "5e45f7cd31fea017d5402215fb5434dcffdfe76437c4c7e1b71ed951bcd14080",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/autossh-1.4g-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
+      "glibc",
       "libnsl",
       "openssh"
     ],
@@ -4824,36 +4806,6 @@
     "optdepends": [],
     "conflicts": [
       "bazel"
-    ]
-  },
-  {
-    "name": "bbswitch",
-    "version": "0.8-855",
-    "origin": "artix-world",
-    "sha256": "9ca7b0dc6824483caa4a1962d76d273e77f8bb448cef1b257a8fa7401fd2e2fe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-0.8-855-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "linux"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "bbswitch-dkms",
-    "version": "0.8-855",
-    "origin": "artix-world",
-    "sha256": "3c099421f16b095b3381c3b2b7548bae01356228275ca8da64c63e1f0b0bf896",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bbswitch-dkms-0.8-855-x86_64.pkg.tar.zst",
-    "provides": [
-      "bbswitch"
-    ],
-    "depends": [
-      "dkms"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "bbswitch"
     ]
   },
   {
@@ -6660,19 +6612,6 @@
     "provides": [],
     "depends": [
       "brltty=6.9.1"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "broadcom-wl",
-    "version": "6.30.223.271-724.1",
-    "origin": "artix-world",
-    "sha256": "b0b0a8858e3633102d4c75b2485fddf007cf99ea638fccea5266a64155302769",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/broadcom-wl-6.30.223.271-724.1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "linux"
     ],
     "optdepends": [],
     "conflicts": []
@@ -13658,21 +13597,6 @@
     "conflicts": []
   },
   {
-    "name": "eigen3",
-    "version": "3.4.1-1",
-    "origin": "artix-world",
-    "sha256": "d8ac9ab2da65c37f53e6c6609bc26e47dab12bcce2270c0e4dd05caf3abd000d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/eigen3-3.4.1-1-any.pkg.tar.zst",
-    "provides": [
-      "eigen=3.4.1"
-    ],
-    "depends": [],
-    "optdepends": [],
-    "conflicts": [
-      "eigen"
-    ]
-  },
-  {
     "name": "ejabberd",
     "version": "26.09.1-2",
     "origin": "artix-world",
@@ -16773,21 +16697,6 @@
     "conflicts": []
   },
   {
-    "name": "finch",
-    "version": "2.14.14-4",
-    "origin": "artix-world",
-    "sha256": "4df2c2aa1e2f9cecd9073e96110d8a66d8f9f4280d956799362d4c057d61c77e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/finch-2.14.14-4-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "libpurple",
-      "libgnt",
-      "libx11"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "firejail",
     "version": "0.9.80-1",
     "origin": "artix-world",
@@ -18925,24 +18834,6 @@
       "libopenraw: Load .arw, .cr2, .crw, .dng, .erf, .mrw, .nef, .orf, .pef and .raf",
       "libwmf: Load .apm and .wmf"
     ],
-    "conflicts": []
-  },
-  {
-    "name": "gdl",
-    "version": "3.40.0-2",
-    "origin": "artix-world",
-    "sha256": "9c8fae04a2e4b9f032321705f8165706e616f0dd03850187fd8baa941fdf85e2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdl-3.40.0-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "cairo",
-      "gdk-pixbuf2",
-      "glib2",
-      "glibc",
-      "gtk3",
-      "libxml2"
-    ],
-    "optdepends": [],
     "conflicts": []
   },
   {
@@ -27960,19 +27851,6 @@
     "conflicts": []
   },
   {
-    "name": "http-parser",
-    "version": "2.9.4-2",
-    "origin": "artix-world",
-    "sha256": "cbd5b7ba0ab7179b4e3be220a8f55d7e421b34f582a2ea12030aafc334fd93e9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/http-parser-2.9.4-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "httpbin",
     "version": "0.10.4-1",
     "origin": "artix-world",
@@ -34725,110 +34603,6 @@
       "qt6-tools"
     ],
     "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "kde-development-environment-meta",
-    "version": "20241108-1",
-    "origin": "artix-world",
-    "sha256": "89aa971a124a3eb66a693539e8ed9883ddb5a825b2a0bac53883a9e077403204",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kde-development-environment-meta-20241108-1-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "attica",
-      "baloo",
-      "baloo-widgets",
-      "bluez-qt",
-      "breeze-icons",
-      "clang",
-      "cmake",
-      "extra-cmake-modules",
-      "frameworkintegration",
-      "gcc",
-      "gdb",
-      "gettext",
-      "git",
-      "karchive",
-      "kauth",
-      "kbookmarks",
-      "kcalendarcore",
-      "kcmutils",
-      "kcodecs",
-      "kcolorscheme",
-      "kcompletion",
-      "kconfig",
-      "kconfigwidgets",
-      "kcontacts",
-      "kcoreaddons",
-      "kcrash",
-      "kdav",
-      "kdbusaddons",
-      "kdeclarative",
-      "kded",
-      "kdesu",
-      "kdnssd",
-      "kdoctools",
-      "kfilemetadata",
-      "kglobalaccel",
-      "kguiaddons",
-      "kholidays",
-      "ki18n",
-      "kiconthemes",
-      "kidletime",
-      "kio",
-      "kirigami",
-      "kirigami-addons",
-      "kitemmodels",
-      "kitemviews",
-      "kjobwidgets",
-      "knewstuff",
-      "knotifications",
-      "knotifyconfig",
-      "konqueror",
-      "kpackage",
-      "kparts",
-      "kpeople",
-      "kplotting",
-      "kpty",
-      "kquickcharts",
-      "krunner",
-      "kservice",
-      "kstatusnotifieritem",
-      "ksvg",
-      "ktextaddons",
-      "ktexteditor",
-      "ktexttemplate",
-      "ktextwidgets",
-      "kunitconversion",
-      "kuserfeedback",
-      "kwallet",
-      "kwidgetsaddons",
-      "kwindowsystem",
-      "kxmlgui",
-      "libkscreen",
-      "make",
-      "modemmanager-qt",
-      "networkmanager-qt",
-      "ninja",
-      "prison",
-      "pulseaudio-qt",
-      "purpose",
-      "qqc2-desktop-style",
-      "qt6-base",
-      "qt6-declarative",
-      "qt6-webengine",
-      "solid",
-      "sonnet",
-      "syndication",
-      "syntax-highlighting",
-      "threadweaver"
-    ],
-    "optdepends": [
-      "kate",
-      "kdevelop",
-      "plasma-sdk",
-      "plasma-workspace"
-    ],
     "conflicts": []
   },
   {
@@ -43460,22 +43234,6 @@
     "conflicts": []
   },
   {
-    "name": "libchamplain",
-    "version": "0.12.21-1.3",
-    "origin": "artix-world",
-    "sha256": "45f3f3d89b1d6ba3dd3440d73263e3ce7e9d1f731451ee1161e777e27c9ecf96",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libchamplain-0.12.21-1.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "clutter-gtk",
-      "libsoup3",
-      "cairo",
-      "sqlite"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libchewing",
     "version": "0.13.1-1",
     "origin": "artix-world",
@@ -44703,20 +44461,6 @@
     "provides": [],
     "depends": [
       "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "libgadu",
-    "version": "1.12.2-14",
-    "origin": "artix-world",
-    "sha256": "442ec9a972cb4758db7ec616de7a155987b29c58dab6e006646ade2ad4a22a2d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgadu-1.12.2-14-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "gnutls",
-      "protobuf-c"
     ],
     "optdepends": [],
     "conflicts": []
@@ -46303,19 +46047,6 @@
     "conflicts": [
       "libkexiv2<24"
     ]
-  },
-  {
-    "name": "libkeybinder2",
-    "version": "0.3.1-4",
-    "origin": "artix-world",
-    "sha256": "d66888a61be1f485e793941af4c755b47e2ea91e07f384501d1dcab449e1a237",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkeybinder2-0.3.1-4-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "gtk2"
-    ],
-    "optdepends": [],
-    "conflicts": []
   },
   {
     "name": "libkeybinder3",
@@ -48710,32 +48441,6 @@
     ],
     "optdepends": [
       "pulse-native-provider: PulseAudio backend"
-    ],
-    "conflicts": []
-  },
-  {
-    "name": "libpurple",
-    "version": "2.14.14-4",
-    "origin": "artix-world",
-    "sha256": "6b2bdf841abd6b6a2915a5e7bcff8af9e3c9fbe65f1c0c43e1298b93c223ad7d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libpurple-2.14.14-4-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "farstream",
-      "libsasl",
-      "libidn",
-      "libnsl",
-      "libgadu",
-      "dbus-glib",
-      "nss",
-      "libnm",
-      "libxcrypt"
-    ],
-    "optdepends": [
-      "avahi: Bonjour protocol support",
-      "ca-certificates: SSL CA certificates",
-      "python-dbus: for purple-remote and purple-url-handler",
-      "tk: Tcl/Tk scripting support"
     ],
     "conflicts": []
   },
@@ -51535,10 +51240,10 @@
   },
   {
     "name": "libxnvctrl",
-    "version": "615.78.08-1",
+    "version": "620.70.06-1",
     "origin": "artix-world",
-    "sha256": "6df36115d06ecd3250be7bf441bc41d69c4cff0c86ab786bc81c7043b28426ae",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-615.78.08-1-x86_64.pkg.tar.zst",
+    "sha256": "f7388a95209bb8fd53644cb8365c5ac7a1945f069764b7ac754e3303b3ff7263",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-620.70.06-1-x86_64.pkg.tar.zst",
     "provides": [
       "libXNVCtrl.so=0-64"
     ],
@@ -51547,24 +51252,6 @@
     ],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "libxnvctrl-580xx",
-    "version": "580.196.07-1",
-    "origin": "artix-world",
-    "sha256": "442e232273e36ef00a350851703b10ff2ff8e6e56520af02061717a17dcd076a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-580xx-580.196.07-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "libXNVCtrl.so=0-64",
-      "libxnvctrl"
-    ],
-    "depends": [
-      "libxext"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "libxnvctrl"
-    ]
   },
   {
     "name": "libxp",
@@ -61206,102 +60893,6 @@
     "conflicts": []
   },
   {
-    "name": "nvidia-580xx",
-    "version": "580.196.07-1",
-    "origin": "artix-world",
-    "sha256": "d9ccdae13d94cbdd85fa25af82391db4693c6b427f176536a3c3a9dc74878da4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-580.196.07-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "NVIDIA-MODULE",
-      "nvidia",
-      "nvidia580xx"
-    ],
-    "depends": [
-      "linux",
-      "nvidia-utils=580.196.07",
-      "libglvnd"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "nvidia",
-      "nvidia580xx"
-    ]
-  },
-  {
-    "name": "nvidia-580xx-dkms",
-    "version": "580.196.07-1",
-    "origin": "artix-world",
-    "sha256": "5b1bdbe5153325891ea2df420132529cf2d2f0670af8e807aa33e1295959e89b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-dkms-580.196.07-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "NVIDIA-MODULE",
-      "nvidia"
-    ],
-    "depends": [
-      "dkms",
-      "nvidia-580xx-utils=580.196.07",
-      "libglvnd"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "NVIDIA-MODULE",
-      "nvidia",
-      "nvidia-open-dkms"
-    ]
-  },
-  {
-    "name": "nvidia-580xx-settings",
-    "version": "580.196.07-1",
-    "origin": "artix-world",
-    "sha256": "2759f20d10adebea9d72d22cc6addbcc9bc3da34cc8244b9c486322ab38b4b47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-settings-580.196.07-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "nvidia-settings"
-    ],
-    "depends": [
-      "jansson",
-      "gtk3",
-      "libxv",
-      "libvdpau",
-      "nvidia-utils",
-      "libxnvctrl-580xx"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "nvidia-settings"
-    ]
-  },
-  {
-    "name": "nvidia-580xx-utils",
-    "version": "580.196.07-1",
-    "origin": "artix-world",
-    "sha256": "fa34c48ed18593e66a93c45c1b7120b02d621cb9a4e914b5edfd3025f7edb48c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-580xx-utils-580.196.07-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "vulkan-driver",
-      "nvidia-utils",
-      "nvidia-utils=580.196.07",
-      "opengl-driver",
-      "nvidia-libgl"
-    ],
-    "depends": [
-      "libglvnd",
-      "egl-wayland",
-      "egl-wayland2",
-      "egl-gbm",
-      "egl-x11"
-    ],
-    "optdepends": [
-      "nvidia-580xx-settings: configuration tool",
-      "xorg-server: Xorg support",
-      "xorg-server-devel: nvidia-xconfig"
-    ],
-    "conflicts": [
-      "nvidia-libgl",
-      "nvidia-utils"
-    ]
-  },
-  {
     "name": "nvidia-open",
     "version": "615.78.08-6",
     "origin": "artix-world",
@@ -61322,10 +60913,10 @@
   },
   {
     "name": "nvidia-open-dkms",
-    "version": "615.78.08-2",
+    "version": "620.70.06-1",
     "origin": "artix-world",
-    "sha256": "47edacd3dce36fcf6f5d7faebdf478c542ed39c8f968afe5a05fc1ae6fe29c8e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-dkms-615.78.08-2-x86_64.pkg.tar.zst",
+    "sha256": "80bed22e63ff3c83de711ac2784bd8a9b74da8b8a6fa546a0f1e6daccd5d680e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-dkms-620.70.06-1-x86_64.pkg.tar.zst",
     "provides": [
       "nvidia-open",
       "NVIDIA-MODULE",
@@ -61333,7 +60924,7 @@
     ],
     "depends": [
       "dkms",
-      "nvidia-utils=615.78.08"
+      "nvidia-utils=620.70.06"
     ],
     "optdepends": [],
     "conflicts": [
@@ -61343,10 +60934,10 @@
   },
   {
     "name": "nvidia-settings",
-    "version": "615.78.08-1",
+    "version": "620.70.06-1",
     "origin": "artix-world",
-    "sha256": "0f852aa1c750f8d2fa01a8d5ecfb44535af5dd09196cfe9a4b0b55547ca0e828",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-settings-615.78.08-1-x86_64.pkg.tar.zst",
+    "sha256": "f0ff38edfc44c547e4e92c56a4fe612535629bb2c43aeab6f639fc7c0f5d56e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-settings-620.70.06-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jansson",
@@ -61360,10 +60951,10 @@
   },
   {
     "name": "nvidia-utils",
-    "version": "615.78.08-2",
+    "version": "620.70.06-1",
     "origin": "artix-world",
-    "sha256": "36d41c193a7e495c5efd45cbc5c0369955d18b825cf830cc642549ceec8aad30",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-utils-615.78.08-2-x86_64.pkg.tar.zst",
+    "sha256": "ca1ba00a1e4ba9493d01694ac23abc0bb290f516adcc430f90d4908d8b3c087e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-utils-620.70.06-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver",
       "opengl-driver",
@@ -62315,10 +61906,10 @@
   },
   {
     "name": "opencl-nvidia",
-    "version": "615.78.08-2",
+    "version": "620.70.06-1",
     "origin": "artix-world",
-    "sha256": "332a0aa5e2304a3d079118f48abc523771857581e6ffc787d179045f3a335261",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-615.78.08-2-x86_64.pkg.tar.zst",
+    "sha256": "e83b52f714199d107a242b7f0739fdae25687734c4959c1ca582c3a6028259a3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-620.70.06-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],
@@ -62329,26 +61920,6 @@
       "opencl-headers: headers necessary for OpenCL development"
     ],
     "conflicts": []
-  },
-  {
-    "name": "opencl-nvidia-580xx",
-    "version": "580.196.07-1",
-    "origin": "artix-world",
-    "sha256": "a2b88f6cba43ab63f6bc3661fd8e3ce633fd9d07bd805c80cec96ab9c9916401",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-580xx-580.196.07-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "opencl-driver",
-      "opencl-nvidia"
-    ],
-    "depends": [
-      "zlib"
-    ],
-    "optdepends": [
-      "opencl-headers: headers necessary for OpenCL development"
-    ],
-    "conflicts": [
-      "opencl-nvidia"
-    ]
   },
   {
     "name": "opencl-rusticl-mesa",
@@ -68507,21 +68078,6 @@
     "conflicts": []
   },
   {
-    "name": "perl-pkgconfig-libpkgconf",
-    "version": "0.11-11",
-    "origin": "artix-world",
-    "sha256": "5bdd501abe41e22d069c1be89e35ac0587ecdaecdcae2dc2523835c6c1028bed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-pkgconfig-libpkgconf-0.11-11-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "perl",
-      "pkgconf"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "perl-pod-coverage",
     "version": "0.23-6",
     "origin": "artix-world",
@@ -72928,10 +72484,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.19.0-1",
+    "version": "12.20.0-1",
     "origin": "artix-world",
-    "sha256": "a250769259820aa02899ba0baad8dd6b022574c15b405f031a8b6f99c346a175",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.19.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9e94010b386a0559f2c4a0d42444a373a6247d354d90b5b1301fac07a70dde9e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.20.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -96817,24 +96373,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.13.7-1",
+    "version": "0.13.8-1",
     "origin": "artix-world",
-    "sha256": "b4e5b9923396db8662f2f7d804bf066844d7d29a3e47435dfc0a176ce195563f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.7-1-x86_64.pkg.tar.zst",
+    "sha256": "879f5559c2e2253b44e1b6543f243dcf8aa8971dbab4c8783ae6a3a71de7b414",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.13.7"
+      "uv=0.13.8"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.13.7-1",
+    "version": "0.13.8-1",
     "origin": "artix-world",
-    "sha256": "800b2ef83d2f753231accd8941ffd922dfff38c8290287e343e207730baaa6d1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.7-1-x86_64.pkg.tar.zst",
+    "sha256": "24c5ff3f48ec6aa80e63724dfeecfb658b06fd05be93d263aeb35952be5c91f3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -101146,10 +100702,10 @@
   },
   {
     "name": "qt5-base",
-    "version": "5.15.19+kde+r96-2",
+    "version": "5.15.19+kde+r97-1",
     "origin": "artix-world",
-    "sha256": "0fe3e5f19f6e5d1f7b8971cb180da78646738688f5219c7cbff1c0dd72ddf140",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-base-5.15.19+kde+r96-2-x86_64.pkg.tar.zst",
+    "sha256": "94ff7395ca3c76c4668f38f1f3607ef6cd9cfdd3daadcc1456f18baa20ff6525",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-base-5.15.19+kde+r97-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libjpeg-turbo",
@@ -101439,13 +100995,13 @@
   },
   {
     "name": "qt5-xcb-private-headers",
-    "version": "5.15.19+kde+r96-2",
+    "version": "5.15.19+kde+r97-1",
     "origin": "artix-world",
-    "sha256": "123eb13ced8ca6a644f78e21f3958e56283f4682866b5999bfdb7c8945eda978",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-xcb-private-headers-5.15.19+kde+r96-2-x86_64.pkg.tar.zst",
+    "sha256": "1875ef78ef8eb278ea5df5d34bdf81af678d1b3a72fc2d9c364333693de0b5f2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-xcb-private-headers-5.15.19+kde+r97-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "qt5-base=5.15.19+kde+r96"
+      "qt5-base=5.15.19+kde+r97"
     ],
     "optdepends": [],
     "conflicts": []
@@ -101508,10 +101064,10 @@
   },
   {
     "name": "qt6-base",
-    "version": "6.12.0-4",
+    "version": "6.12.0-5",
     "origin": "artix-world",
-    "sha256": "5206bcd8efee6f18677390f9adb953fb26119f12466f8b669f11f1650be8a5b7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.12.0-4-x86_64.pkg.tar.zst",
+    "sha256": "6bff714516770be1439bdb6168e2447f650be4f505cde1d1e22caf9217fb3402",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-base-6.12.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "brotli",
@@ -102296,10 +101852,10 @@
   },
   {
     "name": "qt6-xcb-private-headers",
-    "version": "6.12.0-4",
+    "version": "6.12.0-5",
     "origin": "artix-world",
-    "sha256": "c41373e9a7f1d31463065c23db8524758c624817e262745ce81ba0ab52a75082",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.12.0-4-x86_64.pkg.tar.zst",
+    "sha256": "8a55dd3e784d37e5858038b1284d27607b58f5960106c0988f4e07b9145fe369",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt6-xcb-private-headers-6.12.0-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base=6.12.0"
@@ -102398,23 +101954,6 @@
       "libstdc++",
       "org.freedesktop.secrets",
       "qt6-base"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "qtqr",
-    "version": "2.1-9.1",
-    "origin": "artix-world",
-    "sha256": "487088643801cf0d58e356501eea7930d9abef1f7914e748ffb270a08e917f91",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtqr-2.1-9.1-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python-pillow",
-      "python-pyqt5",
-      "qrencode",
-      "qt5-multimedia",
-      "zbar"
     ],
     "optdepends": [],
     "conflicts": []
@@ -104527,10 +104066,10 @@
   },
   {
     "name": "rssguard",
-    "version": "5.2.5-1",
+    "version": "5.3.0-1",
     "origin": "artix-world",
-    "sha256": "723ea743a0ce6ac605b7e6cb54e0a5d5e11183cf68c62a27a9e7f70a07231d9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rssguard-5.2.5-1-x86_64.pkg.tar.zst",
+    "sha256": "fe9185e6cbaf238c6dc7f8ed621549208103c3b97659a479f26725bee68411d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rssguard-5.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -105902,10 +105441,10 @@
   },
   {
     "name": "ruby-cucumber-query",
-    "version": "16.2.0-1",
+    "version": "16.3.0-1",
     "origin": "artix-world",
-    "sha256": "5845abd1617731aa6bfe3e6ee49b64566ffe3669bb6d912fa64de6b4fa92b9bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-query-16.2.0-1-any.pkg.tar.zst",
+    "sha256": "710cf8cdc00e75d3ebe7d30490271d35488b0e8ae52673a267faad53912e468b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-query-16.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -108072,10 +107611,10 @@
   },
   {
     "name": "ruby-qed",
-    "version": "3.0.0-1",
+    "version": "3.0.1-1",
     "origin": "artix-world",
-    "sha256": "a3c711607c493e077cd96cbeb47f67b3e338cc9ba1c6b864ab8ca7bff8465ebb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-qed-3.0.0-1-any.pkg.tar.zst",
+    "sha256": "32757a50690a34e081762e8ff96fe42a981ee42236744f58990241287e58e201",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-qed-3.0.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -109626,10 +109165,10 @@
   },
   {
     "name": "ruby-tins",
-    "version": "1.61.0-1",
+    "version": "1.62.0-1",
     "origin": "artix-world",
-    "sha256": "93a450a3d4d4c4a55309ee00154be90e1ff2e422f6d411647f99bc41938daa1f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-tins-1.61.0-1-any.pkg.tar.zst",
+    "sha256": "9c7ea19b4bcf072a96965716e3fa59d24538692e6166a376d73c737851eb0304",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-tins-1.62.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -124594,19 +124133,6 @@
     "conflicts": []
   },
   {
-    "name": "tp_smapi",
-    "version": "0.45-96",
-    "origin": "artix-world",
-    "sha256": "215be4ae41852afcfef4f6a31a35cdcc44ab33ad153a7a5925326b139f23f802",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tp_smapi-0.45-96-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "linux"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "tpm2-abrmd",
     "version": "3.0.0-2",
     "origin": "artix-world",
@@ -126769,10 +126295,10 @@
   },
   {
     "name": "uv",
-    "version": "0.13.7-1",
+    "version": "0.13.8-1",
     "origin": "artix-world",
-    "sha256": "99c82f01bc599d8871655d0f3470c956a870d2d9b0b2a83ec35277815d8ddf24",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.7-1-x86_64.pkg.tar.zst",
+    "sha256": "90bb6442417f92c001d12a749e2b9c3b99fccec2375e33ee80bd483f8156776e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",

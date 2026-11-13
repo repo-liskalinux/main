@@ -5375,6 +5375,21 @@
     ]
   },
   {
+    "name": "finch",
+    "version": "2.14.14-4",
+    "origin": "artix-galaxy",
+    "sha256": "4df2c2aa1e2f9cecd9073e96110d8a66d8f9f4280d956799362d4c057d61c77e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/finch-2.14.14-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "libpurple",
+      "libgnt",
+      "libx11"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "firefox",
     "version": "160.0-1",
     "origin": "artix-galaxy",
@@ -10339,6 +10354,19 @@
     "conflicts": []
   },
   {
+    "name": "http-parser",
+    "version": "2.9.4-2",
+    "origin": "artix-galaxy",
+    "sha256": "cbd5b7ba0ab7179b4e3be220a8f55d7e421b34f582a2ea12030aafc334fd93e9",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/http-parser-2.9.4-2-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "hugo",
     "version": "0.164.0-1",
     "origin": "artix-galaxy",
@@ -11691,6 +11719,22 @@
     "conflicts": []
   },
   {
+    "name": "libchamplain",
+    "version": "0.12.21-1.3",
+    "origin": "artix-galaxy",
+    "sha256": "45f3f3d89b1d6ba3dd3440d73263e3ce7e9d1f731451ee1161e777e27c9ecf96",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libchamplain-0.12.21-1.3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "clutter-gtk",
+      "libsoup3",
+      "cairo",
+      "sqlite"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "libcmis",
     "version": "0.6.3-2",
     "origin": "artix-galaxy",
@@ -11839,6 +11883,20 @@
     "conflicts": []
   },
   {
+    "name": "libgadu",
+    "version": "1.12.2-14",
+    "origin": "artix-galaxy",
+    "sha256": "442ec9a972cb4758db7ec616de7a155987b29c58dab6e006646ade2ad4a22a2d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libgadu-1.12.2-14-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "gnutls",
+      "protobuf-c"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "libglade",
     "version": "2.6.4-9",
     "origin": "artix-galaxy",
@@ -11890,6 +11948,19 @@
     "provides": [],
     "depends": [
       "bash"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "libkeybinder2",
+    "version": "0.3.1-4",
+    "origin": "artix-galaxy",
+    "sha256": "d66888a61be1f485e793941af4c755b47e2ea91e07f384501d1dcab449e1a237",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libkeybinder2-0.3.1-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "gtk2"
     ],
     "optdepends": [],
     "conflicts": []
@@ -12186,6 +12257,32 @@
       "polkit"
     ],
     "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "libpurple",
+    "version": "2.14.14-4",
+    "origin": "artix-galaxy",
+    "sha256": "6b2bdf841abd6b6a2915a5e7bcff8af9e3c9fbe65f1c0c43e1298b93c223ad7d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libpurple-2.14.14-4-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "farstream",
+      "libsasl",
+      "libidn",
+      "libnsl",
+      "libgadu",
+      "dbus-glib",
+      "nss",
+      "libnm",
+      "libxcrypt"
+    ],
+    "optdepends": [
+      "avahi: Bonjour protocol support",
+      "ca-certificates: SSL CA certificates",
+      "python-dbus: for purple-remote and purple-url-handler",
+      "tk: Tcl/Tk scripting support"
+    ],
     "conflicts": []
   },
   {
@@ -17614,6 +17711,24 @@
     "conflicts": []
   },
   {
+    "name": "libxnvctrl-580xx",
+    "version": "580.196.07-1",
+    "origin": "artix-galaxy",
+    "sha256": "442e232273e36ef00a350851703b10ff2ff8e6e56520af02061717a17dcd076a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libxnvctrl-580xx-580.196.07-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "libXNVCtrl.so=0-64",
+      "libxnvctrl"
+    ],
+    "depends": [
+      "libxext"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "libxnvctrl"
+    ]
+  },
+  {
     "name": "light",
     "version": "1.2.2-5",
     "origin": "artix-galaxy",
@@ -19759,10 +19874,10 @@
   },
   {
     "name": "lxqt-config",
-    "version": "2.5.0-1",
+    "version": "2.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e44066a54ea179675285788fe072a458e055e4e0f029984abc64563a49dd5153",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lxqt-config-2.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2da2262f2f9020dcf54586db186b2c80ce59951bb13dd803b91db87b3444deea",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lxqt-config-2.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -22630,10 +22745,10 @@
   },
   {
     "name": "mpd",
-    "version": "0.24.18-1",
+    "version": "0.24.19-1",
     "origin": "artix-galaxy",
-    "sha256": "8f5027e013145e255d49ed9ff04fa94f3efddc421b077bbfa77de65c56c8f9ad",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.18-1-x86_64.pkg.tar.zst",
+    "sha256": "84c3f3cd47119070ad44f849de6246d3870e5e4dea333ed4cb5afe03836525d3",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mpd-0.24.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23344,6 +23459,102 @@
     ]
   },
   {
+    "name": "nvidia-580xx",
+    "version": "580.196.07-1",
+    "origin": "artix-galaxy",
+    "sha256": "d9ccdae13d94cbdd85fa25af82391db4693c6b427f176536a3c3a9dc74878da4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nvidia-580xx-580.196.07-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "NVIDIA-MODULE",
+      "nvidia",
+      "nvidia580xx"
+    ],
+    "depends": [
+      "linux",
+      "nvidia-utils=580.196.07",
+      "libglvnd"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "nvidia",
+      "nvidia580xx"
+    ]
+  },
+  {
+    "name": "nvidia-580xx-dkms",
+    "version": "580.196.07-1",
+    "origin": "artix-galaxy",
+    "sha256": "5b1bdbe5153325891ea2df420132529cf2d2f0670af8e807aa33e1295959e89b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nvidia-580xx-dkms-580.196.07-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "NVIDIA-MODULE",
+      "nvidia"
+    ],
+    "depends": [
+      "dkms",
+      "nvidia-580xx-utils=580.196.07",
+      "libglvnd"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "NVIDIA-MODULE",
+      "nvidia",
+      "nvidia-open-dkms"
+    ]
+  },
+  {
+    "name": "nvidia-580xx-settings",
+    "version": "580.196.07-1",
+    "origin": "artix-galaxy",
+    "sha256": "2759f20d10adebea9d72d22cc6addbcc9bc3da34cc8244b9c486322ab38b4b47",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nvidia-580xx-settings-580.196.07-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "nvidia-settings"
+    ],
+    "depends": [
+      "jansson",
+      "gtk3",
+      "libxv",
+      "libvdpau",
+      "nvidia-utils",
+      "libxnvctrl-580xx"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "nvidia-settings"
+    ]
+  },
+  {
+    "name": "nvidia-580xx-utils",
+    "version": "580.196.07-1",
+    "origin": "artix-galaxy",
+    "sha256": "fa34c48ed18593e66a93c45c1b7120b02d621cb9a4e914b5edfd3025f7edb48c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nvidia-580xx-utils-580.196.07-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "vulkan-driver",
+      "nvidia-utils",
+      "nvidia-utils=580.196.07",
+      "opengl-driver",
+      "nvidia-libgl"
+    ],
+    "depends": [
+      "libglvnd",
+      "egl-wayland",
+      "egl-wayland2",
+      "egl-gbm",
+      "egl-x11"
+    ],
+    "optdepends": [
+      "nvidia-580xx-settings: configuration tool",
+      "xorg-server: Xorg support",
+      "xorg-server-devel: nvidia-xconfig"
+    ],
+    "conflicts": [
+      "nvidia-libgl",
+      "nvidia-utils"
+    ]
+  },
+  {
     "name": "nvidia-settings-beta",
     "version": "590.48.01-1",
     "origin": "artix-galaxy",
@@ -23867,6 +24078,26 @@
       "python-pyxdg: for the openbox-xdg-autostart script"
     ],
     "conflicts": []
+  },
+  {
+    "name": "opencl-nvidia-580xx",
+    "version": "580.196.07-1",
+    "origin": "artix-galaxy",
+    "sha256": "a2b88f6cba43ab63f6bc3661fd8e3ce633fd9d07bd805c80cec96ab9c9916401",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/opencl-nvidia-580xx-580.196.07-1-x86_64.pkg.tar.zst",
+    "provides": [
+      "opencl-driver",
+      "opencl-nvidia"
+    ],
+    "depends": [
+      "zlib"
+    ],
+    "optdepends": [
+      "opencl-headers: headers necessary for OpenCL development"
+    ],
+    "conflicts": [
+      "opencl-nvidia"
+    ]
   },
   {
     "name": "opencl-nvidia-beta",
@@ -24480,10 +24711,10 @@
   },
   {
     "name": "pavucontrol-qt",
-    "version": "2.5.0-1",
+    "version": "2.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "e65950ffac51f1a933445d90a8176529a83e9c89f82d66a395d20f6b24a4c8fe",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pavucontrol-qt-2.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7891d3cebd7882ed023330ab7a37bd791f4f0c73bf9006d16996f149a34419d8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/pavucontrol-qt-2.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "pulse-native-provider",
