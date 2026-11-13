@@ -794,10 +794,10 @@
   },
   {
     "name": "dash",
-    "version": "0.5.13.4-1",
+    "version": "0.5.13.5-1",
     "origin": "artix-system",
-    "sha256": "80e8bbbabf568dcd288bf2fa4233fc9cf2652ca7b8b6ff59532ff1dd8bf45b7a",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/dash-0.5.13.4-1-x86_64.pkg.tar.zst",
+    "sha256": "a629da42a7e49974abfffa5f52a9060cefeca1202d61aba3cd342abbf5764a53",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/dash-0.5.13.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3159,10 +3159,10 @@
   },
   {
     "name": "libbpf",
-    "version": "1.7.0-1",
+    "version": "1.8.0-1",
     "origin": "artix-system",
-    "sha256": "b04283f78035b31fb5af3ec654c0c9b337512de6c167df27a136ab006d5f9568",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libbpf-1.7.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d46b29b4a146aeeee226b5410596e548d47a35e1f3cfb96ac86fd7a24d2948fc",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libbpf-1.8.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libbpf.so=1-64"
     ],
@@ -3913,10 +3913,10 @@
   },
   {
     "name": "libp11-kit",
-    "version": "0.26.5-1",
+    "version": "0.26.6-1",
     "origin": "artix-system",
-    "sha256": "56bf089cb5e7977bd1ccb812e8517938fc2db0dbd7943cf426a1962710673212",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libp11-kit-0.26.5-1-x86_64.pkg.tar.zst",
+    "sha256": "83c0f6634bee0d7c3493a1902fd129abe46fca3e3d5e8000f4b73d3506ce1a5d",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libp11-kit-0.26.6-1-x86_64.pkg.tar.zst",
     "provides": [
       "libp11-kit.so=0-64"
     ],
@@ -4918,10 +4918,10 @@
   },
   {
     "name": "lz4",
-    "version": "1:1.11.0-1",
+    "version": "1:1.11.1-1",
     "origin": "artix-system",
-    "sha256": "f6590c362333bf3d9bf51d78313f7994b6eb13a9e33073d222dc7aa49c9549d8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lz4-1:1.11.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7ffc5c0479990951746b494504f2a889644d7b6a46f14de02ebeffc7ac8b1a2d",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lz4-1:1.11.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "liblz4.so=1-64"
     ],
@@ -5725,16 +5725,16 @@
   },
   {
     "name": "p11-kit",
-    "version": "0.26.5-1",
+    "version": "0.26.6-1",
     "origin": "artix-system",
-    "sha256": "5eeafc17960543567577071aedeec8c9a861b0ec6d71a4f94f236458ba1adf5d",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/p11-kit-0.26.5-1-x86_64.pkg.tar.zst",
+    "sha256": "1d51143a6f576f171663f10799ff4e8e74639ced6f65a979f0818b63e2039c18",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/p11-kit-0.26.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "coreutils",
       "glibc",
       "libtasn1",
-      "libp11-kit=0.26.5-1",
+      "libp11-kit=0.26.6-1",
       "libp11-kit.so=0-64"
     ],
     "optdepends": [],
@@ -6095,15 +6095,16 @@
   },
   {
     "name": "pptpclient",
-    "version": "1.10.0-3",
+    "version": "1.10.0-4",
     "origin": "artix-system",
-    "sha256": "6492676e92c4f27cfa2b3c0603cd6bfa3ac724c87acb350372e8914cd92fd848",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pptpclient-1.10.0-3-x86_64.pkg.tar.zst",
+    "sha256": "c4c13f000eaed20196081d7e52e1b4ea820f631b5ba2e64b04523508d4123af8",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pptpclient-1.10.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ppp",
       "iproute2",
-      "perl"
+      "perl",
+      "glibc"
     ],
     "optdepends": [],
     "conflicts": []
