@@ -8864,10 +8864,10 @@
   },
   {
     "name": "firefox-noscript",
-    "version": "13.6.37-1",
+    "version": "13.6.38-1",
     "origin": "artix-galaxy",
-    "sha256": "90548cf0d8a1ac319d9df68bf3944af22ec0606d9292e2d3c333db607440adc1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-noscript-13.6.37-1-any.pkg.tar.zst",
+    "sha256": "b5dc7f4d075ce1b54463592f1066513777da63d7bc3b449a5a006deadb8d148a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/firefox-noscript-13.6.38-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -10633,10 +10633,10 @@
   },
   {
     "name": "jellyfin-mpv-shim",
-    "version": "3.3.0-1",
+    "version": "3.3.0-2",
     "origin": "artix-galaxy",
-    "sha256": "f3396f7e8cf5d42089488d688eb5cfd26a4dd6fc84c3668b2c681f5a1bb63f0e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-mpv-shim-3.3.0-1-any.pkg.tar.zst",
+    "sha256": "6f0ee14b853485e942640b2968a0c916b0a79c1b5f56ad4b211677d38f883b74",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/jellyfin-mpv-shim-3.3.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mpv",
@@ -10651,7 +10651,8 @@
     "optdepends": [
       "python-pystray: systray support",
       "mpv-shim-default-shaders: default shader pack",
-      "python-pypresence: Discord Rich Presence integration"
+      "python-pypresence: Discord Rich Presence integration",
+      "python-gobject: MPRIS media controls"
     ],
     "conflicts": []
   },
@@ -17169,10 +17170,10 @@
   },
   {
     "name": "librewolf",
-    "version": "159.0.1_1-1",
+    "version": "160.0.0_1-1",
     "origin": "artix-galaxy",
-    "sha256": "2611f43b041e71fb8c1c7b7a8f2febbf5b66539e6a2a530b7908e19f3b5f3134",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-159.0.1_1-1-x86_64.pkg.tar.zst",
+    "sha256": "8137470fbc2a4b1e212a19e875e3cad782318928befbd01fdf0f1faba37fe24a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/librewolf-160.0.0_1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -23294,10 +23295,10 @@
   },
   {
     "name": "nushell",
-    "version": "0.116.1-1",
+    "version": "0.117.0-2",
     "origin": "artix-galaxy",
-    "sha256": "ab9ed88f7976bc45d4bba95cd9af6bba5c532c8898923ce343dd49ca414a464c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nushell-0.116.1-1-x86_64.pkg.tar.zst",
+    "sha256": "1c86c9c28a7e4128572aa4ba0c0ca15275f320ce01c34e6fbe591eed234c3e59",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nushell-0.117.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
@@ -29196,10 +29197,10 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "7.4.1-2",
+    "version": "7.4.2-1",
     "origin": "artix-galaxy",
-    "sha256": "d7ff2dd7546242aff45ee218687ead0c27171671218a7df74e5fc740df61fb20",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.4.1-2-x86_64.pkg.tar.zst",
+    "sha256": "c970fa99490767879632a151f8c7cb92b7703a688ab28783b17f16fd41551c5c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.4.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -33980,10 +33981,10 @@
   },
   {
     "name": "zathura-pdf-mupdf",
-    "version": "2026.07.18-6",
+    "version": "2026.07.18-7",
     "origin": "artix-galaxy",
-    "sha256": "1174bf382d13bc5e9875cde18a9755f6783864c3a05751e0896f54b0415a43db",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-6-x86_64.pkg.tar.zst",
+    "sha256": "d13ea97ebfa84e1850d6117893521354c9ce3ab95efdebae033602621e443def",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zathura-pdf-mupdf-2026.07.18-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -34075,10 +34076,10 @@
   },
   {
     "name": "zellij",
-    "version": "0.45.1-1",
+    "version": "0.46.0-1",
     "origin": "artix-galaxy",
-    "sha256": "d5825785fa27b999fedde70ed24ddd21c3cdda68f7d5e0f892fd41a8487c0997",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zellij-0.45.1-1-x86_64.pkg.tar.zst",
+    "sha256": "bdb997c4b5ebe3cb1df897c5dea7bc1e6b472326bcb27e668c981a909dadd411",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/zellij-0.46.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "curl",
