@@ -2620,10 +2620,10 @@
   },
   {
     "name": "arrow",
-    "version": "26.0.0-2",
+    "version": "26.0.0-3",
     "origin": "artix-world",
-    "sha256": "e72cdfc692ce5e452c66bc8817a7aa541ab24ca4c474985d1ba8de181a1cf9d3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-26.0.0-2-x86_64.pkg.tar.zst",
+    "sha256": "ca76035e82c99ba458aba4402b82c6f1f7362582b95da110998f8aee4831094e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/arrow-26.0.0-3-x86_64.pkg.tar.zst",
     "provides": [
       "parquet-cpp"
     ],
@@ -3047,10 +3047,10 @@
   },
   {
     "name": "assimp",
-    "version": "6.0.5-1",
+    "version": "6.0.6-1",
     "origin": "artix-world",
-    "sha256": "c298db0baf9127b70a88d0ae2113ebaf1bbee39e4df6530fb16dad4f2c3d454d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/assimp-6.0.5-1-x86_64.pkg.tar.zst",
+    "sha256": "95d6a2ea387dca4eec96ce55278124877a442e75148b0c9b33a8ae287f73bd36",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/assimp-6.0.6-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "zlib",
@@ -20481,10 +20481,10 @@
   },
   {
     "name": "github-cli",
-    "version": "2.103.3-1",
+    "version": "2.104.0-1",
     "origin": "artix-world",
-    "sha256": "fb3c1ea903d692f6a3b8d9a68fdb2fe858e4662b2c2d19fc20717dff567f38e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/github-cli-2.103.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0cd284e4a0641014ce828b7e532844356d9f668a3d6d22a88785611104ca5df4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/github-cli-2.104.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -34597,10 +34597,10 @@
   },
   {
     "name": "kddockwidgets",
-    "version": "2.4.1-1",
+    "version": "2.5.1-1",
     "origin": "artix-world",
-    "sha256": "f48e7121131ec1f3c0ab4bcb2d9f9a6b23fd64a7423653767711575af2a37be7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kddockwidgets-2.4.1-1-x86_64.pkg.tar.zst",
+    "sha256": "afcb16b653c3ad6f552495fb8dec711c3b7b46af03472347504a2b4400817403",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kddockwidgets-2.5.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fmt",
@@ -49994,10 +49994,10 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.27-1",
+    "version": "0.16.28-1",
     "origin": "artix-world",
-    "sha256": "cf47c291665a7be6918614b3f19e5b57f8ee13fdd928d986c65eab24f578e3ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.27-1-x86_64.pkg.tar.zst",
+    "sha256": "8da235f1f0825f5df27a35cf14e7e23484c0f9173aa721b18c54a9395e5ff800",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtorrent-0.16.28-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "openssl"
@@ -104771,13 +104771,13 @@
   },
   {
     "name": "rtorrent",
-    "version": "0.16.26-1",
+    "version": "0.16.28-1.1",
     "origin": "artix-world",
-    "sha256": "e47c7eaf6fbb6e263e9e8cc3d6ca78a76b3ae9f935dbfc68a54c60272412040f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.26-1-x86_64.pkg.tar.zst",
+    "sha256": "2e195bb115845c424d4f6fd338e040e860ed9955587e8ad5c59e972e158014f3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rtorrent-0.16.28-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libtorrent=0.16.26",
+      "libtorrent=0.16.28",
       "curl",
       "tinyxml2"
     ],
@@ -127395,10 +127395,10 @@
   },
   {
     "name": "veracrypt",
-    "version": "1.26.29-1",
+    "version": "1.26.31-1",
     "origin": "artix-world",
-    "sha256": "86fcecd0ec098c21f34f5a4e188b8adea77b8ab066148e8f737a0e233e5a3c1c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/veracrypt-1.26.29-1-x86_64.pkg.tar.zst",
+    "sha256": "23d8b49325ccabe9a1a4d90fdbc9cb069b8531899eca525aa4e1469a450b78db",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/veracrypt-1.26.31-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "device-mapper",
@@ -130679,10 +130679,10 @@
   },
   {
     "name": "vulkan-validation-layers",
-    "version": "1.4.363.0-1",
+    "version": "1.4.363.1-1",
     "origin": "artix-world",
-    "sha256": "a72ae8a0c829f93e6ad1a2e997219a64dc6d84896329a802905899623d4b224e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-validation-layers-1.4.363.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a8c04d1040bf34bfae4ed6212a8d22b8568ebf9680c9f9217e4b9357042dc392",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-validation-layers-1.4.363.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
