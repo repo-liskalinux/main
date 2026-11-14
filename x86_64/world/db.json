@@ -41211,73 +41211,6 @@
     "conflicts": []
   },
   {
-    "name": "kwin-x11",
-    "version": "6.7.5-3",
-    "origin": "artix-world",
-    "sha256": "58eb29db325cdecdcc3e42edb490e182c7ff92822dafccb1e0c4934ba35cfc5c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kwin-x11-6.7.5-3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "aurorae",
-      "breeze",
-      "glibc",
-      "plasma-activities",
-      "kauth",
-      "kcmutils",
-      "kcolorscheme",
-      "kconfig",
-      "kcoreaddons",
-      "kcrash",
-      "kdeclarative",
-      "kdecoration",
-      "kglobalaccel",
-      "kglobalacceld",
-      "kguiaddons",
-      "ki18n",
-      "kirigami",
-      "kitemmodels",
-      "knewstuff",
-      "knighttime",
-      "knotifications",
-      "kpackage",
-      "kquickcharts",
-      "kscreenlocker",
-      "kservice",
-      "ksvg",
-      "kwidgetsaddons",
-      "kwindowsystem",
-      "kxmlgui",
-      "lcms2",
-      "libcanberra",
-      "libdisplay-info",
-      "libdrm",
-      "libepoxy",
-      "libgcc",
-      "libqaccessibilityclient-qt6",
-      "libstdc++",
-      "libx11",
-      "libxcb",
-      "libxi",
-      "libxkbcommon",
-      "libxkbcommon-x11",
-      "mesa",
-      "libplasma",
-      "qt6-5compat",
-      "qt6-base",
-      "qt6-declarative",
-      "qt6-sensors",
-      "qt6-svg",
-      "qt6-tools",
-      "libelogind",
-      "wayland",
-      "xcb-util-cursor",
-      "xcb-util-keysyms",
-      "xcb-util-wm"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "kwindowsystem",
     "version": "6.31.0-1",
     "origin": "artix-world",
@@ -59589,31 +59522,6 @@
       "npm: nodejs package manager"
     ],
     "conflicts": []
-  },
-  {
-    "name": "nodejs-lts-iron",
-    "version": "20.19.6-1",
-    "origin": "artix-world",
-    "sha256": "96535e6dc04b5b4fa359f099246d0df7e5cdec244baf62fa7eebf0619c84e252",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nodejs-lts-iron-20.19.6-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "nodejs=20.19.6"
-    ],
-    "depends": [
-      "openssl",
-      "zlib",
-      "icu",
-      "libuv",
-      "c-ares",
-      "brotli",
-      "libnghttp2"
-    ],
-    "optdepends": [
-      "npm: nodejs package manager"
-    ],
-    "conflicts": [
-      "nodejs"
-    ]
   },
   {
     "name": "nodejs-lts-jod",
@@ -85315,20 +85223,6 @@
     "conflicts": []
   },
   {
-    "name": "python-nose",
-    "version": "1.3.7-19",
-    "origin": "artix-world",
-    "sha256": "6353c9e600886ecb51ef05e4c08d7e858e48ec919799a2c970b4ce87a2b5427c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-nose-1.3.7-19-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python",
-      "python-setuptools"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "python-nose2",
     "version": "0.16.0-1",
     "origin": "artix-world",
@@ -101197,25 +101091,6 @@
       "libstdc++",
       "org.freedesktop.secrets",
       "qt6-base"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "quazip-qt5",
-    "version": "1.5-1.2",
-    "origin": "artix-world",
-    "sha256": "e93534bee9ff40f014e798bdce9594a4cb707df92e1edca032df6023c3f088af",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/quazip-qt5-1.5-1.2-x86_64.pkg.tar.zst",
-    "provides": [
-      "quazip"
-    ],
-    "depends": [
-      "bzip2",
-      "gcc-libs",
-      "glibc",
-      "zlib",
-      "qt5-base"
     ],
     "optdepends": [],
     "conflicts": []
@@ -129574,10 +129449,10 @@
   },
   {
     "name": "wasm-pkg-tools",
-    "version": "0.16.1-1",
+    "version": "0.16.2-1",
     "origin": "artix-world",
-    "sha256": "1ee6edcf57ca0a5256c01c7e1128bf5ec7f04a4e70cad1f797a7387c45d0d0db",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-pkg-tools-0.16.1-1-x86_64.pkg.tar.zst",
+    "sha256": "48a8e16b19e63a6634f09d65c0fe18a598276f14f792679c94d3eaf72f58794f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-pkg-tools-0.16.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cargo",
