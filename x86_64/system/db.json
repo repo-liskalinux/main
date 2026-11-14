@@ -355,20 +355,6 @@
     "conflicts": []
   },
   {
-    "name": "bootlogd",
-    "version": "2.89-3",
-    "origin": "artix-system",
-    "sha256": "2e72d6591c9400242643f9f0ab4e2288435687cbc17c04a917e749812e1bf8cc",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/bootlogd-2.89-3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "logrotate"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "brotli",
     "version": "1.2.1-1",
     "origin": "artix-system",

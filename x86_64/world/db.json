@@ -2679,10 +2679,10 @@
   },
   {
     "name": "artools-base",
-    "version": "0.40.0-1",
+    "version": "0.40.1-1",
     "origin": "artix-world",
-    "sha256": "db3537d464e95d04eb19cd7020479aa9c2a58d37be7ecd31936f770bf66f10cd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-base-0.40.0-1-any.pkg.tar.zst",
+    "sha256": "058d7974c822ee2194ad37749833d2640a7b52453b1b73b7db26235ebc8fd4b3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-base-0.40.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "awk",
@@ -2701,10 +2701,10 @@
   },
   {
     "name": "artools-iso",
-    "version": "0.40.0-1",
+    "version": "0.40.1-1",
     "origin": "artix-world",
-    "sha256": "276df20c3bd10fa4d315c3a18f46a985290726bc850e1f8daf15f10244d8061a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-iso-0.40.0-1-any.pkg.tar.zst",
+    "sha256": "9253784af4e8b721a205b4de92bb109c677135bf4c9232c54af735567104ae7c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-iso-0.40.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "artools-base",
@@ -2726,10 +2726,10 @@
   },
   {
     "name": "artools-pkg",
-    "version": "0.40.0-1",
+    "version": "0.40.1-1",
     "origin": "artix-world",
-    "sha256": "58bb452cddf689c69573c474898478193c0e590bce7a0bfdb53340c53ebcd5ab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-pkg-0.40.0-1-any.pkg.tar.zst",
+    "sha256": "46fb76d7ca76e703d4dc024784fa3a6b6a62721a277ff9f77b92b472b9a5233d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/artools-pkg-0.40.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "artools-base",
@@ -6149,6 +6149,20 @@
     "conflicts": []
   },
   {
+    "name": "bootlogd",
+    "version": "2.89-3",
+    "origin": "artix-world",
+    "sha256": "2e72d6591c9400242643f9f0ab4e2288435687cbc17c04a917e749812e1bf8cc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootlogd-2.89-3-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "logrotate"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "botan",
     "version": "3.14.1-1",
     "origin": "artix-world",
@@ -9369,10 +9383,10 @@
   },
   {
     "name": "copr-cli",
-    "version": "2.8-1",
+    "version": "2.9-1",
     "origin": "artix-world",
-    "sha256": "76639bf7b7692eb04e8bd592db39d973c2a2c1ff0c8b3f7e16929970acb2c407",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/copr-cli-2.8-1-any.pkg.tar.zst",
+    "sha256": "7e537945fb14964e05e06f307785beccbcf43944abd974bec1c9ce06b87dd5d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/copr-cli-2.9-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -23168,10 +23182,10 @@
   },
   {
     "name": "gradle",
-    "version": "9.8.2-1",
+    "version": "9.9.0-1",
     "origin": "artix-world",
-    "sha256": "1d0b9e5418b4c69c127bdf0790ea69f61d21916e81b39c77ee78234c14f35ea3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-9.8.2-1-any.pkg.tar.zst",
+    "sha256": "792ef59865c19835975e8a0559fafa4b81a54a085da3967a86b0227989ae7c13",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-9.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -23189,10 +23203,10 @@
   },
   {
     "name": "gradle-src",
-    "version": "9.8.2-1",
+    "version": "9.9.0-1",
     "origin": "artix-world",
-    "sha256": "c846ada81f95a0237dda91798b78f1ba01e4f2ae6d93939a34300416e671781e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-src-9.8.2-1-any.pkg.tar.zst",
+    "sha256": "42208f13832d53bc506ee976e4e19f04e2986870fdf915afa2ad879d471c38a8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gradle-src-9.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -36137,29 +36151,6 @@
     "conflicts": []
   },
   {
-    "name": "kgamma",
-    "version": "6.7.5-1",
-    "origin": "artix-world",
-    "sha256": "8bfcd3bed42c11f3b0c348903ebbaed1b76a63368918cfe0545f0d946d6acf82",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kgamma-6.7.5-1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "kcmutils",
-      "kconfig",
-      "kcoreaddons",
-      "ki18n",
-      "libstdc++",
-      "libx11",
-      "libxxf86vm",
-      "qt6-base"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "kgamma5"
-    ]
-  },
-  {
     "name": "kgeography",
     "version": "26.08.3-1",
     "origin": "artix-world",
@@ -37355,21 +37346,6 @@
       "qt6-base",
       "qt6-declarative",
       "qt6-svg"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "kirigami2",
-    "version": "5.116.0-2",
-    "origin": "artix-world",
-    "sha256": "55d4c0d822bf288c3995b834c7c93f04a9a6d9f59ad2701257d077e8e24c9473",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kirigami2-5.116.0-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "qt5-quickcontrols",
-      "qt5-quickcontrols2",
-      "qt5-graphicaleffects"
     ],
     "optdepends": [],
     "conflicts": []
@@ -75359,10 +75335,10 @@
   },
   {
     "name": "python-acme",
-    "version": "5.9.0-1",
+    "version": "5.10.0-1",
     "origin": "artix-world",
-    "sha256": "ad2f2fc98e71f9210f4c819d3782cb109e806b335f7b984bec48c9ba217561f2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-acme-5.9.0-1-any.pkg.tar.zst",
+    "sha256": "b19a52781774f6f3a43be7f11591ec8f3f8cbe4eff7b4040a207db29f1ada0ef",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-acme-5.10.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
