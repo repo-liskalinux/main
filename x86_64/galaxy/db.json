@@ -2287,6 +2287,25 @@
     "conflicts": []
   },
   {
+    "name": "chatblade",
+    "version": "0.7.0-3",
+    "origin": "artix-galaxy",
+    "sha256": "fa6eaab0e08e2075a5b0736ec61500e50252a1ed63f352ded5e3e606edfd6015",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chatblade-0.7.0-3-any.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "python",
+      "python-openai",
+      "python-platformdirs",
+      "python-pylatexenc",
+      "python-rich",
+      "python-tiktoken",
+      "python-yaml"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "chawan",
     "version": "0.5.0-1",
     "origin": "artix-galaxy",
@@ -9550,6 +9569,27 @@
     ],
     "optdepends": [],
     "conflicts": []
+  },
+  {
+    "name": "gnome-session-sysvinit",
+    "version": "50.0.20260410-2",
+    "origin": "artix-galaxy",
+    "sha256": "3fd8843f22c3412dacfcd42f3243274bb7268608eacd5cde210ef6ff26332db7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gnome-session-sysvinit-50.0.20260410-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "gnome-session-leader"
+    ],
+    "depends": [
+      "bash",
+      "libgcc",
+      "elogind",
+      "glib2"
+    ],
+    "optdepends": [],
+    "conflicts": [
+      "gnome-session-leader",
+      "gdm"
+    ]
   },
   {
     "name": "gnome-themes-extra-gtk2",

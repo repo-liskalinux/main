@@ -4668,19 +4668,6 @@
     "conflicts": []
   },
   {
-    "name": "banner",
-    "version": "1.3.2-12",
-    "origin": "artix-world",
-    "sha256": "49baadc900f5df4048054a50c7725d8eb6d1a23664096348d6bd4859fc4fc39d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/banner-1.3.2-12-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "baobab",
     "version": "50.0-1",
     "origin": "artix-world",
@@ -7644,25 +7631,6 @@
       "librsvg",
       "libwebp",
       "libxslt"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "chatblade",
-    "version": "0.7.0-3",
-    "origin": "artix-world",
-    "sha256": "fa6eaab0e08e2075a5b0736ec61500e50252a1ed63f352ded5e3e606edfd6015",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/chatblade-0.7.0-3-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python",
-      "python-openai",
-      "python-platformdirs",
-      "python-pylatexenc",
-      "python-rich",
-      "python-tiktoken",
-      "python-yaml"
     ],
     "optdepends": [],
     "conflicts": []
@@ -14031,19 +13999,6 @@
     "conflicts": []
   },
   {
-    "name": "embree3",
-    "version": "3.13.5-3",
-    "origin": "artix-world",
-    "sha256": "6f633fcf7815098581b037217f6920fc0f9207001661590e6c567e908395693f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/embree3-3.13.5-3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "intel-tbb"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "emovix",
     "version": "0.9.0-9",
     "origin": "artix-world",
@@ -19074,26 +19029,6 @@
     ]
   },
   {
-    "name": "gedit-plugins",
-    "version": "50.0-3",
-    "origin": "artix-world",
-    "sha256": "93b770e356dc42c379099aadaff82d5a6dac0f3b733391566c9ba517ad2f4b5d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gedit-plugins-50.0-3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "dconf",
-      "gedit",
-      "glib2",
-      "glibc",
-      "gtk3",
-      "libgedit-gtksourceview",
-      "libgedit-tepl",
-      "libpeas"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "gegl",
     "version": "0.4.72-3",
     "origin": "artix-world",
@@ -22196,27 +22131,6 @@
     ]
   },
   {
-    "name": "gnome-session-sysvinit",
-    "version": "50.0.20260410-2",
-    "origin": "artix-world",
-    "sha256": "3fd8843f22c3412dacfcd42f3243274bb7268608eacd5cde210ef6ff26332db7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-session-sysvinit-50.0.20260410-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "gnome-session-leader"
-    ],
-    "depends": [
-      "bash",
-      "libgcc",
-      "elogind",
-      "glib2"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "gnome-session-leader",
-      "gdm"
-    ]
-  },
-  {
     "name": "gnome-settings-daemon",
     "version": "51.1-1",
     "origin": "artix-world",
@@ -22704,21 +22618,6 @@
       "ttf-freefont"
     ],
     "depends": [],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "gnu-netcat",
-    "version": "0.7.1-12",
-    "origin": "artix-world",
-    "sha256": "46395c71602123d1a4ef89f952e5c528100fc8410123195ec92e1f8509db5229",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnu-netcat-0.7.1-12-x86_64.pkg.tar.zst",
-    "provides": [
-      "netcat"
-    ],
-    "depends": [
-      "glibc"
-    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -29528,19 +29427,6 @@
     "conflicts": []
   },
   {
-    "name": "ibm-sw-tpm2",
-    "version": "1682-2",
-    "origin": "artix-world",
-    "sha256": "8a57b47727de5d2a8dd9315dd51b22d0b0330305fb849ca42e2a8ff2cd99a320",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ibm-sw-tpm2-1682-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "openssl"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "ibus",
     "version": "1.5.34-2",
     "origin": "artix-world",
@@ -32697,28 +32583,6 @@
     "conflicts": []
   },
   {
-    "name": "jupyter-nbclassic",
-    "version": "1.3.3-4",
-    "origin": "artix-world",
-    "sha256": "7d4bdb61cdd9874ba4604380bb6a742f024ae19b3c9e90689fbb683a9d21670f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jupyter-nbclassic-1.3.3-4-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "jupyter-nbconvert",
-      "jupyter-nbformat",
-      "jupyter-notebook-shim",
-      "jupyter-server",
-      "mathjax2",
-      "python",
-      "python-jupyter-core",
-      "python-jupyter-server-terminals",
-      "python-tornado",
-      "python-traitlets"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "jupyter-nbclient",
     "version": "0.11.0-1",
     "origin": "artix-world",
@@ -32870,20 +32734,6 @@
       "python-jupyter-events",
       "python-tornado",
       "python-traitlets"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "jupyter-server-mathjax",
-    "version": "0.2.6-5",
-    "origin": "artix-world",
-    "sha256": "6f416341ee88f389a0ad3861292e2fabf53ac4a73f44e65571ebea50a1ff78c6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jupyter-server-mathjax-0.2.6-5-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "jupyter-server",
-      "mathjax2"
     ],
     "optdepends": [],
     "conflicts": []
@@ -44421,29 +44271,6 @@
     "conflicts": []
   },
   {
-    "name": "libgdata",
-    "version": "0.18.1-5",
-    "origin": "artix-world",
-    "sha256": "053fdad88aa4069370c1a0f8d096e0fa31e123fd14ae5d948ff382cd3149aa75",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgdata-0.18.1-5-x86_64.pkg.tar.zst",
-    "provides": [
-      "libgdata.so=22-64"
-    ],
-    "depends": [
-      "gcr",
-      "glib2",
-      "glibc",
-      "json-glib",
-      "libgcc",
-      "libgoa",
-      "libsoup",
-      "libxml2",
-      "libsoup-2.4.so=1-64"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libgdiplus",
     "version": "6.2-1",
     "origin": "artix-world",
@@ -47526,21 +47353,6 @@
     "conflicts": []
   },
   {
-    "name": "libofa",
-    "version": "0.9.3-10",
-    "origin": "artix-world",
-    "sha256": "cf8bf673e40e5b868d543441b5a43b45eae92aebe269a5f6da1740a4d83fbc3b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libofa-0.9.3-10-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "expat",
-      "curl",
-      "fftw"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libofx",
     "version": "0.10.9-2",
     "origin": "artix-world",
@@ -48547,42 +48359,6 @@
     "conflicts": []
   },
   {
-    "name": "libquvi",
-    "version": "0.9.4-7",
-    "origin": "artix-world",
-    "sha256": "f96b2599a6a547b45185b8074851c19d4ce76cb05958122116bc742a78f03ea9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libquvi-0.9.4-7-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "libquvi-scripts",
-      "curl",
-      "lua52",
-      "libproxy",
-      "libgcrypt",
-      "glib2"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "quvi<0.9.0"
-    ]
-  },
-  {
-    "name": "libquvi-scripts",
-    "version": "0.9.20131130-5",
-    "origin": "artix-world",
-    "sha256": "65125e43b75e1e16cfa8f94616271e002b279f5c77d0f0ba1a5485b2047ba787",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libquvi-scripts-0.9.20131130-5-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "lua52-socket",
-      "lua52-bitop",
-      "lua52-expat",
-      "lua52-luajson"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libqxp",
     "version": "0.0.3-1",
     "origin": "artix-world",
@@ -49131,39 +48907,6 @@
     "conflicts": []
   },
   {
-    "name": "libsoup",
-    "version": "2.74.3-4",
-    "origin": "artix-world",
-    "sha256": "929187625e18fded7ce8f79069292385221db3e772534bfdd83cf7b743836ab1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsoup-2.74.3-4-x86_64.pkg.tar.zst",
-    "provides": [
-      "libsoup-2.4.so=1-64",
-      "libsoup-gnome-2.4.so=1-64"
-    ],
-    "depends": [
-      "brotli",
-      "glib-networking",
-      "glib2",
-      "glibc",
-      "krb5",
-      "libpsl",
-      "libsysprof-capture",
-      "libxml2",
-      "sqlite",
-      "zlib",
-      "libbrotlidec.so=1-64",
-      "libgssapi_krb5.so=2-64",
-      "libglib-2.0.so=0-64",
-      "libgobject-2.0.so=0-64",
-      "libgio-2.0.so=0-64",
-      "libpsl.so=5-64"
-    ],
-    "optdepends": [
-      "samba: Windows Domain SSO"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "libsoup3",
     "version": "3.8.1-1",
     "origin": "artix-world",
@@ -49523,22 +49266,6 @@
       "libdbus",
       "libnl",
       "zeromq"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "libtermkey",
-    "version": "0.22-4",
-    "origin": "artix-world",
-    "sha256": "36bc408f401e59b1be567b554f09a72055ee3a489fbd7e220e1f4ec29ad7ea9b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libtermkey-0.22-4-x86_64.pkg.tar.zst",
-    "provides": [
-      "libtermkey.so=1-64"
-    ],
-    "depends": [
-      "unibilium",
-      "libunibilium.so=4-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -50499,29 +50226,6 @@
     "conflicts": []
   },
   {
-    "name": "libwhereami",
-    "version": "0.5.0-24",
-    "origin": "artix-world",
-    "sha256": "fc8902f8075c6eacc34fe9477c40f3c2b240823073dafa6337912c16c4869a62",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwhereami-0.5.0-24-x86_64.pkg.tar.zst",
-    "provides": [
-      "libwhereami.so=0.5.0-64"
-    ],
-    "depends": [
-      "boost-libs",
-      "gcc-libs",
-      "glibc",
-      "leatherman",
-      "leatherman_execution.so=1.12.9-64",
-      "leatherman_file_util.so=1.12.9-64",
-      "leatherman_util.so=1.12.9-64",
-      "leatherman_logging.so=1.12.9-64",
-      "leatherman_locale.so=1.12.9-64"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libwhich",
     "version": "1.3.0-1",
     "origin": "artix-world",
@@ -50625,24 +50329,6 @@
       "glibc",
       "libstdc++",
       "libgcc"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "libwpe",
-    "version": "1.16.3-1",
-    "origin": "artix-world",
-    "sha256": "75f6e6436b5c7df688d287b4d2b6a12d6eb3f1005ae4cba284efac870fec8a17",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libwpe-1.16.3-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "libwpe-1.0.so=1-64"
-    ],
-    "depends": [
-      "gcc-libs",
-      "glibc",
-      "libegl",
-      "libxkbcommon"
     ],
     "optdepends": [],
     "conflicts": []
@@ -51143,25 +50829,6 @@
     ],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "libxmlrpc",
-    "version": "1:1.59.03-4",
-    "origin": "artix-world",
-    "sha256": "89a37b21f3ee8ee43380839be42ca9915193934ea3023e5748e9edef0853d700",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxmlrpc-1:1.59.03-4-x86_64.pkg.tar.zst",
-    "provides": [
-      "xmlrpc-c"
-    ],
-    "depends": [
-      "curl",
-      "perl",
-      "libxml2"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "xmlrpc-c"
-    ]
   },
   {
     "name": "libxmp",
@@ -52091,22 +51758,6 @@
     "origin": "artix-world",
     "sha256": "fc96cebe06f3e8604fabbe3c87c3c3e36e9a3db787b071118e43cc17857b81d6",
     "url": "https://mirror2.artixlinux.org/world/os/x86_64/litehtml-0.10-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "gumbo-parser",
-      "libgcc",
-      "libstdc++"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "litehtml0.9",
-    "version": "0.9-2",
-    "origin": "artix-world",
-    "sha256": "be7f388f4d7ae15f8f94a2de445d3b8f26ad58e8770c05b69169c9802b964e0a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/litehtml0.9-0.9-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54438,30 +54089,6 @@
     "conflicts": []
   },
   {
-    "name": "maliit-keyboard",
-    "version": "2.3.1-4",
-    "origin": "artix-world",
-    "sha256": "f42057ef245d75813694cd07c06611d53196f346967e100c47521be6b1e623f4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/maliit-keyboard-2.3.1-4-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "maliit-framework",
-      "hunspell",
-      "presage",
-      "qt5-multimedia",
-      "qt5-quickcontrols2",
-      "qt5-feedback",
-      "qt5-graphicaleffects",
-      "qt5-wayland"
-    ],
-    "optdepends": [
-      "anthy: japanese language support",
-      "libpinyin: chinese language support",
-      "libchewing: chinese language support"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "mallard-ducktype",
     "version": "1.0.2-13",
     "origin": "artix-world",
@@ -55391,17 +55018,6 @@
       "zenity",
       "hicolor-icon-theme"
     ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "mathjax2",
-    "version": "2.7.9-2",
-    "origin": "artix-world",
-    "sha256": "e764c0d072d98769396493bb6e8f9fdf0abb6783e45c5de09083c2ca4f460915",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mathjax2-2.7.9-2-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [],
     "optdepends": [],
     "conflicts": []
   },
@@ -58404,76 +58020,6 @@
     ],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "mutter46",
-    "version": "46.9-1",
-    "origin": "artix-world",
-    "sha256": "3bd67b6eae382b4c3f892575cf0cf442dac780634d4f5cd38ecc188a8ae1d667",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mutter46-46.9-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "libmutter-14.so=0-64"
-    ],
-    "depends": [
-      "at-spi2-core",
-      "cairo",
-      "colord",
-      "dconf",
-      "fontconfig",
-      "fribidi",
-      "gcc-libs",
-      "gdk-pixbuf2",
-      "glib2",
-      "glibc",
-      "gnome-desktop-4",
-      "gnome-settings-daemon",
-      "graphene",
-      "gsettings-desktop-schemas",
-      "gtk4",
-      "harfbuzz",
-      "iio-sensor-proxy",
-      "lcms2",
-      "libcanberra",
-      "libcolord",
-      "libdisplay-info",
-      "libdrm",
-      "libei",
-      "libglvnd",
-      "libgudev",
-      "libice",
-      "libinput",
-      "libpipewire",
-      "libsm",
-      "libsysprof-capture",
-      "libwacom",
-      "libx11",
-      "libxau",
-      "libxcb",
-      "libxcomposite",
-      "libxcursor",
-      "libxdamage",
-      "libxext",
-      "libxfixes",
-      "libxi",
-      "libxinerama",
-      "libxkbcommon",
-      "libxkbcommon-x11",
-      "libxkbfile",
-      "libxrandr",
-      "libxtst",
-      "mesa",
-      "pango",
-      "pipewire",
-      "pixman",
-      "python",
-      "startup-notification",
-      "wayland",
-      "xorg-xwayland"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "mutter"
-    ]
   },
   {
     "name": "mutter49",
@@ -62954,10 +62500,10 @@
   },
   {
     "name": "opensmtpd",
-    "version": "7.9.0p0-2",
+    "version": "7.9.0p0-2.1",
     "origin": "artix-world",
-    "sha256": "4bfa3335a2451fdd8c295693a8c5734c89c271cebadec639646099a9dca28681",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensmtpd-7.9.0p0-2-x86_64.pkg.tar.zst",
+    "sha256": "0f9611da8f4c2b6a1f50e33794663fd6bde3f97e11e02fa1a97f6df709f97e3a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensmtpd-7.9.0p0-2.1-x86_64.pkg.tar.zst",
     "provides": [
       "smtp-server",
       "smtp-forwarder"
@@ -65558,22 +65104,6 @@
     "provides": [],
     "depends": [
       "perl>=5.6.2"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "perl-crypt-ssleay",
-    "version": "0.73_06-7",
-    "origin": "artix-world",
-    "sha256": "c85e9b279cbc0c266cd0733784ad831260ce3b65ba5488f7eaf042df527fb357",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-crypt-ssleay-0.73_06-7-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "perl-lwp-protocol-https",
-      "perl-try-tiny",
-      "perl-path-class",
-      "perl-bytes-random-secure"
     ],
     "optdepends": [],
     "conflicts": []
@@ -69857,20 +69387,6 @@
     "conflicts": []
   },
   {
-    "name": "php-geoip",
-    "version": "1.1.1-14",
-    "origin": "artix-world",
-    "sha256": "112156aef030669323606c4a570200ced9a6aa74cd491c720242c1e225649abc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-geoip-1.1.1-14-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "geoip",
-      "php"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "php-grpc",
     "version": "1.84.0-2",
     "origin": "artix-world",
@@ -70065,20 +69581,6 @@
     "conflicts": []
   },
   {
-    "name": "php-legacy-geoip",
-    "version": "1.1.1-14",
-    "origin": "artix-world",
-    "sha256": "7cde5ee878499ad56da3a50fc59b27cfdd59f724dddd3e51cf39e8f34941bb53",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-geoip-1.1.1-14-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "geoip",
-      "php-legacy"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "php-legacy-grpc",
     "version": "1.84.0-2",
     "origin": "artix-world",
@@ -70125,19 +69627,6 @@
     "optdepends": [
       "librsvg: for SVG support"
     ],
-    "conflicts": []
-  },
-  {
-    "name": "php-legacy-memcache",
-    "version": "8.2-6",
-    "origin": "artix-world",
-    "sha256": "cf9c06ba9602d3415f1061d4384f04812a2631dc8ba273b56d6e46fa72d6218c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-memcache-8.2-6-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "php-legacy"
-    ],
-    "optdepends": [],
     "conflicts": []
   },
   {
@@ -70341,19 +69830,6 @@
       "glibc",
       "libguestfs=1.60.1",
       "libguestfs.so=0-64",
-      "php"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "php-memcache",
-    "version": "8.2-6",
-    "origin": "artix-world",
-    "sha256": "e246897409b300a98f2199bd4ae1304537600af3f7e5513e04b004dcd19eff47",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-memcache-8.2-6-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
       "php"
     ],
     "optdepends": [],
@@ -82007,19 +81483,6 @@
     "conflicts": []
   },
   {
-    "name": "python-heapdict",
-    "version": "1.0.1-9",
-    "origin": "artix-world",
-    "sha256": "9b17018bd72054d6573d7235c617a578bb689fcb23e85a9bb71149130fdd44e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-heapdict-1.0.1-9-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "python-helpdev",
     "version": "0.7.1-11",
     "origin": "artix-world",
@@ -83487,19 +82950,6 @@
     "conflicts": []
   },
   {
-    "name": "python-jsonrpclib-pelix",
-    "version": "1.2.0-1",
-    "origin": "artix-world",
-    "sha256": "44cabdde1e7be4de8578068f3aca8c4b28a4d7f473f70f17a80180ca972a3444",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-jsonrpclib-pelix-1.2.0-1-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "python-jsonschema",
     "version": "4.26.0-1",
     "origin": "artix-world",
@@ -84401,19 +83851,6 @@
     "origin": "artix-world",
     "sha256": "2ca4cbcb09e70da7c991194f41629b7323ddb0a0fdb71721289b6f5173098596",
     "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-locket-1.0.0-8-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "python-lockfile",
-    "version": "0.12.2-15",
-    "origin": "artix-world",
-    "sha256": "ff5bf3ad96a052e9e8dcc758191d2a1a775803e23c1cceac0dcacff70d3ec17c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-lockfile-0.12.2-15-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -87481,19 +86918,6 @@
     "conflicts": []
   },
   {
-    "name": "python-pep440",
-    "version": "0.1.2-6",
-    "origin": "artix-world",
-    "sha256": "70a8fc0bb274980cf3ab17f2ff064ffc2c669c175ab54da8fee0f6ebbb64a70f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pep440-0.1.2-6-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "python-perf",
     "version": "2.10.0-1",
     "origin": "artix-world",
@@ -87743,23 +87167,6 @@
     "depends": [
       "python",
       "python-pillow"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "python-pkg_resources",
-    "version": "81.0.0-1",
-    "origin": "artix-world",
-    "sha256": "13d874e9b8a33d864ec0182d4c646ad63aad1925d970cd9f7b3f6b5d93b3241b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pkg_resources-81.0.0-1-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python",
-      "python-packaging",
-      "python-jaraco.text",
-      "python-platformdirs",
-      "python-typing_extensions"
     ],
     "optdepends": [],
     "conflicts": []
@@ -88565,19 +87972,6 @@
     "optdepends": [
       "python-pytest: for py.test module"
     ],
-    "conflicts": []
-  },
-  {
-    "name": "python-py-cpuinfo",
-    "version": "9.0.0-6",
-    "origin": "artix-world",
-    "sha256": "6eeffd9c6bffb1026a6e3d6de636350aa49bd5cfb6cce2d5269bda31bc19bcb4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-py-cpuinfo-9.0.0-6-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python"
-    ],
-    "optdepends": [],
     "conflicts": []
   },
   {
@@ -91783,23 +91177,6 @@
     "conflicts": []
   },
   {
-    "name": "python-pywal",
-    "version": "3.3.0-11",
-    "origin": "artix-world",
-    "sha256": "d6cefc6001893b1721d5230b9dd4f562c7f0dde5f6b537e7cbdeedcec8b5779f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pywal-3.3.0-11-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "python",
-      "imagemagick"
-    ],
-    "optdepends": [
-      "feh: set wallpaper",
-      "nitrogen: set wallpaper"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "python-pywayland",
     "version": "0.4.19-1",
     "origin": "artix-world",
@@ -91832,29 +91209,6 @@
       "python-requests-credssp: for CredSSP authenication"
     ],
     "conflicts": []
-  },
-  {
-    "name": "python-pywlroots",
-    "version": "0.17.0-5",
-    "origin": "artix-world",
-    "sha256": "d9844cc7f2cb1e0fff4987dd633ef892cb6d02649f6241f15d0536dfd7b6ead1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pywlroots-0.17.0-5-x86_64.pkg.tar.zst",
-    "provides": [
-      "pywlroots"
-    ],
-    "depends": [
-      "glibc",
-      "python",
-      "python-cffi",
-      "python-pywayland",
-      "python-xkbcommon",
-      "wlroots0.17",
-      "libwlroots.so=12-64"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "pywlroots"
-    ]
   },
   {
     "name": "python-pyxbe",
@@ -93487,23 +92841,6 @@
     "conflicts": []
   },
   {
-    "name": "python-slip",
-    "version": "0.6.5-11",
-    "origin": "artix-world",
-    "sha256": "2b7d99234b772210fc4d6b28ce3675c7c0577bcb0f3783a2d7344ac6967ce1eb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-slip-0.6.5-11-any.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "polkit",
-      "python-dbus",
-      "python-decorator",
-      "python-gobject",
-      "python-six"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "python-slugify",
     "version": "9.1.3-1",
     "origin": "artix-world",
@@ -94347,27 +93684,6 @@
     ],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "python-sqlalchemy1.4",
-    "version": "1.4.54-3",
-    "origin": "artix-world",
-    "sha256": "7c0c10b53a212ed3593d2a0912d5b698f6b32b9f120f89cc74028e3206c23156",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-sqlalchemy1.4-1.4.54-3-x86_64.pkg.tar.zst",
-    "provides": [
-      "python-sqlalchemy"
-    ],
-    "depends": [
-      "glibc",
-      "python",
-      "python-greenlet"
-    ],
-    "optdepends": [
-      "python-psycopg2: connect to PostgreSQL database"
-    ],
-    "conflicts": [
-      "python-sqlalchemy"
-    ]
   },
   {
     "name": "python-sqlite-anyio",
@@ -100717,19 +100033,6 @@
     ]
   },
   {
-    "name": "qt5-feedback",
-    "version": "0.0.0.20150918-5",
-    "origin": "artix-world",
-    "sha256": "dd7daa2fa815c5606e76101893a560de81df03ebaad9b54f66f11eb1cb4e12fa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-feedback-0.0.0.20150918-5-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "qt5-declarative"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "qt5-graphicaleffects",
     "version": "5.15.19-1",
     "origin": "artix-world",
@@ -100903,21 +100206,6 @@
     "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-translations-5.15.19-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "qt5-virtualkeyboard",
-    "version": "5.15.19-1",
-    "origin": "artix-world",
-    "sha256": "ac54a3161c7deb121b69baef290599fe798eb259d4fb377730a0c1e918b18d9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qt5-virtualkeyboard-5.15.19-1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "qt5-declarative",
-      "qt5-svg",
-      "hunspell"
-    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -111165,17 +110453,6 @@
     ]
   },
   {
-    "name": "shhmsg",
-    "version": "1.4.2-6",
-    "origin": "artix-world",
-    "sha256": "713e33d1e7e80277c0a910b54f8dd3def88f8c50696d6d405411ca711bce2e3b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/shhmsg-1.4.2-6-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "shiboken6",
     "version": "6.12.0-3.1",
     "origin": "artix-world",
@@ -115300,25 +114577,6 @@
       "telepathy-kde-integration-module",
       "telepathy-kde-send-file",
       "telepathy-kde-text-ui"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "telepathy-logger",
-    "version": "0.8.2-10",
-    "origin": "artix-world",
-    "sha256": "410f76fcb8ee1633cad8e0fbc4a3d71ec326b01f9947d39901c0c887e2085d3f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/telepathy-logger-0.8.2-10-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "dbus-glib",
-      "dconf",
-      "glib2",
-      "glibc",
-      "libxml2",
-      "sqlite",
-      "telepathy-glib"
     ],
     "optdepends": [],
     "conflicts": []
@@ -130232,44 +129490,6 @@
     "conflicts": []
   },
   {
-    "name": "wacomtablet",
-    "version": "6.7.5-1",
-    "origin": "artix-world",
-    "sha256": "40beaff254c4edd027a0899dc096e21ae1943887fde903ff4721e2b35a74aa9f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wacomtablet-6.7.5-1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "glibc",
-      "kcmutils",
-      "kconfig",
-      "kcoreaddons",
-      "kdbusaddons",
-      "kglobalaccel",
-      "ki18n",
-      "kio",
-      "kirigami",
-      "knotifications",
-      "kservice",
-      "ksvg",
-      "kwidgetsaddons",
-      "kwindowsystem",
-      "kxmlgui",
-      "libstdc++",
-      "libwacom",
-      "libxcb",
-      "libxi",
-      "libplasma",
-      "plasma5support",
-      "qt6-base",
-      "qt6-declarative",
-      "x11win-input-wacom"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "kcm-wacomtablet"
-    ]
-  },
-  {
     "name": "waf",
     "version": "2.1.9-2",
     "origin": "artix-world",
@@ -131439,73 +130659,6 @@
     "conflicts": []
   },
   {
-    "name": "wlroots0.18",
-    "version": "0.18.3-1",
-    "origin": "artix-world",
-    "sha256": "bc8c8a97082161c0b7a3f5a8d202692654a87b094ca37d73928b7ae334cbfd73",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wlroots0.18-0.18.3-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "libwlroots-0.18.so=libwlroots-0.18.so-64"
-    ],
-    "depends": [
-      "libdisplay-info.so=3-64",
-      "libglvnd",
-      "libinput",
-      "liblcms2.so=2-64",
-      "libliftoff.so=0-64",
-      "libpixman-1.so=0-64",
-      "libseat.so=1-64",
-      "libudev.so=1-64",
-      "libvulkan.so=1-64",
-      "libwayland-client.so=0-64",
-      "libwayland-server.so=0-64",
-      "libxcb",
-      "libxkbcommon.so=0-64",
-      "opengl-driver",
-      "xcb-util-errors",
-      "xcb-util-renderutil",
-      "xcb-util-wm"
-    ],
-    "optdepends": [
-      "xorg-xwayland: Xwayland support"
-    ],
-    "conflicts": []
-  },
-  {
-    "name": "wlroots0.19",
-    "version": "0.19.3-1",
-    "origin": "artix-world",
-    "sha256": "9a0a3430bc5dd869a92d102ca62663cef72f880362869f0f69b1b630b3b88b5d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wlroots0.19-0.19.3-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "libwlroots-0.19.so=libwlroots-0.19.so-64"
-    ],
-    "depends": [
-      "libdisplay-info.so=3-64",
-      "libglvnd",
-      "libinput",
-      "liblcms2.so=2-64",
-      "libliftoff.so=0-64",
-      "libpixman-1.so=0-64",
-      "libseat.so=1-64",
-      "libudev.so=1-64",
-      "libvulkan.so=1-64",
-      "libwayland-client.so=0-64",
-      "libwayland-server.so=0-64",
-      "libxcb",
-      "libxkbcommon.so=0-64",
-      "opengl-driver",
-      "xcb-util-errors",
-      "xcb-util-renderutil",
-      "xcb-util-wm"
-    ],
-    "optdepends": [
-      "xorg-xwayland: Xwayland support",
-      "vulkan-validation-layers: validation layers for the experimental vulkan renderer backend"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "wlroots0.20",
     "version": "0.20.2-1",
     "origin": "artix-world",
@@ -131607,31 +130760,6 @@
     "url": "https://mirror2.artixlinux.org/world/os/x86_64/words-2.1-9-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "wpebackend-fdo",
-    "version": "1.16.1-1",
-    "origin": "artix-world",
-    "sha256": "cb07bcaa86c7cf0f48b43b2e944f024463deac68ce745265f7044e69446efd20",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wpebackend-fdo-1.16.1-1-x86_64.pkg.tar.zst",
-    "provides": [
-      "libWPEBackend-fdo-1.0.so=1-64"
-    ],
-    "depends": [
-      "gcc-libs",
-      "glib2",
-      "glibc",
-      "libegl",
-      "libepoxy",
-      "libwpe",
-      "wayland",
-      "libglib-2.0.so=0-64",
-      "libgobject-2.0.so=0-64",
-      "libgio-2.0.so=0-64",
-      "libwpe-1.0.so=1-64"
-    ],
     "optdepends": [],
     "conflicts": []
   },
@@ -132973,28 +132101,6 @@
     ]
   },
   {
-    "name": "xf86-video-vmware",
-    "version": "13.4.0-4.3",
-    "origin": "artix-world",
-    "sha256": "838e72cb8567d6782b21a10e859d70e66fcd6559d40d3eddd62fccd60a86e6ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xf86-video-vmware-13.4.0-4.3-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "mesa",
-      "libudev",
-      "libxext",
-      "libx11",
-      "libdrm",
-      "glibc"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "xorg-server<21.1.1",
-      "X-ABI-VIDEODRV_VERSION<25",
-      "X-ABI-VIDEODRV_VERSION>=26"
-    ]
-  },
-  {
     "name": "xf86-video-voodoo",
     "version": "1.2.6-3.2",
     "origin": "artix-world",
@@ -133643,49 +132749,6 @@
     "depends": [],
     "optdepends": [],
     "conflicts": []
-  },
-  {
-    "name": "xorg-server-tearfree",
-    "version": "21.1.24-1.1",
-    "origin": "artix-world",
-    "sha256": "d9f8599f525e012e509449b69af7375f1c7289120c76a618eb6a30e49b54da79",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xorg-server-tearfree-21.1.24-1.1-x86_64.pkg.tar.zst",
-    "provides": [
-      "X-ABI-VIDEODRV_VERSION=25.2",
-      "X-ABI-XINPUT_VERSION=24.4",
-      "X-ABI-EXTENSION_VERSION=10.0",
-      "x-server",
-      "xorg-server=21.1.24",
-      "x11win-server"
-    ],
-    "depends": [
-      "libepoxy",
-      "libxfont2",
-      "pixman",
-      "xorg-server-common",
-      "xf86-input-libinput<2.0.0",
-      "dbus",
-      "libgl",
-      "libunwind",
-      "nettle",
-      "libxdmcp",
-      "sh",
-      "glibc",
-      "libxau",
-      "libelogind",
-      "libtirpc",
-      "libpciaccess",
-      "libdrm",
-      "libxshmfence",
-      "libxcvt"
-    ],
-    "optdepends": [],
-    "conflicts": [
-      "nvidia-utils<=331.20",
-      "glamor-egl",
-      "xf86-video-modesetting",
-      "xorg-server"
-    ]
   },
   {
     "name": "xorg-server-xephyr",
@@ -134612,28 +133675,6 @@
       "python-numpy: GPU accelerated capture and compression for NVIDIA cards",
       "gst-python: Sound Forwarding",
       "opencv: Webcam Forwarding"
-    ],
-    "conflicts": []
-  },
-  {
-    "name": "xrdp",
-    "version": "0.10.4.1-2",
-    "origin": "artix-world",
-    "sha256": "6646170d2ecb6b86328cfc2d308b01c5a513e28a2a0480d80f36f03a8b8fd255",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xrdp-0.10.4.1-2-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "libxrandr",
-      "libfdk-aac",
-      "ffmpeg",
-      "imlib2",
-      "fuse3",
-      "x264"
-    ],
-    "optdepends": [
-      "tigervnc",
-      "tightvnc",
-      "realvnc-vnc-server"
     ],
     "conflicts": []
   },
