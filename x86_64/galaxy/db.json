@@ -1973,10 +1973,10 @@
   },
   {
     "name": "cef",
-    "version": "154.0.34-2",
+    "version": "156.0.28-1",
     "origin": "artix-galaxy",
-    "sha256": "e61135cea6a19e68b10f91cbf25097f2b1a2f89360ce6061cb5844cb640eda9b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cef-154.0.34-2-x86_64.pkg.tar.zst",
+    "sha256": "9f20f9686a46776585133bbdc332d6959c31ebc5f56b38a145dde289e135ac8c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cef-156.0.28-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -1997,6 +1997,7 @@
       "brotli",
       "libjpeg-turbo",
       "openh264",
+      "simdutf",
       "highway",
       "dav1d",
       "flac",
@@ -2005,6 +2006,7 @@
       "libwebp",
       "minizip",
       "opus",
+      "double-conversion",
       "libxslt",
       "harfbuzz",
       "freetype2"
@@ -10301,10 +10303,10 @@
   },
   {
     "name": "hexchat",
-    "version": "2.16.2-5",
+    "version": "2.16.2-7",
     "origin": "artix-galaxy",
-    "sha256": "7e87a18c4b9306bbad69926144173bc7b0acc91975a5bb137b83027ed4125bc5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/hexchat-2.16.2-5-x86_64.pkg.tar.zst",
+    "sha256": "b676f11644a8f3c13d765eadbc4716cc46734bd722052586d618b1bf48cf1c70",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/hexchat-2.16.2-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus-glib",
@@ -10313,7 +10315,7 @@
       "glib2",
       "gtk2",
       "libcanberra",
-      "openssl",
+      "openssl-3",
       "pango",
       "pciutils"
     ],
@@ -29449,10 +29451,10 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "7.4.2-1",
+    "version": "7.4.3-1",
     "origin": "artix-galaxy",
-    "sha256": "c970fa99490767879632a151f8c7cb92b7703a688ab28783b17f16fd41551c5c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.4.2-1-x86_64.pkg.tar.zst",
+    "sha256": "152f43c0187f27390711d7873fd98bbac2a3e44290ce2bc771067cfe6036ec57",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/telegram-desktop-7.4.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
