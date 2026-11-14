@@ -11753,6 +11753,27 @@
     "conflicts": []
   },
   {
+    "name": "libcryptui",
+    "version": "1:3.12.2+r71+ged4f890e-2",
+    "origin": "artix-galaxy",
+    "sha256": "5da5e5a97eca1f7b3cb42f55e85af1c1fca81e7e60b87842aba5da53fffcde6a",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libcryptui-1:3.12.2+r71+ged4f890e-2-x86_64.pkg.tar.zst",
+    "provides": [
+      "libcryptui.so=0-64"
+    ],
+    "depends": [
+      "gtk3",
+      "gpgme",
+      "dbus-glib",
+      "libnotify",
+      "gcr",
+      "dconf",
+      "libsm"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "libdbusmenu-lxqt",
     "version": "0.5.0-1",
     "origin": "artix-galaxy",
@@ -16974,10 +16995,10 @@
   },
   {
     "name": "libresidfp",
-    "version": "1.2.3-1",
+    "version": "1.3.0-1",
     "origin": "artix-galaxy",
-    "sha256": "6fb8ccb4e53297fcaa1850da2dd4ae533a6bd50d2803c6d21d45ec4e3549270a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libresidfp-1.2.3-1-x86_64.pkg.tar.zst",
+    "sha256": "0d52244dd8feb6c2b1ca9ee7a6b36753f44bfa053723b5825cba62970844d2f6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libresidfp-1.3.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libresidfp.so=0-64"
     ],
@@ -20610,10 +20631,10 @@
   },
   {
     "name": "mate-media",
-    "version": "1.28.1-4",
+    "version": "1.28.2-1",
     "origin": "artix-galaxy",
-    "sha256": "d8c91bffdc09cc518c937b590520a4da2c725fc6008793d68ad2d7a108ba9cf7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-media-1.28.1-4-x86_64.pkg.tar.zst",
+    "sha256": "b7a59542a6b4becfd8effd7fb6aee7764be351ef09e7b7055afc1451cb26fbc4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-media-1.28.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -20849,10 +20870,10 @@
   },
   {
     "name": "mate-session-manager",
-    "version": "1.28.0-3.1",
+    "version": "1.28.2-1",
     "origin": "artix-galaxy",
-    "sha256": "6b968c577fb69173a485078f8fefd3b6a77dac83877692cdb20af9625620e9c1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-session-manager-1.28.0-3.1-x86_64.pkg.tar.zst",
+    "sha256": "ca7c2b100d65ccdbd310c8166876b422eb4c07a51ea88e3e777ce7138ab01eb6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-session-manager-1.28.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -20923,10 +20944,10 @@
   },
   {
     "name": "mate-system-monitor",
-    "version": "1.28.1-4",
+    "version": "1.28.2-1",
     "origin": "artix-galaxy",
-    "sha256": "e20ffc546d4291649ee013f40648258900b26fc2a67ea7ee6ef34102789c0dd4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-system-monitor-1.28.1-4-x86_64.pkg.tar.zst",
+    "sha256": "e8cb089ad597f5562643fc84e5eeba695ff3c2227662e3a6479843458b987721",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/mate-system-monitor-1.28.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",

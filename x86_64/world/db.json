@@ -10504,10 +10504,10 @@
   },
   {
     "name": "dart-sass",
-    "version": "1.107.1-1",
+    "version": "1.108.2-1",
     "origin": "artix-world",
-    "sha256": "bc6048fc4da94350b2252b870c497dc453b3437699f2541f4ad428d287b12a29",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.107.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e1199fad4e0d418d8d5352794055418684a96d0a52738566683fbf9b737f90e3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dart-sass-1.108.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "sass"
     ],
@@ -11603,10 +11603,10 @@
   },
   {
     "name": "dkms",
-    "version": "3.4.4-1",
+    "version": "3.4.5-1",
     "origin": "artix-world",
-    "sha256": "848ee576cbaa9c009f50071d0daa31ae9c065f74143f1f59c0e0b633c92ebddc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dkms-3.4.4-1-any.pkg.tar.zst",
+    "sha256": "861d53a40dcf64259ea3aa84bcfa5f5095fc461d8da9d56af7e7fd11c6126123",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dkms-3.4.5-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -12165,10 +12165,10 @@
   },
   {
     "name": "docker-buildx",
-    "version": "0.38.2-1",
+    "version": "0.39.0-1",
     "origin": "artix-world",
-    "sha256": "eeb746b5039650f4de54cd6e2934778726b8d87c98d8e30950adef4531708620",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.38.2-1-x86_64.pkg.tar.zst",
+    "sha256": "e57b5467a9a8495b04e9e4f05f70f7217c798dc0ff8a5f17c6060d90ac827ff9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-buildx-0.39.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -15647,10 +15647,10 @@
   },
   {
     "name": "faad2",
-    "version": "2.11.3-1",
+    "version": "2.11.4-1",
     "origin": "artix-world",
-    "sha256": "b85a618539ad4de92f68e0a7cc300678bd190b6015ffa9501754f438307d335d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/faad2-2.11.3-1-x86_64.pkg.tar.zst",
+    "sha256": "022c7d525459249fabc4aacd0a5755c5ad961e614a70f881173613e72181a310",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/faad2-2.11.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "faad",
       "libfaad_drm.so=2-64",
@@ -22921,10 +22921,10 @@
   },
   {
     "name": "gocryptfs",
-    "version": "2.6.1-2",
+    "version": "2.7.0-1",
     "origin": "artix-world",
-    "sha256": "75e8ef31191b8b42af72579d30d8011953e4cfddc3a45a0083e16f7fe0e4fb86",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gocryptfs-2.6.1-2-x86_64.pkg.tar.zst",
+    "sha256": "cf1e959395564095c25bbf8ebe2ca0fcadd2a1ab2f0b4dbbd305298be3297c6c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gocryptfs-2.7.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -43314,27 +43314,6 @@
     "conflicts": []
   },
   {
-    "name": "libcryptui",
-    "version": "1:3.12.2+r71+ged4f890e-2",
-    "origin": "artix-world",
-    "sha256": "5da5e5a97eca1f7b3cb42f55e85af1c1fca81e7e60b87842aba5da53fffcde6a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcryptui-1:3.12.2+r71+ged4f890e-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "libcryptui.so=0-64"
-    ],
-    "depends": [
-      "gtk3",
-      "gpgme",
-      "dbus-glib",
-      "libnotify",
-      "gcr",
-      "dconf",
-      "libsm"
-    ],
-    "optdepends": [],
-    "conflicts": []
-  },
-  {
     "name": "libcss",
     "version": "0.9.2-2",
     "origin": "artix-world",
@@ -49482,10 +49461,10 @@
   },
   {
     "name": "libstemmer",
-    "version": "3.1.1-1",
+    "version": "3.2.0-1",
     "origin": "artix-world",
-    "sha256": "4c32ac0d9954da535cd47ced3e58e1479754bca642fb1416ec76f24fcd7cb45e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libstemmer-3.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "693ebdc052df9dce1536a14a288495a1f825ca168deb172e6764a22c67127d75",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libstemmer-3.2.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libstemmer.so=0-64"
     ],
@@ -51173,10 +51152,10 @@
   },
   {
     "name": "libxmlb",
-    "version": "0.3.29-1",
+    "version": "0.3.30-1",
     "origin": "artix-world",
-    "sha256": "b1028b61d18815ff400a312f68c7a3653ee001d976d6828f2664f7a3e019e9f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxmlb-0.3.29-1-x86_64.pkg.tar.zst",
+    "sha256": "670b302234f412472cac351297403e3f593283ffb6cf87840287c98de4840463",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxmlb-0.3.30-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -65273,10 +65252,10 @@
   },
   {
     "name": "perl-cgi",
-    "version": "5.02-2",
+    "version": "5.02-3",
     "origin": "artix-world",
-    "sha256": "88175ac71caa45b52c5872ec43003c149e325beff5f504401946aaf9467f3512",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-cgi-5.02-2-any.pkg.tar.zst",
+    "sha256": "0daa82e11d5c35400facefa72474497162d50ec69d97bb7e2b7a82efe10e5af4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-cgi-5.02-3-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl>=5.8.1",
@@ -90124,10 +90103,10 @@
   },
   {
     "name": "python-pyqt5-sip",
-    "version": "12.20.0-1",
+    "version": "12.20.1-1",
     "origin": "artix-world",
-    "sha256": "c8459a3e816ff87eb3be28843b04ac48900282bdb2639576a86dfb5a14acbaac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt5-sip-12.20.0-1-x86_64.pkg.tar.zst",
+    "sha256": "a1c6a99366eb8b0997a5557bce8e1633f4b580c559fd74e4eeedaa0f46474afa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt5-sip-12.20.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -90247,10 +90226,10 @@
   },
   {
     "name": "python-pyqt6-sip",
-    "version": "13.13.0-1",
+    "version": "13.13.1-1",
     "origin": "artix-world",
-    "sha256": "dda47eefc791d399f5cefb3e5dc3e05392e93ee3f3fac89ec7cace348167f7a8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-sip-13.13.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3002eb207b24502f6e4480cd6c1ba6122cbf9b5f656bd2c9fbb10fb337fbf25e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyqt6-sip-13.13.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -101942,10 +101921,10 @@
   },
   {
     "name": "qtkeychain-qt6",
-    "version": "0.17.0-1",
+    "version": "0.18.0-1",
     "origin": "artix-world",
-    "sha256": "39eb330022d908a0373925b58eea6569ef09011f28ab3058d76ea03e4ee1755b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtkeychain-qt6-0.17.0-1-x86_64.pkg.tar.zst",
+    "sha256": "c4cdbc19d425eae14c9c8c460ccb1c9210923704b3e7d4605f99951de60ff074",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/qtkeychain-qt6-0.18.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -104601,10 +104580,10 @@
   },
   {
     "name": "ruby-ae",
-    "version": "1.9.0-1",
+    "version": "1.9.1-1",
     "origin": "artix-world",
-    "sha256": "4ab74b22105ea043811c8f0a2578e052180f64012d98aa8b54e04ad731dbdfeb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-ae-1.9.0-1-any.pkg.tar.zst",
+    "sha256": "2ba9a168747c2e6eca00bc669b323a16b189967acf9a83195d31b76730195fd4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-ae-1.9.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -105400,10 +105379,10 @@
   },
   {
     "name": "ruby-cucumber-gherkin",
-    "version": "42.0.1-1",
+    "version": "43.0.0-1",
     "origin": "artix-world",
-    "sha256": "68df6c66d1bc14606bed0919b99f2cb3b9cc3cdce937e91568cd8b299af37884",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-gherkin-42.0.1-1-any.pkg.tar.zst",
+    "sha256": "07a2f1b3461c235201f529206f94c7c39299cbcfb3f906647b00b241b6c01e92",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-gherkin-43.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -105455,10 +105434,10 @@
   },
   {
     "name": "ruby-cucumber-tag-expressions",
-    "version": "11.0.1-1",
+    "version": "11.1.0-1",
     "origin": "artix-world",
-    "sha256": "97baf423297c314754de810b1f89e0ba6d6afab5df0390d40f65d8b00d1ebb7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-tag-expressions-11.0.1-1-any.pkg.tar.zst",
+    "sha256": "5813ebfca4a9dcd7ad786b43b5de4f79fe0de6439d2c6629b8c96caf820d6dfc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-tag-expressions-11.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -111933,10 +111912,10 @@
   },
   {
     "name": "snowball",
-    "version": "3.1.1-1",
+    "version": "3.2.0-1",
     "origin": "artix-world",
-    "sha256": "2ad422491c9de97a9ba79d6fb2dfc06aed27b6318346466eea68512671cef842",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/snowball-3.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "55f0ee0f7827cc70622aa469bcbda26789949acdaf8a674ef71416348c689be2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/snowball-3.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -113037,10 +113016,10 @@
   },
   {
     "name": "sshfs",
-    "version": "3.7.6-1",
+    "version": "3.7.7-1",
     "origin": "artix-world",
-    "sha256": "039c9bcf9aa13ccab54d5935d6fb187a7c4a7e93f6f101d5cd13417e37663e39",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sshfs-3.7.6-1-x86_64.pkg.tar.zst",
+    "sha256": "51359e9c6f457644977c1fbe558e7aa9e37e9b22ad7396a399f5a922ef8efece",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sshfs-3.7.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fuse3",
@@ -123795,16 +123774,19 @@
   },
   {
     "name": "tomlplusplus",
-    "version": "3.4.0-2",
+    "version": "3.4.0-3",
     "origin": "artix-world",
-    "sha256": "872f9bd626826b9cf051c15b603086e1b51ebe430b94bf2409dd106f2db14fd8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tomlplusplus-3.4.0-2-x86_64.pkg.tar.zst",
+    "sha256": "dd2134a8c7f3ac4005d6e8e4655e7ed08d7a6ce23ce355e3127b06fa36ac46a6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tomlplusplus-3.4.0-3-x86_64.pkg.tar.zst",
     "provides": [
       "libtomlplusplus.so=3-64"
     ],
     "depends": [
       "glibc",
-      "libgcc"
+      "libgcc",
+      "libstdc++",
+      "libgcc_s.so=1-64",
+      "libstdc++.so=6-64"
     ],
     "optdepends": [],
     "conflicts": []
