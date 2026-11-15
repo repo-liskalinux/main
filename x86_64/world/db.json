@@ -6137,10 +6137,10 @@
   },
   {
     "name": "bootlogd",
-    "version": "2.89-3",
+    "version": "2.89-4",
     "origin": "artix-world",
-    "sha256": "2e72d6591c9400242643f9f0ab4e2288435687cbc17c04a917e749812e1bf8cc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootlogd-2.89-3-x86_64.pkg.tar.zst",
+    "sha256": "81e461e020da36d2ec87fb292e6362f03c34056245e48722a89aa983d1195e03",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootlogd-2.89-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45093,10 +45093,10 @@
   },
   {
     "name": "libical",
-    "version": "4.0.7-1",
+    "version": "4.0.8-1",
     "origin": "artix-world",
-    "sha256": "aae9f31346321593b0815e7e7dafbcb643d0416b4ef907ae1e286b8b8ad2b516",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libical-4.0.7-1-x86_64.pkg.tar.zst",
+    "sha256": "352bb1d84b8298a3e88487689c47a0f7d2083ee7022d1619f0bcb6f155794dce",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libical-4.0.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -130162,12 +130162,12 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.21-1",
+    "version": "11.22-1",
     "origin": "artix-world",
-    "sha256": "46aca5a42adba800935bf9fa693e080d4e401555af21cd5dd21d9e54c31981d5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.21-1-x86_64.pkg.tar.zst",
+    "sha256": "3d2afe16e005f3957e686289c3177e5b07afc2ca35b82080824c7b61bf3e3b3c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wine-staging-11.22-1-x86_64.pkg.tar.zst",
     "provides": [
-      "wine=11.21"
+      "wine=11.22"
     ],
     "depends": [
       "attr",
