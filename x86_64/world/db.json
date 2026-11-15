@@ -5330,14 +5330,16 @@
   },
   {
     "name": "blocaled",
-    "version": "0.5-1",
+    "version": "0.7-1",
     "origin": "artix-world",
-    "sha256": "22771aa181aa93b138408d2308ef06fedb8d25ada033f991b1719d4a6a76eac6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blocaled-0.5-1-x86_64.pkg.tar.zst",
+    "sha256": "b45088ec8b517e53cb8996a9176b05781ff3783cc3ff43e9f56d5a6c84b3a5be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/blocaled-0.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "polkit",
-      "libdaemon"
+      "glibc",
+      "glib2",
+      "libdaemon",
+      "polkit"
     ],
     "optdepends": [],
     "conflicts": [
@@ -7919,10 +7921,10 @@
   },
   {
     "name": "ckbcomp",
-    "version": "1.221-1",
+    "version": "1.249-1",
     "origin": "artix-world",
-    "sha256": "bf9709bffd42d79cd9b72fef4f795a7192ea9b4d72e6b22b522e4ff969e83159",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ckbcomp-1.221-1-any.pkg.tar.zst",
+    "sha256": "36de0788e7e7f813073efd529a0ef657ea67fa2bb427ec6d81a300ee5cb20bc9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ckbcomp-1.249-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -46641,10 +46643,10 @@
   },
   {
     "name": "libmodplug",
-    "version": "0.8.9.0-7",
+    "version": "0.8.9.2-1",
     "origin": "artix-world",
-    "sha256": "bf9520bc6603997d4b26127dca71d97fe9da822fc3713eacfec0c39f2c934cac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmodplug-0.8.9.0-7-x86_64.pkg.tar.zst",
+    "sha256": "2222633b48efde6c0216da36fe72637e07960f334554d515a460393b22220e2d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libmodplug-0.8.9.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
