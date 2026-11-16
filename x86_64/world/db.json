@@ -15105,10 +15105,10 @@
   },
   {
     "name": "evince",
-    "version": "1:48.4-2.1",
+    "version": "1:48.5-1",
     "origin": "artix-world",
-    "sha256": "dbd50703d4e09097f97697fe142adaf78147dc6411387d26974fdfc320d24caf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evince-1:48.4-2.1-x86_64.pkg.tar.zst",
+    "sha256": "c3cfabfe9c8f4a120c5b3f4cbf1158f9b8173c03ebf97b30c81c29b78c57ede8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/evince-1:48.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libevdocument3.so=4-64",
       "libevview3.so=3-64"
@@ -16580,10 +16580,10 @@
   },
   {
     "name": "file-roller",
-    "version": "44.7-1",
+    "version": "44.8-1",
     "origin": "artix-world",
-    "sha256": "3e7c73ef016f5e16fe09da68c4342a2573a60cf1b42d885618359a07bf1cc03c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/file-roller-44.7-1-x86_64.pkg.tar.zst",
+    "sha256": "d42e0f9e0f3e00803eec63d5ce2a55d253f2ca6565ca7a353c3c00d0cfa95169",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/file-roller-44.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -25646,10 +25646,10 @@
   },
   {
     "name": "gthumb",
-    "version": "4.0.2-1",
+    "version": "4.0.3-1",
     "origin": "artix-world",
-    "sha256": "b6d80c6616ea1c3d9a16eb66b475fd734862e0cbdf170bd72a9d616f751c3982",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gthumb-4.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "568a6b9c73be23d2bac25c03c833e022ec68ebef7d7eb370fa3c9163fb45b5e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gthumb-4.0.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -32527,10 +32527,10 @@
   },
   {
     "name": "julia",
-    "version": "2:1.13.3-1",
+    "version": "2:1.13.4-1",
     "origin": "artix-world",
-    "sha256": "8f33b05000bfc554ecaa69ea21b38f696859b9d879d5134a8e547c820e281436",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.3-1-x86_64.pkg.tar.zst",
+    "sha256": "a39858231a2a011c2a7254b800d701cdcb35fb8456712695a4ccd455fdba6f8e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/julia-2:1.13.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blas64-openblas",
@@ -47272,16 +47272,16 @@
   },
   {
     "name": "libodfgen",
-    "version": "0.1.8-5",
+    "version": "0.1.9-1",
     "origin": "artix-world",
-    "sha256": "872ff5c57926ef80e0d868163c7a5935b05878bec6854e8fc525b791ccd9880e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libodfgen-0.1.8-5-x86_64.pkg.tar.zst",
+    "sha256": "da1d33ad7a3907902d9525010d32abace24e7b938f6b534bbed0154edb51d7d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libodfgen-0.1.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "zlib",
       "librevenge",
       "libxml2",
-      "gcc-libs",
+      "libgcc",
+      "libstdc++",
       "glibc"
     ],
     "optdepends": [],
@@ -104534,10 +104534,10 @@
   },
   {
     "name": "ruby-cucumber-html-formatter",
-    "version": "24.2.0-1",
+    "version": "24.3.0-1",
     "origin": "artix-world",
-    "sha256": "96fa79e822c47380d37a89d6b60f3a6cc5d73551ee91b6dc2ed54e3cbec2ec51",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-html-formatter-24.2.0-1-any.pkg.tar.zst",
+    "sha256": "c8214907264ecd973471e6897ba2229a9430b5cb4bdb447259f85c5493e3944c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-html-formatter-24.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -104548,10 +104548,10 @@
   },
   {
     "name": "ruby-cucumber-messages",
-    "version": "34.2.1-1",
+    "version": "35.0.0-1",
     "origin": "artix-world",
-    "sha256": "b8403de1ec8746e3fa72db480f59d2c2fb8c6b3dcfe66998c6665b72a425c5cc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-messages-34.2.1-1-any.pkg.tar.zst",
+    "sha256": "6eda19222bb72b105080ccdd183a5b806420615af91248ec49c8433e09133d25",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-messages-35.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -107582,10 +107582,10 @@
   },
   {
     "name": "ruby-sass-embedded",
-    "version": "1.108.1-1",
+    "version": "1.108.2-1",
     "origin": "artix-world",
-    "sha256": "72a0e143011c33432738141f9e1d105d811a370edf40a9193a601de912d4dce6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sass-embedded-1.108.1-1-any.pkg.tar.zst",
+    "sha256": "8bde2b1db925626019937d04e6571a9fc163f166f4c276b955728ded01992715",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-sass-embedded-1.108.2-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dart-sass",
