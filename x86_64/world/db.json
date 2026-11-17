@@ -9903,10 +9903,10 @@
   },
   {
     "name": "cuda",
-    "version": "13.4.3-1",
+    "version": "13.5.0-1",
     "origin": "artix-world",
-    "sha256": "b47a1ec3fa4c52aba21e1a7b4d254eb94a4278ed83ba5577c310a90a5e08fef5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cuda-13.4.3-1-x86_64.pkg.tar.zst",
+    "sha256": "c4cf9acc6d20ebe594efead01d37a1acbcc65d0b37588b162f811a97f1f6fb48",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cuda-13.5.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "cuda-toolkit",
       "cuda-sdk",
@@ -16241,10 +16241,10 @@
   },
   {
     "name": "ffmpeg",
-    "version": "2:9.0.2-3",
+    "version": "2:9.0.2-5.1",
     "origin": "artix-world",
-    "sha256": "19ac1a0cf47311de84f590f92fc993101cc58647ebb813d4f015d7a6640ab4d3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ffmpeg-2:9.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "ae222727a881d3d1f7980affb0892f95ae2a700e1b7f29a894dae29c643f02cc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ffmpeg-2:9.0.2-5.1-x86_64.pkg.tar.zst",
     "provides": [
       "libavcodec.so=63-64",
       "libavdevice.so=63-64",
@@ -16333,7 +16333,6 @@
       "libfreetype.so=6-64",
       "libharfbuzz.so=0-64",
       "libopenmpt.so=0-64",
-      "libplacebo.so=360-64",
       "librav1e.so=0.8-64",
       "librsvg-2.so=2-64",
       "librubberband.so=3-64",
@@ -16644,10 +16643,10 @@
   },
   {
     "name": "filezilla",
-    "version": "3.71.1-3",
+    "version": "3.72.1-1",
     "origin": "artix-world",
-    "sha256": "c088fbf6c90881331e11b9d40356c4b96836408a2c8557bd1ba9a1e261b7a6bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filezilla-3.71.1-3-x86_64.pkg.tar.zst",
+    "sha256": "4c9146f5c2e6fd7fb5af42b6919654974a003d63d5317d122abf079fcbe06112",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/filezilla-3.72.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
@@ -16658,7 +16657,7 @@
       "libgdk-3.so=0-64",
       "hicolor-icon-theme",
       "libfilezilla",
-      "libfilezilla.so=60-64",
+      "libfilezilla.so=61-64",
       "sqlite",
       "libsqlite3.so=0-64",
       "wxwidgets-gtk3",
@@ -17885,10 +17884,10 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.7.1-1",
+    "version": "3.7.1-2",
     "origin": "artix-world",
-    "sha256": "6195a4316c4684651aeec1bc96bee49fc85473943d8dbd9767d572f9c9fbee65",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "b68bf6cb1a9291dcac2866db188c92f7744427c376768bdb7e9ccfbd176ed28f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/frei0r-plugins-3.7.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -18288,10 +18287,10 @@
   },
   {
     "name": "fzssh",
-    "version": "1.5.1-1",
+    "version": "1.5.2-1",
     "origin": "artix-world",
-    "sha256": "4a5c2335ba6bd28e98c2e715ac5732e7276362585bd6e95c3f5928ea9b78a8f0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fzssh-1.5.1-1-x86_64.pkg.tar.zst",
+    "sha256": "90441dde6d12a4f23fa0dcf8f0989f3d5e1130c0720b147007f9b6d730d38b25",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fzssh-1.5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nettle",
@@ -18660,10 +18659,10 @@
   },
   {
     "name": "gdal",
-    "version": "3.13.3-7",
+    "version": "3.13.3-9",
     "origin": "artix-world",
-    "sha256": "15eb71942e00d50d76032d9f17aa9ea90a6fa27150e64eb692e5ea9400c32987",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdal-3.13.3-7-x86_64.pkg.tar.zst",
+    "sha256": "87228d85706517d37659a64916bf58f793641bdfc77533497f477e06967f1c59",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdal-3.13.3-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "blosc",
@@ -20028,10 +20027,10 @@
   },
   {
     "name": "gimp-plugin-gmic",
-    "version": "4.0.7-1",
+    "version": "4.0.7-2",
     "origin": "artix-world",
-    "sha256": "1bd1d283ca79acd04fb9b70bfc566d382ac1e25c8929517c1ef7497e731e7be8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-plugin-gmic-4.0.7-1-x86_64.pkg.tar.zst",
+    "sha256": "4292235167fc2dd80c6499020bd2e495c48aefdb5cede9ac2f32aabc47086071",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gimp-plugin-gmic-4.0.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fftw",
@@ -20751,10 +20750,10 @@
   },
   {
     "name": "gmic",
-    "version": "4.0.7-1",
+    "version": "4.0.7-2",
     "origin": "artix-world",
-    "sha256": "6c2d3b0068b0ab9b9899aa8592935653bb664fd47515abf907b02fe42dabba91",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gmic-4.0.7-1-x86_64.pkg.tar.zst",
+    "sha256": "b1afbc7d0b2896826a3351055b977b0fc5b2f18f6829c85e18343d8a522fb465",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gmic-4.0.7-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fftw",
@@ -29814,10 +29813,10 @@
   },
   {
     "name": "inkscape",
-    "version": "1.4.4-7",
+    "version": "1.4.4-8",
     "origin": "artix-world",
-    "sha256": "fb8c17027bac67cae8e251bbd161b9069b4dfb25f8b202f5f0f49c8c387b7d90",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/inkscape-1.4.4-7-x86_64.pkg.tar.zst",
+    "sha256": "1951200c642744e2ea7fbccabe750e54438b0af608139ae921f57fb3fbdd545d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/inkscape-1.4.4-8-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "atkmm",
@@ -29892,7 +29891,7 @@
       "pangomm",
       "libpangomm-1.4.so=1-64",
       "poppler",
-      "libpoppler.so=165-64",
+      "libpoppler.so=166-64",
       "poppler-glib",
       "libpoppler-glib.so=8-64",
       "potrace",
@@ -39437,10 +39436,10 @@
   },
   {
     "name": "krename",
-    "version": "5.0.2-13",
+    "version": "5.0.2-14",
     "origin": "artix-world",
-    "sha256": "cf8b26d4cdfa2115a0551c8a555e71a40975c63be430cd311273e675c314cafa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krename-5.0.2-13-x86_64.pkg.tar.zst",
+    "sha256": "7fd8a891016572221b06ae37c6aef2538ed8329a932846311f461ead2da88c35",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/krename-5.0.2-14-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "exiv2",
@@ -43995,12 +43994,12 @@
   },
   {
     "name": "libfilezilla",
-    "version": "1:0.58.0-1",
+    "version": "1:0.59.0-1",
     "origin": "artix-world",
-    "sha256": "17752d4e0e99c5297cc47b2d7b4bdda3e950b941af9beaff7f0d8c92db285562",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libfilezilla-1:0.58.0-1-x86_64.pkg.tar.zst",
+    "sha256": "9eaadaa46191535d4d2e4d3f73f25fa697db21cf712ec3b95fdf8439224ad21c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libfilezilla-1:0.59.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libfilezilla.so=60-64"
+      "libfilezilla.so=61-64"
     ],
     "depends": [
       "glibc",
@@ -47815,12 +47814,12 @@
   },
   {
     "name": "libplacebo",
-    "version": "7.360.1-7",
+    "version": "7.387.0-1",
     "origin": "artix-world",
-    "sha256": "df445c6ffc238fb32bd7f4b2b4e900fa238e40c09390711c5b54f8b8e2e7b26f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libplacebo-7.360.1-7-x86_64.pkg.tar.zst",
+    "sha256": "9d112d57f0d4a22bd30ea701754513d30180d83afdab27eea98d520046bd1a72",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libplacebo-7.387.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libplacebo.so=360-64"
+      "libplacebo.so=387-64"
     ],
     "depends": [
       "vulkan-icd-loader",
@@ -49912,10 +49911,10 @@
   },
   {
     "name": "libvisio",
-    "version": "0.1.11-1",
+    "version": "0.1.12-1",
     "origin": "artix-world",
-    "sha256": "cadce251253bce26f0bd81ec751ca9583e0e0cf1127b4bcc72420c69ea2ddf81",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libvisio-0.1.11-1-x86_64.pkg.tar.zst",
+    "sha256": "2620352cf550847ef594824691f33f7f625009e42c4799fe6c485bfd5eed2460",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libvisio-0.1.12-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libxml2",
@@ -56592,10 +56591,10 @@
   },
   {
     "name": "mlt",
-    "version": "7.42.0-1",
+    "version": "7.42.0-3",
     "origin": "artix-world",
-    "sha256": "3fdd0e436958a6b8b4a86496cffb1c9d70db15237fc527f824af76887871980e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mlt-7.42.0-1-x86_64.pkg.tar.zst",
+    "sha256": "1b922f12d5cf26f748b2c85563582d6ed9f855f896ac449f948638ebcfd62bf4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mlt-7.42.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -57306,15 +57305,16 @@
   },
   {
     "name": "mpv",
-    "version": "1:0.41.0-7",
+    "version": "1:0.42.0-2",
     "origin": "artix-world",
-    "sha256": "fd1e3d97c64a49444da91425c3dc4495dc49002e2b9cf48194cce91f0bf266d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mpv-1:0.41.0-7-x86_64.pkg.tar.zst",
+    "sha256": "48c74419139c6b6343821a4323aa228d5751800c87e259bc8161e960ecc51a5e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mpv-1:0.42.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "libmpv.so=2-64"
     ],
     "depends": [
       "alsa-lib",
+      "curl",
       "desktop-file-utils",
       "ffmpeg",
       "glibc",
@@ -57373,7 +57373,7 @@
       "libass.so=9-64",
       "libbluray.so=4-64",
       "libjpeg.so=8-64",
-      "libplacebo.so=360-64",
+      "libplacebo.so=387-64",
       "libpulse.so=0-64",
       "libva.so=2-64",
       "libva-drm.so=2-64",
@@ -71964,22 +71964,24 @@
   },
   {
     "name": "podofo",
-    "version": "0.10.6-2",
+    "version": "1.1.2-4",
     "origin": "artix-world",
-    "sha256": "658e547a6f7dcc41aa5e90f5d8f6ba49dd91c841ebc5f6dac5ae553b89b5be28",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podofo-0.10.6-2-x86_64.pkg.tar.zst",
+    "sha256": "d9a24d552988dd4891a71649b7b913014d31d2861e7adb5246cbf356249682ed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podofo-1.1.2-4-x86_64.pkg.tar.zst",
     "provides": [
-      "libpodofo.so=2-64"
+      "libpodofo.so=4-64"
     ],
     "depends": [
       "fontconfig",
+      "glibc",
+      "libstdc++",
+      "libgcc",
+      "fmt",
       "freetype2",
-      "libidn",
       "libjpeg-turbo",
       "libpng",
       "libtiff",
       "libxml2",
-      "lua",
       "openssl",
       "zlib"
     ],
@@ -71988,23 +71990,25 @@
   },
   {
     "name": "podofo-tools",
-    "version": "0.10.6-2",
+    "version": "1.1.2-4",
     "origin": "artix-world",
-    "sha256": "6ea07cb74d285acd8c76e22aa894bb0b2bb0c50b8134a689a12e9d125517d7ea",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podofo-tools-0.10.6-2-x86_64.pkg.tar.zst",
+    "sha256": "0fda780c9d7deb8902d528ae8ef0efbf24598573b4b64e366275d539f5564c6d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podofo-tools-1.1.2-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "fontconfig",
+      "glibc",
+      "libstdc++",
+      "libgcc",
+      "fmt",
       "freetype2",
-      "libidn",
       "libjpeg-turbo",
       "libpng",
       "libtiff",
       "libxml2",
-      "lua",
       "openssl",
       "zlib",
-      "libpodofo.so=2-64"
+      "libpodofo.so=4-64"
     ],
     "optdepends": [],
     "conflicts": []
@@ -72184,12 +72188,12 @@
   },
   {
     "name": "poppler",
-    "version": "26.10.0-2",
+    "version": "26.11.0-1",
     "origin": "artix-world",
-    "sha256": "d7670f5931f65245669202582a76a74c76cc395a41ff0effba8d7eb8c9bced41",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-26.10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "e492384d65b78dfafee1e908f87a5f366cc4f907fd99fa1fe8860f398bc997be",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-26.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libpoppler.so=165-64",
+      "libpoppler.so=166-64",
       "libpoppler-cpp.so=3-64"
     ],
     "depends": [
@@ -72215,8 +72219,8 @@
       "poppler-data: highly recommended encoding data to display PDF documents with certain encodings and characters"
     ],
     "conflicts": [
-      "poppler-qt3<26.10.0",
-      "poppler-qt4<26.10.0"
+      "poppler-qt3<26.11.0",
+      "poppler-qt4<26.11.0"
     ]
   },
   {
@@ -72234,15 +72238,15 @@
   },
   {
     "name": "poppler-glib",
-    "version": "26.10.0-2",
+    "version": "26.11.0-1",
     "origin": "artix-world",
-    "sha256": "a97f86c6edfc6abb67e9833580bbf31ed0eb459a6733a641ccd8e7781ac57bd3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-glib-26.10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "3e173e86b3f392712bdfcd11670f5995ae7ea4f6f97d711c26c92b15d4c36e9d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-glib-26.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-glib.so=8-64"
     ],
     "depends": [
-      "poppler=26.10.0",
+      "poppler=26.11.0",
       "glib2",
       "libgcc",
       "libstdc++",
@@ -72255,15 +72259,15 @@
   },
   {
     "name": "poppler-qt5",
-    "version": "26.10.0-2",
+    "version": "26.11.0-1",
     "origin": "artix-world",
-    "sha256": "85f01c024af4224c32887dc300c136d7067ebf0aaa5094cf5a75a912b1e51416",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt5-26.10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "85fca576f36ee7e7f90c3b1d809eac77a914bb7c79d3a7feed5255f9a4866c1a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt5-26.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-qt5.so=1-64"
     ],
     "depends": [
-      "poppler=26.10.0",
+      "poppler=26.11.0",
       "qt5-base",
       "lcms2",
       "freetype2",
@@ -72276,15 +72280,15 @@
   },
   {
     "name": "poppler-qt6",
-    "version": "26.10.0-2",
+    "version": "26.11.0-1",
     "origin": "artix-world",
-    "sha256": "29fd0be95218203f99f6060fddbd9ec0061d56dcbc2df4d7175a729b3932161b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt6-26.10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "a6b0f9710cbe4b215156daca2b39a8d75533aaa699f6cd75d3b5ea3236abfd20",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/poppler-qt6-26.11.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpoppler-qt6.so=3-64"
     ],
     "depends": [
-      "poppler=26.10.0",
+      "poppler=26.11.0",
       "qt6-base",
       "lcms2",
       "freetype2",
@@ -80482,10 +80486,10 @@
   },
   {
     "name": "python-gdal",
-    "version": "3.13.3-7",
+    "version": "3.13.3-9",
     "origin": "artix-world",
-    "sha256": "122565ec79377e854046d5f24c15285c97fba782ce2440097e0ce10303745a3e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gdal-3.13.3-7-x86_64.pkg.tar.zst",
+    "sha256": "aecd63728f4698638ecc540d526ccc1ddbc4e2e038d2257a06781b5b398c6d1f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-gdal-3.13.3-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gdal=3.13.3",
@@ -81049,10 +81053,10 @@
   },
   {
     "name": "python-griffe",
-    "version": "2.4.0-1",
+    "version": "2.4.1-1",
     "origin": "artix-world",
-    "sha256": "63e42481488c85f012e5af40a612b37852975f441a15ed98855b32449524906e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffe-2.4.0-1-any.pkg.tar.zst",
+    "sha256": "ab686e60b6dd40d07558ac7b6c7438a94ad16ba24c87b208865826f878c7a22e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffe-2.4.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -81064,10 +81068,10 @@
   },
   {
     "name": "python-griffecli",
-    "version": "2.4.0-1",
+    "version": "2.4.1-1",
     "origin": "artix-world",
-    "sha256": "7e2beb122fa54f4b943b0a31cd2049098ba70cb0bf3991c2620441dfd8bccc88",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffecli-2.4.0-1-any.pkg.tar.zst",
+    "sha256": "ed0112a01b6762576fdc01561f54620a697d70bb7d44b3db5af72bfd813a7f6f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffecli-2.4.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -81079,10 +81083,10 @@
   },
   {
     "name": "python-griffelib",
-    "version": "2.4.0-1",
+    "version": "2.4.1-1",
     "origin": "artix-world",
-    "sha256": "323397c5179088b1efea88baa1f28c85768d11d09e5fafe371ce68e6bab72c9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffelib-2.4.0-1-any.pkg.tar.zst",
+    "sha256": "6bdf7778e6e7a4430278f05aec7d54aa2fd545151ecd5efd030a11a6d445bdcc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-griffelib-2.4.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -113149,10 +113153,10 @@
   },
   {
     "name": "svt-av1",
-    "version": "4.2.0-1",
+    "version": "4.3.0-1",
     "origin": "artix-world",
-    "sha256": "e568f27be4c509ab2b96b8163da42e91a223b2e7a5fb50cdfb627e5227f39349",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/svt-av1-4.2.0-1-x86_64.pkg.tar.zst",
+    "sha256": "df7e40bb2768aaf9368dc69bb4df2f48cf2adcae82bba7bb5edd91453707034a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/svt-av1-4.3.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -125668,10 +125672,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261112220449-1",
+    "version": "20261116043813-1",
     "origin": "artix-world",
-    "sha256": "71166cfc63095a9fe2c33d985151459d1c9ac0751d6c7b1865478a282b30a9f1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261112220449-1-any.pkg.tar.zst",
+    "sha256": "fef866ae9389cd83478dd6b41ee68178ab17f2cabd941551016a4763c5bc466f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261116043813-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -131279,10 +131283,10 @@
   },
   {
     "name": "xdg-desktop-portal-gnome",
-    "version": "51.0-1",
+    "version": "51.0-2",
     "origin": "artix-world",
-    "sha256": "62989499950d251f46bfbe81be9f9e5251f0ae7e22882ff30b2983e50788e7ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-gnome-51.0-1-x86_64.pkg.tar.zst",
+    "sha256": "7b3a320022de4cb1160feb8b1fe7488a84fe2d37b3eca190528b8e0882cd58b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-gnome-51.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "xdg-desktop-portal-impl"
     ],
@@ -131302,14 +131306,12 @@
       "nautilus",
       "wayland",
       "xdg-desktop-portal",
-      "xdg-desktop-portal-gtk>=1.10.0-2"
+      "xdg-desktop-portal-gtk"
     ],
     "optdepends": [
-      "evince: Print previews"
+      "papers: Print previews"
     ],
-    "conflicts": [
-      "xdg-desktop-portal-gtk<1.10.0-2"
-    ]
+    "conflicts": []
   },
   {
     "name": "xdg-desktop-portal-gtk",
