@@ -37249,10 +37249,10 @@
   },
   {
     "name": "kismet",
-    "version": "2025_09_R1-5",
+    "version": "2026_10_R1-1",
     "origin": "artix-world",
-    "sha256": "f5c34ae59dc4e2b402205ec9b68279afda7105d21c72ba9214561ec8b13668e4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kismet-2025_09_R1-5-x86_64.pkg.tar.zst",
+    "sha256": "8901e18ddfd111fdd31849cdad492ab5555b2d5268332b54f733dca9b00e8f9d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kismet-2026_10_R1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -45903,10 +45903,10 @@
   },
   {
     "name": "libkrun",
-    "version": "1.19.7-1",
+    "version": "1.19.8-1",
     "origin": "artix-world",
-    "sha256": "013a80e7bbdb3c44104344b78ea7d4bffc6ed28d7e1268df4b3bc442f75fed27",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrun-1.19.7-1-x86_64.pkg.tar.zst",
+    "sha256": "5cdad8c5c099ee4cd789d3607d142a74d103d984cdb7cb6b9764853f4363fc92",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrun-1.19.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -45922,10 +45922,10 @@
   },
   {
     "name": "libkrunfw",
-    "version": "5.6.2-1",
+    "version": "5.6.4-1",
     "origin": "artix-world",
-    "sha256": "ef0adfc4501a0d42997b2c4b8ecccd2db45716a5d218d06fe54ac2a019e2bff4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrunfw-5.6.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9f5a46bc029ca98e20c751b68a22601d28b27d60bec18fa11f53ed169e048030",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libkrunfw-5.6.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -56555,10 +56555,10 @@
   },
   {
     "name": "mkdocs-material",
-    "version": "9.8.0-1",
+    "version": "9.8.1-1",
     "origin": "artix-world",
-    "sha256": "b9842827b06eb050c4fbfb891c3eca046afb1636db7c022f3f2a3545fba95237",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-material-9.8.0-1-any.pkg.tar.zst",
+    "sha256": "97a64ebad8e9958b3b6f31e308a94f984eb95b1306218a966de522a2b0a07e54",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mkdocs-material-9.8.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "mkdocs",
@@ -61412,14 +61412,15 @@
   },
   {
     "name": "openconnect",
-    "version": "1:9.21-1",
+    "version": "1:9.21-2",
     "origin": "artix-world",
-    "sha256": "861fe894ce8a916db9fc6c78e7d512d1648729897d250297a7663606be1547fd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openconnect-1:9.21-1-x86_64.pkg.tar.zst",
+    "sha256": "b6a243c885d367419256b3da8863a922648a4d2129ace82ba2bac10e829374d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openconnect-1:9.21-2-x86_64.pkg.tar.zst",
     "provides": [
       "libopenconnect.so=5-64"
     ],
     "depends": [
+      "glibc",
       "libxml2",
       "gnutls",
       "libproxy",
@@ -61432,6 +61433,7 @@
       "oath-toolkit",
       "libp11-kit",
       "xdg-utils",
+      "libtasn1",
       "libstoken.so=1-64",
       "libtss2-esys.so=0-64",
       "libtss2-mu.so=0-64",
@@ -62312,10 +62314,10 @@
   },
   {
     "name": "opensips",
-    "version": "4.0.2-1",
+    "version": "4.0.3-1",
     "origin": "artix-world",
-    "sha256": "c8291ac32199bd2ccedae3d2aaff5e58aa7e6321dff1e5bed5fef3ef6c7ebefa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensips-4.0.2-1-x86_64.pkg.tar.zst",
+    "sha256": "6d8b0c967265f7e6432e49f517d0f73eeb03c3ca96f2a33df866d5e21374f37c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opensips-4.0.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -89662,10 +89664,10 @@
   },
   {
     "name": "python-pysequoia",
-    "version": "0.1.35-1",
+    "version": "0.1.36-1",
     "origin": "artix-world",
-    "sha256": "1bc91849635b7c9ba8a66f9db4e2e2a935fd532ab092609b69c82884e51b30d7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pysequoia-0.1.35-1-x86_64.pkg.tar.zst",
+    "sha256": "6c797797b5185241f67bdeaa949ef78a5071a8d4d45400f7734ba813a110e73e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pysequoia-0.1.36-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -122943,10 +122945,10 @@
   },
   {
     "name": "tmuxp",
-    "version": "1.74.0-1.1",
+    "version": "1.76.0-1",
     "origin": "artix-world",
-    "sha256": "1396e5e9eed4246c4002225698c85793a74b5b4d102aa4c6e406741cd5f91143",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmuxp-1.74.0-1.1-any.pkg.tar.zst",
+    "sha256": "6e49cf28ee8152dfc87e6a092525e2e8be07c066bed594059e3ede83ea91e722",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmuxp-1.76.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",

@@ -2307,10 +2307,10 @@
   },
   {
     "name": "chawan",
-    "version": "0.5.0-1",
+    "version": "0.5.2-1",
     "origin": "artix-galaxy",
-    "sha256": "1534ac2777b8eea3b4fc77a88893aeb7f44b364b64c6d8833d078c7dc3964d0d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chawan-0.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "464e62617f5d5b301913faf036a372f9e36001b8501a9457c5dfdc759335e785",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/chawan-0.5.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3582,10 +3582,10 @@
   },
   {
     "name": "cudnn-frontend",
-    "version": "1.32.1-1",
+    "version": "1.32.3-1",
     "origin": "artix-galaxy",
-    "sha256": "236208969647ecd15bfce32cbe1f16aca21275cfc6113bee9095779d228122e0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cudnn-frontend-1.32.1-1-x86_64.pkg.tar.zst",
+    "sha256": "40e0418d8c170767b97cf8f70e7b3ad96be5c77c9263aad91062b54becaef462",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cudnn-frontend-1.32.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3769,10 +3769,10 @@
   },
   {
     "name": "dlpack",
-    "version": "1.3-1",
+    "version": "1.4-1",
     "origin": "artix-galaxy",
-    "sha256": "3134f375ef7c58d058286b377bacfb3fe28f4172a11125f9b040cbdc360777aa",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dlpack-1.3-1-any.pkg.tar.zst",
+    "sha256": "2288ca07d48d14611a24091eb6d58406484164a709d4e690e41f110ea77ba8d7",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dlpack-1.4-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -5126,10 +5126,10 @@
   },
   {
     "name": "fastfetch",
-    "version": "2.70.0-1",
+    "version": "2.71.0-1",
     "origin": "artix-galaxy",
-    "sha256": "0f029830ce3a103f4ca8a6a8fe30f9c171ba2dd1cbe129e86db9c902bec8e9ca",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fastfetch-2.70.0-1-x86_64.pkg.tar.zst",
+    "sha256": "d4af979f62a57db0f3bb0d468742d66fab404ef40326eb187ac42d35d2ef630e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/fastfetch-2.71.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11234,10 +11234,10 @@
   },
   {
     "name": "konform-browser",
-    "version": "1:153.7.0.100-2",
+    "version": "1:153.7.0.101-1",
     "origin": "artix-galaxy",
-    "sha256": "4db7e96d2c84c63a1cdde09d910e9bc987f56770507d7e4d8ffce4e76f63f7d5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:153.7.0.100-2-x86_64.pkg.tar.zst",
+    "sha256": "df70a7dbb75d608d085cfaae298ea1a54b935fb410afb00d18844ba6e8d36e4d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/konform-browser-1:153.7.0.101-1-x86_64.pkg.tar.zst",
     "provides": [
       "konform-browser"
     ],
@@ -11528,10 +11528,10 @@
   },
   {
     "name": "lazygit",
-    "version": "0.66.2-1",
+    "version": "0.66.3-1",
     "origin": "artix-galaxy",
-    "sha256": "c0283ca8ddac4c9dabaf52e4796d2d1a136c6bcf49d66fb1c71a1158ba4c9c33",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lazygit-0.66.2-1-x86_64.pkg.tar.zst",
+    "sha256": "426ba710ca86960df59b534f6c7b1fb6490c6c808af71d7ca233013ee3ab2304",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lazygit-0.66.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git",
@@ -23334,10 +23334,10 @@
   },
   {
     "name": "nim",
-    "version": "2.2.12-1",
+    "version": "2.4.2-1",
     "origin": "artix-galaxy",
-    "sha256": "93666bb1de0b612ab14488d0193dd75abf4efdc177dd4b73893dc5b933897e2d",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nim-2.2.12-1-x86_64.pkg.tar.zst",
+    "sha256": "f3baebac07d5fa8d14a713354f538a8ff524c2170c01a576e2013c644e7cebda",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nim-2.4.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "nimble"
     ],
@@ -23345,7 +23345,8 @@
       "bash",
       "gcc",
       "libgcc",
-      "glibc"
+      "glibc",
+      "pcre"
     ],
     "optdepends": [],
     "conflicts": [
@@ -24959,10 +24960,10 @@
   },
   {
     "name": "perl-business-isbn-data",
-    "version": "20261016.001-1.2",
+    "version": "20261112.001-1",
     "origin": "artix-galaxy",
-    "sha256": "28102822dcc17bc8bf3d1c4170e9d35dc07a673def4f9e02deef913fd9724f8e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-business-isbn-data-20261016.001-1.2-any.pkg.tar.zst",
+    "sha256": "1153137e56a8606b82d77828096e94ed93436924757f301911c840a44c08d437",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/perl-business-isbn-data-20261112.001-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -26055,10 +26056,10 @@
   },
   {
     "name": "python-cudnn-frontend",
-    "version": "1.32.1-1",
+    "version": "1.32.3-1",
     "origin": "artix-galaxy",
-    "sha256": "e48a97c9e0630e6d83443f80ca4e1b6efa2bbc12bf57f2cac343880044b35a62",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/python-cudnn-frontend-1.32.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9e96a43d34c5ccffd5bbd99b59957b3656aa5f816c8169905efa8180f2304269",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/python-cudnn-frontend-1.32.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -27628,10 +27629,10 @@
   },
   {
     "name": "reaper",
-    "version": "7.83-1",
+    "version": "7.86-1",
     "origin": "artix-galaxy",
-    "sha256": "6e15c4197befeafeae1ea8a316f1b8e3009679201c3f286aa1da509a07b2f017",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/reaper-7.83-1-x86_64.pkg.tar.zst",
+    "sha256": "b1ac7834cb34f2c61ff2598fd3fcec33c4de4694d9dc9a0ec0427b2940e84f61",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/reaper-7.86-1-x86_64.pkg.tar.zst",
     "provides": [
       "clap-host",
       "lv2-host",
@@ -28752,10 +28753,10 @@
   },
   {
     "name": "shotcut",
-    "version": "26.9.27-1",
+    "version": "26.11.15-1",
     "origin": "artix-galaxy",
-    "sha256": "807da60e1297329d2ab72f5339c378d7d315c113b41daed06570ad7895368551",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/shotcut-26.9.27-1-x86_64.pkg.tar.zst",
+    "sha256": "0cfe73b8501862958b6eabcb77b049560144a65c30c793f45767869bc9e9cb84",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/shotcut-26.11.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "qt6-base",
@@ -29364,10 +29365,10 @@
   },
   {
     "name": "swaync",
-    "version": "0.12.6-1",
+    "version": "0.12.6-2",
     "origin": "artix-galaxy",
-    "sha256": "fb1d663ae827c9813cbb922f5a397cb10ab7df708433d731f7d8c7573f4ac574",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/swaync-0.12.6-1-x86_64.pkg.tar.zst",
+    "sha256": "7503558d2cafcacc0454ddf63ad09fde28c2b44d6a248599d0b05fe335153540",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/swaync-0.12.6-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "gtk4",
@@ -29377,7 +29378,12 @@
       "libgee",
       "json-glib",
       "libpulse",
-      "granite7"
+      "cairo",
+      "gdk-pixbuf2",
+      "glibc",
+      "graphene",
+      "pango",
+      "wayland"
     ],
     "optdepends": [
       "gvfs: Get album art in MPRIS widget"
