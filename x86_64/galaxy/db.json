@@ -2456,10 +2456,10 @@
   },
   {
     "name": "cinnamon-control-center",
-    "version": "6.8.0-1",
+    "version": "6.8.0-1.1",
     "origin": "artix-galaxy",
-    "sha256": "6d2a980cefd0640bea0b2bb2b4bfd2e6eea773f0fdd8288f9a3c83d7f8f2c3d0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-control-center-6.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "f4bb1d67841237fcab4d026cdcf2275fa803d3b46ea07bdfc66078c4da347658",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-control-center-6.8.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -2495,10 +2495,10 @@
   },
   {
     "name": "cinnamon-desktop",
-    "version": "6.8.0-1",
+    "version": "6.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "38a846edd14fd1a11d908fbaf8c0142c79bc98115fa1c75ae92e23a67c784b41",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-desktop-6.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "b52b5936eb6c1d8419e122487bf1ec38ae2abec92830fd8c6214049697b10200",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-desktop-6.8.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -2509,6 +2509,7 @@
       "gtk3",
       "libgcc",
       "libpulse",
+      "libseccomp",
       "libx11",
       "libxkbfile",
       "libelogind"
@@ -2532,10 +2533,10 @@
   },
   {
     "name": "cinnamon-screensaver",
-    "version": "6.8.1-1",
+    "version": "6.8.1-1.1",
     "origin": "artix-galaxy",
-    "sha256": "095507c4d37a76936d7a5c394a7496054dcb504715df1970ee4aaec6b8204e6a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-screensaver-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5141c6e6a641bbc90c26316cd75e0389ab4012f235c638e9c762bd4a6995f3b1",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-screensaver-6.8.1-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "accountsservice",
@@ -2568,10 +2569,10 @@
   },
   {
     "name": "cinnamon-session",
-    "version": "6.8.0-1",
+    "version": "6.8.0-1.1",
     "origin": "artix-galaxy",
-    "sha256": "d6e8be991024c1f7aa1922b643ffbddb8448e944fe193a9fd498760bf07520f0",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-session-6.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3783881ae24e900be5f24af2e4ce99aa5952ad8176e62ff66f6e1c003c525a52",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-session-6.8.0-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -2601,10 +2602,10 @@
   },
   {
     "name": "cinnamon-settings-daemon",
-    "version": "6.8.1-1",
+    "version": "6.8.2-1",
     "origin": "artix-galaxy",
-    "sha256": "9136a1f472a641424e5bde528bdbbdef530266bd083a229cc7f1dc1f20681cab",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-settings-daemon-6.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "6398ca60b9e56c1442193ea6b32af74e8711d1c01623ce100a75b883651a8e0e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-settings-daemon-6.8.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -2618,9 +2619,9 @@
       "hicolor-icon-theme",
       "lcms2",
       "libcanberra-pulse",
-      "libgcc",
       "libcolord",
       "libcups",
+      "libgcc",
       "libgudev",
       "libnotify",
       "libwacom",
@@ -2642,10 +2643,10 @@
   },
   {
     "name": "cinnamon-translations",
-    "version": "6.8.0-1",
+    "version": "6.8.1-1",
     "origin": "artix-galaxy",
-    "sha256": "3268596a13707bb2e65720b4639c19a74dbe338d8b348ea005cc8a7c09b74169",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-translations-6.8.0-1-any.pkg.tar.zst",
+    "sha256": "36bffa9b0908f572d3ee91f1b89aa3339b010bab825458147672fb7637a31e33",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cinnamon-translations-6.8.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -2653,10 +2654,10 @@
   },
   {
     "name": "cjs",
-    "version": "140.2-1",
+    "version": "140.3-1",
     "origin": "artix-galaxy",
-    "sha256": "86abf6c5e8b05e3df56a94823482d215e85d233a9f14ff182edd1ecf89c9b02b",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cjs-140.2-1-x86_64.pkg.tar.zst",
+    "sha256": "1583a3800f171e9d9453c24326d4e1d387b7fdd56e61d1080f6b9adf87edf4a2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/cjs-140.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -2666,7 +2667,6 @@
       "js140",
       "libffi",
       "libgcc",
-      "libgirepository",
       "libstdc++",
       "libx11",
       "readline"
@@ -2676,10 +2676,10 @@
   },
   {
     "name": "clagrange",
-    "version": "2.0.2-2",
+    "version": "2.0.3-1",
     "origin": "artix-galaxy",
-    "sha256": "d52a3e2c272e2f68d04fbb6c2c6cd3d24385f5a43799df705aeed97adbf6c84c",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/clagrange-2.0.2-2-x86_64.pkg.tar.zst",
+    "sha256": "e45854a5866e8bd14442f55d8a87b536bf551a33929d16331a685cb03af34a7d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/clagrange-2.0.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",
@@ -3666,10 +3666,10 @@
   },
   {
     "name": "deltachat-desktop",
-    "version": "2.65.0-1",
+    "version": "2.69.0-1",
     "origin": "artix-galaxy",
-    "sha256": "24686166662d66019ec3b2cb3ca61a37a928fa70072a7f5304602fc9e131e10a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.65.0-1-any.pkg.tar.zst",
+    "sha256": "b61add864afc9ddf4b4503f0f973e4affc75ce12025c832f58f207bf1c820bed",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-desktop-2.69.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "electron42",
@@ -3682,10 +3682,10 @@
   },
   {
     "name": "deltachat-rpc-server",
-    "version": "2.65.0-2",
+    "version": "2.69.0-1",
     "origin": "artix-galaxy",
-    "sha256": "31d6a2f1abd8da53b55c4afa4bc5b92f63294978e17f2afb0b47a6a2d9978ab5",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.65.0-2-x86_64.pkg.tar.zst",
+    "sha256": "5c5c441c4a31c020693a76e6f214ac8081e9fac2b81c865501b6320de9698b5e",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/deltachat-rpc-server-2.69.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11413,10 +11413,10 @@
   },
   {
     "name": "lagrange",
-    "version": "2.0.2-2",
+    "version": "2.0.3-1",
     "origin": "artix-galaxy",
-    "sha256": "8086de8444344474fc0e5f24b43fc6a7b5ca866a34f1312035930ff3580fe6e8",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lagrange-2.0.2-2-x86_64.pkg.tar.zst",
+    "sha256": "4483c42c82d81f94a728be44d518bc13b7c852df7a441d9e69d2f3dce5f49765",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lagrange-2.0.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "hicolor-icon-theme",
@@ -11440,10 +11440,10 @@
   },
   {
     "name": "lagrange-common",
-    "version": "2.0.2-2",
+    "version": "2.0.3-1",
     "origin": "artix-galaxy",
-    "sha256": "1113c4d16db7a0e7bcda36001a3b2a3b36e6ad74d09da423168c8733b84eaef4",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lagrange-common-2.0.2-2-any.pkg.tar.zst",
+    "sha256": "2b855d7ae1cfcbb6dae428f47a3397df191949d036bf73b96b6282568cc98093",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/lagrange-common-2.0.3-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -23182,10 +23182,10 @@
   },
   {
     "name": "nemo",
-    "version": "6.8.3-1",
+    "version": "6.8.4-2",
     "origin": "artix-galaxy",
-    "sha256": "f74538e17785c228129493b90ee693969e73b4a0419059a0939130116a90b227",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nemo-6.8.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3be18da6adf6251826350498323a7e9ef821c5ad758e56b55539861f13077070",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/nemo-6.8.4-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -23194,22 +23194,25 @@
       "cinnamon-desktop",
       "dconf",
       "exempi",
-      "libgcc",
       "gdk-pixbuf2",
       "glib2",
       "glibc",
-      "gst-plugins-base",
+      "gst-plugins-base-libs",
       "gstreamer",
+      "gtk-layer-shell",
       "gtk3",
+      "gvfs",
       "hicolor-icon-theme",
       "json-glib",
       "libexif",
+      "libgcc",
       "libx11",
       "libxmlb",
       "pango",
       "python",
       "python-cairo",
       "python-gobject",
+      "wayland",
       "xapp"
     ],
     "optdepends": [
@@ -30665,10 +30668,10 @@
   },
   {
     "name": "timeshift",
-    "version": "26.11.1-1",
+    "version": "26.11.1-1.1",
     "origin": "artix-galaxy",
-    "sha256": "8bc01caa3c62c6d935a6451a1d09d3d18690012591ad6b808edd73b152a4b0bf",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/timeshift-26.11.1-1-x86_64.pkg.tar.zst",
+    "sha256": "21b9a02c904b90824e26ce8f21702f9c3f7d830f936ede021c484c9077088034",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/timeshift-26.11.1-1.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgee",
@@ -34096,10 +34099,10 @@
   },
   {
     "name": "xviewer",
-    "version": "3.4.17-1",
+    "version": "3.4.19-1",
     "origin": "artix-galaxy",
-    "sha256": "f45245094a7dca9ee2c2634e7ea34d10210844bc7583e892b032f6d23bfb1b08",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xviewer-3.4.17-1-x86_64.pkg.tar.zst",
+    "sha256": "b97d7bf92de9acb68ea7e910b5333615241aad94073b869a95a3fea569288c69",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xviewer-3.4.19-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -34128,10 +34131,10 @@
   },
   {
     "name": "xviewer-plugins",
-    "version": "3.4.4-1",
+    "version": "3.4.5-1",
     "origin": "artix-galaxy",
-    "sha256": "0416bc4f988a50f63ed797ee455f233eb79c1e4e07e43ef88a4482e9dfc2a4d2",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xviewer-plugins-3.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "2a07efb79b73edc46611ced39ef76334cc6fdf1ac1aae0223e8c3621788979fd",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/xviewer-plugins-3.4.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",

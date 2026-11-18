@@ -8904,10 +8904,10 @@
   },
   {
     "name": "comgr",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "da6d9501a76f23081c77eafbe95a1d7bea5b0b2bba4e8cd4faac9958fb56a2bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/comgr-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "9ab3890a888eca167bd20225bd562f3e18944c481bfdd0fd095064b15313f963",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/comgr-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -17985,10 +17985,10 @@
   },
   {
     "name": "ftjam",
-    "version": "2.5.3rc2-6",
+    "version": "2.5.3rc2-7",
     "origin": "artix-world",
-    "sha256": "51a8a05081858e6872cd20b105c9ba177a83508ddfd022fe48a66db34b4506bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ftjam-2.5.3rc2-6-x86_64.pkg.tar.zst",
+    "sha256": "93f6bee876bfb42189a72a72e5eda0dfaa4389980f408b268e0aa1241805537d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ftjam-2.5.3rc2-7-x86_64.pkg.tar.zst",
     "provides": [
       "jam"
     ],
@@ -27392,12 +27392,12 @@
   },
   {
     "name": "hip-runtime-amd",
-    "version": "7.2.4-1",
+    "version": "10.1-2",
     "origin": "artix-world",
-    "sha256": "0cbaa3fcba04d892bcde0862b261126608de610204a5aacc1622a7a9f590f5ad",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hip-runtime-amd-7.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "df9adac353a64352b5f7dcfe2260ab7b775bbfeb7211e933bf3376317b450056",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hip-runtime-amd-10.1-2-x86_64.pkg.tar.zst",
     "provides": [
-      "hip=7.2.4"
+      "hip=10.1"
     ],
     "depends": [
       "rocm-core",
@@ -27406,7 +27406,6 @@
       "glibc",
       "libgcc",
       "numactl",
-      "mesa",
       "comgr",
       "rocminfo",
       "rocm-llvm",
@@ -27415,16 +27414,17 @@
     ],
     "optdepends": [
       "inetutils: Print hostname in hipconfig",
-      "cuda: Cross compile for nvidia"
+      "cuda: Cross compile for nvidia",
+      "mesa: OpenGL interop"
     ],
     "conflicts": []
   },
   {
     "name": "hip-runtime-nvidia",
-    "version": "7.2.4-1",
+    "version": "10.1-2",
     "origin": "artix-world",
-    "sha256": "27a83d6ba177d9b5a74478bd1888753f603a57389f9de69d0c26faee80d01478",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hip-runtime-nvidia-7.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "f1e9e05a50d3e3dacacc4f8a41d0fb4a54ed9cf9b74eb398c60aa0463384ac8b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hip-runtime-nvidia-10.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cuda"
@@ -29178,10 +29178,10 @@
   },
   {
     "name": "hyprutils",
-    "version": "0.14.3-1",
+    "version": "0.14.4-1",
     "origin": "artix-world",
-    "sha256": "6aaa98f86c18b38ef0e3299587e49398d94678563c126e01015929849eeba518",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprutils-0.14.3-1-x86_64.pkg.tar.zst",
+    "sha256": "3b700485cdc6db01c58880870fc868dca151743ce2369e1d661f3c1324a10bff",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprutils-0.14.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libhyprutils.so=13-64"
     ],
@@ -43121,10 +43121,10 @@
   },
   {
     "name": "libcue",
-    "version": "2.3.0-2",
+    "version": "2.4.0-1",
     "origin": "artix-world",
-    "sha256": "9d5cd039a30cf5953499ec66cc2e6af99300ed32e58d8df054fbded586100f84",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcue-2.3.0-2-x86_64.pkg.tar.zst",
+    "sha256": "67d1d464cea795fa474050f7e9ac58d8a04fafff85e918e507afa933c78dbe76",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libcue-2.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -44834,10 +44834,10 @@
   },
   {
     "name": "libgtop",
-    "version": "2.41.3-2",
+    "version": "2.41.4-1",
     "origin": "artix-world",
-    "sha256": "992f55e88daf6d178e9259403f15ea2bf6eaa6cc79e50ba51dfc29f5c8e46800",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgtop-2.41.3-2-x86_64.pkg.tar.zst",
+    "sha256": "b60d8b835a80883d8cf8e1a6e607d80fe58431e0ce75f0d1abfa360b93e6a9e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libgtop-2.41.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glib2",
@@ -63989,10 +63989,10 @@
   },
   {
     "name": "pcsclite",
-    "version": "2.5.3-1.1",
+    "version": "2.5.4-1",
     "origin": "artix-world",
-    "sha256": "ad16b682da6f22faa48fdbe51ccf56e6921dc6990077e75451d0f22d24ce3d1d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.3-1.1-x86_64.pkg.tar.zst",
+    "sha256": "f79ea78d66f07ae37823007c5759a438818ee3b7d72784cfad1891eb4d9931c8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pcsclite-2.5.4-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpcsclite.so=1-64",
       "libpcsclite_real.so=1-64",
@@ -64305,13 +64305,13 @@
   },
   {
     "name": "percona-server",
-    "version": "9.7.2_2-2",
+    "version": "9.7.2_3-1",
     "origin": "artix-world",
-    "sha256": "2883bd3015fa16653faca85e9fa4fa46589826b606be652fd7adcf105db8fc27",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-9.7.2_2-2-x86_64.pkg.tar.zst",
+    "sha256": "cd18f136b94d1c617dc514443a426e721618c7bdf0385e49e6fc401e40750d0f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-9.7.2_3-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mysql=9.7.2_2",
-      "mariadb=9.7.2_2"
+      "mysql=9.7.2_3",
+      "mariadb=9.7.2_3"
     ],
     "depends": [
       "glibc",
@@ -64341,13 +64341,13 @@
   },
   {
     "name": "percona-server-clients",
-    "version": "9.7.2_2-2",
+    "version": "9.7.2_3-1",
     "origin": "artix-world",
-    "sha256": "f4f29921a4a75821490a2223ad137d2b2de2bc09543ddb470846bd7ed1b5f011",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-clients-9.7.2_2-2-x86_64.pkg.tar.zst",
+    "sha256": "706bd3b5a785134fcf4201457716c6bf460222fff3776462533e393605e79a03",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/percona-server-clients-9.7.2_3-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mysql-clients=9.7.2_2",
-      "mariadb-clients=9.7.2_2"
+      "mysql-clients=9.7.2_3",
+      "mariadb-clients=9.7.2_3"
     ],
     "depends": [
       "glibc",
@@ -95567,24 +95567,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.13.8-1",
+    "version": "0.13.9-1",
     "origin": "artix-world",
-    "sha256": "879f5559c2e2253b44e1b6543f243dcf8aa8971dbab4c8783ae6a3a71de7b414",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.8-1-x86_64.pkg.tar.zst",
+    "sha256": "9b59068187a0c0aacdaecc2e3a1d7765f58471a122dfa9f0f73ce7d7ac10eddf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.13.8"
+      "uv=0.13.9"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.13.8-1",
+    "version": "0.13.9-1",
     "origin": "artix-world",
-    "sha256": "24c5ff3f48ec6aa80e63724dfeecfb658b06fd05be93d263aeb35952be5c91f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.8-1-x86_64.pkg.tar.zst",
+    "sha256": "9406acfe495943fa280077b17f785743d77717c527a90336779c89f96b19fbbc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -102699,10 +102699,10 @@
   },
   {
     "name": "rocm-device-libs",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "ba1c3994a1e95dbbeeb79eb1aca4b7ad176d2fb6ef4c5314226c663839ca713d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-device-libs-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "1a233ef2719bc5112701da9d6bfba0d1e19553e82171cffa4b1c9b1003121cb6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-device-libs-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core"
@@ -102712,13 +102712,13 @@
   },
   {
     "name": "rocm-flang",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "f0cea774c31cbc5d253cab6a14090494a1b8e6bc098b37a22110fffcecc6eca4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-flang-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "f8ef84dac3ecbd43c2a3060c7148c2f7a4d08c87d7515947f927a0505b358514",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-flang-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "rocm-llvm=2:10.1-4",
+      "rocm-llvm=2:10.1-6",
       "rocm-llvm-libs",
       "rocm-mlir-libs",
       "gcc-libs",
@@ -102733,10 +102733,10 @@
   },
   {
     "name": "rocm-llvm",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "a0f69344e1cba0eaaf2f46070ac46a48e21de5f7d0049f87ae07c268db7903bd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "b23e13524ba9d159d8f049153bc728f95f4d25dad17553e4d3ef51cc2f425b69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-llvm-libs",
@@ -102763,23 +102763,23 @@
   },
   {
     "name": "rocm-llvm-headers",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "e5faef0c6e8190c1f8a16e77fb62c8b405b3a78dc688c7a7edd9ecd29857a14b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-headers-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "07b1f9e0e4617091c035b4e62f495c696014d0ec3d8e2b7a6b73cacd44808456",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-headers-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "rocm-llvm=2:10.1-4"
+      "rocm-llvm=2:10.1-6"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "rocm-llvm-libs",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "8290c23d22c0f9a42c6010b27fb253e4a678ad0afb032a43edfaa54684b1f957",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-libs-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "aaa0787a645d969764165be7594854c217ea6e240d4ddb0cceb1816fb4c20bfd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-libs-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -102797,29 +102797,30 @@
   },
   {
     "name": "rocm-llvm-static",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "6b154db33a47e0dc73564d0d95d76f8cb71f22a7bc6c1a65be345f65b7cde495",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-static-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "defaf78888f6558cb53688d46006f3970db35553f424cc92ff9fbfb752844318",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-static-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "rocm-llvm-headers=2:10.1-4",
-      "rocm-llvm-tools=2:10.1-4"
+      "rocm-llvm-headers=2:10.1-6",
+      "rocm-llvm-tools=2:10.1-6"
     ],
     "optdepends": [
-      "rocm-flang: find_package(Flang)"
+      "rocm-flang: find_package(Flang)",
+      "python-numpy: MLIR Python bindings"
     ],
     "conflicts": []
   },
   {
     "name": "rocm-llvm-tools",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "b671b30e3d588d3d13e90fec47236695f1e8e31dcd85373a60e668bf45e2c26f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-tools-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "8bef4575bc230bf97cfc073251dd2ecd7cc0dacb43b9c229dfe16347bd21539b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-llvm-tools-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "rocm-llvm=2:10.1-4",
+      "rocm-llvm=2:10.1-6",
       "rocm-llvm-libs",
       "rocm-mlir-libs"
     ],
@@ -102828,10 +102829,10 @@
   },
   {
     "name": "rocm-mlir-libs",
-    "version": "2:10.1-4",
+    "version": "2:10.1-6",
     "origin": "artix-world",
-    "sha256": "f42cde3813afa02caadafb7dde887a1d4f5fc0f12c64c61e1fce66591fa6eb6a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-mlir-libs-2:10.1-4-x86_64.pkg.tar.zst",
+    "sha256": "2889b4295ddda3d47a7dfd7ecdd0cce07dc944877d90fcb43ce7adaf756d457f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocm-mlir-libs-2:10.1-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-llvm-libs",
@@ -124305,10 +124306,10 @@
   },
   {
     "name": "udiskie",
-    "version": "2.7.0-2",
+    "version": "2.8.1-1",
     "origin": "artix-world",
-    "sha256": "97eec0220736bd5a6bc475225080ce80dc6ee604323b594e4d0fc4ce0f3b122f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/udiskie-2.7.0-2-any.pkg.tar.zst",
+    "sha256": "0854acaf6c23b850341b80e79144a8e2497a56eb01718b3fbb4d59ebc42316ab",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/udiskie-2.8.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "udisks2",
@@ -125523,10 +125524,10 @@
   },
   {
     "name": "uv",
-    "version": "0.13.8-1",
+    "version": "0.13.9-1",
     "origin": "artix-world",
-    "sha256": "90bb6442417f92c001d12a749e2b9c3b99fccec2375e33ee80bd483f8156776e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.8-1-x86_64.pkg.tar.zst",
+    "sha256": "c3e906915d47caa10b2341f86689aa60521f1aec102083be5f50cc06144ebcaa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.9-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -125803,10 +125804,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261116043813-1",
+    "version": "20261118003608-1",
     "origin": "artix-world",
-    "sha256": "fef866ae9389cd83478dd6b41ee68178ab17f2cabd941551016a4763c5bc466f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261116043813-1-any.pkg.tar.zst",
+    "sha256": "8fcec281eebb710691da6ccae18f02499ab696b602b5a07e31afbab038c8b777",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261118003608-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -126042,10 +126043,10 @@
   },
   {
     "name": "vault",
-    "version": "2.2.1-1",
+    "version": "2.2.2-1",
     "origin": "artix-world",
-    "sha256": "928ad6de4b3da20127cba52fa6629ccaf9c3b01e8e24f04f6082df70e55b0f11",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vault-2.2.1-1-x86_64.pkg.tar.zst",
+    "sha256": "18f70998222cacadf934a3dd71cac2189aad5d20ad7ce2b242dafad3d3e95148",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vault-2.2.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "esysusers",
