@@ -1504,10 +1504,10 @@
   },
   {
     "name": "ansible",
-    "version": "14.6.0-1",
+    "version": "15.0.0-1",
     "origin": "artix-world",
-    "sha256": "e20d5f7aa8ba958b81b8f28235f099c2e9e7b98e99dc0d685359726f8735aa90",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-14.6.0-1-any.pkg.tar.zst",
+    "sha256": "1cf96a2960316db9ca62d6e95ee0e352c1699661c39694fd4485b7614ca12b3b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ansible-15.0.0-1-any.pkg.tar.zst",
     "provides": [
       "python-ansible_collections"
     ],
@@ -6723,6 +6723,26 @@
     "conflicts": []
   },
   {
+    "name": "buildah",
+    "version": "1:1.46.1-1",
+    "origin": "artix-world",
+    "sha256": "9e5c3bf0e8b4653b510c6d21127772c7b900e7826ff97ecbedf0bce196317dec",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/buildah-1:1.46.1-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "oci-runtime",
+      "skopeo",
+      "passt",
+      "libseccomp",
+      "gpgme",
+      "sqlite",
+      "containers-common"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
     "name": "bullet",
     "version": "3.25-9",
     "origin": "artix-world",
@@ -9331,10 +9351,10 @@
   },
   {
     "name": "containers-common",
-    "version": "1:0.69.2-1",
+    "version": "1:0.70.0-2.1",
     "origin": "artix-world",
-    "sha256": "ac48f32fd0fca987f77d72553f7bb5cb8301062d46d1ea7173530102e5b142f8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containers-common-1:0.69.2-1-any.pkg.tar.zst",
+    "sha256": "ac5b97cff64efb73cd432690fcc88f4109e01a8ec67285b90f0681d0a6478f2a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/containers-common-1:0.70.0-2.1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "container-network-stack>1"
@@ -10554,10 +10574,10 @@
   },
   {
     "name": "dav1d",
-    "version": "1.5.4-1",
+    "version": "1.5.5-1",
     "origin": "artix-world",
-    "sha256": "30fef9e4ca33dc8e8052c8135452c16b18ff0d2c8bd52d28cc31959617324f3b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dav1d-1.5.4-1-x86_64.pkg.tar.zst",
+    "sha256": "97914dfcda4f67d656d64760c0e109f43ba265bf7ba4f91096a896d30465f88d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dav1d-1.5.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "libdav1d.so=7-64"
     ],
@@ -12144,10 +12164,10 @@
   },
   {
     "name": "docker",
-    "version": "1:29.9.3-1",
+    "version": "1:29.10.0-1",
     "origin": "artix-world",
-    "sha256": "10d0129f82076561d76d7a26c3e6b5e020ab9a1cc3ae04ed31518e7a2d181125",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.9.3-1-x86_64.pkg.tar.zst",
+    "sha256": "05f77534c7da666b585d9d08f4bc1cd2a134bc8b2bf0f7953708c73d5e8ff140",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/docker-1:29.10.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -23663,10 +23683,10 @@
   },
   {
     "name": "grpc",
-    "version": "1.84.0-2",
+    "version": "1.84.3-1",
     "origin": "artix-world",
-    "sha256": "0a66fb9543ca1024169e5f2a906d899b60d97aca26de9b2f5433d625f412f6dd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-1.84.0-2-x86_64.pkg.tar.zst",
+    "sha256": "015cd2f62035b5cddb873cf2c65bc664576243750f20e218cbdb58be603f9383",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-1.84.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "libupb.so",
       "libgrpcpp_channelz.so=1.84-64",
@@ -23696,10 +23716,10 @@
   },
   {
     "name": "grpc-cli",
-    "version": "1.84.0-2",
+    "version": "1.84.3-1",
     "origin": "artix-world",
-    "sha256": "945408f233878831baa194be066a7eae6106080cb7fd5bc751651d5ecd5baa01",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-cli-1.84.0-2-x86_64.pkg.tar.zst",
+    "sha256": "e94003d39e3e024e978e49018174f96ee5ba2bfba26400399cde7f937fe6cb7b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/grpc-cli-1.84.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -26880,10 +26900,10 @@
   },
   {
     "name": "haproxy",
-    "version": "3.4.7-2",
+    "version": "3.4.8-1",
     "origin": "artix-world",
-    "sha256": "a13e0506f4a5d993c370a53552b0ed7885205fac1af827c4437a85471342f0b8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haproxy-3.4.7-2-x86_64.pkg.tar.zst",
+    "sha256": "bbca4392433be54f7721f294d1cd60d46e90f50764a9a838003a4da47127e5c7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/haproxy-3.4.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -32808,10 +32828,10 @@
   },
   {
     "name": "jxrlib",
-    "version": "1.4.6-1",
+    "version": "1.4.7-1",
     "origin": "artix-world",
-    "sha256": "666360367159eafd180335adf49c262fa0b2339f40203002ce05cd0ae8c56274",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jxrlib-1.4.6-1-x86_64.pkg.tar.zst",
+    "sha256": "ffc4ce3a8fd2e613a882554ff53996879f2fc6239ad00341811b1b6750ba5526",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jxrlib-1.4.7-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -40747,10 +40767,10 @@
   },
   {
     "name": "kup",
-    "version": "6.8.2-1",
+    "version": "6.8.3-1",
     "origin": "artix-world",
-    "sha256": "85a536bf11fa8caa372bdbb3afa08a57f86692c32d8d84152a40e37b566b3e76",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kup-6.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "ed8f1730e5af0b26f38f690f6f1d969124d2188a69e99ed187524f5c462abc00",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kup-6.8.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -69321,10 +69341,10 @@
   },
   {
     "name": "php-grpc",
-    "version": "1.84.0-2",
+    "version": "1.84.3-1",
     "origin": "artix-world",
-    "sha256": "d71cb0b6a010e7f354dc101db48269c9426c7a0ea20b6b01f134b4f956ee7517",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-grpc-1.84.0-2-x86_64.pkg.tar.zst",
+    "sha256": "d2117b4e98e29813bd3c70b9cdb5ed632b5ad2b8b7dd1bdd4232652d64342ec0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-grpc-1.84.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -69515,10 +69535,10 @@
   },
   {
     "name": "php-legacy-grpc",
-    "version": "1.84.0-2",
+    "version": "1.84.3-1",
     "origin": "artix-world",
-    "sha256": "f5c0d8fb14bb2a9d842754e5e8753e65273621f29014f1aebb0cc45782743ef1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-grpc-1.84.0-2-x86_64.pkg.tar.zst",
+    "sha256": "a48bddeac1d80960b800d9a0a9305e528388df8abab8c0c592f91a34a07be6fe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/php-legacy-grpc-1.84.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -71917,10 +71937,10 @@
   },
   {
     "name": "podman",
-    "version": "6.1.4-1",
+    "version": "6.2.0-1",
     "origin": "artix-world",
-    "sha256": "480497b043f53deb8f08ae5db83ca6b57c7ecbcaa9114315324982214198d024",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podman-6.1.4-1-x86_64.pkg.tar.zst",
+    "sha256": "cfc4d243bd0caf3bbb1f68ccf544162be31c183e1f5e0c6982dc6931fce457f5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podman-6.2.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "catatonit",
@@ -71969,10 +71989,10 @@
   },
   {
     "name": "podman-docker",
-    "version": "6.1.4-1",
+    "version": "6.2.0-1",
     "origin": "artix-world",
-    "sha256": "9f91944adc8b0d00472e171b80acc74336750ef7ef9203cc76b15cb7c3cb6af2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podman-docker-6.1.4-1-x86_64.pkg.tar.zst",
+    "sha256": "4ca87b65cdbcd8b8807140790f9be067af19290a6655b4a21f8171f952e4f137",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/podman-docker-6.2.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "docker"
     ],
@@ -81124,10 +81144,10 @@
   },
   {
     "name": "python-grpcio",
-    "version": "1.84.0-2",
+    "version": "1.84.3-1",
     "origin": "artix-world",
-    "sha256": "65db0b9180c0a6ceaf03efd2f66a96a7593c32bb886b35d800b3c1d7702c77bc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-1.84.0-2-x86_64.pkg.tar.zst",
+    "sha256": "44254f91895f7db7b998c4554ca1497f3b504d2c479f866b91fdef57fd3b73a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-1.84.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -81147,10 +81167,10 @@
   },
   {
     "name": "python-grpcio-tools",
-    "version": "1.84.0-2",
+    "version": "1.84.3-1",
     "origin": "artix-world",
-    "sha256": "429c54c765bbcd19420b3d3a0df2b165065a815d5df41e54a0b1af23a5561afc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-tools-1.84.0-2-x86_64.pkg.tar.zst",
+    "sha256": "11d49799d494badd6c48b5d727a35f9db1e16fd9e1e1e088158da121db26b81c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-grpcio-tools-1.84.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -104613,10 +104633,10 @@
   },
   {
     "name": "ruby-cucumber-ci-environment",
-    "version": "15.0.0-1",
+    "version": "15.1.0-1",
     "origin": "artix-world",
-    "sha256": "efce136bbb9ef4e60a16317d917161f51b54b047ae63f67a3e1db975dee84056",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-ci-environment-15.0.0-1-any.pkg.tar.zst",
+    "sha256": "971bac3fa4d7c03d8bdad45e909f7806bfce894eb6873e5ca450f007216b6dba",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-ci-environment-15.1.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -104670,10 +104690,10 @@
   },
   {
     "name": "ruby-cucumber-html-formatter",
-    "version": "24.3.0-1",
+    "version": "24.4.0-1",
     "origin": "artix-world",
-    "sha256": "c8214907264ecd973471e6897ba2229a9430b5cb4bdb447259f85c5493e3944c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-html-formatter-24.3.0-1-any.pkg.tar.zst",
+    "sha256": "175ab8d59ba550ad93e62b601c1594164c3107df2340fe891bd3851b00e09061",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-html-formatter-24.4.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby",
@@ -104711,10 +104731,10 @@
   },
   {
     "name": "ruby-cucumber-tag-expressions",
-    "version": "11.1.0-1",
+    "version": "11.2.0-1",
     "origin": "artix-world",
-    "sha256": "5813ebfca4a9dcd7ad786b43b5de4f79fe0de6439d2c6629b8c96caf820d6dfc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-tag-expressions-11.1.0-1-any.pkg.tar.zst",
+    "sha256": "ece710843ed42121b3ada30a857794aabc3a89ed8de916121218742748652fb7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-cucumber-tag-expressions-11.2.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -110759,6 +110779,22 @@
       "libkdegames",
       "libstdc++",
       "qt6-base"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "skopeo",
+    "version": "1.25.2-1",
+    "origin": "artix-world",
+    "sha256": "fd36deed29f38e4b510d37e16fd9b2ef6d4093244edf4ddf287e0b741d772c1a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/skopeo-1.25.2-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "gpgme",
+      "device-mapper",
+      "containers-common",
+      "sqlite"
     ],
     "optdepends": [],
     "conflicts": []
