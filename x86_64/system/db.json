@@ -1629,10 +1629,10 @@
   },
   {
     "name": "flex",
-    "version": "2.6.10-1",
+    "version": "2.6.15-1",
     "origin": "artix-system",
-    "sha256": "6d7b465b57530104283ce5f333ba39bd1e8dc95b6e9cda601eb3335e608a5327",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/flex-2.6.10-1-x86_64.pkg.tar.zst",
+    "sha256": "30c7c627e0295c2b720a677b4d614a0ba584b96cd5908441014458286ca327b9",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/flex-2.6.15-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -2022,10 +2022,10 @@
   },
   {
     "name": "glibc",
-    "version": "2.44+r50+g1848099f063e-1",
+    "version": "2.44+r78+gfcfb867c58ab-1",
     "origin": "artix-system",
-    "sha256": "cb4c8b4d02cd21d543ef5f62944bea63fdea39798441e5f2a14d0e6c82c96c5b",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-2.44+r50+g1848099f063e-1-x86_64.pkg.tar.zst",
+    "sha256": "4ed786921fe28d46d175b300d27f6d9a80e22f2450bca2dd267a1a94528d8eb2",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-2.44+r78+gfcfb867c58ab-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux-api-headers>=4.10",
@@ -2040,13 +2040,13 @@
   },
   {
     "name": "glibc-locales",
-    "version": "2.44+r50+g1848099f063e-1",
+    "version": "2.44+r78+gfcfb867c58ab-1",
     "origin": "artix-system",
-    "sha256": "7e5cb774a1a30480958409526349a70d228cdcacce085f387b55aa573c7e2684",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-locales-2.44+r50+g1848099f063e-1-x86_64.pkg.tar.zst",
+    "sha256": "cce52f581c3c4ea1c0ea3108eda81c003270dfaa1799309d96378fa35da21c00",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/glibc-locales-2.44+r78+gfcfb867c58ab-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc=2.44+r50+g1848099f063e"
+      "glibc=2.44+r78+gfcfb867c58ab"
     ],
     "optdepends": [],
     "conflicts": []
@@ -3018,13 +3018,13 @@
   },
   {
     "name": "lib32-glibc",
-    "version": "2.44+r50+g1848099f063e-1",
+    "version": "2.44+r78+gfcfb867c58ab-1",
     "origin": "artix-system",
-    "sha256": "1b8e0f314b6bc543ded4dbc5510888483ae77ff2374473e2116a654a477c2d7c",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lib32-glibc-2.44+r50+g1848099f063e-1-x86_64.pkg.tar.zst",
+    "sha256": "fd6c25e02e77ba3bd6852e10fdac18dd0099e3b5066def386657d76081dd0713",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/lib32-glibc-2.44+r78+gfcfb867c58ab-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "glibc=2.44+r50+g1848099f063e"
+      "glibc=2.44+r78+gfcfb867c58ab"
     ],
     "optdepends": [],
     "conflicts": []
@@ -3370,10 +3370,10 @@
   },
   {
     "name": "libffi",
-    "version": "3.8.0-1",
+    "version": "3.8.1-1",
     "origin": "artix-system",
-    "sha256": "009271dbcd92e1a4043833064453a8d3fef2def2e6b785fec77d7fac223f0be7",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libffi-3.8.0-1-x86_64.pkg.tar.zst",
+    "sha256": "4f6bc99d5ca3eda99c98586fb194dfc0021976d3f46695c1da2cb45aea5d5471",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libffi-3.8.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "libffi.so=8-64"
     ],
@@ -4962,10 +4962,10 @@
   },
   {
     "name": "man-db",
-    "version": "2.13.1-2",
+    "version": "2.13.3-1",
     "origin": "artix-system",
-    "sha256": "9bb5cd078334689b9b3e10ea34aa7031bf773a6a45458047e0ae5ceb2481f336",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/man-db-2.13.1-2-x86_64.pkg.tar.zst",
+    "sha256": "d20394235cbe8961588a8137deb15100798848546713555726aee280353a20bf",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/man-db-2.13.3-1-x86_64.pkg.tar.zst",
     "provides": [
       "man"
     ],
@@ -5399,10 +5399,10 @@
   },
   {
     "name": "nspr",
-    "version": "4.40-1",
+    "version": "4.41-1",
     "origin": "artix-system",
-    "sha256": "7b77d5e09af148cf1014369e8e58f3bf041479998c8d18f78f6ae8eabc9154df",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nspr-4.40-1-x86_64.pkg.tar.zst",
+    "sha256": "0eec6f37e112a1cc97b0e6c29eb507b8823df6a87d8d614d3e740a4f25932b1a",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nspr-4.41-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -6033,10 +6033,10 @@
   },
   {
     "name": "pkgconf",
-    "version": "3.0.10-1",
+    "version": "3.0.11-1",
     "origin": "artix-system",
-    "sha256": "3696760c068310ed4b55aa81cba0799c72274403e73d9acfd2f9cec5b2586385",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pkgconf-3.0.10-1-x86_64.pkg.tar.zst",
+    "sha256": "a4b518498a033adcf8752935dc3bfbe3ddeacd14027850094a45c3d32896f2af",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/pkgconf-3.0.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "libpkgconf.so=8-64",
       "pkg-config",
@@ -6758,10 +6758,10 @@
   },
   {
     "name": "tpm2-tss",
-    "version": "4.2.1-2",
+    "version": "4.2.2s-1",
     "origin": "artix-system",
-    "sha256": "54169981493b6b8a75664ef479163390b466126baafa08d7e9071111edd60147",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.1-2-x86_64.pkg.tar.zst",
+    "sha256": "7c046ca8fa0fbde8ed7d87947c287092d523280d12e2f934045cb5f11eda2ac8",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.2s-1-x86_64.pkg.tar.zst",
     "provides": [
       "libtss2-esys.so=0-64",
       "libtss2-fapi.so=1-64",

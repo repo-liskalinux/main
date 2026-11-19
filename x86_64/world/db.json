@@ -319,10 +319,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-398",
+    "version": "1.2.2-400",
     "origin": "artix-world",
-    "sha256": "2aacc43720b000ee27174a89675095c70d6cd05db6ba39243b62efa07b5aac7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-398-x86_64.pkg.tar.zst",
+    "sha256": "7b1a1a7880fa993267c5ef83b0cffa779a889af9970ac770a3e076e8186e1816",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-400-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -6147,10 +6147,10 @@
   },
   {
     "name": "bootconfig",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "89a8a20fbad000b59a1525d84c33d1bb6871471d96c4e8f968cad031b7cea10c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "0d41242459e26266e5344d45051459b30adbdbbf397ffa2a18182cadc5908ecb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bootconfig-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -6238,10 +6238,10 @@
   },
   {
     "name": "bpf",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "aec148c856c11d14a4fccd4f414a61d1ec38849b3ec8009193b74d51e283d881",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "a2dfcc369abea0b5419a34bbb7d08f776f49b9fda1caaffd0ce9981769a54017",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/bpf-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -9664,10 +9664,10 @@
   },
   {
     "name": "cpupower",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "f2a0c1b3472767b4d28e82a88a4fae6a2edec0564150e2be3e7d6bc328704110",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "ac518e3f9fefd4ea8c13c9cfb0778cdaeaf754ee81d8ac6fda0da7b26a595edd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/cpupower-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -15399,10 +15399,10 @@
   },
   {
     "name": "exfatprogs",
-    "version": "1.4.4-1",
+    "version": "1.4.5-1",
     "origin": "artix-world",
-    "sha256": "21f483458625c4059aec5e1ee64afaedb7da989af65714d1b629c8bc39f8f6d2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/exfatprogs-1.4.4-1-x86_64.pkg.tar.zst",
+    "sha256": "0ca96e6bec8908248512ef46283b4e0b5363a78e4e5e0a7fea447102a2bf2a42",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/exfatprogs-1.4.5-1-x86_64.pkg.tar.zst",
     "provides": [
       "exfat-utils"
     ],
@@ -18760,10 +18760,10 @@
   },
   {
     "name": "gdb",
-    "version": "18.1-1",
+    "version": "18.1-2",
     "origin": "artix-world",
-    "sha256": "2b30e44aa9b17bd100e6081b1177752cc8f38600b315ec9f90229f8fcb69605c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-18.1-1-x86_64.pkg.tar.zst",
+    "sha256": "582bbbe2c43af923908c3d0989d42bab71593116b2213a84c71c8835942a41dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-18.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -18796,10 +18796,10 @@
   },
   {
     "name": "gdb-common",
-    "version": "18.1-1",
+    "version": "18.1-2",
     "origin": "artix-world",
-    "sha256": "c9b059a82d15df9541249f2627d49da002ef33d89a22842c8653da294a5a5f56",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-common-18.1-1-x86_64.pkg.tar.zst",
+    "sha256": "700fa0ef0669319c90818992b37692f09b2d4b9464679957771b0b60c7c5e121",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gdb-common-18.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -27454,10 +27454,10 @@
   },
   {
     "name": "hipblas",
-    "version": "7.2.4-1",
+    "version": "10.0-1",
     "origin": "artix-world",
-    "sha256": "a68a15ce1d55cc078f437c627c19a39c42ba88f35e994cd170daa775e6d20436",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hipblas-7.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "4db065e8afae01afda12a7fbd2e5ecbb1e7ecdf3fc96c5ff24fcb87f6ae00133",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hipblas-10.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -27473,10 +27473,10 @@
   },
   {
     "name": "hipblas-common",
-    "version": "7.2.4-1",
+    "version": "10.0-1",
     "origin": "artix-world",
-    "sha256": "e3ff16b1f3863f36efdccf022db8365ed326ab977e59ce4e136687242fd519db",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hipblas-common-7.2.4-1-any.pkg.tar.zst",
+    "sha256": "6ca2d716c271c18510df2f313b24a31cbe89bc5c4102caf0d0433069780157de",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hipblas-common-10.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core"
@@ -28598,10 +28598,10 @@
   },
   {
     "name": "hyperv",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "3d47e03f2a03d8dade7b7851b1f3044a9ede450a9cc5a5585218045d3068c124",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "fd83d226c2c82ba6cac947fe8a69aa2c108a2b20e39e817a37bbf1ee094c6561",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyperv-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -30432,10 +30432,10 @@
   },
   {
     "name": "intel-speed-select",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "0a34fd7249d328a84583418de8f2f146391a8b8aeff348130592ad19dbb31185",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "6343395218d45fe2e4db0769695a54b39480ed93bf6d61f3d05ae5d583272356",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/intel-speed-select-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libnl"
@@ -34260,10 +34260,10 @@
   },
   {
     "name": "kcpuid",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "9464a00f8ac4f7164e9bda2dd94b453afae9557fea7714881c797244760f1ced",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "76457f243c2cdcc0a4d0b740f77d8c1d3f72c185f42bc4dede6792de6010b452",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/kcpuid-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -41818,10 +41818,10 @@
   },
   {
     "name": "lib32-rust-libs",
-    "version": "1:1.99.1-2",
+    "version": "1:1.100.0-1",
     "origin": "artix-world",
-    "sha256": "c1f51afc9b4fa34dc807decbafd3a24d96db30f3c8feee6e1122667b03407627",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lib32-rust-libs-1:1.99.1-2-x86_64.pkg.tar.zst",
+    "sha256": "016fae940fd3cfd5326b289812cc2875fab88e320f13656e99c5156f8d9b924d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/lib32-rust-libs-1:1.100.0-1-x86_64.pkg.tar.zst",
     "provides": [
       "lib32-rust"
     ],
@@ -43766,10 +43766,10 @@
   },
   {
     "name": "libepubgen",
-    "version": "0.1.1-6",
+    "version": "0.1.2-1",
     "origin": "artix-world",
-    "sha256": "7f8869b93e2884f2cf51ecb5c98c8269326c0f167ba385e91daea694ef1deece",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libepubgen-0.1.1-6-x86_64.pkg.tar.zst",
+    "sha256": "ed535c405a9524b2bb58a9901de75427d2cd6ddca20a17d6e7f8dc8ab74830a4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libepubgen-0.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "librevenge",
@@ -51588,10 +51588,10 @@
   },
   {
     "name": "linux-tools-meta",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "2e31608dc3c2110db3ca94526a166a29b4ce5852fb3970a374d7dbf27fa0db27",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "507df817d311ece8b5f984bff8eea0877d6109721ad5f385516b36885e79a4aa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/linux-tools-meta-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bootconfig",
@@ -60346,16 +60346,16 @@
   },
   {
     "name": "nvidia-open",
-    "version": "615.78.08-6",
+    "version": "620.70.06-3",
     "origin": "artix-world",
-    "sha256": "d92d613e4495fdc34e1b0a68e54c20b5465e930e10d7ce431ddabdc6fad24a11",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-615.78.08-6-x86_64.pkg.tar.zst",
+    "sha256": "ac3665b60af1513711126b55e13cfeb17bbd5cc8931a89e3521eac1cf5690bbe",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-620.70.06-3-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
     "depends": [
       "linux",
-      "nvidia-utils=615.78.08",
+      "nvidia-utils=620.70.06",
       "libglvnd"
     ],
     "optdepends": [],
@@ -61803,10 +61803,10 @@
   },
   {
     "name": "openimagedenoise",
-    "version": "2.4.1-2",
+    "version": "2.5.1-2",
     "origin": "artix-world",
-    "sha256": "77269e0b822bb66cbb01d33e0d7a0e6a157a746fad853d1733bbde5fa51f6204",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openimagedenoise-2.4.1-2-x86_64.pkg.tar.zst",
+    "sha256": "320307c236f43df221cba626f1ffc18e41f7878c3c9a0b22c650f246bbae9df0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openimagedenoise-2.5.1-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "intel-tbb",
@@ -62054,10 +62054,10 @@
   },
   {
     "name": "openmpi",
-    "version": "5.0.11-1",
+    "version": "5.0.11-2",
     "origin": "artix-world",
-    "sha256": "a9d3d1cbfc9416451f38a0b062d434d1194665ce3acd3a31174187bf57e0334f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmpi-5.0.11-1-x86_64.pkg.tar.zst",
+    "sha256": "0ab12143a1ef4aa15a2f2e0e2e3763ea2f1b62a0b6c4ce332ef76a584875dbc5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openmpi-5.0.11-2-x86_64.pkg.tar.zst",
     "provides": [
       "libmpi.so=40-64",
       "libmpi_mpifh.so=40-64",
@@ -64391,10 +64391,10 @@
   },
   {
     "name": "perf",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "a0e545dcfe90a3aec86e922d0f092b00a9e35de603311cc82960c0ae32f0d915",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "721c45f0b2294c05afc4393dfcdff85b56fdb97f1cc01a31997db45fad1bcaa1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perf-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -75982,10 +75982,10 @@
   },
   {
     "name": "python-autobahn",
-    "version": "26.7.1-2",
+    "version": "26.11.1-1",
     "origin": "artix-world",
-    "sha256": "a2942ae59b98152a8595377a69d89de81344ff488be096224ab5bf0ebe58c1c5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-autobahn-26.7.1-2-x86_64.pkg.tar.zst",
+    "sha256": "f840edf3fbb5afed3295edd958a6ffa8b77176cfcf677fe4a580f40655e27f6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-autobahn-26.11.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -77851,10 +77851,10 @@
   },
   {
     "name": "python-cross-web",
-    "version": "0.7.1-1",
+    "version": "0.9.0-1",
     "origin": "artix-world",
-    "sha256": "d13b673e90fe5dcc1b7972e329ee849d7978cc0b9163b3085f2b687c7ecd24e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-cross-web-0.7.1-1-any.pkg.tar.zst",
+    "sha256": "8daf7a6ac69d42f9def3ec0bf1fdca30eea3bead999d6413103b5f9704d7b5de",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-cross-web-0.9.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -102998,15 +102998,16 @@
   },
   {
     "name": "rocsolver",
-    "version": "7.2.4-1",
+    "version": "10.0-2",
     "origin": "artix-world",
-    "sha256": "eb509bd38eeac466dd24985da9cc4e8a9036598a752b9abdde2b363136d7c8ce",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsolver-7.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "d84065afa64ca9dcb549f8a4942edfd005a0a5e92c318f82edf87a8c5dea31b5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsolver-10.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "hip-runtime-amd",
       "libgcc",
+      "libstdc++",
       "rocblas",
       "rocm-core",
       "rocsparse"
@@ -103016,18 +103017,20 @@
   },
   {
     "name": "rocsparse",
-    "version": "7.2.4-1",
+    "version": "10.0-2",
     "origin": "artix-world",
-    "sha256": "14434ac00c7149fcb82934a10ffc285ad35302e457f5cb5756923f206854f03f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsparse-7.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "eeca02364b09ac1af0b64e8ef6909b615a2d7d94e4bfa9bce9da97f73274f93f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsparse-10.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core",
       "glibc",
       "libgcc",
+      "libstdc++",
       "hip-runtime-amd",
       "rocprim",
-      "rocblas"
+      "rocblas",
+      "roctracer"
     ],
     "optdepends": [],
     "conflicts": []
@@ -103049,10 +103052,10 @@
   },
   {
     "name": "roctracer",
-    "version": "7.2.4-1",
+    "version": "10.0-1",
     "origin": "artix-world",
-    "sha256": "fe6622e72f67e814e846c98bb23555a00904bb09c98c958905f4e02da861494e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/roctracer-7.2.4-1-x86_64.pkg.tar.zst",
+    "sha256": "e60057689b2f06e38ff17e68b1c4b3f9a69baeecaa7402ae75dd60b92a8ddbed",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/roctracer-10.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core",
@@ -108843,10 +108846,10 @@
   },
   {
     "name": "rust-aarch64-gnu",
-    "version": "1:1.99.1-2",
+    "version": "1:1.100.0-1",
     "origin": "artix-world",
-    "sha256": "0e08ae0a78c20c849919ab19807f377e719a8b80117968c0b0f2bb927d7bd5ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-gnu-1:1.99.1-2-x86_64.pkg.tar.zst",
+    "sha256": "fc2c8548692a1716091b48c88c045f5e6dd0d68b8fdc9c5b8771cd8334ac2708",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-gnu-1:1.100.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aarch64-linux-gnu-gcc",
@@ -108858,10 +108861,10 @@
   },
   {
     "name": "rust-aarch64-musl",
-    "version": "1:1.99.1-2",
+    "version": "1:1.100.0-1",
     "origin": "artix-world",
-    "sha256": "15c7f7bb3f80b7c64fe06944e8a8599219c7e85130018edf639acb16c2640a6e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-musl-1:1.99.1-2-x86_64.pkg.tar.zst",
+    "sha256": "5beee8994837df4126c75dae92de27dacbee703f27ed3841102a20e2bbb7ded1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-aarch64-musl-1:1.100.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "aarch64-linux-gnu-gcc",
@@ -108887,10 +108890,10 @@
   },
   {
     "name": "rust-musl",
-    "version": "1:1.99.1-2",
+    "version": "1:1.100.0-1",
     "origin": "artix-world",
-    "sha256": "7790b5efbc46b9e27423ce3f63c05849250fe64cfefbd670a66641c8283ac3f8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-musl-1:1.99.1-2-x86_64.pkg.tar.zst",
+    "sha256": "f305a4b547f6d445696d0ecaf86f43c04857632299fce20ae86fa2ff0b2b8213",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-musl-1:1.100.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rust"
@@ -108900,10 +108903,10 @@
   },
   {
     "name": "rust-src",
-    "version": "1:1.99.1-2",
+    "version": "1:1.100.0-1",
     "origin": "artix-world",
-    "sha256": "df6b376e6a85fa8822ce911b1c05c5c97c2a5bb4d8814c58079ffadeae5b3d14",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-src-1:1.99.1-2-x86_64.pkg.tar.zst",
+    "sha256": "c8f9258b77e0dc87a056d85f26f258129fd8092fc1735a8c8631232e246ad8d9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-src-1:1.100.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rust"
@@ -108913,14 +108916,29 @@
   },
   {
     "name": "rust-wasm",
-    "version": "1:1.99.1-2",
+    "version": "1:1.100.0-1",
     "origin": "artix-world",
-    "sha256": "9c6d75bf4ca9bff38bc439e76546fcbac449d82bc714cfeace813170cc62c039",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-wasm-1:1.99.1-2-x86_64.pkg.tar.zst",
+    "sha256": "8635a5266b6aa184d2d1bd41c3a32d87109396d233e609e06273a7fdf4f5205f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rust-wasm-1:1.100.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rust",
       "wasm-component-ld"
+    ],
+    "optdepends": [],
+    "conflicts": []
+  },
+  {
+    "name": "rustc-dev",
+    "version": "1:1.100.0-1",
+    "origin": "artix-world",
+    "sha256": "47ca033a9a695210b4d4d609951761228517d50051901e9b9ee99855b0410f23",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rustc-dev-1:1.100.0-1-x86_64.pkg.tar.zst",
+    "provides": [],
+    "depends": [
+      "glibc",
+      "libgcc",
+      "rust"
     ],
     "optdepends": [],
     "conflicts": []
@@ -122950,10 +122968,10 @@
   },
   {
     "name": "tmon",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "348ea6db6c80a869915b258ae9d3e126f7b5287b7ed71cfe3fc9fabf81083dc3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "6cf9726525705ec7227064fd66d67b954e49490d605f4570c55bacf3667a0bb4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/tmon-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -124169,10 +124187,10 @@
   },
   {
     "name": "turbostat",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "36048872f610a7691b1257990c6d5b285a1fe1b783a4d9efcf5ed62b91482b13",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "c38fe8235da3b282800df93dc9197ca6d86e28e4a19e4e3a6ad6a8d744091c77",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/turbostat-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125428,10 +125446,10 @@
   },
   {
     "name": "usbip",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "d28d5d6b81fc49152a1d5e5c8b9240bbf4998ad00771a6157a66e1358757be5a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "7fae607962b93cbc0262ba430777959f92349215b29615e4df2e7d96d6731ec1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/usbip-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -125840,10 +125858,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261118003608-1",
+    "version": "20261118141523-1",
     "origin": "artix-world",
-    "sha256": "8fcec281eebb710691da6ccae18f02499ab696b602b5a07e31afbab038c8b777",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261118003608-1-any.pkg.tar.zst",
+    "sha256": "6ffa19399c849a8f35be564c0ddc4592b1b290e0a46054b6adbd275272cfc2ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261118141523-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -131101,10 +131119,10 @@
   },
   {
     "name": "x86_energy_perf_policy",
-    "version": "7.3.1-2",
+    "version": "7.3.3-1",
     "origin": "artix-world",
-    "sha256": "e6a1eee6cf48c4121db4a10e2b50ad6db81e75a2499a147112ea28c2ccddaa69",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.3.1-2-x86_64.pkg.tar.zst",
+    "sha256": "68f5e120e9b9e4ce273144b7a7a987f7fb4fefb37688fea6e7e68843d2635608",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/x86_energy_perf_policy-7.3.3-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"

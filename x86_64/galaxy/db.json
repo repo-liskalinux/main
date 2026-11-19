@@ -25759,10 +25759,10 @@
   },
   {
     "name": "profanity",
-    "version": "1:0.19.0-1",
+    "version": "1:0.20.0-2",
     "origin": "artix-galaxy",
-    "sha256": "c950746c301ed1a9073826eaf9dff405fa42de7cd9237c28d7482dabacf540d1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/profanity-1:0.19.0-1-x86_64.pkg.tar.zst",
+    "sha256": "3f31f5b0916b0fa9630d9e868c7ca4ac42d62ee3cc9ca96e78209d308199ba5c",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/profanity-1:0.20.0-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "expat",
@@ -25774,22 +25774,22 @@
       "libgpg-error",
       "libgpgme.so=45-64",
       "libncursesw.so=6-64",
-      "libnotify.so=4-64",
+      "libnotify.so",
       "libotr",
       "libreadline.so=8-64",
       "libsignal-protocol-c",
       "libstrophe.so=0-64",
-      "python"
+      "lua"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "profanity-gtk",
-    "version": "1:0.19.0-1",
+    "version": "1:0.20.0-2",
     "origin": "artix-galaxy",
-    "sha256": "5e9a779068932b943a0879dfb9ffbe630ae19dd67803f8e6724a4096309fe153",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/profanity-gtk-1:0.19.0-1-x86_64.pkg.tar.zst",
+    "sha256": "0b6d23fda56b253330bd1126477d2a51dc25ef5975b164360212b32e746aac46",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/profanity-gtk-1:0.20.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "profanity"
     ],
@@ -25803,17 +25803,19 @@
       "libgpg-error",
       "libgpgme.so=45-64",
       "libncursesw.so=6-64",
-      "libnotify.so=4-64",
+      "libnotify.so",
       "libotr",
       "libreadline.so=8-64",
       "libsignal-protocol-c",
       "libstrophe.so=0-64",
-      "python",
+      "lua",
       "cairo",
+      "enchant",
       "gdk-pixbuf2",
-      "libgtk-3.so=0-64",
+      "libgtk-3.so",
       "libx11",
-      "libxss"
+      "libxss",
+      "qrencode"
     ],
     "optdepends": [],
     "conflicts": [
@@ -31902,10 +31904,10 @@
   },
   {
     "name": "ueberzugpp",
-    "version": "2.9.10-2",
+    "version": "2.9.10-3",
     "origin": "artix-galaxy",
-    "sha256": "5ffd24e3e999b37d83d3460121c1f9f0c365219424d24095f073b98adac0885e",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ueberzugpp-2.9.10-2-x86_64.pkg.tar.zst",
+    "sha256": "b7b889ea3719d05fa073b3eb82f5b8a5cdb8ed5733e44cdd599d85a36d083c4b",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/ueberzugpp-2.9.10-3-x86_64.pkg.tar.zst",
     "provides": [
       "ueberzug"
     ],
