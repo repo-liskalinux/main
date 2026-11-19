@@ -17865,10 +17865,10 @@
   },
   {
     "name": "freetds",
-    "version": "1.5.21-2",
+    "version": "1.5.22-1",
     "origin": "artix-world",
-    "sha256": "43dfb1026e669eab1dfce6c338a17c2c1bc3e981006c45ebf58ebbced15ee4a5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freetds-1.5.21-2-x86_64.pkg.tar.zst",
+    "sha256": "46832247fb9faee061ce7432031db94126eef17972c89206a4ae3d4031ac9f42",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/freetds-1.5.22-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -20229,10 +20229,10 @@
   },
   {
     "name": "gitea",
-    "version": "28.3.0-1",
+    "version": "28.4.0-1",
     "origin": "artix-world",
-    "sha256": "3e48740f2378116ca99095e84c693d6a1136b5b18afc0fa808ec475fde96efaa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-28.3.0-1-x86_64.pkg.tar.zst",
+    "sha256": "072ee8ed9cf64573ff93b9a8c74e40bb0cf2af67f0d01b88e1c107c6768cc804",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gitea-28.4.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "git",
@@ -31442,20 +31442,20 @@
   },
   {
     "name": "jdk-openjdk",
-    "version": "27.0.1.0.3.u1-1",
+    "version": "27.0.1.1.u4-1",
     "origin": "artix-world",
-    "sha256": "321611444058c7eb34a0d13f0b67203e1f0b8801a6019fc6c98ceaa99556dc48",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "9f4f0910134e113b3129ea9b6334716aecafa9cea7e1450286507279bea77b9a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk-openjdk-27.0.1.1.u4-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=27",
       "java-environment-openjdk=27",
-      "jdk27-openjdk=27.0.1.0.3.u1-1",
+      "jdk27-openjdk=27.0.1.1.u4-1",
       "java-runtime=27",
       "java-runtime-openjdk=27",
-      "jre27-openjdk=27.0.1.0.3.u1-1",
+      "jre27-openjdk=27.0.1.1.u4-1",
       "java-runtime-headless=27",
       "java-runtime-headless-openjdk=27",
-      "jre27-openjdk-headless=27.0.1.0.3.u1-1"
+      "jre27-openjdk-headless=27.0.1.1.u4-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31491,20 +31491,20 @@
   },
   {
     "name": "jdk11-openjdk",
-    "version": "11.0.33.u10-1",
+    "version": "11.0.33.1.u1-1",
     "origin": "artix-world",
-    "sha256": "70fad8aed904b24d48c712b4f2f1c3946d98f21ddfd91979a7e6a9b5277391ca",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk11-openjdk-11.0.33.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "739b274698ee261df44dbed97a911cdb20c1894e6baa4f987d8e2adb998d7860",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk11-openjdk-11.0.33.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=11",
       "java-environment-openjdk=11",
-      "jdk11-openjdk=11.0.33.u10-1",
+      "jdk11-openjdk=11.0.33.1.u1-1",
       "java-runtime=11",
       "java-runtime-openjdk=11",
-      "jre11-openjdk=11.0.33.u10-1",
+      "jre11-openjdk=11.0.33.1.u1-1",
       "java-runtime-headless=11",
       "java-runtime-headless-openjdk=11",
-      "jre11-openjdk-headless=11.0.33.u10-1"
+      "jre11-openjdk-headless=11.0.33.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31538,20 +31538,20 @@
   },
   {
     "name": "jdk17-openjdk",
-    "version": "17.0.21.0.3.u1-1",
+    "version": "17.0.21.1.u2-1",
     "origin": "artix-world",
-    "sha256": "84a4448c2d1479706297ac444db97c5bc3d9e6cc63a5e0f55e5715809bdd4bbf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk17-openjdk-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "4cf64c74dc8472a026142216779615015e659f06ac5c786132504cc5ec199c8e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk17-openjdk-17.0.21.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=17",
       "java-environment-openjdk=17",
-      "jdk17-openjdk=17.0.21.0.3.u1-1",
+      "jdk17-openjdk=17.0.21.1.u2-1",
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.21.0.3.u1-1",
+      "jre17-openjdk=17.0.21.1.u2-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.21.0.3.u1-1"
+      "jre17-openjdk-headless=17.0.21.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31586,20 +31586,20 @@
   },
   {
     "name": "jdk21-openjdk",
-    "version": "21.0.13.0.3.u1-1",
+    "version": "21.0.13.1.u2-1",
     "origin": "artix-world",
-    "sha256": "d5875deeee58c65ccfd55ab97aea7e76b56f012614315206406a83091c272ce6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk21-openjdk-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "6367959ff0ce809a696b31e6f61731ccc1e1881be276752d9df863c785e5a008",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk21-openjdk-21.0.13.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=21",
       "java-environment-openjdk=21",
-      "jdk21-openjdk=21.0.13.0.3.u1-1",
+      "jdk21-openjdk=21.0.13.1.u2-1",
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.13.0.3.u1-1",
+      "jre21-openjdk=21.0.13.1.u2-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.13.0.3.u1-1"
+      "jre21-openjdk-headless=21.0.13.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31635,20 +31635,20 @@
   },
   {
     "name": "jdk25-openjdk",
-    "version": "25.0.5.0.3.u1-1",
+    "version": "25.0.5.1.u2-1",
     "origin": "artix-world",
-    "sha256": "16f473f0747e5ba7d4c82c30ddd4de00e0b941a7438654e59075709efcdba76b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "576b37aa3186d096c29d3004deacdeef810d7d19d5f47a1d1ac3d1a456fe94b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk25-openjdk-25.0.5.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=25",
       "java-environment-openjdk=25",
-      "jdk25-openjdk=25.0.5.0.3.u1-1",
+      "jdk25-openjdk=25.0.5.1.u2-1",
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.5.0.3.u1-1",
+      "jre25-openjdk=25.0.5.1.u2-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.0.3.u1-1"
+      "jre25-openjdk-headless=25.0.5.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31684,16 +31684,16 @@
   },
   {
     "name": "jdk8-openjdk",
-    "version": "8.512.u09-1",
+    "version": "8.514.u01-1",
     "origin": "artix-world",
-    "sha256": "f53b17110606deb39cc22b88b07732d8f09e47e24271ef1ca40e83f52f38a9e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk8-openjdk-8.512.u09-1-x86_64.pkg.tar.zst",
+    "sha256": "5114827b92455e5e2efefec146955dd4801515a1124424725d3f32c91663d98e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jdk8-openjdk-8.514.u01-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-environment=8",
       "java-environment-openjdk=8"
     ],
     "depends": [
-      "jre8-openjdk=8.512.u09-1",
+      "jre8-openjdk=8.514.u01-1",
       "java-environment-common"
     ],
     "optdepends": [
@@ -31739,10 +31739,10 @@
   },
   {
     "name": "jenkins",
-    "version": "2.590-1",
+    "version": "2.591-1",
     "origin": "artix-world",
-    "sha256": "98c045de2fc66cd1f0cde8119508efd58d04e12f98229bc41c5edbe3552b08aa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.590-1-any.pkg.tar.zst",
+    "sha256": "b588af04d5395922fa8acd50a09d57c74d8fd6d0766dfbd29fd98133449531dd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jenkins-2.591-1-any.pkg.tar.zst",
     "provides": [
       "jenkins-ci"
     ],
@@ -31925,17 +31925,17 @@
   },
   {
     "name": "jre-openjdk",
-    "version": "27.0.1.0.3.u1-1",
+    "version": "27.0.1.1.u4-1",
     "origin": "artix-world",
-    "sha256": "80737609c99637e34a54d600923b3cede2479281339a993741b78ea20a6e2664",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "7e58457728d719bf4f4c5d2acb94e37f0b6370b8347276ec164a244f23d7dc8a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-27.0.1.1.u4-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=27",
       "java-runtime-openjdk=27",
-      "jre27-openjdk=27.0.1.0.3.u1-1",
+      "jre27-openjdk=27.0.1.1.u4-1",
       "java-runtime-headless=27",
       "java-runtime-headless-openjdk=27",
-      "jre27-openjdk-headless=27.0.1.0.3.u1-1"
+      "jre27-openjdk-headless=27.0.1.1.u4-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -31968,14 +31968,14 @@
   },
   {
     "name": "jre-openjdk-headless",
-    "version": "27.0.1.0.3.u1-1",
+    "version": "27.0.1.1.u4-1",
     "origin": "artix-world",
-    "sha256": "9cf592cbd62b2ae0448c004d999441cf7dd1d86ce4093fe1b142c425bf0d807d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "5d45a456a141e27cfbb85d1c91298383e82c5c042c28b02adda6d427bc17274c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre-openjdk-headless-27.0.1.1.u4-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=27",
       "java-runtime-headless-openjdk=27",
-      "jre27-openjdk-headless=27.0.1.0.3.u1-1"
+      "jre27-openjdk-headless=27.0.1.1.u4-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32004,17 +32004,17 @@
   },
   {
     "name": "jre11-openjdk",
-    "version": "11.0.33.u10-1",
+    "version": "11.0.33.1.u1-1",
     "origin": "artix-world",
-    "sha256": "b6cc9f42c0c0e6e10b209f55ffc977034f7d4c1be29bc2892b67afc3f3fba8a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-11.0.33.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "ecab334bfdae886aeab196a2d11aafadd304fa2a5aa8ea8744d3dbc0214df90d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-11.0.33.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=11",
       "java-runtime-openjdk=11",
-      "jre11-openjdk=11.0.33.u10-1",
+      "jre11-openjdk=11.0.33.1.u1-1",
       "java-runtime-headless=11",
       "java-runtime-headless-openjdk=11",
-      "jre11-openjdk-headless=11.0.33.u10-1"
+      "jre11-openjdk-headless=11.0.33.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32045,14 +32045,14 @@
   },
   {
     "name": "jre11-openjdk-headless",
-    "version": "11.0.33.u10-1",
+    "version": "11.0.33.1.u1-1",
     "origin": "artix-world",
-    "sha256": "ba53e8861a94eea10251b1dfeaf2f2e0814c5ad2a52a9d0eb618cb5d971939f2",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-headless-11.0.33.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "36a310945b090048db70dd35a9581a043ecf5a8f6a62e722bb15507f6e86a12b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre11-openjdk-headless-11.0.33.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=11",
       "java-runtime-headless-openjdk=11",
-      "jre11-openjdk-headless=11.0.33.u10-1"
+      "jre11-openjdk-headless=11.0.33.1.u1-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32079,17 +32079,17 @@
   },
   {
     "name": "jre17-openjdk",
-    "version": "17.0.21.0.3.u1-1",
+    "version": "17.0.21.1.u2-1",
     "origin": "artix-world",
-    "sha256": "3dfa6f61d1b210c7be764f9179d77e6206834c8604ce26d1921dbcd827c82674",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "9c478901555237b48b2dc7e0ef62af9e99e5350432a3143ace8f0e0b89a878bd",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-17.0.21.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=17",
       "java-runtime-openjdk=17",
-      "jre17-openjdk=17.0.21.0.3.u1-1",
+      "jre17-openjdk=17.0.21.1.u2-1",
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.21.0.3.u1-1"
+      "jre17-openjdk-headless=17.0.21.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32121,14 +32121,14 @@
   },
   {
     "name": "jre17-openjdk-headless",
-    "version": "17.0.21.0.3.u1-1",
+    "version": "17.0.21.1.u2-1",
     "origin": "artix-world",
-    "sha256": "c791014404d006fe760a21e54d9db5f338ef571e576ebd5edce8d44f5cbf512a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-headless-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "8c9782cd1f618c38328140c65b81180fff61ed58a484993e639186059d5d0b69",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre17-openjdk-headless-17.0.21.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=17",
       "java-runtime-headless-openjdk=17",
-      "jre17-openjdk-headless=17.0.21.0.3.u1-1"
+      "jre17-openjdk-headless=17.0.21.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32156,17 +32156,17 @@
   },
   {
     "name": "jre21-openjdk",
-    "version": "21.0.13.0.3.u1-1",
+    "version": "21.0.13.1.u2-1",
     "origin": "artix-world",
-    "sha256": "81bccae3a1b98fdc3825c4e5faca14c1a248c654a12ed8c4c0e5544f55727cbd",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "6394c85f749965417593f26cdfe9594d5a40eaadc3c7ecd3f3bad7032b70a941",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-21.0.13.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=21",
       "java-runtime-openjdk=21",
-      "jre21-openjdk=21.0.13.0.3.u1-1",
+      "jre21-openjdk=21.0.13.1.u2-1",
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.13.0.3.u1-1"
+      "jre21-openjdk-headless=21.0.13.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32199,14 +32199,14 @@
   },
   {
     "name": "jre21-openjdk-headless",
-    "version": "21.0.13.0.3.u1-1",
+    "version": "21.0.13.1.u2-1",
     "origin": "artix-world",
-    "sha256": "e9e7ae7d64af61d32b0537793075bfb629eb572563e77e7fe2892b8ed4e0679a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-headless-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "93b76d259dcf58fbf9d078484611b16290ffb36b75b50ddb6dd86957d6520ed4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre21-openjdk-headless-21.0.13.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=21",
       "java-runtime-headless-openjdk=21",
-      "jre21-openjdk-headless=21.0.13.0.3.u1-1"
+      "jre21-openjdk-headless=21.0.13.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32235,17 +32235,17 @@
   },
   {
     "name": "jre25-openjdk",
-    "version": "25.0.5.0.3.u1-1",
+    "version": "25.0.5.1.u2-1",
     "origin": "artix-world",
-    "sha256": "291a10c989566462edd3dcd8831d512f12ebed5184d38659d4273e1443c93ff1",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "22a4c4b614deb4491635fc6297eed5fea9c861b73d9bddae9dd58aa7a492cb3d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-25.0.5.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=25",
       "java-runtime-openjdk=25",
-      "jre25-openjdk=25.0.5.0.3.u1-1",
+      "jre25-openjdk=25.0.5.1.u2-1",
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.0.3.u1-1"
+      "jre25-openjdk-headless=25.0.5.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32278,14 +32278,14 @@
   },
   {
     "name": "jre25-openjdk-headless",
-    "version": "25.0.5.0.3.u1-1",
+    "version": "25.0.5.1.u2-1",
     "origin": "artix-world",
-    "sha256": "8e2e3e2fb18a9e8b0834e4f6d3b37da3690f0e9479c1b373f2163326941f3291",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "6d1862abc35c1cec91c68847908eefc9d8341df44ad860f84b2ca38110755423",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre25-openjdk-headless-25.0.5.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=25",
       "java-runtime-headless-openjdk=25",
-      "jre25-openjdk-headless=25.0.5.0.3.u1-1"
+      "jre25-openjdk-headless=25.0.5.1.u2-1"
     ],
     "depends": [
       "java-runtime-common>=3",
@@ -32314,16 +32314,16 @@
   },
   {
     "name": "jre8-openjdk",
-    "version": "8.512.u09-1",
+    "version": "8.514.u01-1",
     "origin": "artix-world",
-    "sha256": "916da46eea4ce25650951ddc6b5232d4f966fb7b95944e07f9c8034431d563c7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-8.512.u09-1-x86_64.pkg.tar.zst",
+    "sha256": "a64ffff6fab0ddee44c3c3b03d8103a2a78b85f9661a8b4c468b90193f0c9cd2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-8.514.u01-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime=8",
       "java-runtime-openjdk=8"
     ],
     "depends": [
-      "jre8-openjdk-headless=8.512.u09-1",
+      "jre8-openjdk-headless=8.514.u01-1",
       "giflib",
       "hicolor-icon-theme",
       "xdg-utils"
@@ -32338,10 +32338,10 @@
   },
   {
     "name": "jre8-openjdk-headless",
-    "version": "8.512.u09-1",
+    "version": "8.514.u01-1",
     "origin": "artix-world",
-    "sha256": "d87e73997e4c12042ddc61a6665254e2ab928305ba1ba7032fdd319563817dac",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-headless-8.512.u09-1-x86_64.pkg.tar.zst",
+    "sha256": "0a57e191e80c12783f7090d5a4ee65b99e922548189cf50b1e817fa70c87d3fa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jre8-openjdk-headless-8.514.u01-1-x86_64.pkg.tar.zst",
     "provides": [
       "java-runtime-headless=8",
       "java-runtime-headless-openjdk=8"
@@ -49089,10 +49089,10 @@
   },
   {
     "name": "libsrtp",
-    "version": "1:2.8.1-1",
+    "version": "1:2.8.2-1",
     "origin": "artix-world",
-    "sha256": "1f7665614d578b014d7dc361454cd69b6ec546d2e5c994daba1fb35ad026dbf6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsrtp-1:2.8.1-1-x86_64.pkg.tar.zst",
+    "sha256": "a6470f7de5a6456c5b6299a3d27460ecb9389233780574b15aa3fafb5c0f1a82",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libsrtp-1:2.8.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libsrtp2.so=1-64"
     ],
@@ -50837,10 +50837,10 @@
   },
   {
     "name": "libxnvctrl",
-    "version": "620.70.06-1",
+    "version": "620.73.04-1",
     "origin": "artix-world",
-    "sha256": "f7388a95209bb8fd53644cb8365c5ac7a1945f069764b7ac754e3303b3ff7263",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-620.70.06-1-x86_64.pkg.tar.zst",
+    "sha256": "327c5a731bf938d347978f47dbe9a9ed6dfc671c6801b57cd05f4a67811dbd14",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxnvctrl-620.73.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "libXNVCtrl.so=0-64"
     ],
@@ -53663,10 +53663,10 @@
   },
   {
     "name": "m17n-db",
-    "version": "1.8.17-1",
+    "version": "1.8.18-1",
     "origin": "artix-world",
-    "sha256": "5dc3d1d89572af82456f25aa6c476c9f91dd4ea1b7cbefd1ea59ad1c9f029a51",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-db-1.8.17-1-any.pkg.tar.zst",
+    "sha256": "e7dc05b264e4c7a29a67c0d4df2ad55fc492cfca8446a2394a637943157e293c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/m17n-db-1.8.18-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -55703,13 +55703,13 @@
   },
   {
     "name": "mesa",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "988acbd756c884c32251a9b92bab4835e75bf186ceadc617bf3b586d861436f3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mesa-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "e96c7ec22f64f4567bc5e6d17adb5a05b7966f88f5f163d4e338a2bd12e9100e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mesa-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libva-mesa-driver=1:26.2.7-1",
-      "mesa-libgl=1:26.2.7-1",
+      "libva-mesa-driver=1:26.3.1-1",
+      "mesa-libgl=1:26.3.1-1",
       "libva-driver",
       "opengl-driver"
     ],
@@ -60386,10 +60386,10 @@
   },
   {
     "name": "nvidia-settings",
-    "version": "620.70.06-1",
+    "version": "620.73.04-1",
     "origin": "artix-world",
-    "sha256": "f0ff38edfc44c547e4e92c56a4fe612535629bb2c43aeab6f639fc7c0f5d56e5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-settings-620.70.06-1-x86_64.pkg.tar.zst",
+    "sha256": "683603e5252b281e20072787011938c2260ddcf4ef54a6d33689e23f0beb98cf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-settings-620.73.04-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "jansson",
@@ -61326,15 +61326,15 @@
   },
   {
     "name": "opencl-mesa",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "21e952a7e99fed2e8d27cc54564ff7b21d7831375432de9937c39b9fc7890bfc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-mesa-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "5123e360f2e68c4534f992dbb27f1b8ed13f65f2a21ca6f27ad81c61927f15e3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-mesa-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],
     "depends": [
-      "clang",
+      "clang-libs",
       "expat",
       "glibc",
       "libdrm",
@@ -61852,10 +61852,10 @@
   },
   {
     "name": "openipmi",
-    "version": "2.0.37-5",
+    "version": "2.0.38-1",
     "origin": "artix-world",
-    "sha256": "f970096e132874f4c5c8808806580451fd198a02baf82beefd284520c0002eab",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openipmi-2.0.37-5-x86_64.pkg.tar.zst",
+    "sha256": "1b7cf9ce88f892896251632b3255b7312a0a075bc34275c1017fccfe34548724",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openipmi-2.0.38-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "popt",
@@ -61893,15 +61893,15 @@
   },
   {
     "name": "openjdk-src",
-    "version": "27.0.1.0.3.u1-1",
+    "version": "27.0.1.1.u4-1",
     "origin": "artix-world",
-    "sha256": "d35e1c420280193dfca4fa615c51defe5e023c70ffe18ef018b2fa12a3975ba6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-27.0.1.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "98bd19db0e3199049ffcc94b1287886818b5eeddb4f27aa74d491532e89eb9ad",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk-src-27.0.1.1.u4-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk27-src=27.0.1.0.3.u1-1"
+      "openjdk27-src=27.0.1.1.u4-1"
     ],
     "depends": [
-      "jdk27-openjdk=27.0.1.0.3.u1-1"
+      "jdk27-openjdk=27.0.1.1.u4-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -61910,15 +61910,15 @@
   },
   {
     "name": "openjdk11-src",
-    "version": "11.0.33.u10-1",
+    "version": "11.0.33.1.u1-1",
     "origin": "artix-world",
-    "sha256": "0b21e54f645fd3a0e96cdf345874c5de3e7ba7bba655b82cef6e870a17a41cc0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk11-src-11.0.33.u10-1-x86_64.pkg.tar.zst",
+    "sha256": "6af54b86e6266a3cccadcd63ad37a1b69ffde72a9778a3543482c76ec0bea5a6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk11-src-11.0.33.1.u1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk11-src=11.0.33.u10-1"
+      "openjdk11-src=11.0.33.1.u1-1"
     ],
     "depends": [
-      "jdk11-openjdk=11.0.33.u10-1"
+      "jdk11-openjdk=11.0.33.1.u1-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -61927,15 +61927,15 @@
   },
   {
     "name": "openjdk17-src",
-    "version": "17.0.21.0.3.u1-1",
+    "version": "17.0.21.1.u2-1",
     "origin": "artix-world",
-    "sha256": "1a7bdec26476aa34bd7d3d315fe28ce2c962a916536fc86d06954a4d2d31fa7f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk17-src-17.0.21.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "8e1dc00a79c222602faec9095c9b31393838de98c222c83a44a9e5c69a68c564",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk17-src-17.0.21.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk17-src=17.0.21.0.3.u1-1"
+      "openjdk17-src=17.0.21.1.u2-1"
     ],
     "depends": [
-      "jdk17-openjdk=17.0.21.0.3.u1-1"
+      "jdk17-openjdk=17.0.21.1.u2-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -61944,30 +61944,30 @@
   },
   {
     "name": "openjdk21-src",
-    "version": "21.0.13.0.3.u1-1",
+    "version": "21.0.13.1.u2-1",
     "origin": "artix-world",
-    "sha256": "ad0f7bf82734c6ae62e2116ba204f5dfaea842b680be8489feb88b9ad278903b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk21-src-21.0.13.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "b7070027d4926b60186621f3e28826f402408b3d47be64370d122f3065400cc0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk21-src-21.0.13.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk21-src=21.0.13.0.3.u1-1"
+      "openjdk21-src=21.0.13.1.u2-1"
     ],
     "depends": [
-      "jdk21-openjdk=21.0.13.0.3.u1-1"
+      "jdk21-openjdk=21.0.13.1.u2-1"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "openjdk25-src",
-    "version": "25.0.5.0.3.u1-1",
+    "version": "25.0.5.1.u2-1",
     "origin": "artix-world",
-    "sha256": "a2c9d0c82ca1b256ea228e77ce1e57fd934b0e2077ee7c03b75d89a76e0192ef",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.0.3.u1-1-x86_64.pkg.tar.zst",
+    "sha256": "8dd7efba5c84e4293fab66bce7afa3a47f10f59c849a9676b814e21437e70c31",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk25-src-25.0.5.1.u2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "openjdk25-src=25.0.5.0.3.u1-1"
+      "openjdk25-src=25.0.5.1.u2-1"
     ],
     "depends": [
-      "jdk25-openjdk=25.0.5.0.3.u1-1"
+      "jdk25-openjdk=25.0.5.1.u2-1"
     ],
     "optdepends": [
       "gvfs: open links e.g. hyperlinks"
@@ -61976,10 +61976,10 @@
   },
   {
     "name": "openjdk8-src",
-    "version": "8.512.u09-1",
+    "version": "8.514.u01-1",
     "origin": "artix-world",
-    "sha256": "11af72e369a84141fb38d2aa5672d7d581fb3906e4a6a80bebe6d191bebe608f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk8-src-8.512.u09-1-x86_64.pkg.tar.zst",
+    "sha256": "70a0b6e5dbb37a0467cf5b7123eb2202d7f1e90bb999885c2b8c3323a9f3b6f0",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/openjdk8-src-8.514.u01-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [
@@ -65946,10 +65946,10 @@
   },
   {
     "name": "perl-html-parser",
-    "version": "3.86-2",
+    "version": "3.87-1",
     "origin": "artix-world",
-    "sha256": "b9acfc24b1a6303a4013cf588aa967637bb427a649f49d8ecb54f513343c4e49",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-html-parser-3.86-2-x86_64.pkg.tar.zst",
+    "sha256": "140bf239a72821a2f41ac8639753e56ee26b29834ccfd702bb4fe87f5d779d95",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-html-parser-3.87-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-html-tagset",
@@ -66379,10 +66379,10 @@
   },
   {
     "name": "perl-json-xs",
-    "version": "4.04-2",
+    "version": "4.05-1",
     "origin": "artix-world",
-    "sha256": "cb7b7665cb6d3475d890b4ff829c44b2abceb4365426f65bcfb3ecc2fbe2a114",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-json-xs-4.04-2-x86_64.pkg.tar.zst",
+    "sha256": "507f409a5c1b7260018e3e1c2a5cbfeeaafd168d0c32973a245fe1149d8f6d8f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-json-xs-4.05-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -66637,10 +66637,10 @@
   },
   {
     "name": "perl-mail-authenticationresults",
-    "version": "2.20260216-1",
+    "version": "2.20261029-1",
     "origin": "artix-world",
-    "sha256": "60c5d0b178f191bb2f5eb3a115152306aec4d84ddc650e70bf67807fc1d13563",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mail-authenticationresults-2.20260216-1-any.pkg.tar.zst",
+    "sha256": "da16183c3fade945a03f4f3746c454b96240a38743b4da4e6abb57bc818bb228",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-mail-authenticationresults-2.20261029-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl",
@@ -68557,10 +68557,10 @@
   },
   {
     "name": "perl-text-bibtex",
-    "version": "0.91-3",
+    "version": "1.00-1",
     "origin": "artix-world",
-    "sha256": "f078921eb744cd6a8195e1da2702708466b6de33d049028da31c8e0a47c1041b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-text-bibtex-0.91-3-x86_64.pkg.tar.zst",
+    "sha256": "040d59b838fbd2026087edd341f2671efc946468fdd7beb2df1f0eedcf43a3d7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-text-bibtex-1.00-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl"
@@ -83831,10 +83831,10 @@
   },
   {
     "name": "python-loguru",
-    "version": "0.7.3-3",
+    "version": "0.8.0-1",
     "origin": "artix-world",
-    "sha256": "7758107829f3778c1e06b4e68b6f3f35aa47cfe278c7a076c8e2c79575e9a472",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-loguru-0.7.3-3-any.pkg.tar.zst",
+    "sha256": "564ea033df3177ed7248697c2cb716d0c76d0f6c54450bc05e4b871a49f8f59e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-loguru-0.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -94365,10 +94365,10 @@
   },
   {
     "name": "python-tensile",
-    "version": "7.2.4-2",
+    "version": "10.0-2",
     "origin": "artix-world",
-    "sha256": "f60ce4ff13e49cfe7f38316d79eda5912e52a707b3d64f66f511dc20e0922b5f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tensile-7.2.4-2-any.pkg.tar.zst",
+    "sha256": "0288e2d0824c7f7de9079fbd207eb007e796e47b6a4e0e59e62a8d80c8ba1f42",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tensile-10.0-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -129012,10 +129012,10 @@
   },
   {
     "name": "vulkan-asahi",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "169ec2c614e97445ce415a44c8f58c03fa7c08375e58070d7927f03f78d68ed7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-asahi-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "c3aee494e83e64d9e400a2d735756d322c2df16c6b56401c069ba8faa466fbd8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-asahi-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129044,10 +129044,10 @@
   },
   {
     "name": "vulkan-broadcom",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "a6f06e3b8d70c453c5a107a5d81190889fc313c43b4239547c6e92e4db93339a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-broadcom-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "0622576027f0e5cf34a6fd6399b47177b3122180dccc32b6639e2758711c3086",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-broadcom-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129076,10 +129076,10 @@
   },
   {
     "name": "vulkan-dzn",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "2ffd43567968212b1b0b71c8ccef28f2689e9c4b7066dfaf6e5da55e7390d306",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-dzn-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "256a3785a2bf0db17946868ea6cc05abcea0df23d1d52ad73a3d56a90743848d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-dzn-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129108,10 +129108,10 @@
   },
   {
     "name": "vulkan-freedreno",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "704f43f4f8c9f3ced69dc4dc55b7ec4eabef7268831de5b0ba5992d01fb641da",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-freedreno-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "542f52aea46a77b3c5be54a34474fb1897b68676d2c166aa867e85b3d39fcac2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-freedreno-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129140,10 +129140,10 @@
   },
   {
     "name": "vulkan-gfxstream",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "5007db51d50091d18b5aa36c46b3e7be756f845ee02ed930d2767a308a600386",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-gfxstream-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "afbd84f2d50aa89762cefd7d60c26e126d2e7004db3780adf344514b52bf7206",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-gfxstream-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129201,10 +129201,10 @@
   },
   {
     "name": "vulkan-intel",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "fbdc8cda5392c4bd53b5d25a1ea27023a1282bd67bc6f63fa97f4c342feacd46",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-intel-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "829bfc2fe4153f4dd657bb9c001f90ca5fd2968c9d53df45e5212a5d9d391748",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-intel-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129265,10 +129265,10 @@
   },
   {
     "name": "vulkan-mesa-implicit-layers",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "8305f41bfad2624b2f30a79585ffd433d0c65062e03bfc07f336d4ab39872519",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-implicit-layers-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "2bc498fccf6fefc65bed73ce43f420b876c95494a301a9111d7df2b30073dc77",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-implicit-layers-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -129283,10 +129283,10 @@
   },
   {
     "name": "vulkan-mesa-layers",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "4cd319fe85ff6e88d8db3147ad1fb024d5bcb4aabfaa372a7758d7eb1ca69440",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-layers-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "4d5e5e903620d76a977d8613eeaa3f50e06998c793e09f215c715f748b034eb4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-mesa-layers-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -129302,10 +129302,10 @@
   },
   {
     "name": "vulkan-nouveau",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "2ec5f51914c96d3530583fce66a71c155076718637aa7f202f9134ee9ac0bac7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-nouveau-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "abb35940faa14147cdc8da3f92f641da245023107e8962b24f14586ffa309414",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-nouveau-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129335,10 +129335,10 @@
   },
   {
     "name": "vulkan-panfrost",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "3082cd11ebdd12cd69e6459289e3c525a340d377711995b349b6b3e05af2d79f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-panfrost-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "86db39f0ca1e72254da16c017f73f119615a76224ab215c0eb440d94907748b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-panfrost-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129367,10 +129367,10 @@
   },
   {
     "name": "vulkan-powervr",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "6f5827b0d9f8b305b61523791bbb15f66d4acd7dfc1b3c04b5aa9721bc92cf4d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-powervr-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "346bd9deedbc0d8d79ac690da31526e05ccb83e37c3736318eccc82766aa0273",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-powervr-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129399,10 +129399,10 @@
   },
   {
     "name": "vulkan-radeon",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "beed54f130fc26706e0e4f4f7b5af1fddb1532f033b4baf6b3e4d1c653cbe541",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-radeon-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "282286783966a486553678c5fe56f93172f837888ddf9458380d97be496645de",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-radeon-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129433,10 +129433,10 @@
   },
   {
     "name": "vulkan-swrast",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "b62105bc7198347b02f42e3b3b7d5f3f1cfb00f6390b661db0d4ecbb19a1d4be",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-swrast-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "6e63f131a3851c16ce71825ff3f92f715e1f5fb75a05b93d3a4163ff416f4707",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-swrast-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129517,10 +129517,10 @@
   },
   {
     "name": "vulkan-virtio",
-    "version": "1:26.2.7-1",
+    "version": "1:26.3.1-1",
     "origin": "artix-world",
-    "sha256": "4f17088c54f82138c52489e0f16b7bd6efa24fac423ea031ccb8bc68b924f757",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-virtio-1:26.2.7-1-x86_64.pkg.tar.zst",
+    "sha256": "c1d52f9356e63eed4bb546712dfd46f366b2e8c99cf0d60657ae56e417659198",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/vulkan-virtio-1:26.3.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver"
     ],
@@ -129667,10 +129667,10 @@
   },
   {
     "name": "wasm-tools",
-    "version": "1.261.0-1",
+    "version": "1.263.0-1",
     "origin": "artix-world",
-    "sha256": "8aba4a45a46b2bb00f8f7e411510fe4377a438ffa6ff6bf063623c6f93718743",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-tools-1.261.0-1-x86_64.pkg.tar.zst",
+    "sha256": "273f7dd77575fbb94332896fd7b0a02a684c06292fc34bf96490b14d0da4d20f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/wasm-tools-1.263.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
