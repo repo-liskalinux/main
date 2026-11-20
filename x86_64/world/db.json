@@ -319,10 +319,10 @@
   },
   {
     "name": "acpi_call",
-    "version": "1.2.2-400",
+    "version": "1.2.2-401",
     "origin": "artix-world",
-    "sha256": "7b1a1a7880fa993267c5ef83b0cffa779a889af9970ac770a3e076e8186e1816",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-400-x86_64.pkg.tar.zst",
+    "sha256": "1d762211a909384d1f47143b1cdf809383d2b954a97594e2d1c2cc2352e867e1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/acpi_call-1.2.2-401-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "linux"
@@ -60344,16 +60344,16 @@
   },
   {
     "name": "nvidia-open",
-    "version": "620.70.06-3",
+    "version": "620.73.04-1",
     "origin": "artix-world",
-    "sha256": "ac3665b60af1513711126b55e13cfeb17bbd5cc8931a89e3521eac1cf5690bbe",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-620.70.06-3-x86_64.pkg.tar.zst",
+    "sha256": "fca7be2ed2206e1cb2357789b8d46726ff06ce8baa474d7f81e50cd466827255",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-620.73.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "NVIDIA-MODULE"
     ],
     "depends": [
       "linux",
-      "nvidia-utils=620.70.06",
+      "nvidia-utils=620.73.04",
       "libglvnd"
     ],
     "optdepends": [],
@@ -60363,10 +60363,10 @@
   },
   {
     "name": "nvidia-open-dkms",
-    "version": "620.70.06-1",
+    "version": "620.73.04-1",
     "origin": "artix-world",
-    "sha256": "80bed22e63ff3c83de711ac2784bd8a9b74da8b8a6fa546a0f1e6daccd5d680e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-dkms-620.70.06-1-x86_64.pkg.tar.zst",
+    "sha256": "0782bd56ec24ea624cb0ba6336866cc66078510afa59fcc2b369a06837eb3190",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-open-dkms-620.73.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "nvidia-open",
       "NVIDIA-MODULE",
@@ -60374,7 +60374,7 @@
     ],
     "depends": [
       "dkms",
-      "nvidia-utils=620.70.06"
+      "nvidia-utils=620.73.04"
     ],
     "optdepends": [],
     "conflicts": [
@@ -60401,10 +60401,10 @@
   },
   {
     "name": "nvidia-utils",
-    "version": "620.70.06-1",
+    "version": "620.73.04-1",
     "origin": "artix-world",
-    "sha256": "ca1ba00a1e4ba9493d01694ac23abc0bb290f516adcc430f90d4908d8b3c087e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-utils-620.70.06-1-x86_64.pkg.tar.zst",
+    "sha256": "6d3c4ea3ff96020e8f0cf24888db2c60303db279ba70f617f74fa7aa4d9a36e5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nvidia-utils-620.73.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "vulkan-driver",
       "opengl-driver",
@@ -61356,10 +61356,10 @@
   },
   {
     "name": "opencl-nvidia",
-    "version": "620.70.06-1",
+    "version": "620.73.04-1",
     "origin": "artix-world",
-    "sha256": "e83b52f714199d107a242b7f0739fdae25687734c4959c1ca582c3a6028259a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-620.70.06-1-x86_64.pkg.tar.zst",
+    "sha256": "860b183a007171ae3de5b0106448917b4127080922f71e34bf3c6377cafe3025",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opencl-nvidia-620.73.04-1-x86_64.pkg.tar.zst",
     "provides": [
       "opencl-driver"
     ],

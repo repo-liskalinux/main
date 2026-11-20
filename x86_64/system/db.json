@@ -452,10 +452,10 @@
   },
   {
     "name": "ca-certificates-mozilla",
-    "version": "3.133-1",
+    "version": "3.134-1",
     "origin": "artix-system",
-    "sha256": "e545b62127a68d84258617cf6b97110db2f3da70d49f9e8687cfaa591a0599e4",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.133-1-x86_64.pkg.tar.zst",
+    "sha256": "95e8bae901e11a19725cddb636bbacecfe979fd6daa87e7179f8ccc2714f9e99",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/ca-certificates-mozilla-3.134-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ca-certificates-utils>=20181109-3"
@@ -5413,18 +5413,19 @@
   },
   {
     "name": "nss",
-    "version": "3.133-1",
+    "version": "3.134-1",
     "origin": "artix-system",
-    "sha256": "97b8023acb5c2d6e603eeb1bb2d7acc49ec50b4662aeb8c5e0ea390323ed57da",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.133-1-x86_64.pkg.tar.zst",
+    "sha256": "5b077adde449210529ec57330ab312a8f0e00f7a532df46a54d17e1da39fd490",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/nss-3.134-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
+      "libgcc",
+      "libstdc++",
       "nspr",
       "p11-kit",
       "sh",
-      "sqlite",
-      "zlib"
+      "sqlite"
     ],
     "optdepends": [],
     "conflicts": []
