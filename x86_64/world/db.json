@@ -50965,10 +50965,10 @@
   },
   {
     "name": "libxslt",
-    "version": "1.1.45-2",
+    "version": "1.1.45-3",
     "origin": "artix-world",
-    "sha256": "1c238608ad816276f9ab623c0fe4fbf7defa58ec28f755405bea4ef7d3f43e80",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxslt-1.1.45-2-x86_64.pkg.tar.zst",
+    "sha256": "2018c89280093080bfe49e66a88241b8e3348db5261bb583442346da768b0f9c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libxslt-1.1.45-3-x86_64.pkg.tar.zst",
     "provides": [
       "libxslt.so=1-64",
       "libexslt.so=0-64"
@@ -50976,9 +50976,7 @@
     "depends": [
       "bash",
       "glibc",
-      "libgcrypt",
-      "libxml2",
-      "xz"
+      "libxml2"
     ],
     "optdepends": [
       "python: Python bindings"
