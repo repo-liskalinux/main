@@ -27489,10 +27489,10 @@
   },
   {
     "name": "hipblas-common",
-    "version": "10.0-1",
+    "version": "10.1-1",
     "origin": "artix-world",
-    "sha256": "6ca2d716c271c18510df2f313b24a31cbe89bc5c4102caf0d0433069780157de",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hipblas-common-10.0-1-any.pkg.tar.zst",
+    "sha256": "0ca5d364559543355e4fd03efff2f4f2865a2baaba9d7780478d8fd95ad44250",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hipblas-common-10.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core"
@@ -88907,10 +88907,10 @@
   },
   {
     "name": "python-pylast",
-    "version": "7.2.0-1",
+    "version": "7.3.0-1",
     "origin": "artix-world",
-    "sha256": "ff51f663d8450d8eaf464e1decc80e887fd661078e86971f253fe7460344ad58",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pylast-7.2.0-1-any.pkg.tar.zst",
+    "sha256": "6240fbbb7c78585cc35629fff59c432975a29e13a8f470089fa889882a6b2a4c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pylast-7.3.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -89251,10 +89251,10 @@
   },
   {
     "name": "python-pyotp",
-    "version": "2.12.0-1",
+    "version": "2.12.1-1",
     "origin": "artix-world",
-    "sha256": "39952651364d041a032977c9012dae1e1430de36b439712e1d60db9ab5f30d92",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyotp-2.12.0-1-any.pkg.tar.zst",
+    "sha256": "8fb1395bf54c25fb6dcee0f4ca04c9172cc4dd723fd0c76a7dfb90204c2e541e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-pyotp-2.12.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python"
@@ -94400,10 +94400,10 @@
   },
   {
     "name": "python-tensile",
-    "version": "10.0-2",
+    "version": "10.1-2",
     "origin": "artix-world",
-    "sha256": "0288e2d0824c7f7de9079fbd207eb007e796e47b6a4e0e59e62a8d80c8ba1f42",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tensile-10.0-2-any.pkg.tar.zst",
+    "sha256": "dec6dc43ed4f3f1509244a68789bf45ebdca29f479f0079a56cbef7bcc2f11e8",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-tensile-10.1-2-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -96060,10 +96060,10 @@
   },
   {
     "name": "python-wcwidth",
-    "version": "0.9.4-1",
+    "version": "0.9.5-1",
     "origin": "artix-world",
-    "sha256": "c4c2f42d535219b4e370c9e124ffa4fb960aeb68d6f2eb20f8d99b17d669e1a6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-wcwidth-0.9.4-1-x86_64.pkg.tar.zst",
+    "sha256": "abe52c3fee01b44d14061cd88937a346c2cef54d129554034b572b473982ab4a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-wcwidth-0.9.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -102700,10 +102700,10 @@
   },
   {
     "name": "rocblas",
-    "version": "7.2.4-3",
+    "version": "10.1-2.1",
     "origin": "artix-world",
-    "sha256": "9e310f9a6aa82975cb7fe8c73b9670b89ca679554cb1b70c89654f38f22a3ac8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocblas-7.2.4-3-x86_64.pkg.tar.zst",
+    "sha256": "fb4ed893b7b1f2d2a696b2cbeee5981ae8c5147fb46de8e216dd289d9b4d8840",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocblas-10.1-2.1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cblas",
@@ -102717,7 +102717,7 @@
     "optdepends": [
       "python-yaml: for rocblas-bench and rocblas-gemm-tune",
       "gtest: for rocblas-bench and rocblas-gemm-tune",
-      "rocm-smi-lib: for rocblas-bench and rocblas-gemm-tune"
+      "amdsmi: for rocblas-bench and rocblas-gemm-tune"
     ],
     "conflicts": []
   },
@@ -103034,10 +103034,10 @@
   },
   {
     "name": "rocsolver",
-    "version": "10.0-2",
+    "version": "10.1-1",
     "origin": "artix-world",
-    "sha256": "d84065afa64ca9dcb549f8a4942edfd005a0a5e92c318f82edf87a8c5dea31b5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsolver-10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "2943fdd1d9a0dae05e39cecab766e9692854e93a0a013773617af841545996b6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsolver-10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -103053,10 +103053,10 @@
   },
   {
     "name": "rocsparse",
-    "version": "10.0-2",
+    "version": "10.1-1",
     "origin": "artix-world",
-    "sha256": "eeca02364b09ac1af0b64e8ef6909b615a2d7d94e4bfa9bce9da97f73274f93f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsparse-10.0-2-x86_64.pkg.tar.zst",
+    "sha256": "0946269c43bd90a8ecddefe4035b4cc0b232b3a5364ee55a995a3cf4b2d6462e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/rocsparse-10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core",
@@ -103088,10 +103088,10 @@
   },
   {
     "name": "roctracer",
-    "version": "10.0-1",
+    "version": "10.1-1",
     "origin": "artix-world",
-    "sha256": "e60057689b2f06e38ff17e68b1c4b3f9a69baeecaa7402ae75dd60b92a8ddbed",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/roctracer-10.0-1-x86_64.pkg.tar.zst",
+    "sha256": "94df6802d6ca2c9ccde058d0c50e3bd33b13a3e8cbfea10cb8121ae49dce292b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/roctracer-10.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "rocm-core",
