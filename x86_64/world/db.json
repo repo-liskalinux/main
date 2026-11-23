@@ -28514,10 +28514,10 @@
   },
   {
     "name": "hwloc",
-    "version": "2.15.0-1",
+    "version": "2.16.0-1",
     "origin": "artix-world",
-    "sha256": "89a8d6873706c09a5a591842e1a2a549fa8e6ee1ec9b4763823185d808c52616",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hwloc-2.15.0-1-x86_64.pkg.tar.zst",
+    "sha256": "219a2118424890e6d85e6d0668f7c5689a3e15b49bbfcfe3f085d96590b7e800",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hwloc-2.16.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -31181,10 +31181,10 @@
   },
   {
     "name": "jami-daemon",
-    "version": "20260917-3",
+    "version": "20260917-4",
     "origin": "artix-world",
-    "sha256": "27fccba40a5680634ec4a7e5c54f90efa0b6dc6c124abad1be0ff82695371030",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jami-daemon-20260917-3-x86_64.pkg.tar.zst",
+    "sha256": "c00186f2c9a6a14a59f701789e3643158f2293aa442ced55c3b339118ddd5ec4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/jami-daemon-20260917-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "alsa-lib",
@@ -61640,10 +61640,10 @@
   },
   {
     "name": "opendht",
-    "version": "1:4.4.1-2",
+    "version": "1:4.4.2.1-1",
     "origin": "artix-world",
-    "sha256": "ff7e44ed306cc1da8e537a4c507ff94972565735fc64c24aedcb1374b7d0cd21",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opendht-1:4.4.1-2-x86_64.pkg.tar.zst",
+    "sha256": "943fdbd54509dd77341107921d16ffa244554af64fc6bb67621c519fe03b9b32",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/opendht-1:4.4.2.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "argon2",
@@ -110703,12 +110703,12 @@
   },
   {
     "name": "simdutf",
-    "version": "9.2.2-1",
+    "version": "9.3.0-1",
     "origin": "artix-world",
-    "sha256": "3fd1f41b9f434770a8173cabd30bbe9c41a644b2ea057c25aa746c9157409d50",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.2.2-1-x86_64.pkg.tar.zst",
+    "sha256": "9d56dbe0d81158f3dbe6b9e04699696060950af3811dd58909267ef8bc17b27f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/simdutf-9.3.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libsimdutf.so=36-64"
+      "libsimdutf.so=37-64"
     ],
     "depends": [
       "glibc",
