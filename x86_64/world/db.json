@@ -7108,10 +7108,10 @@
   },
   {
     "name": "calcurse",
-    "version": "4.8.2-1",
+    "version": "4.9.1-1",
     "origin": "artix-world",
-    "sha256": "0927161d955002e55b32799ba0219ba948744006c76e3ac53ed8681404c037e8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calcurse-4.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "73de4574324f21f1a2b74dd0b228b0f9ab1f4b3936b3f9652c21bd6d46cb02c1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/calcurse-4.9.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ncurses"
@@ -16271,14 +16271,20 @@
   },
   {
     "name": "festival",
-    "version": "2.5.0-5",
+    "version": "2.5.0-6",
     "origin": "artix-world",
-    "sha256": "488fb872e3b3044b171f9bead4f11bed5bd1bf2276d987a9273c58ca73fcb87d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/festival-2.5.0-5-x86_64.pkg.tar.zst",
+    "sha256": "7599befc94d401e644da9c0d96d6b7f5e6847f6d2564927f2bd39ca595f99552",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/festival-2.5.0-6-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "perl",
-      "alsa-lib"
+      "alsa-lib",
+      "bash",
+      "glibc",
+      "libgcc",
+      "libgomp",
+      "libstdc++",
+      "ncurses",
+      "perl"
     ],
     "optdepends": [],
     "conflicts": []
@@ -17233,39 +17239,6 @@
       "libreadline.so=8-64"
     ],
     "optdepends": [],
-    "conflicts": []
-  },
-  {
-    "name": "fluxbox",
-    "version": "1.3.7+248+g5ba8c921-1",
-    "origin": "artix-world",
-    "sha256": "2b77c6478d285644d2ec7240c2aa1613cb99141a1a3b3c110cdd58e5c8ffc8b3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fluxbox-1.3.7+248+g5ba8c921-1-x86_64.pkg.tar.zst",
-    "provides": [],
-    "depends": [
-      "bash",
-      "fontconfig",
-      "libfontconfig.so=1-64",
-      "fribidi",
-      "libfribidi.so=0-64",
-      "glibc",
-      "imlib2",
-      "libImlib2.so=1-64",
-      "libgcc",
-      "libgcc_s.so=1-64",
-      "libstdc++",
-      "libstdc++.so=6-64",
-      "libx11",
-      "libxext",
-      "libxft",
-      "libxinerama",
-      "libxpm",
-      "libxrandr",
-      "libxrender"
-    ],
-    "optdepends": [
-      "xorg-xmessage: for using the fbsetbg and fluxbox-generate_menu utilities"
-    ],
     "conflicts": []
   },
   {
@@ -18270,10 +18243,10 @@
   },
   {
     "name": "fwupd",
-    "version": "2.1.9-1",
+    "version": "2.1.10-1",
     "origin": "artix-world",
-    "sha256": "15cb73d633b1318d448a8bd1668af1e79850c9ebdb27406f960a0b62349f4df7",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fwupd-2.1.9-1-x86_64.pkg.tar.zst",
+    "sha256": "feaca564d98dcfdea2f15c70397d4d543c321e92f14281ada0801a1f3739fe02",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/fwupd-2.1.10-1-x86_64.pkg.tar.zst",
     "provides": [
       "libfwupd.so=3-64"
     ],
@@ -23885,10 +23858,10 @@
   },
   {
     "name": "gsoap",
-    "version": "2.8.145-1",
+    "version": "2.8.147-1",
     "origin": "artix-world",
-    "sha256": "1492c82a431e3e945e16600fa11e4085a1e13fa80a2b7033bf306e2c0444ad40",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsoap-2.8.145-1-x86_64.pkg.tar.zst",
+    "sha256": "41c3a2dc2f28d3c7e5be30ddef25f3d9551fc1e427a135aa40c8c7314ccb8d4b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gsoap-2.8.147-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -29412,10 +29385,10 @@
   },
   {
     "name": "i3blocks",
-    "version": "1.5-4",
+    "version": "1.5-5",
     "origin": "artix-world",
-    "sha256": "8d22ec41e74652f2b7e45aaadff3148dcde9cf9f83b95d8f8e01ccd665c19175",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/i3blocks-1.5-4-x86_64.pkg.tar.zst",
+    "sha256": "d11f9aa58a533fdea2fea9d44fa815a44af7f6bcfd92e00c2b21fddea2c9bc29",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/i3blocks-1.5-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -54859,10 +54832,10 @@
   },
   {
     "name": "marked",
-    "version": "17.0.0-1",
+    "version": "18.0.8-1",
     "origin": "artix-world",
-    "sha256": "f6e19396418e615e79bd0ebd5a62a8811a73f1d5ee3c42ca293715d945d8fac4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marked-17.0.0-1-any.pkg.tar.zst",
+    "sha256": "f135b7f5434e64e9b46ea10cbe0c772fcde4c07dd0284701d81206901c8a722e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marked-18.0.8-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "nodejs"
@@ -63657,14 +63630,13 @@
   },
   {
     "name": "par2cmdline",
-    "version": "1.4.0-1",
+    "version": "2.0.0-1",
     "origin": "artix-world",
-    "sha256": "3fa83a92fa55440a25ff34951efb5b89ed65824cdd6870fcf7d7960c1ddfeee3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/par2cmdline-1.4.0-1-x86_64.pkg.tar.zst",
+    "sha256": "2b58b3323a232e0e3c79edf9c2e34abd7515358c69c7ca8e91c189fa4b158ae7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/par2cmdline-2.0.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
-      "libgomp",
       "libstdc++"
     ],
     "optdepends": [],
@@ -109904,10 +109876,10 @@
   },
   {
     "name": "sdl2_image",
-    "version": "2.8.12-2",
+    "version": "2.8.12-3",
     "origin": "artix-world",
-    "sha256": "5e2052ee8855c0fa5460ef2428dec79fd8ef4ff3b9244b7b4e031cea1cdd2ffb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl2_image-2.8.12-2-x86_64.pkg.tar.zst",
+    "sha256": "0d3810c5eed031224a33427d9a746cee6443e9270ca672a6612fc032005f5957",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/sdl2_image-2.8.12-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sdl2",
@@ -125898,10 +125870,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261121130529-1",
+    "version": "20261124090120-1",
     "origin": "artix-world",
-    "sha256": "0a601aea088e6be982e042fecbea245c878e5f629eec9ede924f87bc0284da7b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261121130529-1-any.pkg.tar.zst",
+    "sha256": "1beda74ef3b0f9aaceb6f4f3507aacf316611820b5c0fba326a442adc6acb612",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261124090120-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
