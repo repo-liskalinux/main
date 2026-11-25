@@ -8569,10 +8569,10 @@
   },
   {
     "name": "coin-or-asl",
-    "version": "2.1.0-1",
+    "version": "2.1.1-1",
     "origin": "artix-world",
-    "sha256": "431c63999cf312ead3f5939ffd897938de480a327685cbb3380ee4da3fbaa5eb",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/coin-or-asl-2.1.0-1-x86_64.pkg.tar.zst",
+    "sha256": "742ca913b67ce10afd1d54bb760f7236ed2a7afbaebb2f3b264fd6d976c390a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/coin-or-asl-2.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -13362,10 +13362,10 @@
   },
   {
     "name": "easytag",
-    "version": "2.4.3-17",
+    "version": "2.4.3-19",
     "origin": "artix-world",
-    "sha256": "4f6cfcda53e674c0a3be199e45094e35a7b1b2855a1b9dca3f6b3d19ec56ade4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/easytag-2.4.3-17-x86_64.pkg.tar.zst",
+    "sha256": "ab8fd8fd78a8ed9d1f0b3d9c55009307b5ecce1560c215794a7c56a5e46d574e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/easytag-2.4.3-19-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dconf",
@@ -21996,10 +21996,10 @@
   },
   {
     "name": "gnome-photos",
-    "version": "1:44.0-8",
+    "version": "1:44.0-9",
     "origin": "artix-world",
-    "sha256": "4dcad7918b21d007787b97b0e3216ba75f5fc1b35c042d043dea4e72378a53a9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-photos-1:44.0-8-x86_64.pkg.tar.zst",
+    "sha256": "24c5a8bdb71ee840680f7335d376ccd164e4e04b841b0971f3697242660d6bcf",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-photos-1:44.0-9-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -23066,16 +23066,17 @@
   },
   {
     "name": "gpsd",
-    "version": "3.27.5-1",
+    "version": "3.28-1",
     "origin": "artix-world",
-    "sha256": "7170fa57d68ac219ed22db159fcc250cb087a764f7254be06b42d347a84d0508",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gpsd-3.27.5-1-x86_64.pkg.tar.zst",
+    "sha256": "4348c830b799d6465e39c423bc37aa89adc563dc4cd6808201684cde67bf7e0b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gpsd-3.28-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "dbus",
-      "gcc-libs",
       "glibc",
       "python",
+      "libgcc",
+      "libstdc++",
       "libusb",
       "bluez-libs",
       "pps-tools"
@@ -54453,10 +54454,10 @@
   },
   {
     "name": "marble",
-    "version": "26.08.3-1",
+    "version": "26.08.3-2",
     "origin": "artix-world",
-    "sha256": "827f653802fee1fbd37fca1da88eb54a8fa62113ec936460c66a6cad8ff07c16",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-26.08.3-1-x86_64.pkg.tar.zst",
+    "sha256": "1e5add0aebc1c1de1962b30c597e586c2a4c0ebad722802e2b9c3f7b9d9647b2",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-26.08.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54482,10 +54483,10 @@
   },
   {
     "name": "marble-behaim",
-    "version": "26.08.3-1",
+    "version": "26.08.3-2",
     "origin": "artix-world",
-    "sha256": "4aa9b883c66857b4838c9d888642629dc319d1f9f6aee388a9839965ef3b7de3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-behaim-26.08.3-1-x86_64.pkg.tar.zst",
+    "sha256": "d568ad80a083c941196616a01bd5868921d73172d20a2a57eb874c3e13aa6226",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-behaim-26.08.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54504,10 +54505,10 @@
   },
   {
     "name": "marble-common",
-    "version": "26.08.3-1",
+    "version": "26.08.3-2",
     "origin": "artix-world",
-    "sha256": "c60943827dd288df9f94a869d44e0e32d2affdb9092e5e4b668f9230cca9a13f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-common-26.08.3-1-x86_64.pkg.tar.zst",
+    "sha256": "61ad2c3540acfcbca4fa33a21b7da7b23d0e41215dd8ca74209984ed22dc321a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-common-26.08.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "abseil-cpp",
@@ -54534,10 +54535,10 @@
   },
   {
     "name": "marble-maps",
-    "version": "26.08.3-1",
+    "version": "26.08.3-2",
     "origin": "artix-world",
-    "sha256": "0fdd09a165fd9f70100eb8afd89754420d55cf3b18e647c7c890cdd69bf56b09",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-maps-26.08.3-1-x86_64.pkg.tar.zst",
+    "sha256": "6cc2fc94f0858e103e60118bdac4f0670378b3a0432ddefff3ff574e36100044",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-maps-26.08.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54558,10 +54559,10 @@
   },
   {
     "name": "marble-qt",
-    "version": "26.08.3-1",
+    "version": "26.08.3-2",
     "origin": "artix-world",
-    "sha256": "2e7ea6ea601653ccb12e36ae808843939caab4ddb90d246df527f6fb203ab265",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-qt-26.08.3-1-x86_64.pkg.tar.zst",
+    "sha256": "9e2b1f645f649f8f67165a553488a2c100b58f29af49175f8ee058e5bd8bb15d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/marble-qt-26.08.3-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -54574,16 +54575,16 @@
   },
   {
     "name": "mariadb",
-    "version": "13.0.2-3",
+    "version": "13.1.2-1",
     "origin": "artix-world",
-    "sha256": "5556e1c302881d9a02f7ab677f3b81f786614386794aea3f0789a67ca90d8aa3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-13.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "8fb005448c8f047145a8a00388b002f00ba1d0696243ea9df34cd94fd39dcddb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-13.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mariadb-server=13.0.2",
+      "mariadb-server=13.1.2",
       "mysql"
     ],
     "depends": [
-      "mariadb-clients=13.0.2",
+      "mariadb-clients=13.1.2",
       "bzip2",
       "libbz2.so=1.0-64",
       "coreutils",
@@ -54611,15 +54612,15 @@
   },
   {
     "name": "mariadb-clients",
-    "version": "13.0.2-3",
+    "version": "13.1.2-1",
     "origin": "artix-world",
-    "sha256": "2cb3d4153193ff0462c5c397ad02dfc4702ad53d8360da9436d2e36c12c54af9",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-clients-13.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "f9f68a49743ef7ceccb50ff54c90fbd709f22b6f3483a0f0cce64dfc622366b7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-clients-13.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
-      "mysql-clients=13.0.2"
+      "mysql-clients=13.1.2"
     ],
     "depends": [
-      "mariadb-libs=13.0.2",
+      "mariadb-libs=13.1.2",
       "ncurses",
       "libncursesw.so=6-64"
     ],
@@ -54649,10 +54650,10 @@
   },
   {
     "name": "mariadb-libs",
-    "version": "13.0.2-3",
+    "version": "13.1.2-1",
     "origin": "artix-world",
-    "sha256": "74c97de3e8390ff32d1b6ba5c1d8bccf06931fd1492cd40ee6c1305dba67c476",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-libs-13.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "79b10af7cebeb56a3fc8fba151c198b3b63345fbbe306aa3e358400d9a5fd5ee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-libs-13.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmariadbclient",
       "mariadb-connector-c",
@@ -54685,10 +54686,10 @@
   },
   {
     "name": "mariadb-mytop",
-    "version": "13.0.2-3",
+    "version": "13.1.2-1",
     "origin": "artix-world",
-    "sha256": "82a24890e9b9c4892edd7f066a2484329378e7cafea80e7e66651834991c50a3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-mytop-13.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "187470617a66a47da824caef064b4b39cdf4d69569d22b7da952b4c19ef02deb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-mytop-13.1.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "mytop"
     ],
@@ -54723,13 +54724,13 @@
   },
   {
     "name": "mariadb-pam",
-    "version": "13.0.2-3",
+    "version": "13.1.2-1",
     "origin": "artix-world",
-    "sha256": "08a86da957e893271d6a31a7836fbcd44fca32881af7e3068b3bb4ee3bc4274d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-pam-13.0.2-3-x86_64.pkg.tar.zst",
+    "sha256": "bb37dfce9947aefe88853b06d5f00e4fe53f1d7e431b40c0882da3191c8d35cc",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/mariadb-pam-13.1.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "mariadb=13.0.2",
+      "mariadb=13.1.2",
       "pam",
       "libpam.so=0-64"
     ],
@@ -59090,10 +59091,10 @@
   },
   {
     "name": "nginx",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "1d94e019ac9e06d781bbbf98d2b83a1b55ac97469616e0d6440cab64dbd1aae8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "56668e55b7dc622738357ee66e13812101564b0bec1c41791403b9a1da121686",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -59133,13 +59134,13 @@
   },
   {
     "name": "nginx-mod-geoip",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "1873f2405b81e6b1b828b9a74e3dce9fb7590d535aba9009c8081899e8cf8367",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-geoip-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "d562f0469e12ed57d54d43b8289f955349c65b366f1ac596d2af2033414e21d4",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-geoip-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.7",
+      "nginx=1.30.8",
       "glibc",
       "geoip"
     ],
@@ -59148,13 +59149,13 @@
   },
   {
     "name": "nginx-mod-image-filter",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "60734d28c8fd8d831e8194267362c9af1bb3b4596f25577ec1db92c5dbc4e72d",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-image-filter-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "7556cb6581d4839d62c5a7225982d798d5825d213e2db74f578c58adc4762dc9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-image-filter-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.7",
+      "nginx=1.30.8",
       "glibc",
       "gd"
     ],
@@ -59163,13 +59164,13 @@
   },
   {
     "name": "nginx-mod-mail",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "ed33cddfe4360d253377f0f99b4bbac715cbf61015c0f670bf953cdbe30c2212",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-mail-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "de43ebb2a6fd8b013b43969ad9c732a52a364a4b743b2985f2bd312bffff6e5c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-mail-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.7",
+      "nginx=1.30.8",
       "glibc"
     ],
     "optdepends": [],
@@ -59177,13 +59178,13 @@
   },
   {
     "name": "nginx-mod-perl",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "14ffd0d351bceeb1c0bce86c2e9a9e742d33cd99945d8dbb1f7422f394833b87",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-perl-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "1b29e06aff3b31fe7688283227b71a33e60185bda952a0b4cc6206b69361ae17",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-perl-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.7",
+      "nginx=1.30.8",
       "glibc",
       "perl"
     ],
@@ -59192,13 +59193,13 @@
   },
   {
     "name": "nginx-mod-stream",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "ade66b5e42b03295c2b6b1d9033b2ba792d915b9402864992da84752791ecd74",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-stream-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "4fdc576ace62af45f292bd97b81a0b1b46e46ec1c00b6b63382db77c81b14706",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-stream-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.7",
+      "nginx=1.30.8",
       "glibc"
     ],
     "optdepends": [],
@@ -59206,13 +59207,13 @@
   },
   {
     "name": "nginx-mod-xslt",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "c01087f483310171a250556b1039f0edf0088dc8086e75ac88a084651e82737b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-xslt-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "f2c9bc91f6d80ebe9cb3b4e1949af9c4c15f0a5dcba448d1c5628ece8dec13d3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-mod-xslt-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "nginx=1.30.7",
+      "nginx=1.30.8",
       "glibc",
       "libxml2",
       "libxslt"
@@ -59276,10 +59277,10 @@
   },
   {
     "name": "nginx-src",
-    "version": "1.30.7-1",
+    "version": "1.30.8-1",
     "origin": "artix-world",
-    "sha256": "0b864debbf1c3a5120a6854643b4223d3d736a4f80af4081fa76dbd9e95a0ff3",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-src-1.30.7-1-x86_64.pkg.tar.zst",
+    "sha256": "3732afa94904d523bfb83d0d8070a71d796424852fa19805539281c000dd918b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/nginx-src-1.30.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bash",
@@ -71679,10 +71680,10 @@
   },
   {
     "name": "plasma5support",
-    "version": "6.8.2-1",
+    "version": "6.8.2-2",
     "origin": "artix-world",
-    "sha256": "c8f2868e7427a931ab0a5faa45d0025219c82ea66bdb970da765b5a6843c8840",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma5support-6.8.2-1-x86_64.pkg.tar.zst",
+    "sha256": "d06e5753b7eb01cd4bb49dcb661f06492d83d54903113e73a4de68c27a16713d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/plasma5support-6.8.2-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -71857,10 +71858,10 @@
   },
   {
     "name": "pnpm",
-    "version": "12.22.0-1",
+    "version": "12.23.0-1",
     "origin": "artix-world",
-    "sha256": "74baea27fc73be089795dca9ffc7411717addcf500b2af6b84c5be46a6f74bb8",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.22.0-1-x86_64.pkg.tar.zst",
+    "sha256": "484be80f684859e30a25fbd46ea5081092cb915d41e981570303a4da70ca5861",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/pnpm-12.23.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "sh",
@@ -106188,10 +106189,10 @@
   },
   {
     "name": "ruby-mize",
-    "version": "0.7.0-1",
+    "version": "0.8.0-1",
     "origin": "artix-world",
-    "sha256": "872cb6279fec70f7fba283e2fb4eb5aae2b42a73c6e761f7edbe0506835891e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mize-0.7.0-1-any.pkg.tar.zst",
+    "sha256": "9c3dd19b7998f81bd2f917ed61f7744b568e6a5768a6b323904e3145489a71fa",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ruby-mize-0.8.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ruby"
@@ -129706,10 +129707,10 @@
   },
   {
     "name": "waybar",
-    "version": "0.16.0-2",
+    "version": "0.16.0-3",
     "origin": "artix-world",
-    "sha256": "0e70809e9738d12db1d0c59b524b21867ea049696426f536cf4f9ab808012691",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/waybar-0.16.0-2-x86_64.pkg.tar.zst",
+    "sha256": "947acd73d8819a19b766c669e49ef9943d3319e440327aaddfce952dd9587059",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/waybar-0.16.0-3-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "atkmm",
@@ -133826,15 +133827,17 @@
   },
   {
     "name": "xsettingsd",
-    "version": "1.0.4-1",
+    "version": "1.0.4-2",
     "origin": "artix-world",
-    "sha256": "a14a3f88289ccffb028dc4043d8d9359d8c0e1a193d340c2f2f668fa50b7083b",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xsettingsd-1.0.4-1-x86_64.pkg.tar.zst",
+    "sha256": "9b961ff236e1eed43cb9604efc45bc587a5b04294e1e1a6369237ff73d73d607",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xsettingsd-1.0.4-2-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "libx11",
+      "glibc",
       "libgcc",
-      "libstdc++"
+      "libstdc++",
+      "libx11",
+      "libxfixes"
     ],
     "optdepends": [],
     "conflicts": []
