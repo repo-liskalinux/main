@@ -215,10 +215,10 @@
   },
   {
     "name": "accerciser",
-    "version": "3.48.0-4",
+    "version": "3.48.0-5",
     "origin": "artix-world",
-    "sha256": "92441ab1e1e2ab04cfe04d58cbe7a738a640e00cca662c41f7c9deb3363c2376",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/accerciser-3.48.0-4-any.pkg.tar.zst",
+    "sha256": "88d38487fc2599f90e2e460e5e9ef814ecfbddb2609fd9a62e6f6710eb5c6d7e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/accerciser-3.48.0-5-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "at-spi2-core",
@@ -20426,10 +20426,10 @@
   },
   {
     "name": "glade",
-    "version": "3.40.0+r31+g1b15f940-4",
+    "version": "3.40.0+r31+g1b15f940-5",
     "origin": "artix-world",
-    "sha256": "f016803a303b8d092d8eadc17a583a5a5ccfaabaa1b9239680e91409420cbd2c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glade-3.40.0+r31+g1b15f940-4-x86_64.pkg.tar.zst",
+    "sha256": "e769ed88bd441c613f96e8763adf52b16d75566bb6a290e6c746e93a76a1b0f3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/glade-3.40.0+r31+g1b15f940-5-x86_64.pkg.tar.zst",
     "provides": [
       "libgladeui-2.so=13-64"
     ],
@@ -22058,10 +22058,10 @@
   },
   {
     "name": "gnome-remote-desktop",
-    "version": "51.0-2",
+    "version": "51.1-1",
     "origin": "artix-world",
-    "sha256": "55915ed75712a85cee1a4065bf9337d84f411d800b86f4bd0d7b84c71d3eda9a",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-remote-desktop-51.0-2-x86_64.pkg.tar.zst",
+    "sha256": "88929b30f3fb66e090450764f3c6efa2f89f2f4f67aa61991dc54f584c2b58ea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/gnome-remote-desktop-51.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -28669,12 +28669,12 @@
   },
   {
     "name": "hyprgraphics",
-    "version": "0.6.0-2",
+    "version": "0.7.0-1",
     "origin": "artix-world",
-    "sha256": "39a04674ac7490eb49f83e2ff9fe5eecff669c42fa5b7881c951c1395ba2dba5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprgraphics-0.6.0-2-x86_64.pkg.tar.zst",
+    "sha256": "e305eedbef935c31f65fb8ab18780ec99c85a3e7ca598c467dd136ee2c08bfe6",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprgraphics-0.7.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libhyprgraphics.so=5-64"
+      "libhyprgraphics.so=6-64"
     ],
     "depends": [
       "cairo",
@@ -28726,10 +28726,10 @@
   },
   {
     "name": "hyprland",
-    "version": "0.57.2-1",
+    "version": "0.57.2-2",
     "origin": "artix-world",
-    "sha256": "8c7e0f19e121cf1021080dee762fc48c14bbfd4d0baddef77238de7fc852b959",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.57.2-1-x86_64.pkg.tar.zst",
+    "sha256": "32335196a6d5930a2f60bf572fa85999350ff5bc6cafda97bccfb816e6b4f07f",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-0.57.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -28788,7 +28788,7 @@
       "libgio-2.0.so=0-64",
       "libgobject-2.0.so=0-64",
       "libhyprcursor.so=0-64",
-      "libhyprgraphics.so=5-64",
+      "libhyprgraphics.so=6-64",
       "libhyprlang.so",
       "libhyprutils.so=13-64",
       "libhyprwire.so=3-64",
@@ -28813,10 +28813,10 @@
   },
   {
     "name": "hyprland-guiutils",
-    "version": "0.2.2-6",
+    "version": "0.2.2-7",
     "origin": "artix-world",
-    "sha256": "f1f4a5af270a52317d15d63b6980b44fe45c16eb1d47740c76650d1f5d966023",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-guiutils-0.2.2-6-x86_64.pkg.tar.zst",
+    "sha256": "fcf2d023e568e5c0cb2fdc4a34753f91d54c4c0ffde08caa923891c50d52e97a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprland-guiutils-0.2.2-7-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -28824,7 +28824,7 @@
       "glibc",
       "hyprlang",
       "hyprtoolkit",
-      "libhyprtoolkit.so=6-64",
+      "libhyprtoolkit.so=7-64",
       "hyprutils",
       "libhyprutils.so=13-64",
       "libdrm",
@@ -28921,10 +28921,10 @@
   },
   {
     "name": "hyprlock",
-    "version": "0.9.7-3",
+    "version": "0.9.7-4",
     "origin": "artix-world",
-    "sha256": "22f60d0b53d3a42eae16cfdca62bae57bad1e71cd1a8030d2a8697293f972d29",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprlock-0.9.7-3-x86_64.pkg.tar.zst",
+    "sha256": "b24d48b4e9f7f23c8da8fa792b0b093ee41fe0d79d571cf8b46a7e3eaaf73b6b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprlock-0.9.7-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "cairo",
@@ -28943,7 +28943,7 @@
       "sdbus-cpp",
       "wayland",
       "wayland-protocols",
-      "libhyprgraphics.so=5-64",
+      "libhyprgraphics.so=6-64",
       "libhyprlang.so=2-64",
       "libhyprutils.so=13-64",
       "libEGL.so=1-64",
@@ -28958,10 +28958,10 @@
   },
   {
     "name": "hyprpaper",
-    "version": "0.8.5-4",
+    "version": "0.8.5-5",
     "origin": "artix-world",
-    "sha256": "c8985f80babc1ad879d1621afef16819d311f9b9bee19d4c0c6e110192860153",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpaper-0.8.5-4-x86_64.pkg.tar.zst",
+    "sha256": "bb5074de65ede04ee426f38fb6b30b561a7b76b2c85ac0f6c4ac6eb71005760c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpaper-0.8.5-5-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "file",
@@ -28978,7 +28978,7 @@
       "libgcc_s.so=1-64",
       "libstdc++.so=6-64",
       "libhyprlang.so=2-64",
-      "libhyprtoolkit.so=6-64",
+      "libhyprtoolkit.so=7-64",
       "libhyprutils.so=13-64",
       "libhyprwire.so=3-64",
       "libGLESv2.so"
@@ -29009,10 +29009,10 @@
   },
   {
     "name": "hyprpm",
-    "version": "0.57.2-1",
+    "version": "0.57.2-2",
     "origin": "artix-world",
-    "sha256": "7bac9004a82293badba3d75b2f7519b6d681d44502df65958523e402b67fb8bf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.57.2-1-x86_64.pkg.tar.zst",
+    "sha256": "bd540a22a22986d7a8d4f9e93188dd2dcb3fe4217361f45162f07faad5b85dee",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpm-0.57.2-2-x86_64.pkg.tar.zst",
     "provides": [
       "wayland-compositor"
     ],
@@ -29034,10 +29034,10 @@
   },
   {
     "name": "hyprpolkitagent",
-    "version": "0.2.0-3",
+    "version": "0.2.0-4",
     "origin": "artix-world",
-    "sha256": "3b2585a83eb16fc718f4548ebc1eaad3d8ea1bcf1c7e21c94edbc86f19b7c5f5",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpolkitagent-0.2.0-3-x86_64.pkg.tar.zst",
+    "sha256": "a807db2d8640f69075624d5a1f1b7b212527b937ab941acccd88e42c05237100",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprpolkitagent-0.2.0-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgcc",
@@ -29146,12 +29146,12 @@
   },
   {
     "name": "hyprtoolkit",
-    "version": "0.6.0-3",
+    "version": "0.7.0-1",
     "origin": "artix-world",
-    "sha256": "8e6f599c256906c5d91b0240670e89ed66dafe3e2c406f509dfd6ce4f10ea8c4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprtoolkit-0.6.0-3-x86_64.pkg.tar.zst",
+    "sha256": "b025f6fa4b14a4b47fc620ecea49ce3fe5941b2ebf4c43acf2e5536d257dd715",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprtoolkit-0.7.0-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libhyprtoolkit.so=6-64"
+      "libhyprtoolkit.so=7-64"
     ],
     "depends": [
       "libgcc",
@@ -29165,7 +29165,7 @@
       "libglib-2.0.so=0-64",
       "glibc",
       "hyprgraphics",
-      "libhyprgraphics.so=5-64",
+      "libhyprgraphics.so=6-64",
       "hyprlang",
       "libhyprlang.so=2-64",
       "hyprutils",
@@ -78185,13 +78185,13 @@
   },
   {
     "name": "python-dateutil",
-    "version": "2.9.0-8",
+    "version": "4.0.0-1",
     "origin": "artix-world",
-    "sha256": "bfdd8bfb1be576e8fed73806994f98a82f85e9e59b6ef1583cc7eba67498fe0c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dateutil-2.9.0-8-any.pkg.tar.zst",
+    "sha256": "190627bdfbd810e4d721a44d9a3c4c393d9dee5360398f6289ff24663b837143",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-dateutil-4.0.0-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
-      "python-six"
+      "python"
     ],
     "optdepends": [],
     "conflicts": []
@@ -131599,10 +131599,10 @@
   },
   {
     "name": "xdg-desktop-portal-hyprland",
-    "version": "1.5.0-1",
+    "version": "1.5.0-2",
     "origin": "artix-world",
-    "sha256": "734130f7e9bdaca6817811b8623f9109a3ab03516f5782fa05921a3de26699b6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-hyprland-1.5.0-1-x86_64.pkg.tar.zst",
+    "sha256": "cc61dccb1174d7e9127dd0fba888d014e38c5a476d1f0860dcaed60d3f755ba1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xdg-desktop-portal-hyprland-1.5.0-2-x86_64.pkg.tar.zst",
     "provides": [
       "xdg-desktop-portal-impl"
     ],
