@@ -447,23 +447,6 @@
     "conflicts": []
   },
   {
-    "name": "aspnet-runtime-9.0",
-    "version": "9.0.22.sdk123-2",
-    "origin": "artix-galaxy",
-    "sha256": "6eb13d57d7a1d988d7cee74bccd0e73758ac3f54611550e5bd50cf27e5b415e1",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-runtime-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "aspnet-runtime=9.0"
-    ],
-    "depends": [
-      "dotnet-runtime-9.0"
-    ],
-    "optdepends": [
-      "bash-completion: Bash completion support"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "aspnet-targeting-pack",
     "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
@@ -511,23 +494,6 @@
     ],
     "depends": [
       "dotnet-targeting-pack-8.0"
-    ],
-    "optdepends": [
-      "bash-completion: Bash completion support"
-    ],
-    "conflicts": []
-  },
-  {
-    "name": "aspnet-targeting-pack-9.0",
-    "version": "9.0.22.sdk123-2",
-    "origin": "artix-galaxy",
-    "sha256": "5881ba40b744341c62dc174b62366229287de1dc93dc2dfcdbb1022dd198d558",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/aspnet-targeting-pack-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "aspnet-targeting-pack=9.0"
-    ],
-    "depends": [
-      "dotnet-targeting-pack-9.0"
     ],
     "optdepends": [
       "bash-completion: Bash completion support"
@@ -3900,31 +3866,6 @@
     "conflicts": []
   },
   {
-    "name": "dotnet-runtime-9.0",
-    "version": "9.0.22.sdk123-2",
-    "origin": "artix-galaxy",
-    "sha256": "c704bc1843f48b8953ad6e7632ff9b3e7bea1e60228aba0031fd3ea5d90a9ee7",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-runtime-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "dotnet-runtime=9.0"
-    ],
-    "depends": [
-      "dotnet-host",
-      "glibc",
-      "libgcc",
-      "libstdc++",
-      "icu",
-      "krb5",
-      "libunwind",
-      "zlib",
-      "openssl-3"
-    ],
-    "optdepends": [
-      "lttng-ust2.12: CoreCLR tracing"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "dotnet-sdk",
     "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
@@ -3992,28 +3933,6 @@
     "conflicts": []
   },
   {
-    "name": "dotnet-sdk-9.0",
-    "version": "9.0.22.sdk123-2",
-    "origin": "artix-galaxy",
-    "sha256": "dc8d684516f7bb94b87fac4cad3eeab02eb07b4e32b435f7c5aeabe502948e88",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-sdk-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "dotnet-sdk=9.0"
-    ],
-    "depends": [
-      "dotnet-runtime-9.0",
-      "dotnet-targeting-pack-9.0",
-      "glibc",
-      "libgcc",
-      "libstdc++",
-      "netstandard-targeting-pack"
-    ],
-    "optdepends": [
-      "aspnet-targeting-pack: Build ASP.NET Core applications"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "dotnet-source-built-artifacts",
     "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
@@ -4062,21 +3981,6 @@
     "conflicts": []
   },
   {
-    "name": "dotnet-source-built-artifacts-9.0",
-    "version": "9.0.22.sdk123-2",
-    "origin": "artix-galaxy",
-    "sha256": "6109d84e1dfc3422de486be1334fe053f212c1f87dd9db19449701f710e879a9",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-source-built-artifacts-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "dotnet-source-built-artifacts=9.0"
-    ],
-    "depends": [],
-    "optdepends": [
-      "bash-completion: Bash completion support"
-    ],
-    "conflicts": []
-  },
-  {
     "name": "dotnet-targeting-pack",
     "version": "10.0.14.sdk114-2",
     "origin": "artix-galaxy",
@@ -4117,23 +4021,6 @@
     "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-8.0-8.0.33.sdk133-2-x86_64.pkg.tar.zst",
     "provides": [
       "dotnet-targeting-pack=8.0"
-    ],
-    "depends": [
-      "netstandard-targeting-pack"
-    ],
-    "optdepends": [
-      "bash-completion: Bash completion support"
-    ],
-    "conflicts": []
-  },
-  {
-    "name": "dotnet-targeting-pack-9.0",
-    "version": "9.0.22.sdk123-2",
-    "origin": "artix-galaxy",
-    "sha256": "ad8bc4a53ce362a07c5d37a5f66b649de6a126b8f37ced30b8876dc7a8d42b05",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/dotnet-targeting-pack-9.0-9.0.22.sdk123-2-x86_64.pkg.tar.zst",
-    "provides": [
-      "dotnet-targeting-pack=9.0"
     ],
     "depends": [
       "netstandard-targeting-pack"
@@ -9736,10 +9623,10 @@
   },
   {
     "name": "gopass",
-    "version": "1.17.4-1",
+    "version": "1.17.5-1",
     "origin": "artix-galaxy",
-    "sha256": "d41fb62efd133910e3dbda0f428d52e85b625538947d4f3c2439503e3584408f",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gopass-1.17.4-1-x86_64.pkg.tar.zst",
+    "sha256": "59554269ebf1b792bc41ee501bbd0f784d0192d7379951483a049d12636ac65f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/gopass-1.17.5-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -10295,10 +10182,10 @@
   },
   {
     "name": "helium-browser",
-    "version": "0.22.1.1-1",
+    "version": "0.22.5.1-1",
     "origin": "artix-galaxy",
-    "sha256": "8143d9a4747fc1089a4882281159270fbd67b9ce249fdca8d33df1ac93e588b3",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.22.1.1-1-x86_64.pkg.tar.zst",
+    "sha256": "9c7327cfc856e5430295be4c209b59185e71fa492db5587755363d6d4752c7b2",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/helium-browser-0.22.5.1-1-x86_64.pkg.tar.zst",
     "provides": [
       "chromium"
     ],
@@ -12254,12 +12141,12 @@
   },
   {
     "name": "libopenshot",
-    "version": "1.0.1-1",
+    "version": "1.1.1-1",
     "origin": "artix-galaxy",
-    "sha256": "0f5fea3a37094f7947ab950c84c749c7a3003245a69ae958aa51df2c5073a334",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-1.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "e2660879d4319b28c64a23e484ebfef884330555e6f2a43c3de5764a1059b00f",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-1.1.1-1-x86_64.pkg.tar.zst",
     "provides": [
-      "libopenshot.so=32-64"
+      "libopenshot.so=33-64"
     ],
     "depends": [
       "babl",
@@ -12270,12 +12157,12 @@
       "libmagick",
       "python",
       "qt6-base",
-      "ffmpeg4.4",
-      "libavcodec.so=58-64",
-      "libavformat.so=58-64",
-      "libavutil.so=56-64",
-      "libswscale.so=5-64",
-      "libswresample.so=3-64",
+      "ffmpeg",
+      "libavcodec.so=63-64",
+      "libavformat.so=63-64",
+      "libavutil.so=61-64",
+      "libswscale.so=10-64",
+      "libswresample.so=7-64",
       "jsoncpp",
       "libjsoncpp.so=27-64",
       "libopenshot-audio",
@@ -12290,10 +12177,10 @@
   },
   {
     "name": "libopenshot-audio",
-    "version": "1.0.1-1",
+    "version": "1.0.2-1",
     "origin": "artix-galaxy",
-    "sha256": "7f3dbeefadc2ae2422d05223f604090b2e7f52685c0dc0d592baee400cb7a020",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-audio-1.0.1-1-x86_64.pkg.tar.zst",
+    "sha256": "153c31178229ddf664ff5ac6e3078892cb1c81dd82c8db046fed6c7c2d1906c4",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/libopenshot-audio-1.0.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libopenshot-audio.so=10-64"
     ],
@@ -24247,10 +24134,10 @@
   },
   {
     "name": "openshot",
-    "version": "4.0.0-3",
+    "version": "4.1.1-1",
     "origin": "artix-galaxy",
-    "sha256": "adc01fce32a253a1f684154f4af7f9dc3c0979ada41da9da17293163f092b08a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openshot-4.0.0-3-any.pkg.tar.zst",
+    "sha256": "3c0f263e1663874ce8d9ea6ee77d333740a182177c466f4953da338588f8a2f6",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/openshot-4.1.1-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "ffmpeg",
@@ -29318,10 +29205,10 @@
   },
   {
     "name": "superfile",
-    "version": "1.6.0-1",
+    "version": "1.6.1-1",
     "origin": "artix-galaxy",
-    "sha256": "63d1b303d74036792e6a63739218950e68fea61d171c39553061f28312c9752a",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/superfile-1.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "bb512637a1cacd58f1ce3c45eca7cfa6dc23707fa8007ef912dc67ea3741fae8",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/superfile-1.6.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc"
@@ -30683,10 +30570,10 @@
   },
   {
     "name": "timeshift",
-    "version": "26.11.1-1.1",
+    "version": "26.11.2-1",
     "origin": "artix-galaxy",
-    "sha256": "21b9a02c904b90824e26ce8f21702f9c3f7d830f936ede021c484c9077088034",
-    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/timeshift-26.11.1-1.1-x86_64.pkg.tar.zst",
+    "sha256": "a23c34c5b89eb20ffd4c1c30704e115927d8c5b9a439d4551605802eb0d4e31d",
+    "url": "https://mirror2.artixlinux.org/galaxy/os/x86_64/timeshift-26.11.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "libgee",

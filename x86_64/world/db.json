@@ -455,10 +455,10 @@
   },
   {
     "name": "ada",
-    "version": "4.0.0-1",
+    "version": "4.1.1-1",
     "origin": "artix-world",
-    "sha256": "d3fc8806ce3e73cbfdbb61a432dcce6d0e76fe00621a872644cc58c24969a4b4",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ada-4.0.0-1-x86_64.pkg.tar.zst",
+    "sha256": "6a2548b1cf34cef798b848fd4f44efe9b12691a3ffdddbd409a5b179998c4f9c",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/ada-4.1.1-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -11701,12 +11701,12 @@
   },
   {
     "name": "dmd",
-    "version": "1:2.113.0-2",
+    "version": "1:2.114.0-2",
     "origin": "artix-world",
-    "sha256": "b7f81760b2f62026387cb84f2b1ced97586a43d25d3065a14026ce04a3c82552",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dmd-1:2.113.0-2-x86_64.pkg.tar.zst",
+    "sha256": "b4aa2ab77e220ae193c6c4dfc45388207966b3c7e804e5a2c78a727bc212ee75",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/dmd-1:2.114.0-2-x86_64.pkg.tar.zst",
     "provides": [
-      "d-compiler=2.113.0"
+      "d-compiler=2.114.0"
     ],
     "depends": [
       "gcc",
@@ -20352,10 +20352,10 @@
   },
   {
     "name": "github-cli",
-    "version": "2.105.0-1",
+    "version": "2.106.0-1",
     "origin": "artix-world",
-    "sha256": "dab8fd1e5f7c379326f8cf70f0bfbe4da06a9850c19d51b384c92ddb0c5eb58c",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/github-cli-2.105.0-1-x86_64.pkg.tar.zst",
+    "sha256": "832b10bdd982f610432a35c43dba0c6f732ef6be3e292f0331c7fe70e7d8ae66",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/github-cli-2.106.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -29102,15 +29102,15 @@
   },
   {
     "name": "hyprshutdown",
-    "version": "0.1.2-3",
+    "version": "0.1.2-4",
     "origin": "artix-world",
-    "sha256": "edac006f3584420f19189599bd7f5785cbb6ed2518c5ce7e3881886b581b277e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprshutdown-0.1.2-3-x86_64.pkg.tar.zst",
+    "sha256": "de100449d6dce31188c9bd26d14e012eadae967cd7048291e57f244e7d2aa2a5",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/hyprshutdown-0.1.2-4-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
       "hyprtoolkit",
-      "libhyprtoolkit.so=6-64",
+      "libhyprtoolkit.so=7-64",
       "hyprutils",
       "libhyprutils.so=13-64",
       "libdrm",
@@ -47774,14 +47774,14 @@
   },
   {
     "name": "libphobos",
-    "version": "1:2.113.0-2",
+    "version": "1:2.114.0-2",
     "origin": "artix-world",
-    "sha256": "5c511733c9aae58c06013cdf14eadb085141aedae4ae4f2b42ed5fed4928023f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libphobos-1:2.113.0-2-x86_64.pkg.tar.zst",
+    "sha256": "22ecd994cc2391c32c36f0c2e97cf5e4294bcf45b0da56231f2ac5c0b7f8adf1",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/libphobos-1:2.114.0-2-x86_64.pkg.tar.zst",
     "provides": [
-      "d-runtime=2.113.0",
-      "d-stdlib=2.113.0",
-      "libphobos-devel=2.113.0"
+      "d-runtime=2.114.0",
+      "d-stdlib=2.114.0",
+      "libphobos-devel=2.114.0"
     ],
     "depends": [],
     "optdepends": [],
@@ -67062,10 +67062,10 @@
   },
   {
     "name": "perl-net-dns",
-    "version": "1.57-1",
+    "version": "1.58-1",
     "origin": "artix-world",
-    "sha256": "152271f9a962411d49c8657b1c1e0401bbee1afc4c3b74fc9296e69809bc479f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-net-dns-1.57-1-any.pkg.tar.zst",
+    "sha256": "4cfc7d95978fde531232d681c1ffc77eda220bb4f862442d4387aec7bc716e9e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/perl-net-dns-1.58-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [
       "perl-digest-hmac"
@@ -72390,10 +72390,10 @@
   },
   {
     "name": "postfix",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "059362ca7e29d0be1ab84eb74cdf40b6f9ba3159075c27db3e73a631c0759821",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "e8d819c50199cad61705ef6cb302b38309ec7276febedcc843fe2da780991018",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [
       "smtp-server",
       "smtp-forwarder"
@@ -72432,10 +72432,10 @@
   },
   {
     "name": "postfix-cdb",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "01dfd016a7258b5d75af0ceababbf17d1d9d1f06dcdae6ad90cc31c6e3e885a0",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-cdb-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "86989db7430208b865a8e2f523a1aa566ca83e2aa9a2c8f4dede7b148b3fded9",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-cdb-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72466,10 +72466,10 @@
   },
   {
     "name": "postfix-ldap",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "a24f57e13c3c3b36120580cb9c798d45c60fc8931f76095d678d3f5d2f35f7e6",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-ldap-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "f82e9803619853d2b8433497c49169523d211fc4b9b8e66708126f0db30ae6a7",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-ldap-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72481,10 +72481,10 @@
   },
   {
     "name": "postfix-lmdb",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "7608f661bb9a659ed7283406cabdad1e7ea64142352cd395c002dd6aa24ba2ec",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-lmdb-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "20074128c61e4384690edba34f2caebab2086bc7bae8a16b4192deb4be63cd2a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-lmdb-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72496,10 +72496,10 @@
   },
   {
     "name": "postfix-mongodb",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "e59fe50ecd407b3ec7806921fc6d12fe3ed0b986cd21a74c9e6d3f5469760f81",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mongodb-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "8515e6b236d0df67e912e5d8a9d0c7ba513e32a95b5172ddcf6a8c79c2a7c74d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mongodb-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72511,10 +72511,10 @@
   },
   {
     "name": "postfix-mysql",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "5b06d179b35c6d6a4ef02fa3018af3313ad4444ef5647228492078df5f746b02",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mysql-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "01a9311eb4479c199add5075392676165b14f53d274420a03765fe82a3271c5d",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-mysql-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72545,10 +72545,10 @@
   },
   {
     "name": "postfix-pcre",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "bbf832c2d878895f49be9872a5c6e03cb00f4fe323cb40bb322cbfe696252929",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pcre-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "8d28fc34d82006322cb3841597547a98da4ce3221788187941ec5461c05b8814",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pcre-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72561,10 +72561,10 @@
   },
   {
     "name": "postfix-pgsql",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "b977dea82713f08223b29d788ff45e038f797064f75a81c85e0e2f91659f9b70",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pgsql-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "d53f5e043c1c4bd6299a20653cdc7bca51cec452e4c34c023e05b8374fb0a801",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-pgsql-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -72613,10 +72613,10 @@
   },
   {
     "name": "postfix-sqlite",
-    "version": "3.11.7-2",
+    "version": "3.11.8-1",
     "origin": "artix-world",
-    "sha256": "29e08f3df5f3d6fe96f14ac52118f31c6a9a25388beb748c726e16429f98cb45",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-sqlite-3.11.7-2-x86_64.pkg.tar.zst",
+    "sha256": "ca9a47c81e3685e712aa75187fe257d57a639ac1bbf6c34686f2609dfb2267ea",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/postfix-sqlite-3.11.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -73864,10 +73864,10 @@
   },
   {
     "name": "prosody",
-    "version": "1:13.0.7-3",
+    "version": "1:13.0.8-1",
     "origin": "artix-world",
-    "sha256": "075c7e2e1b1f8c6c9ceeb8060a39d58365ebfb0dc26cec795d264ed1ac88290e",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/prosody-1:13.0.7-3-x86_64.pkg.tar.zst",
+    "sha256": "0777ae06fd1054793a115bf79e7d4331ff8b5ab65404a0915541df414178320e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/prosody-1:13.0.8-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "lua54",
@@ -95612,24 +95612,24 @@
   },
   {
     "name": "python-uv",
-    "version": "0.13.9-1",
+    "version": "0.13.10-1",
     "origin": "artix-world",
-    "sha256": "9b59068187a0c0aacdaecc2e3a1d7765f58471a122dfa9f0f73ce7d7ac10eddf",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.9-1-x86_64.pkg.tar.zst",
+    "sha256": "3b3e47c4c2f2e27816685f752f290dd5ed25b66bc0b65ff29b5be894c8cc824e",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-0.13.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
-      "uv=0.13.9"
+      "uv=0.13.10"
     ],
     "optdepends": [],
     "conflicts": []
   },
   {
     "name": "python-uv-build",
-    "version": "0.13.9-1",
+    "version": "0.13.10-1",
     "origin": "artix-world",
-    "sha256": "9406acfe495943fa280077b17f785743d77717c527a90336779c89f96b19fbbc",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.9-1-x86_64.pkg.tar.zst",
+    "sha256": "5be9053a554dc6235285c2bf2e4dff86acdf6c9e18eb50ba90e6f116712fe22b",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/python-uv-build-0.13.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -125624,10 +125624,10 @@
   },
   {
     "name": "uv",
-    "version": "0.13.9-1",
+    "version": "0.13.10-1",
     "origin": "artix-world",
-    "sha256": "c3e906915d47caa10b2341f86689aa60521f1aec102083be5f50cc06144ebcaa",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.9-1-x86_64.pkg.tar.zst",
+    "sha256": "3aee4b0979a2e48148c73d99dcdac24f4f82699f6a42045a49a0c040fa9411b3",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/uv-0.13.10-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "bzip2",
@@ -125904,10 +125904,10 @@
   },
   {
     "name": "v2ray-domain-list-community",
-    "version": "20261124090120-1",
+    "version": "20261125093047-1",
     "origin": "artix-world",
-    "sha256": "1beda74ef3b0f9aaceb6f4f3507aacf316611820b5c0fba326a442adc6acb612",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261124090120-1-any.pkg.tar.zst",
+    "sha256": "b53e9a0d29b05f9f806adeba0acca16a0af5cc3a761a60d0dc203ea97ae730fb",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/v2ray-domain-list-community-20261125093047-1-any.pkg.tar.zst",
     "provides": [],
     "depends": [],
     "optdepends": [],
@@ -132578,10 +132578,10 @@
   },
   {
     "name": "xmrig",
-    "version": "6.26.0-2",
+    "version": "6.27.0-1",
     "origin": "artix-world",
-    "sha256": "f3a7b0e09ad3bd5159bcd923d74271265c96d0e6f1a647af4bc3ec19aad1ba8f",
-    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xmrig-6.26.0-2-x86_64.pkg.tar.zst",
+    "sha256": "699c2eb45a6d2792c4acd5b8e2b8fa2de4a7d1d20b410cd2d37452bfd5e86a4a",
+    "url": "https://mirror2.artixlinux.org/world/os/x86_64/xmrig-6.27.0-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
