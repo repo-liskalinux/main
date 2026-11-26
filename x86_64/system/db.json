@@ -1629,10 +1629,10 @@
   },
   {
     "name": "flex",
-    "version": "2.7.1-1",
+    "version": "2.7.4-1",
     "origin": "artix-system",
-    "sha256": "80919d4e8a1c8e5a670ade8b48f76cca8eac9d883516f1d4f51de63c9409e1b1",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/flex-2.7.1-1-x86_64.pkg.tar.zst",
+    "sha256": "5b1ddd16e818139d023452489d274d230761f9ce833f48164e83d25f818f444b",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/flex-2.7.4-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "glibc",
@@ -3707,10 +3707,10 @@
   },
   {
     "name": "libmicrohttpd",
-    "version": "1.0.10-1",
+    "version": "1.0.11-1",
     "origin": "artix-system",
-    "sha256": "72267eb49387ce840e8882349a7b5c13be2bf9f33804c4f58837bc7a03a7ede0",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libmicrohttpd-1.0.10-1-x86_64.pkg.tar.zst",
+    "sha256": "ae5fda0d82907e1b9d13fde9436e6f4b4c3e06b4e8c0d3a7860da71b922c53e3",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libmicrohttpd-1.0.11-1-x86_64.pkg.tar.zst",
     "provides": [
       "libmicrohttpd.so=12-64"
     ],
@@ -4000,10 +4000,10 @@
   },
   {
     "name": "libseccomp",
-    "version": "2.6.0-1",
+    "version": "2.6.2-1",
     "origin": "artix-system",
-    "sha256": "c8fbd11d125a641168c6f5530f1b2a205ec7da20d92ab937082e5af36feb1266",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libseccomp-2.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "830db2cc81d712241f94ab33449156dc6877568cf800c2ae87f25c570cc43af2",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/libseccomp-2.6.2-1-x86_64.pkg.tar.zst",
     "provides": [
       "libseccomp.so=2-64"
     ],
@@ -6215,10 +6215,10 @@
   },
   {
     "name": "python-libseccomp",
-    "version": "2.6.0-1",
+    "version": "2.6.2-1",
     "origin": "artix-system",
-    "sha256": "32d99f206f6b57b1906c521a0cd0742837dbd90e163d463a77866dca86195da7",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-libseccomp-2.6.0-1-x86_64.pkg.tar.zst",
+    "sha256": "29a32522177384871554bc9c2782ba12ff2a5c4e8519d0036c1b1b83d90de329",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/python-libseccomp-2.6.2-1-x86_64.pkg.tar.zst",
     "provides": [],
     "depends": [
       "python",
@@ -6759,10 +6759,10 @@
   },
   {
     "name": "tpm2-tss",
-    "version": "4.2.2s-1",
+    "version": "4.2.2s-2",
     "origin": "artix-system",
-    "sha256": "7c046ca8fa0fbde8ed7d87947c287092d523280d12e2f934045cb5f11eda2ac8",
-    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.2s-1-x86_64.pkg.tar.zst",
+    "sha256": "e10f43405f7f5480a635e14103dd8d0e277bccbcc63561bfbbb62560e1f44ced",
+    "url": "https://mirror2.artixlinux.org/system/os/x86_64/tpm2-tss-4.2.2s-2-x86_64.pkg.tar.zst",
     "provides": [
       "libtss2-esys.so=0-64",
       "libtss2-fapi.so=1-64",
